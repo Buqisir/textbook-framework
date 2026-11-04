@@ -10,6 +10,9 @@
 # ── 调研中间产物 ──
 调研/_render/
 
+# ── OCR 工作目录 ──
+ocr-out/
+
 # ── 渲染依赖与 QA 产物 ──
 渲染/node_modules/
 渲染/_qa-*/
