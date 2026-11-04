@@ -22,3 +22,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# 方向稿渲染产物
+渲染/方向稿/_out/

@@ -1,0 +1,131 @@
+/* 方向 C · 书页
+ * 主张：像一本好书那样排——不用框、不用柱，层级只靠字号、字重和留白。
+ * 参照：Bringhurst 的行长与均匀灰度、Genius 的「强调换字族不换色」（02-标杆对照 §3）。
+ * 网格：版心 42 字中取 31 字正文栏（372pt，英文约 74 字符），左留 7 字悬挂区放编号与出处，右留 4 字空白。
+ * 容器：零底色、零描边框；要点卡用上下两条发丝线围合。
+ * 用色：主色只给编号与答案。 */
+@import url("基础.css");
+
+:root { --hang: 84pt; --right: 48pt; }
+
+.topic { counter-reset: ex; }
+.topic > * { margin-left: var(--hang); margin-right: var(--right); }
+
+/* ── 考点头：宋体粗，编号悬挂 ── */
+.topic + .topic { margin-top: calc(2 * var(--u)); }
+.topic-head {
+  position: relative;
+  margin-bottom: var(--u);
+}
+.topic-head::before {
+  content: attr(data-no);
+  position: absolute;
+  left: calc(-1 * var(--hang));
+  width: calc(var(--hang) - var(--zi));
+  text-align: right;
+  font: 400 20pt/42pt "serif-en";
+  color: var(--accent);
+}
+.topic-head h3 { font: 700 20pt/42pt "serif-cjk"; letter-spacing: 0.05em; text-align: left; }
+.topic-head .chip-freq { display: block; font: 400 9pt/var(--h) "sans-ui"; color: var(--ink-dim); letter-spacing: 0.1em; }
+
+/* ── 讲解：段首缩进两字、段间不空（clreq 段落调整） ── */
+.subhead { font: 700 12pt/var(--u) "serif-cjk"; }
+.explain > p:not(.subhead):not(.pattern) { text-indent: 2em; }
+.pattern {
+  margin: var(--h) 0;
+  padding-left: 2em;
+  font-style: italic;
+  font-size: 12pt;
+}
+.compare { border-collapse: collapse; margin: var(--h) 0 0 2em; width: calc(100% - 2em); }
+.compare th {
+  font: 400 9pt/var(--u) "sans-ui"; color: var(--ink-dim); letter-spacing: 0.1em;
+  text-align: left; padding-right: calc(3 * var(--zi));
+}
+.compare td { text-align: left; vertical-align: top; padding-right: calc(2 * var(--zi)); }
+.compare td:first-child { white-space: nowrap; }
+.compare thead { background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.5pt no-repeat; }
+.compare tbody tr:last-child { background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.5pt no-repeat; }
+
+/* ── 例题：编号悬挂，出处跟在编号下 ── */
+.example { margin-top: var(--u); counter-increment: ex; }
+/* 编号挂在题干上而不是例题上：断页时编号跟着题干走 */
+.stem { position: relative; break-inside: avoid; }
+.stem::before {
+  content: "例" counter(ex);
+  position: absolute;
+  left: calc(-1 * var(--hang));
+  width: calc(var(--hang) - var(--zi));
+  text-align: right;
+  font: 700 12pt/var(--u) "serif-cjk";
+  color: var(--accent);
+}
+.stem { break-after: avoid; }
+.stem > .chip-source {
+  position: absolute;
+  left: calc(-1 * var(--hang));
+  top: var(--u);
+  width: calc(var(--hang) - 6pt);
+  left: calc(-1 * var(--hang) - 6pt);
+  text-align: right;
+  font: 400 9pt/var(--h) "sans-ui";
+  color: var(--ink-dim);
+}
+.solution { margin-top: var(--h); orphans: 3; }
+.solution > h4 { display: none; }
+.solution b:not(.ans) { font: 500 12pt/var(--u) "sans-ui"; }
+.evidence { padding-left: 2em; font-style: italic; }
+.ans { font-family: "serif-en"; font-style: italic; color: var(--accent); }
+.solution > aside { margin-top: var(--h); font: 400 9pt/var(--u) "sans-ui"; color: var(--ink-dim); }
+.solution > aside p { display: inline; margin-right: 2em; }
+.solution > aside p::before { content: "\2014\2002"; }
+
+/* ── 要点：上下发丝线 ── */
+.keypoint {
+  margin-top: var(--u);
+  padding: var(--h) 0;
+  position: relative;
+  background:
+    linear-gradient(var(--accent), var(--accent)) left top / 100% 0.75pt no-repeat,
+    linear-gradient(var(--accent), var(--accent)) left bottom / 100% 0.75pt no-repeat;
+}
+.keypoint::before {
+  content: "要点";
+  position: absolute;
+  left: calc(-1 * var(--hang));
+  top: var(--h);
+  width: calc(var(--hang) - var(--zi));
+  text-align: right;
+  font: 700 9pt/var(--u) "sans-ui";
+  color: var(--accent);
+  letter-spacing: 0.2em;
+}
+.keypoint p { font-weight: 700; }
+
+/* ── 注 ── */
+.note { margin-top: var(--h); font-size: 10.5pt; color: var(--ink-dim); position: relative; }
+.note::before {
+  content: "注";
+  position: absolute;
+  left: calc(-1 * var(--hang));
+  width: calc(var(--hang) - var(--zi));
+  text-align: right;
+  font: 700 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+}
+
+/* ── 练 ── */
+.drill { margin-top: calc(2 * var(--u)); position: relative; }
+.drill > h4 {
+  font: 700 12pt/var(--u) "serif-cjk";
+  letter-spacing: 0.3em;
+  margin-bottom: var(--h);
+}
+.drill-atoms ol { padding-left: 0; }
+.drill-atoms li { list-style-position: outside; }
+.drill-atoms li::marker { content: counter(list-item) "\2003"; font: 400 12pt/var(--u) "serif-en"; color: var(--accent); }
+.drill-atoms li + li { margin-top: var(--h); }
+.drill-passage { margin-top: var(--u); }
+.drill-passage > p:first-child { font: 400 9pt/var(--u) "sans-ui"; color: var(--ink-dim); }
+.drill-passage p[lang="en"] { line-height: calc(1.5 * var(--u)); }

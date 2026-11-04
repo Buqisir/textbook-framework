@@ -1,0 +1,103 @@
+/* 方向稿 · 基础版式（三方向共用）
+ * 依据：调研/视觉重做/03 —— GB 40070 正文 ≥12pt、行空 ≥3.0mm；clreq 7.1.1.4 版心由字号 × 字数 × 行数 × 行距定义。
+ *
+ * 基本版式
+ *   字号 12pt（小 4 号）  行距 u = 21pt（7.408mm，行空 9pt = 3.175mm）
+ *   版心 42 字 × 35 行 = 504pt × 735pt = 177.8mm × 259.3mm
+ *   天 16mm  地 21.7mm  订口 18mm  切口 14.2mm
+ *   所有纵向间距取 u 或 u/2 的整数倍；横向取 1 字（12pt）的整数倍。
+ */
+
+/* ── 字体 ── */
+@font-face { font-family: "serif-cjk"; src: url("fonts/NotoSerifSC-Regular.ttf") format("truetype"); font-weight: 400; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-cjk"; src: url("fonts/NotoSerifSC-Bold.ttf") format("truetype"); font-weight: 700; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "sans-ui"; src: url("fonts/NotoSansSC-Regular.ttf") format("truetype"); font-weight: 400; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "sans-ui"; src: url("fonts/NotoSansSC-Medium.ttf") format("truetype"); font-weight: 500; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "sans-ui"; src: url("fonts/NotoSansSC-Bold.ttf") format("truetype"); font-weight: 700; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-en"; src: url("fonts/STIXTwoText-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-en"; src: url("fonts/STIXTwoText-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-en"; src: url("fonts/STIXTwoText-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-en"; src: url("fonts/STIXTwoText-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+@font-face { font-family: "serif-en"; src: url("fonts/STIXTwoText-BoldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+
+/* 讲解句内夹排的拉丁：STIX × 补偿系数（03 §二，候选 1.08 / 1.12 / 1.16，本稿取中值 1.12）。
+ * unicode-range 排除中文引号、破折号、省略号、间隔号，让它们落到思源宋体（全角）。
+ * 度量覆盖：所有字体统一 ascent 88% / descent 12%（汉字字身框），使不同字体在同一 21pt 行盒里基线同高、不撑高行盒；
+ * en-mix 因放大 1.12，取 83.9% / 16.1%，使 (ascent − descent) × 字号 与 12pt 汉字相同。 */
+@font-face { font-family: "en-mix"; src: url("fonts/STIXTwoText-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; size-adjust: 112%; ascent-override: 83.9%; descent-override: 16.1%; line-gap-override: 0%; unicode-range: U+0000-00B6, U+00B8-2012, U+2015-2017, U+201E-2025, U+2027-2FFF; font-display: block; }
+@font-face { font-family: "en-mix"; src: url("fonts/STIXTwoText-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; size-adjust: 112%; ascent-override: 83.9%; descent-override: 16.1%; line-gap-override: 0%; unicode-range: U+0000-00B6, U+00B8-2012, U+2015-2017, U+201E-2025, U+2027-2FFF; font-display: block; }
+@font-face { font-family: "en-mix"; src: url("fonts/STIXTwoText-BoldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; size-adjust: 112%; ascent-override: 83.9%; descent-override: 16.1%; line-gap-override: 0%; unicode-range: U+0000-00B6, U+00B8-2012, U+2015-2017, U+201E-2025, U+2027-2FFF; font-display: block; }
+
+/* ── 令牌 ── */
+:root {
+  --u: 21pt;          /* 基线单位 = 正文行距 */
+  --h: 10.5pt;        /* 半格 */
+  --zi: 12pt;         /* 一字 */
+  --ink: #232629;
+  --ink-dim: #63676D;
+  --accent: #1E6F8C;
+  --accent-wash: #E3EDF1;
+  --ash: #F0F2F4;
+  --rule: rgba(35, 38, 41, 0.32);
+}
+
+/* ── 页面 ── */
+@page {
+  size: A4;
+  margin-top: 16mm;
+  margin-bottom: 21.7mm;
+  @bottom-left { content: none; }
+}
+@page :left {
+  margin-left: 14.2mm;
+  margin-right: 18mm;
+  @bottom-left {
+    content: counter(page) "\2003" string(unit) " \203A  " string(topic, first);
+    font: 400 9pt/1 "sans-ui"; color: var(--ink-dim);
+    vertical-align: top; padding-top: 6mm;
+  }
+}
+@page :right {
+  margin-left: 18mm;
+  margin-right: 14.2mm;
+  @bottom-right {
+    content: string(unit) " \203A  " string(topic, first) "\2003" counter(page);
+    font: 400 9pt/1 "sans-ui"; color: var(--ink-dim);
+    vertical-align: top; padding-top: 6mm;
+  }
+}
+
+/* ── 正文基线 ── */
+html { font-size: 12pt; }
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "en-mix", "serif-cjk";
+  font-size: 12pt;
+  line-height: var(--u);
+  text-align: justify;
+  text-spacing-trim: trim-both;   /* GB/T 15834 5.1.10 行尾全角标点占半字；clreq 6.3.2.2 相邻标点挤压 */
+  hyphens: none;
+  widows: 2;
+  orphans: 2;
+}
+p, ol, ul, table, h3, h4 { margin: 0; }
+th, td { padding-top: 0; padding-bottom: 0; }
+.unit { string-set: unit attr(data-unit); }
+.topic-head h3 { string-set: topic content(); }
+
+/* 独立英文语料块：按英文规则左对齐，不做中西补偿 */
+p[lang="en"] {
+  font-family: "serif-en";
+  text-align: left;
+  text-spacing-trim: normal;
+}
+
+/* 讲解中的强调原子：换字重，不换色（三本标杆共识，02-标杆对照 §4.1） */
+.em-atom { font-weight: 700; }
+b { font-weight: 700; }
+
+/* 网格调试叠层：给 <html> 加 class="grid" 即显示 */
+html.grid body {
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--u) - 0.3pt), rgba(30, 111, 140, 0.35) calc(var(--u) - 0.3pt), rgba(30, 111, 140, 0.35) var(--u));
+}
