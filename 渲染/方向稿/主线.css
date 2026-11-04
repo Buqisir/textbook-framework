@@ -85,13 +85,18 @@
 .compare td {
   text-align: left;
   vertical-align: top;
-  background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.4pt no-repeat;
+  background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat;
 }
 .compare th:first-child, .compare td:first-child { padding-right: calc(2 * var(--zi)); white-space: nowrap; }
 .compare td { padding-left: 0; }
 
 /* ── 例题 ── */
 .example { margin-top: var(--u); counter-increment: ex; }
+/* 03 §3：例题整体不断页。注意：块内任何子元素的 break-after: avoid 都会沿父级外传，
+   让相邻两道例题之间也不许断页、只能一起推走——解析内不得再写 break-after: avoid。 */
+.example { break-inside: avoid; }
+.topic-head { break-after: avoid; }
+.note { break-before: avoid; }
 .example::before {
   content: "例 " counter(ex);
   font: 700 12pt/var(--u) "sans-ui";
@@ -114,8 +119,7 @@
   color: var(--ink-dim);
 }
 .solution b:not(.ans) {
-  font: 500 12pt/var(--u) "sans-ui";
-  color: var(--accent);
+  font: 500 12pt/var(--u) "sans-ui";   /* 换字族不换色（Genius）：主色只留给导航 */
 }
 .evidence {
   padding-left: 2em;
@@ -129,7 +133,6 @@
 }
 .solution > aside p { display: inline; margin-right: 2em; }
 .solution > aside { break-before: avoid; }
-.solution > p:last-of-type { break-after: avoid; }
 .solution > aside p::before { content: "\25B6\2002"; color: var(--accent); font-size: 6pt; vertical-align: 1pt; }
 
 /* ── 要点卡：全稿唯一容器 ── */
@@ -156,7 +159,7 @@
 }
 .note::before {
   content: "注";
-  font: 700 9pt/var(--u) "sans-ui";
+  font: 700 12pt/var(--u) "sans-ui";
   color: var(--accent);
 }
 
@@ -164,7 +167,7 @@
 .drill {
   margin-top: var(--u);
   padding-top: var(--h);
-  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.4pt no-repeat;
+  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.3pt no-repeat;
 }
 .drill > h4 {
   font: 700 12pt/var(--u) "sans-ui";

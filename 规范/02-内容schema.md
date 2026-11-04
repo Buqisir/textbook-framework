@@ -39,9 +39,11 @@ Agent 的工作面。Agent 拿到原始文字素材后，把内容装进本文�
 - `pattern` 句型/公式行（英文用 serif-en）
 - `compare` 辨析对（两栏小表：常见义 vs 考场义、A 结构 vs B 结构）
 - 英文例句行：英句 + 中译 + 可选教材坐标，三相顺序固定，中译降级
+- 段落：一个意思一段；段间不空行、不用空 `p` 调距（段首缩进由 CSS 给）
 
 ### example 例题精讲
-- `stem` 题干：英文语料（serif-en 整块，按词断行）+ 空位标记 + 可选提示词 `(word)`
+- `stem` 题干：`source` 芯片（第一个子元素）+ 英文语料（serif-en 整块，按词断行）+ 空位 `blank` + 可选提示词 `(word)`
+  - **题号由 CSS 计数生成**（2026-11-04）：内容里不写「例 1」，也不写题型说明（「写出括号内动词的正确形式」）。同一单元题型统一时，题型说明只在练习的 `drill-passage` 说明行或单元首交代一次
 - `source` 芯片（必填）：`{ year, paper, item?, origin: real | adapted | original }`——原创也打标，避免「无标 = 真题」误读。芯片挂在题号侧，永不插入英文句内
 - `solution` 解析，**公式锁死、空槽可省、顺序不许乱**：
   - 语法填空：`句意（中）→ 缺什么成分/词性 → 原文证据（英文整块引用）→ 词形变化 → 故填 ___`
@@ -49,6 +51,12 @@ Agent 的工作面。Agent 拿到原始文字素材后，把内容装进本文�
   - 长难句：`Step 1 结构 → Step 2 语境定形式`
   - 英文证据单独成 span，左齐；答案词在句首与句尾各出现一次
 - 可选 `aside` 旁注列：教师口令式短句（「先找谓语」），不是概念重讲
+
+### blank 书写空（2026-11-04 新增）
+题干、练习、证据行里的空位。取代旧的 `______` 下划线字符——字符画的线不能定宽、不能定位，也不是真正的书写空间。
+- 单句题：`<span class="blank"></span>`
+- 语篇内带号：`<span class="blank" data-no="5"></span>`（号码由 CSS 悬在线左，内容里不写「5.」）
+- 证据行引用原句时同样用 `blank`
 
 ### keypoint 要点卡
 可背的规则/句型公式。一张卡一条主张；`label`（默认「要点」）+ 内容列。这是全书唯一「请记住」的容器，别的内容不许借用。
@@ -137,7 +145,7 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
   <article class="example">
     <div class="stem">
       <span class="chip chip-source">2026·全国一卷</span>
-      <p lang="en">By the time he arrived, the train ______ (leave).</p>
+      <p lang="en">By the time he arrived, the train <span class="blank"></span> (leave).</p>
     </div>
     <div class="solution">
       <p><b>句意</b>：他到达时火车已经开走。</p>
@@ -154,7 +162,7 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
       <ol>
         <li>
           <span class="chip chip-source">2026·全国一卷</span>
-          <p lang="en">… dates back to ______ Han Dynasty.</p>
+          <p lang="en">… dates back to <span class="blank"></span> Han Dynasty.</p>
         </li>
       </ol>
     </div>
@@ -162,7 +170,10 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
 </section>
 ```
 
-- 中文内容不加 `lang`，英文语料块/证据加 `lang="en"`（触发 serif-en 与英语断行规则）。
+- 中文内容不加 `lang`，英文语料块/证据加 `lang="en"`（触发 serif-en 与英语断行规则）。**中文句子里夹的英文不加 `lang`**，由 CSS 的 en-mix 自动放大 1.12（01 §3）。
+- **引号**一律“ ” ‘ ’（GB/T 15834 4.8.2），不用「」『』。
+- **汉字与英文、数字之间一律加一个半角空格**；紧挨中文标点一侧不加（`在 now 上，` / `last year、since 2019`）。不得一处有空格、一处没有。
+- 练习题号：一个单元内连续编号，跨 topic 接续时用 `<ol start="8">`；不在 `li` 里手写号码。
 - **禁止**：内联 style、schema 外的 class、用空 div 调间距、在英文句内塞中文元数据。
 
 ## 5. Agent 工作流

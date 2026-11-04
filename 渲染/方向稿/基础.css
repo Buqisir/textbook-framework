@@ -33,12 +33,13 @@
   --u: 21pt;          /* 基线单位 = 正文行距 */
   --h: 10.5pt;        /* 半格 */
   --zi: 12pt;         /* 一字 */
-  --ink: #232629;
-  --ink-dim: #63676D;
-  --accent: #1E6F8C;
-  --accent-wash: #E3EDF1;
-  --ash: #F0F2F4;
-  --rule: rgba(35, 38, 41, 0.32);
+  /* 灰度先行（01 §2，2026-11-04）：所有文字实地；主色只用于 ≥12pt 粗体与大号编号；一页一种底色 */
+  --ink: #000000;          /* 纯黑：黑白激光 / 速印下不挂网 */
+  --accent: #1A5E77;       /* 沉靛青，L* 37 / 灰度等效 63%（原 #1E6F8C 为 L* 43.6，与旧墨灰同明度） */
+  --accent-wash: #D6E5EA;  /* 记忆层底，灰度等效 10%（原 7%，速印易丢） */
+  --ash: #F0F2F4;          /* 结构层底，灰度下与 accent-wash 不可分：同页不得并用 */
+  --rule: #000000;         /* 发丝线实地黑 0.3pt；禁止半透明灰线 */
+  --ink-dim: var(--ink);   /* 已退役：灰字在黑白打印下碎成网点；降级靠字号与字族 */
 }
 
 /* ── 页面 ── */
@@ -96,6 +97,25 @@ p[lang="en"] {
 /* 讲解中的强调原子：换字重，不换色（三本标杆共识，02-标杆对照 §4.1） */
 .em-atom { font-weight: 700; }
 b { font-weight: 700; }
+
+/* 书写空：<span class="blank"></span>；语篇内带号 <span class="blank" data-no="5"></span> */
+.blank {
+  display: inline-block;
+  position: relative;
+  width: 7em;
+  height: 0.8em;
+  vertical-align: -0.2em;
+  background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.6pt no-repeat;
+}
+.blank[data-no] { margin-left: 1.6em; }
+.blank[data-no]::before {
+  content: attr(data-no) ".";
+  position: absolute;
+  right: 100%;
+  bottom: 0.2em;
+  padding-right: 0.2em;
+  font: 700 10.5pt/1 "sans-ui";
+}
 
 /* 网格调试叠层：给 <html> 加 class="grid" 即显示 */
 html.grid body {
