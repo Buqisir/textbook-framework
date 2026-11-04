@@ -28,6 +28,9 @@
 @font-face { font-family: "en-mix"; src: url("fonts/STIXTwoText-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; size-adjust: 112%; ascent-override: 83.9%; descent-override: 16.1%; line-gap-override: 0%; unicode-range: U+0000-00B6, U+00B8-2012, U+2015-2017, U+201E-2025, U+2027-2FFF; font-display: block; }
 @font-face { font-family: "en-mix"; src: url("fonts/STIXTwoText-BoldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; size-adjust: 112%; ascent-override: 83.9%; descent-override: 16.1%; line-gap-override: 0%; unicode-range: U+0000-00B6, U+00B8-2012, U+2015-2017, U+201E-2025, U+2027-2FFF; font-display: block; }
 
+/* 箭头：STIX 缺 →，思源宋体的 → 又小又偏下；统一借思源黑体的箭头（2026-11-04 合成版修正） */
+@font-face { font-family: "arrow"; src: url("fonts/NotoSansSC-Regular.ttf") format("truetype"); unicode-range: U+2190-21FF; ascent-override: 88%; descent-override: 12%; line-gap-override: 0%; font-display: block; }
+
 /* ── 令牌 ── */
 :root {
   --u: 21pt;          /* 基线单位 = 正文行距 */
@@ -73,7 +76,7 @@ html { font-size: 12pt; }
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "en-mix", "serif-cjk";
+  font-family: "arrow", "en-mix", "serif-cjk";
   font-size: 12pt;
   line-height: var(--u);
   text-align: justify;
@@ -89,7 +92,7 @@ th, td { padding-top: 0; padding-bottom: 0; }
 
 /* 独立英文语料块：按英文规则左对齐，不做中西补偿 */
 p[lang="en"] {
-  font-family: "serif-en";
+  font-family: "arrow", "serif-en";
   text-align: left;
   text-spacing-trim: normal;
 }
@@ -97,6 +100,9 @@ p[lang="en"] {
 /* 讲解中的强调原子：换字重，不换色（三本标杆共识，02-标杆对照 §4.1） */
 .em-atom { font-weight: 700; }
 b { font-weight: 700; }
+
+/* 柱注与时间轴列只在主线（柱式）里显示；旧方向稿 A/B/C 不认识它们 */
+.gloss, .axis { display: none; }
 
 /* 书写空：<span class="blank"></span>；语篇内带号 <span class="blank" data-no="5"></span> */
 .blank {
