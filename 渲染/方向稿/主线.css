@@ -1,0 +1,184 @@
+/* 主线稿 = 方向 A · 柱式 + 两条借鉴（2026-11-04 所有者采纳负责人推荐，见 调研/视觉重做/04 §三）
+ *   ① 借 B：考点从新页起（不强制左页 / 对页）——消除「考点被翻页切开」（诊断 A7）
+ *   ② 借 C：中文段首缩进两字、段间不空（clreq 段落调整）
+ * 主张：左柱放骨架，右栏放内容——扫一眼左柱就知道这一页讲什么。
+ * 参照：Evergreen 的「柱」（02-标杆对照 §2）、Genius 的强调换字族（§3）。
+ * 网格：柱 8 字（96pt）+ 栏距 1 字 + 正文栏 33 字（396pt，英文约 79 字符）。
+ * 容器：只有要点卡一种（记忆层浅青底）；全稿零描边框。 */
+@import url("基础.css");
+
+:root { --col: 96pt; --gap: 12pt; --main: calc(var(--col) + var(--gap)); }
+
+/* 正文栏：所有块左缩到柱外 */
+.topic > *, .explain > *, .solution > * { margin-left: 0; }
+.topic { counter-reset: ex; }
+.explain, .example, .keypoint, .note, .drill { margin-left: var(--main); }
+
+/* 柱内元素：浮到左柱 */
+.subhead, .solution > h4, .drill > h4,
+.example::before, .stem > .chip-source, .keypoint::before, .note::before,
+.pattern::before {
+  float: left;
+  clear: left;
+  width: var(--col);
+  margin-left: calc(-1 * var(--main));
+  text-align: left;
+}
+
+/* ── 考点头：跨全版心 ── */
+.topic + .topic { break-before: page; }
+.topic-head {
+  position: relative;
+  padding-top: var(--h);
+  padding-bottom: var(--h);
+  margin-bottom: var(--u);
+  background: linear-gradient(var(--accent), var(--accent)) left bottom / 100% 0.75pt no-repeat;
+}
+.topic-head::before {
+  content: attr(data-no);
+  float: left;
+  width: var(--col);
+  font: 700 24pt/42pt "sans-ui";
+  color: var(--accent);
+  margin-right: var(--gap);
+}
+.topic-head h3 {
+  font: 700 18pt/42pt "sans-ui";
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.topic-head .chip-freq {
+  position: absolute;
+  right: 0;
+  bottom: var(--h);
+  font: 400 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+}
+
+/* ── 讲解 ── */
+.subhead {
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.explain > p:not(.subhead):not(.pattern) { text-indent: 2em; }
+.explain > table { margin-top: var(--h); }
+.explain > .pattern { margin-top: var(--h); margin-bottom: var(--h); }
+.pattern {
+  font-weight: 600;
+  font-size: 12pt;
+}
+.pattern::before {
+  content: "句型";
+  font: 400 9pt/var(--u) "sans-ui";
+  font-style: normal;
+  color: var(--ink-dim);
+}
+
+/* 辨析表：发丝线用背景画，不占行高 */
+.compare { width: 100%; border-collapse: collapse; margin-bottom: 0; }
+.compare th {
+  font: 400 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+  text-align: left;
+  background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat;
+}
+.compare td {
+  text-align: left;
+  vertical-align: top;
+  background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.4pt no-repeat;
+}
+.compare th:first-child, .compare td:first-child { padding-right: calc(2 * var(--zi)); white-space: nowrap; }
+.compare td { padding-left: 0; }
+
+/* ── 例题 ── */
+.example { margin-top: var(--u); counter-increment: ex; }
+.example::before {
+  content: "例 " counter(ex);
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.stem > .chip-source {
+  font: 400 9pt/var(--h) "sans-ui";
+  color: var(--ink-dim);
+  padding-top: 0;
+}
+.stem > .chip-source::before { content: "["; }
+.stem > .chip-source::after { content: "]"; }
+.stem p[lang="en"] { font-size: 12pt; }
+.stem { break-after: avoid; break-inside: avoid; }
+.solution { orphans: 3; }
+
+.solution { margin-top: var(--h); }
+.solution > h4 {
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+}
+.solution b:not(.ans) {
+  font: 500 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.evidence {
+  padding-left: 2em;
+  font-style: italic;
+}
+.ans { font-family: "serif-en"; font-style: italic; }
+.solution > aside {
+  font: 400 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+  margin-top: var(--h);
+}
+.solution > aside p { display: inline; margin-right: 2em; }
+.solution > aside { break-before: avoid; }
+.solution > p:last-of-type { break-after: avoid; }
+.solution > aside p::before { content: "\25B6\2002"; color: var(--accent); font-size: 6pt; vertical-align: 1pt; }
+
+/* ── 要点卡：全稿唯一容器 ── */
+.keypoint {
+  margin-top: var(--u);
+  padding: var(--h) var(--zi);
+  background: var(--accent-wash);
+  border-radius: 2pt;
+}
+.keypoint::before {
+  content: "要点";
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+  margin-left: calc(-1 * var(--main) - var(--zi));
+}
+
+/* ── 注 ── */
+.note {
+  margin-top: var(--h);
+  font-size: 10.5pt;
+  line-height: var(--u);
+  position: relative;
+  top: 0.57pt;   /* (12 − 10.5) × (0.88 − 0.12) / 2：与 12pt 正文同基线 */
+}
+.note::before {
+  content: "注";
+  font: 700 9pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+
+/* ── 练一练 ── */
+.drill {
+  margin-top: var(--u);
+  padding-top: var(--h);
+  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.4pt no-repeat;
+}
+.drill > h4 {
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--ink);
+}
+.drill-atoms ol { padding-left: 2em; }
+.drill-atoms li::marker {
+  content: counter(list-item) ".\2002";
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.drill-atoms li + li { margin-top: var(--h); }
+.drill-passage { margin-top: var(--h); }
+.drill-passage > p:first-child {
+  font: 400 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+}

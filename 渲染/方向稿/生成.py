@@ -3,7 +3,7 @@
 import pathlib
 here = pathlib.Path(__file__).parent
 body = (here / "内容.html").read_text(encoding="utf-8")
-for key, css, title in [("A", "A-柱.css", "方向 A · 柱式"), ("B", "B-对页.css", "方向 B · 对页单元"), ("C", "C-书页.css", "方向 C · 书页")]:
+for key, css, title in [("A", "A-柱.css", "方向 A · 柱式"), ("B", "B-对页.css", "方向 B · 对页单元"), ("C", "C-书页.css", "方向 C · 书页"), ("主线", "主线.css", "主线稿")]:
     if not (here / css).exists():
         continue
     for grid in (False, True):
