@@ -1,0 +1,2437 @@
+/* 澄页 · Vivliostyle 主题
+ * 权威：规范/01-设计令牌.md、规范/03-版式映射.md
+ * CSS 与规范冲突时改本文件。 */
+
+/* ------------------------------------------------------------------ */
+/* 0. 字体                                                             */
+/* ------------------------------------------------------------------ */
+
+@font-face {
+  font-family: "serif-cjk";
+  src: url("fonts/NotoSerifSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-cjk";
+  src: url("fonts/NotoSerifSC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "sans-ui";
+  src: url("fonts/NotoSansSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "sans-ui";
+  src: url("fonts/NotoSansSC-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "sans-ui";
+  src: url("fonts/NotoSansSC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "serif-en";
+  src: url("fonts/STIXTwoText-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: block;
+}
+
+/* ------------------------------------------------------------------ */
+/* 1. 令牌（照抄 01 §2 / §4）                                          */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --paper: #FFFFFF;
+  --ink: #232629;
+  --ink-dim: #63676D;
+  --accent: #1E6F8C;
+  --accent-wash: #E3EDF1;
+  --ash: #F0F2F4;
+  --cream: #FDF9EC;
+  --hl: #F5EE58;
+  --sample: #FAEFC0;
+
+  --gap-block: 3.2mm;
+  --pad-card: 2.5mm;
+
+  /* 由令牌混合，不引入新色相 */
+  --accent-40: color-mix(in srgb, var(--accent) 40%, #fff);
+  --accent-30: color-mix(in srgb, var(--accent) 30%, #fff);
+  --ink-40: color-mix(in srgb, var(--ink) 40%, #fff);
+  --ink-35: color-mix(in srgb, var(--ink) 35%, #fff);
+  --ink-20: color-mix(in srgb, var(--ink) 20%, #fff);
+  --ash-deep: color-mix(in srgb, var(--ink) 52%, var(--ash));
+  --shadow: 0 1px 2px color-mix(in srgb, var(--ink) 15%, transparent);
+
+  --font-en: "serif-en", "serif-cjk", serif;
+  --font-cjk: "serif-en", "serif-cjk", serif;
+  --font-sans: "sans-ui", sans-serif;
+}
+
+html {
+  string-set:
+    page-code attr(data-code),
+    unit-name attr(data-unit),
+    booklet-name attr(data-booklet);
+}
+
+.unit {
+  string-set:
+    unit-no attr(data-no),
+    unit-name attr(data-unit);
+}
+
+/* 骑线坐标：号与名从 unit 元数据取，不写死 content。
+ * 左右页各一枚 running：@top-center 会把单枚 element 居中，
+ * 对齐必须写在 running 元素自己身上。 */
+.unit > header:not(.topic-head) {
+  display: block;
+  width: 100%;
+  height: 16mm;
+  box-sizing: border-box;
+  margin: 0;
+  /* 天头盒 16mm，线在底缘上 4mm（y=12mm）；文字底缘要在线上方 0.4–0.6mm */
+  padding-top: 7.4mm;
+  font-family: "sans-ui", sans-serif;
+  font-size: 8pt;
+  font-weight: 500;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 75%, #fff);
+}
+
+.unit > header:not(.topic-head):nth-of-type(1) {
+  position: running(unit-coord-recto);
+  text-align: right;
+}
+
+.unit > header:not(.topic-head):nth-of-type(2) {
+  position: running(unit-coord-verso);
+  text-align: left;
+}
+
+.unit > header:not(.topic-head)::before {
+  content: attr(data-no);
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 0.35em;
+  font-variation-settings: "wght" 700;
+}
+
+.unit > span[data-fold="recto"],
+.unit > span[data-fold="verso"] {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+}
+
+.unit > span[data-fold="recto"] {
+  position: running(fold-recto);
+  border-width: 0 1.2mm 1.2mm 0;
+  border-color: transparent transparent #1e6f8c transparent;
+}
+
+.unit > span[data-fold="verso"] {
+  position: running(fold-verso);
+  border-width: 0 0 1.2mm 1.2mm;
+  border-color: transparent transparent #1e6f8c transparent;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* 2. 页面几何（01 §1）                                                */
+/* ------------------------------------------------------------------ */
+
+@page {
+  size: A4;
+  margin-top: 16mm;
+  margin-bottom: 18mm;
+}
+
+@page :right {
+  margin-left: 16mm;
+  margin-right: 14mm;
+  /* 澄页坐标线：页级背景一条整线（16mm→196mm，y=12mm），无拼缝；tab 实地压线上 */
+  background-image: linear-gradient(#1e6f8c, #1e6f8c);
+  background-repeat: no-repeat;
+  background-size: 180mm 0.5pt;
+  background-position: 16mm calc(12mm - 0.5pt);
+
+  @top-right {
+    content: string(page-code);
+    width: 12mm;
+    height: 8mm;
+    background-color: #1e6f8c;
+    color: #fff;
+    font-family: "sans-ui", sans-serif;
+    font-size: 6.5pt;
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    line-height: 8mm;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin-top: 4mm;
+  }
+
+  @top-center {
+    content: element(unit-coord-recto);
+    background: none;
+    padding-right: 1.2mm;
+    font-family: "sans-ui", sans-serif;
+    font-size: 8pt;
+  }
+
+  /* 占位盒：让 @top-center 的起点对齐 tab 宽度；线由页背景统一画 */
+  @top-left {
+    content: "";
+    width: 12mm;
+    background: none;
+  }
+
+  @top-left-corner {
+    content: element(fold-recto);
+    text-align: right;
+    vertical-align: bottom;
+    padding-bottom: 4mm;
+    background: none;
+  }
+
+  /* 地脚：色只给号——页码主色粗体在外角（翻页拇指位），刊名居中当落款 */
+  @bottom-right {
+    content: counter(page);
+    font-family: "sans-ui", sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #1e6f8c;
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  @bottom-center {
+    content: string(booklet-name);
+    font-family: "sans-ui", sans-serif;
+    font-size: 7.5pt;
+    font-weight: 500;
+    color: #63676d;
+    vertical-align: middle;
+  }
+}
+
+@page :left {
+  margin-left: 14mm;
+  margin-right: 16mm;
+  background-image: linear-gradient(#1e6f8c, #1e6f8c);
+  background-repeat: no-repeat;
+  background-size: 180mm 0.5pt;
+  background-position: 14mm calc(12mm - 0.5pt);
+
+  @top-left {
+    content: string(page-code);
+    width: 12mm;
+    height: 8mm;
+    background-color: #1e6f8c;
+    color: #fff;
+    font-family: "sans-ui", sans-serif;
+    font-size: 6.5pt;
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    line-height: 8mm;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin-top: 4mm;
+  }
+
+  @top-center {
+    content: element(unit-coord-verso);
+    background: none;
+    padding-left: 1.2mm;
+    font-family: "sans-ui", sans-serif;
+    font-size: 8pt;
+  }
+
+  @top-right {
+    content: "";
+    width: 12mm;
+    background: none;
+  }
+
+  @top-right-corner {
+    content: element(fold-verso);
+    text-align: left;
+    vertical-align: bottom;
+    padding-bottom: 4mm;
+    background: none;
+  }
+
+  @bottom-left {
+    content: counter(page);
+    font-family: "sans-ui", sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #1e6f8c;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  @bottom-center {
+    content: string(booklet-name);
+    font-family: "sans-ui", sans-serif;
+    font-size: 7.5pt;
+    font-weight: 500;
+    color: #63676d;
+    vertical-align: middle;
+  }
+}
+
+/* 册级件具名页：封面 / 章扉关掉页眉页脚与坐标线（03 §1c） */
+@page cover {
+  size: A4;
+  margin: 0;
+  background: none;
+
+  @top-left { content: none; background: none; }
+  @top-center { content: none; background: none; }
+  @top-right { content: none; background: none; }
+  @top-left-corner { content: none; background: none; }
+  @top-right-corner { content: none; background: none; }
+  @bottom-left { content: none; background: none; }
+  @bottom-center { content: none; background: none; }
+  @bottom-right { content: none; background: none; }
+  @bottom-left-corner { content: none; background: none; }
+  @bottom-right-corner { content: none; background: none; }
+}
+
+@page opener {
+  size: A4;
+  margin: 0;
+  background: none;
+
+  @top-left { content: none; background: none; }
+  @top-center { content: none; background: none; }
+  @top-right { content: none; background: none; }
+  @top-left-corner { content: none; background: none; }
+  @top-right-corner { content: none; background: none; }
+  @bottom-left { content: none; background: none; }
+  @bottom-center { content: none; background: none; }
+  @bottom-right { content: none; background: none; }
+  @bottom-left-corner { content: none; background: none; }
+  @bottom-right-corner { content: none; background: none; }
+}
+
+@page contents {
+  size: A4;
+  margin-top: 18mm;
+  margin-bottom: 18mm;
+  margin-left: 16mm;
+  margin-right: 16mm;
+  background: none;
+
+  @top-left { content: none; background: none; }
+  @top-center { content: none; background: none; }
+  @top-right { content: none; background: none; }
+  @top-left-corner { content: none; background: none; }
+  @top-right-corner { content: none; background: none; }
+  @bottom-left { content: none; background: none; }
+  @bottom-right { content: none; background: none; }
+  @bottom-left-corner { content: none; background: none; }
+  @bottom-right-corner { content: none; background: none; }
+  @bottom-center {
+    content: string(booklet-name);
+    font-family: "sans-ui", sans-serif;
+    font-size: 7.5pt;
+    font-weight: 500;
+    color: #63676d;
+    vertical-align: middle;
+  }
+}
+
+@page contents:right {
+  @bottom-right {
+    content: counter(page);
+    font-family: "sans-ui", sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #1e6f8c;
+    text-align: right;
+    vertical-align: middle;
+  }
+}
+
+@page contents:left {
+  @bottom-left {
+    content: counter(page);
+    font-family: "sans-ui", sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #1e6f8c;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. 基础                                                             */
+/* ------------------------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html {
+  font-size: 10.5pt;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-cjk);
+  font-weight: 400;
+  font-size: 10.5pt;
+  line-height: 1.75;
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+p {
+  margin: 0 0 0.55em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* 英文语料：STIX，按词断行，禁止两端对齐与切音节 */
+[lang="en"] {
+  font-family: "serif-en", serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  font-weight: 400;
+  text-align: left;
+  hyphens: none;
+  -webkit-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
+  orphans: 3;
+  widows: 3;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. 组件 · topic-head（03 §2）                                       */
+/* ------------------------------------------------------------------ */
+
+.explain,
+.solution,
+.keypoint,
+.note,
+.tip,
+.toc {
+  font-variation-settings: "wght" 400;
+}
+
+.topic-head h3,
+.topic-head::before,
+.subhead,
+.chip,
+.drill > h4 > span,
+.solution > h4,
+.note::before,
+.keypoint::before,
+.toc > h2,
+.toc li::before,
+.drill-atoms li::before {
+  font-variation-settings: "wght" 700;
+}
+
+.topic-head {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  margin: 0 0 var(--gap-block);
+  break-after: avoid;
+}
+
+.topic-head::before {
+  order: 1;
+}
+
+.topic-head h3 {
+  order: 2;
+}
+
+.topic-head::after {
+  order: 3;
+}
+
+.topic-head .chip {
+  order: 4;
+}
+
+.topic-head::before {
+  content: attr(data-no);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 1.7em;
+  height: 1.35em;
+  padding: 0 0.28em;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.topic-head h3 {
+  flex: 0 1 auto;
+  font-size: 14pt;
+  line-height: 1.3;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.topic-head::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 0;
+  border-bottom: 0.6pt solid var(--accent);
+  align-self: center;
+  min-width: 8mm;
+}
+
+.topic-head .chip {
+  flex: 0 0 auto;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. 组件 · explain                                                   */
+/* ------------------------------------------------------------------ */
+
+.explain {
+  font-family: var(--font-cjk);
+  font-size: 10.5pt;
+  line-height: 1.62;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 var(--gap-block);
+}
+
+.explain p {
+  orphans: 2;
+  widows: 2;
+}
+
+.explain > p {
+  margin-bottom: 0.28em;
+}
+
+/* 小标题：主色粗体 + 2mm 实地小方前缀（与节头方块同家族缩小版）。
+ * 荧光笔衬底已退役——日系笔记手势与本书冷调不合，黄族只当容器色。 */
+.subhead {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  font-family: var(--font-sans);
+  font-size: 10.5pt;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--accent);
+  margin: 0.1em 0 0.35em;
+}
+
+/* 小标题与情形项不得单独留在页末——标题与其正文必须同页。 */
+.subhead,
+.case {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.subhead::before {
+  content: "";
+  display: inline-block;
+  width: 2mm;
+  height: 2mm;
+  background: var(--accent);
+  margin-right: 0.4em;
+  vertical-align: 0.08em;
+}
+
+/* 情形项：讲解内部并列分支的第四级（2026-08-27）。
+ * 比 subhead 降一档——墨色 sans 600 + 1.5mm 主色圆点，
+ * 不与 subhead 的主色实心方抢眼；只在 explain 内部用。 */
+.case {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 10.5pt;
+  font-weight: 600;
+  font-variation-settings: "wght" 600;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0.52em 0 0.3em;
+}
+
+.case::before {
+  content: "";
+  display: inline-block;
+  width: 1.5mm;
+  height: 1.5mm;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 0.45em;
+  vertical-align: 0.4mm;
+}
+
+.case:first-child {
+  margin-top: 0.1em;
+}
+
+/* 列举项：讲解内并列小类的第五级（2026-08-27）。
+ * 冒号后跟三类以上「类别名 + 例词」时，塞在一句里读不动，逐行摊开。
+ * 比 case 再降一档——1.2mm 墨色细横条，不用圆点也不用方块，
+ * 与 subhead 的主色方、case 的主色圆三级形状全错开。
+ * 悬挂缩进，例词折行时与首行文字对齐，不缩回横条下。 */
+.item {
+  display: block;
+  font-size: 10pt;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0.16em 0;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.item::before {
+  content: "";
+  display: inline-block;
+  width: 1.2mm;
+  height: 0.4mm;
+  background: var(--ink-35);
+  margin-right: 0.6em;
+  vertical-align: 1.1mm;
+}
+
+.item > b {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-variation-settings: "wght" 600;
+}
+
+/* 短语带：纯词条清单（无类别可分组、七九项起）另立一块。
+ * 词条间的中点由 CSS 生成，HTML 只排 span，不手写分隔符。 */
+.phrases {
+  display: block;
+  margin: 0.3em 0 0.45em;
+  padding-left: 1.5em;
+  font-size: 10pt;
+  line-height: 1.75;
+}
+
+.phrases > span {
+  white-space: nowrap;
+}
+
+.phrases > span + span::before {
+  content: "·";
+  color: var(--ink-35);
+  margin: 0 0.5em;
+}
+
+.em-atom {
+  color: var(--accent);
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: var(--font-en);
+}
+
+.pattern {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45em;
+  font-family: var(--font-en);
+  font-size: 10.5pt;
+  line-height: 1.55;
+  margin: 0.32em 0;
+}
+
+.pattern::before {
+  content: "句型";
+  flex: 0 0 auto;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.12em 0.38em;
+  font-style: normal;
+  font-variation-settings: "wght" 700;
+  white-space: nowrap;
+}
+
+.compare {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.32em 0 0.1em;
+  break-inside: avoid;
+}
+
+.compare th {
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--accent);
+  text-align: left;
+  padding: 0.25em 0.7em 0.35em 0;
+  border-bottom: 0.5pt solid var(--ink-35);
+}
+
+.compare td {
+  font-family: var(--font-cjk);
+  font-size: 9.5pt;
+  line-height: 1.55;
+  vertical-align: top;
+  width: 50%;
+  padding: 0.22em 0.7em 0.22em 0;
+  border-bottom: 0.5pt solid var(--ink-20);
+}
+
+.explain [lang="en"] + p:not([lang="en"]):not(.pattern):not(.subhead):not(.case):not(.item):not(.phrases) {
+  font-size: 9.5pt;
+  line-height: 1.6;
+  color: var(--ink-dim);
+  margin-top: -0.15em;
+}
+
+/* 数据表 · sheet：音标/例词等多列网格（03 §1c 之外新增的通用件）。
+ * 三线表变体——只用线不用色块，与 subhead 方点、item 细条同一家族的克制语言。 */
+.sheet {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.35em 0 0.7em;
+  break-inside: avoid;
+  border-top: 1pt solid var(--ink);
+  border-bottom: 1pt solid var(--ink);
+}
+
+.sheet thead th {
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-align: center;
+  padding: 0.36em 0.5em 0.3em;
+  border-bottom: 0.5pt solid var(--ink-35);
+}
+
+.sheet thead tr + tr th {
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--ink-dim);
+  border-bottom: 0.5pt solid var(--ink-35);
+}
+
+.sheet td {
+  font-family: var(--font-cjk);
+  font-size: 9pt;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.24em 0.5em;
+  border-bottom: 0.4pt solid var(--ink-20);
+}
+
+.sheet td[lang="en"],
+.sheet th[lang="en"] {
+  font-family: var(--font-en);
+}
+
+.sheet td.sym {
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.sheet td.tag {
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  border-top: 0.5pt solid var(--accent-40);
+  border-bottom: 0.5pt solid var(--accent-40);
+}
+
+.sheet td.gap,
+.sheet th.gap {
+  border: none;
+  width: 5mm;
+  padding: 0;
+}
+
+.sheet tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 核心词汇：复用 sheet。整表墨线大框；字阶上移；行距按 pad-card 呼吸。 */
+.unit[data-unit="核心词汇"] table.sheet {
+  table-layout: fixed;
+  width: 100%;
+  break-inside: auto;
+  margin: 0.15em 0 0;
+  line-height: 1.45;
+  border: 1pt solid var(--ink);
+}
+
+.unit[data-unit="核心词汇"] .sheet col:nth-child(1) { width: 10mm; }
+.unit[data-unit="核心词汇"] .sheet col:nth-child(2) { width: 36mm; }
+.unit[data-unit="核心词汇"] .sheet col:nth-child(3) { width: 32mm; }
+.unit[data-unit="核心词汇"] .sheet col:nth-child(4) { width: 54mm; }
+
+.unit[data-unit="核心词汇"] .sheet thead th {
+  font-size: 8.5pt;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding: 2.2mm 2.6mm 2mm;
+}
+
+.unit[data-unit="核心词汇"] .sheet thead th:first-child,
+.unit[data-unit="核心词汇"] .sheet td.sym {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 1.2mm;
+  font-variant-numeric: tabular-nums;
+}
+
+.unit[data-unit="核心词汇"] .sheet td.sym {
+  font-size: 11pt;
+}
+
+.unit[data-unit="核心词汇"] .sheet td {
+  text-align: left;
+  font-size: 11pt;
+  padding: 2.3mm 2.6mm;
+  line-height: 1.45;
+  vertical-align: baseline;
+}
+
+.unit[data-unit="核心词汇"] .sheet td:nth-child(2) {
+  font-family: var(--font-en);
+  font-size: 13.5pt;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.unit[data-unit="核心词汇"] .sheet td:nth-child(3) {
+  font-family: var(--font-en);
+  font-size: 10.5pt;
+  color: var(--ink-dim);
+  white-space: nowrap;
+}
+
+.unit[data-unit="核心词汇"] .sheet td:nth-child(4) {
+  word-break: keep-all;
+}
+
+.unit[data-unit="核心词汇"] .sheet td:nth-child(5) {
+  font-family: var(--font-en);
+  font-size: 10pt;
+  color: var(--ink-dim);
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. 组件 · example                                                   */
+/* ------------------------------------------------------------------ */
+
+.example {
+  margin: 0 0 var(--gap-block);
+  break-inside: avoid;
+}
+
+.stem {
+  position: relative;
+  border: 0.75pt solid var(--accent);
+  background: var(--paper);
+  border-radius: 0;
+  padding: 2.5mm 3.2mm 2.5mm;
+  margin: 0 0 1.6mm;
+}
+
+/* 右下单折角 5px 实地三角 */
+.stem::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.stem > p:first-child:not([lang="en"]) {
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 0.5em;
+}
+
+.stem [lang="en"] {
+  margin: 0;
+}
+
+.solution {
+  position: relative;
+  border: 0.5pt solid var(--ink-35);
+  background: var(--paper);
+  padding: 6mm 3.2mm 2.2mm;
+  font-family: var(--font-cjk);
+  font-size: 10pt;
+  line-height: 1.58;
+}
+
+/* 「解析」标签嵌在盒子左上角内侧，不骑上边框——
+ * 骑缝会被上方例句压出半截，角落嵌入干净且不与题干抢边界。
+ * 右下单角起弧，靠角的两边留直角以贴合边框。 */
+.solution > h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: max-content;
+  background: var(--ash-deep);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 0.12em 0.62em;
+  border-radius: 0 0 3px 0;
+  line-height: 1.25;
+  z-index: 2;
+}
+
+.solution > p > b:not(.ans) {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 8.5pt;
+  color: var(--accent);
+  margin-right: 0.15em;
+}
+
+.solution > p {
+  margin-bottom: 0.26em;
+}
+
+.evidence {
+  font-family: "serif-en", serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  text-align: left;
+  margin: 0.15em 0 0.2em;
+}
+
+.ans {
+  font-family: "serif-en", serif;
+  font-weight: 700;
+  font-size: 10.5pt;
+  color: var(--ink);
+  font-style: italic;
+}
+
+.solution > p:last-of-type {
+  break-before: avoid;
+}
+
+/* 旁注分栏 66/34。aside 绝对定位，不改 .solution 含块，两枚解析签同一套坐标 */
+.solution:has(> aside) {
+  padding-right: 36%;
+}
+
+.solution:has(> aside) > aside {
+  position: absolute;
+  top: 4mm;
+  right: 0;
+  width: 34%;
+  border: none;
+  border-left: 0.5pt solid var(--ink-40);
+  background: none;
+  padding: 0 0 0 2.6mm;
+  margin: 0;
+}
+
+.solution aside p {
+  position: relative;
+  padding-left: 0.85em;
+  margin: 0 0 0.4em;
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: var(--ink-dim);
+}
+
+.solution aside p:last-child {
+  margin-bottom: 0;
+}
+
+.solution aside p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.42em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.26em 0 0.26em 0.42em;
+  border-color: transparent transparent transparent var(--accent);
+}
+
+/* ------------------------------------------------------------------ */
+/* 7. 组件 · keypoint / note                                           */
+/* ------------------------------------------------------------------ */
+
+.keypoint {
+  display: flex;
+  align-items: stretch;
+  background: var(--accent-wash);
+  border: 0.3pt solid var(--accent-30);
+  border-radius: 7px;
+  box-shadow: var(--shadow);
+  padding: var(--pad-card) 3.2mm;
+  margin: var(--gap-block) 0;
+  break-inside: avoid;
+  font-family: var(--font-cjk);
+  font-size: 10.5pt;
+  line-height: 1.55;
+}
+
+.keypoint::before {
+  content: "◆\A要点";
+  white-space: pre;
+  flex: 0 0 4.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--accent);
+  border-right: 0.6pt dashed var(--accent-40);
+  padding-right: 0.7em;
+  margin-right: 0.9em;
+}
+
+.keypoint > * {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin: 0 0 var(--gap-block);
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.note::before {
+  content: "注";
+  flex: 0 0 auto;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.12em 0.38em;
+}
+
+/* ------------------------------------------------------------------ */
+/* 8. 组件 · drill                                                     */
+/* ------------------------------------------------------------------ */
+
+.drill {
+  margin: var(--gap-block) 0 0;
+}
+
+/* 通栏主色线与「练一练」旗标同属这一个**块级**标题（2026-08-27 改）。
+ * 旧写法把线画在 .drill 上、h4 设 inline-block，结果 break-after 对行内盒
+ * 无效，线与旗标双双留在页末而题目全翻到次页。现在线是 h4 的上边框、
+ * 旗标退到内层 span，h4 成块级，avoid 才拦得住这处断点。 */
+.drill > h4 {
+  display: block;
+  margin: 0 0 1.8mm;
+  padding-top: 1.5mm;
+  border-top: 0.65pt solid var(--accent);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.drill > h4 > span {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  padding: 0.22em 1.15em 0.22em 0.95em;
+  clip-path: polygon(0.55em 0, 100% 0, calc(100% - 0.55em) 100%, 0 100%);
+}
+
+.drill-atoms > .subhead {
+  margin: 0.7em 0 0.4em;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.drill-atoms > .subhead:first-child {
+  margin-top: 0.15em;
+}
+
+.drill-atoms {
+  counter-reset: atom;
+}
+
+/* 02：全单元连续编号。先挂在已迁专题上，未迁专题仍按块清零。 */
+.unit[data-unit="冠词"] {
+  counter-reset: atom;
+}
+
+.unit[data-unit="冠词"] .drill-atoms {
+  counter-reset: none;
+}
+
+.drill-atoms ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 1;
+}
+
+.drill-atoms ol + .subhead {
+  margin-top: 0.85em;
+}
+
+.drill-atoms li {
+  break-inside: avoid;
+  counter-increment: atom;
+  margin: 0 0 0.42em;
+  padding: 0;
+  font-size: 10.5pt;
+  line-height: 1.55;
+}
+
+.drill-atoms li::before {
+  content: counter(atom) ".";
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 9.5pt;
+  color: var(--accent);
+  margin-right: 0.3em;
+}
+
+.drill-atoms .chip-source {
+  margin-right: 0.45em;
+  vertical-align: 0.05em;
+}
+
+.drill-atoms li p {
+  display: inline;
+  margin: 0;
+}
+
+.drill-passage {
+  margin: 0.4em 0 var(--gap-block);
+  columns: 1;
+}
+
+.drill-passage > p:not([lang="en"]) {
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  color: var(--ink-dim);
+  line-height: 1.4;
+  margin: 0 0 1.4mm;
+}
+
+.drill-passage [lang="en"] {
+  line-height: 1.7;
+}
+
+/* 速查行每 10 题一组，组间留白便于对答案不串行（2026-08-27）。 */
+.answer-key .key-run + .key-run::before {
+  content: "";
+  display: inline-block;
+  width: 1.6em;
+}
+
+.answer-key {
+  background: var(--ash);
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  line-height: 1.5;
+  color: var(--ink);
+  padding: 1.6mm 2.6mm;
+  margin: 0;
+}
+
+.answer-key [lang="en"] {
+  font-size: 8.5pt;
+  line-height: inherit;
+}
+
+/* ------------------------------------------------------------------ */
+/* 8b. 组件 · rationale（03 §2 双栏条目流）                             */
+/* ------------------------------------------------------------------ */
+
+.rationale {
+  margin: 0;
+}
+
+.rationale ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 1.1em;
+  column-fill: balance;
+}
+
+.rationale li {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 0;
+  padding: 1.5mm 0 1.4mm;
+  border-bottom: 0.5pt solid var(--ink-35);
+}
+
+.rationale li > p:first-child {
+  margin: 0 0 0.18em;
+  line-height: 1.3;
+}
+
+.rationale li > p:first-child > b {
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  font-variation-settings: "wght" 700;
+}
+
+.rationale li > p:first-child .chip {
+  margin-left: 0.3em;
+}
+
+.rationale [lang="en"] {
+  font-family: "serif-en", serif;
+  font-size: 9pt;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0 0 0.22em;
+}
+
+.rationale li > p:last-child {
+  font-family: var(--font-cjk);
+  font-size: 9pt;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0;
+}
+
+.rationale li > p:last-child > b:not(.ans) {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 8pt;
+  color: var(--accent);
+  margin-right: 0.18em;
+  font-variation-settings: "wght" 700;
+}
+
+.rationale .ans {
+  font-size: 9pt;
+  margin-right: 0.4em;
+  white-space: nowrap;
+}
+
+/* 语篇精讲：证据摘录行（03 §1b）。不改 solution 内 .evidence */
+.rationale .evidence {
+  font-family: "serif-en", serif;
+  font-size: 9pt;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0 0 0.18em;
+  text-align: left;
+}
+
+.rationale u {
+  text-decoration: none;
+  border-bottom: 0.6pt solid var(--ink);
+  display: inline-block;
+  min-width: 3.4em;
+  height: 0.92em;
+  vertical-align: baseline;
+  margin: 0 0.06em;
+}
+
+.rationale .evidence sup {
+  font-family: var(--font-sans);
+  font-size: 6.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  margin-left: 0.04em;
+  font-variation-settings: "wght" 700;
+}
+
+/* ------------------------------------------------------------------ */
+/* 9. 独立页型 · corpus / sample-answer / tip / toc                    */
+/* ------------------------------------------------------------------ */
+
+.corpus {
+  --corpus-lh: 1.55;
+  position: relative;
+  background: var(--cream);
+  border: 0.5pt solid var(--ink-20);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  padding: var(--pad-card) 3.2mm var(--pad-card) 9mm;
+  margin: var(--gap-block) 0 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  overflow: hidden;
+  font-family: "serif-en", serif;
+  font-size: 10.5pt;
+  line-height: var(--corpus-lh);
+  color: var(--ink);
+}
+
+.corpus:has(+ .sample-answer) {
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+
+.corpus + .rationale {
+  margin-top: var(--gap-block);
+}
+
+.answer-key + .rationale {
+  margin-top: var(--gap-block);
+}
+
+.corpus [lang="en"] {
+  font-family: "serif-en", serif;
+  font-size: 10.5pt;
+  line-height: var(--corpus-lh);
+}
+
+.corpus > p {
+  margin: 0 0 0.65em;
+}
+
+.corpus > p:last-child {
+  margin-bottom: 0;
+}
+
+/* 左缘每 5 行一行号（按行高网格，不是按段落计数） */
+.corpus::after {
+  content: "5\A 10\A 15\A 20\A 25";
+  white-space: pre;
+  position: absolute;
+  left: 1.5mm;
+  top: var(--pad-card);
+  margin-top: calc(4 * 1.55em);
+  line-height: calc(5 * 1.55em);
+  width: 6.2mm;
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 500;
+  color: var(--ink-dim);
+  text-align: right;
+  pointer-events: none;
+}
+
+.corpus u {
+  text-decoration: none;
+  border-bottom: 0.6pt solid var(--ink);
+  display: inline-block;
+  min-width: 3.8em;
+  height: 0.95em;
+  vertical-align: baseline;
+  margin: 0 0.08em;
+}
+
+.corpus sup {
+  font-family: var(--font-sans);
+  font-size: 6.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  margin-left: 0.04em;
+  font-variation-settings: "wght" 700;
+}
+
+.sample-answer {
+  background: var(--sample);
+  border-radius: 6px;
+  padding: var(--pad-card) 3.2mm;
+  margin: var(--gap-block) 0 0;
+  font-family: "serif-en", serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.corpus + .sample-answer {
+  margin-top: 0;
+  border-radius: 0 0 6px 6px;
+  padding-left: 9mm;
+}
+
+.sample-answer b {
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8pt;
+  color: var(--accent);
+  margin-left: 0.25em;
+}
+
+.tip {
+  position: relative;
+  overflow: visible;
+  background: var(--paper);
+  border: 0.75pt solid var(--accent);
+  border-radius: 7px;
+  padding: 2.5mm 3.2mm 2.2mm 5mm;
+  margin: 3.2mm 0 0;
+  font-family: var(--font-cjk);
+  font-size: 9.5pt;
+  line-height: 1.5;
+}
+
+.tip::before {
+  content: "i";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.6mm;
+  height: 3.6mm;
+  transform: translate(-50%, -50%);
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  font-family: var(--font-sans);
+  font-size: 8.5pt;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* 10. chip 家族                                                       */
+/* ------------------------------------------------------------------ */
+
+.chip {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  font-weight: 700;
+  line-height: 1.25;
+  border-radius: 3px;
+  padding: 0.12em 0.45em;
+  vertical-align: middle;
+}
+
+.chip-freq {
+  color: var(--accent);
+  background: transparent;
+  border: 0.6pt solid var(--accent);
+}
+
+.chip-risk {
+  color: #fff;
+  background: var(--accent);
+  border: 0.6pt solid var(--accent);
+}
+
+.chip-source {
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+}
+
+.chip-source::before {
+  content: "[";
+}
+
+.chip-source::after {
+  content: "]";
+}
+
+/* ------------------------------------------------------------------ */
+/* 11. toc                                                             */
+/* ------------------------------------------------------------------ */
+
+.toc {
+  margin: var(--gap-block) 0 0;
+}
+
+.toc > h2 {
+  font-size: 14pt;
+  line-height: 1.3;
+  margin: 0 0 var(--gap-block);
+  color: var(--ink);
+}
+
+.toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 1.2em;
+  counter-reset: tocitem;
+}
+
+.toc li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3em;
+  break-inside: avoid;
+  margin: 0 0 0.2em;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  color: var(--ink);
+  counter-increment: tocitem;
+  background-image: radial-gradient(
+    circle,
+    var(--ink-35) 0.45pt,
+    transparent 0.55pt
+  );
+  background-size: 3.2px 1px;
+  background-repeat: repeat-x;
+  background-position: 0 0.9em;
+}
+
+.toc li::before {
+  content: counter(tocitem, decimal-leading-zero);
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-weight: 700;
+  background: var(--paper);
+  padding-right: 0.25em;
+}
+
+.toc li span {
+  background: var(--paper);
+  padding-right: 0.2em;
+}
+
+.toc li::after {
+  content: attr(data-page);
+  flex: 0 0 auto;
+  margin-left: auto;
+  background: var(--paper);
+  padding-left: 0.25em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+/* ------------------------------------------------------------------ */
+/* 12. 断页（03 §3）                                                   */
+/* ------------------------------------------------------------------ */
+
+.keypoint,
+.example,
+.corpus,
+.compare,
+.cover,
+.opener,
+.toc-group,
+table {
+  break-inside: avoid;
+}
+
+.topic-head {
+  break-after: avoid;
+}
+
+.explain {
+  orphans: 2;
+  widows: 2;
+}
+
+/* ------------------------------------------------------------------ */
+/* 13. 册级件 · cover / opener / toc-group（03 §1c）                    */
+/* ------------------------------------------------------------------ */
+
+.cover {
+  page: cover;
+  position: relative;
+  box-sizing: border-box;
+  width: 210mm;
+  height: 297mm;
+  padding: 82mm 18mm 22mm;
+  display: flex;
+  flex-direction: column;
+  break-after: page;
+  page-break-after: always;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+/* 构图 A：右上贴角，直角边 50mm */
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50mm 0 0 50mm;
+  border-color: var(--accent) transparent transparent transparent;
+}
+
+/* 翻痕：平行斜边、距 1.5mm 的 0.5pt 主色细线 */
+.cover::after {
+  content: "";
+  position: absolute;
+  top: calc(1.5mm / 1.41421356);
+  right: calc(1.5mm / 1.41421356);
+  width: 70.71mm;
+  height: 0;
+  border-top: 0.5pt solid var(--accent);
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+
+.cover[data-compose="B"] {
+  padding-top: 36mm;
+}
+
+/* 构图 B：右下贴角 */
+.cover[data-compose="B"]::before {
+  top: auto;
+  bottom: 0;
+  right: 0;
+  border-width: 0 0 50mm 50mm;
+  border-color: transparent transparent var(--accent) transparent;
+}
+
+.cover[data-compose="B"]::after {
+  top: auto;
+  bottom: calc(1.5mm / 1.41421356);
+  right: calc(1.5mm / 1.41421356);
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+
+.cover > p:first-of-type {
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  margin: 0 0 2.6mm;
+  font-variation-settings: "wght" 700;
+}
+
+.cover > h1 {
+  font-family: var(--font-sans);
+  font-size: 40pt;
+  font-weight: 700;
+  line-height: 1.12;
+  color: var(--ink);
+  margin: 0;
+  font-variation-settings: "wght" 700;
+}
+
+/* 副题骑线：字底缘距线 0.5mm，线横贯版心，不穿字 */
+.cover > h1 + p {
+  font-family: var(--font-sans);
+  font-size: 8.5pt;
+  font-weight: 500;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 75%, #fff);
+  margin: 3.8mm 0 0;
+  padding-bottom: 0.5mm;
+  border-bottom: 0.5pt solid var(--accent);
+}
+
+/* 左下内容块：册内单元速览，不抢书名 */
+.cover > aside {
+  margin-top: auto;
+  max-width: 112mm;
+}
+
+.cover > aside p {
+  font-family: var(--font-sans);
+  font-size: 8.5pt;
+  font-weight: 400;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--ink) 58%, #fff);
+  margin: 0 0 0.4em;
+}
+
+.cover > aside p:last-child {
+  margin-bottom: 0;
+}
+
+.cover > footer {
+  margin-top: auto;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 9pt;
+  font-weight: 500;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 60%, #fff);
+}
+
+.cover > aside + footer {
+  margin-top: 8mm;
+}
+
+.cover > footer::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 1.2mm 1.2mm 0;
+  border-color: transparent transparent var(--accent) transparent;
+  margin-right: 0.4em;
+  vertical-align: 0.12em;
+}
+
+.opener {
+  page: opener;
+  position: relative;
+  box-sizing: border-box;
+  width: 210mm;
+  height: 297mm;
+  padding: 32mm 18mm 28mm 16mm;
+  break-after: page;
+  page-break-after: always;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.opener > h1 {
+  display: flex;
+  align-items: baseline;
+  gap: 0.22em;
+  margin: 0 0 16mm;
+  font-family: var(--font-sans);
+  font-size: 22pt;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.opener > h1::before {
+  content: attr(data-no);
+  font-size: 90pt;
+  font-weight: 700;
+  line-height: 0.82;
+  color: var(--accent);
+  font-variation-settings: "wght" 700;
+}
+
+.opener > .toc {
+  margin: 0;
+  padding-left: 6mm;
+  width: 60%;
+  max-width: 60%;
+}
+
+.opener > .toc ol {
+  columns: 1;
+}
+
+.opener > .toc li::before {
+  content: attr(data-no);
+}
+
+.opener > aside {
+  margin-top: 22mm;
+  padding-left: 6mm;
+  max-width: 142mm;
+}
+
+.opener > aside p {
+  font-family: var(--font-sans);
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 1.62;
+  color: color-mix(in srgb, var(--ink) 76%, #fff);
+  margin: 0 0 0.8em;
+}
+
+.opener > aside p:last-child {
+  margin-bottom: 0;
+}
+
+.opener > footer {
+  position: absolute;
+  left: 16mm;
+  right: 16mm;
+  bottom: 16mm;
+  border-bottom: 0.5pt solid var(--accent);
+  padding-bottom: 0.5mm;
+  font-family: var(--font-sans);
+  font-size: 9pt;
+  font-weight: 500;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 60%, #fff);
+}
+
+.opener > footer::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 3mm 3mm;
+  border-color: transparent transparent var(--accent) transparent;
+  margin-right: 0.45em;
+  vertical-align: -0.15em;
+}
+
+/* 单日周：不按七日清单排。周号仍在上头，日牌+落款收成一叠，避免下半页像漏排 */
+.opener[data-days="1"] > h1 {
+  margin-bottom: 0;
+}
+
+.opener[data-days="1"] > .toc {
+  position: absolute;
+  left: 16mm;
+  right: 18mm;
+  top: 128mm;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0 0 0 6mm;
+}
+
+.opener[data-days="1"] > .toc::before {
+  content: "本周 1 天";
+  display: block;
+  margin: 0 0 5mm;
+  font-family: var(--font-sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  color: var(--accent);
+  font-variation-settings: "wght" 700;
+}
+
+.opener[data-days="1"] > .toc ol {
+  columns: 1;
+}
+
+.opener[data-days="1"] > .toc li {
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 8mm 0 7mm;
+  border-top: 0.5pt solid var(--accent);
+  border-bottom: 0.5pt solid var(--accent);
+  background-image: none;
+  font-size: 16pt;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.opener[data-days="1"] > .toc li::before {
+  content: attr(data-no);
+  flex: 1 1 100%;
+  margin: 0 0 4mm;
+  padding: 0;
+  font-size: 64pt;
+  font-weight: 700;
+  line-height: 0.88;
+  font-variation-settings: "wght" 700;
+}
+
+.opener[data-days="1"] > .toc li span {
+  padding: 0;
+}
+
+.opener[data-days="1"] > .toc li::after {
+  margin-left: auto;
+  padding: 0;
+  font-size: 12pt;
+  color: color-mix(in srgb, var(--ink) 55%, #fff);
+}
+
+.opener[data-days="1"] > footer {
+  top: 214mm;
+  bottom: auto;
+  font-size: 22pt;
+  letter-spacing: 0.08em;
+  color: color-mix(in srgb, var(--ink) 42%, #fff);
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.opener[data-days="1"] > footer::before {
+  content: none;
+}
+
+body > .toc {
+  page: contents;
+  position: relative;
+  break-after: page;
+  page-break-after: always;
+  columns: 2;
+  column-gap: 12mm;
+  column-fill: balance;
+  margin: 0;
+  background: var(--paper);
+}
+
+body > .toc > h2 {
+  column-span: all;
+  position: relative;
+  font-family: var(--font-sans);
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 10mm;
+  padding: 5.2mm 0 0.5mm;
+  border-bottom: 0.5pt solid var(--accent);
+  font-variation-settings: "wght" 700;
+}
+
+body > .toc > h2::before {
+  content: "澄页";
+  position: absolute;
+  top: 0;
+  left: 3.4mm;
+  font-size: 9pt;
+  font-weight: 500;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 60%, #fff);
+  font-variation-settings: "wght" 500;
+}
+
+html[data-code^="识记"] body > .toc > h2::before {
+  content: none;
+}
+
+body > .toc > h2::after {
+  content: "";
+  position: absolute;
+  top: 0.15mm;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 1.2mm 1.2mm 0;
+  border-color: transparent transparent var(--accent) transparent;
+}
+
+.toc-group {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin: 0 0 5mm;
+}
+
+.toc-group > h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  font-family: var(--font-sans);
+  font-size: 12pt;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 0 0 2.8mm;
+  font-variation-settings: "wght" 700;
+}
+
+.toc-group > h3::before {
+  content: attr(data-no);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 1.7em;
+  height: 1.35em;
+  padding: 0 0.28em;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 9.5pt;
+  font-weight: 700;
+  line-height: 1;
+  font-variation-settings: "wght" 700;
+}
+
+.toc-group ol {
+  columns: 1;
+  counter-reset: none;
+  padding: 0 0 0 2.2em;
+}
+
+.toc-group li {
+  counter-increment: none;
+}
+
+.toc-group li::before {
+  content: attr(data-no);
+}
+
+/* 单元内分组头（02 冠词：the / a-an / 类 / 测）。左齐，与 topic-head 同起点，
+   靠字号压住下级：组头 16pt > topic-head 的 14pt。答案册组头不动，故限作用域。 */
+.unit > .toc-group {
+  margin: var(--gap-block) 0 calc(0.6 * var(--gap-block));
+}
+
+.unit > .toc-group > h3 {
+  font-size: 16pt;
+  margin: 0;
+}
+
+.unit > .toc-group > h3::before {
+  font-size: 11pt;
+  min-width: 1.9em;
+}
+
+.toc .toc-group {
+  margin: 0 0 3.2mm;
+}
+
+.toc .toc-group > h3 {
+  font-size: 10.5pt;
+  margin: 0 0 1.6mm;
+}
+
+/* ------------------------------------------------------------------ */
+/* 14. 答案册（03 §1d）                                                */
+/* ------------------------------------------------------------------ */
+
+.unit[data-no="A"] {
+  break-before: page;
+  page-break-before: always;
+}
+
+body > .unit[data-no="A"]:first-child {
+  break-before: auto;
+  page-break-before: auto;
+}
+
+.unit[data-no="A"] .toc-group {
+  margin: 0 0 1.6mm;
+  break-after: avoid;
+}
+
+.unit[data-no="A"] .toc-group + .answer-key {
+  margin-bottom: var(--gap-block);
+  break-after: avoid;
+}
+
+.unit[data-no="A"] .rationale + .toc-group {
+  margin-top: calc(2 * var(--gap-block));
+}
+
+/* ------------------------------------------------------------------ */
+/* 15. 页型 · 日卡（03 §1e）                                           */
+/* ------------------------------------------------------------------ */
+
+.unit.day {
+  position: relative;
+  box-sizing: border-box;
+  height: 263mm;
+  margin: 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  break-after: page;
+  page-break-after: always;
+}
+
+.unit.day:last-child {
+  break-after: auto;
+  page-break-after: auto;
+}
+
+.unit.day .face {
+  box-sizing: border-box;
+  height: 129mm;
+  overflow: hidden;
+}
+
+.unit.day .topic-head {
+  margin-bottom: 1.6mm;
+}
+
+.unit.day .topic-head h3 {
+  font-size: 13pt;
+}
+
+.unit.day .stem {
+  margin: 0 0 1.6mm;
+  padding: 1.6mm 2.8mm 1.2mm;
+}
+
+.unit.day .stem > p:first-child {
+  margin-bottom: 0.35em;
+}
+
+.unit.day .stem > p:not(:first-child):not(.write) {
+  font-family: var(--font-cjk);
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0.12em 0 0;
+}
+
+.unit.day .stem > p:not(:first-child) > b {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 8.5pt;
+  color: var(--accent);
+  margin-right: 0.35em;
+  font-variation-settings: "wght" 700;
+}
+
+.unit.day .stem u {
+  text-decoration: none;
+  border-bottom: 0.6pt solid var(--ink);
+  display: inline-block;
+  min-width: 8em;
+  height: 0.9em;
+  vertical-align: baseline;
+  margin: 0 0.08em;
+}
+
+.unit.day .stem [lang="en"] {
+  font-family: var(--font-en);
+  font-size: 10.5pt;
+  line-height: 1.4;
+}
+
+.unit.day .stem sup,
+.unit.day .stem sub,
+.unit.day > .answer-key sup,
+.unit.day > .answer-key sub {
+  font-size: 0.65em;
+  line-height: 0;
+}
+
+.rxn-arrow {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  position: relative;
+  min-width: 2.6em;
+  margin: 0 0.18em;
+  padding: 0.72em 0.28em 0.58em 0.08em;
+  line-height: 1;
+}
+
+.rxn-arrow > span {
+  font-family: var(--font-sans);
+  font-size: 6.5pt;
+  line-height: 1.05;
+  min-height: 0.8em;
+  color: var(--ink);
+}
+
+.rxn-arrow::before {
+  content: "";
+  position: absolute;
+  left: 0.08em;
+  right: 0.42em;
+  top: 50%;
+  border-top: 0.7pt solid currentColor;
+}
+
+.rxn-arrow::after {
+  content: "";
+  position: absolute;
+  right: 0.06em;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.15pt 0 1.15pt 2.5pt;
+  border-color: transparent transparent transparent currentColor;
+  transform: translateY(-50%);
+}
+
+.unit.day .drill {
+  margin: 0;
+}
+
+.unit.day .drill > h4 {
+  margin-bottom: 1mm;
+  padding-top: 1mm;
+}
+
+.unit.day .drill-atoms {
+  counter-reset: atom;
+}
+
+.unit.day .drill-atoms li {
+  position: relative;
+  margin: 0 0 0.18em;
+  padding-left: 1.55em;
+}
+
+.unit.day .drill-atoms li::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.unit.day .drill-atoms li p {
+  display: block;
+  margin: 0;
+}
+
+.unit.day .write {
+  display: block;
+  height: 1.4em;
+  margin: 0.06em 0 0.12em;
+  border-bottom: 0.5pt solid var(--ink-35);
+}
+
+.unit.day .drill-atoms li:last-child .write {
+  margin-bottom: 0;
+}
+
+.unit.day .drill-atoms .chip-freq {
+  margin-right: 0.35em;
+}
+
+.fold {
+  position: absolute;
+  top: 131mm;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 8pt;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  font-variation-settings: "wght" 700;
+}
+
+.fold::before,
+.fold::after {
+  content: "";
+  flex: 1 1 auto;
+  border-top: 0.6pt dashed var(--accent-40);
+}
+
+/* 日卡对纸记号：左右边框短竖骑在虚线上，不用三角（与页眉订口折角同构） */
+.unit.day .fold {
+  box-sizing: border-box;
+  min-height: 4.2mm;
+  padding-left: 0;
+  padding-right: 0;
+  border-left: 0.75pt solid var(--accent);
+  border-right: 0.75pt solid var(--accent);
+  background-image: none;
+}
+
+.unit.day .fold::before {
+  margin-left: 2mm;
+}
+
+.unit.day .fold::after {
+  margin-right: 2mm;
+}
+
+.unit.day > .answer-key {
+  position: absolute;
+  top: 139mm;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 2.4mm 3mm 2mm;
+  font-size: 9.5pt;
+  line-height: 1.42;
+  background: #fff;
+}
+
+.unit.day > .answer-key > p {
+  margin: 0 0 0.28em;
+}
+
+.unit.day > .answer-key > p > b:not(.ans) {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 8.5pt;
+  color: var(--accent);
+  margin-right: 0.35em;
+  font-variation-settings: "wght" 700;
+}
+
+.unit.day > .answer-key [lang="en"] {
+  font-family: var(--font-en);
+  font-size: 10.5pt;
+  line-height: 1.45;
+}
+
+.unit.day > .answer-key ol {
+  list-style: none;
+  margin: 0.4em 0 0;
+  padding: 0;
+  columns: 1;
+  counter-reset: atom;
+}
+
+.unit.day > .answer-key li {
+  counter-increment: atom;
+  margin: 0 0 0.22em;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+  break-inside: avoid;
+}
+
+.unit.day > .answer-key li::before {
+  content: counter(atom) ".";
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--accent);
+  margin-right: 0.35em;
+  font-variation-settings: "wght" 700;
+}
+
+.unit.day > .answer-key .note {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  margin: 0 0 0 0.3em;
+  font-size: 8pt;
+  color: var(--ink-dim);
+  text-indent: 0;
+}
+
+.unit.day > .answer-key .note::before {
+  font-size: 7pt;
+  padding: 0.08em 0.32em;
+}

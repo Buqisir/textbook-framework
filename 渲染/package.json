@@ -1,0 +1,9 @@
+{
+  "name": "zichuang-jiaofu-render",
+  "version": "0.1.0",
+  "private": true,
+  "description": "自创教辅 Vivliostyle 渲染管线",
+  "devDependencies": {
+    "@vivliostyle/cli": "^11.2.0"
+  }
+}
