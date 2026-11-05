@@ -52,7 +52,7 @@
 .freq tr > :last-child { padding-right: 0; }
 .freq td:first-child { font: 600 12pt/var(--u) "serif-en"; }
 .freq td.forms { font-family: "serif-en"; }
-.freq td.forms span { white-space: nowrap; }
+.freq td.forms span { display: inline-block; white-space: nowrap; }   /* 原子行内块：形式之间可断行，形式内部不断 */
 .freq td.forms span + span::before { content: "\2002\00B7\2002"; }
 .freq td.forms sub { font: 400 9pt/1 "sans-ui"; vertical-align: baseline; margin-left: 0.15em; }
 .freq td.how { font: 400 9pt/var(--u) "sans-ui"; }
@@ -115,3 +115,5 @@
 .solution > p.ans-line { text-align: left; }
 .solution > p.ans-line > .ans { display: block; padding-left: 2em; font-family: "arrow", "serif-en", "serif-cjk"; }
 .explain > .evidence { text-align: left; margin-top: var(--h); }
+.ans { font-family: "arrow", "serif-en", "serif-cjk"; }   /* 答案里的「（亦可 …）」中文落到思源宋体 */
+.part > .lead { break-after: avoid; }
