@@ -5,13 +5,14 @@
 输入：本地化/内容/同步-必修一-W-U2.定稿.json
 输出：渲染/本地化/同步-必修一-W-U2.html（引 英式.css；样式只用 英式.css 的 class）
 
-结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 短语与句式转换 → ④ 单元小测 → 答案与解析。
+结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测 → 答案与解析。
   单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
   ①：.freq 表，词汇 / 考查形式 / 考法 / 频次。
   ②：每个词族 .family = 词头行（词头 + gloss 同一行）+ 词族链（.fam-chain 浅底条）+ 原题（.atoms）。
-  ③：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
+  ③：单词拼写：节头（无 chip）+ 原题列表（6–8 道，给中文提示写英文单词）。
+  ④：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
       句式块 .phrase.trick（句式名药丸 + gloss 同行 / 公式浅底条 / 原题）。
-  ④：原题列表。
+  ⑤：原题列表。
   答案：一个标题 + 两栏 key，不分组。
 原题（atoms）：出处 <span class="src"> 放题干段行首，后空 1 字接题干；改写指令 cue 仍在句末。
 英式结构的 class 与段考英式（段考排版.py）同名的沿用；同步专用的 freq、family、fam-head、fam-chain、phrase、ph、trick、form、zh、tally、dot 由 英式.css 同步讲义段（文件末）定义。
@@ -20,16 +21,17 @@
   序、data_no、unit_book、h2、zh、chips{year_range, n_questions, n_kaofa, n_phrase}
   stats{卷数, 词数, 短语数, 句式题数}
   freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
-  families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（收录全部词性转换词，不设上限）
+  families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（每个词族的原题；每个形式一道）
       gloss：一到两行，多行在排版时用「 · 」接成一行
-  phrases[{短语, 释义, 词头, gloss, atoms}]                       ③ 前半：短语块（可无题）
-  tricks[{句式, gloss, formula, atoms}]                          ③ 后半：句式块
+  spelling[atoms]                                                ③ 单词拼写（6–8 道，每词一道）
+  phrases[{短语, 释义, 词头, gloss, atoms}]                       ④ 前半：短语块（可无题）
+  tricks[{句式, gloss, formula, atoms}]                          ④ 后半：句式块
       句式：句式名，≤6 字
       gloss：两行，第一行「M 题」（M 与 atoms 数一致），第二行 ≤10 字
       formula：一行，「原句骨架 → 改后骨架」，≤50 字符，取自本块原题
-  quiz[atoms]                                                    ④ 单元小测
+  quiz[atoms]                                                    ⑤ 单元小测
   numbered_total
-每道题 atoms 的字段：id、no（每单元内 ② ③ ④ 连续编号）、标签、题型、题干、题干HTML、
+每道题 atoms 的字段：id、no（每单元内 ② ③ ④ ⑤ 连续编号）、标签、题型、题干、题干HTML、
   cue[]（改写指令，放句末）、答案、解析、句意、reason（≤20 字，答案页用）、answer_show（可空）
 """
 import html
@@ -215,11 +217,20 @@ def trick_html(t):
         '  </div>\n')
 
 
+def spelling_section(u):
+    """③ 单词拼写：节头不加 chip（不报题数）；原题列表，复用 atoms_html。"""
+    return (
+        '<section class="part">\n'
+        '  <header class="topic-head" data-no="3"><h3>单词拼写</h3></header>\n'
+        '  ' + atoms_html(u['spelling']) +
+        '</section>\n')
+
+
 def phrase_section(u):
     ch = u['chips']
     return (
         '<section class="part">\n'
-        f'  <header class="topic-head" data-no="3"><h3>短语与句式转换</h3>'
+        f'  <header class="topic-head" data-no="4"><h3>短语与句式转换</h3>'
         '</header>\n'
         + ''.join(phrase_html(p) for p in u['phrases'])
         + '  <p class="lead"><b>句式转换</b></p>\n'
@@ -231,7 +242,7 @@ def quiz_section(u):
     items = '\n      '.join(atom_li(a) for a in u['quiz'])
     return (
         '<section class="part">\n'
-        f'  <header class="topic-head" data-no="4"><h3>单元小测</h3>'
+        f'  <header class="topic-head" data-no="5"><h3>单元小测</h3>'
         '</header>\n'
         f'  <ol class="atoms">\n      {items}\n  </ol>\n'
         '</section>\n')
@@ -241,6 +252,7 @@ def answers_section(u):
     numbered = []
     for f in u['families']:
         numbered += f['atoms']
+    numbered += u['spelling']
     for p in u['phrases']:
         numbered += p['atoms']
     for t in u['tricks']:
@@ -272,8 +284,8 @@ def unit_section(u):
         f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2 lang="en">{esc(u["h2"])}<small>{esc(u["zh"])}</small></h2>\n'
         '</header>\n\n')
-    body = (freq_section(u) + '\n' + family_section(u) + '\n' + phrase_section(u) + '\n'
-            + quiz_section(u) + '\n' + answers_section(u))
+    body = (freq_section(u) + '\n' + family_section(u) + '\n' + spelling_section(u) + '\n'
+            + phrase_section(u) + '\n' + quiz_section(u) + '\n' + answers_section(u))
     return head + body + '\n</section>\n'
 
 
@@ -291,10 +303,12 @@ def validate(S):
             if len(g.split('<br>')) > 2:
                 errs.append(f'{u["data_no"]} {tag} 柱注超过 2 行：{g}')
         for f in u['families']:
-            if len(f['atoms']) > 2:
-                errs.append(f'{u["data_no"]} 词族题超过 2 道')
             if len(f['chain']) > 4:
                 errs.append(f'{u["data_no"]} 词族链超过 4 个形式')
+        if not 6 <= len(u['spelling']) <= 8:
+            errs.append(f'{u["data_no"]} 单词拼写题数不在 6–8')
+        if len({a['提示词'] or a['题干'] for a in u['spelling']}) != len(u['spelling']):
+            errs.append(f'{u["data_no"]} 单词拼写有重复的题')
         if len(u['phrases']) > 6:
             errs.append(f'{u["data_no"]} 短语超过 6 条')
         if not 1 <= len(u['tricks']) <= 4:
@@ -312,7 +326,7 @@ def validate(S):
         if len(u['quiz']) > 8:
             errs.append(f'{u["data_no"]} 小测超过 8 道')
         nos = sorted(a['no'] for a in
-                     [a for f in u['families'] for a in f['atoms']] +
+                     [a for f in u['families'] for a in f['atoms']] + u['spelling'] +
                      [a for p in u['phrases'] for a in p['atoms']] +
                      [a for t in u['tricks'] for a in t['atoms']] + u['quiz'])
         if nos != list(range(1, len(nos) + 1)):

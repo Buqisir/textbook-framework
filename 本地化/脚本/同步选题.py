@@ -5,16 +5,21 @@
 输入：本地化/数据/题库.jsonl、题-单元.jsonl、单元.json、词族索引.json、待校对.tsv（只读）
 输出：本地化/内容/同步-必修一-W-U2.json（候选骨架：自动部分已填，人工部分留空）
 
-结构：① 考情（统计）→ ③ 短语（前半）→ ② 词性转换 → ③ 句式转换（后半）→ ⑤ 单元小测（④ 已删）。
-③ 句式的题由 TRICK_PICKS 人工挑选（题干带改写指令的东莞原题），脚本只校验，不替人选。
-③ 前半的短语题跳过改写题，改写题只进句式块。
+结构：① 考情（统计）→ ② 词性转换 → ③ 单词拼写 → ④ 短语与句式转换（前半短语、后半句式）→ ⑤ 单元小测。
+④ 句式的题由 TRICK_PICKS 人工挑选（题干带改写指令的东莞原题），脚本只校验，不替人选。
+④ 前半的短语题跳过改写题，改写题只进句式块。
 
-收录规则（按「是否考过」收，不按名次截）：
-- ① 考情：本单元所有考过的词，全部进表，按题数降序、再按词头排序。
-- ② 词性转换：① 中考法含「词性转换」、且能选出至少 1 道「词性转换 + 提示词」题的词，全部收录，不设上限。
-  每词 1–2 题：新题（年份新）优先，两题尽量考不同形式；题不与本单元或全书已用的题重复。
-  题数降序排列；只考过 1 次的词就 1 题。
-- 选题顺序：③ 短语先取题，② 只拿剩下的，⑤ 小测最后取余量。③ 与 ⑤ 的题因此不受 ② 增减影响。
+收录规则（2026-11-05 所有者定）：
+- ① 考情：本单元所有考过的词（高一），全部进表，按题数降序、再按词头排序。
+- ② 词性转换：只补「新形式」。候选 = 考法为「词性转换」、命中本单元、讲义里还没用过的题（高一、高二均可）。
+  答案形式与词族里已有的形式相同的，一律不加；同一新形式有多道题时取年份最新的一道（同年高一优先）。
+  新形式的题加进对应词族（已有词族追加；没有的按词族新建）。词族链只补新形式（hit=True）。
+  已有词族的 atoms 从定稿读取，本脚本只输出新增的题，见 families 字段。
+- ③ 单词拼写：题型为「单词拼写」、带中文提示、命中本单元、讲义其他位置未用过的题（高一、高二均可）。
+  每单元 6–8 道，每词一道；词按考情表频次降序；同词取年份最新，同年高一优先。
+- ⑤ 单元小测：沿用定稿里已定的题（不随 ② ③ 增减变动）；定稿不存在时才按剩余题取。
+- 选题顺序：④ 短语先取题，② 只拿剩下的，③ 再拿，⑤ 小测不变。④ 的题因此不受 ② ③ 增减影响。
+- 待校对.tsv 中的题默认排除。CHECKED_OK 列出的题已核对解析与答案无误，允许进入（见下）。
 
 规则见 AGENTS.md「选题规则」。仅使用标准库，结果确定。
 
@@ -53,6 +58,13 @@ TRICK_PICKS = {
         ('动词改短语', ['050-29'])],
 }
 REWRITE_RE = re.compile(r'同义|改写|合并|转换|用.*翻译|句型')
+
+# 待校对.tsv 里的题，经核对解析与答案无误，允许进入选题（2026-11-05 负责人审校前核过）。
+# 087-10 organisations（英式拼写，与题干 organise 一致）；101-12 accommodation（住宿义不可数，复数亦可）；
+# 143-16 Amazingly（句首副词，首字母大写）；107-19 brochures（For more 后用复数，解析一致）。核对后可从 待校对.tsv 移除，并删去此处。
+CHECKED_OK = {'087-10', '101-12', '143-16', '107-19'}
+CN_HINT_RE = re.compile(r'[（(][^（）()]*[一-鿿][^（）()]*[）)]')
+PREV = ROOT / '本地化' / '内容' / '同步-必修一-W-U2.定稿.json'
 
 TYPE_ORDER = ['语法填空', '完成句子', '单词拼写', '翻译', '单选', '其他']
 KAOFA_LABEL = {'词性转换': '词性转换', '动词形式': '动词形式', '名词复数': '复数'}
@@ -241,16 +253,20 @@ def main():
     owner = {w: min(s) for w, s in owner_seqs.items()}
 
     # ---- 3. 有效题：排除标记、解析为 null、待校对
-    def valid(q):
+    def valid(q, hi=False):
+        """hi=False：考情与 ③④⑤ 用的池（高一）；hi=True：② ③ 单词与词族新形式另可用高二题。"""
         marks = set(q.get('标记') or [])
         if marks & {'疑似非单句题', '题型存疑'}:
             return False
         if q.get('解析') is None:
             return False
-        if q['id'] in checked:
+        if q['id'] in checked and q['id'] not in CHECKED_OK:
             return False
         seg = (q.get('标签') or '').split(' · ')[-1]
-        if '高一' not in seg or '高二' in seg:
+        if hi:
+            if '高一' not in seg and '高二' not in seg:
+                return False
+        elif '高一' not in seg or '高二' in seg:
             return False
         if re.search(r'划线|画线|下划线', q.get('题干') or ''):
             return False
@@ -305,6 +321,85 @@ def main():
             stem_best[k] = qid
     pool_ids = set(stem_best.values())
     pool = {qid: cand[qid] for qid in pool_ids}
+
+    # ---- 4b. ② 新形式与 ③ 单词拼写的候选池：高一、高二均可，重复组与题干去重（同上，年份最新优先）
+    cand_hi = {}
+    for qid, q in Q.items():
+        if not valid(q, hi=True):
+            continue
+        hits = []
+        for h in U[qid]['命中']:
+            if not ok_hit(h):
+                continue
+            if h['方式'] in ('提示词', '答案') and not SINGLE_RE.fullmatch(h['词头']):
+                continue
+            if h['序'] in ORDER and owner.get(h['词头']) == h['序']:
+                hits.append(h)
+        if hits:
+            cand_hi[qid] = (q, hits)
+    hi_groups = collections.defaultdict(list)
+    for qid in cand_hi:
+        g = Q[qid].get('重复组')
+        if g is not None:
+            hi_groups[g].append(qid)
+    hi_drop = set()
+    for g, ids in hi_groups.items():
+        best = ids[0]
+        for i in ids[1:]:
+            best = newest(best, i)
+        hi_drop.update(i for i in ids if i != best)
+    hi_stem = {}
+    for qid in cand_hi:
+        if qid in hi_drop:
+            continue
+        k = norm_key(clean_stem(Q[qid]['题干']))
+        hi_stem[k] = newest(hi_stem[k], qid) if k in hi_stem else qid
+    hi_reps = set(hi_stem.values())
+
+    def fresh_hi(already):
+        """② ③ 可用的候选：去掉已用题、与已用题同重复组或同题干的题。"""
+        ug = {Q[i].get('重复组') for i in already} - {None}
+        us = {norm_key(clean_stem(Q[i]['题干'])) for i in already}
+        return [i for i in hi_reps
+                if i not in already and Q[i].get('重复组') not in ug
+                and norm_key(clean_stem(Q[i]['题干'])) not in us]
+
+    def is_gaoyi(q):
+        return '高一' in ((q.get('标签') or '').split(' · ')[-1])
+
+    def prefer_key(qid):
+        """同条件取舍：年份新优先；同年高一优先；再按题号。"""
+        return (Q[qid]['年份'] or 0, 1 if is_gaoyi(Q[qid]) else 0, qid)
+
+    prev = json.loads(PREV.read_text(encoding='utf-8')) if PREV.exists() else None
+    prev_units = {u['序']: u for u in prev['单元']} if prev else {}
+    prev_all_ids = set()
+    if prev:
+        def _walk(n):
+            if isinstance(n, dict):
+                if 'id' in n:
+                    prev_all_ids.add(n['id'])
+                for v in n.values():
+                    _walk(v)
+            elif isinstance(n, list):
+                for v in n:
+                    _walk(v)
+        _walk(prev)
+
+    def form_for(qid, w, seq):
+        """题在词族 w 下的答案形式（与 form_of 同口径）。"""
+        hits = [h for h in U[qid]['命中'] if h['词头'] == w and h['序'] == seq] or \
+               [{'方式': '答案', '词头': w, '证据': ''}]
+        return form_of(hits[0], Q[qid])
+
+    def prev_family_forms(seq, w):
+        pu = prev_units.get(seq)
+        if not pu:
+            return set()
+        for f in pu['families']:
+            if f['词头'] == w:
+                return {form_for(a['id'], w, seq) for a in f['atoms']}
+        return set()
     # ---- 6. ③ 句式：人工挑选的改写题须在有效池内（去重后的代表题）、题干带改写指令、命中本单元
     trick_ids = set()
     for seq, blocks in TRICK_PICKS.items():
@@ -417,51 +512,41 @@ def main():
                 used.add(qid)
             phrases.append({'短语': phrase, '释义': phrase_zh.get(phrase, ''), '词头': w,
                             'atoms': [build_atom(Q[qid]) for qid in pick], 'gloss': ''})
-        # 单词拼写题：有对应短语（同词头）则并入该条，否则放到 ⑤
-        for p in phrases:
-            head_w = p['词头']
-            for qid, h in heads.get(head_w, []):
-                if len(p['atoms']) >= 2:
-                    break
-                if qid in used or Q[qid]['题型'] != '单词拼写':
+        # ② 词性转换：只补新形式。答案形式在词族里已有的不加；同一新形式取 prefer_key 最大的一道。
+        fresh = fresh_hi(used | prev_all_ids)
+        new_forms = collections.defaultdict(dict)   # 词头 → {形式: qid}
+        for qid in fresh:
+            q = Q[qid]
+            if U[qid].get('考法') != '词性转换':
+                continue
+            for h in cand_hi[qid][1]:
+                if h['序'] != seq or h['方式'] != '提示词':
                     continue
-                used.add(qid)
-                p['atoms'].append(build_atom(Q[qid]))
-
-        # ② 词性转换词族
-        fam_rows = [r for r in freq_rows if '词性转换' in r['考法']]
-        fam_rows.sort(key=lambda r: (-r['题数'], r['词头']))
+                w = h['词头']
+                f = form_of(h, q)
+                if not f or f in prev_family_forms(seq, w):
+                    continue
+                cur = new_forms[w].get(f)
+                if cur is None or prefer_key(qid) > prefer_key(cur):
+                    new_forms[w][f] = qid
         families = []
+        fam_rows = [r for r in freq_rows if r['词头'] in new_forms]   # 考情表里有该词头的才入词族
+        fam_rows.sort(key=lambda r: (-r['题数'], r['词头']))
+        for w in new_forms:
+            if w not in {r['词头'] for r in fam_rows}:
+                report[seq].append(('新形式词头不在考情表（未入选）', w))
         for r in fam_rows:
             w = r['词头']
-            cands = []
-            for qid, h in qs_for(w):
-                if qid in used or U[qid].get('考法') != '词性转换' or h['方式'] != '提示词':
-                    continue
-                cands.append((qid, form_of(h, Q[qid])))
-            if not cands:
-                continue
-            cands.sort(key=lambda x: (-(Q[x[0]]['年份'] or 0), x[0]))
-            pick = [cands[0]]
-            for c in cands[1:]:
-                if len(pick) == 2:
-                    break
-                if c[1] != pick[0][1]:
-                    pick.append(c)
-                    break
-            for c in cands:
-                if len(pick) == 2:
-                    break
-                if c not in pick:
-                    pick.append(c)
-            pick = pick[:2]
-            for qid, _ in pick:
+            picks = sorted(new_forms[w].values(), key=prefer_key, reverse=True)
+            for qid in picks:
                 used.add(qid)
-            # 词族链：只认词性转换题里考过的形式
+            # 词族链：词性转换题里考过的形式（高一池）＋本次新增的形式
             chain_forms = collections.Counter()
             for qid, h in lst_all_for(w):
                 if U[qid].get('考法') == '词性转换' and h['方式'] == '提示词':
                     chain_forms[form_of(h, Q[qid])] += 1
+            for qid in picks:
+                chain_forms[form_for(qid, w, seq)] += 1
             base = vocab.get(w)
             chain = []
             if base:
@@ -498,9 +583,35 @@ def main():
                 '词头': w,
                 '题数': r['题数'],
                 'chain': chain,
-                'atoms': [build_atom(Q[qid]) for qid, _ in pick],
+                'atoms': [build_atom(Q[qid]) for qid in picks],
                 'gloss': '',
             })
+
+        # ③ 单词拼写：题型为单词拼写、带中文提示、命中本单元，讲义其他位置未用过。
+        # 每词一道；词按考情表频次降序；同词取 prefer_key 最大（年份新，同年高一优先）；6–8 道。
+        fresh = fresh_hi(used | prev_all_ids)
+        freq_map = {r['词头']: r['题数'] for r in freq_rows}
+        sp_words = collections.defaultdict(list)
+        for qid in fresh:
+            q = Q[qid]
+            if q['题型'] != '单词拼写' or ('疑似拼写错' in (q.get('标记') or []) and qid not in CHECKED_OK):
+                continue
+            stem = clean_stem(q['题干'])
+            if len(BLANK_RE.findall(stem)) != 1 or not CN_HINT_RE.search(stem):
+                continue
+            for w in {h['词头'] for h in cand_hi[qid][1] if h['序'] == seq}:
+                sp_words[w].append(qid)
+        spelling = []
+        for w in sorted(sp_words, key=lambda w: (-freq_map.get(w, 0), w)):
+            if len(spelling) == 8:
+                break
+            for qid in sorted(sp_words[w], key=prefer_key, reverse=True):
+                if qid not in used:
+                    spelling.append(qid)
+                    used.add(qid)
+                    break
+        if len(spelling) < 6:
+            report[seq].append(('单词拼写不足 6 道', len(spelling)))
 
         # ③ 后半：句式块（题在 TRICK_PICKS 里人工挑定）
         tricks = [{'句式': name, 'gloss': '', 'formula': '',
@@ -517,7 +628,11 @@ def main():
         for t in leftovers:
             leftovers[t] = sorted(set(leftovers[t]), key=lambda i: (-(Q[i]['年份'] or 0), i))
         quiz = []
-        types = [t for t in TYPE_ORDER if leftovers.get(t)]
+        types = [t for t in TYPE_ORDER if leftovers.get(t)] if not prev_units.get(seq) else []
+        if prev_units.get(seq):
+            quiz = [a['id'] for a in prev_units[seq]['quiz']]
+            for qid in quiz:
+                used.add(qid)
         while len(quiz) < 8 and any(leftovers[t] for t in types):
             for t in types:
                 if len(quiz) == 8:
@@ -545,18 +660,22 @@ def main():
                       '句式题数': sum(len(t['atoms']) for t in tricks)},
             'freq': freq_rows,
             'families': families,
+            'spelling': [build_atom(Q[qid]) for qid in spelling],
             'phrases': phrases,
             'tricks': tricks,
             'quiz': [build_atom(Q[qid]) for qid in quiz],
         })
 
-    # 编号：每单元内 ② ③（短语、句式）⑤ 连续编号；答案同号
+    # 编号：每单元内 ② ③ ④（短语、句式）⑤ 连续编号；答案同号
     for u in skeleton['单元']:
         n = 0
         for fam in u['families']:
             for a in fam['atoms']:
                 n += 1
                 a['no'] = n
+        for a in u['spelling']:
+            n += 1
+            a['no'] = n
         for ph in u['phrases']:
             for a in ph['atoms']:
                 n += 1
