@@ -5,13 +5,23 @@
 用法（仓库根目录）：
     python3 -I 本地化/脚本/题库.py
 
-输入：语料/东莞单句语法/*.md（168 个文件，其中 5 个为空）；语料/狂K重点/*.md（只读，用于拼写校对）。
+输入：语料/东莞单句语法/*.md；语料/狂K重点/*.md（只读，用于拼写校对）；本地化/数据/卷号.json（卷号登记表，读写）。
 输出：
     本地化/数据/题库.jsonl      每行一道题
     本地化/数据/学校简称.json   文件名中的学校全称 → 简称（含「（文件名无学校名）」→「东莞市」）
     本地化/数据/待校对.tsv      答案疑似拼写错的题（id、答案、提示词、题干）
+    本地化/数据/卷号.json       卷号登记表（只在内容变化时写回；新文件登记后会写入）
 
-只用标准库；同样的输入得到同样的输出（文件按文件名排序编号，题按原文顺序，组号按首次出现顺序）。
+只用标准库；同样的输入得到同样的输出（题按原文顺序，组号按首次出现顺序）。
+
+[题号与卷号]
+  题号 = 卷号（三位）-原卷题号（两位），如 005-15。卷号不再由排序序号现算，而是登记在 卷号.json：
+    · 已登记的文件：用登记号。
+    · 新文件（登记表里没有）：按文件名排序，依次取「当前最大号 + 1」，写回登记表。
+    · 已登记、但文件已不存在：号保留，不复用、不删除。
+  这样删除或新增语料文件时，其他卷的题号不变；定稿、选题结果里引用的题号才不会失效。
+  卷号.json 的种子 = 2026-11-05 之前按文件名排序 enumerate 得到的序号（保证当时的题号一个不变）。
+  「说明」字段随文件保留，脚本不改写。
 
 ================ 判定规则 ================
 
@@ -82,6 +92,10 @@ ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 SRC_DIR = os.path.join(ROOT, '语料', '东莞单句语法')
 KH_DIR = os.path.join(ROOT, '语料', '狂K重点')
 OUT_DIR = os.path.join(ROOT, '本地化', '数据')
+VOL_PATH = os.path.join(OUT_DIR, '卷号.json')
+VOL_NOTE = ('题号前三位为卷号，按文件名登记（规则见 题库.py docstring 的「题号与卷号」）。'
+            '种子 = 2026-11-05 之前按文件名排序的序号；语料清洗前已删除的文件不在表中，其原号不再可考。'
+            '文件删除后号保留、不复用。')
 
 # ---------------------------------------------------------------- 常量
 
@@ -490,6 +504,47 @@ def load_known_words(stems_text):
 # ---------------------------------------------------------------- 主流程
 
 
+def load_volumes():
+    """读 卷号.json → (登记表 {文件名: 号}, 说明)。文件不存在时为空表。"""
+    if not os.path.exists(VOL_PATH):
+        return {}, VOL_NOTE
+    with open(VOL_PATH, encoding='utf-8') as f:
+        obj = json.load(f)
+    reg = {fn: int(n) for fn, n in obj.get('卷号', {}).items()}
+    dup = sorted(n for n, c in Counter(reg.values()).items() if c > 1)
+    if dup:
+        sys.exit(f'卷号.json 有重复的号 {dup}，请人工修正后再运行')
+    return reg, obj.get('说明', VOL_NOTE)
+
+
+def assign_volumes(files, reg):
+    """files：当前语料的 .md 文件名（已排序）。返回 (本次文件名 → 号, 新登记表)。
+    已登记的用登记号；新文件按「登记表最大号 + 1」依次登记（登记表含已删除文件的号，号不复用）。"""
+    new = dict(reg)
+    nxt = max(reg.values(), default=0) + 1
+    for fn in files:
+        if fn not in new:
+            new[fn] = nxt
+            nxt += 1
+    return {fn: new[fn] for fn in files}, new
+
+
+def write_volumes(reg, note):
+    """写回 卷号.json；内容与现有文件逐字相同则不写。返回是否写入。"""
+    obj = {'卷号': {fn: reg[fn] for fn in sorted(reg, key=lambda k: (reg[k], k))}, '说明': note}
+    text = json.dumps(obj, ensure_ascii=False, indent=2) + '\n'
+    old = None
+    if os.path.exists(VOL_PATH):
+        with open(VOL_PATH, encoding='utf-8') as f:
+            old = f.read()
+    if old == text:
+        return False
+    os.makedirs(OUT_DIR, exist_ok=True)
+    with open(VOL_PATH, 'w', encoding='utf-8', newline='\n') as f:
+        f.write(text)
+    return True
+
+
 def norm_key(stem_text):
     s = stem_text.replace('___', 'BLANKX').lower()
     out = []
@@ -502,13 +557,16 @@ def norm_key(stem_text):
 
 def main():
     files = sorted(f for f in os.listdir(SRC_DIR) if f.endswith('.md'))
+    reg, note = load_volumes()
+    vol_of, reg_new = assign_volumes(files, reg)
     records = []
     school_used = OrderedDict()
     all_stem_text = []
     per_file_meta = {}
     empty_files = []
 
-    for fi, fn in enumerate(files, 1):
+    for fn in files:
+        fi = vol_of[fn]
         meta = file_meta(fn)
         per_file_meta[fn] = meta
         for full in meta['学校全称']:
@@ -618,12 +676,16 @@ def main():
             ans_one = row['答案'].replace('\t', ' ')
             f.write(f"{row['id']}\t{ans_one}\t{row['提示词'] or ''}\t{stem_one}\n")
 
+    vol_written = write_volumes(reg_new, note)
+
     summary = {
         'files': len(files),
         'empty_files': empty_files,
         'questions': len(rows),
         'typo_rows': len(typo_rows),
         'groups': next_gid - 1,
+        '卷号新增': len(reg_new) - len(reg),
+        '卷号写回': vol_written,
     }
     print(json.dumps(summary, ensure_ascii=False))
 
