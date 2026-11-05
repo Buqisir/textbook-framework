@@ -295,101 +295,22 @@
       "keypoint": "句中已有谓语且无连词时，空处多为非谓语作状语或定语；空前是 to 或介词，按搭配选形式。主动用 -ing 或 to 原形，被动用 -ed 或 to be done。",
       "drill": [
         {
-          "stem": "Efforts are required ___ (narrow) the distance between scientific ideas and real-life use.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高一上期中",
-          "ans": "to narrow",
-          "why": "be required to do"
-        },
-        {
-          "stem": "He spends a lot of time ___ (revise) his notes to ensure he understands everything.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高一上期中",
-          "ans": "revising",
-          "why": "spend time doing sth.。"
-        },
-        {
           "stem": "I was at a disadvantage ___ (compare) to the younger members of the team.",
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "compared",
-          "why": "过去分词作后置状语，表比较"
-        },
-        {
-          "stem": "I would stay at home rather than go out on weekends.\n=I ___ at home ___ out on weekends.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 松山湖未来学校 · 高一上期中",
-          "ans": "prefer staying / to going",
-          "why": "prefer doing to doing"
-        },
-        {
-          "stem": "I’m ___ (盼望收到来信) from you at your earliest convenience.",
-          "cue": [],
-          "src": "2024 · 松山湖未来学校 · 高一上期中",
-          "ans": "looking forward to hearing",
-          "why": "look forward to 后接 doing"
-        },
-        {
-          "stem": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "looking forward to reading",
-          "why": "look forward to 的 to 是介词"
-        },
-        {
-          "stem": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
-          "cue": [],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "taking control of",
-          "why": "动名词短语作主语"
-        },
-        {
-          "stem": "Blue collar jobs is a term ___ (追溯到) the 1920s.",
-          "cue": [],
-          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "dating back to",
-          "why": "现在分词作后置定语，主动关系"
+          "why": "过去分词作后置状语，表比较",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "___ (compare) to our small apartment,our uncle’s house seemed like a palace.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "Compared",
-          "why": "compared to 作状语，主语是被比较的对象"
-        },
-        {
-          "stem": "___ (和……相比) the original, the copy looks no difference.",
-          "cue": [],
-          "src": "2023 · 东华高级中学 · 高一上期中",
-          "ans": "Compared to",
-          "why": "compare to 作状语"
-        },
-        {
-          "stem": "When the teacher was standing outside the classroom, he pretended ___ (listen) carefully.",
-          "cue": [],
-          "src": "2023 · 东莞外国语学校 · 高一上期中",
-          "ans": "to be listening",
-          "why": "pretend to 后接不定式，表正在做"
-        },
-        {
-          "stem": "The students are expecting the Art Festival to be held next week.\nThe students are ___ the Art Festival to be held next week.",
-          "cue": [
-            "同义句改写"
-          ],
-          "src": "2023 · 东莞外国语学校 · 高一上期中",
-          "ans": "looking forward to",
-          "why": "look forward to 后接 doing"
-        },
-        {
-          "stem": "The boy ___ (假装在睡觉) when his mother came into the bedroom.",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "pretended to be sleeping",
-          "why": "pretend to 后接不定式，表正在做"
+          "why": "compared to 作状语，主语是被比较的对象",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "Because he buried himself in his book, he was not aware it was raining outside.",
@@ -399,7 +320,9 @@
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "Burying himself in his book, he was not aware it was raining outside.",
           "why": "从句主语与主句一致，改 -ing 短语。",
-          "long": true
+          "long": true,
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "She got up early this morning so that she could get to school on time.\nShe got up early this morning ___ to school on time.",
@@ -408,21 +331,27 @@
           ],
           "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "in order to get",
-          "why": "不定式短语作目的状语"
+          "why": "不定式短语作目的状语",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "She had to walk home with her bike ___ (steal).",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "stolen",
-          "why": "with + 名词 + 过去分词（被偷）。"
+          "why": "with + 名词 + 过去分词（被偷）。",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "She would open a book, ___ (假装) to read, with tears dropping on the open page.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "pretending",
-          "why": "分词作状语，表伴随动作"
+          "why": "分词作状语，表伴随动作",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "看到那些画，她想起了自己的童年。 → ___, she remembered her childhood.",
@@ -432,42 +361,186 @@
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Seeing the pictures, she remembered her childhood.",
           "why": "she 与 see 是主动关系，用 -ing。",
-          "long": true
+          "long": true,
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "___ (bury) myself in my book, I didn’t realize it was raining.",
           "cue": [],
           "src": "2022 · 东华松山湖高级中学 · 高一上期中",
           "ans": "Burying",
-          "why": "bury oneself 分词作状语，主动关系"
+          "why": "bury oneself 分词作状语，主动关系",
+          "group": "作状语",
+          "level": "必练"
         },
         {
           "stem": "My own problems seem less significant ___ (与……比较) other people’s.",
           "cue": [],
           "src": "2022 · 东华松山湖高级中学 · 高一上期中",
           "ans": "compared with",
-          "why": "过去分词作后置状语"
+          "why": "过去分词作后置状语",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "Please take notes while ___ ( listen) to the teacher.",
+          "cue": [],
+          "src": "2020 · 东华高级中学 · 高一上期中",
+          "ans": "listening",
+          "why": "while + doing 作时间状语",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (和……相比) the original, the copy looks no difference.",
+          "cue": [],
+          "src": "2023 · 东华高级中学 · 高一上期中",
+          "ans": "Compared to",
+          "why": "compare to 作状语",
+          "group": "作状语",
+          "level": "选练"
         },
         {
           "stem": "The new teaching building is big and well-equipped, ___ (compare) with the old one.",
           "cue": [],
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "compared",
-          "why": "分词作状语，与主语是被动关系"
+          "why": "分词作状语，与主语是被动关系",
+          "group": "作状语",
+          "level": "选练"
         },
         {
           "stem": "___ ( compare) with other sports, basketball features more continuous action.",
           "cue": [],
           "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "Compared",
-          "why": "分词作状语，与主语是被动关系"
+          "why": "分词作状语，与主语是被动关系",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "与音乐和绘画这些艺术形式相比，广受欢迎的电影的历史相对短一些。\n___ such art forms as music and paintings, film, ___ enjoys great popularity, has a much shorter history.",
+          "cue": [],
+          "src": "2021 · 东华高级中学 · 高一上期中",
+          "ans": "Compared to / which",
+          "why": "compared to 作状语，which 引导定语从句",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "Efforts are required ___ (narrow) the distance between scientific ideas and real-life use.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一上期中",
+          "ans": "to narrow",
+          "why": "be required to do",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "He spends a lot of time ___ (revise) his notes to ensure he understands everything.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一上期中",
+          "ans": "revising",
+          "why": "spend time doing sth.。",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "I would stay at home rather than go out on weekends.\n=I ___ at home ___ out on weekends.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2024 · 松山湖未来学校 · 高一上期中",
+          "ans": "prefer staying / to going",
+          "why": "prefer doing to doing",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "I’m ___ (盼望收到来信) from you at your earliest convenience.",
+          "cue": [],
+          "src": "2024 · 松山湖未来学校 · 高一上期中",
+          "ans": "looking forward to hearing",
+          "why": "look forward to 后接 doing",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
+          "ans": "looking forward to reading",
+          "why": "look forward to 的 to 是介词",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "When the teacher was standing outside the classroom, he pretended ___ (listen) carefully.",
+          "cue": [],
+          "src": "2023 · 东莞外国语学校 · 高一上期中",
+          "ans": "to be listening",
+          "why": "pretend to 后接不定式，表正在做",
+          "group": "作宾语与搭配",
+          "level": "必练"
         },
         {
           "stem": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
           "cue": [],
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "taking",
-          "why": "recommend 后接 doing"
+          "why": "recommend 后接 doing",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "This book is definitely worth ___ (read).",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "reading",
+          "why": "be worth doing，用 -ing。",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "Laziness leads to ___ (fail) the exam.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "failing",
+          "why": "lead to 后接 doing",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "He struggled with the vocabulary and attempted ___ (memorize) as many words as possible.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "to memorize",
+          "why": "attempt to do",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "The students are expecting the Art Festival to be held next week.\nThe students are ___ the Art Festival to be held next week.",
+          "cue": [
+            "同义句改写"
+          ],
+          "src": "2023 · 东莞外国语学校 · 高一上期中",
+          "ans": "looking forward to",
+          "why": "look forward to 后接 doing",
+          "group": "作宾语与搭配",
+          "level": "选练"
+        },
+        {
+          "stem": "The boy ___ (假装在睡觉) when his mother came into the bedroom.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "pretended to be sleeping",
+          "why": "pretend to 后接不定式，表正在做",
+          "group": "作宾语与搭配",
+          "level": "选练"
         },
         {
           "stem": "It took him a whole day to explore the old part of town.\nHe ___ a whole day ___ the old part of town.",
@@ -476,84 +549,81 @@
           ],
           "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "spent / exploring",
-          "why": "spend 时间 doing"
-        },
-        {
-          "stem": "This book is definitely worth ___ (read).",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "reading",
-          "why": "be worth doing，用 -ing。"
-        },
-        {
-          "stem": "Laziness leads to ___ (fail) the exam.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "failing",
-          "why": "lead to 后接 doing"
-        },
-        {
-          "stem": "He struggled with the vocabulary and attempted ___ (memorize) as many words as possible.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "to memorize",
-          "why": "attempt to do"
+          "why": "spend 时间 doing",
+          "group": "作宾语与搭配",
+          "level": "选练"
         },
         {
           "stem": "Sometimes the little boy pretended ___ (read) a book on the sofa to make his parents praise him.",
           "cue": [],
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "to read",
-          "why": "pretend 后接不定式作宾语。"
+          "why": "pretend 后接不定式作宾语。",
+          "group": "作宾语与搭配",
+          "level": "选练"
+        },
+        {
+          "stem": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
+          "cue": [],
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
+          "ans": "taking control of",
+          "why": "动名词短语作主语",
+          "group": "作主语",
+          "level": "必练"
         },
         {
           "stem": "大声朗读对学习一门外语很重要。(动名词作主语)",
           "cue": [],
           "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "Reading aloud is very important for learning a foreign language.",
-          "why": "动名词短语作主语，谓语单数"
-        },
-        {
-          "stem": "This is an old building ___ (追溯到) the 14th century.",
-          "cue": [],
-          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
-          "ans": "dating back to",
-          "why": "现在分词作后置定语，主动关系"
-        },
-        {
-          "stem": "There has been a couple of young man and woman ___ (argue) in the street.",
-          "cue": [],
-          "src": "2022 · 东莞外国语学校 · 高一上期中",
-          "ans": "arguing",
-          "why": "现在分词作后置定语，表主动或进行"
-        },
-        {
-          "stem": "Those who dare to try often get themselves ___ (被困住).",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "trapped",
-          "why": "get oneself done，宾补用过去分词"
-        },
-        {
-          "stem": "与音乐和绘画这些艺术形式相比，广受欢迎的电影的历史相对短一些。\n___ such art forms as music and paintings, film, ___ enjoys great popularity, has a much shorter history.",
-          "cue": [],
-          "src": "2021 · 东华高级中学 · 高一上期中",
-          "ans": "Compared to / which",
-          "why": "compared to 作状语，which 引导定语从句"
+          "why": "动名词短语作主语，谓语单数",
+          "group": "作主语",
+          "level": "必练"
         },
         {
           "stem": "对于很多父母来说在工作和生活之间保持平衡是一个很大的挑战。\n___ between work and family can be a big challenge for many parents.",
           "cue": [],
           "src": "2021 · 东华高级中学 · 高一上期中",
           "ans": "Keeping a balance",
-          "why": "keep a balance 的动名词作主语"
+          "why": "keep a balance 的动名词作主语",
+          "group": "作主语",
+          "level": "必练"
         },
         {
-          "stem": "Please take notes while ___ ( listen) to the teacher.",
+          "stem": "Blue collar jobs is a term ___ (追溯到) the 1920s.",
           "cue": [],
-          "src": "2020 · 东华高级中学 · 高一上期中",
-          "ans": "listening",
-          "why": "while + doing 作时间状语"
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "dating back to",
+          "why": "现在分词作后置定语，主动关系",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "This is an old building ___ (追溯到) the 14th century.",
+          "cue": [],
+          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
+          "ans": "dating back to",
+          "why": "现在分词作后置定语，主动关系",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "There has been a couple of young man and woman ___ (argue) in the street.",
+          "cue": [],
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
+          "ans": "arguing",
+          "why": "现在分词作后置定语，表主动或进行",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "Those who dare to try often get themselves ___ (被困住).",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "trapped",
+          "why": "get oneself done，宾补用过去分词",
+          "group": "作宾补",
+          "level": "必练"
         }
       ]
     },
@@ -667,7 +737,110 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高一上期中",
           "ans": "it",
-          "why": "make it a rule that 定为规定"
+          "why": "make it a rule that 定为规定",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "Spending too much time online is unhealthy and makes ___ very difficult to focus on other things in life.",
+          "cue": [],
+          "src": "2024 · 松山湖未来学校 · 高一上期中",
+          "ans": "it",
+          "why": "make it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "You might find ___ relaxing to bring your small kid to a half-hour Story Time while you sit quietly in a corner with a good book.",
+          "cue": [],
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
+          "ans": "it",
+          "why": "find it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "The damaged roads made ___ difficult to deliver food and supplies to those in need.",
+          "cue": [],
+          "src": "2023 · 东莞第十中学 · 高一上期中",
+          "ans": "it",
+          "why": "make it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "The research reveals that teenagers find ___ difficult to concentrate on their study after playing mobile games continuously for an hour.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "it",
+          "why": "find it + adj. + to do 为固定结构。",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "I find to study English interesting.\nI ___ to study English.",
+          "cue": [
+            "形式宾语改写"
+          ],
+          "src": "2022 · 翰林高级中学 · 高一上期中",
+          "ans": "find it interesting",
+          "why": "find it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "The little boy found ___ very interesting to study English.",
+          "cue": [],
+          "src": "2022 · 东莞第五高级中学 · 高一上期中",
+          "ans": "it",
+          "why": "find it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "I’d ___ (我将感激不尽) if you let me know whether you are available or not ahead of time.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "appreciate it",
+          "why": "appreciate it if 句型",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "We consider ___ important to save both water and electricity.",
+          "cue": [],
+          "src": "2022 · 东莞市 · 高一上期中",
+          "ans": "it",
+          "why": "consider it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "Emergency and foreign aid was organized, but damaged roads would make ___ difficult to deliver goods and supplies.",
+          "cue": [],
+          "src": "2022 · 东莞实验中学 · 高一上期中",
+          "ans": "it",
+          "why": "make it + adj. + to do",
+          "group": "形式宾语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "They want to make ___ clear to the volunteers that the cleaners are responsible for the cleaning work.",
+          "cue": [],
+          "src": "2022 · 翰林高级中学 · 高一上期中",
+          "ans": "it",
+          "why": "make it + adj. + that 从句",
+          "group": "形式宾语 it",
+          "level": "选练"
+        },
+        {
+          "stem": "Our school has made ___ a rule that every student shall wear uniforms at school.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "it",
+          "why": "make it a rule that 定为规定。",
+          "group": "形式宾语 it",
+          "level": "选练"
         },
         {
           "stem": "The package seems to have arrived early this morning.",
@@ -676,21 +849,9 @@
           ],
           "src": "2025 · 东莞市 · 高一上期中",
           "ans": "It seems that",
-          "why": "It seems that 与 seem to 可互换"
-        },
-        {
-          "stem": "Spending too much time online is unhealthy and makes ___ very difficult to focus on other things in life.",
-          "cue": [],
-          "src": "2024 · 松山湖未来学校 · 高一上期中",
-          "ans": "it",
-          "why": "make it + adj. + to do"
-        },
-        {
-          "stem": "You might find ___ relaxing to bring your small kid to a half-hour Story Time while you sit quietly in a corner with a good book.",
-          "cue": [],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "it",
-          "why": "find it + adj. + to do"
+          "why": "It seems that 与 seem to 可互换",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "Going from junior high school to senior high school is a really big challenge.",
@@ -700,21 +861,27 @@
           "src": "2024 · 松山湖未来学校 · 高一上期中",
           "ans": "It is a really big challenge to go from junior high school to senior high school.",
           "why": "长主语后置，to 不定式作真主语。",
-          "long": true
+          "long": true,
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "It’s difficult for us ___ (organize) our ideas at that dangerous time.",
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "to organize",
-          "why": "difficult 接 for sb. to do。"
+          "why": "difficult 接 for sb. to do。",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "With all this noise going on, it’s hard for me ___ (专心读) this article.",
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "to concentrate on reading",
-          "why": "It is adj. for sb. to do"
+          "why": "It is adj. for sb. to do",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "显然，现在越来越多青少年沉迷手机游戏。",
@@ -724,21 +891,9 @@
           "src": "2024 · 东莞第八高级中学 · 高一上期中",
           "ans": "It is obvious that more and more teenagers are addicted to mobile games nowadays.",
           "why": "obvious 接 that 从句。",
-          "long": true
-        },
-        {
-          "stem": "The damaged roads made ___ difficult to deliver food and supplies to those in need.",
-          "cue": [],
-          "src": "2023 · 东莞第十中学 · 高一上期中",
-          "ans": "it",
-          "why": "make it + adj. + to do"
-        },
-        {
-          "stem": "The research reveals that teenagers find ___ difficult to concentrate on their study after playing mobile games continuously for an hour.",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "it",
-          "why": "find it + adj. + to do 为固定结构。"
+          "long": true,
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "对我来说，习惯高中生活不难。",
@@ -746,65 +901,18 @@
           "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "It’s not difficult for me to get used to the life of high school.",
           "why": "也可用 As for me 开头。",
-          "long": true
+          "long": true,
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "___ shocked us that as many as 100 species of fish, some unique to these waters, may have been affected by the pollution.",
           "cue": [],
           "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "It",
-          "why": "It 作形式主语，真主语是 that 从句"
-        },
-        {
-          "stem": "They want to make ___ clear to the volunteers that the cleaners are responsible for the cleaning work.",
-          "cue": [],
-          "src": "2022 · 翰林高级中学 · 高一上期中",
-          "ans": "it",
-          "why": "make it + adj. + that 从句"
-        },
-        {
-          "stem": "I find to study English interesting.\nI ___ to study English.",
-          "cue": [
-            "形式宾语改写"
-          ],
-          "src": "2022 · 翰林高级中学 · 高一上期中",
-          "ans": "find it interesting",
-          "why": "find it + adj. + to do"
-        },
-        {
-          "stem": "The little boy found ___ very interesting to study English.",
-          "cue": [],
-          "src": "2022 · 东莞第五高级中学 · 高一上期中",
-          "ans": "it",
-          "why": "find it + adj. + to do"
-        },
-        {
-          "stem": "Our school has made ___ a rule that every student shall wear uniforms at school.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "it",
-          "why": "make it a rule that 定为规定。"
-        },
-        {
-          "stem": "I’d ___ (我将感激不尽) if you let me know whether you are available or not ahead of time.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "appreciate it",
-          "why": "appreciate it if 句型"
-        },
-        {
-          "stem": "We consider ___ important to save both water and electricity.",
-          "cue": [],
-          "src": "2022 · 东莞市 · 高一上期中",
-          "ans": "it",
-          "why": "consider it + adj. + to do"
-        },
-        {
-          "stem": "Emergency and foreign aid was organized, but damaged roads would make ___ difficult to deliver goods and supplies.",
-          "cue": [],
-          "src": "2022 · 东莞实验中学 · 高一上期中",
-          "ans": "it",
-          "why": "make it + adj. + to do"
+          "why": "It 作形式主语，真主语是 that 从句",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "Obviously, it is a good deed for these teenagers to clean up the greenhouse.\n___ it is a good deed for these teenagers to clean up the greenhouse.",
@@ -813,7 +921,9 @@
           ],
           "src": "2022 · 东华松山湖高级中学 · 高一上期中",
           "ans": "It is obvious that",
-          "why": "It is adj. that 句型"
+          "why": "It is adj. that 句型",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "Obviously, people are living a happy life in this community.\n___ people are living a happy life in this community.",
@@ -822,14 +932,18 @@
           ],
           "src": "2022 · 东莞市 · 高一上期中",
           "ans": "It is obvious that",
-          "why": "It is adj. that 句型"
+          "why": "It is adj. that 句型",
+          "group": "形式主语 It",
+          "level": "必练"
         },
         {
           "stem": "把书和体育用品捐给需要的孩子更有意义。\nIt is more meaningful ___ books and sports goods ___ children in need.",
           "cue": [],
           "src": "2021 · 东华高级中学 · 高一上期中",
           "ans": "to donate / to",
-          "why": "It is adj. to do 句型"
+          "why": "It is adj. to do 句型",
+          "group": "形式主语 It",
+          "level": "必练"
         }
       ]
     },
@@ -938,138 +1052,72 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高一上期中",
           "ans": "which / that",
-          "why": "指物，在从句中作主语。"
+          "why": "指物，在从句中作主语。",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "I live next door to a couple ___ children often make a lot of noise.",
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "whose",
-          "why": "whose 修饰从句主语 children。"
-        },
-        {
-          "stem": "The boss of the company is trying to create an easy atmosphere ___ his employees enjoy their work.",
-          "cue": [],
-          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "where",
-          "why": "先行词 atmosphere 表示环境，用 where"
+          "why": "whose 修饰从句主语 children。",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "The man with ___ you shook hands just now is our headmaster.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "whom",
-          "why": "with 后用 whom，指人。"
-        },
-        {
-          "stem": "This was the very island ___ was bought by a millionaire.",
-          "cue": [],
-          "src": "2023 · 东莞外国语学校 · 高一上期中",
-          "ans": "that",
-          "why": "先行词指物，作主语"
-        },
-        {
-          "stem": "Those ___ houses were damaged in typhoon can fill in this form and apply for financial aid.",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "whose",
-          "why": "whose 修饰 houses，表所属"
-        },
-        {
-          "stem": "Xi’an city ___ used to be the capital of 13 dynasties is developing fast these years.",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "that",
-          "why": "先行词指物，作主语"
+          "why": "with 后用 whom，指人。",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "The Smiths have two children, both of ___ work in New York.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "whom",
-          "why": "both of 后用 whom，指人。"
-        },
-        {
-          "stem": "我永远也不会忘记我们一起在高中读书的日子。",
-          "cue": [
-            "使用定语从句翻译句子"
-          ],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "I’ll never forget the days when we studied together in high school.",
-          "why": "时间先行词用 when 或 in which。",
-          "long": true
+          "why": "both of 后用 whom，指人。",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "The present time is the best gift ___ you can give yourself.",
           "cue": [],
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "that",
-          "why": "先行词是物，作宾语"
+          "why": "先行词是物，作宾语",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "My eldest son, ___ work takes him all over the world, is in New York at the moment.",
           "cue": [],
           "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "whose",
-          "why": "whose 修饰 work，表所属"
-        },
-        {
-          "stem": "He bought a house last week ___ windows are made of wood.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "whose",
-          "why": "whose 修饰 windows，表所属"
-        },
-        {
-          "stem": "I bought an album ___ many post card with beautiful sights were included.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "in which",
-          "why": "介词 + which 表地点"
+          "why": "whose 修饰 work，表所属",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "She has the same fair hair and blue eyes ___ her mother had.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "as",
-          "why": "the same … as 引导定语从句"
-        },
-        {
-          "stem": "Jacob had 13 children, 10 of ___ founded big companies in China.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "whom",
-          "why": "of whom 指人"
+          "why": "the same … as 引导定语从句",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "There was not much ___ we could do when it was raining.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "that",
-          "why": "much 作先行词，用 that"
-        },
-        {
-          "stem": "The passengers and the suitcases ___ were in the waiting room had to wait for another plane.",
-          "cue": [],
-          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
-          "ans": "that",
-          "why": "先行词含物，用 that"
-        },
-        {
-          "stem": "众所周知，千里之行， 始于足下。",
-          "cue": [
-            "用 As的非限制性定语从句翻译"
-          ],
-          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
-          "ans": "As we all know, a journey of a thousand miles begins with a single step.",
-          "why": "as 引导非限制性定语从句"
-        },
-        {
-          "stem": "Houses ___ overlook the lake cost more.",
-          "cue": [],
-          "src": "2022 · 东莞市 · 高一上期中",
-          "ans": "that / which",
-          "why": "先行词是物，作主语"
+          "why": "much 作先行词，用 that",
+          "group": "关系代词",
+          "level": "必练"
         },
         {
           "stem": "只有勇敢面对挑战的人才能成功。",
@@ -1079,14 +1127,110 @@
           "src": "2022 · 东莞市 · 高一上期中",
           "ans": "Only those who face challenges bravely can succeed.",
           "why": "those who 引导定语从句。",
-          "long": true
+          "long": true,
+          "group": "关系代词",
+          "level": "必练"
+        },
+        {
+          "stem": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
+          "cue": [],
+          "src": "2020 · 东华高级中学 · 高一上期中",
+          "ans": "which",
+          "why": "非限定定语从句用 which",
+          "group": "关系代词",
+          "level": "必练"
+        },
+        {
+          "stem": "This was the very island ___ was bought by a millionaire.",
+          "cue": [],
+          "src": "2023 · 东莞外国语学校 · 高一上期中",
+          "ans": "that",
+          "why": "先行词指物，作主语",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "Those ___ houses were damaged in typhoon can fill in this form and apply for financial aid.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "whose",
+          "why": "whose 修饰 houses，表所属",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "Xi’an city ___ used to be the capital of 13 dynasties is developing fast these years.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "that",
+          "why": "先行词指物，作主语",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "He bought a house last week ___ windows are made of wood.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "whose",
+          "why": "whose 修饰 windows，表所属",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "I bought an album ___ many post card with beautiful sights were included.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "in which",
+          "why": "介词 + which 表地点",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "Jacob had 13 children, 10 of ___ founded big companies in China.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "whom",
+          "why": "of whom 指人",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "The passengers and the suitcases ___ were in the waiting room had to wait for another plane.",
+          "cue": [],
+          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
+          "ans": "that",
+          "why": "先行词含物，用 that",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "众所周知，千里之行， 始于足下。",
+          "cue": [
+            "用 As的非限制性定语从句翻译"
+          ],
+          "src": "2022 · 东华松山湖高级中学 · 高一上期中",
+          "ans": "As we all know, a journey of a thousand miles begins with a single step.",
+          "why": "as 引导非限制性定语从句",
+          "group": "关系代词",
+          "level": "选练"
+        },
+        {
+          "stem": "Houses ___ overlook the lake cost more.",
+          "cue": [],
+          "src": "2022 · 东莞市 · 高一上期中",
+          "ans": "that / which",
+          "why": "先行词是物，作主语",
+          "group": "关系代词",
+          "level": "选练"
         },
         {
           "stem": "This was an amazing and rewarding activity of first aid ___ made a deep impression on every student in our grade.",
           "cue": [],
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "which",
-          "why": "先行词指物，作主语"
+          "why": "先行词指物，作主语",
+          "group": "关系代词",
+          "level": "选练"
         },
         {
           "stem": "The boy was rushed to the hospital. The boy’s leg was seriously injured in the accident.",
@@ -1095,7 +1239,9 @@
           ],
           "src": "2022 · 东莞市 · 高一上期中",
           "ans": "The boy whose leg was seriously injured in the accident was rushed to the hospital.",
-          "why": "whose 表所属，两句合为一句"
+          "why": "whose 表所属，两句合为一句",
+          "group": "合并句子",
+          "level": "必练"
         },
         {
           "stem": "The student’s calligraphy work was shown on the blackboard. I know the student.",
@@ -1105,14 +1251,39 @@
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "I know the student whose calligraphy work was shown on the blackboard.",
           "why": "第二句的 calligraphy 所属 student，用 whose。",
-          "long": true
+          "long": true,
+          "group": "合并句子",
+          "level": "必练"
+        },
+        {
+          "stem": "The boss of the company is trying to create an easy atmosphere ___ his employees enjoy their work.",
+          "cue": [],
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "where",
+          "why": "先行词 atmosphere 表示环境，用 where",
+          "group": "关系副词",
+          "level": "必练"
+        },
+        {
+          "stem": "我永远也不会忘记我们一起在高中读书的日子。",
+          "cue": [
+            "使用定语从句翻译句子"
+          ],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "I’ll never forget the days when we studied together in high school.",
+          "why": "时间先行词用 when 或 in which。",
+          "long": true,
+          "group": "关系副词",
+          "level": "必练"
         },
         {
           "stem": "Sales director is a position ___ communication ability is just as important as sales skills.",
           "cue": [],
           "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "where",
-          "why": "地点状语在从句中，用 where。"
+          "why": "地点状语在从句中，用 where。",
+          "group": "关系副词",
+          "level": "必练"
         },
         {
           "stem": "Scientists worked diligently to rescue the bronze object because they wanted to preserve it for the next generation.\nThe reason ___ diligently to rescue the bronze object is that they wanted to preserve it for the next generation.",
@@ -1121,14 +1292,9 @@
           ],
           "src": "2021 · 东华高级中学 · 高一上期中",
           "ans": "why scientists worked",
-          "why": "the reason why 引导定语从句"
-        },
-        {
-          "stem": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
-          "cue": [],
-          "src": "2020 · 东华高级中学 · 高一上期中",
-          "ans": "which",
-          "why": "非限定定语从句用 which"
+          "why": "the reason why 引导定语从句",
+          "group": "关系副词",
+          "level": "必练"
         }
       ]
     },
@@ -1225,7 +1391,9 @@
           ],
           "src": "2025 · 东莞市 · 高一上期中",
           "ans": "It was the flash cards that she used to teach the kids new words last class.",
-          "why": "强调宾语，用 that"
+          "why": "强调宾语，用 that",
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "Mastering enough English wordsmakes you an excellent English learner.",
@@ -1234,7 +1402,9 @@
           ],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "It is mastering enough English words that makes you an excellent English learner.",
-          "why": "强调主语，用 that"
+          "why": "强调主语，用 that",
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "正是在你的帮助下，我的英语口语才取得了这么大的进步。",
@@ -1244,14 +1414,18 @@
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "It is with your help that I have made such great progress in my spoken/oral English.",
           "why": "强调介词短语 with your help。",
-          "long": true
+          "long": true,
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "Remember, whenever you travel abroad, it is your country ___ you are representing.",
           "cue": [],
           "src": "2023 · 东莞第十中学 · 高一上期中",
           "ans": "that",
-          "why": "强调宾语 your country，指物用 that。"
+          "why": "强调宾语 your country，指物用 that。",
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "He didn’t go to school yesterday because he was ill.",
@@ -1260,7 +1434,9 @@
           ],
           "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "It was because he was ill that he didn’t go to school yesterday.",
-          "why": "强调原因状语，用 It was…that"
+          "why": "强调原因状语，用 It was…that",
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "I found this stray cat in the corner of the park.",
@@ -1269,35 +1445,9 @@
           ],
           "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "It was in the corner of the park that I found this stray cat.",
-          "why": "强调地点状语，用 that"
-        },
-        {
-          "stem": "The villagers didn’t realize the earthquake happened until the earth began to shake.",
-          "cue": [
-            "改为强调句，并强调划线部分"
-          ],
-          "src": "2023 · 东莞第十中学 · 高一上期中",
-          "ans": "It was not until the earth began to shake that the villagers realized the earthquake had happened.",
-          "why": "not until 强调句，that 后接原句"
-        },
-        {
-          "stem": "People in modern times didn’t know about the Terracotta statues until 1974. → It was ___ 1974 ___ people in modern times knew about the Terracotta statues.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2023 · 东华高级中学 · 高一上期中",
-          "ans": "not until / that",
-          "why": "not until…that 固定句型。"
-        },
-        {
-          "stem": "He didn’t make the team [_until he won the match_].",
-          "cue": [
-            "强调划线部分"
-          ],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "It was not until he won the match that he made the team.",
-          "why": "not until 整体放入强调部分。",
-          "long": true
+          "why": "强调地点状语，用 that",
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "I recognized him in the crowd [_when I was walking in the street_].",
@@ -1307,7 +1457,9 @@
           "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "It was when I was walking in the street that I recognized him in the crowd.",
           "why": "when 从句强调，时态不变。",
-          "long": true
+          "long": true,
+          "group": "It is/was…that",
+          "level": "必练"
         },
         {
           "stem": "[_Because she sat too long in front of the computer_], her eyes suffered.",
@@ -1317,7 +1469,43 @@
           "src": "2022 · 东莞市 · 高一上期中",
           "ans": "It was because she sat too long in front of the computer that her eyes suffered.",
           "why": "强调原因状语从句，用 It was…that。",
-          "long": true
+          "long": true,
+          "group": "It is/was…that",
+          "level": "必练"
+        },
+        {
+          "stem": "The villagers didn’t realize the earthquake happened until the earth began to shake.",
+          "cue": [
+            "改为强调句，并强调划线部分"
+          ],
+          "src": "2023 · 东莞第十中学 · 高一上期中",
+          "ans": "It was not until the earth began to shake that the villagers realized the earthquake had happened.",
+          "why": "not until 强调句，that 后接原句",
+          "group": "not until 强调",
+          "level": "必练"
+        },
+        {
+          "stem": "People in modern times didn’t know about the Terracotta statues until 1974. → It was ___ 1974 ___ people in modern times knew about the Terracotta statues.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2023 · 东华高级中学 · 高一上期中",
+          "ans": "not until / that",
+          "why": "not until…that 固定句型。",
+          "group": "not until 强调",
+          "level": "必练"
+        },
+        {
+          "stem": "He didn’t make the team [_until he won the match_].",
+          "cue": [
+            "强调划线部分"
+          ],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "It was not until he won the match that he made the team.",
+          "why": "not until 整体放入强调部分。",
+          "long": true,
+          "group": "not until 强调",
+          "level": "必练"
         },
         {
           "stem": "She didn’t come back home until I finished this letter.",
@@ -1326,7 +1514,9 @@
           ],
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "It was not until I finished this letter that she came back home.",
-          "why": "not until 强调句，that 后接原句"
+          "why": "not until 强调句，that 后接原句",
+          "group": "not until 强调",
+          "level": "必练"
         }
       ]
     },
@@ -1425,16 +1615,9 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高一上期中",
           "ans": "(should) be designed",
-          "why": "主语 program 与 design 是被动"
-        },
-        {
-          "stem": "Mr. John recommends us students to read more classical novels to improve our writing skills.\n= Mr. John recommends that we students ___ more classic novels to improve our writing skills.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 松山湖未来学校 · 高一上期中",
-          "ans": "(should) read",
-          "why": "recommend 后从句用 should 原形"
+          "why": "主语 program 与 design 是被动",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "I recommend him to see a doctor.",
@@ -1443,21 +1626,27 @@
           ],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "I recommend that he (should) see a doctor.",
-          "why": "recommend 后从句用 should 原形"
+          "why": "recommend 后从句用 should 原形",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "(should) be permitted",
-          "why": "permit 与 refugees 是被动关系。"
+          "why": "permit 与 refugees 是被动关系。",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "The librarian requested that the book ___ （return） to the library as soon as possible.",
           "cue": [],
           "src": "2024 · 东莞第八高级中学 · 高一上期中",
           "ans": "(should) be returned",
-          "why": "request 后从句虚拟，用被动"
+          "why": "request 后从句虚拟，用被动",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "My English teacher recommends me to exchange learning methods with my classmates.",
@@ -1467,14 +1656,18 @@
           "src": "2024 · 东莞第八高级中学 · 高一上期中",
           "ans": "My English teacher recommends that I (should) exchange learning methods with my classmates.",
           "why": "recommend sb. to do 改为 that 从句。",
-          "long": true
+          "long": true,
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "Our head teacher recommends that we ___ (attend) the lecture to be given this weekend.",
           "cue": [],
           "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "(should) attend",
-          "why": "should 可省，动词用原形。"
+          "why": "should 可省，动词用原形。",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "Mrs Brown 建议他积极参加课外活动。",
@@ -1484,14 +1677,18 @@
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "Mrs Brown recommended that he (should) take part in after-class activities actively.",
           "why": "recommend that 从句用虚拟。",
-          "long": true
+          "long": true,
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "Mary likes dancing and her adviser recommended she ___ (报名) a ballet course.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "(should) sign up for",
-          "why": "报名即 sign up for，用原形。"
+          "why": "报名即 sign up for，用原形。",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "My mother recommended me to see the film Return To The Dust.\nMy mother ___ see the film Return To The Dust.",
@@ -1500,21 +1697,38 @@
           ],
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "recommended that I (should) see",
-          "why": "recommend sb. to do 改写为从句"
+          "why": "recommend sb. to do 改写为从句",
+          "group": "recommend 型",
+          "level": "必练"
         },
         {
           "stem": "The committee proposed that the government ___ (调查原因) why so many wild animals disappeared.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "(should) investigate the reason",
-          "why": "propose 表建议，从句用虚拟。"
+          "why": "propose 表建议，从句用虚拟。",
+          "group": "recommend 型",
+          "level": "必练"
+        },
+        {
+          "stem": "Mr. John recommends us students to read more classical novels to improve our writing skills.\n= Mr. John recommends that we students ___ more classic novels to improve our writing skills.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2024 · 松山湖未来学校 · 高一上期中",
+          "ans": "(should) read",
+          "why": "recommend 后从句用 should 原形",
+          "group": "recommend 型",
+          "level": "选练"
         },
         {
           "stem": "Jack wasn't saying anything, but the teacher smiled at him as if he ___ (do) something very clever.",
           "cue": [],
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "had done",
-          "why": "as if 从句与过去事实相反。"
+          "why": "as if 从句与过去事实相反。",
+          "group": "as if 型",
+          "level": "必练"
         }
       ]
     },
@@ -1677,28 +1891,45 @@
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Even if",
-          "why": "即使表假设，用 even if。"
+          "why": "即使表假设，用 even if。",
+          "group": "让步",
+          "level": "必练"
         },
         {
           "stem": "But ___ (无论哪里) they looked, the results were always the same.",
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "no matter where",
-          "why": "no matter + 疑问词表无论。"
+          "why": "no matter + 疑问词表无论。",
+          "group": "让步",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (无论发生什么) tomorrow, hold on to today and you won’t regret.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "ans": "No matter what happens",
+          "why": "no matter what 引导让步从句",
+          "group": "让步",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
+          "cue": [],
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
+          "ans": "Even though",
+          "why": "尽管表事实，用 even though。",
+          "group": "让步",
+          "level": "必练"
         },
         {
           "stem": "My English classes are so interesting ___ I am fond of them.",
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "that",
-          "why": "so…that 引导结果状语从句。"
-        },
-        {
-          "stem": "一旦养成了坏习惯，你就不容易改掉它。",
-          "cue": [],
-          "src": "2024 · 东莞第四高级中学 · 高一上期中",
-          "ans": "Once you form a bad habit, it’s not easy to get rid of it.",
-          "why": "once 表示一旦……就……"
+          "why": "so…that 引导结果状语从句。",
+          "group": "结果",
+          "level": "必练"
         },
         {
           "stem": "球重重地打在他身上，使他差点儿落入水中。",
@@ -1708,35 +1939,36 @@
           "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "The ball struck him so hard that he nearly fell into the water.",
           "why": "so hard that 表结果。",
-          "long": true
-        },
-        {
-          "stem": "Many students lost marks in the exam simply ___ they didn’t read the questions carefully. (用适当的词填空)",
-          "cue": [],
-          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
-          "ans": "because",
-          "why": "两句间是因果关系。"
-        },
-        {
-          "stem": "___ (无论发生什么) tomorrow, hold on to today and you won’t regret.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "No matter what happens",
-          "why": "no matter what 引导让步从句"
-        },
-        {
-          "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
-          "cue": [],
-          "src": "2022 · 东莞外国语学校 · 高一上期中",
-          "ans": "Even though",
-          "why": "尽管表事实，用 even though。"
+          "long": true,
+          "group": "结果",
+          "level": "必练"
         },
         {
           "stem": "I hadn’t realized she was Miss Liu ___ she spoke. (用适当的词填空)",
           "cue": [],
           "src": "2022 · 东莞市 · 高一上期中",
           "ans": "until",
-          "why": "not…until 直到……才……。"
+          "why": "not…until 直到……才……。",
+          "group": "until 型",
+          "level": "必练"
+        },
+        {
+          "stem": "一旦养成了坏习惯，你就不容易改掉它。",
+          "cue": [],
+          "src": "2024 · 东莞第四高级中学 · 高一上期中",
+          "ans": "Once you form a bad habit, it’s not easy to get rid of it.",
+          "why": "once 表示一旦……就……",
+          "group": "once 型",
+          "level": "必练"
+        },
+        {
+          "stem": "Many students lost marks in the exam simply ___ they didn’t read the questions carefully. (用适当的词填空)",
+          "cue": [],
+          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
+          "ans": "because",
+          "why": "两句间是因果关系。",
+          "group": "because",
+          "level": "必练"
         }
       ]
     },
@@ -1816,14 +2048,9 @@
           ],
           "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "It is obvious that",
-          "why": "Obviously 改为 It is obvious that。"
-        },
-        {
-          "stem": "The survey shows people are confused about ___ they should eat to stay healthy.",
-          "cue": [],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "what",
-          "why": "about 后接宾语从句，缺宾语用 what"
+          "why": "Obviously 改为 It is obvious that。",
+          "group": "主语从句",
+          "level": "必练"
         },
         {
           "stem": "Obviously, the manager is satisfied with the guy’s arrangement. → ___ the manager is satisfied with the guy’s arrangement.",
@@ -1832,7 +2059,9 @@
           ],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "It is obvious that",
-          "why": "Obviously 改为 It is obvious that。"
+          "why": "Obviously 改为 It is obvious that。",
+          "group": "主语从句",
+          "level": "必练"
         },
         {
           "stem": "He seems to know everything. → ___ he knows everything.",
@@ -1841,7 +2070,9 @@
           ],
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "It seems that",
-          "why": "seem to do 改为 It seems that。"
+          "why": "seem to do 改为 It seems that。",
+          "group": "主语从句",
+          "level": "必练"
         },
         {
           "stem": "They are likely to be fired by the company because of their faults. → ___ they will be fired by the company because of their faults.",
@@ -1850,7 +2081,18 @@
           ],
           "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "It is likely that",
-          "why": "likely 接 that 从句，It 作形式主语。"
+          "why": "likely 接 that 从句，It 作形式主语。",
+          "group": "主语从句",
+          "level": "必练"
+        },
+        {
+          "stem": "The survey shows people are confused about ___ they should eat to stay healthy.",
+          "cue": [],
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
+          "ans": "what",
+          "why": "about 后接宾语从句，缺宾语用 what",
+          "group": "作宾语",
+          "level": "必练"
         }
       ]
     },
@@ -1933,7 +2175,9 @@
           "src": "2023 · 东华高级中学 · 高一上期中",
           "ans": "Never will I forget the kindness and warmth (that/which) you showed me and my family.",
           "why": "Never 句首，will 提到 I 前。",
-          "long": true
+          "long": true,
+          "group": "否定词句首",
+          "level": "必练"
         },
         {
           "stem": "They not only introduced advanced technology, but also changed their views on how to develop economy. → ___ they ___ advanced technology, but also changed their views on how to develop economy.",
@@ -1943,7 +2187,9 @@
           "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "Not only did they introduce",
           "why": "not only 句首倒助动词 did。",
-          "long": true
+          "long": true,
+          "group": "否定词句首",
+          "level": "必练"
         },
         {
           "stem": "书法不仅是一种中国艺术形式，更是一种重要技能。",
@@ -1953,7 +2199,9 @@
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Not only is calligraphy a form of Chinese art, but also an important skill.",
           "why": "Not only 句首，is 提到主语前。",
-          "long": true
+          "long": true,
+          "group": "否定词句首",
+          "level": "必练"
         },
         {
           "stem": "只有经过足够的锻炼，你才能保持健康。",
@@ -1963,7 +2211,9 @@
           "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "Only after enough exercise can you keep fit.",
           "why": "only + 状语句首，can 提前。",
-          "long": true
+          "long": true,
+          "group": "否定词句首",
+          "level": "必练"
         },
         {
           "stem": "The speaker stood in front of the students of Grade one.\nIn front of the students of Grade one ___.",
@@ -1972,7 +2222,9 @@
           ],
           "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "stood the speaker",
-          "why": "地点状语在句首，全部倒装"
+          "why": "地点状语在句首，全部倒装",
+          "group": "地点句首",
+          "level": "必练"
         }
       ]
     }
