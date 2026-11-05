@@ -552,3 +552,12 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .ph.pair .form { display: block; }
 .ph.pair .form + .form { margin-left: 0; }
 .ph.pair .form.hit::before { margin-left: calc(-5pt - 0.3em); }
+
+/* 节标题不落单在页末（所有者提，2026-11-05）：标题 → 导语 → 第一块之间都不许断页；放不下就整组移到下一页 */
+/* 做法：词族块允许在两道原题之间断页（词头、词族链、第一题仍连在一起），节标题后就有内容可接，不再落单 */
+.unit:not(.stage) .family { break-inside: auto; }
+.unit:not(.stage) .family > .fam-head, .unit:not(.stage) .family > .fam-chain { break-after: avoid; }
+.unit:not(.stage) .family .atoms > li:first-child { break-before: avoid; }
+/* 节标题占位：标题下挂 126pt（6 行）透明内边距、不可拆，再用负外边距拉回后文。页末剩不足 6 行时标题换页（所有者：页末只有标题就放下一页）。
+ * Vivliostyle 在会留白时不守 break-after: avoid，只能这样保证。126 = 12 个半格，网格不受影响。 */
+.part > .topic-head { padding-bottom: 126pt; margin-bottom: calc(var(--u) - 126pt); break-inside: avoid; }
