@@ -305,3 +305,40 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .key .ans.long { display: block; line-height: var(--u); margin-right: 0; }
 
 /* 小号行内件一律 line-height: 1（药丸、出处、说明），免得撑高 21pt 行盒。 */
+
+/* ══ 负责人审校（2026-11-05）：舒展 ══ */
+
+/* 册头：册名放大到 36pt（3u 行盒），统计数字 16pt；与下文空 2u */
+.stage-head { margin-bottom: calc(2 * var(--u)); }
+.stage-head h2 { font: 700 36pt/calc(3 * var(--u)) "sans-ui"; top: -2.28pt; }   /* 3u 行盒中 36pt 基线 = 13.5 + 31.68 = 45.18；落网需 42 + 4.56 = 46.56 → 实测再调 */
+.stage-head .unit-stats b { font: 700 16pt/1 "sans-ui"; }
+
+/* 考情总览：标题与专题名同级 20pt；表格每行 2u，字号放大，纵向居中 */
+.overview > .topic-head h3 { font: 700 20pt/calc(2 * var(--u)) "sans-ui"; top: -3.04pt; }
+.overview .lead { margin-bottom: var(--u); }
+.focus th { padding-bottom: var(--h); }
+.focus td { padding-top: var(--h); padding-bottom: var(--h); vertical-align: top; }
+.focus td.name { font: 700 14pt/var(--u) "sans-ui"; top: 0; position: static; padding-top: calc(var(--h) - 0.76pt); padding-bottom: calc(var(--h) + 0.76pt); }   /* 14pt 基线上提 0.76pt：用内边距差，不用 position（会把行线一起挪走） */
+.focus col.c-name { width: 108pt; }
+.focus col.c-cov { width: 144pt; }
+.focus col.c-n { width: 36pt; }
+.focus col.c-go { width: 54pt; }   /* 余下 90pt 给教材进度，「必修二 U4 起」不折行 */
+.focus td.book { white-space: nowrap; }
+.cov i { width: 7pt; height: 10.5pt; margin-right: 2pt; vertical-align: -1.5pt; }
+.cov span { font: 700 12pt/1 "sans-ui"; margin-left: 0.5em; }
+.focus td.n { font: 700 12pt/var(--u) "sans-ui"; top: 0; position: static; }
+.focus td.book, .focus td.go { font: 400 10.5pt/var(--u) "sans-ui"; top: 0; position: static; padding-top: calc(var(--h) + 0.57pt); padding-bottom: calc(var(--h) - 0.57pt); }
+.overview > .after { margin-top: var(--u); }
+
+/* 知识块：左右内边距 2 字；药丸与小方块对齐在 1 字处，文字从 2 字起；药丸行下空半格 */
+.group { padding: var(--h) calc(2 * var(--zi)); }
+.group > .subhead { margin-left: calc(-1 * var(--zi)); }
+.group > p:not(.subhead):not(.pattern)::before { left: calc(-1 * var(--zi)); }
+.group > .subhead + p, .group > .gloss + p { margin-top: var(--h); }
+
+/* 答案区：标题不要「答」方块（下面已有专题答案条，层级重复） */
+.answers > .topic-head::before { content: none; }
+.answers > .topic-head h3 { margin-left: 0; }
+
+/* 知识块内中英混排短段：两端对齐会把「（breathe、make up」拉出大空，改齐左 */
+.group > p { text-align: left; }
