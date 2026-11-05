@@ -1,0 +1,921 @@
+{
+ "data_no": "01",
+ "unit_book": "段考专题　高一上 · 第 1 站",
+ "h2": "期中前月考",
+ "stats": [
+  {
+   "b": "12",
+   "post": "套东莞卷"
+  },
+  {
+   "b": "6",
+   "post": "个专题"
+  },
+  {
+   "pre": "考时教材约进行到 ",
+   "b": "U2"
+  }
+ ],
+ "overview": {
+  "title": "这次段考考什么",
+  "chip": "2022–2025 · 单句类题",
+  "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+  "rows": [
+   {
+    "name": "非谓语",
+    "cov": 1.0,
+    "n": 55,
+    "book": "必修二 U4 起",
+    "ahead": true,
+    "go": "专题 1",
+    "skip": false
+   },
+   {
+    "name": "it 形式主宾语",
+    "cov": 0.92,
+    "n": 17,
+    "book": "不单列",
+    "ahead": true,
+    "go": "专题 2",
+    "skip": false
+   },
+   {
+    "name": "名词性从句",
+    "cov": 0.83,
+    "n": 21,
+    "book": "选必一 U5 起",
+    "ahead": true,
+    "go": "专题 3",
+    "skip": false
+   },
+   {
+    "name": "虚拟语气",
+    "cov": 0.67,
+    "n": 10,
+    "book": "不单列",
+    "ahead": true,
+    "go": "专题 4",
+    "skip": false
+   },
+   {
+    "name": "强调句",
+    "cov": 0.5,
+    "n": 6,
+    "book": "不单列",
+    "ahead": true,
+    "go": "专题 5",
+    "skip": false
+   },
+   {
+    "name": "主谓一致",
+    "cov": 0.5,
+    "n": 8,
+    "book": "不单列",
+    "ahead": true,
+    "go": "专题 6",
+    "skip": false
+   },
+   {
+    "name": "定语从句",
+    "cov": 0.33,
+    "n": 5,
+    "book": "必修一 U4",
+    "ahead": false,
+    "go": "期中册",
+    "skip": true
+   },
+   {
+    "name": "状语从句",
+    "cov": 0.33,
+    "n": 8,
+    "book": "不单列",
+    "ahead": false,
+    "go": "期中册",
+    "skip": true
+   }
+  ],
+  "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单讲。"
+ },
+ "topics": [
+  {
+   "no": 1,
+   "name": "非谓语",
+   "vols": 12,
+   "cov": 12,
+   "n": 55,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作宾语与搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "34 题里 13 题",
+      "介词后接 doing"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动词或介词后面接什么形式，先看前面那个词。look forward to、spend time、be busy、quit 后面用 doing；pretend、need、be about to 后面用 to do。"
+    },
+    {
+     "type": "p",
+     "text": "look forward to 的 to 是介词，后面一定接 doing，不接动词原形。题目多半给固定搭配，背住搭配就能定形式。"
+    },
+    {
+     "type": "pattern",
+     "text": "look forward to doing  |  spend time doing  |  pretend to do"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾补"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "34 题里 3 题",
+      "承受者用 done"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "find、make 之后，宾语和宾补之间看逻辑：宾语是动作的承受者，宾补用过去分词（found herself left alone）；宾语是主动的，宾补用 to do 或 doing，视动词而定（want sb. to do、catch sb. doing）。"
+    },
+    {
+     "type": "p",
+     "text": "that 从句若是「宾语 + 被动」，可改成「宾语 + 过去分词」，如 found that his wallet was stolen → found his wallet stolen。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "34 题里 3 题",
+      "句首 doing"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动名词短语作主语，整个短语看作单数，谓语用单数。句首的 doing 首字母大写，如 Taking、Holding、Being。"
+    },
+    {
+     "type": "p",
+     "text": "作状语、作定语各 2 题，不单列：Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）各见一句即可。"
+    }
+   ],
+   "keypoint": "先看空前的词：介词 to、spend、be busy、quit 后用 doing；pretend、need、be about to 后用 to do。再看动作与逻辑主语的关系，是被动就用 done。",
+   "examples": [
+    {
+     "gloss": [
+      "作宾语",
+      "介词 to 后用 doing"
+     ],
+     "stem": {
+      "text": "I am looking forward to ___ (explore) the world of literature with you.",
+      "cue": [],
+      "src": "2024 · 东莞市 · 高一上联考"
+     },
+     "ju": "我期待着和你一起探索文学的世界。",
+     "mid": {
+      "label": "成分",
+      "text": "look forward to 的 to 是介词，其后用 explore 的动名词 exploring 作宾语。"
+     },
+     "ans": "exploring"
+    },
+    {
+     "gloss": [
+      "作宾补",
+      "被动，用过去分词"
+     ],
+     "stem": {
+      "text": "My spoken English is so poor that I cannot make myself ___ (understand).",
+      "cue": [],
+      "src": "2023 · 东莞外国语 · 高一上月考"
+     },
+     "ju": "我的英语口语很差，以至于不能让别人听懂我的话。",
+     "mid": {
+      "label": "判断",
+      "text": "make 之后 myself 是宾语，understand 与之是被动关系，作宾补，用过去分词。"
+     },
+     "ans": "understood"
+    },
+    {
+     "gloss": [
+      "作主语",
+      "句首 doing，谓语单数"
+     ],
+     "stem": {
+      "text": "___ (hold) the 29th Olympics successfully shows the power of our nation.",
+      "cue": [],
+      "src": "2022 · 莞中松山湖 · 高一上月考"
+     },
+     "ju": "成功举办第29届奥运会显示了我们国家的力量。",
+     "mid": {
+      "label": "成分",
+      "text": "Holding the 29th Olympics 是动名词短语作主语，句首用 doing；谓语 shows 用单数。"
+     },
+     "ans": "Holding"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "Steve has expressed the hope that he is looking forward to ___ (hear) from you soon.",
+     "cue": [],
+     "src": "2022 · 东莞实验 · 高一上月考",
+     "ans": "hearing",
+     "why": "look forward to 的 to 是介词，接 doing。"
+    },
+    {
+     "stem": "At the weekends, I play computer games if I’m not busy ___ (study).",
+     "cue": [],
+     "src": "2024 · 光正实验 · 高一上月考",
+     "ans": "studying",
+     "why": "be busy doing sth. 是固定用法。"
+    },
+    {
+     "stem": "Something about the song made me feel powerful, and I even started to daydream about ___ (报名) the concert and finally getting the chance to surprise everyone with my secret.",
+     "cue": [],
+     "src": "2023 · 东华、东华松山湖 · 高一上月考",
+     "ans": "signing up for",
+     "why": "about 是介词，后接动名词；sign up for 报名。"
+    },
+    {
+     "stem": "In the middle of the crowded city, she suddenly found herself ___ (leave) alone, feeling small and out of place.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高一上月考",
+     "ans": "left",
+     "why": "found 之后宾补与宾语是被动，用过去分词。"
+    },
+    {
+     "stem": "After he got off the bus, he found that his wallet was stolen.\nAfter getting off the bus, he found ___.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2022 · 东莞实验 · 高一上月考",
+     "ans": "After getting off the bus, he found his wallet stolen.",
+     "why": "that 从句的被动可改成「宾语 + 过去分词」。"
+    },
+    {
+     "stem": "What is important for keeping healthy is being happy.",
+     "cue": [
+      "用V-ing 作主语改写",
+      "句型转换"
+     ],
+     "src": "2023 · 石竹实验 · 高一上月考",
+     "ans": "Being happy is important for keeping healthy.",
+     "why": "句首 Being happy 作主语，谓语用单数。"
+    },
+    {
+     "stem": "我喜欢做运动而不喜欢在家待着。",
+     "cue": [],
+     "src": "2024 · 麻涌中学 · 高一上月考",
+     "ans": "I prefer playing sports to staying at home.",
+     "why": "prefer A to B：喜欢做 A 而不是做 B。"
+    },
+    {
+     "stem": "The lecture ___ (organize) by our university to promote Chinese traditional culture is a big success.",
+     "cue": [],
+     "src": "2023 · 东莞外国语 · 高一上月考",
+     "ans": "organized",
+     "why": "讲座与 organize 是被动，后置定语用过去分词。"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "it 形式主宾语",
+   "vols": 12,
+   "cov": 11,
+   "n": 17,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "形式宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "12 题里 7 题",
+      "动词后接 it"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "find、think、make 等动词后面，宾语位置如果是 it，真正的宾语是后面的不定式或从句。结构是 find / make + it + 形容词 + to do。"
+    },
+    {
+     "type": "p",
+     "text": "判断：空格前是这类动词，后面紧跟形容词，再接 to do，就填 it，如 I don’t think it possible to finish…。"
+    },
+    {
+     "type": "pattern",
+     "text": "find it adj. to do  |  make it adj. for sb. to do"
+    },
+    {
+     "type": "subhead",
+     "text": "形式主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "12 题里 5 题",
+      "It is 形容词"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句，常见 It is obvious / clear / important that…。"
+    },
+    {
+     "type": "p",
+     "text": "改写时：Obviously 这类副词改成 It is obvious that…；动名词主语（Spending…）改成 It is 形容词 to do…，主语挪到句末。"
+    }
+   ],
+   "keypoint": "空格在 find、think、make 之后，且后面是形容词加 to do，填 it；句首的 it 是形式主语，真正的主语在句末。",
+   "examples": [
+    {
+     "gloss": [
+      "形式宾语",
+      "think 后接 it"
+     ],
+     "stem": {
+      "text": "I don’t think ___ possible to finish so much work in such a short time.",
+      "cue": [],
+      "src": "2024 · 光正实验 · 高一上月考"
+     },
+     "ju": "我认为在这么短的时间内完成这么多工作是不可能的。",
+     "mid": {
+      "label": "成分",
+      "text": "think 后的 it 是形式宾语，真正的宾语是 to finish so much work。"
+     },
+     "ans": "it"
+    },
+    {
+     "gloss": [
+      "形式主语",
+      "It is adj. to do"
+     ],
+     "stem": {
+      "text": "Spending too much time online is unhealthy.",
+      "cue": [
+       "用it作形式主语改写"
+      ],
+      "src": "2023 · 翰林 · 高一月考"
+     },
+     "ju": "在网上花太多时间是不健康的。",
+     "mid": {
+      "label": "判断",
+      "text": "动名词短语作主语时，句首改用 it，把主语挪到句末，用 to do。"
+     },
+     "ans": "It is unhealthy to spend too much time online"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "The young woman found ___ difficult to learn a second language at university.",
+     "cue": [],
+     "src": "2023 · 翰林 · 高一月考",
+     "ans": "it",
+     "why": "find it + 形容词 + to do。"
+    },
+    {
+     "stem": "The injury in her leg makes ___ impossible for her to return to track and field.",
+     "cue": [],
+     "src": "2022 · 莞中松山湖 · 高一上月考",
+     "ans": "it",
+     "why": "make it + 形容词 + for sb. to do。"
+    },
+    {
+     "stem": "You will find that it is helpful to join in some extra-curricular activities.",
+     "cue": [
+      "用it作形式宾语改写句子"
+     ],
+     "src": "2024 · 东莞高中 · 高一上月考",
+     "ans": "You will find it helpful to join in some extra-curricular activities.",
+     "why": "that 从句改为 find it + 形容词 + to do。"
+    },
+    {
+     "stem": "___ is obvious that our earth is suffering serious damage because of improper (不恰当的) human activities.",
+     "cue": [],
+     "src": "2023 · 东莞外国语 · 高一上月考",
+     "ans": "It",
+     "why": "It is obvious that 句型，it 作形式主语。"
+    },
+    {
+     "stem": "保护环境是我们的责任。",
+     "cue": [
+      "用形式主语it翻译"
+     ],
+     "src": "2022 · 东莞实验 · 高一上月考",
+     "ans": "It is our responsibility to protect the environment.",
+     "why": "It is 名词 to do：不定式作真正主语。"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "名词性从句",
+   "vols": 12,
+   "cov": 10,
+   "n": 21,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "11 题里 7 题",
+      "缺成分用 what 等"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "宾语从句先看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
+    },
+    {
+     "type": "p",
+     "text": "例：tells them ___ happened on the ship，happened 前缺主语，填 what。句意完整的宾语从句，that 可省。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "11 题里 3 题",
+      "It is 形容词 that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "主语从句常以 It is 形容词 that 的形式出现：it 是形式主语，that 从句是真正的主语，that 不能省。"
+    },
+    {
+     "type": "p",
+     "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：先找 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
+    }
+   ],
+   "keypoint": "宾语从句先看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
+   "examples": [
+    {
+     "gloss": [
+      "宾语从句",
+      "用 what"
+     ],
+     "stem": {
+      "text": "Tim writes his parents an email every week and tells them ___ happened on the ship.",
+      "cue": [],
+      "src": "2024 · 光正实验 · 高一上月考"
+     },
+     "ju": "Tim 每周给父母写一封电子邮件，告诉他们船上发生的事情。",
+     "mid": {
+      "label": "成分",
+      "text": "what 引导宾语从句，在从句中作主语，happened 前缺主语。"
+     },
+     "ans": "what"
+    },
+    {
+     "gloss": [
+      "主语从句",
+      "形式主语 it"
+     ],
+     "stem": {
+      "text": "Obviously, keeping a balanced diet is of great importance.\n___ keeping a balanced diet is of great importance.",
+      "cue": [
+       "同义句转换"
+      ],
+      "src": "2023 · 翰林 · 高一月考"
+     },
+     "ju": "很显然，保持均衡饮食很重要。",
+     "mid": {
+      "label": "判断",
+      "text": "it 是形式主语，that 从句是真正的主语。"
+     },
+     "ans": "It is obvious that keeping a balanced diet is of great importance"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "Most people thought that the local government ___ (对...负责) the housing price.",
+     "cue": [],
+     "src": "2024 · 光正实验 · 高一上月考",
+     "ans": "was responsible for",
+     "why": "主句过去时，从句也用过去时，主语单数用 was。"
+    },
+    {
+     "stem": "First, Adam had to think very carefully about ___ courses he wanted to take.",
+     "cue": [],
+     "src": "2025 · 嘉荣外国语 · 高一上月考",
+     "ans": "which",
+     "why": "which 修饰 courses，引导宾语从句。"
+    },
+    {
+     "stem": "It is obvious ___ technology is changing the way we live and work.",
+     "cue": [],
+     "src": "2024 · 麻涌中学 · 高一上月考",
+     "ans": "that",
+     "why": "It is obvious that 中的 that 不能省。"
+    },
+    {
+     "stem": "The expert recommended to do some research before carrying out the experiment.",
+     "cue": [
+      "用宾语从句改写句子"
+     ],
+     "src": "2024 · 东莞市 · 高一上联考",
+     "ans": "The expert recommended that some research (should) be done before carrying out the experiment.",
+     "why": "recommend 后的宾语从句，谓语用 (should) be done。"
+    },
+    {
+     "stem": "People recommend that we should get enough sleep to ensure our health.\n= ___ we should get enough sleep to ensure our health.",
+     "cue": [
+      "同义转换"
+     ],
+     "src": "2024 · 麻涌中学 · 高一上月考",
+     "ans": "It was recommended that we should get enough sleep to ensure our health.",
+     "why": "主动改被动，主句用 It was…that。"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "虚拟语气",
+   "vols": 12,
+   "cov": 8,
+   "n": 10,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "recommend 型"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "8 题里 6 题",
+      "从句用 (should)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "recommend、suggest、insist、request 等动词后的宾语从句，或 It is recommended that… 的主语从句，从句谓语用 (should) + 动词原形。东莞这一站几乎只考这一种。"
+    },
+    {
+     "type": "p",
+     "text": "从句主语若是动作的承受者，套被动：(should) be done。should 可省，答案两种都给分；但 be 不能丢。What if 型只有 1 题，见例 2。"
+    },
+    {
+     "type": "pattern",
+     "text": "recommend that sb. (should) do  |  It is recommended that sth. (should) be done"
+    }
+   ],
+   "keypoint": "见 recommend、request 等后的 that 从句，谓语写 (should) + 动词原形；主语是物再加 be done。把 recommend sb. to do 改成从句时，写成 recommend that sb. (should) do。",
+   "examples": [
+    {
+     "gloss": [
+      "主语从句",
+      "→ (should) do"
+     ],
+     "stem": {
+      "text": "It is highly recommended that the government ___ (take) measures to protect the environment.",
+      "cue": [],
+      "src": "2023 · 东莞外国语 · 高一上月考"
+     },
+     "ju": "强烈建议政府采取措施保护环境。",
+     "mid": {
+      "label": "判断",
+      "text": "主句是 It is recommended，that 从句作真正的主语，从句用 (should) + 动词原形。"
+     },
+     "ans": "(should) take"
+    },
+    {
+     "gloss": [
+      "What if 型",
+      "原句改写"
+     ],
+     "stem": {
+      "text": "What would happen if we didn’t get there on time?\n___ we didn’t get there on time?",
+      "cue": [
+       "同义句转换"
+      ],
+      "src": "2024 · 东莞高中 · 高一上月考"
+     },
+     "ju": "如果我们没有按时到达那里会发生什么？",
+     "mid": {
+      "label": "判断",
+      "text": "原句是对过去事实的虚拟条件句，改写成固定句型 What if…。"
+     },
+     "ans": "What if"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "Mrs Brown 建议我积极参加课外活动。",
+     "cue": [
+      "用recommend翻译句子"
+     ],
+     "src": "2023 · 石竹实验 · 高一上月考",
+     "ans": "Mrs Brown recommended that I (should) take part in after-class activities actively.",
+     "why": "recommend 后从句用 (should) + 动词原形。"
+    },
+    {
+     "stem": "It is strongly recommended that the machines ___ (check) every year.",
+     "cue": [],
+     "src": "2024 · 东莞高中 · 高一上月考",
+     "ans": "(should) be checked",
+     "why": "machines 被检查，用 be checked。"
+    },
+    {
+     "stem": "The doctor recommended that my brother ___ (give) up smoking.",
+     "cue": [],
+     "src": "2020 · 东华 · 高一上期中",
+     "ans": "(should) give",
+     "why": "should 可省，give 不能丢。"
+    },
+    {
+     "stem": "Mary likes dancing and her adviser recommended she ___ (报名) a ballet course.",
+     "cue": [],
+     "src": "2023 · 东莞市 · 高一上期中",
+     "ans": "should sign up for",
+     "why": "recommend 后从句用 should 原形。"
+    },
+    {
+     "stem": "Our teachers request that attention ___ (focus) on the lessons in class.",
+     "cue": [],
+     "src": "2022 · 东莞实验 · 高一上期中",
+     "ans": "(should) be focused",
+     "why": "request 同 recommend，从句虚拟。"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "name": "强调句",
+   "vols": 12,
+   "cov": 6,
+   "n": 6,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "强调状语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "8 题里 5 题",
+      "时间地点原因"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "强调句的结构是 It is/was + 被强调部分 + that/who + 其余部分。被强调的是状语时，只用 that，其余部分保持原句语序，时态与原句一致。"
+    },
+    {
+     "type": "p",
+     "text": "判断：拿掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。强调主语、宾语各 1 题，也都用 that。"
+    },
+    {
+     "type": "pattern",
+     "text": "It was + 被强调部分 + that + 其余部分"
+    }
+   ],
+   "keypoint": "拿掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语或宾语时，用 that。",
+   "examples": [
+    {
+     "gloss": [
+      "强调状语",
+      "时间：yesterday"
+     ],
+     "stem": {
+      "text": "My grandpa walked the dog in the street yesterday.",
+      "cue": [
+       "强调划线的部分"
+      ],
+      "src": "2024 · 光正实验 · 高一上月考"
+     },
+     "ju": "我爷爷昨天在街上遛狗。",
+     "mid": {
+      "label": "判断",
+      "text": "yesterday 是被强调的时间状语，原句一般过去时，用 It was … that。"
+     },
+     "ans": "It was yesterday that my grandpa walked the dog in the street"
+    },
+    {
+     "gloss": [
+      "强调状语",
+      "原因状语"
+     ],
+     "stem": {
+      "text": "I improved my oral English greatly because of the teacher’s encouragement.",
+      "cue": [
+       "对划线部分进行强调"
+      ],
+      "src": "2023 · 东莞外国语 · 高一上月考"
+     },
+     "ju": "正是因为老师的鼓励，我的英语口语才有了很大进步。",
+     "mid": {
+      "label": "成分",
+      "text": "because of the teacher’s encouragement 是原因状语，放进 It was…that 中间。"
+     },
+     "ans": "It was because of the teacher’s encouragement that I improved my oral English greatly"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "He successfully started his own IT company with the encouragement of his family.",
+     "cue": [
+      "强调划线部分"
+     ],
+     "src": "2024 · 东莞市 · 高一上联考",
+     "ans": "It was with the encouragement of his family that he successfully started his own IT company.",
+     "why": "状语强调只用 that，不用 who。"
+    },
+    {
+     "stem": "My teacher gives me encouragement when I meet with difficulties.",
+     "cue": [
+      "就划线部分强调"
+     ],
+     "src": "2024 · 麻涌中学 · 高一上月考",
+     "ans": "It is when I meet with difficulties that my teacher gives me encouragement.",
+     "why": "被强调的是 when 从句，结构不变。"
+    },
+    {
+     "stem": "In 2016, Coach Lang Ping led her volleyball team to Olympic gold in Brazil.",
+     "cue": [
+      "改为强调地点状语的强调句"
+     ],
+     "src": "2024 · 第八高中 · 高一上期中",
+     "ans": "It was in Brazil that Coach Lang Ping led her volleyball team to Olympic gold in 2016.",
+     "why": "被强调的是地点状语 in Brazil。"
+    },
+    {
+     "stem": "She used the flash cards to teach the kids new words last class.",
+     "cue": [
+      "用强调句对划线部分强调"
+     ],
+     "src": "2025 · 东莞市 · 高一上期中",
+     "ans": "It was the flash cards that she used to teach the kids new words last class.",
+     "why": "被强调的是宾语，用 that。"
+    },
+    {
+     "stem": "正是他爱冒险的个性启发了他的朋友们尝试新鲜事物。",
+     "cue": [
+      "使用强调句翻译"
+     ],
+     "src": "2024 · 东莞市 · 高一上月考",
+     "ans": "It was his adventurous/thrill-seeking personality that inspired/motivated/encouraged his friends to try new things/try something new.",
+     "why": "强调主语，that 连接，结构同上。"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "name": "主谓一致",
+   "vols": 12,
+   "cov": 6,
+   "n": 8,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "固定短语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "8 题里 3 题",
+      "单数主语加 s"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "固定短语作谓语时，先找真正的主语，再定动词的形式。take control of、take responsibility for、be responsible for 中，动词要跟主语的人称和数一致。"
+    },
+    {
+     "type": "p",
+     "text": "例：fear 是单数，take 加 s 成 takes；主句是一般将来时，从句仍用一般现在时。"
+    },
+    {
+     "type": "subhead",
+     "text": "并列与就近"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "8 题里 2 题",
+      "就近；and 并列"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "neither…nor 连接两个主语，谓语跟离它近的那个。and 连接的主语是复数，谓语用复数，如 Dancing and skating are…。判断时先看连接的是哪两个词，再定谓语的数。"
+    },
+    {
+     "type": "subhead",
+     "text": "时间与三单"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "8 题里 3 题",
+      "since then 等"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "时间状语决定时态：since then、so far 配现在完成，has done。主语是单数第三人称（she）时，谓语加 s。"
+    },
+    {
+     "type": "pattern",
+     "text": "neither A nor B（谓语随 B）  |  A and B（复数）"
+    }
+   ],
+   "keypoint": "先定真正的主语，再看单复数：neither…nor 看靠近谓语的那个，and 连接用复数；时间状语定时态。",
+   "examples": [
+    {
+     "gloss": [
+      "固定短语",
+      "单数主语，takes"
+     ],
+     "stem": {
+      "text": "When fear ___ (控制) our mind, most of us will be at a loss and don’t know what to do.",
+      "cue": [],
+      "src": "2023 · 东莞外国语 · 高一上月考"
+     },
+     "ju": "当恐惧控制了我们的思想时，我们大多数人都会不知所措。",
+     "mid": {
+      "label": "判断",
+      "text": "主语 fear 是单数，take 加 s 成 takes。"
+     },
+     "ans": "takes control of"
+    },
+    {
+     "gloss": [
+      "并列与就近",
+      "就近谓语"
+     ],
+     "stem": {
+      "text": "In my opinion, neither my friend nor my classmates ___ （be）as positive as Tom.",
+      "cue": [],
+      "src": "2023 · 石竹实验 · 高一上月考"
+     },
+     "ju": "在我看来，无论我的朋友还是我的同班同学都不像汤姆那么积极。",
+     "mid": {
+      "label": "判断",
+      "text": "neither…nor 连接的两个主语，谓语跟靠近它的 my classmates，用复数 are。"
+     },
+     "ans": "are"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "Since then, she ___ (compete) in more than 26 marathons, often finishing among the fastest women runners.",
+     "cue": [],
+     "src": "2022 · 莞中松山湖 · 高一上月考",
+     "ans": "has competed",
+     "why": "Since then 配现在完成；she 是单数。"
+    },
+    {
+     "stem": "Great efforts ___ (make) so far to win the championship.",
+     "cue": [],
+     "src": "2023 · 东莞市 · 高一上期中",
+     "ans": "have been made",
+     "why": "so far 配现在完成；efforts 复数用 have。"
+    },
+    {
+     "stem": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
+     "cue": [],
+     "src": "2020 · 东华 · 高一上期中",
+     "ans": "prefers",
+     "why": "主语 she 单数，and 后谓语与它一致。"
+    },
+    {
+     "stem": "Dancing and skating ___ (be) her hobbies so she feels happy.",
+     "cue": [],
+     "src": "2024 · 光正实验 · 高一上月考",
+     "ans": "are",
+     "why": "and 连接的主语是复数。"
+    },
+    {
+     "stem": "The mother went out to work, so the father ___ (对……负责) looking after the children at home.",
+     "cue": [],
+     "src": "2023 · 东莞外国语 · 高一上月考",
+     "ans": "took responsibility for/was responsible for",
+     "why": "主句过去时，固定短语用过去式。"
+    },
+    {
+     "stem": "Some teens would rather sit up late than go to bed early.\nSome teens ___ up late ___ to bed early.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2022 · 东华松山湖 · 高一上期中",
+     "ans": "Some teens prefer sitting up late to going to bed early.",
+     "why": "would rather A than B = prefer doing A to doing B。"
+    }
+   ]
+  }
+ ]
+}
