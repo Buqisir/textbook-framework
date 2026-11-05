@@ -42,6 +42,15 @@ ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / '本地化' / '内容' / '同步-必修一-W-U2.定稿.json'
 OUT = ROOT / '渲染' / '本地化' / '同步-必修一-W-U2.html'
 
+
+def src_text(label):
+    """出处显示（所有者定，2026-11-05）：「2023 · 学校 · 高一上月考」显示为「2023 学校高一上月考」——年份后空一格，校名与考试连写。
+    数据（题库标签、定稿 src）不变，只改显示。"""
+    parts = (label or '').split(' · ')
+    if len(parts) == 3:
+        return f'{parts[0]} {parts[1]}{parts[2]}'
+    return label or ''
+
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
@@ -104,7 +113,7 @@ def atom_li(a):
     stem = stem_html(text)
     if mode == 'half':
         stem = stem.replace('<span class="blank"></span>', '<span class="blank long"></span>')
-    body = f'<span class="src">{esc(a["标签"])}</span>' + stem + cue_html(a.get('cue'))
+    body = f'<span class="src">{esc(src_text(a["标签"]))}</span>' + stem + cue_html(a.get('cue'))
     lang = ' lang="en"' if is_en(text) else ''
     tail = ANSWER_LINES if mode == 'whole' else ''
     return f'<li data-no="{a["no"]}"><p{lang}>{body}</p>{tail}</li>'

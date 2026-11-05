@@ -34,7 +34,7 @@
         "name": "it 形式主宾语",
         "cov": 0.9,
         "n": 30,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 2",
         "skip": false
@@ -52,7 +52,7 @@
         "name": "强调句",
         "cov": 0.7,
         "n": 15,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 4",
         "skip": false
@@ -61,7 +61,7 @@
         "name": "虚拟语气",
         "cov": 0.6,
         "n": 14,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 5",
         "skip": false
@@ -70,7 +70,7 @@
         "name": "状语从句",
         "cov": 0.45,
         "n": 11,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 6",
         "skip": false
@@ -88,13 +88,13 @@
         "name": "倒装",
         "cov": 0.3,
         "n": 6,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 8",
         "skip": false
       }
     ],
-    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单列。快的学校期中前已教到必修一 U5。倒装期中 3 成卷考，期末升到近 7 成。"
+    "after": ""
   },
   "topics": [
     {
@@ -159,7 +159,7 @@
         },
         {
           "type": "p",
-          "text": "-ed 常见于 with 复合结构，如 with her bike stolen。作主语、作定语各 4 题，形式同上，不单列。"
+          "text": "-ed 常见于 with 复合结构，如 with her bike stolen。非谓语也可作主语、定语：主动用 -ing，被动用 -ed。"
         },
         {
           "type": "pattern",
@@ -931,7 +931,7 @@
         },
         {
           "type": "p",
-          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。时间（until、once）、原因（because）各 1 题，不单列。"
+          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。"
         },
         {
           "type": "pattern",

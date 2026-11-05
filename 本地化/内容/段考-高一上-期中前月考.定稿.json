@@ -34,7 +34,7 @@
         "name": "it 形式主宾语",
         "cov": 0.92,
         "n": 17,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 2",
         "skip": false
@@ -43,7 +43,7 @@
         "name": "虚拟语气",
         "cov": 0.67,
         "n": 10,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 3",
         "skip": false
@@ -61,7 +61,7 @@
         "name": "强调句",
         "cov": 0.5,
         "n": 6,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": true,
         "go": "专题 5",
         "skip": false
@@ -70,7 +70,7 @@
         "name": "状语从句",
         "cov": 0.17,
         "n": 3,
-        "book": "不单列",
+        "book": "无专章",
         "ahead": false,
         "go": "期中册",
         "skip": true
@@ -85,7 +85,7 @@
         "skip": true
       }
     ],
-    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单列。"
+    "after": ""
   },
   "topics": [
     {
@@ -154,7 +154,7 @@
         },
         {
           "type": "p",
-          "text": "作状语、作定语各 2 题，不单列：Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）各举一例。"
+          "text": "非谓语还可作状语和后置定语，如 Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）。"
         }
       ],
       "keypoint": "空前的词决定形式：介词 to、spend、be busy、quit 后用 doing；pretend、need、be about to 后用 to do。动作与逻辑主语是被动关系时用 done。",
@@ -425,7 +425,7 @@
         },
         {
           "type": "p",
-          "text": "recommend、suggest、insist、request 等动词后的宾语从句，或 It is recommended that… 的主语从句，从句谓语用 (should) + 动词原形。段考里几乎只考这一种。"
+          "text": "recommend、suggest、insist、request 等动词后的宾语从句，或 It is recommended that… 的主语从句，从句谓语用 (should) + 动词原形。"
         },
         {
           "type": "p",
@@ -581,7 +581,7 @@
         },
         {
           "type": "p",
-          "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：找到 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
+          "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：找到 it，再看句末的 that 从句。"
         }
       ],
       "keypoint": "宾语从句看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
@@ -772,7 +772,7 @@
           ],
           "src": "2024 · 东莞市 · 高一上月考",
           "ans": "It was his adventurous/thrill-seeking personality that inspired/motivated/encouraged his friends to try new things/try something new.",
-          "why": "强调主语，that 连接，结构同上。"
+          "why": "强调主语，that 连接。"
         }
       ]
     }

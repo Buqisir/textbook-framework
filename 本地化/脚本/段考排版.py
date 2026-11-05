@@ -107,6 +107,15 @@ NODE_FILES = {
 
 THEME_CSS = {'现行': '段考.css', '英式': '英式.css'}
 
+
+def src_text(label):
+    """出处显示（所有者定，2026-11-05）：「2023 · 学校 · 高一上月考」显示为「2023 学校高一上月考」——年份后空一格，校名与考试连写。
+    数据（题库标签、定稿 src）不变，只改显示。"""
+    parts = (label or '').split(' · ')
+    if len(parts) == 3:
+        return f'{parts[0]} {parts[1]}{parts[2]}'
+    return label or ''
+
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
@@ -146,7 +155,7 @@ def stem_p(stem_obj, src_inline=True):
     text = (stem_obj.get('text') or '').replace('\n', ' → ')
     body = inline(text) + cue_html(stem_obj.get('cue'))
     if src_inline and stem_obj.get('src'):
-        body += f' <span class="src">{esc(stem_obj["src"])}</span>'
+        body += f' <span class="src">{esc(src_text(stem_obj["src"]))}</span>'
     if is_en(text):
         return f'<p lang="en">{body}</p>'
     return f'<p>{body}</p>'
@@ -193,8 +202,8 @@ def overview_html(o):
         '    <thead><tr><th>专题</th><th>覆盖率</th><th>题数</th><th>教材进度</th><th>本册</th></tr></thead>\n'
         '    <tbody>\n' + '\n'.join(rows) + '\n    </tbody>\n'
         '  </table>\n'
-        f'  <p class="after">{inline(o["after"])}</p>\n'
-        '</section>\n\n')
+        + (f'  <p class="after">{inline(o["after"])}</p>\n' if o.get('after') else '')
+        + '</section>\n\n')
 
 
 def explain_html(blocks):
@@ -257,7 +266,7 @@ def topic_html(t, drill_nos):
         for d, n in zip(t['drill'], drill_nos):
             stem = {'text': d['stem'], 'cue': d.get('cue')}
             items.append(f'      <li data-no="{n}">{stem_p(stem, src_inline=False)}'
-                         f'<span class="src">{esc(d.get("src"))}</span></li>')
+                         f'<span class="src">{esc(src_text(d.get("src")))}</span></li>')
         parts.append('  <div class="drill">\n    <h4>练一练</h4>\n    <ol class="atoms">\n'
                      + '\n'.join(items) + '\n    </ol>\n  </div>\n')
     parts.append('</section>\n\n')
@@ -338,7 +347,7 @@ def example_en_html(e, n):
     label = mid.get('label', '成分')
     head = f'<b class="ex-no">例 {n}</b>'
     if e['stem'].get('src'):
-        head += f'<span class="src">{esc(e["stem"]["src"])}</span>'
+        head += f'<span class="src">{esc(src_text(e["stem"]["src"]))}</span>'
     hint = gloss_en(e.get('gloss') or [])
     if hint:
         head += f'<span class="hint">{hint}</span>'
@@ -384,7 +393,7 @@ def drill_p_en(d):
     text = (d.get('stem') or '').replace('\n', ' → ')
     if mode == 'whole':
         text = strip_tail_blank(text)
-    src = f'<span class="src">{esc(d["src"])}</span>' if d.get('src') else ''
+    src = f'<span class="src">{esc(src_text(d["src"]))}</span>' if d.get('src') else ''
     lang = ' lang="en"' if is_en(text) else ''
     body = inline(text)
     if mode == 'half':
