@@ -973,7 +973,11 @@
               "answer_show": "made a good impression on"
             }
           ],
-          "gloss": "has 后 → 过去分词<br>留印象用 on，有印象用 of"
+          "gloss": "has 后 → 过去分词<br>原题考 on",
+          "对照": {
+            "短语": "have a good impression of sb",
+            "释义": "对某人有好印象"
+          }
         },
         {
           "短语": "be/get used to（doing）sth",
@@ -2436,7 +2440,11 @@
               "answer_show": null
             }
           ],
-          "gloss": "be 后 → 形容词<br>后接 for + 名词/动名词"
+          "gloss": "be 后 → 形容词<br>原题考 responsible for",
+          "对照": {
+            "短语": "a sense of responsibility",
+            "释义": "责任感"
+          }
         },
         {
           "短语": "take（full）responsibility for",

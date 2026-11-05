@@ -177,9 +177,19 @@ def family_section(u):
 
 
 def phrase_html(p):
+    """短语条。可带「对照」：{短语, 释义}——教材常见但东莞没考的相关搭配，与实考搭配并列，
+    实考的那个加主色圆点、半粗（同词族链的 hit），对照在前。"""
+    if p.get('对照'):
+        alt = p['对照']
+        head = (f'<span class="form"><b>{esc(alt["短语"])}</b><span class="zh">{esc(alt["释义"])}</span></span>'
+                f'<span class="form hit"><b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span></span>')
+        cls = 'ph pair'
+    else:
+        head = f'<b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span>'
+        cls = 'ph'
     return (
         '  <div class="phrase">\n'
-        f'    <p class="ph" lang="en"><b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span>'
+        f'    <p class="{cls}" lang="en">{head}'
         f'<span class="gloss">{gloss_line(p["gloss"])}</span></p>\n'
         '    ' + atoms_html(p['atoms']) +
         '  </div>\n')

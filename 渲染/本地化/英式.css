@@ -539,3 +539,16 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 
 /* 讲解块底色：方案 1 淡青（所有者定，黑白打印灰度约 5%，原 #D6E5EA 约 10%） */
 :root { --accent-wash: #E9F1F3; }
+
+/* 短语对照（.ph.pair）：教材常见搭配与东莞实考搭配并列；实考的加主色圆点、半粗（同词族链），未考的常规字重 */
+.ph.pair .form { white-space: nowrap; }
+.ph.pair .form + .form { margin-left: 1.5em; }
+.ph.pair .form > b { font: 400 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; margin-right: 0.5em; }
+.ph.pair .form.hit > b { font-weight: 700; }
+.ph.pair .form > .zh { font: 400 12pt/var(--u) "serif-cjk"; }
+.ph.pair .form.hit::before { content: ""; display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; margin-right: 0.3em; }
+.ph.pair > .gloss { display: block; margin-left: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }   /* 9pt 独立行：行高 1u，下移 1.14pt 落回网格 */
+/* 对照两条上下排：每条一行、左缘对齐；实考那条的圆点悬挂在左缘外，不推开文字 */
+.ph.pair .form { display: block; }
+.ph.pair .form + .form { margin-left: 0; }
+.ph.pair .form.hit::before { margin-left: calc(-5pt - 0.3em); }
