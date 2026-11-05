@@ -127,8 +127,13 @@ def chain_html(chain):
     return ''.join(out)
 
 
+def freq_tier(n):
+    """考情表按频次分档（2026-11-05：档内不画行线，档与档之间空半格加细线，减轻密度）。"""
+    return 0 if n >= 5 else 1 if n >= 3 else 2 if n == 2 else 3
+
+
 def freq_section(u):
-    rows = []
+    groups = {}
     for r in u['freq']:
         # 版面：形式列每行最多 3 个（按次数）；其余在报告里交代
         shown = r['forms'][:3]
@@ -136,9 +141,11 @@ def freq_section(u):
         how = ' · '.join(r['考法']) or '—'
         n = r['题数']
         bars = '<i></i>' * min(n, 12)
-        rows.append(
+        groups.setdefault(freq_tier(n), []).append(
             f'<tr><td>{esc(r["词头"])}</td><td class="forms">{forms}</td>'
             f'<td class="how">{esc(how)}</td><td class="tally">{bars}<span>{n}</span></td></tr>')
+    bodies = ''.join('    <tbody>\n      ' + '\n      '.join(groups[k]) + '\n    </tbody>\n'
+                     for k in sorted(groups))
     ch = u['chips']
     return (
         '<section class="part">\n'
@@ -147,7 +154,7 @@ def freq_section(u):
         '  <table class="freq">\n'
         '    <colgroup><col class="c-word"><col><col class="c-how"><col class="c-tally"></colgroup>\n'
         '    <thead><tr><th>词汇</th><th>考查形式</th><th>考法</th><th>频次</th></tr></thead>\n'
-        '    <tbody>\n      ' + '\n      '.join(rows) + '\n    </tbody>\n  </table>\n'
+        + bodies + '  </table>\n'
         '</section>\n')
 
 
@@ -238,7 +245,6 @@ def answers_section(u):
 
 
 def unit_section(u):
-    stats = u['stats']
     book_title = u['unit_book'].split('　')[-1]
     kicker = u['unit_book'].split('　')[0]          # 册名；英文单元名已在标题行
     head = (
@@ -246,12 +252,6 @@ def unit_section(u):
         f'<header class="unit-head" data-no="{u["data_no"]}">\n'
         f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2 lang="en">{esc(u["h2"])}<small>{esc(u["zh"])}</small></h2>\n'
-        '  <ul class="unit-stats">'
-        f'<li><b>{stats["卷数"]}</b>套试卷</li>'
-        f'<li><b>{stats["词数"]}</b>个词汇</li>'
-        f'<li><b>{stats["短语数"]}</b>个短语</li>'
-        f'<li><b>{stats["句式题数"]}</b>道句式转换</li>'
-        '</ul>\n'
         '</header>\n\n')
     body = (freq_section(u) + '\n' + family_section(u) + '\n' + phrase_section(u) + '\n'
             + quiz_section(u) + '\n' + answers_section(u))

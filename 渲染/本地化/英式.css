@@ -517,3 +517,12 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 }
 .unit:not(.stage) .answer-lines { max-width: 390pt; }
 .blank.long { width: 12em; }
+
+/* ══ 讲义一考情表减密（2026-11-05）：按频次分档（≥5 / 3–4 / 2 / 1，每档一个 tbody）══
+ * 档内不画行线；档与档之间空半格，档底一条 0.3pt 细线；词头由粗体降为半粗。 */
+.unit:not(.stage) .freq td { background: none; }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td { padding-top: var(--h); }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.how,
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.tally { padding-top: calc(var(--h) + 2.28pt); }
+.unit:not(.stage) .freq tbody tr:last-child td { background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
+.unit:not(.stage) .freq td:first-child { font-weight: 600; }
