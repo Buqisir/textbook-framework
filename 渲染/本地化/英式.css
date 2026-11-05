@@ -526,3 +526,16 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .freq tbody + tbody tr:first-child td.tally { padding-top: calc(var(--h) + 2.28pt); }
 .unit:not(.stage) .freq tbody tr:last-child td { background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
 .unit:not(.stage) .freq td:first-child { font-weight: 600; }
+
+/* ══ 讲义一考情表「词块」（所有者定，2026-11-05）══
+ * 词与词之间空半格（行距 21pt → 词间 31.5pt），大于词内续行的行距，一个词的几行读成一块；档与档之间空 1u + 细线。 */
+.unit:not(.stage) .freq tbody tr + tr td { padding-top: var(--h); }
+.unit:not(.stage) .freq tbody tr + tr td.how,
+.unit:not(.stage) .freq tbody tr + tr td.tally { padding-top: calc(var(--h) + 2.28pt); }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td { padding-top: var(--u); }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.how,
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.tally { padding-top: calc(var(--u) + 2.28pt); }
+.unit:not(.stage) .freq tbody tr:last-child td { padding-bottom: var(--h); }
+
+/* 讲解块底色：方案 1 淡青（所有者定，黑白打印灰度约 5%，原 #D6E5EA 约 10%） */
+:root { --accent-wash: #E9F1F3; }
