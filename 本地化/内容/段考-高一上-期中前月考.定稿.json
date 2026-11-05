@@ -40,19 +40,19 @@
     "skip": false
    },
    {
-    "name": "名词性从句",
-    "cov": 0.83,
-    "n": 21,
-    "book": "选必一 U5 起",
+    "name": "虚拟语气",
+    "cov": 0.67,
+    "n": 10,
+    "book": "不单列",
     "ahead": true,
     "go": "专题 3",
     "skip": false
    },
    {
-    "name": "虚拟语气",
-    "cov": 0.67,
-    "n": 10,
-    "book": "不单列",
+    "name": "名词性从句",
+    "cov": 0.58,
+    "n": 9,
+    "book": "选必一 U5 起",
     "ahead": true,
     "go": "专题 4",
     "skip": false
@@ -67,19 +67,19 @@
     "skip": false
    },
    {
-    "name": "定语从句",
-    "cov": 0.33,
-    "n": 5,
-    "book": "必修一 U4",
+    "name": "状语从句",
+    "cov": 0.17,
+    "n": 3,
+    "book": "不单列",
     "ahead": false,
     "go": "期中册",
     "skip": true
    },
    {
-    "name": "状语从句",
-    "cov": 0.33,
-    "n": 8,
-    "book": "不单列",
+    "name": "定语从句",
+    "cov": 0.17,
+    "n": 2,
+    "book": "必修一 U4",
     "ahead": false,
     "go": "期中册",
     "skip": true
@@ -102,7 +102,7 @@
     {
      "type": "gloss",
      "lines": [
-      "34 题里 13 题",
+      "13 题",
       "介词后接 doing"
      ]
     },
@@ -125,7 +125,7 @@
     {
      "type": "gloss",
      "lines": [
-      "34 题里 3 题",
+      "3 题",
       "承受者用 done"
      ]
     },
@@ -144,7 +144,7 @@
     {
      "type": "gloss",
      "lines": [
-      "34 题里 3 题",
+      "3 题",
       "句首 doing"
      ]
     },
@@ -288,7 +288,7 @@
     {
      "type": "gloss",
      "lines": [
-      "12 题里 7 题",
+      "7 题",
       "动词后接 it"
      ]
     },
@@ -311,7 +311,7 @@
     {
      "type": "gloss",
      "lines": [
-      "12 题里 5 题",
+      "5 题",
       "It is 形容词"
      ]
     },
@@ -407,117 +407,6 @@
   },
   {
    "no": 3,
-   "name": "名词性从句",
-   "vols": 12,
-   "cov": 10,
-   "n": 21,
-   "explain": [
-    {
-     "type": "subhead",
-     "text": "作宾语"
-    },
-    {
-     "type": "gloss",
-     "lines": [
-      "11 题里 7 题",
-      "缺成分用 what 等"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "宾语从句先看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
-    },
-    {
-     "type": "p",
-     "text": "例：tells them ___ happened on the ship，happened 前缺主语，填 what。句意完整的宾语从句，that 可省。"
-    },
-    {
-     "type": "subhead",
-     "text": "作主语"
-    },
-    {
-     "type": "gloss",
-     "lines": [
-      "11 题里 3 题",
-      "It is 形容词 that"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "主语从句常以 It is 形容词 that 的形式出现：it 是形式主语，that 从句是真正的主语，that 不能省。"
-    },
-    {
-     "type": "p",
-     "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：先找 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
-    }
-   ],
-   "keypoint": "宾语从句先看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
-   "examples": [
-    {
-     "gloss": [
-      "宾语从句",
-      "用 what"
-     ],
-     "stem": {
-      "text": "Tim writes his parents an email every week and tells them ___ happened on the ship.",
-      "cue": [],
-      "src": "2024 · 光正实验 · 高一上月考"
-     },
-     "ju": "Tim 每周给父母写一封电子邮件，告诉他们船上发生的事情。",
-     "mid": {
-      "label": "成分",
-      "text": "what 引导宾语从句，在从句中作主语，happened 前缺主语。"
-     },
-     "ans": "what"
-    },
-    {
-     "gloss": [
-      "主语从句",
-      "形式主语 it"
-     ],
-     "stem": {
-      "text": "Obviously, keeping a balanced diet is of great importance.\n___ keeping a balanced diet is of great importance.",
-      "cue": [
-       "同义句转换"
-      ],
-      "src": "2023 · 翰林 · 高一月考"
-     },
-     "ju": "很显然，保持均衡饮食很重要。",
-     "mid": {
-      "label": "判断",
-      "text": "it 是形式主语，that 从句是真正的主语。"
-     },
-     "ans": "It is obvious that keeping a balanced diet is of great importance"
-    }
-   ],
-   "drill": [
-    {
-     "stem": "First, Adam had to think very carefully about ___ courses he wanted to take.",
-     "cue": [],
-     "src": "2025 · 嘉荣外国语 · 高一上月考",
-     "ans": "which",
-     "why": "which 修饰 courses，引导宾语从句。"
-    },
-    {
-     "stem": "It is obvious ___ technology is changing the way we live and work.",
-     "cue": [],
-     "src": "2024 · 麻涌中学 · 高一上月考",
-     "ans": "that",
-     "why": "It is obvious that 中的 that 不能省。"
-    },
-    {
-     "stem": "老师建议我们不要沉迷于玩电脑游戏。",
-     "cue": [
-      "用recommend翻译"
-     ],
-     "src": "2023 · 翰林 · 高一月考",
-     "ans": "The teacher recommended that we should not be addicted to playing computer games.",
-     "why": "宾语从句用 that 引导，从句谓语 should + 原形。"
-    }
-   ]
-  },
-  {
-   "no": 4,
    "name": "虚拟语气",
    "vols": 12,
    "cov": 8,
@@ -530,7 +419,7 @@
     {
      "type": "gloss",
      "lines": [
-      "8 题里 6 题",
+      "6 题",
       "从句用 (should)"
      ]
     },
@@ -627,6 +516,124 @@
    ]
   },
   {
+   "no": 4,
+   "name": "名词性从句",
+   "vols": 12,
+   "cov": 7,
+   "n": 9,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "7 题",
+      "缺成分用 what 等"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "宾语从句先看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
+    },
+    {
+     "type": "p",
+     "text": "例：tells them ___ happened on the ship，happened 前缺主语，填 what。句意完整的宾语从句，that 可省。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "3 题",
+      "多以 It is obvious that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "主语从句常以 It is 形容词 that 的形式出现：it 是形式主语，that 从句是真正的主语，that 不能省。"
+    },
+    {
+     "type": "p",
+     "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：先找 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
+    }
+   ],
+   "keypoint": "宾语从句先看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
+   "examples": [
+    {
+     "gloss": [
+      "宾语从句",
+      "用 what"
+     ],
+     "stem": {
+      "text": "Tim writes his parents an email every week and tells them ___ happened on the ship.",
+      "cue": [],
+      "src": "2024 · 光正实验 · 高一上月考"
+     },
+     "ju": "Tim 每周给父母写一封电子邮件，告诉他们船上发生的事情。",
+     "mid": {
+      "label": "成分",
+      "text": "what 引导宾语从句，在从句中作主语，happened 前缺主语。"
+     },
+     "ans": "what"
+    },
+    {
+     "gloss": [
+      "主语从句",
+      "形式主语 it"
+     ],
+     "stem": {
+      "text": "Obviously, keeping a balanced diet is of great importance.\n___ keeping a balanced diet is of great importance.",
+      "cue": [
+       "同义句转换"
+      ],
+      "src": "2023 · 翰林 · 高一月考"
+     },
+     "ju": "很显然，保持均衡饮食很重要。",
+     "mid": {
+      "label": "判断",
+      "text": "it 是形式主语，that 从句是真正的主语。"
+     },
+     "ans": "It is obvious that keeping a balanced diet is of great importance"
+    }
+   ],
+   "drill": [
+    {
+     "stem": "First, Adam had to think very carefully about ___ courses he wanted to take.",
+     "cue": [],
+     "src": "2025 · 嘉荣外国语 · 高一上月考",
+     "ans": "which",
+     "why": "which 修饰 courses，引导宾语从句。"
+    },
+    {
+     "stem": "It is obvious ___ technology is changing the way we live and work.",
+     "cue": [],
+     "src": "2024 · 麻涌中学 · 高一上月考",
+     "ans": "that",
+     "why": "It is obvious that 中的 that 不能省。"
+    },
+    {
+     "stem": "老师建议我们不要沉迷于玩电脑游戏。",
+     "cue": [
+      "用recommend翻译"
+     ],
+     "src": "2023 · 翰林 · 高一月考",
+     "ans": "The teacher recommended that we should not be addicted to playing computer games.",
+     "why": "宾语从句用 that 引导，从句谓语 should + 原形。"
+    },
+    {
+     "stem": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
+     "cue": [],
+     "src": "2022 · 第五高中 · 高一上期中",
+     "ans": "What",
+     "why": "主语从句里指物、作主语，句首大写。"
+    }
+   ]
+  },
+  {
    "no": 5,
    "name": "强调句",
    "vols": 12,
@@ -640,7 +647,7 @@
     {
      "type": "gloss",
      "lines": [
-      "8 题里 5 题",
+      "5 题",
       "时间地点原因"
      ]
     },
