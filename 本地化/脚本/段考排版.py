@@ -166,13 +166,12 @@ def stat_html(s):
 
 
 def header_html(d):
-    stats = ''.join(f'<li>{stat_html(s)}</li>' for s in d['stats'])
+    # 册头不报统计（所有者定，2026-11-05：教学进度等数据非必要），JSON 的 stats 保留不显示
     return (
         f'<section class="unit stage" data-unit="高一上{esc(d["h2"])}">\n'
         f'<header class="unit-head stage-head" data-no="{esc(d["data_no"])}">\n'
         f'  <p class="unit-book">{esc(d["unit_book"])}</p>\n'
         f'  <h2>{esc(d["h2"])}</h2>\n'
-        f'  <ul class="unit-stats">{stats}</ul>\n'
         '</header>\n\n')
 
 
@@ -185,21 +184,17 @@ def cov_cell(cov):
 def overview_html(o):
     rows = []
     for r in o['rows']:
-        book = inline(r['book'])
-        if r.get('ahead'):
-            book = f'<span class="ahead">{book}</span>'
         cls = ' class="skip"' if r.get('skip') else ''
         rows.append(
             f'      <tr{cls}><td class="name">{inline(r["name"])}</td>{cov_cell(r["cov"])}'
-            f'<td class="n">{r["n"]}</td><td class="book">{book}</td>'
+            f'<td class="n">{r["n"]}</td>'
             f'<td class="go">{inline(r["go"])}</td></tr>')
     return (
         '<section class="part overview">\n'
         f'  <header class="topic-head"><h3>{esc(o["title"])}</h3><span class="chip chip-freq">{esc(o["chip"].replace(' · ', ' '))}</span></header>\n'
-        f'  <p class="lead">{inline(o["lead"])}</p>\n'
         '  <table class="focus">\n'
-        '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col><col class="c-go"></colgroup>\n'
-        '    <thead><tr><th>专题</th><th>覆盖率</th><th>题数</th><th>教材进度</th><th>本册</th></tr></thead>\n'
+        '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col class="c-go"></colgroup>\n'
+        '    <thead><tr><th>专题</th><th>覆盖率</th><th>题数</th><th>本册</th></tr></thead>\n'
         '    <tbody>\n' + '\n'.join(rows) + '\n    </tbody>\n'
         '  </table>\n'
         + (f'  <p class="after">{inline(o["after"])}</p>\n' if o.get('after') else '')

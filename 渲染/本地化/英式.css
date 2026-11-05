@@ -587,3 +587,8 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .drill > .lvl { margin: var(--h) 0 0; font: 700 10.5pt/var(--u) "sans-ui"; color: var(--ink); position: relative; top: 0.57pt; break-after: avoid; }
 .drill > .lvl + .atoms { margin-top: 0; }
 .drill > .lvl-more { margin-top: var(--u); }
+
+/* 考情总览去掉「教材进度」列（所有者定，2026-11-05：段考不按教材进度考，此列非必要）：覆盖率列吃掉余宽 */
+.focus col.c-cov { width: auto; }
+.focus col.c-n { width: 60pt; }
+.focus col.c-go { width: 72pt; }
