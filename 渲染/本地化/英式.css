@@ -2,7 +2,7 @@
  * 依据：规范/04-英式版式.md（§1 版心、§2 色形、§3.1–3.9 组件、§4 密度）。
  * 只 import 基础.css（字体、令牌、正文基线、.blank、@page 的 string-set）；不引用 段考.css / 同步.css / 主线.css（柱式，04 §0 停用）。
  *
- * 尺寸：版心 36 字 = 432pt（左右各 28.8mm，左右页镜像相同）× 35 行 = 735pt（天 16mm / 地 21.7mm）。
+ * 尺寸：版心 38 字 = 456pt（2026-11-05 所有者定方案 A；原 36 字；左右各 24.57mm，左右页镜像相同）× 35 行 = 735pt（天 16mm / 地 21.7mm）。
  *   u = 21pt（行距，= 两个半格）；h = 10.5pt（半格）；zi = 12pt（一字）。左缘纵轴只有版心左缘一条。
  * 网格纪律：块间距、内边距、色块高度取 h 的整数倍；9pt / 10.5pt 的行内件（药丸、出处、说明）一律 line-height: 1，
  *   不撑高 21pt 行盒；独立成行的 9pt / 10.5pt 文字用 position: relative; top 下移到 12pt 的基线（01 §1 规则 4）；
@@ -13,10 +13,10 @@
 @import url("基础.css");
 
 /* ── 页面：单栏，左右页边距相同；页码 12pt 黑体粗，面包屑 9pt（规范 §3.9） ── */
-@page { size: A4; margin: 16mm 28.8mm 21.7mm 28.8mm; }
+@page { size: A4; margin: 16mm 24.57mm 21.7mm 24.57mm; }
 @page :left {
-  margin-left: 28.8mm;
-  margin-right: 28.8mm;
+  margin-left: 24.57mm;
+  margin-right: 24.57mm;
   @bottom-left-corner {
     content: counter(page);
     font: 700 12pt/1 "sans-ui";
@@ -36,8 +36,8 @@
   }
 }
 @page :right {
-  margin-left: 28.8mm;
-  margin-right: 28.8mm;
+  margin-left: 24.57mm;
+  margin-right: 24.57mm;
   @bottom-right-corner {
     content: counter(page);
     font: 700 12pt/1 "sans-ui";
@@ -495,3 +495,8 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 /* 答案条目之间不再空半格：答案页本该紧凑，题号主色 + 答案加粗已足够分条（栏距加宽后期中册多出一页的尾页） */
 .key li + li { margin-top: 0; }
 .unit:not(.stage) .freq td.forms span:last-child { margin-right: 0; }   /* 末个形式不带尾距，免得提前折行 */
+
+/* ══ 版心放宽到 38 字（所有者定方案 A，左右各 24.57mm）══
+ * 英文题干仍按原宽度折行，保证 ≤ 80 字符：段考 34 字（408pt），同步 33 字（396pt）。讲解块、表格、中文随版心放宽。 */
+.stem > p, .atoms > li > p { max-width: 408pt; }
+.unit:not(.stage) .atoms li > p { padding-right: 0; max-width: 396pt; }
