@@ -144,8 +144,18 @@ def freq_section(u):
         groups.setdefault(freq_tier(n), []).append(
             f'<tr><td>{esc(r["词头"])}</td><td class="forms">{forms}</td>'
             f'<td class="how">{esc(how)}</td><td class="tally">{bars}<span>{n}</span></td></tr>')
-    bodies = ''.join('    <tbody>\n      ' + '\n      '.join(groups[k]) + '\n    </tbody>\n'
-                     for k in sorted(groups))
+    # 档标签行；只考过 1 次的词不进表，收成表下一段（词 + 考法），减密
+    TIER_LABEL = {0: '考过 5 次及以上', 1: '考过 3–4 次', 2: '考过 2 次'}
+    bodies = ''.join(f'    <tbody>\n      <tr class="tier"><th colspan="4">{TIER_LABEL[k]}</th></tr>\n      '
+                     + '\n      '.join(groups[k]) + '\n    </tbody>\n'
+                     for k in sorted(groups) if k in TIER_LABEL)
+    once = [r for r in u['freq'] if freq_tier(r['题数']) == 3]
+    once_html = ''
+    if once:
+        items = '<span class="sep"> · </span>'.join(
+            f'<span class="w" lang="en">{esc(r["词头"])}</span><span class="k">{esc("、".join(r["考法"]) or "—")}</span>'
+            for r in once)
+        once_html = f'  <p class="freq-once"><b>考过 1 次</b>{items}</p>\n'
     ch = u['chips']
     return (
         '<section class="part">\n'
@@ -154,7 +164,7 @@ def freq_section(u):
         '  <table class="freq">\n'
         '    <colgroup><col class="c-word"><col><col class="c-how"><col class="c-tally"></colgroup>\n'
         '    <thead><tr><th>词汇</th><th>考查形式</th><th>考法</th><th>频次</th></tr></thead>\n'
-        + bodies + '  </table>\n'
+        + bodies + '  </table>\n' + once_html +
         '</section>\n')
 
 

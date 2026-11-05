@@ -526,3 +526,16 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .freq tbody + tbody tr:first-child td.tally { padding-top: calc(var(--h) + 2.28pt); }
 .unit:not(.stage) .freq tbody tr:last-child td { background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
 .unit:not(.stage) .freq td:first-child { font-weight: 600; }
+
+/* 考情表档标签行（「考过 5 次及以上」等）：9pt 黑体粗，墨色；档间半格空移到标签行上方 */
+.unit:not(.stage) .freq tr.tier th { font: 700 9pt/var(--u) "sans-ui"; padding: 2.28pt 0 0; line-height: 18.72pt; background: none; text-align: left; }
+.unit:not(.stage) .freq tbody + tbody tr.tier th { padding-top: calc(var(--h) + 2.28pt); }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td { padding-top: 0; }
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.how,
+.unit:not(.stage) .freq tbody + tbody tr:first-child td.tally { padding-top: 2.28pt; }
+/* 只考过 1 次的词：表下一段，词 STIX 半粗 + 考法 9pt，「 · 」分隔 */
+.freq-once { margin: var(--h) 0 0; font: 400 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; text-align: left; }
+.freq-once > b { font: 700 9pt/1 "sans-ui"; margin-right: 1em; }
+.freq-once .w { font-weight: 600; white-space: nowrap; }
+.freq-once .k { font: 400 9pt/1 "sans-ui"; margin-left: 0.3em; white-space: nowrap; }
+.freq-once .sep { color: var(--ink); }
