@@ -58,7 +58,7 @@ for rep, members, g, t, n, guess in papers(rows):
             seen.add(dk)
             nd['题'] += 1
             for name, pat in TOPICS:
-                if topic_hit(name, pat, r['解析']):
+                if topic_hit(name, pat, r['解析'], r['答案']):
                     nd['专题'][name]['卷'].add(rep)
                     nd['专题'][name]['题'].append(r['id'])
 
@@ -85,7 +85,7 @@ for k in sorted(nodes, key=order):
 (ROOT / '数据/段考专题.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
 
 L = ['# 段考聚焦专题 · 试卷覆盖率', '',
-     '每格：覆盖率（该节点有多少比例的卷考到这个专题）/ 题数。标签来自解析关键词，只算单句类题。',
+     '每格：覆盖率（该节点有多少比例的卷考到这个专题）/ 题数。标签来自解析关键词，只算单句类题；口径见 `脚本/节点.py` topic_hit（易成套话的专题只看「考查」句）。',
      '节点规则见 `脚本/节点.py`；「推定」= 只能按月份推定期中前后的卷；同一份卷的多个文件（重复题 ≥80%）按一卷计。', '']
 for g in ['高一上', '高一下', '高二上', '高二下']:
     ks = [f'{g}·{n}' for n in NODES if f'{g}·{n}' in out]

@@ -90,13 +90,27 @@ def papers(rows):
     return out
 
 
-def topic_hit(name, pat, jie):
-    """解析命中专题。主谓一致特殊：东莞解析常把「时态和主谓一致」当套话写在任何谓语题上，
-    只有 ①提到就近原则，或 ②「考查」句里有主谓一致且不夹时态／语态／短语／搭配，才算。"""
+# 口径（2026-11-05 负责人定）：
+#  · 特征词专题（非谓语——东莞解析常把它写成「考查动词」，只能看全文；it 形式主宾语、强调句、虚拟、倒装、独立主格、反意疑问）：解析全文出现即算——这些词不会当套话写；
+#  · 易成套话的专题（非谓语、各类从句、被动、时态、情态、比较级、省略）：只看「考查……」那一句；
+#    状语从句另认「考查连词」且答案以从属连词开头的题（解析常把 although / unless 写成「考查连词」）；
+#  · 主谓一致：提到就近原则，或「考查」句里有主谓一致且不夹时态／语态／短语／搭配。
+LOOSE = {'非谓语', 'it 形式主语／宾语', '强调句', '虚拟语气', '倒装', '独立主格／with 复合', '反意疑问'}
+SUBORD = re.compile(r'(?i)^\(?\s*(although|though|even though|even if|because|unless|while|whereas|when|whenever|if|as|since|until|till|before|after|once|so that|in order that|now that|as long as|as soon as|no matter|wherever|however|whatever)\b')
+
+
+def topic_hit(name, pat, jie, ans=''):
     jie = jie or ''
-    if name != '主谓一致':
-        return re.search(pat, jie) is not None
-    if '就近原则' in jie:
-        return True
     m = re.search(r'考查([^。]*)', jie)
-    return bool(m and '主谓一致' in m.group(1) and not re.search(r'时态|语态|短语|搭配', m.group(1)))
+    clause = m.group(1) if m else jie   # 无「考查」句的解析（另一种体例）退回全文
+    if name in LOOSE:
+        return re.search(pat, jie) is not None
+    if name == '主谓一致':
+        if '就近原则' in jie:
+            return True
+        return '主谓一致' in clause and not re.search(r'时态|语态|短语|搭配', clause)
+    if re.search(pat, clause):
+        return True
+    if name == '状语从句' and '连词' in clause and SUBORD.match((ans or '').strip()):
+        return True
+    return False
