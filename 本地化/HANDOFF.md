@@ -1,6 +1,6 @@
 # 东莞本地化 · 交接（2026-11-05，当日下午更新）
 
-接手前先读三份：`AGENTS.md`、`规范/00-项目共识.md`，以及本文。
+接手前先读：`AGENTS.md`、`规范/00-项目共识.md`、**`规范/05-所有者修改原则.md`**（2026-11-05 审校总结）、`规范/04-英式版式.md`，以及本文。
 已合入 main 的 PR：[Buqisir/textbook-framework#1](https://github.com/Buqisir/textbook-framework/pull/1)。
 
 ## 1. 要做什么（需求方原话的提炼）
