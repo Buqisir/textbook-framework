@@ -1926,7 +1926,7 @@
         "卷数": 30,
         "词数": 56,
         "短语数": 80,
-        "句式题数": 2
+        "句式题数": 1
       },
       "freq": [
         {
@@ -2417,37 +2417,13 @@
       "phrases": [],
       "tricks": [
         {
-          "句式": "进行时表将来",
-          "gloss": "1 题<br>计划安排，用进行时",
-          "formula": "我们将去徒步旅行 → We are going hiking",
-          "atoms": [
-            {
-              "id": "111-27",
-              "no": 11,
-              "标签": "2024 · 东莞市 · 高一上联考",
-              "题型": "翻译",
-              "题干": "这个周末我们将和一名交换生去徒步旅行。 → ___",
-              "题干HTML": "这个周末我们将和一名交换生去徒步旅行。 → <span class=\"blank\"></span>",
-              "cue": [
-                "用现在进行时表将来翻译"
-              ],
-              "提示词": null,
-              "答案": "We are going hiking with an exchange student this weekend.",
-              "解析": "考查动词时态和名词。根据句意，本句时态可用现在进行时表将来，表示“这个周末”应用this weekend，在本句中作状语；表示“我们”应用We，为主语；表示“去徒步旅行”应用are going hiking ，其中go hiking表“去远足”，为固定搭配；表示“和一名交换生”应用with an exchange student，为介词短语作状语。故翻译为We are going hiking with an exchange student this weekend.",
-              "句意": "",
-              "reason": "现在进行时表将来，go hiking 去徒步",
-              "answer_show": "We are going hiking with an exchange student this weekend."
-            }
-          ]
-        },
-        {
           "句式": "动词改短语",
           "gloss": "1 题<br>动词换成「动词+名词」",
           "formula": "arrange sth → make arrangements for sth",
           "atoms": [
             {
               "id": "050-29",
-              "no": 12,
+              "no": 11,
               "标签": "2023 · 东莞外国语 · 高一上月考",
               "题型": "完成句子",
               "题干": "Our school will arrange the meeting next week. → Our school will ___ the meeting next week.",
@@ -2468,7 +2444,7 @@
       "quiz": [
         {
           "id": "034-11",
-          "no": 13,
+          "no": 12,
           "标签": "2025 · 东莞市 · 高一上期中",
           "题型": "语法填空",
           "题干": "Efforts are required ___ (narrow) the distance between scientific ideas and real-life use.",
@@ -2483,7 +2459,7 @@
         },
         {
           "id": "099-11",
-          "no": 14,
+          "no": 13,
           "标签": "2024 · 莞中松山湖 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Whatever the season, Jiuzhaigou is an ___ (极其) beautiful place to visit.",
@@ -2498,7 +2474,7 @@
         },
         {
           "id": "080-16",
-          "no": 15,
+          "no": 14,
           "标签": "2025 · 大岭山中学、众美中学、莞美 · 高一下期中",
           "题型": "语法填空",
           "题干": "Artificial Intelligence (Al) ___ (apply) to many fields in recent years.",
@@ -2513,7 +2489,7 @@
         },
         {
           "id": "099-12",
-          "no": 16,
+          "no": 15,
           "标签": "2024 · 莞中松山湖 · 高一上期中",
           "题型": "单词拼写",
           "题干": "With a passion for adventure, he set off on his journey to his dream ___ (目的地) — the Amazon rainforest.",
@@ -2528,7 +2504,7 @@
         },
         {
           "id": "149-07",
-          "no": 17,
+          "no": 16,
           "标签": "2025 · 翰林 · 高一上期末",
           "题型": "语法填空",
           "题干": "These materials are quite expensive ___ (transport) by plane.",
@@ -2543,7 +2519,7 @@
         },
         {
           "id": "092-09",
-          "no": 18,
+          "no": 17,
           "标签": "2023 · 东华、东华松山湖 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Singer-songwriter Jay Chou has one of the most incredible and truly ___ (独一无二的，独特的) voices you’ll ever hear.",
@@ -2558,7 +2534,7 @@
         },
         {
           "id": "029-10",
-          "no": 19,
+          "no": 18,
           "标签": "2024 · 第八高中 · 高一上期中",
           "题型": "语法填空",
           "题干": "The experiment is ___ （extreme） challenging，so we must make careful arrangements for it.",
@@ -2573,7 +2549,7 @@
         },
         {
           "id": "092-10",
-          "no": 20,
+          "no": 19,
           "标签": "2023 · 东华、东华松山湖 · 高一上月考",
           "题型": "单词拼写",
           "题干": "But increasingly their differences are seen as a ___ (来源) of strength rather than a weakness to be overcome.",
@@ -2587,7 +2563,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 20
+      "numbered_total": 19
     }
   ]
 }

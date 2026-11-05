@@ -128,7 +128,7 @@ def family_section(u):
     return (
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="2"><h3>词性转换</h3>'
-        f'<span class="chip chip-freq"><b>{ch["n_kaofa"]}</b> 道</span></header>\n'
+        f'<span class="chip chip-freq">真题 <b>{ch["n_kaofa"]}</b> 道</span></header>\n'
         '  <p class="lead"><span class="dot"></span>为东莞真题考过的形式</p>\n'
         + ''.join(parts) + '</section>\n')
 
@@ -161,7 +161,7 @@ def phrase_section(u):
     return (
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="3"><h3>短语与句式转换</h3>'
-        f'<span class="chip chip-freq"><b>{ch["n_phrase"]}</b> 道</span></header>\n'
+        f'<span class="chip chip-freq">真题 <b>{ch["n_phrase"]}</b> 道</span></header>\n'
         + ''.join(phrase_html(p) for p in u['phrases'])
         + '  <p class="lead">句式转换</p>\n'
         + ''.join(trick_html(t) for t in u['tricks'])

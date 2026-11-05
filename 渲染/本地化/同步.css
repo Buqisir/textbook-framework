@@ -141,3 +141,10 @@
 /* ③ 句式转换：沿用 .phrase 的格。柱里放套路名（中文黑体）+ 柱注；正文栏一行「原句 → 改法」公式，下接原题 */
 .trick > .fam-head { font: 700 12pt/var(--u) "sans-ui"; }
 .trick > .ph > b { font-family: "arrow", "serif-en", "serif-cjk"; font-size: 10.5pt; }
+/* 短语块之后的「句式转换」分隔行：空 1u + 半格，上缘细线，标签加粗（1.5u 仍在半格网格上） */
+.part > .phrase + .lead {
+  margin-top: var(--u);
+  padding-top: var(--h);
+  font-weight: 700;
+  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.3pt no-repeat;
+}
