@@ -1,0 +1,1973 @@
+{
+ "册": "高一下·期末",
+ "年级学期": "高一下",
+ "节点": "期末",
+ "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问（待负责人确认）",
+ "卷数": 6,
+ "推定卷数": 0,
+ "题数_关键词": 112,
+ "专题": [
+  {
+   "名称": "非谓语",
+   "讲": true,
+   "覆盖卷": 6,
+   "覆盖率": 1.0,
+   "题数": 37,
+   "候选": {
+    "本节点": 26,
+    "借用": 0,
+    "合计": 26
+   },
+   "子类": {
+    "作宾补": {
+     "题数": 3,
+     "题": [
+      "039-16",
+      "064-19",
+      "067-21"
+     ]
+    },
+    "作状语": {
+     "题数": 12,
+     "题": [
+      "010-12",
+      "010-13",
+      "020-07",
+      "020-23",
+      "039-14",
+      "059-09",
+      "059-19",
+      "064-10",
+      "064-21",
+      "067-13",
+      "067-16",
+      "067-24"
+     ]
+    },
+    "作定语": {
+     "题数": 6,
+     "题": [
+      "010-19",
+      "020-13",
+      "020-20",
+      "039-13",
+      "059-16",
+      "067-19"
+     ]
+    },
+    "作主语": {
+     "题数": 1,
+     "题": [
+      "059-25"
+     ]
+    },
+    "作宾语 / 固定搭配": {
+     "题数": 1,
+     "题": [
+      "059-21"
+     ]
+    },
+    "形式：不定式": {
+     "题数": 1,
+     "题": [
+      "064-14"
+     ]
+    },
+    "其他": {
+     "题数": 2,
+     "题": [
+      "039-10",
+      "039-18"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-12",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Thank You Day offers us all a chance ___ (get) together and thank those who have made the pandemic bearable.",
+     "提示词": "get",
+     "答案": "to get",
+     "解析": "考查to do不定式。句意：感谢日让我们有机会聚在一起，感谢那些让大流行变得可以忍受的人。分析可知，设空处表示目的，用to do不定式作目的状语，故填to get。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查to do不定式",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "010-13",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "___ (compare) to the whole universe, the earth seems so small.",
+     "提示词": "compare",
+     "答案": "Compared",
+     "解析": "考查非谓语动词。句意：和整个宇宙相比，地球看起来是如此渺小。分析句子可知“the earth seems so small.”是主句；“             (compare) to the whole universe,”是状语。设空处应填非谓语动词，compare和主句主语the earth构成逻辑上的被动关系，应用过去分词，故填Compared。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "010-19",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "The project which will be conducted next year is meeting with argument.\nThe project ___ next year is meeting with argument.",
+     "提示词": null,
+     "答案": "to be conducted",
+     "解析": "考查非谓语动词。句意：将于明年实施的项目正面临争论。此处可用不定式表将要发生的动作，且project与conduct构成被动关系，应用不定式的被动形式：to be done，作后置定语。故填to be conducted。",
+     "句意": null,
+     "cue": [
+      "不定式改写"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-07",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Many heroes often go unnoticed, ___ (work) tirelessly behind the scenes.",
+     "提示词": "work",
+     "答案": "working",
+     "解析": "考查非谓语动词。句意：许多英雄常常默默无闻，不知疲倦地在幕后工作。分析句子可知，句中已有谓语动词go unnoticed且无连词，故空处用非谓语动词；work与其逻辑主语Many heroes之间是主动关系，应用现在分词形式作伴随状语。故填working。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-13",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "During the Spring Festival, people will wander along the streets ___ (decorate) with red lanterns.",
+     "提示词": "decorate",
+     "答案": "decorated",
+     "解析": "考查过去分词。句意：春节期间，人们会在挂满红灯笼的街道上漫步。句中已有谓语动词will wonder且无连词，故空处应填非谓语动词；动词decorate和streets之间是动宾关系，应用过去分词作后置定语。故填decorated。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查过去分词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-20",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "In 2012, Liu Yang became China’s first female astronaut who travelled into space.\nIn 2012, Liu Yang became China’s first female astronaut ___ space.",
+     "提示词": null,
+     "答案": "to ； travel ； into",
+     "解析": "考查动词不定式。句意：2012年，刘洋成为中国第一位进入太空的女宇航员。分析句子可知，原句是含who引导的定语从句，修饰名词astronaut，因astronaut前有序数词修饰，故可改为动词不定式作后置定语，故填to travel into。",
+     "句意": null,
+     "cue": [
+      "用不定式改写"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查动词不定式",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-23",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "When the boy heard the good news of the Chinese team, he jumped out of bed.",
+     "提示词": null,
+     "答案": "Hearing the good news of the Chinese team, the boy jumped out of bed./When hearing the good news of the Chinese team, the boy jumped out of bed.",
+     "解析": "考查现在分词作状语。句意：（当）听到中国队的好消息，男孩从床上跳了起来。分析句子可知，原句含When引导的时间状语从句，可改写为非谓语动词作时间状语，动词hear和逻辑主语the boy之间是主谓关系，应用现在分词作状语；也可用“连词+非谓语动词”结构作状语，连词使用when，动词hear和逻辑主语the boy之间是主谓关系，故分词用现在分词hearing，故答案是Hearing the good news of the Chinese team, the boy jumped out of bed./When hearing the good news of the Chinese team, the boy jumped out of bed.",
+     "句意": null,
+     "cue": [
+      "用分词作状语改写"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查现在分词作状语",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "039-10",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Reading good books ___ (regular) can enrich our knowledge and shape our character.",
+     "提示词": "regular",
+     "答案": "regularly",
+     "解析": "句意：经常阅读好书能够丰富我们的知识、塑造我们的品格。 空格修饰动名词短语Reading good books，要用副词。所给词regular是形容词，副词形式为regularly，意为“定期地，经常”。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "039-13",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Every word ___ (write) on the walls encourages us students to pursue our dreams.",
+     "提示词": "write",
+     "答案": "written",
+     "解析": "考查非谓语动词。句意：写在墙上的每一句话都鼓励着我们学生去追逐梦想。本句中谓语动词是encourages，空白处在句子中作定语，使用非谓语动词。又因为逻辑主语Every word与write之间是逻辑上的动宾关系，使用过去分词。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "039-14",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Scientists are making great efforts ___ (explore) the unknown universe.",
+     "提示词": "explore",
+     "答案": "to explore",
+     "解析": "句意：科学家们正在努力探索未知的宇宙。make efforts to do sth.是固定搭配，意为“努力做某事”，此处不定式作目的状语。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "039-16",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "The amazing taste of Dongguan food keeps tourists ___ (come) back for more.",
+     "提示词": "come",
+     "答案": "coming",
+     "解析": "考查非谓语动词。句意：东莞美食令人惊艳的味道让游客不断回头品尝。空白处在句子中作宾语补足语，表示一个持续发生的动作，且与宾语之间为逻辑上的主谓关系，使用动词 - ing 形式。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作宾补",
+     "子类依据": "全文"
+    },
+    {
+     "id": "039-18",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "Smart students tend to ___ (利用) the library’s resources.",
+     "提示词": null,
+     "答案": "make the most of/make full use of",
+     "解析": "句意：聪明的学生倾向于利用图书馆的资源。根据汉语提示“利用”可知，空处可用固定短语make the most of/make full use of；空格前有不定式符号to，后接动词原形。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "059-09",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Hearing the news, she burst into tears, ___ (release) all her emotions.",
+     "提示词": "release",
+     "答案": "releasing",
+     "解析": "考查非谓语动词。句意：听到这个消息，她放声大哭，释放了所有的情绪。空处在句中是非谓语动词作状语，逻辑主语she和动词release是主动关系，应用现在分成作状语，故填releasing。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "059-16",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "In 2013, spacewoman Wang Yaping became China’s first teacher ___ (give) lessons in space.",
+     "提示词": "give",
+     "答案": "to give",
+     "解析": "考查不定式。句意：2013年，女宇航员王亚平成为中国首位在太空中讲课的教师。分析句子结构，句子的谓语为became，所以空处应用非谓语动词，作后置定语。当被修饰词前有first等序数词修饰时，应用不定式作后置定语，所以这里应用to give作定语。故填to give。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查不定式",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "059-19",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "Because we had lost her phone number, we couldn’t get in touch with her.\n___ her phone number, we couldn’t get in touch with her.",
+     "提示词": null,
+     "答案": "Having ； lost",
+     "解析": "考查非谓语动词。句意：因为我们把她的电话号码弄丢了，我们无法和她取得联系。分析句子可知，可用非谓语动词替代原因状语从句，lose与主语we是主动关系，根据句意，“丢了电话号码”先于谓语动词“与她取得联系”，故用现在分词的完成时，故填Having lost。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "059-21",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "My family insisted that I should give it another try.\nMy family ___ my ___ it another try.",
+     "提示词": null,
+     "答案": "insisted ； on ； giving",
+     "解析": "考查固定搭配和动名词。句意：我的家人坚持要我再试一次。insist that...可替换为insist on doing sth.意为“坚持做某事”，动名词作宾语。动名词前可以加逻辑主语，结合英文，my为动名词的逻辑主语。原句使用了一般过去时，这里也应用一般过去时。故填insisted；on；giving。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查固定搭配和动名词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作宾语 / 固定搭配",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "059-25",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "翻译",
+     "题干": "没有什么比看到我们国家变得越来越强大更令人鼓舞。",
+     "提示词": null,
+     "答案": "Nothing is more inspiring than seeing our countrygrow stronger and stronger/become more and more powerful. Seeing our countrygrow stronger and stronger/become more and more powerfulis the most inspiring thing.",
+     "解析": "考查时态和动名词。根据句意可知，本句时态可用一般现在时，表示“没有什么”可用不定代词nothing作主语，或者用动名词短语seeing our country作主语；表示“令人鼓舞”可用形容词inspiring作表语；表示“看到我们国家”可用动名词短语seeing our country；表示“变得”可用系动词grow或become；表示“越来越强大”可用比较级+比较级即stronger and stronger或者more and more powerful；故答案为Nothing is more inspiring than seeing our country grow stronger and stronger / become more and more powerful或者Seeing our country grow stronger and stronger / become more and more powerful is the most inspiring thing。",
+     "句意": null,
+     "cue": [
+      "用V-ing翻译"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查时态和动名词",
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "作主语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-10",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "The sky turned gray, ___ (indicate) that a storm was likely to come soon.",
+     "提示词": "indicate",
+     "答案": "indicating",
+     "解析": "考查非谓语动词。句意：天空变成了灰色，暗示着暴风雨很可能就要到来。分析可知，此处应用非谓语动词作状语，indicate的逻辑主语为上文的整个句子，它们之间为主动关系，应用现在分词。故填indicating。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-14",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Parents consider it a duty ___ (select) healthy foods for their children.",
+     "提示词": "select",
+     "答案": "to select",
+     "解析": "考查非谓语动词。句意：父母认为为孩子选择健康的食物是一种责任。句中it作形式宾语，这里应填不定式作真正宾语，故填to select。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语"
+     ],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式：不定式",
+     "子类依据": "答案"
+    },
+    {
+     "id": "064-19",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "To her surprise, Mary found that the room had been cleaned up by the kids yesterday.\nTo her surprise, Mary found the room ___ by the kids yesterday.",
+     "提示词": null,
+     "答案": "cleaned ； up",
+     "解析": "考查非谓语动词。句意：昨天，令玛丽吃惊的是，她发现房间已经被孩子们打扫过了。原句中使用了that引导了宾语从句；还可使用动词find+宾语+宾语补足语结构，该句中空前the room作found宾语，空上可以使用动词短语clean up作宾补，房间被打扫，与所修饰名词为被动关系，应使用过去分词形式。故填cleaned；up。",
+     "句意": null,
+     "cue": [
+      "句型转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作宾补",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-21",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "As he was deeply inspired by the speech, he decided to pursue his dream of becoming a scientist.\n___ the speech, he decided to pursue his dream of becoming a scientist.",
+     "提示词": null,
+     "答案": "Deeply ； inspired ；  by",
+     "解析": "考查句型转换。句意：演讲深深地激励了他，他决定追求成为一名科学家的梦想。分析句子可知，he与inspire为被动关系，所以这里可以用过去分词作状语，且句首时首字母应大写。故填Deeply inspired by。",
+     "句意": null,
+     "cue": [
+      "句型转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查句型转换",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-13",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "The information ___ (gather) since the market research began last month.",
+     "提示词": "gather",
+     "答案": "has been gathered",
+     "解析": "考查时态语态。句意：自上个月市场调研开始以来，信息就一直在被收集。句子的主语The information和gather之间是被动关系，即信息是被收集的。同时，since the market research began last month这一状语表明，从上个月市场调研开始这个动作就已经发生并且持续到现在，符合现在完成时的用法。现在完成时的被动语态结构为have/has been +过去分词，而主语The information为不可数名词，所以用has。gather的过去分词为gathered，故填has been gathered。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查时态语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-16",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "___ (launch) this new project, the company has conducted many surveys.",
+     "提示词": "launch",
+     "答案": "To launch",
+     "解析": "考查非谓语动词。句意：为了启动这个新项目，这家公司已经进行了许多调查。不定式to launch作目的状语。首字母大写。故填To launch。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "作状语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-19",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "May Day, which was originally celebrated in parts of England to welcome spring, is now marked in many cities across the country.\nMay Day, ___ in parts of England to welcome spring, is now marked in many cities across the country.",
+     "提示词": null,
+     "答案": "originally ； celebrated",
+     "解析": "考查非谓语动词。句意：五朔节最初是在英格兰部分地区庆祝以迎接春天，如今在全国许多城市都会庆祝。原句中which was originally celebrated...是定语从句，修饰May Day 。可将其转换为过去分词短语作后置定语，May Day与celebrate之间是被动关系，所以用过去分词celebrated，originally（最初地）修饰celebrated，故填originally celebrated。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作定语",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-21",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "From the window, they saw that children were running happily around the park.\nFrom the window, they saw ___ happily around the park.",
+     "提示词": null,
+     "答案": "children ； running",
+     "解析": "考查非谓语动词。句意：从窗户里，他们看到孩子们正在公园里开心地跑着。原句“that children were running happily around the park”是that引导的宾语从句，作saw的宾语，可转换为“see + 宾语 + 现在分词”结构，其中现在分词作宾语补足语，与宾语children之间是主动关系，且表示动作正在进行，与原句中“were running”的含义一致。故填①children②running。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查非谓语动词",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作宾补",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-24",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "The astronauts knew that they would face various situations, so they trained hard for the mission.",
+     "提示词": null,
+     "答案": "Knowing that they would face various situations in space, the astronauts trained hard for the mission.",
+     "解析": "考查现在分词作状语。句意：宇航员们知道他们将面临各种不同的情况，所以他们为这次任务刻苦训练。原句中“The astronauts knew that they would face various situations,”和“they trained hard for the mission.”两个句子主语一致，都是the astronauts，且“knew”这个动作和“trained”这个动作同时发生，存在主动关系，所以可以用现在分词短语Knowing that they would face various situations in space作状语，表示主动和进行，放在句首首字母要大写。故答案为Knowing that they would face various situations in space, the astronauts trained hard for the mission。",
+     "句意": null,
+     "cue": [
+      "用分词作状语改写"
+     ],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查现在分词作状语",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "作状语",
+     "子类依据": "考查句"
+    }
+   ],
+   "编号": 1
+  },
+  {
+   "名称": "定语从句",
+   "讲": true,
+   "覆盖卷": 6,
+   "覆盖率": 1.0,
+   "题数": 11,
+   "候选": {
+    "本节点": 6,
+    "借用": 2,
+    "合计": 8
+   },
+   "子类": {
+    "关系副词 where / when / why": {
+     "题数": 5,
+     "题": [
+      "010-09",
+      "039-09",
+      "059-13",
+      "064-15",
+      "073-15"
+     ]
+    },
+    "其他": {
+     "题数": 3,
+     "题": [
+      "020-12",
+      "067-09",
+      "057-12"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-09",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Gone are the days ___ small farmers grew beans, corn and potatoes.",
+     "提示词": null,
+     "答案": "when",
+     "解析": "考查定语从句。句意：小农种豆子、玉米和土豆的日子一去不复返了。此处为定语从句修饰先行词days，先行词在从句中作时间状语，应用关系副词when。故填when。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "关系副词 where / when / why",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-12",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Nowadays, more and more graduates are attracted to the rural area, ___ they can achieve their personal goals.",
+     "提示词": null,
+     "答案": "where",
+     "解析": "考查定语从句。句意：如今，越来越多的毕业生被吸引到农村地区，在那里他们可以实现他们的个人目标。分析可知，空格处引导的是非限制性定语从句，关系词指代先行词rural area，在从句中作地点状语。故填where。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "039-09",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Yue BA, the Guangdong City Basketball League, is a stage ___ every city in Guangdong shows its unity and courage.",
+     "提示词": null,
+     "答案": "where",
+     "解析": "句意：粤BA，即广东省城市篮球联赛，是广东省各个城市展现团结与勇气的舞台。 空格引导定语从句，先行词为stage，从句不缺主语、宾语，先行词表地点，在从句中充当地点状语，用关系副词where。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "关系副词 where / when / why",
+     "子类依据": "全文"
+    },
+    {
+     "id": "059-13",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Chinatowns are popular tourist destinations ___ visitors can experience traditional Chinese culture first hand.",
+     "提示词": null,
+     "答案": "where",
+     "解析": "考查定语从句。句意：唐人街是受欢迎的旅游目的地，在这里游客可以亲身体验中国传统文化。分析句子可知，空处引导定语从句，修饰destination，从句中作地点状语，用关系副词where引导定语从句，故填where。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "关系副词 where / when / why",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-15",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "The invention of the wheel can date back to the time ___ early humans first started using tools.",
+     "提示词": null,
+     "答案": "when",
+     "解析": "考查定语从句。句意：轮子的发明可以追溯到早期人类第一次开始使用工具的时候。先行词为the time,在定语从句中作时间状语，关系副词为when。故填when。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "关系副词 where / when / why",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-09",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Zhao Xintong, ___ won the World Snooker Championship final, has made Chinese snooker a breakthrough.",
+     "提示词": null,
+     "答案": "who",
+     "解析": "考查定语从句。句意：赢得了世界斯诺克锦标赛决赛的赵心童，让中国斯诺克运动取得了突破。此处为非限制性定语从句，先行词为Zhao Xintong，指人，引导词在定语从句中作主语，因此应用关系代词who来引导。故填who。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "057-12",
+     "标签": "2023 · 东莞实验中学 · 高一下月考",
+     "题型": "语法填空",
+     "题干": "___ is known, a journey of a thousand miles begins with a single step.",
+     "提示词": null,
+     "答案": "As",
+     "解析": "考查连词和定语从句。句意：众所周知，千里之行始于足下。根据句意可知，此处使用连词As“正如”，引导非限制性定语从句，修饰主句，as is known意为“众所周知”，位于句首，首字母大写。故填As。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "状语从句"
+     ],
+     "考查句": "考查连词和定语从句",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "073-15",
+     "标签": "2025 · 东莞市 · 高一下联考",
+     "题型": "语法填空",
+     "题干": "This thing has come to a stage ___ I am unable to deal with it by myself.",
+     "提示词": null,
+     "答案": "where",
+     "解析": "考查定语从句。句意：这件事已经发展到一个我无法独自处理它的阶段了。分析句子结构，“This thing has come to a stage”为主句，后面部分为定语从句，用于修饰先行词stage，在定语从句“I am unable to deal with it by myself”中，先行词stage在从句里作地点状语，相当于“in this stage”，当定语从句中先行词在从句中作地点状语时，要用关系副词where来引导从句。故填where。",
+     "句意": null,
+     "cue": [],
+     "主考点": "定语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查定语从句",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "关系副词 where / when / why",
+     "子类依据": "全文"
+    }
+   ],
+   "编号": 2
+  },
+  {
+   "名称": "it 形式主语／宾语",
+   "讲": true,
+   "覆盖卷": 5,
+   "覆盖率": 0.83,
+   "题数": 8,
+   "候选": {
+    "本节点": 5,
+    "借用": 3,
+    "合计": 8
+   },
+   "子类": {
+    "形式宾语 it（find/make/think… it adj.）": {
+     "题数": 5,
+     "题": [
+      "010-15",
+      "020-10",
+      "064-18",
+      "067-10",
+      "024-11"
+     ]
+    },
+    "形式主语 It is adj. to do / that": {
+     "题数": 3,
+     "题": [
+      "010-21",
+      "024-07",
+      "057-25"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-15",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "She believes ___ important to bridge the digital divide and make sure that everyone has access to the Internet.",
+     "提示词": null,
+     "答案": "it",
+     "解析": "考查形式宾语it。句意：她认为弥合数字鸿沟并确保每个人都可以访问互联网很重要。“动词+it+形容词+to do”是固定结构，意思是“（动词）某事是（形容词）怎样的”，此处是it作形式宾语，“to bridge the digital divide and make sure that everyone has access to the Internet.”为真正的宾语。故填it。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查形式宾语it",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式宾语 it（find/make/think… it adj.）",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "010-21",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "We are surprised that the ocean ship can sail up the Great Lake.\n___ the ocean ship can sail up the Great Lake.",
+     "提示词": null,
+     "答案": "It surprises us that/ It is surprising that",
+     "解析": "考查固定句型。It surprises us that…/ It is surprising that…是固定句型，意思是“使某人惊讶的是”，此处是it作形式主语，that从句作真正的主语，故将此句改为：It surprises us that/ It is surprising that the ocean ship can sail up the Great Lake.故填It surprises us that/ It is surprising that。",
+     "句意": null,
+     "cue": [
+      "用 it 作形式主语改写"
+     ],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查固定句型",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式主语 It is adj. to do / that",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-10",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "You will find ___ rewarding to be a volunteer.",
+     "提示词": null,
+     "答案": "it",
+     "解析": "考查形式宾语。句意：你会发现做一名志愿者是很有意义的。\"find it+形容词+to do\"是固定句式，意为“发现做某事是……的”，其中it是形式宾语，真正的宾语是不定式，因此空格处用it，故填it。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查形式宾语",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式宾语 it（find/make/think… it adj.）",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "064-18",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "For a speaker, it is important to ___ (牢记)that less is more.",
+     "提示词": null,
+     "答案": "keep |bear ； it ； in ； mind",
+     "解析": "考查固定短语。句意：对于一个演讲者，重要的是要记住：少即是多。该句中使用了it作形式主语，该动词短语在句中应使用动词不定式形式做主语，前面已给出to，所以动词使用原形，表示“牢记”可使用动词短语keep/bear something in mind，根据后面的“that less is more”为宾语从句，所以空处可以使用it作形式宾语。故填keep/bear；it；in；mind。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查固定短语",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式宾语 it（find/make/think… it adj.）",
+     "子类依据": "全文"
+    },
+    {
+     "id": "067-10",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "Facing challenges positively will make ___ possible to realize one's dream.",
+     "提示词": null,
+     "答案": "it",
+     "解析": "考查it用法。句意：积极面对挑战才有可能实现自己的梦想。句中“make”后需要一个形式宾语，指代后面的不定式短语 “to realize one’s dream”，英语中常用“it”作形式宾语，构成“make it + 形容词/名词 + to do sth.”的结构，意为“使做某事……”。因此，此处应填入“it”。故填it。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查it用法",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式宾语 it（find/make/think… it adj.）",
+     "子类依据": "全文"
+    },
+    {
+     "id": "024-07",
+     "标签": "2024 · 东莞市 · 高一下联考",
+     "题型": "语法填空",
+     "题干": "At the end of the meeting, it ___ (announce) that he would get a new position in the company.",
+     "提示词": "announce",
+     "答案": "was announced",
+     "解析": "考查时态和语态。句意：会议结束时，宣布他将在公司得到一个新职位。根据\"would get\"可知，空格处用一般过去时态，形式主语\"it\"为单数意义并承受谓语动词announce的动作，则此处应使用一般过去时的被动语态，be动词使用was。故填was announced。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查时态和语态",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式主语 It is adj. to do / that",
+     "子类依据": "全文"
+    },
+    {
+     "id": "024-11",
+     "标签": "2024 · 东莞市 · 高一下联考",
+     "题型": "语法填空",
+     "题干": "Susan made ___ clear to me that she wished to make a new life for herself.",
+     "提示词": null,
+     "答案": "it",
+     "解析": "考查it作形式宾语。句意：苏珊清楚地向我表明她希望为自己过一种新的生活。分析可知，she wished to make a new life for herself是真正的宾语，因此要用it作形式宾语。故填it。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查it作形式宾语",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式宾语 it（find/make/think… it adj.）",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "057-25",
+     "标签": "2023 · 东莞实验中学 · 高一下月考",
+     "题型": "翻译",
+     "题干": "每个人都应该为社会做贡献，这是至关重要的。",
+     "提示词": null,
+     "答案": "It is vital/important/significant that everyone (should) make contributions to the society./It is vital/important/significant for everyone to make contributions to the society.",
+     "解析": "考查it作形式主语。“重要的”表达为vital/important/significant；“每个人”表达为everyone；“对......做贡献”表达为make contributions to；“社会”表达为society。根据句意可知，此处“做某事是至关重要的”为句型it is vital/important/significant that...，that引导的句子谓语动词应用(should)+do；也可以表达为It is vital/important/significant for sb. to do sth.。且此处陈述客观事实，故应用一般现在时，故翻译为： It is vital/important/significant that everyone (should) make contributions to the society./It is vital/important/significant for everyone to make contributions to the society.",
+     "句意": null,
+     "cue": [
+      "用形式主语翻译句子"
+     ],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查it作形式主语",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "形式主语 It is adj. to do / that",
+     "子类依据": "考查句"
+    }
+   ],
+   "编号": 3
+  },
+  {
+   "名称": "名词性从句",
+   "讲": true,
+   "覆盖卷": 4,
+   "覆盖率": 0.67,
+   "题数": 5,
+   "候选": {
+    "本节点": 3,
+    "借用": 5,
+    "合计": 8
+   },
+   "子类": {
+    "主语从句": {
+     "题数": 6,
+     "题": [
+      "010-24",
+      "020-14",
+      "059-14",
+      "128-15",
+      "005-07",
+      "095-24"
+     ]
+    },
+    "宾语从句": {
+     "题数": 1,
+     "题": [
+      "123-25"
+     ]
+    },
+    "其他": {
+     "题数": 1,
+     "题": [
+      "005-16"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-24",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "翻译",
+     "题干": "在上次旅行中，让我印象深刻的是当地的习俗.",
+     "提示词": null,
+     "答案": "What impressed me on my last trip was the local customs.",
+     "解析": "根据句意可知用What引导主语从句impressed me on my last trip表示\"在上次旅行中，让我印象深刻的\"；系动词用was表示过去的状态；表语用the local customs表示\"当地的习俗\"，故填What impressed me on my last trip was the local customs.",
+     "句意": "在上次旅行中，让我印象深刻的是当地的习俗。",
+     "cue": [
+      "用主语从句翻译"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "主语从句",
+     "子类依据": "全文"
+    },
+    {
+     "id": "020-14",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "___ impresses the foreigners most is the friendliness of the Chinese people.",
+     "提示词": null,
+     "答案": "What",
+     "解析": "考查主语从句。句意：给外国人印象最深的是中国人民的友好。设空处是主语从句的连接词，意为“……的东西”，用what引导该从句。故填What。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查主语从句",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "主语从句",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "059-14",
+     "标签": "2023 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "It occurred to me ___ I had an important meeting to attend the next day.",
+     "提示词": null,
+     "答案": "that",
+     "解析": "考查主语从句。句意：我突然想到第二天我要参加一个重要的会议。it occurs/occurred to sb. that...为固定句型，意为“某人突然想到……”，其中it作形式主语，that引导的是主语从句。故填that。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语"
+     ],
+     "考查句": "考查主语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "主语从句",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "128-15",
+     "标签": "2023 · 石竹实验学校 · 高一下月考",
+     "题型": "语法填空",
+     "题干": "But we need to keep in mind that ___ we see on social media is often not the whole truth about a person.",
+     "提示词": null,
+     "答案": "what",
+     "解析": "考查主语从句。句意：但我们需要记住，我们在社交媒体上看到的往往不是一个人的全部真相。分析句子可知，“        we see on social media”是主语从句，从句缺少宾语，应用连接代词what引导，在句中表示“(我们看到的)东西”。故填what。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查主语从句",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "主语从句",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "005-07",
+     "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
+     "题型": "语法填空",
+     "题干": "___ wild life can be well protected is of great importance.",
+     "提示词": null,
+     "答案": "Whether |That |How",
+     "解析": "从句中缺少连词，用Whether (That/How)引导主语从句。故填Whether (That/How)。",
+     "句意": "野生动物是否/如何能够得到很好的保护是很重要的。",
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "借用节点": "期中",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "主语从句",
+     "子类依据": "全文"
+    },
+    {
+     "id": "005-16",
+     "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
+     "题型": "语法填空",
+     "题干": "The girls were surprised at the fact ___ ocean ships can sail up the Great Lakes.",
+     "提示词": null,
+     "答案": "that",
+     "解析": "本题考查名词性从句。解题要点：根据句意：远洋轮船可以航行到五大湖，这件事使姑娘们感到惊讶。从句“  ocean ships can sail up the Great Lakes.”不缺少成分。故填that，无含义，不充当成分，the fact that后跟具体内容解释fact这个事实。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查名词性从句",
+     "借用节点": "期中",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "095-24",
+     "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
+     "题型": "翻译",
+     "题干": "钱学森与大多数工程师不同之处在于他不断地渴望创新和实验。",
+     "提示词": null,
+     "答案": "What sets Qian Xuesen apart from most engineers is his constant desire to innovate and experiment.",
+     "解析": "考查主语从句、动词短语、形容词和名词。根据句意，该句描述的为客观事实，所以使用一般现在时，表示“使……不同于……”应为set…apart from…，根据提示，表示“钱学森与大多数工程师不同之处”应为主语从句，从句中缺少主语，所以使用连接代词what引导主语从句作主语，位于句首，what的首字母需大写，谓语动词应为sets，“钱学森”应为Qian Xuesen作sets的宾语，“大多数工程师”应为most engineers作from的宾语，所以主语从句应译为What sets Qian Xuesen apart from most engineers；表示“在于”为be动词，主语从句作主语，且用于一般现在时，所以谓语动词为is，表示“不断的”应为constant作定语修饰名词“渴望”，“渴望”应为名词desire，表示“创新和实验”应为innovate and experiment作定语修饰名词desire，根据desire to do可知，此处应使用动词不定式形式。故翻译为What sets Qian Xuesen apart from most engineers is his constant desire to innovate and experiment.",
+     "句意": null,
+     "cue": [
+      "使用主语从句翻译"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查主语从句、动词短语、形容词和名词",
+     "借用节点": "期中",
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "主语从句",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "123-25",
+     "标签": "2026 · 大岭山中学 · 高一下期中",
+     "题型": "翻译",
+     "题干": "请记住，你懂的语言越多，你得到的机会就会更多。",
+     "提示词": null,
+     "答案": "Please keep in mind that the more languages you understand, the more chances you will get.",
+     "解析": "表示“请记住”应用please keep in mind that...，此处是祈使句，使用动词原形，that引导宾语从句，在从句中不作成分，也没有含义；表示“越……，就越……”应用固定句型“the+比较级……，the+比较级……”，该句型遵循“主将从现”规则：前半句表前提条件，用一般现在时，后半句表将来的结果，用一般将来时；表示“你懂的语言越多”应用the more languages you understand；表示“你得到的机会就会更多”应用the more chances you will get。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [
+      "时态",
+      "比较级"
+     ],
+     "考查句": null,
+     "借用节点": "期中",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "宾语从句",
+     "子类依据": "全文"
+    }
+   ],
+   "编号": 4
+  },
+  {
+   "名称": "状语从句",
+   "讲": true,
+   "覆盖卷": 3,
+   "覆盖率": 0.5,
+   "题数": 5,
+   "候选": {
+    "本节点": 5,
+    "借用": 3,
+    "合计": 8
+   },
+   "子类": {
+    "让步": {
+     "题数": 2,
+     "题": [
+      "010-17",
+      "039-20"
+     ]
+    },
+    "目的": {
+     "题数": 1,
+     "题": [
+      "039-22"
+     ]
+    },
+    "条件": {
+     "题数": 2,
+     "题": [
+      "064-08",
+      "024-22"
+     ]
+    },
+    "时间": {
+     "题数": 2,
+     "题": [
+      "064-25",
+      "057-18"
+     ]
+    },
+    "其他": {
+     "题数": 1,
+     "题": [
+      "024-23"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-17",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "Despite the risk of getting infected by COVID-19, doctors and nurses from all over the country came to Wuhan to rescue the patients.\n___ the risk of getting infected by COVID-19, doctor and nurses from all over the country came to Wuhan to rescue the patients.",
+     "提示词": null,
+     "答案": "In spite of",
+     "解析": "考查让步状语从句。句意：尽管冒着被新冠肺炎感染的危险，来自全国各地的医生和护士奔赴武汉抢救病人。despite是介词，表示：尽管。分析空格后是the risk为名词，因此，空格处应填介词，而despite的同义词是in spite of, 句首首字母大写，故填In spite of。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查让步状语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "让步",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "039-20",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "Because he thought of people still in need of help, he stayed longer for the medical care.\n___ people still in need of help, he stayed longer for the medical care.",
+     "提示词": null,
+     "答案": "Thinking of",
+     "解析": "句意：因为想到还有人需要帮助，他延长了医疗服务时间。结合题目要求用分词作状语改写，Because he thought of people still in need of help为原因状语从句，he与think of之间为主动关系，改为分词作状语时用现在分词Thinking of作原因状语，句首单词首字母大写。",
+     "句意": null,
+     "cue": [
+      "用分词作状语改写"
+     ],
+     "主考点": "状语从句",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "让步",
+     "子类依据": "全文"
+    },
+    {
+     "id": "039-22",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "I always review my notes before bed so that I can remember the key points.\nI always review my notes before bed ___ remember the key points.",
+     "提示词": null,
+     "答案": "in order to |so as to",
+     "解析": "句意：我总是在睡前复习笔记，以便我能记住关键点。so that引导目的状语从句，改为同义句时可用in order to或so as to加动词原形来替换。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "状语从句",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "目的",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-08",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "___ we don’t protect the earth, we will have no clean water to drink.",
+     "提示词": null,
+     "答案": "If",
+     "解析": "考查状语从句。句意：如果我们不保护地球，我们将没有清洁水饮用。引导条件状语从句，表示“如果”应用if，首字母大写。故填If。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查状语从句",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "条件",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-25",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "翻译",
+     "题干": "正当Tom要放弃的时候，他的老师向他伸出了援手。",
+     "提示词": null,
+     "答案": "Just as Tom was about to give up, his teacher extended a helping hand to him.",
+     "解析": "考查动词、名词和时间状语从句。分析句子可知，这里时态应用一般过去时，描述过去情况。表示“正当Tom要放弃的时候”应用句子Just as Tom was about to give up，为时间状语从句，其中be about to do表示“正准备做某事”，为固定搭配；表示“他的老师向他伸出了援手”应用his teacher extended a helping hand to him，其中extend表“伸出”，在本句中作谓语。故翻译为Just as Tom was about to give up, his teacher extended a helping hand to him.",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查动词、名词和时间状语从句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "时间",
+     "子类依据": "考查句"
+    },
+    {
+     "id": "024-22",
+     "标签": "2024 · 东莞市 · 高一下联考",
+     "题型": "语法填空",
+     "题干": "If it is necessary, you can fold the paper in half.\n___, you can fold the paper in half.",
+     "提示词": null,
+     "答案": "If ； necessary",
+     "解析": "考查状语从句省略句。句意：如果必要的话，你可以把纸对折。条件状语从句“If it is+形容词”可用“if+形容词”的省略形式表达，故If it is necessary可转换为If necessary。故空①填If；空②填necessary。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "省略"
+     ],
+     "考查句": "考查状语从句省略句",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [
+      "题型存疑"
+     ],
+     "子类": "条件",
+     "子类依据": "全文"
+    },
+    {
+     "id": "024-23",
+     "标签": "2024 · 东莞市 · 高一下联考",
+     "题型": "完成句子",
+     "题干": "When he was asked about his address, the little boy didn’t respond.",
+     "提示词": null,
+     "答案": "When asked about his address, the little boy didn’t respond.",
+     "解析": "考查状语从句中的省略。句意：当问到他的住址时，小男孩没有回答。该状语从句中的主语\"he\"与主句中的主语\"the little boy\"一致，可以省略从句中的“主语+be”，即\"he was\"，故答案为：When asked about his address, the little boy didn’t respond.",
+     "句意": null,
+     "cue": [
+      "用过去分词改写句子"
+     ],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "省略"
+     ],
+     "考查句": "考查状语从句中的省略",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "057-18",
+     "标签": "2023 · 东莞实验中学 · 高一下月考",
+     "题型": "完成句子",
+     "题干": "When they discussed the plan, they found it difficult to reach an agreement.\n___ the plan, they found it difficult to reach an agreement.",
+     "提示词": null,
+     "答案": "When discussing",
+     "解析": "考查状语从句中的省略。句意：当他们讨论这个计划时，他们发现很难达成一致。When引导的时间状语从句的主语和主句的主语一致，且从句中discuss“讨论”和主语they之间是主动关系，因此可省略从句的主语，采用“When doing...”的结构。故填When discussing。",
+     "句意": null,
+     "cue": [
+      "用省略句改写"
+     ],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "省略"
+     ],
+     "考查句": "考查状语从句中的省略",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "时间",
+     "子类依据": "全文"
+    }
+   ],
+   "编号": 5
+  },
+  {
+   "名称": "倒装",
+   "讲": true,
+   "覆盖卷": 3,
+   "覆盖率": 0.5,
+   "题数": 3,
+   "候选": {
+    "本节点": 3,
+    "借用": 4,
+    "合计": 7
+   },
+   "子类": {
+    "Only + 状语句首": {
+     "题数": 3,
+     "题": [
+      "020-21",
+      "067-20",
+      "048-26"
+     ]
+    },
+    "否定词句首": {
+     "题数": 1,
+     "题": [
+      "087-27"
+     ]
+    },
+    "其他": {
+     "题数": 3,
+     "题": [
+      "039-25",
+      "132-25",
+      "043-23"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "020-21",
+     "标签": "2022 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "He attached importance to safe driving only when he witnessed the accident.\nOnly when he witnessed the accident ___ importance to safe driving.",
+     "提示词": null,
+     "答案": "did ； he ； attach",
+     "解析": "考查倒装句。句意：只有在他目睹了那场车祸的时候，他才认为安全驾驶很重要。按照要求改为倒装句可知，原句中有only+when引导的时间状语结构，倒装句就是句子开头是only+状语的结构+部分倒装，需要把主句中的助动词/情态动词/be动词提到主语前面。分析句子结构可知，主句的谓语动词是attached，是一般过去时，所以需要加助动词did并提到主语he前面，然后把谓语动词还原到原形。故填①did；②he；③attach。",
+     "句意": null,
+     "cue": [
+      "用倒装句改写"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查倒装句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "Only + 状语句首",
+     "子类依据": "全文"
+    },
+    {
+     "id": "039-25",
+     "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+     "题型": "翻译",
+     "题干": "运动不仅能让我们保持健康，还能帮助我们交朋友。",
+     "提示词": null,
+     "答案": "Not only can sports keep us healthy, but they also help us make friends.",
+     "解析": "“运动”表达为名词sports，作主语；“能让我们保持健康”表达为动词短语can keep us healthy，其中keep为谓语动词，us为宾语，healthy为形容词作宾语补足语；“不仅能……还能……”表达为固定搭配not only...but also...，当not only置于句首时，其后的句子需要部分倒装，即将情态动词can提至主语sports之前；“帮助我们交朋友”表达为动词短语help us make friends，其中help为谓语动词，us为宾语，make friends为不带to的不定式作宾语补足语（help sb. do sth.结构）。",
+     "句意": null,
+     "cue": [
+      "用倒装句翻译"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语",
+      "情态动词"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "067-20",
+     "标签": "2025 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "He can produce meaningful works successfully only when he truly understands art.\nOnly when he truly understands art ___ meaningful works successfully.",
+     "提示词": null,
+     "答案": "can ； he ； produce",
+     "解析": "考查倒装句。句意：只有当他真正理解艺术时，他才能成功创作出有意义的作品。“only + 状语从句”位于句首时，主句要用部分倒装，即将助动词、情态动词或be动词提到主语之前。原句中含有情态动词can，所以将can提到主语he之前，动词produce用原形。故填①can；②he；③produce。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查倒装句",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "Only + 状语句首",
+     "子类依据": "全文"
+    },
+    {
+     "id": "132-25",
+     "标签": "2023 · 东莞第一中学 · 高一下月考",
+     "题型": "翻译",
+     "题干": "在任何情况下，我们都不应该完全相信网上的新闻。",
+     "提示词": null,
+     "答案": "Under no circumstances should we believe the news on the Internet completely.",
+     "解析": "考查倒装。表示“在任何情况下，我们都不...”可使用under no circumstances这一表示否定含义的短语放在句首，主干部分要使用部分倒装语序。主语we；谓语部分should believe，宾语“网上的新闻”翻译为 the news on the Internet ，“完全地”可使用副词completely作状语修饰动词believe。所以陈述句翻译为we should believe the news on the Internet completely。故整句翻译为Under no circumstances should we believe the news on the Internet completely.",
+     "句意": null,
+     "cue": [
+      "under no circumstances翻译句子"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查倒装",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "043-23",
+     "标签": "2026 · 翰林高级中学 · 高一月考",
+     "题型": "完成句子",
+     "题干": "She was so moved that tears welled up in her eyes.",
+     "提示词": null,
+     "答案": "So moved was she that tears welled up in her eyes.",
+     "解析": "句意：她感动得热泪盈眶。so...that...结构中，若将“so + 形容词/副词”置于句首，则主句要用部分倒装结构，即“so + 形容词/副词 + be/助动词/情态动词 + 主语 + that...”。原句中was是be动词，将so moved置于句首，句子要用部分倒装，把was提前到主语she之前，即So moved was she that tears welled up in her eyes.",
+     "句意": null,
+     "cue": [
+      "用倒装句改写"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "全文",
+     "其他命中": [
+      "情态动词"
+     ],
+     "考查句": null,
+     "借用节点": "期中前月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "048-26",
+     "标签": "2023 · 东莞外国语学校 · 高一下月考",
+     "题型": "翻译",
+     "题干": "只有当你熟悉英语单词时，你才能把英语学好。",
+     "提示词": null,
+     "答案": "Only when you are familiar with the English words can you study/learn English well. Only when the English words are familiar to you can you be a good English learner.",
+     "解析": "考查名词、动词及固定句型。“只有”可以用only表示；“当你熟悉英语单词时”可以用when引导的状语从句表示，其中“某人熟悉某物”可以表示为sb be familiar with sth也可以表示为sth be familiar to sb；故“你熟悉英语单词”可以表示为you are familiar with the English words或者the English words are familiar to you；主语“你”用人称代词you表示；“你才能把英语学好”可以表示为you can study/learn English well也可以表示为you can be a good English learner；only+状语从句位于句首时，主句要部分倒装，即把助动词放在主语前面，主句倒装后变成can you study/learn English well或者can you be a good English learner。故翻译为：Only when you are familiar with the English words can you study/learn English well或Only when the English words are familiar to you can you be a good English learner。",
+     "句意": null,
+     "cue": [
+      "用倒装句翻译"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查名词、动词及固定句型",
+     "借用节点": "期中前月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "Only + 状语句首",
+     "子类依据": "全文"
+    },
+    {
+     "id": "087-27",
+     "标签": "2023 · 东华高级中学 · 高一下月考",
+     "题型": "完成句子",
+     "题干": "We don’t realize that the world is not as pure and simple as we think until we experience in person.\nNot until we experience in person ___ that the world is not as pure and simple as we think.",
+     "提示词": null,
+     "答案": "do ； we ； realize",
+     "解析": "考查倒装句。句意：直到我们亲身经历才意识到世界并不像我们想象的那么纯粹和简单。“not until”引导时间状语从句位于句首时，主句要部分倒装，故原句可改写为：Not until we experience in person do we realize that the world is not as pure and simple as we think. 故答案为：①do ②we ③realize。",
+     "句意": null,
+     "cue": [
+      "用倒装句改写"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查倒装句",
+     "借用节点": "期中前月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "否定词句首",
+     "子类依据": "全文"
+    }
+   ],
+   "编号": 6
+  },
+  {
+   "名称": "强调句",
+   "讲": true,
+   "覆盖卷": 2,
+   "覆盖率": 0.33,
+   "题数": 2,
+   "候选": {
+    "本节点": 2,
+    "借用": 4,
+    "合计": 6
+   },
+   "子类": {
+    "not until 强调": {
+     "题数": 1,
+     "题": [
+      "057-23"
+     ]
+    },
+    "It is/was … that/who 强调": {
+     "题数": 5,
+     "题": [
+      "010-07",
+      "064-22",
+      "132-20",
+      "049-24",
+      "156-16"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "010-07",
+     "标签": "2021 · 东莞市 · 高一下期末",
+     "题型": "语法填空",
+     "题干": "It is her devotion to education ___ leads to her great achievements.",
+     "提示词": null,
+     "答案": "that",
+     "解析": "考查强调句型。句意：她对教育的献身精神使她取得了如此巨大的成就。强调句型的基本结构为：It is/was + 被强调部分 + that/who + 句子其余部分；当被强调部分是“人”时，可用who；强调句可以用来强调句子中主语、宾语和状语部分。分析句子可知，本句使用了强调句型，强调了原句中主语“her devotion to education”，因此填入代词that构成强调句。故填that。",
+     "句意": null,
+     "cue": [],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查强调句型",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "It is/was … that/who 强调",
+     "子类依据": "全文"
+    },
+    {
+     "id": "064-22",
+     "标签": "2024 · 东莞市 · 高一下期末",
+     "题型": "完成句子",
+     "题干": "Tom’s knowledge of first aid saved his neighbor’s life last night.\n___ Tom’s knowledge of first aid ___ saved his neighbor’s life last night.",
+     "提示词": null,
+     "答案": "It ； was ； that",
+     "解析": "考查强调句型。句意：汤姆的急救知识昨晚救了他邻居的命。强调句型It is/was +被强调部分+that/who +其他 ；根据空前空后可知，本句强调主语部分Tom’s knowledge of first aid，且本句为一般过去时态，所以第一，二空应填It was，被强调的主语不是人物，不可使用who，第三空应填that。注意句首字母大写。故填It；was ；that 。",
+     "句意": null,
+     "cue": [
+      "用强调句改写"
+     ],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查强调句型",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "It is/was … that/who 强调",
+     "子类依据": "全文"
+    },
+    {
+     "id": "057-23",
+     "标签": "2023 · 东莞实验中学 · 高一下月考",
+     "题型": "完成句子",
+     "题干": "They didn't realize the importance of environment protecting until all the fish in the river died out.",
+     "提示词": null,
+     "答案": "It was not until all the fish in the river died out that they realized the importance of environment protecting.",
+     "解析": "考查强调句型。句意：直到河里的鱼灭绝，他们才意识到环境保护的重要性。强调句型在强调until从句时，要将not until放在一起，构成It was not until ...... that.......。故原句转换为：It was not until all the fish in the river died out that they realized the importance of environment protecting.",
+     "句意": null,
+     "cue": [
+      "强调划线部分"
+     ],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查强调句型",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "not until 强调",
+     "子类依据": "全文"
+    },
+    {
+     "id": "132-20",
+     "标签": "2023 · 东莞第一中学 · 高一下月考",
+     "题型": "完成句子",
+     "题干": "Tom and Jack will make a kite at home tomorrow afternoon.\n___ tomorrow afternoon ___ Tom and Jack will make a kite at home.",
+     "提示词": null,
+     "答案": "It ； is ； that",
+     "解析": "考查强调句。句意：明天下午汤姆和杰克将在家做风筝。根据强调句的用法，强调句的基本结构为It is/was+被强调的部分+that/who+其他，本句中被强调部分为“tomorrow afternoon(明天下午)”。故填It；is；that。",
+     "句意": null,
+     "cue": [
+      "强调句改写句子"
+     ],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查强调句",
+     "借用节点": "期中后月考",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "It is/was … that/who 强调",
+     "子类依据": "全文"
+    },
+    {
+     "id": "049-24",
+     "标签": "2023 · 东莞外国语学校 · 高一下期中",
+     "题型": "翻译",
+     "题干": "正是他的努力和决心让他取得巨大的成就。",
+     "提示词": null,
+     "答案": "It was his effort and determination that led to his great achievements.",
+     "解析": "考查时态和强调句。此处强调的是事物，所以应用“it be+被强调部分+that+剩余部分”句式。描述过去的事情应用一般过去时。表示“努力”应用名词effort，表示“决心”应用名词determination。表示“导致”应用动词短语lead to。表示“巨大的”应用形容词great。表示“成就”应用复数名词achievements。再结合其它汉语意思，故翻译为It was his effort and determination that led to his great achievements.。",
+     "句意": null,
+     "cue": [
+      "用强调句翻译"
+     ],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查时态和强调句",
+     "借用节点": "期中",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "It is/was … that/who 强调",
+     "子类依据": "全文"
+    },
+    {
+     "id": "156-16",
+     "标签": "2024 · 麻涌中学 · 高一下月考",
+     "题型": "语法填空",
+     "题干": "___ was because he was seriously ill that he didn’t go to school yesterday.",
+     "提示词": null,
+     "答案": "It",
+     "解析": "考查强调句。句意：因为他病得很重，昨天才没去上学。强调句型为“It is/was+被强调部分+that/who+其他部分”，此处强调 because he was seriously ill 这个原因状语从句，故填 It。",
+     "句意": null,
+     "cue": [],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查强调句",
+     "借用节点": "期中前月考",
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "It is/was … that/who 强调",
+     "子类依据": "全文"
+    }
+   ],
+   "编号": 7
+  },
+  {
+   "名称": "虚拟语气",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 1,
+   "覆盖率": 0.17,
+   "题数": 1,
+   "候选": {
+    "本节点": 1,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "主谓一致",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 0,
+   "覆盖率": 0.0,
+   "题数": 0,
+   "候选": {
+    "本节点": 0,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "独立主格／with 复合",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 1,
+   "覆盖率": 0.17,
+   "题数": 1,
+   "候选": {
+    "本节点": 1,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "被动",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 2,
+   "覆盖率": 0.33,
+   "题数": 3,
+   "候选": {
+    "本节点": 2,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "时态",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 3,
+   "覆盖率": 0.5,
+   "题数": 5,
+   "候选": {
+    "本节点": 4,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "情态动词",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 1,
+   "覆盖率": 0.17,
+   "题数": 1,
+   "候选": {
+    "本节点": 0,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "比较级",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 2,
+   "覆盖率": 0.33,
+   "题数": 2,
+   "候选": {
+    "本节点": 2,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "省略",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 1,
+   "覆盖率": 0.17,
+   "题数": 1,
+   "候选": {
+    "本节点": 0,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  },
+  {
+   "名称": "反意疑问",
+   "讲": false,
+   "编号": null,
+   "覆盖卷": 0,
+   "覆盖率": 0.0,
+   "题数": 0,
+   "候选": {
+    "本节点": 0,
+    "借用": 0,
+    "合计": 0
+   },
+   "子类": {},
+   "题": []
+  }
+ ],
+ "统计": {
+  "节点文件数": 6,
+  "原始行数": 112,
+  "单选其他": 0,
+  "疑似非单句": 8,
+  "去重后题数": 104,
+  "重复组去掉": 0,
+  "主考点分布": {
+   "未命中": 44,
+   "非谓语": 26,
+   "定语从句": 6,
+   "it 形式主语／宾语": 5,
+   "状语从句": 5,
+   "时态": 4,
+   "名词性从句": 3,
+   "倒装": 3,
+   "强调句": 2,
+   "比较级": 2,
+   "被动": 2,
+   "虚拟语气": 1,
+   "独立主格／with 复合": 1
+  },
+  "疑似缺陷题数": 0,
+  "候选合计": 71,
+  "借用合计": 21,
+  "借用节点分布": {
+   "期中后月考": 12,
+   "期中": 5,
+   "期中前月考": 4
+  },
+  "不足 8 题的讲专题": [
+   "倒装(7)",
+   "强调句(6)"
+  ]
+ }
+}

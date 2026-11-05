@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """段考专题讲义 · 排版：读定稿 JSON，生成段考讲义 HTML（结构照抄 渲染/本地化/段考-样.html）。
 
-运行：python3 -I 本地化/脚本/段考排版.py <节点名>
-  期中前月考 → 本地化/内容/段考-高一上-期中前月考.定稿.json → 渲染/本地化/段考-高一上-期中前月考.html
-  期中       → 本地化/内容/段考-高一上-期中.定稿.json       → 渲染/本地化/段考-高一上-期中.html
-  样         → 本地化/内容/段考-样.定稿.json                → 渲染/本地化/段考-样-回放.html（手样回放，验 schema）
+运行：python3 -I 本地化/脚本/段考排版.py <年级学期> <节点>
+  段考排版.py 高一下 期中 → 本地化/内容/段考-高一下-期中.定稿.json → 渲染/本地化/段考-高一下-期中.html
+  段考排版.py 期中前月考  → 同 段考排版.py 高一上 期中前月考（只给节点时年级学期为高一上，兼容旧命令）
+  段考排版.py 样          → 本地化/内容/段考-样.定稿.json → 渲染/本地化/段考-样-回放.html（手样回放，验 schema）
+  年级学期：高一上 / 高一下 / 高二上 / 高二下；节点：期中前月考 / 期中 / 期中后月考 / 期末（顺序见 节点.py）。
+  册头由运行参数推导（节点.book_no、段考专题　<年级学期>）：全年连续册号 高一上 01–04、高一下 05–08、高二上 09–12、高二下 13–16，
+  每学期内节点顺序 期中前月考、期中、期中后月考、期末；页脚 data-unit = <年级学期><节点>。
+  定稿 JSON 里若写了 data_no / unit_book，必须与推导值一致，否则报错；h2 必须等于节点名。
 
 只用 段考.css（继承 同步.css）已有的 class；不写内联样式。
 
@@ -22,8 +26,8 @@
 gloss / note 的 lines：每个元素一行，行间 <br>。
 
 {
-  "data_no": "01",                                  册头编号（期中前月考 "01"、期中 "02"）
-  "unit_book": "段考专题　高一上",          册头 kicker
+  "data_no": "01",                                  册头编号：由运行参数推导（见上），定稿里写了须一致
+  "unit_book": "段考专题　高一上",          册头 kicker：由运行参数推导（见上），定稿里写了须一致
   "h2": "期中前月考",                                 册头标题
   "stats": [                                        册头三项：{pre?, b, post?}，pre/post 为普通文字
     {"b": "12", "post": "套试卷"},
@@ -95,15 +99,31 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from 节点 import GRADE_TERMS, NODES, book_no  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 CONTENT = ROOT / '本地化' / '内容'
 RENDER = ROOT / '渲染' / '本地化'
 
-NODE_FILES = {
-    '期中前月考': ('段考-高一上-期中前月考.定稿.json', '段考-高一上-期中前月考.html'),
-    '期中': ('段考-高一上-期中.定稿.json', '段考-高一上-期中.html'),
-    '样': ('段考-样.定稿.json', '段考-样-回放.html'),
-}
+
+def resolve(target):
+    """命令行参数 → (年级学期, 节点, 定稿文件名, 输出文件名)。样：节点为 None，由定稿 h2 决定。"""
+    if target == ['样']:
+        return '高一上', None, '段考-样.定稿.json', '段考-样-回放.html'
+    if len(target) == 1 and target[0] in NODES:
+        gt, node = '高一上', target[0]
+    elif len(target) == 2 and target[0] in GRADE_TERMS and target[1] in NODES:
+        gt, node = target
+    else:
+        raise SystemExit(f'用法：段考排版.py <年级学期> <节点>（如 高一下 期中），或 段考排版.py 样。'
+                         f'年级学期：{" / ".join(GRADE_TERMS)}；节点：{" / ".join(NODES)}')
+    return gt, node, f'段考-{gt}-{node}.定稿.json', f'段考-{gt}-{node}.html'
+
+
+def head_values(gt, node):
+    """册头两值（推导）：data_no 与 kicker「段考专题　<年级学期>」（U+3000）。"""
+    return book_no(gt, node), '段考专题\u3000' + gt
 
 THEME_CSS = {'现行': '段考.css', '英式': '英式.css'}
 
@@ -165,12 +185,13 @@ def stat_html(s):
     return (esc(s.get('pre')) + f'<b>{esc(s["b"])}</b>' + esc(s.get('post')))
 
 
-def header_html(d):
+def header_html(d, gt):
     # 册头不报统计（所有者定，2026-11-05：教学进度等数据非必要），JSON 的 stats 保留不显示
+    no, kicker = head_values(gt, d['h2'])
     return (
-        f'<section class="unit stage" data-unit="高一上{esc(d["h2"])}">\n'
-        f'<header class="unit-head stage-head" data-no="{esc(d["data_no"])}">\n'
-        f'  <p class="unit-book">{esc(d["unit_book"])}</p>\n'
+        f'<section class="unit stage" data-unit="{esc(gt + d["h2"])}">\n'
+        f'<header class="unit-head stage-head" data-no="{esc(no)}">\n'
+        f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2>{esc(d["h2"])}</h2>\n'
         '</header>\n\n')
 
@@ -483,7 +504,7 @@ def validate(D):
     return errs
 
 
-def build(D, theme='现行', only=None):
+def build(D, theme='现行', only=None, gt='高一上'):
     """only：专题编号集合（仅英式）；None 为整册。练一练题号始终按全册连续编号。"""
     # 练一练分「必练」「选练」（所有者定，2026-11-05）：每专题先必练、后选练（各自保持定稿内顺序）；没有 level 的按必练
     for t in D['topics']:
@@ -499,13 +520,13 @@ def build(D, theme='现行', only=None):
         drill_nos_by_topic[t['no']] = ids
     topics = [t for t in D['topics'] if only is None or t['no'] in only]
     topic_fn = topic_en_html if theme == '英式' else topic_html
-    body = (header_html(D) + overview_html(D['overview'])
+    body = (header_html(D, gt) + overview_html(D['overview'])
             + ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
             + answers_html(topics, drill_nos_by_topic)
             + '</section>\n')
     if theme == '英式':
         body = HYPHEN_RE.sub('-⁠', body)   # 「用 -ing」的连字符后不断行（U+2060 词连接符，零宽）
-    title = f'段考专题讲义 · 高一上 · {D["h2"]}'
+    title = f'段考专题讲义 · {gt} · {D["h2"]}'
     return ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{esc(title)}</title>'
@@ -513,18 +534,37 @@ def build(D, theme='现行', only=None):
             + body + '</body>\n</html>\n')
 
 
+def validate_head(D, gt, node):
+    """册头与运行参数一致：h2 = 节点名；定稿若写了 data_no / unit_book，须等于推导值。"""
+    if node not in NODES:
+        return [f'节点应为 {" / ".join(NODES)} 之一，得到 {node!r}']
+    errs = []
+    if D.get('h2') != node:
+        errs.append(f'h2 应为节点名 {node}，定稿写的是 {D.get("h2")!r}')
+    no, kicker = head_values(gt, node)
+    if 'data_no' in D and D['data_no'] != no:
+        errs.append(f'data_no 应为推导值 {no}（{gt}·{node}），定稿写的是 {D["data_no"]!r}')
+    if 'unit_book' in D and D['unit_book'] != kicker:
+        errs.append(f'unit_book 应为推导值 {kicker!r}，定稿写的是 {D["unit_book"]!r}')
+    return errs
+
+
 def main():
     ap = argparse.ArgumentParser(description='段考专题讲义排版：定稿 JSON → HTML。')
-    ap.add_argument('node', choices=list(NODE_FILES), help='节点名')
+    ap.add_argument('target', nargs='+', help='年级学期 节点，如 高一下 期中（只给节点时年级学期为高一上）；或 样（手样回放）')
     ap.add_argument('--theme', choices=list(THEME_CSS), default='英式',
                     help='版式主题：英式（规范/04，默认）或 现行（旧柱式，2026-11-05 停用，仅留作对照）')
     ap.add_argument('--topics', help='只输出这些专题（逗号分隔编号，如 1 或 1,3）；仅英式可用')
     args = ap.parse_args()
 
-    src_name, out_name = NODE_FILES[args.node]
+    gt, node, src_name, out_name = resolve(args.target)
     src = CONTENT / src_name
+    if not src.exists():
+        raise SystemExit(f'没有定稿：{src}')
     D = json.loads(src.read_text(encoding='utf-8'))
-    errs = validate(D)
+    if node is None:            # 样
+        node = D.get('h2')
+    errs = validate(D) + validate_head(D, gt, node)
     if errs:
         for e in errs:
             print('错误', e, file=sys.stderr)
@@ -537,7 +577,7 @@ def main():
         bad = only - {t['no'] for t in D['topics']}
         if bad:
             raise SystemExit(f'没有这些专题编号：{sorted(bad)}')
-    doc = build(D, args.theme, only)
+    doc = build(D, args.theme, only, gt)
     assert 'style=' not in doc, '出现内联样式'
     # 英式整册 = 正式文件名；英式选专题 = 样章；旧柱式另存，不覆盖正式文件
     if args.theme == '英式' and only is not None:
@@ -547,7 +587,6 @@ def main():
     out = RENDER / out_name
     out.write_text(doc, encoding='utf-8')
     print('写入', out)
-
 
 if __name__ == '__main__':
     main()
