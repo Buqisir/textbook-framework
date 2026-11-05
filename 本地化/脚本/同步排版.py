@@ -1,27 +1,36 @@
 #!/usr/bin/env python3
-"""同步课单元讲义 · 排版：读定稿 JSON，生成 渲染/本地化/同步-必修一-W-U2.html。
+"""同步课单元讲义 · 排版（英式，规范/04 §7）：读定稿 JSON，生成 渲染/本地化/同步-必修一-W-U2.html。
 
 运行：python3 -I 本地化/脚本/同步排版.py
 输入：本地化/内容/同步-必修一-W-U2.定稿.json
-输出：渲染/本地化/同步-必修一-W-U2.html（内联结构，样式只用 同步.css 已有 class）
+输出：渲染/本地化/同步-必修一-W-U2.html（引 英式.css；样式只用 英式.css 的 class）
 
-结构：单元头 → ① 单元考情 → ② 词性转换 → ③ 短语与句式转换 → ⑤ 单元小测 → 答案。
-③ 前半是短语块（.phrase），后半先一行「句式转换」（.lead），再接句式块（.phrase.trick）。
+结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 短语与句式转换 → ④ 单元小测 → 答案与解析。
+  单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
+  ①：.freq 表，词汇 / 考查形式 / 考法 / 频次。
+  ②：每个词族 .family = 词头行（词头 + gloss 同一行）+ 词族链（.fam-chain 浅底条）+ 原题（.atoms）。
+  ③：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
+      句式块 .phrase.trick（句式名药丸 + gloss 同行 / 公式浅底条 / 原题）。
+  ④：原题列表。
+  答案：一个标题 + 两栏 key，不分组。
+原题（atoms）：出处 <span class="src"> 放题干段行首，后空 1 字接题干；改写指令 cue 仍在句末。
+英式结构的 class 与段考英式（段考排版.py）同名的沿用；同步专用的 freq、family、fam-head、fam-chain、phrase、ph、trick、form、zh、tally、dot 由 英式.css 同步讲义段（文件末）定义。
 
 定稿 JSON 的字段（每个单元）：
   序、data_no、unit_book、h2、zh、chips{year_range, n_questions, n_kaofa, n_phrase}
   stats{卷数, 词数, 短语数, 句式题数}
   freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
   families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（收录全部词性转换词，不设上限）
+      gloss：一到两行，多行在排版时用「 · 」接成一行
   phrases[{短语, 释义, 词头, gloss, atoms}]                       ③ 前半：短语块（可无题）
   tricks[{句式, gloss, formula, atoms}]                          ③ 后半：句式块
       句式：句式名，≤6 字
       gloss：两行，第一行「M 题」（M 与 atoms 数一致），第二行 ≤10 字
       formula：一行，「原句骨架 → 改后骨架」，≤50 字符，取自本块原题
-  quiz[atoms]                                                    ⑤ 单元小测
+  quiz[atoms]                                                    ④ 单元小测
   numbered_total
-每道题 atoms 的字段：id、no（每单元内 ② ③ ⑤ 连续编号）、标签、题型、题干、题干HTML、
-  cue[]（改写指令，放句末）、答案、解析、句意、reason（≤20 字，答案页用）
+每道题 atoms 的字段：id、no（每单元内 ② ③ ④ 连续编号）、标签、题型、题干、题干HTML、
+  cue[]（改写指令，放句末）、答案、解析、句意、reason（≤20 字，答案页用）、answer_show（可空）
 """
 import html
 import json
@@ -36,6 +45,7 @@ OUT = ROOT / '渲染' / '本地化' / '同步-必修一-W-U2.html'
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
+HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 独立的 -ing / -ed 前缀，连字符后不断行（同段考英式）
 
 
 def esc(s):
@@ -61,19 +71,21 @@ def cue_html(cues):
     return ''.join(f' <span class="cue">（{esc(c)}）</span>' for c in cues or [])
 
 
-def stem_p(text, cues=(), src=None):
-    """题干段：英文为主的标 lang=en；纯中文不标。改写指令（cue）与出处（src）放句末。"""
-    stem = stem_html(text) + cue_html(cues)
-    if src is not None:
-        stem += f' <span class="src">{esc(src)}</span>'
-    if is_en(text):
-        return f'<p lang="en">{stem}</p>'
-    return f'<p>{stem}</p>'
+def gloss_line(g):
+    """柱注多行合成一行，用「 · 」接起（英式没有柱）。"""
+    return ' · '.join(x for x in g.split('<br>') if x)
 
 
 def atom_li(a):
-    p = stem_p(a['题干'], a.get('cue'))
-    return f'<li data-no="{a["no"]}">{p}<span class="src">{esc(a["标签"])}</span></li>'
+    """原题：出处在题干行首（后空 1 字接题干，CSS 定），改写指令仍在句末。"""
+    text = a['题干']
+    body = f'<span class="src">{esc(a["标签"])}</span>' + stem_html(text) + cue_html(a.get('cue'))
+    lang = ' lang="en"' if is_en(text) else ''
+    return f'<li data-no="{a["no"]}"><p{lang}>{body}</p></li>'
+
+
+def atoms_html(atoms):
+    return '<ol class="atoms">\n      ' + '\n      '.join(atom_li(a) for a in atoms) + '\n    </ol>\n'
 
 
 def chain_html(chain):
@@ -116,13 +128,11 @@ def freq_section(u):
 def family_section(u):
     parts = []
     for f in u['families']:
-        atoms = '\n      '.join(atom_li(a) for a in f['atoms'])
         parts.append(
             '  <div class="family">\n'
-            f'    <p class="fam-head" lang="en">{esc(f["词头"])}</p>\n'
-            f'    <aside class="gloss">{f["gloss"]}</aside>\n'
+            f'    <p class="fam-head" lang="en">{esc(f["词头"])}<span class="gloss">{gloss_line(f["gloss"])}</span></p>\n'
             f'    <p class="fam-chain" lang="en">{chain_html(f["chain"])}</p>\n'
-            f'    <ol class="atoms">\n      {atoms}\n    </ol>\n'
+            '    ' + atoms_html(f['atoms']) +
             '  </div>\n')
     ch = u['chips']
     return (
@@ -134,25 +144,22 @@ def family_section(u):
 
 
 def phrase_html(p):
-    atoms = '\n      '.join(atom_li(a) for a in p['atoms'])
     return (
         '  <div class="phrase">\n'
-        f'    <aside class="gloss">{p["gloss"]}</aside>\n'
-        f'    <p class="ph"><b lang="en">{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span></p>\n'
-        f'    <ol class="atoms">\n      {atoms}\n    </ol>\n'
+        f'    <p class="ph" lang="en"><b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span>'
+        f'<span class="gloss">{gloss_line(p["gloss"])}</span></p>\n'
+        '    ' + atoms_html(p['atoms']) +
         '  </div>\n')
 
 
 def trick_html(t):
-    atoms = '\n      '.join(atom_li(a) for a in t['atoms'])
-    # 公式不包 <b>：同步.css 的 .trick > .ph > b（10.5pt、arrow 字体）与 12pt 段落混排，会把行盒撑高 0.56pt，
-    # 半格对不齐。公式直接放在 .ph 里，字号、字重与短语名相同。
+    # 公式放 .ph（lang=en，12pt STIX 粗），由 英式.css 垫在 --accent-wash 条里；不包 <b>，免得字号与行盒走样
     return (
         '  <div class="phrase trick">\n'
-        f'    <p class="fam-head">{esc(t["句式"])}</p>\n'
-        f'    <aside class="gloss">{t["gloss"]}</aside>\n'
-        f'    <p class="ph">{esc(t["formula"])}</p>\n'
-        f'    <ol class="atoms">\n      {atoms}\n    </ol>\n'
+        f'    <p class="fam-head"><span class="subhead">{esc(t["句式"])}</span>'
+        f'<span class="gloss">{gloss_line(t["gloss"])}</span></p>\n'
+        f'    <p class="ph" lang="en">{esc(t["formula"])}</p>\n'
+        '    ' + atoms_html(t['atoms']) +
         '  </div>\n')
 
 
@@ -163,7 +170,7 @@ def phrase_section(u):
         f'  <header class="topic-head" data-no="3"><h3>短语与句式转换</h3>'
         f'<span class="chip chip-freq">真题 <b>{ch["n_phrase"]}</b> 道</span></header>\n'
         + ''.join(phrase_html(p) for p in u['phrases'])
-        + '  <p class="lead">句式转换</p>\n'
+        + '  <p class="lead"><b>句式转换</b></p>\n'
         + ''.join(trick_html(t) for t in u['tricks'])
         + '</section>\n')
 
@@ -207,10 +214,11 @@ def answers_section(u):
 def unit_section(u):
     stats = u['stats']
     book_title = u['unit_book'].split('　')[-1]
+    kicker = u['unit_book'].split('　')[0]          # 册名；英文单元名已在标题行
     head = (
         f'<section class="unit" data-unit="必修一 {esc(book_title)}">\n'
         f'<header class="unit-head" data-no="{u["data_no"]}">\n'
-        f'  <p class="unit-book">{esc(u["unit_book"])}</p>\n'
+        f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2 lang="en">{esc(u["h2"])}<small>{esc(u["zh"])}</small></h2>\n'
         '  <ul class="unit-stats">'
         f'<li><b>{stats["卷数"]}</b>套试卷</li>'
@@ -277,10 +285,11 @@ def main():
             print('错误', e, file=sys.stderr)
         raise SystemExit(1)
     body = ''.join(unit_section(u) for u in S['单元'])
+    body = HYPHEN_RE.sub('-⁠', body)   # U+2060 词连接符（零宽）：「用 -ing」的连字符后不断行
     doc = ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
            '<meta name="viewport" content="width=device-width, initial-scale=1">'
            '<title>同步讲义 · 必修一 W–U2</title>'
-           '<link rel="stylesheet" href="同步.css"></head>\n<body>\n'
+           '<link rel="stylesheet" href="英式.css"></head>\n<body>\n'
            + body + '</body>\n</html>\n')
     OUT.write_text(doc, encoding='utf-8')
     print('写入', OUT)

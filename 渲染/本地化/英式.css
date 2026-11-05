@@ -353,3 +353,136 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 /* 「练一练」药丸不落单在页底：药丸所在的匿名行与第一题之间禁止断页 */
 
 .drill > .atoms > li:first-child { break-before: avoid; }
+
+/* ══ 讲义一（规范/04 §7）：同步课单元讲义 ══
+ * 只追加，不改上面的段考规则。作用域 section.unit:not(.stage)：段考册头带 stage，两者互不影响。
+ * 只用段考英式已有的 class，另加同步专用的 freq、family、fam-head、fam-chain、phrase、ph、trick、form、zh、tally、dot（同步.css 原有）。
+ * 网格：1u 行 = 21pt。9pt 独立行（考法、计数、考情表 9pt 格）：padding-top 2.28pt + 行高 18.72pt，合起来仍是 21pt，基线落在 15.06pt。
+ *   14pt 词头：top −0.76pt。行内 9pt / 10.5pt 件 line-height 1。表格挪基线只用内边距与行高，不用 position（会连线一起挪）。
+ */
+
+/* ── 单元头（§7：同册头，英文 30pt STIX 粗占 3u，中文 14pt 黑体跟在后；单元号做右上角角标）── */
+.unit:not(.stage) > .unit-head { position: relative; margin: 0 0 calc(2 * var(--u)); break-after: avoid; }
+.unit:not(.stage) > .unit-head::before {
+  content: attr(data-no);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 6pt;                  /* 0 半字 */
+  font: 700 12pt/var(--u) "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 4pt;
+}
+.unit:not(.stage) > .unit-head .unit-book { margin: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+/* 30pt 行盒 3u 中基线原在 63.9pt，上提 6.84pt 落到 57.06pt（= 15.06 + 42） */
+.unit:not(.stage) > .unit-head h2 { margin: 0; font: 700 30pt/calc(3 * var(--u)) "arrow", "serif-en", "serif-cjk"; position: relative; top: -6.84pt; }
+.unit:not(.stage) > .unit-head h2 small { font: 400 14pt/1 "sans-ui"; margin-left: 1em; }
+.unit:not(.stage) > .unit-head .unit-stats { list-style: none; margin: 0; padding: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+.unit:not(.stage) > .unit-head .unit-stats li { display: inline; margin-right: 2em; }
+/* 16pt 数字行盒压到 15.68pt，不把 9pt 行的行盒撑高 0.16pt */
+.unit:not(.stage) > .unit-head .unit-stats b { font: 700 16pt/15.68pt "sans-ui"; margin-right: 0.25em; }
+.unit:not(.stage) + .unit:not(.stage) { break-before: page; }   /* 每单元起新页 */
+
+/* ── 节：同专题头（§3.3）；节与节之间空 2u，不起新页 ── */
+.unit:not(.stage) .part { margin: 0; }
+.unit:not(.stage) .part + .part { margin-top: calc(2 * var(--u)); }
+.unit:not(.stage) .part > .topic-head + .atoms { margin-top: 0; }
+.unit:not(.stage) .lead { margin: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; break-after: avoid; }
+.unit:not(.stage) .lead .dot { margin-right: 0.3em; }
+.dot { display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; }
+
+/* 原题：题号悬挂 2 字（沿用 .atoms）；出处在题干行首，后空 1 字接题干；改写指令仍在句末 */
+.unit:not(.stage) .atoms { margin: var(--h) 0 0; padding-left: 2em; list-style: none; }
+.unit:not(.stage) .atoms li { text-align: left; }
+.unit:not(.stage) .atoms li > p { padding-right: var(--zi); }   /* 题干文字区 33 字：英文最长行 ≤ 80（指标.py）；04 §1 的 34 字在此收窄 1 字 */
+.unit:not(.stage) .src { margin-right: var(--zi); }
+.unit:not(.stage) .src, .unit:not(.stage) .cue { white-space: nowrap; }   /* 出处、改写指令整体换行，不在中文字间断开 */
+
+/* ── ① 考情表（§7）：表头 9pt、0.75pt 墨线；行线 0.3pt 实地；行高 1u；9pt 格用内边距 2.28pt + 行高 18.72pt 挪到 15.06pt 基线 ── */
+.unit:not(.stage) .freq { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.unit:not(.stage) .freq col.c-word { width: 104pt; }   /* 最长词头 extra-curricular 在 12pt 粗体下 90pt，词汇列内容宽 98pt，不折行 */
+.unit:not(.stage) .freq col.c-how { width: 92pt; }   /* 考法列 92pt、右内边距半字：「动词形式 · 词性转换」一行放得下；折行会把行高变成 39.75pt，基线错开 */
+.unit:not(.stage) .freq col.c-tally { width: 76pt; }
+.unit:not(.stage) .freq th, .unit:not(.stage) .freq td { padding: 0 var(--zi) 0 0; vertical-align: top; text-align: left; }
+.unit:not(.stage) .freq tr > :last-child { padding-right: 0; }
+.unit:not(.stage) .freq th {
+  padding-top: 2.28pt;
+  font: 400 9pt/18.72pt "sans-ui";
+  background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat;
+}
+.unit:not(.stage) .freq td { background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
+.unit:not(.stage) .freq td:first-child { font: 700 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; padding-right: 6pt; }
+.unit:not(.stage) .freq td.forms { font-family: "arrow", "serif-en", "serif-cjk"; }
+.unit:not(.stage) .freq td.forms span { display: inline-block; white-space: nowrap; }   /* 形式之间可断行，形式内部不断 */
+.unit:not(.stage) .freq td.forms span + span { margin-left: 1.5em; }   /* 形式之间用间距，折行时行首不出现「·」 */
+.unit:not(.stage) .freq td.forms sub { font: 400 9pt/1 "sans-ui"; vertical-align: baseline; margin-left: 0.15em; }
+.unit:not(.stage) .freq td.how, .unit:not(.stage) .freq td.tally { padding-top: 2.28pt; font: 400 9pt/18.72pt "sans-ui"; }
+.unit:not(.stage) .freq td.how { padding-right: 6pt; }
+.unit:not(.stage) .freq td.tally { white-space: nowrap; }
+.tally i { display: inline-block; width: 3.75pt; height: 7.5pt; margin-right: 1.5pt; background: var(--accent); vertical-align: -0.5pt; }
+.tally span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
+
+/* ── ② 词族（§7）：词头 14pt STIX 粗主色 + gloss 同行；词族链 --accent-wash 条（高 1u 整数倍）；原题在下 ── */
+.family { break-inside: avoid; }
+.family + .family { margin-top: var(--u); }
+.lead + .family { margin-top: var(--h); }
+.fam-head { margin: 0; font: 700 14pt/var(--u) "arrow", "serif-en", "serif-cjk"; color: var(--accent); position: relative; top: -0.76pt; break-after: avoid; }
+.fam-chain { margin: var(--h) 0 0; padding: 0 var(--zi); background: var(--accent-wash); border-radius: 4pt; font: 400 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; text-align: left; break-after: avoid; }
+.fam-chain .form { white-space: nowrap; }
+.fam-chain .form + .form { margin-left: 1.5em; }
+.fam-chain .form > i { font-style: italic; margin: 0 0.25em; }
+.fam-chain .form > .zh { font: 400 10.5pt/1 "serif-cjk"; }
+.fam-chain .form > b { font-weight: 400; }
+.fam-chain .form.hit > b { font-weight: 600; }
+.fam-chain .form.hit::before { content: ""; display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; margin-right: 0.3em; }
+
+/* 同步 gloss：小标题或词头右侧同一行的 9pt 说明（多行已用「 · 」接成一行） */
+.unit:not(.stage) .gloss { display: inline; margin-left: 1em; font: 400 9pt/1 "sans-ui"; }
+
+/* ── ③ 短语（§7）：短语 12pt STIX 粗 + 释义 12pt 宋体 + gloss 9pt 同行；其下原题 ── */
+.phrase { break-inside: avoid; }
+.phrase + .phrase { margin-top: var(--u); }
+.ph { margin: 0; font: 400 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; text-align: left; }
+.ph > b { font: 700 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; margin-right: 1em; }
+.ph > .zh { font: 400 12pt/var(--u) "serif-cjk"; }
+
+/* ③ 「句式转换」分隔：描边药丸（同练一练 §3.7）。p 为 9pt 行，药丸 12pt 行内块，基线随行 */
+.unit:not(.stage) .lead b {
+  display: inline-block;
+  padding: 1.5pt 0.75em;
+  font: 700 12pt/1 "sans-ui";
+  color: var(--accent);
+  background: #FFFFFF;
+  border-radius: 999pt;
+  box-shadow: inset 0 0 0 0.75pt var(--accent);
+}
+.phrase + .lead { margin-top: calc(1.5 * var(--u)); }   /* 句式转换分隔：上空 1.5u（半格整数倍），不与上一题挤在一起 */
+.lead + .phrase { margin-top: var(--h); }
+
+/* ③ 句式块（§7）：句式名实心药丸（同知识块小标题）+ gloss 同行；公式放 --accent-wash 条；其下原题 */
+.trick > .fam-head { font: 400 12pt/var(--u) "sans-ui"; color: var(--ink); top: 0; }
+.trick .subhead {
+  display: inline-block;
+  padding: 1.5pt var(--h);
+  font: 700 10.5pt/1 "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 999pt;
+}
+.trick > .ph {
+  margin-top: var(--h);
+  padding: 0 var(--zi);
+  background: var(--accent-wash);
+  border-radius: 4pt;
+  font-size: 12pt;
+  font-weight: 400;              /* 不加粗：arrow 字体只有 400 字重，加粗会让 → 合成加粗并输出 Type 3 */
+  break-after: avoid;
+}
+
+/* ── ④ 单元小测：原题列表，同上 ── */
+
+/* ── 答案（§7 同 §3.8）：标题 20pt 无方块；不分专题条，直接两栏 key；接在小测之后，不另起页 */
+.unit:not(.stage) .answers { break-before: auto; }
+/* 两栏 key：第二栏题号挂在栏间距里（左悬挂 2 字），栏距取 3 字，题号与第一栏文字之间留 1 字 */
+.unit:not(.stage) .key { column-gap: calc(3 * var(--zi)); }
