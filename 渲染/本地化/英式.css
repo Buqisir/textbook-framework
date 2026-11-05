@@ -499,4 +499,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 /* ══ 版心放宽到 38 字（所有者定方案 A，左右各 24.57mm）══
  * 英文题干仍按原宽度折行，保证 ≤ 80 字符：段考 34 字（408pt），同步 33 字（396pt）。讲解块、表格、中文随版心放宽。 */
 .stem > p, .atoms > li > p { max-width: 408pt; }
-.unit:not(.stage) .atoms li > p { padding-right: 0; max-width: 396pt; }
+.unit:not(.stage) .atoms li > p { padding-right: 0; max-width: 390pt; }   /* 出处 10.5pt 后窄字母续行可到 81 字符，收 6pt 回到 ≤ 80 */
+
+/* 出处 10.5pt（所有者定，2026-11-05；原 9pt 嫌小）：行内件 line-height 1，不撑行盒 */
+.src { font: 400 10.5pt/1 "sans-ui"; }
