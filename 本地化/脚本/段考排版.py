@@ -437,9 +437,15 @@ def topic_en_html(t, drill_nos):
     if t.get('keypoint'):
         parts.append(f'  <aside class="keypoint">\n    <p>{inline(t["keypoint"])}</p>\n  </aside>\n')
     if t.get('drill'):
-        items = [f'      <li data-no="{n}">{drill_p_en(d)}</li>' for d, n in zip(t['drill'], drill_nos)]
-        parts.append('  <div class="drill">\n    <h4>练一练</h4>\n    <ol class="atoms">\n'
-                     + '\n'.join(items) + '\n    </ol>\n  </div>\n')
+        pairs = list(zip(t['drill'], drill_nos))
+        must = [(d, n) for d, n in pairs if d.get('level', '必练') == '必练']
+        more = [(d, n) for d, n in pairs if d.get('level') == '选练']
+        def ol(ps):
+            return ('    <ol class="atoms">\n'
+                    + '\n'.join(f'      <li data-no="{n}">{drill_p_en(d)}</li>' for d, n in ps) + '\n    </ol>\n')
+        body = ol(must) if not more else (
+            '    <p class="lvl">必练</p>\n' + ol(must) + '    <p class="lvl lvl-more">选练</p>\n' + ol(more))
+        parts.append('  <div class="drill">\n    <h4>练一练</h4>\n' + body + '  </div>\n')
     parts.append('</section>\n\n')
     return ''.join(parts)
 
@@ -484,6 +490,10 @@ def validate(D):
 
 def build(D, theme='现行', only=None):
     """only：专题编号集合（仅英式）；None 为整册。练一练题号始终按全册连续编号。"""
+    # 练一练分「必练」「选练」（所有者定，2026-11-05）：每专题先必练、后选练（各自保持定稿内顺序）；没有 level 的按必练
+    for t in D['topics']:
+        if t.get('drill'):
+            t['drill'] = sorted(t['drill'], key=lambda d: 0 if d.get('level', '必练') == '必练' else 1)
     # 练一练题号全册连续
     drill_nos_by_topic, n = {}, 0
     for t in D['topics']:

@@ -582,3 +582,8 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 
 /* 讲一块、练一块：例题后接下一个讲解块，空 1u */
 .example + .explain { margin-top: var(--u); }
+
+/* 练一练分层（所有者定，2026-11-05）：「必练」——学会通法；「选练」——加练题量。10.5pt 黑体粗小标题，独立一行，与上文空半格 */
+.drill > .lvl { margin: var(--h) 0 0; font: 700 10.5pt/var(--u) "sans-ui"; color: var(--ink); position: relative; top: 0.57pt; break-after: avoid; }
+.drill > .lvl + .atoms { margin-top: 0; }
+.drill > .lvl-more { margin-top: var(--u); }
