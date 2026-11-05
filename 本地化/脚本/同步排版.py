@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""同步课单元讲义 · 排版（英式，规范/04 §7）：读定稿 JSON，生成 渲染/本地化/同步-必修一-W-U2.html。
+"""同步课单元讲义 · 排版（英式，规范/04 §7）：读定稿 JSON，生成 渲染/本地化/同步-<册>.html。
 
-运行：python3 -I 本地化/脚本/同步排版.py
-输入：本地化/内容/同步-必修一-W-U2.定稿.json
-输出：渲染/本地化/同步-必修一-W-U2.html（引 英式.css；样式只用 英式.css 的 class）
+运行（仓库根目录）：
+    python3 -I 本地化/脚本/同步排版.py              # 不带参数：排全部存在定稿的册
+    python3 -I 本地化/脚本/同步排版.py 必修二        # 只排一册（册名：必修一…必修三、选必一…选必四）
+输入：本地化/内容/同步-<册>.定稿.json（如 同步-必修一.定稿.json）
+输出：渲染/本地化/同步-<册>.html（如 同步-必修一.html；引 英式.css；样式只用 英式.css 的 class）
+册名由定稿的「书」字段推出（必修第一册 → 必修一；选择性必修第一册 → 选必一）；页脚 data-unit 为「<册> <单元>」，
+HTML title 为「同步讲义 <册>」。
 
 结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测 → 答案与解析。
   单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
@@ -22,7 +26,7 @@
   stats{卷数, 词数, 短语数, 句式题数}
   freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
   families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（每个词族的原题；每个形式一道）
-      gloss：一到两行，多行在排版时用「 · 」接成一行
+      gloss：一到两行（用 <br> 分隔），排版时用「；」接成一行
   spelling[atoms]                                                ③ 单词拼写（6–8 道，每词一道）
   phrases[{短语, 释义, 词头, gloss, atoms}]                       ④ 前半：短语块（可无题）
   tricks[{句式, gloss, formula, atoms}]                          ④ 后半：句式块
@@ -41,8 +45,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SRC = ROOT / '本地化' / '内容' / '同步-必修一-W-U2.定稿.json'
-OUT = ROOT / '渲染' / '本地化' / '同步-必修一-W-U2.html'
+CONTENT = ROOT / '本地化' / '内容'
+RENDER = ROOT / '渲染' / '本地化'
 
 
 def src_text(label):
@@ -275,14 +279,16 @@ def answers_section(u):
         '</section>\n')
 
 
-def unit_section(u):
+def unit_section(u, book):
     book_title = u['unit_book'].split('　')[-1]
     kicker = u['unit_book'].split('　')[0]          # 册名；英文单元名已在标题行
+    # 中文名留成英文名（待定的单元）时不重复显示
+    zh = f'<small>{esc(u["zh"])}</small>' if u['zh'] and u['zh'] != u['h2'] else ''
     head = (
-        f'<section class="unit" data-unit="必修一 {esc(book_title)}">\n'
+        f'<section class="unit" data-unit="{esc(book)} {esc(book_title)}">\n'
         f'<header class="unit-head" data-no="{u["data_no"]}">\n'
         f'  <p class="unit-book">{esc(kicker)}</p>\n'
-        f'  <h2 lang="en">{esc(u["h2"])}<small>{esc(u["zh"])}</small></h2>\n'
+        f'  <h2 lang="en">{esc(u["h2"])}{zh}</h2>\n'
         '</header>\n\n')
     body = (freq_section(u) + '\n' + family_section(u) + '\n' + spelling_section(u) + '\n'
             + phrase_section(u) + '\n' + quiz_section(u) + '\n' + answers_section(u))
@@ -336,23 +342,57 @@ def validate(S):
     return errs
 
 
-def main():
-    S = json.loads(SRC.read_text(encoding='utf-8'))
+BOOK_RE = re.compile(r'(选择性)?必修第([一二三四])册')
+CN_BOOKS = ['必修一', '必修二', '必修三', '选必一', '选必二', '选必三', '选必四']
+
+
+def book_short(book):
+    """书名 → 册名：必修第二册 → 必修二；选择性必修第一册 → 选必一。"""
+    m = BOOK_RE.fullmatch(book or '')
+    if not m:
+        raise SystemExit(f'定稿的「书」字段无法识别：{book!r}')
+    return ('选必' if m.group(1) else '必修') + m.group(2)
+
+
+def render(src):
+    S = json.loads(src.read_text(encoding='utf-8'))
+    book = book_short(S.get('书'))
+    if src.name != f'同步-{book}.定稿.json':
+        raise SystemExit(f'文件名 {src.name} 与定稿「书」字段（{S.get("书")}）不符')
     errs = validate(S)
     if errs:
         for e in errs:
-            print('错误', e, file=sys.stderr)
+            print('错误', src.name, e, file=sys.stderr)
         raise SystemExit(1)
-    body = ''.join(unit_section(u) for u in S['单元'])
+    body = ''.join(unit_section(u, book) for u in S['单元'])
     body = HYPHEN_RE.sub('-⁠', body)   # U+2060 词连接符（零宽）：「用 -ing」的连字符后不断行
     doc = ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
            '<meta name="viewport" content="width=device-width, initial-scale=1">'
-           '<title>同步讲义 · 必修一 W–U2</title>'
+           f'<title>同步讲义 {book}</title>'
            '<link rel="stylesheet" href="英式.css"></head>\n<body>\n'
            + body + '</body>\n</html>\n')
-    OUT.write_text(doc, encoding='utf-8')
-    print('写入', OUT)
+    out = RENDER / f'同步-{book}.html'
+    out.write_text(doc, encoding='utf-8')
+    print('写入', out)
+
+
+def main(argv):
+    if argv:
+        srcs = []
+        for b in argv:
+            if b not in CN_BOOKS:
+                raise SystemExit(f'未知册：{b}（可选：{"、".join(CN_BOOKS)}）')
+            p = CONTENT / f'同步-{b}.定稿.json'
+            if not p.exists():
+                raise SystemExit(f'没有定稿：{p.relative_to(ROOT)}')
+            srcs.append(p)
+    else:
+        srcs = sorted(CONTENT.glob('同步-*.定稿.json'))
+        if not srcs:
+            raise SystemExit('未找到定稿（本地化/内容/同步-*.定稿.json）')
+    for p in srcs:
+        render(p)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

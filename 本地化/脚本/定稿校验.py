@@ -9,8 +9,9 @@
 输出：每册一行汇总，然后逐条列出问题；有问题则退出码为 1。不改任何文件。
 
 检查内容：
-  同步-*.定稿.json
-    遍历所有带 id 的题（②词族 atoms、③短语 atoms、③句式 tricks atoms、④小测 quiz 等）：
+  同步-*.定稿.json（每册一份，如 同步-必修一.定稿.json）
+    逐单元检查题的节：families[].atoms（②）、spelling（③ 单词拼写）、phrases[].atoms（③ 短语）、
+    tricks[].atoms（③ 句式）、quiz（⑤ 小测）。缺节、或有带 id 的题落在以上之外的位置，都报为问题。
     · id 须在题库中存在；
     · 定稿 题干 与题库 题干一致（比较前规范化）；
     · 定稿 答案 与题库 答案一致（规范化后）。定稿有 answer_show 的，答案页已改写，只提示，不比对答案。
@@ -100,10 +101,41 @@ def walk_ids(node, path, out):
             walk_ids(v, f'{path}[{i}]', out)
 
 
+SYNC_SECTIONS = ('families', 'spelling', 'phrases', 'tricks', 'quiz')
+
+
+def sync_atoms(p, doc, problems):
+    """按节收集同步定稿的题：每单元 families / spelling / phrases / tricks / quiz。
+    缺节报问题；带 id 的题若不在这些节里（walk_ids 全量统计对不上），也报问题。"""
+    atoms = []
+    for i, u in enumerate(doc.get('单元', [])):
+        tag = f'单元[{i}]({u.get("data_no", "?")})'
+        for sec in SYNC_SECTIONS:
+            if sec not in u:
+                problems.append((p.name, tag, f'缺 {sec} 节'))
+        for j, f in enumerate(u.get('families', [])):
+            for k, a in enumerate(f.get('atoms', [])):
+                atoms.append((f'{tag}.families[{j}].atoms[{k}]', a))
+        for k, a in enumerate(u.get('spelling', [])):
+            atoms.append((f'{tag}.spelling[{k}]', a))
+        for j, ph in enumerate(u.get('phrases', [])):
+            for k, a in enumerate(ph.get('atoms', [])):
+                atoms.append((f'{tag}.phrases[{j}].atoms[{k}]', a))
+        for j, t in enumerate(u.get('tricks', [])):
+            for k, a in enumerate(t.get('atoms', [])):
+                atoms.append((f'{tag}.tricks[{j}].atoms[{k}]', a))
+        for k, a in enumerate(u.get('quiz', [])):
+            atoms.append((f'{tag}.quiz[{k}]', a))
+    walked = []
+    walk_ids(doc, '', walked)
+    if len(walked) != len(atoms):
+        problems.append((p.name, '全文', f'带 id 的题 {len(walked)} 道，按节检查 {len(atoms)} 道，有题落在已知节之外'))
+    return atoms
+
+
 def check_sync(p, bank_by_id, problems, notices):
     doc = json.loads(p.read_text(encoding='utf-8'))
-    atoms = []
-    walk_ids(doc, '', atoms)
+    atoms = sync_atoms(p, doc, problems)
     n_ok = 0
     for loc, atom in atoms:
         qid = atom['id']
