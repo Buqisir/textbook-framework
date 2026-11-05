@@ -220,6 +220,190 @@
             "动词形式"
           ],
           "题数": 3
+        },
+        {
+          "词头": "exchange",
+          "forms": [
+            {
+              "form": "exchange",
+              "n": 1
+            },
+            {
+              "form": "exchanging",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式",
+            "拼写"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "improve",
+          "forms": [
+            {
+              "form": "improved",
+              "n": 1
+            },
+            {
+              "form": "to improve",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "individual",
+          "forms": [
+            {
+              "form": "individually",
+              "n": 1
+            },
+            {
+              "form": "individuals",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "复数"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "strategy",
+          "forms": [
+            {
+              "form": "strategies",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "复数"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "awkward",
+          "forms": [
+            {
+              "form": "awkward",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "concentrate",
+          "forms": [
+            {
+              "form": "concentrated",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "formal",
+          "forms": [
+            {
+              "form": "formally",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "junior",
+          "forms": [
+            {
+              "form": "junior",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "look forward to",
+          "forms": [
+            {
+              "form": "look forward to",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "翻译"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "nationality",
+          "forms": [
+            {
+              "form": "national",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "outgoing",
+          "forms": [
+            {
+              "form": "outgoing",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "personality",
+          "forms": [
+            {
+              "form": "personality",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "senior",
+          "forms": [
+            {
+              "form": "senior",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
         }
       ],
       "families": [
@@ -644,6 +828,89 @@
             }
           ],
           "gloss": "同上：修饰动词"
+        },
+        {
+          "词头": "nationality",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "nationality",
+              "词性": "n.",
+              "释义": "国籍",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "nation",
+              "词性": "n.",
+              "释义": "国家",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "national",
+              "词性": "adj.",
+              "释义": "国家的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "101-15",
+              "no": 15,
+              "标签": "2023 · 东莞外国语 · 高一上期中",
+              "题型": "语法填空",
+              "题干": "These wooden buildings are part of the ___ (nation) heritage.",
+              "题干HTML": "These wooden buildings are part of the <span class=\"blank\"></span> (nation) heritage.",
+              "cue": [],
+              "提示词": "nation",
+              "答案": "national",
+              "解析": "考查形容词。句意：这些木制建筑是国家遗产的一部分。根据句意及英文提示可知，此处使用形容词national“国家的”，作定语，修饰名词heritage。故填national。",
+              "句意": "",
+              "reason": "修饰 heritage，形容词作定语",
+              "answer_show": null
+            }
+          ],
+          "gloss": "名词前 → 形容词"
+        },
+        {
+          "词头": "personality",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "personality",
+              "词性": "n.",
+              "释义": "性格",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "personal",
+              "词性": "adj.",
+              "释义": "个人的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "018-19",
+              "no": 16,
+              "标签": "2021 · 东华 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "He has a very outgoing ___ (personal) and makes friends very easily.",
+              "题干HTML": "He has a very outgoing <span class=\"blank\"></span> (personal) and makes friends very easily.",
+              "cue": [],
+              "提示词": "personal",
+              "答案": "personality",
+              "解析": "考查名词。句意：他性格外向，很容易就可以交到朋友。根据句意可知，设空处被形容词outgoing修饰，所以用名词；被不定冠词a限定，用名词单数作宾语。故填personality。",
+              "句意": "",
+              "reason": "形容词后作宾语，personal 的名词",
+              "answer_show": null
+            }
+          ],
+          "gloss": "形容词后 → 名词"
         }
       ],
       "phrases": [
@@ -654,7 +921,7 @@
           "atoms": [
             {
               "id": "067-18",
-              "no": 15,
+              "no": 17,
               "标签": "2025 · 东莞市 · 高一下期末",
               "题型": "完成句子",
               "题干": "My mother ___ (陪伴我) during my stay in the hospital last month.",
@@ -677,7 +944,7 @@
           "atoms": [
             {
               "id": "149-20",
-              "no": 16,
+              "no": 18,
               "标签": "2025 · 翰林 · 高一上期末",
               "题型": "完成句子",
               "题干": "Happily, he has told me all his plans and he’s ___ (留下好印象) on me.",
@@ -692,7 +959,7 @@
             },
             {
               "id": "113-17",
-              "no": 17,
+              "no": 19,
               "标签": "2024 · 光正实验 · 高一上月考",
               "题型": "完成句子",
               "题干": "His good manners have ___ (给......留下好印象) his schoolmates.",
@@ -715,7 +982,7 @@
           "atoms": [
             {
               "id": "125-25",
-              "no": 18,
+              "no": 20,
               "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
               "题型": "翻译",
               "题干": "对我来说，习惯高中生活不难。 → ___",
@@ -740,7 +1007,7 @@
           "atoms": [
             {
               "id": "111-21",
-              "no": 19,
+              "no": 21,
               "标签": "2024 · 东莞市 · 高一上联考",
               "题型": "完成句子",
               "题干": "The audience was impressed with the beautiful movements of the ballet dancers. → The beautiful movements of the ballet dancers ___ the audience.",
@@ -757,7 +1024,7 @@
             },
             {
               "id": "155-20",
-              "no": 20,
+              "no": 22,
               "标签": "2024 · 东莞高中 · 高一上月考",
               "题型": "完成句子",
               "题干": "The students were impressed with the amazing experiments of space exploration. → The amazing experiments of space exploration ___ the students.",
@@ -780,7 +1047,7 @@
           "atoms": [
             {
               "id": "121-21",
-              "no": 21,
+              "no": 23,
               "标签": "2025 · 嘉荣外国语 · 高一上月考",
               "题型": "完成句子",
               "题干": "At the party, his outgoing personality impressed me deeply. → At the party, his outgoing personality ___ me.",
@@ -797,7 +1064,7 @@
             },
             {
               "id": "158-21",
-              "no": 22,
+              "no": 24,
               "标签": "2024 · 麻涌中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "What the expert said in the speech impressed me deeply. → What the expert said in the speech ___ on me.",
@@ -813,7 +1080,7 @@
             },
             {
               "id": "041-19",
-              "no": 23,
+              "no": 25,
               "标签": "2026 · 粤华 · 高一下月考",
               "题型": "完成句子",
               "题干": "Jan Tchamani found herself at home and only her computer accompanied her. → Jan Tchamani found herself at home and only her computer ___.",
@@ -837,7 +1104,7 @@
           "atoms": [
             {
               "id": "161-25",
-              "no": 24,
+              "no": 26,
               "标签": "2024 · 松山湖未来 · 高一上期中",
               "题型": "完成句子",
               "题干": "Going from junior high school to senior high school is a really big challenge. → ___",
@@ -858,7 +1125,7 @@
       "quiz": [
         {
           "id": "039-14",
-          "no": 25,
+          "no": 27,
           "标签": "2026 · 第六高中 · 高一下期末",
           "题型": "语法填空",
           "题干": "Scientists are making great efforts ___ (explore) the unknown universe.",
@@ -873,7 +1140,7 @@
         },
         {
           "id": "137-20",
-          "no": 26,
+          "no": 28,
           "标签": "2025 · 第八高中 · 高一下期中",
           "题型": "完成句子",
           "题干": "Grandma was happy when we decided to stay with her during the holiday. → Grandma was happy when we decided to ___ during the holiday.",
@@ -890,7 +1157,7 @@
         },
         {
           "id": "027-21",
-          "no": 27,
+          "no": 29,
           "标签": "2024 · 东莞市 · 高一上月考",
           "题型": "单词拼写",
           "题干": "It was a long journey and I was grateful for his ___ (陪伴).",
@@ -905,7 +1172,7 @@
         },
         {
           "id": "053-23",
-          "no": 28,
+          "no": 30,
           "标签": "2022 · 东莞实验 · 高一上月考",
           "题型": "翻译",
           "题干": "他的自信给我们留下了深刻的印象。 → ___",
@@ -920,7 +1187,7 @@
         },
         {
           "id": "031-10",
-          "no": 29,
+          "no": 31,
           "标签": "2025 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "Our teacher taught us some useful ___ (strategy) for remembering new words.",
@@ -935,7 +1202,7 @@
         },
         {
           "id": "153-20",
-          "no": 30,
+          "no": 32,
           "标签": "2025 · 虎门中学 · 高一下月考",
           "题型": "完成句子",
           "题干": "I wish my dog were here to ___ (陪伴).",
@@ -950,7 +1217,7 @@
         },
         {
           "id": "027-24",
-          "no": 31,
+          "no": 33,
           "标签": "2024 · 东莞市 · 高一上月考",
           "题型": "单词拼写",
           "题干": "There followed an a ___ silence while we all tried to think of something to say.",
@@ -965,7 +1232,7 @@
         },
         {
           "id": "034-12",
-          "no": 32,
+          "no": 34,
           "标签": "2025 · 东莞市 · 高一上期中",
           "题型": "语法填空",
           "题干": "She recommended that the program ___ (design) to help students practice and improve their oral English.",
@@ -979,7 +1246,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 32
+      "numbered_total": 34
     },
     {
       "序": 2,
@@ -1201,6 +1468,210 @@
             "拼写"
           ],
           "题数": 4
+        },
+        {
+          "词头": "attract",
+          "forms": [
+            {
+              "form": "are attracted",
+              "n": 1
+            },
+            {
+              "form": "attracted",
+              "n": 1
+            },
+            {
+              "form": "attractions",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式",
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "prefer",
+          "forms": [
+            {
+              "form": "preference",
+              "n": 2
+            },
+            {
+              "form": "prefers",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "suitable",
+          "forms": [
+            {
+              "form": "suitable",
+              "n": 2
+            },
+            {
+              "form": "more suitable",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "volunteer",
+          "forms": [
+            {
+              "form": "volunteer",
+              "n": 1
+            },
+            {
+              "form": "volunteering",
+              "n": 1
+            },
+            {
+              "form": "volunteers",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写",
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "addicted",
+          "forms": [
+            {
+              "form": "addicted",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "behaviour",
+          "forms": [
+            {
+              "form": "behavior / behaviour",
+              "n": 1
+            },
+            {
+              "form": "behaviour / behavior",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "focus",
+          "forms": [
+            {
+              "form": "focused",
+              "n": 1
+            },
+            {
+              "form": "should be focused / be focused",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "advanced",
+          "forms": [
+            {
+              "form": "advanced",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "adventure",
+          "forms": [
+            {
+              "form": "adventure",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "content",
+          "forms": [
+            {
+              "form": "contents",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "复数"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "extra-curricular",
+          "forms": [
+            {
+              "form": "extra",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "movement",
+          "forms": [
+            {
+              "form": "moved",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "quit",
+          "forms": [
+            {
+              "form": "had quit",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
         }
       ],
       "families": [
@@ -1662,6 +2133,285 @@
             }
           ],
           "gloss": "one 后 → 单数指人<br>the 后 → 复数"
+        },
+        {
+          "词头": "attract",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "attract",
+              "词性": "vt.",
+              "释义": "吸引",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "attractive",
+              "词性": "adj.",
+              "释义": "吸引人的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "attraction",
+              "词性": "n.",
+              "释义": "吸引",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "097-35",
+              "no": 17,
+              "标签": "2022 · 莞中松山湖 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "The Great Wall, one of the Chinese famous tourist ___ (attract), appeals to millions of tourists from all over the world every year.",
+              "题干HTML": "The Great Wall, one of the Chinese famous tourist <span class=\"blank\"></span> (attract), appeals to millions of tourists from all over the world every year.",
+              "cue": [],
+              "提示词": "attract",
+              "答案": "attractions",
+              "解析": "考查名词。句意：长城是中国著名的旅游胜地之一，每年吸引着来自世界各地的数以百万计的游客。作宾语，应用名词attraction，且此处为one of+复数名词结构，故填attractions。",
+              "句意": "",
+              "reason": "复合名词，attract 的名词复数",
+              "answer_show": null
+            }
+          ],
+          "gloss": "名词后 → 复合名词"
+        },
+        {
+          "词头": "prefer",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "prefer",
+              "词性": "vt.",
+              "释义": "较喜欢",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "preference",
+              "词性": "n.",
+              "释义": "偏爱",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "018-21",
+              "no": 18,
+              "标签": "2021 · 东华 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "The girl has a ___ (prefer) for music and she wishes to be a singer.",
+              "题干HTML": "The girl has a <span class=\"blank\"></span> (prefer) for music and she wishes to be a singer.",
+              "cue": [],
+              "提示词": "prefer",
+              "答案": "preference",
+              "解析": "考查名词。句意：这个女孩喜欢音乐，她希望成为一名歌手。分析句子结构可知，设空处被不定冠词a限定，所以应用名词单数作宾语。故填preference。",
+              "句意": "",
+              "reason": "a 后作宾语，prefer 的名词",
+              "answer_show": null
+            }
+          ],
+          "gloss": "冠词后 → 名词"
+        },
+        {
+          "词头": "suitable",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "suitable",
+              "词性": "adj.",
+              "释义": "合适的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "suit",
+              "词性": "vt.",
+              "释义": "对（某人）方便",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "158-11",
+              "no": 19,
+              "标签": "2024 · 麻涌中学 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "The dress is ___ (suit) for a formal occasio than the casual one.",
+              "题干HTML": "The dress is <span class=\"blank\"></span> (suit) for a formal occasio than the casual one.",
+              "cue": [],
+              "提示词": "suit",
+              "答案": "more suitable",
+              "解析": "考查形容词的比较级。句意：这件衣服比休闲装更适合正式场合。空格处用形容词作表语，suit的形容词是suitable，意为“适合的”，由than可知，空格处用比较级more suitable。故填more suitable。",
+              "句意": "",
+              "reason": "than 呼应，more 加形容词",
+              "answer_show": null
+            },
+            {
+              "id": "050-10",
+              "no": 20,
+              "标签": "2023 · 东莞外国语 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "To sum up, Harry Potter is an amazing film which is ___ (suit) for both children and adults.",
+              "题干HTML": "To sum up, Harry Potter is an amazing film which is <span class=\"blank\"></span> (suit) for both children and adults.",
+              "cue": [],
+              "提示词": "suit",
+              "答案": "suitable",
+              "解析": "考查形容词。句意：总之，哈利波特是一部了不起的电影，既适合儿童也适合成人。be suitable for“适合……”是固定搭配，形容词suitable作表语。故填suitable。",
+              "句意": "",
+              "reason": "is 后作表语，suit 的形容词",
+              "answer_show": null
+            }
+          ],
+          "gloss": "than 前 → 形容词<br>is 后 → 形容词"
+        },
+        {
+          "词头": "addicted",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "addicted",
+              "词性": "adj.",
+              "释义": "有瘾的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "addict",
+              "词性": "n.",
+              "释义": "对……入迷的人",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "addiction",
+              "词性": "n.",
+              "释义": "瘾",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "addictive",
+              "词性": "adj.",
+              "释义": "使人上瘾的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "097-09",
+              "no": 21,
+              "标签": "2022 · 莞中松山湖 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "This organization aims to help those ___ (addict) to online games get out and back to track.",
+              "题干HTML": "This organization aims to help those <span class=\"blank\"></span> (addict) to online games get out and back to track.",
+              "cue": [],
+              "提示词": "addict",
+              "答案": "addicted",
+              "解析": "考查形容词。句意：这个组织的目的是帮助那些沉迷于网络游戏的人走出困境，回到正轨。此处修饰those应用形容词addicted，作定语。故填addicted。",
+              "句意": "",
+              "reason": "those 后作定语，用形容词",
+              "answer_show": null
+            }
+          ],
+          "gloss": "those 后 → 形容词"
+        },
+        {
+          "词头": "behaviour",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "behaviour",
+              "词性": "n.",
+              "释义": "行为",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "behave",
+              "词性": "vi.",
+              "释义": "表现得体",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "129-15",
+              "no": 22,
+              "标签": "2023 · 石竹实验 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "Before we went out, Mom said to us, “I want you both to be on your best ___ (behave) at Grandad’s.”",
+              "题干HTML": "Before we went out, Mom said to us, “I want you both to be on your best <span class=\"blank\"></span> (behave) at Grandad’s.”",
+              "cue": [],
+              "提示词": "behave",
+              "答案": "behaviour / behavior",
+              "解析": "考查名词。句意：在我们出去之前，妈妈对我们说:“我希望你们俩在爷爷家表现好一点。”根据设空前的your best可知，设空处用名词作宾语，所给词behave是动词，其名词是behaviour/behavior，表抽象意义，不可数，故答案为behaviour/behavior。",
+              "句意": "",
+              "reason": "best 后作宾语，behave 的名词",
+              "answer_show": "behaviour（亦可 behavior）"
+            },
+            {
+              "id": "097-34",
+              "no": 23,
+              "标签": "2022 · 莞中松山湖 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "The teacher made a suggestion that she make an apology to Tom for her bad ___ (behave).",
+              "题干HTML": "The teacher made a suggestion that she make an apology to Tom for her bad <span class=\"blank\"></span> (behave).",
+              "cue": [],
+              "提示词": "behave",
+              "答案": "behavior / behaviour",
+              "解析": "考查名词。句意：老师建议她为自己的不良行为向汤姆道歉。分析句子结构可知，空前是形容词，所以空处应填名词作宾语，behave的名词形式是behavior或者behaviour。故填behavior或者behaviour。",
+              "句意": "",
+              "reason": "bad 后作宾语，behave 的名词",
+              "answer_show": "behavior（亦可 behaviour）"
+            }
+          ],
+          "gloss": "best 后 → 名词<br>bad 后 → 名词"
+        },
+        {
+          "词头": "advanced",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "advanced",
+              "词性": "adj.",
+              "释义": "高级的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "advance",
+              "词性": "n.",
+              "释义": "前进",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "155-08",
+              "no": 24,
+              "标签": "2024 · 东莞高中 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "The team of robots named Curly is more ___ (advance) in sports than other robots.",
+              "题干HTML": "The team of robots named Curly is more <span class=\"blank\"></span> (advance) in sports than other robots.",
+              "cue": [],
+              "提示词": "advance",
+              "答案": "advanced",
+              "解析": "考查形容词。句意：名为Curly的机器人团队在运动方面比其他机器人更先进。此处修饰名词robots，应用形容词advanced“先进的”，作定语。故填advanced。",
+              "句意": "",
+              "reason": "more 后作表语，用形容词",
+              "answer_show": null
+            }
+          ],
+          "gloss": "more 后 → 形容词"
         }
       ],
       "phrases": [
@@ -1672,7 +2422,7 @@
           "atoms": [
             {
               "id": "108-13",
-              "no": 17,
+              "no": 25,
               "标签": "2023 · 东莞高中 · 高一上月考",
               "题型": "单词拼写",
               "题干": "At fifteen you should know that you need to be ___ (负责的) for what you are doing in school.",
@@ -1695,7 +2445,7 @@
           "atoms": [
             {
               "id": "050-26",
-              "no": 18,
+              "no": 26,
               "标签": "2023 · 东莞外国语 · 高一上月考",
               "题型": "完成句子",
               "题干": "The mother went out to work, so the father ___ (对……负责) looking after the children at home.",
@@ -1720,7 +2470,7 @@
           "atoms": [
             {
               "id": "137-23",
-              "no": 19,
+              "no": 27,
               "标签": "2025 · 第八高中 · 高一下期中",
               "题型": "完成句子",
               "题干": "Because the couple were inspired by the speech, they decided to take up the challenge. → ___",
@@ -1744,7 +2494,7 @@
           "atoms": [
             {
               "id": "058-24",
-              "no": 20,
+              "no": 28,
               "标签": "2022 · 东莞市 · 高一上期中",
               "题型": "翻译",
               "题干": "只有勇敢面对挑战的人才能成功。 → ___",
@@ -1768,7 +2518,7 @@
           "atoms": [
             {
               "id": "066-25",
-              "no": 21,
+              "no": 29,
               "标签": "2024 · 东莞市 · 高一上期末",
               "题型": "完成句子",
               "题干": "Doing housework not only exercises the body but also develops a sense of responsibility. → ___",
@@ -1789,7 +2539,7 @@
       "quiz": [
         {
           "id": "041-14",
-          "no": 22,
+          "no": 30,
           "标签": "2026 · 粤华 · 高一下月考",
           "题型": "语法填空",
           "题干": "___ (move) by this music, he said, “It was like seeing color for the first time.”",
@@ -1804,7 +2554,7 @@
         },
         {
           "id": "027-19",
-          "no": 23,
+          "no": 31,
           "标签": "2024 · 东莞市 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Though physics seems to be a big ___ (挑战) for me, I will not give up.",
@@ -1819,7 +2569,7 @@
         },
         {
           "id": "034-15",
-          "no": 24,
+          "no": 32,
           "标签": "2025 · 东莞市 · 高一上期中",
           "题型": "语法填空",
           "题干": "Nowadays, ___ (graduate) have to fight for jobs in a highly competitive society.",
@@ -1834,7 +2584,7 @@
         },
         {
           "id": "099-08",
-          "no": 25,
+          "no": 33,
           "标签": "2024 · 莞中松山湖 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Senior high students often face a tight ___ (日程安排), balancing academic studies with extra-curricular activities.",
@@ -1849,7 +2599,7 @@
         },
         {
           "id": "094-08",
-          "no": 26,
+          "no": 34,
           "标签": "2025 · 东华、东华松山湖 · 高一上月考",
           "题型": "语法填空",
           "题干": "___ (addict) to traditional Chinese culture, she joined the school’s calligraphy club and practiced every day.",
@@ -1864,7 +2614,7 @@
         },
         {
           "id": "099-10",
-          "no": 27,
+          "no": 35,
           "标签": "2024 · 莞中松山湖 · 高一上期中",
           "题型": "单词拼写",
           "题干": "After ___ (毕业), she went to the mountainous area to become an English teacher.",
@@ -1879,7 +2629,7 @@
         },
         {
           "id": "121-16",
-          "no": 28,
+          "no": 36,
           "标签": "2025 · 嘉荣外国语 · 高一上月考",
           "题型": "语法填空",
           "题干": "Mr Smith ___ (quit) his job as an editor before he applied for a position at a local middle school.",
@@ -1894,7 +2644,7 @@
         },
         {
           "id": "089-13",
-          "no": 29,
+          "no": 37,
           "标签": "2023 · 东华 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Friendless and jobless, he knew that his chance to ___ (存活) was slim.",
@@ -1908,7 +2658,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 29
+      "numbered_total": 37
     },
     {
       "序": 3,
@@ -2085,6 +2835,71 @@
           "考法": [
             "短语",
             "翻译"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "narrow",
+          "forms": [
+            {
+              "form": "to narrow",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "powerful",
+          "forms": [
+            {
+              "form": "powerful",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "recognise",
+          "forms": [
+            {
+              "form": "recognition",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "source",
+          "forms": [
+            {
+              "form": "source",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "transport",
+          "forms": [
+            {
+              "form": "to transport",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
           ],
           "题数": 1
         }

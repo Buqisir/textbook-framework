@@ -5,9 +5,16 @@
 输入：本地化/数据/题库.jsonl、题-单元.jsonl、单元.json、词族索引.json、待校对.tsv（只读）
 输出：本地化/内容/同步-必修一-W-U2.json（候选骨架：自动部分已填，人工部分留空）
 
-结构：① 考情（统计）→ ② 词性转换 → ③ 短语（前半）与句式转换（后半）→ ⑤ 单元小测（④ 已删）。
+结构：① 考情（统计）→ ③ 短语（前半）→ ② 词性转换 → ③ 句式转换（后半）→ ⑤ 单元小测（④ 已删）。
 ③ 句式的题由 TRICK_PICKS 人工挑选（题干带改写指令的东莞原题），脚本只校验，不替人选。
 ③ 前半的短语题跳过改写题，改写题只进句式块。
+
+收录规则（按「是否考过」收，不按名次截）：
+- ① 考情：本单元所有考过的词，全部进表，按题数降序、再按词头排序。
+- ② 词性转换：① 中考法含「词性转换」、且能选出至少 1 道「词性转换 + 提示词」题的词，全部收录，不设上限。
+  每词 1–2 题：新题（年份新）优先，两题尽量考不同形式；题不与本单元或全书已用的题重复。
+  题数降序排列；只考过 1 次的词就 1 题。
+- 选题顺序：③ 短语先取题，② 只拿剩下的，⑤ 小测最后取余量。③ 与 ⑤ 的题因此不受 ② 增减影响。
 
 规则见 AGENTS.md「选题规则」。仅使用标准库，结果确定。
 平局排序里的题号（如 `key=lambda x: (-年份, x[0])`）由 本地化/数据/卷号.json 固定：题号前三位不随语料增删而漂移。
@@ -373,7 +380,6 @@ def main():
                 '题数': len(lst),
             })
         freq_rows.sort(key=lambda r: (-r['题数'], r['词头']))
-        top10 = freq_rows[:10]
 
         # 归属本单元的题（用于 ②③⑤ 选题）
         def qs_for(w):
@@ -382,13 +388,49 @@ def main():
         def lst_all_for(w):
             return heads.get(w, [])
 
+        # ③ 短语与句型：搭配命中（完成句子、翻译）
+        pgroups = collections.defaultdict(list)   # (词头, 短语) → [(qid, h)]
+        for w, lst in heads.items():
+            for qid, h in lst:
+                if qid in used or h['方式'] != '搭配' or is_rewrite(Q[qid]):
+                    continue
+                phrase = h['证据'].split('｜')[0]
+                pgroups[(w, phrase)].append((qid, h))
+        porder = sorted(pgroups.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+        phrases = []
+        for (w, phrase), lst in porder:
+            if len(phrases) == 6:
+                break
+            lst = sorted(lst, key=lambda x: (-(Q[x[0]]['年份'] or 0), x[0]))
+            pick = []
+            for qid, h in lst:
+                if qid in used:
+                    continue
+                pick.append(qid)
+                if len(pick) == 2:
+                    break
+            if not pick:
+                continue
+            for qid in pick:
+                used.add(qid)
+            phrases.append({'短语': phrase, '释义': phrase_zh.get(phrase, ''), '词头': w,
+                            'atoms': [build_atom(Q[qid]) for qid in pick], 'gloss': ''})
+        # 单词拼写题：有对应短语（同词头）则并入该条，否则放到 ⑤
+        for p in phrases:
+            head_w = p['词头']
+            for qid, h in heads.get(head_w, []):
+                if len(p['atoms']) >= 2:
+                    break
+                if qid in used or Q[qid]['题型'] != '单词拼写':
+                    continue
+                used.add(qid)
+                p['atoms'].append(build_atom(Q[qid]))
+
         # ② 词性转换词族
         fam_rows = [r for r in freq_rows if '词性转换' in r['考法']]
         fam_rows.sort(key=lambda r: (-r['题数'], r['词头']))
         families = []
         for r in fam_rows:
-            if len(families) == 8:
-                break
             w = r['词头']
             cands = []
             for qid, h in qs_for(w):
@@ -458,44 +500,6 @@ def main():
                 'gloss': '',
             })
 
-        # ③ 短语与句型：搭配命中（完成句子、翻译）
-        pgroups = collections.defaultdict(list)   # (词头, 短语) → [(qid, h)]
-        for w, lst in heads.items():
-            for qid, h in lst:
-                if qid in used or h['方式'] != '搭配' or is_rewrite(Q[qid]):
-                    continue
-                phrase = h['证据'].split('｜')[0]
-                pgroups[(w, phrase)].append((qid, h))
-        porder = sorted(pgroups.items(), key=lambda kv: (-len(kv[1]), kv[0]))
-        phrases = []
-        for (w, phrase), lst in porder:
-            if len(phrases) == 6:
-                break
-            lst = sorted(lst, key=lambda x: (-(Q[x[0]]['年份'] or 0), x[0]))
-            pick = []
-            for qid, h in lst:
-                if qid in used:
-                    continue
-                pick.append(qid)
-                if len(pick) == 2:
-                    break
-            if not pick:
-                continue
-            for qid in pick:
-                used.add(qid)
-            phrases.append({'短语': phrase, '释义': phrase_zh.get(phrase, ''), '词头': w,
-                            'atoms': [build_atom(Q[qid]) for qid in pick], 'gloss': ''})
-        # 单词拼写题：有对应短语（同词头）则并入该条，否则放到 ⑤
-        for p in phrases:
-            head_w = p['词头']
-            for qid, h in heads.get(head_w, []):
-                if len(p['atoms']) >= 2:
-                    break
-                if qid in used or Q[qid]['题型'] != '单词拼写':
-                    continue
-                used.add(qid)
-                p['atoms'].append(build_atom(Q[qid]))
-
         # ③ 后半：句式块（题在 TRICK_PICKS 里人工挑定）
         tricks = [{'句式': name, 'gloss': '', 'formula': '',
                    'atoms': [build_atom(Q[qid]) for qid in ids]}
@@ -537,7 +541,7 @@ def main():
             'h2': en, 'zh': ZH_TITLE[seq],
             'stats': {'卷数': len(uniq_files), '词数': len(uraw['词汇']), '短语数': phrase_count,
                       '句式题数': sum(len(t['atoms']) for t in tricks)},
-            'freq': top10,
+            'freq': freq_rows,
             'families': families,
             'phrases': phrases,
             'tricks': tricks,

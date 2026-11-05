@@ -11,8 +11,8 @@
 定稿 JSON 的字段（每个单元）：
   序、data_no、unit_book、h2、zh、chips{year_range, n_questions, n_kaofa, n_phrase}
   stats{卷数, 词数, 短语数, 句式题数}
-  freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表
-  families[{词头, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行
+  freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
+  families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（收录全部词性转换词，不设上限）
   phrases[{短语, 释义, 词头, gloss, atoms}]                       ③ 前半：短语块（可无题）
   tricks[{句式, gloss, formula, atoms}]                          ③ 后半：句式块
       句式：句式名，≤6 字
@@ -237,10 +237,6 @@ def validate(S):
                     errs.append(f'{u["data_no"]} {tag} 柱注超过 10 字：{ln}')
             if len(g.split('<br>')) > 2:
                 errs.append(f'{u["data_no"]} {tag} 柱注超过 2 行：{g}')
-        if len(u['freq']) > 10:
-            errs.append(f'{u["data_no"]} 考情表超过 10 行')
-        if len(u['families']) > 8:
-            errs.append(f'{u["data_no"]} 词族超过 8 个')
         for f in u['families']:
             if len(f['atoms']) > 2:
                 errs.append(f'{u["data_no"]} 词族题超过 2 道')
