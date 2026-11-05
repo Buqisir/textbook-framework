@@ -8,7 +8,7 @@
    "post": "套东莞卷"
   },
   {
-   "b": "6",
+   "b": "5",
    "post": "个专题"
   },
   {
@@ -64,15 +64,6 @@
     "book": "不单列",
     "ahead": true,
     "go": "专题 5",
-    "skip": false
-   },
-   {
-    "name": "主谓一致",
-    "cov": 0.5,
-    "n": 8,
-    "book": "不单列",
-    "ahead": true,
-    "go": "专题 6",
     "skip": false
    },
    {
@@ -140,7 +131,7 @@
     },
     {
      "type": "p",
-     "text": "find、make 之后，宾语和宾补之间看逻辑：宾语是动作的承受者，宾补用过去分词（found herself left alone）；宾语是主动的，宾补用 to do 或 doing，视动词而定（want sb. to do、catch sb. doing）。"
+     "text": "find、make 之后，宾语和宾补之间看逻辑：宾语是动作的承受者，宾补用过去分词（found herself left alone、make myself understood）。"
     },
     {
      "type": "p",
@@ -261,8 +252,7 @@
     {
      "stem": "What is important for keeping healthy is being happy.",
      "cue": [
-      "用V-ing 作主语改写",
-      "句型转换"
+      "用V-ing 作主语改写"
      ],
      "src": "2023 · 石竹实验 · 高一上月考",
      "ans": "Being happy is important for keeping healthy.",
@@ -502,13 +492,6 @@
    ],
    "drill": [
     {
-     "stem": "Most people thought that the local government ___ (对...负责) the housing price.",
-     "cue": [],
-     "src": "2024 · 光正实验 · 高一上月考",
-     "ans": "was responsible for",
-     "why": "主句过去时，从句也用过去时，主语单数用 was。"
-    },
-    {
      "stem": "First, Adam had to think very carefully about ___ courses he wanted to take.",
      "cue": [],
      "src": "2025 · 嘉荣外国语 · 高一上月考",
@@ -523,22 +506,13 @@
      "why": "It is obvious that 中的 that 不能省。"
     },
     {
-     "stem": "The expert recommended to do some research before carrying out the experiment.",
+     "stem": "老师建议我们不要沉迷于玩电脑游戏。",
      "cue": [
-      "用宾语从句改写句子"
+      "用recommend翻译"
      ],
-     "src": "2024 · 东莞市 · 高一上联考",
-     "ans": "The expert recommended that some research (should) be done before carrying out the experiment.",
-     "why": "recommend 后的宾语从句，谓语用 (should) be done。"
-    },
-    {
-     "stem": "People recommend that we should get enough sleep to ensure our health.\n= ___ we should get enough sleep to ensure our health.",
-     "cue": [
-      "同义转换"
-     ],
-     "src": "2024 · 麻涌中学 · 高一上月考",
-     "ans": "It was recommended that we should get enough sleep to ensure our health.",
-     "why": "主动改被动，主句用 It was…that。"
+     "src": "2023 · 翰林 · 高一月考",
+     "ans": "The teacher recommended that we should not be addicted to playing computer games.",
+     "why": "宾语从句用 that 引导，从句谓语 should + 原形。"
     }
    ]
   },
@@ -676,7 +650,7 @@
     },
     {
      "type": "p",
-     "text": "判断：拿掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。强调主语、宾语各 1 题，也都用 that。"
+     "text": "判断：拿掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
     },
     {
      "type": "pattern",
@@ -691,7 +665,7 @@
       "时间：yesterday"
      ],
      "stem": {
-      "text": "My grandpa walked the dog in the street yesterday.",
+      "text": "My grandpa walked the dog in the street [_yesterday_].",
       "cue": [
        "强调划线的部分"
       ],
@@ -710,7 +684,7 @@
       "原因状语"
      ],
      "stem": {
-      "text": "I improved my oral English greatly because of the teacher’s encouragement.",
+      "text": "I improved my oral English greatly [_because of the teacher’s encouragement_].",
       "cue": [
        "对划线部分进行强调"
       ],
@@ -726,7 +700,7 @@
    ],
    "drill": [
     {
-     "stem": "He successfully started his own IT company with the encouragement of his family.",
+     "stem": "He successfully started his own IT company [_with the encouragement of his family_].",
      "cue": [
       "强调划线部分"
      ],
@@ -735,7 +709,7 @@
      "why": "状语强调只用 that，不用 who。"
     },
     {
-     "stem": "My teacher gives me encouragement when I meet with difficulties.",
+     "stem": "My teacher gives me encouragement [_when I meet with difficulties_].",
      "cue": [
       "就划线部分强调"
      ],
@@ -744,7 +718,7 @@
      "why": "被强调的是 when 从句，结构不变。"
     },
     {
-     "stem": "In 2016, Coach Lang Ping led her volleyball team to Olympic gold in Brazil.",
+     "stem": "In 2016, Coach Lang Ping led her volleyball team to Olympic gold [_in Brazil_].",
      "cue": [
       "改为强调地点状语的强调句"
      ],
@@ -753,7 +727,7 @@
      "why": "被强调的是地点状语 in Brazil。"
     },
     {
-     "stem": "She used the flash cards to teach the kids new words last class.",
+     "stem": "She used [_the flash cards_] to teach the kids new words last class.",
      "cue": [
       "用强调句对划线部分强调"
      ],
@@ -769,151 +743,6 @@
      "src": "2024 · 东莞市 · 高一上月考",
      "ans": "It was his adventurous/thrill-seeking personality that inspired/motivated/encouraged his friends to try new things/try something new.",
      "why": "强调主语，that 连接，结构同上。"
-    }
-   ]
-  },
-  {
-   "no": 6,
-   "name": "主谓一致",
-   "vols": 12,
-   "cov": 6,
-   "n": 8,
-   "explain": [
-    {
-     "type": "subhead",
-     "text": "固定短语"
-    },
-    {
-     "type": "gloss",
-     "lines": [
-      "8 题里 3 题",
-      "单数主语加 s"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "固定短语作谓语时，先找真正的主语，再定动词的形式。take control of、take responsibility for、be responsible for 中，动词要跟主语的人称和数一致。"
-    },
-    {
-     "type": "p",
-     "text": "例：fear 是单数，take 加 s 成 takes；主句是一般将来时，从句仍用一般现在时。"
-    },
-    {
-     "type": "subhead",
-     "text": "并列与就近"
-    },
-    {
-     "type": "gloss",
-     "lines": [
-      "8 题里 2 题",
-      "就近；and 并列"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "neither…nor 连接两个主语，谓语跟离它近的那个。and 连接的主语是复数，谓语用复数，如 Dancing and skating are…。判断时先看连接的是哪两个词，再定谓语的数。"
-    },
-    {
-     "type": "subhead",
-     "text": "时间与三单"
-    },
-    {
-     "type": "gloss",
-     "lines": [
-      "8 题里 3 题",
-      "since then 等"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "时间状语决定时态：since then、so far 配现在完成，has done。主语是单数第三人称（she）时，谓语加 s。"
-    },
-    {
-     "type": "pattern",
-     "text": "neither A nor B（谓语随 B）  |  A and B（复数）"
-    }
-   ],
-   "keypoint": "先定真正的主语，再看单复数：neither…nor 看靠近谓语的那个，and 连接用复数；时间状语定时态。",
-   "examples": [
-    {
-     "gloss": [
-      "固定短语",
-      "单数主语，takes"
-     ],
-     "stem": {
-      "text": "When fear ___ (控制) our mind, most of us will be at a loss and don’t know what to do.",
-      "cue": [],
-      "src": "2023 · 东莞外国语 · 高一上月考"
-     },
-     "ju": "当恐惧控制了我们的思想时，我们大多数人都会不知所措。",
-     "mid": {
-      "label": "判断",
-      "text": "主语 fear 是单数，take 加 s 成 takes。"
-     },
-     "ans": "takes control of"
-    },
-    {
-     "gloss": [
-      "并列与就近",
-      "就近谓语"
-     ],
-     "stem": {
-      "text": "In my opinion, neither my friend nor my classmates ___ （be）as positive as Tom.",
-      "cue": [],
-      "src": "2023 · 石竹实验 · 高一上月考"
-     },
-     "ju": "在我看来，无论我的朋友还是我的同班同学都不像汤姆那么积极。",
-     "mid": {
-      "label": "判断",
-      "text": "neither…nor 连接的两个主语，谓语跟靠近它的 my classmates，用复数 are。"
-     },
-     "ans": "are"
-    }
-   ],
-   "drill": [
-    {
-     "stem": "Since then, she ___ (compete) in more than 26 marathons, often finishing among the fastest women runners.",
-     "cue": [],
-     "src": "2022 · 莞中松山湖 · 高一上月考",
-     "ans": "has competed",
-     "why": "Since then 配现在完成；she 是单数。"
-    },
-    {
-     "stem": "Great efforts ___ (make) so far to win the championship.",
-     "cue": [],
-     "src": "2023 · 东莞市 · 高一上期中",
-     "ans": "have been made",
-     "why": "so far 配现在完成；efforts 复数用 have。"
-    },
-    {
-     "stem": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
-     "cue": [],
-     "src": "2020 · 东华 · 高一上期中",
-     "ans": "prefers",
-     "why": "主语 she 单数，and 后谓语与它一致。"
-    },
-    {
-     "stem": "Dancing and skating ___ (be) her hobbies so she feels happy.",
-     "cue": [],
-     "src": "2024 · 光正实验 · 高一上月考",
-     "ans": "are",
-     "why": "and 连接的主语是复数。"
-    },
-    {
-     "stem": "The mother went out to work, so the father ___ (对……负责) looking after the children at home.",
-     "cue": [],
-     "src": "2023 · 东莞外国语 · 高一上月考",
-     "ans": "took responsibility for/was responsible for",
-     "why": "主句过去时，固定短语用过去式。"
-    },
-    {
-     "stem": "Some teens would rather sit up late than go to bed early.\nSome teens ___ up late ___ to bed early.",
-     "cue": [
-      "同义句改写"
-     ],
-     "src": "2022 · 东华松山湖 · 高一上期中",
-     "ans": "Some teens prefer sitting up late to going to bed early.",
-     "why": "would rather A than B = prefer doing A to doing B。"
     }
    ]
   }
