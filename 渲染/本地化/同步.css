@@ -90,7 +90,7 @@
 /* 题号不用 ::marker：Chromium 的 outside marker 每条把首行基线下推约 0.09pt，40 题累计近 4pt 离格。改为 data-no + ::before 悬挂 */
 .atoms li { display: block; position: relative; }
 .atoms li::before { content: attr(data-no); position: absolute; left: -2em; font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
-.atoms li > p[lang="en"] { display: inline; }
+.atoms li > p { display: inline; }   /* 中文题干（翻译题）同样行内，出处跟在句末 */
 .src { font: 400 9pt/1 "sans-ui"; margin-left: 1em; white-space: nowrap; }
 .src::before { content: "["; }
 .src::after { content: "]"; }
@@ -104,7 +104,7 @@
 .key li { break-inside: avoid; text-align: left; }
 .key li { display: block; position: relative; }
 .key li::before { content: attr(data-no); position: absolute; left: -2em; font: 700 10.5pt/var(--u) "sans-ui"; color: var(--accent); }
-.key .ans { font: 600 10.5pt/var(--u) "serif-en"; margin-right: 0.75em; }
+.key .ans { font: 600 10.5pt/1 "serif-en"; margin-right: 0.75em; }   /* line-height 1：长答案折行时不撑高行盒 */
 .answers > .topic-head::before { content: none; }
 .answers > .topic-head h3 { margin-left: var(--main); }
 .key h4 { column-span: all; font: 700 9pt/var(--u) "sans-ui"; margin: var(--h) 0 0 -2em; }

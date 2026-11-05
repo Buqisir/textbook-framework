@@ -53,3 +53,38 @@ def node_of(fn, rs):
             if mo in (5, 6):
                 return grade, term, '期中后月考', False
     return grade, term, '月考?', True
+
+
+def papers(rows):
+    """把同一份卷的多个文件并成一卷：两文件共享的重复组 ≥ 较小者题数的 80% 即视为同卷。
+    返回 [(代表文件, [全部文件], 年级, 学期, 节点, 推定?)]。代表文件优先取期中 / 期末（标题明确）。"""
+    from collections import defaultdict
+    files = defaultdict(list)
+    for r in rows:
+        files[r['文件']].append(r)
+    groups = {f: {r['重复组'] for r in rs if r['重复组'] is not None} for f, rs in files.items()}
+    parent = {f: f for f in files}
+
+    def find(f):
+        while parent[f] != f:
+            parent[f] = parent[parent[f]]
+            f = parent[f]
+        return f
+
+    fs = list(files)
+    for i, a in enumerate(fs):
+        for b in fs[i + 1:]:
+            o = len(groups[a] & groups[b])
+            if o and o >= 0.8 * min(len(files[a]), len(files[b])):
+                parent[find(a)] = find(b)
+    clusters = defaultdict(list)
+    for f in fs:
+        clusters[find(f)].append(f)
+    out = []
+    for members in clusters.values():
+        info = {f: node_of(f, files[f]) for f in members}
+        rank = {'期末': 0, '期中': 1, '期中前月考': 2, '期中后月考': 2, '月考?': 3}
+        rep = min(sorted(members), key=lambda f: (info[f][3], rank[info[f][2]]))
+        g, t, n, guess = info[rep]
+        out.append((rep, sorted(members), g, t, n, guess))
+    return out

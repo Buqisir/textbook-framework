@@ -10,7 +10,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from 节点 import NODES, node_of  # noqa: E402
+from 节点 import NODES, papers  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TOPICS = [
@@ -37,22 +37,29 @@ files = defaultdict(list)
 for r in rows:
     files[r['文件']].append(r)
 
-nodes = defaultdict(lambda: {'卷': [], '推定': [], '题': 0, '专题': defaultdict(lambda: {'卷': set(), '题': []})})
-for fn, rs in files.items():
-    g, t, n, guess = node_of(fn, rs)
+nodes = defaultdict(lambda: {'卷': [], '推定': [], '并卷': [], '题': 0, '专题': defaultdict(lambda: {'卷': set(), '题': []})})
+for rep, members, g, t, n, guess in papers(rows):
     key = f'{g}{t}·{n}'
     nd = nodes[key]
-    nd['卷'].append(fn)
+    nd['卷'].append(rep)
     if guess:
-        nd['推定'].append(fn)
-    for r in rs:
-        if r['题型'] in ('单选', '其他'):
-            continue
-        nd['题'] += 1
-        for name, pat in TOPICS:
-            if re.search(pat, r['解析'] or ''):
-                nd['专题'][name]['卷'].add(fn)
-                nd['专题'][name]['题'].append(r['id'])
+        nd['推定'].append(rep)
+    if len(members) > 1:
+        nd['并卷'].append(members)
+    seen = set()
+    for f in members:
+        for r in files[f]:
+            if r['题型'] in ('单选', '其他'):
+                continue
+            dk = r['重复组'] if r['重复组'] is not None else r['id']
+            if dk in seen:      # 同卷多份文件里的同一题只算一次
+                continue
+            seen.add(dk)
+            nd['题'] += 1
+            for name, pat in TOPICS:
+                if re.search(pat, r['解析'] or ''):
+                    nd['专题'][name]['卷'].add(rep)
+                    nd['专题'][name]['题'].append(r['id'])
 
 
 def order(k):
@@ -67,7 +74,7 @@ for k in sorted(nodes, key=order):
     P = len(nd['卷'])
     out[k] = {
         '卷数': P, '推定卷数': len(nd['推定']), '题数': nd['题'],
-        '卷': sorted(nd['卷']), '推定卷': sorted(nd['推定']),
+        '卷': sorted(nd['卷']), '推定卷': sorted(nd['推定']), '并卷': nd['并卷'],
         '专题': {name: {'覆盖卷': len(nd['专题'][name]['卷']),
                        '覆盖率': round(len(nd['专题'][name]['卷']) / P, 2) if P else 0,
                        '题数': len(nd['专题'][name]['题']),
@@ -78,7 +85,7 @@ for k in sorted(nodes, key=order):
 
 L = ['# 段考聚焦专题 · 试卷覆盖率', '',
      '每格：覆盖率（该节点有多少比例的卷考到这个专题）/ 题数。标签来自解析关键词，只算单句类题。',
-     '节点规则见 `脚本/节点.py`；「推定」= 只能按月份推定期中前后的卷。', '']
+     '节点规则见 `脚本/节点.py`；「推定」= 只能按月份推定期中前后的卷；同一份卷的多个文件（重复题 ≥80%）按一卷计。', '']
 for g in ['高一上', '高一下', '高二上', '高二下']:
     ks = [f'{g}·{n}' for n in NODES if f'{g}·{n}' in out]
     if not ks:
@@ -94,6 +101,8 @@ for g in ['高一上', '高一下', '高二上', '高二下']:
     for k in ks:
         if out[k]['推定卷']:
             L.append(f"- {k} 推定卷：" + '；'.join(Path(f).stem for f in out[k]['推定卷']))
+        for m in out[k]['并卷']:
+            L.append(f"- {k} 同卷多文件，按一卷计：" + ' ＝ '.join(Path(f).stem for f in m))
     L.append('')
 odd = [k for k in out if k.split('·')[1] not in NODES or k.startswith(('高一?', '高二?'))]
 if odd:
