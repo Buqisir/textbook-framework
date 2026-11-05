@@ -190,7 +190,7 @@
           "stem": {
             "text": "The old man has been addicted to ___ (smoke) for 60 years.",
             "cue": [],
-            "src": "2024 · 松山湖未来 · 高一上期中"
+            "src": "2024 · 松山湖未来学校 · 高一上期中"
           },
           "ju": "这位老人吸烟上瘾已有 60 年了。",
           "mid": {
@@ -206,7 +206,7 @@
           "stem": {
             "text": "It is no use ___ (complain) without taking any action.",
             "cue": [],
-            "src": "2022 · 第五高中 · 高一上期中"
+            "src": "2022 · 东莞第五高级中学 · 高一上期中"
           },
           "ju": "抱怨而不采取行动是没有用的。",
           "mid": {
@@ -221,7 +221,7 @@
         {
           "stem": "Sometimes the little boy pretended ___ (read) a book on the sofa to make his parents praise him.",
           "cue": [],
-          "src": "2022 · 东莞实验 · 高一上期中",
+          "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "to read",
           "why": "pretend 后接不定式作宾语。"
         },
@@ -230,7 +230,7 @@
           "cue": [
             "分词作状语"
           ],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Seeing the pictures, she remembered her childhood.",
           "why": "she 与 see 是主动关系，用 -ing。",
           "long": true
@@ -240,7 +240,7 @@
           "cue": [
             "现在分词作状语改写"
           ],
-          "src": "2022 · 翰林 · 高一上期中",
+          "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "Burying himself in his book, he was not aware it was raining outside.",
           "why": "从句主语与主句一致，改 -ing 短语。",
           "long": true
@@ -248,7 +248,7 @@
         {
           "stem": "But ___ (spend) too much time online is unhealthy and makes it very difficult to focus on other things in life.",
           "cue": [],
-          "src": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "spending",
           "why": "动名词作主语，谓语用单数。"
         },
@@ -262,14 +262,14 @@
         {
           "stem": "This book is definitely worth ___ (read).",
           "cue": [],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "reading",
           "why": "be worth doing，用 -ing。"
         },
         {
           "stem": "She had to walk home with her bike ___ (steal).",
           "cue": [],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "stolen",
           "why": "with + 名词 + 过去分词（被偷）。"
         }
@@ -349,7 +349,7 @@
           "stem": {
             "text": "I consider ___ an honor to be able to see the bird.",
             "cue": [],
-            "src": "2024 · 莞中松山湖 · 高一上期中"
+            "src": "2024 · 东莞中学松山湖学校 · 高一上期中"
           },
           "ju": "我认为能看到这只鸟是一种荣幸。",
           "mid": {
@@ -389,7 +389,7 @@
         {
           "stem": "Our school has made ___ a rule that every student shall wear uniforms at school.",
           "cue": [],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "it",
           "why": "make it a rule that 定为规定。"
         },
@@ -398,7 +398,7 @@
           "cue": [
             "用it 作形式主语翻译句子"
           ],
-          "src": "2024 · 第八高中 · 高一上期中",
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
           "ans": "It is obvious that more and more teenagers are addicted to mobile games nowadays.",
           "why": "obvious 接 that 从句。",
           "long": true
@@ -408,7 +408,7 @@
           "cue": [
             "用it作形式主语改写句子"
           ],
-          "src": "2024 · 松山湖未来 · 高一上期中",
+          "src": "2024 · 松山湖未来学校 · 高一上期中",
           "ans": "It is a really big challenge to go from junior high school to senior high school.",
           "why": "长主语后置，to 不定式作真主语。",
           "long": true
@@ -416,14 +416,14 @@
         {
           "stem": "It’s difficult for us ___ (organize) our ideas at that dangerous time.",
           "cue": [],
-          "src": "2024 · 第四高中 · 高一上期中",
+          "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "to organize",
           "why": "difficult 接 for sb. to do。"
         },
         {
           "stem": "对我来说，习惯高中生活不难。",
           "cue": [],
-          "src": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "It’s not difficult for me to get used to the life of high school.",
           "why": "也可用 As for me 开头。",
           "long": true
@@ -519,7 +519,7 @@
           "stem": {
             "text": "After successfully winning the right to host the 2022 Winter Olympics, Beijing will become the world’s first city ___ hosts both Summer Olympics and Winter Olympics.",
             "cue": [],
-            "src": "2024 · 莞中松山湖 · 高一上期中"
+            "src": "2024 · 东莞中学松山湖学校 · 高一上期中"
           },
           "ju": "在成功获得 2022 年冬奥会举办权后，北京将成为世界上第一个同时举办夏季奥运会和冬季奥运会的城市。",
           "mid": {
@@ -552,7 +552,7 @@
         {
           "stem": "Sales director is a position ___ communication ability is just as important as sales skills.",
           "cue": [],
-          "src": "2022 · 东莞外国语 · 高一上期中",
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "where",
           "why": "地点状语在从句中，用 where。"
         },
@@ -576,7 +576,7 @@
         {
           "stem": "I live next door to a couple ___ children often make a lot of noise.",
           "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "whose",
           "why": "whose 修饰从句主语 children。"
         },
@@ -609,7 +609,7 @@
           "cue": [
             "用定语从句合并"
           ],
-          "src": "2022 · 东莞实验 · 高一上期中",
+          "src": "2022 · 东莞实验中学 · 高一上期中",
           "ans": "I know the student whose calligraphy work was shown on the blackboard.",
           "why": "第二句的 calligraphy 所属 student，用 whose。",
           "long": true
@@ -672,7 +672,7 @@
             "cue": [
               "改为强调地点状语的强调句"
             ],
-            "src": "2024 · 第八高中 · 高一上期中"
+            "src": "2024 · 东莞第八高级中学 · 高一上期中"
           },
           "ju": "2016 年，正是在巴西，郎平教练率女排夺得了奥运会金牌。",
           "mid": {
@@ -690,7 +690,7 @@
             "cue": [
               "用强调句改写"
             ],
-            "src": "2022 · 东莞外国语 · 高一上期中"
+            "src": "2022 · 东莞外国语学校 · 高一上期中"
           },
           "ju": "直到得了重病，他才意识到健康的价值。",
           "mid": {
@@ -705,7 +705,7 @@
         {
           "stem": "Remember, whenever you travel abroad, it is your country ___ you are representing.",
           "cue": [],
-          "src": "2023 · 第十中学 · 高一上期中",
+          "src": "2023 · 东莞第十中学 · 高一上期中",
           "ans": "that",
           "why": "强调宾语 your country，指物用 that。"
         },
@@ -714,7 +714,7 @@
           "cue": [
             "用强调句翻译句子"
           ],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "It is with your help that I have made such great progress in my spoken/oral English.",
           "why": "强调介词短语 with your help。",
           "long": true
@@ -724,7 +724,7 @@
           "cue": [
             "同义转换"
           ],
-          "src": "2023 · 东华 · 高一上期中",
+          "src": "2023 · 东华高级中学 · 高一上期中",
           "ans": "not until / that",
           "why": "not until…that 固定句型。"
         },
@@ -733,7 +733,7 @@
           "cue": [
             "对划线部分进行强调"
           ],
-          "src": "2022 · 第五高中 · 高一上期中",
+          "src": "2022 · 东莞第五高级中学 · 高一上期中",
           "ans": "It was when I was walking in the street that I recognized him in the crowd.",
           "why": "when 从句强调，时态不变。",
           "long": true
@@ -803,7 +803,7 @@
           "stem": {
             "text": "The doctor recommended that my brother ___ (give) up smoking.",
             "cue": [],
-            "src": "2020 · 东华 · 高一上期中"
+            "src": "2020 · 东华高级中学 · 高一上期中"
           },
           "ju": "医生建议我弟弟戒烟。",
           "mid": {
@@ -819,7 +819,7 @@
           "stem": {
             "text": "Our teachers request that attention ___ (focus) on the lessons in class.",
             "cue": [],
-            "src": "2022 · 东莞实验 · 高一上期中"
+            "src": "2022 · 东莞实验中学 · 高一上期中"
           },
           "ju": "我们的老师要求在课堂上把注意力集中在课文上。",
           "mid": {
@@ -834,14 +834,14 @@
         {
           "stem": "Our head teacher recommends that we ___ (attend) the lecture to be given this weekend.",
           "cue": [],
-          "src": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "(should) attend",
           "why": "should 可省，动词用原形。"
         },
         {
           "stem": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
           "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "(should) be permitted",
           "why": "permit 与 refugees 是被动关系。"
         },
@@ -865,7 +865,7 @@
         {
           "stem": "The committee proposed that the government ___ (调查原因) why so many wild animals disappeared.",
           "cue": [],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "(should) investigate the reason",
           "why": "propose 表建议，从句用虚拟。"
         },
@@ -874,7 +874,7 @@
           "cue": [
             "用宾语从句改写句子"
           ],
-          "src": "2024 · 第八高中 · 高一上期中",
+          "src": "2024 · 东莞第八高级中学 · 高一上期中",
           "ans": "My English teacher recommends that I (should) exchange learning methods with my classmates.",
           "why": "recommend sb. to do 改为 that 从句。",
           "long": true
@@ -882,7 +882,7 @@
         {
           "stem": "Jack wasn't saying anything, but the teacher smiled at him as if he ___ (do) something very clever.",
           "cue": [],
-          "src": "2022 · 翰林 · 高一上期中",
+          "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "had done",
           "why": "as if 从句与过去事实相反。"
         }
@@ -948,7 +948,7 @@
             "cue": [
               "句型转换"
             ],
-            "src": "2021 · 东华 · 高一上期中"
+            "src": "2021 · 东华高级中学 · 高一上期中"
           },
           "ju": "无论你在未来遇到什么，我都会不遗余力地帮助你。",
           "mid": {
@@ -979,28 +979,28 @@
         {
           "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
           "cue": [],
-          "src": "2022 · 东莞外国语 · 高一上期中",
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "Even though",
           "why": "尽管表事实，用 even though。"
         },
         {
           "stem": "___ (即使) you plant the seed upside down, the roots will still grow down.",
           "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Even if",
           "why": "即使表假设，用 even if。"
         },
         {
           "stem": "But ___ (无论哪里) they looked, the results were always the same.",
           "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "no matter where",
           "why": "no matter + 疑问词表无论。"
         },
         {
           "stem": "My English classes are so interesting ___ I am fond of them.",
           "cue": [],
-          "src": "2024 · 第四高中 · 高一上期中",
+          "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "that",
           "why": "so…that 引导结果状语从句。"
         },
@@ -1009,7 +1009,7 @@
           "cue": [
             "用so…that…翻译句子"
           ],
-          "src": "2023 · 东莞外国语 · 高一上期中",
+          "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "The ball struck him so hard that he nearly fell into the water.",
           "why": "so hard that 表结果。",
           "long": true
@@ -1024,7 +1024,7 @@
         {
           "stem": "Many students lost marks in the exam simply ___ they didn’t read the questions carefully. (用适当的词填空)",
           "cue": [],
-          "src": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+          "src": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
           "ans": "because",
           "why": "两句间是因果关系。"
         }
@@ -1073,7 +1073,7 @@
           "stem": {
             "text": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
             "cue": [],
-            "src": "2022 · 第五高中 · 高一上期中"
+            "src": "2022 · 东莞第五高级中学 · 高一上期中"
           },
           "ju": "给我留下最深印象的是九寨沟令人惊叹的瀑布。",
           "mid": {
@@ -1089,7 +1089,7 @@
           "stem": {
             "text": "The survey shows people are confused about ___ they should eat to stay healthy.",
             "cue": [],
-            "src": "2024 · 第八高中 · 高一上期中"
+            "src": "2024 · 东莞第八高级中学 · 高一上期中"
           },
           "ju": "一项调查表明，人们对保持健康该吃什么感到困惑。",
           "mid": {
@@ -1106,7 +1106,7 @@
           "cue": [
             "同义句改写"
           ],
-          "src": "2022 · 东莞外国语 · 高一上期中",
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "It is likely that",
           "why": "likely 接 that 从句，It 作形式主语。"
         },
@@ -1115,7 +1115,7 @@
           "cue": [
             "同义转换"
           ],
-          "src": "2022 · 翰林 · 高一上期中",
+          "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "It seems that",
           "why": "seem to do 改为 It seems that。"
         },
@@ -1124,7 +1124,7 @@
           "cue": [
             "同义转换"
           ],
-          "src": "2024 · 第四高中 · 高一上期中",
+          "src": "2024 · 东莞第四高级中学 · 高一上期中",
           "ans": "It is obvious that",
           "why": "Obviously 改为 It is obvious that。"
         },
@@ -1196,7 +1196,7 @@
             "cue": [
               "句型转换"
             ],
-            "src": "2021 · 东华 · 高一上期中"
+            "src": "2021 · 东华高级中学 · 高一上期中"
           },
           "ju": "她不仅实现了她的梦想，而且为我们树立了一个好榜样。",
           "mid": {
@@ -1214,7 +1214,7 @@
             "cue": [
               "句式转换"
             ],
-            "src": "2022 · 东莞实验 · 高一上期中"
+            "src": "2022 · 东莞实验中学 · 高一上期中"
           },
           "ju": "演讲者站在一年级学生面前。",
           "mid": {
@@ -1231,7 +1231,7 @@
           "cue": [
             "用only的倒装句翻译"
           ],
-          "src": "2022 · 东莞外国语 · 高一上期中",
+          "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "Only after enough exercise can you keep fit.",
           "why": "only + 状语句首，can 提前。",
           "long": true
@@ -1241,7 +1241,7 @@
           "cue": [
             "用倒装句和定语从句翻译"
           ],
-          "src": "2023 · 东华 · 高一上期中",
+          "src": "2023 · 东华高级中学 · 高一上期中",
           "ans": "Never will I forget the kindness and warmth (that/which) you showed me and my family.",
           "why": "Never 句首，will 提到 I 前。",
           "long": true
@@ -1251,7 +1251,7 @@
           "cue": [
             "使用Not only放句首翻译"
           ],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "Not only is calligraphy a form of Chinese art, but also an important skill.",
           "why": "Not only 句首，is 提到主语前。",
           "long": true
@@ -1261,7 +1261,7 @@
           "cue": [
             "改为倒装句"
           ],
-          "src": "2022 · 翰林 · 高一上期中",
+          "src": "2022 · 翰林高级中学 · 高一上期中",
           "ans": "Not only did they introduce",
           "why": "not only 句首倒助动词 did。",
           "long": true

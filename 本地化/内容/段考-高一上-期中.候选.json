@@ -33,10 +33,10 @@
       "071-11",
       "083-13",
       "083-22",
+      "088-21",
       "096-31",
       "096-36",
       "096-40",
-      "108-20",
       "122-11",
       "136-19",
       "144-22"
@@ -113,11 +113,11 @@
       "071-24",
       "083-25",
       "083-27",
+      "088-12",
+      "088-18",
       "096-41",
       "099-38",
       "101-33",
-      "108-11",
-      "108-17",
       "138-18"
      ]
     }
@@ -125,7 +125,7 @@
    "题": [
     {
      "id": "012-20",
-     "标签": "2020 · 东华 · 高一上期中",
+     "标签": "2020 · 东华高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Please take notes while ___ ( listen) to the teacher.",
      "提示词": "listen",
@@ -144,7 +144,7 @@
     },
     {
      "id": "022-10",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "单词拼写",
      "题干": "It has to be maintained at an altitude where the thin air makes it a struggle for humans to ___ (呼吸).",
      "提示词": null,
@@ -160,7 +160,7 @@
     },
     {
      "id": "022-14",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "单词拼写",
      "题干": "We take this opportunity to contact you and look forward to working with you to ___ (建立) trade relations with China.",
      "提示词": null,
@@ -176,7 +176,7 @@
     },
     {
      "id": "022-24",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "把书和体育用品捐给需要的孩子更有意义。\nIt is more meaningful ___ books and sports goods ___ children in need.",
      "提示词": null,
@@ -194,7 +194,7 @@
     },
     {
      "id": "022-25",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "对于很多父母来说在工作和生活之间保持平衡是一个很大的挑战。\n___ between work and family can be a big challenge for many parents.",
      "提示词": null,
@@ -210,7 +210,7 @@
     },
     {
      "id": "022-26",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "与音乐和绘画这些艺术形式相比，广受欢迎的电影的历史相对短一些。\n___ such art forms as music and paintings, film, ___ enjoys great popularity, has a much shorter history.",
      "提示词": null,
@@ -229,7 +229,7 @@
     },
     {
      "id": "029-17",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Li Ming is scheduled to ___ （报名参加） joining a football club so that he can catch up with other players.",
      "提示词": null,
@@ -245,7 +245,7 @@
     },
     {
      "id": "029-19",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
      "提示词": null,
@@ -261,7 +261,7 @@
     },
     {
      "id": "029-20",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
      "提示词": null,
@@ -281,7 +281,7 @@
     },
     {
      "id": "029-24",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "It seems that Mary has changed a lot since she went to university.",
      "提示词": null,
@@ -331,7 +331,7 @@
     },
     {
      "id": "047-11",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "There has been a couple of young man and woman ___ (argue) in the street.",
      "提示词": "argue",
@@ -347,7 +347,7 @@
     },
     {
      "id": "047-13",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ ( compare) with other sports, basketball features more continuous action.",
      "提示词": "compare",
@@ -367,7 +367,7 @@
     },
     {
      "id": "055-11",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The new teaching building is big and well-equipped, ___ (compare) with the old one.",
      "提示词": "compare",
@@ -383,7 +383,7 @@
     },
     {
      "id": "055-15",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Sometimes the little boy pretended ___ (read) a book on the sofa to make his parents praise him.",
      "提示词": "read",
@@ -399,7 +399,7 @@
     },
     {
      "id": "055-21",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "It seems that my roommate has much confidence for the coming final exam.\nMy roommate ___ much confidence for the coming final exam.",
      "提示词": null,
@@ -417,7 +417,7 @@
     },
     {
      "id": "055-25",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "翻译",
      "题干": "Jane 更喜欢自己解决问题而不是向他人寻求帮助。",
      "提示词": null,
@@ -507,7 +507,7 @@
     },
     {
      "id": "083-13",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ (bury) myself in my book, I didn’t realize it was raining.",
      "提示词": "bury",
@@ -525,7 +525,7 @@
     },
     {
      "id": "083-19",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "单词拼写",
      "题干": "Slowly, the city began to ___ (呼吸) again.",
      "提示词": null,
@@ -541,7 +541,7 @@
     },
     {
      "id": "083-22",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "单词拼写",
      "题干": "They were lucky to ___ (幸免于) the accident.",
      "提示词": null,
@@ -557,7 +557,7 @@
     },
     {
      "id": "083-25",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "We need one more player to ___ (组成) a team.",
      "提示词": null,
@@ -573,7 +573,7 @@
     },
     {
      "id": "083-27",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "My own problems seem less significant ___ (与……比较) other people’s.",
      "提示词": null,
@@ -591,7 +591,7 @@
     },
     {
      "id": "083-29",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "This is an old building ___ (追溯到) the 14th century.",
      "提示词": null,
@@ -606,8 +606,60 @@
      "标记": []
     },
     {
+     "id": "088-12",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
+     "题型": "单词拼写",
+     "题干": "Harry really wanted to ___ (消失) into his bedroom, but he met Uncle Vernon’s angry little eyes and knew he would have to sit it out.",
+     "提示词": null,
+     "答案": "disappear",
+     "解析": "考查动词。句意：哈利真想消失在自己的卧室里，但他遇到了弗农姨父愤怒的小眼睛，他知道自己只能坐着不动。根据汉语意思提示可知，此处为动词disappear“消失”，满足句意要求，结合空前to不定式可知，为动词原形。故填disappear。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "088-18",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "His incomparable skills and professional knowledge enabled him to successfully ___ (申请) the job.",
+     "提示词": null,
+     "答案": "apply for",
+     "解析": "考查动词短语。句意：他无与伦比的技能和专业知识使他成功地申请到了这份工作。根据汉语意思提示可知，此处为动词短语apply for“申请”，满足句意要求，结合空前to不定式可知，为动词原形。故填apply for。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "088-21",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "___ (和……相比) the original, the copy looks no difference.",
+     "提示词": null,
+     "答案": "Compared to |Compare with",
+     "解析": "考查非谓语动词和动词短语。句意：与原作相比，复制品看起来没有什么不同。根据汉语意思提示可知，此处为动词短语compare to/with“与……相比”，满足句意要求，结合句子结构可知，此处为非谓语动词作状语，compare to/with和逻辑主语the copy为被动关系，所以为过去分词形式。故填Compared to/with。",
+     "句意": null,
+     "cue": [],
+     "主考点": "非谓语",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
      "id": "096-15",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "This book is definitely worth ___ (read).",
      "提示词": "read",
@@ -623,7 +675,7 @@
     },
     {
      "id": "096-17",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "She had to walk home with her bike ___ (steal).",
      "提示词": "steal",
@@ -642,7 +694,7 @@
     },
     {
      "id": "096-18",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Laziness leads to ___ (fail) the exam.",
      "提示词": "fail",
@@ -658,7 +710,7 @@
     },
     {
      "id": "096-21",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "He struggled with the vocabulary and attempted ___ (memorize) as many words as possible.",
      "提示词": "memorize",
@@ -674,7 +726,7 @@
     },
     {
      "id": "096-31",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "单词拼写",
      "题干": "She would open a book, ___ (假装) to read, with tears dropping on the open page.",
      "提示词": null,
@@ -690,7 +742,7 @@
     },
     {
      "id": "096-33",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "单词拼写",
      "题干": "Those who dare to try often get themselves ___ (被困住).",
      "提示词": null,
@@ -706,7 +758,7 @@
     },
     {
      "id": "096-36",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "单词拼写",
      "题干": "They went from door to door to ___ (推销) their new products.",
      "提示词": null,
@@ -722,7 +774,7 @@
     },
     {
      "id": "096-40",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "翻译",
      "题干": "看到那些画，她想起了自己的童年。（分词作状语）\n___, she remembered her childhood.",
      "提示词": null,
@@ -738,7 +790,7 @@
     },
     {
      "id": "096-41",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "翻译",
      "题干": "他决定第二天向经理申请一份工作。\nHe decided to ___ the manager for a job the next day.",
      "提示词": null,
@@ -754,7 +806,7 @@
     },
     {
      "id": "099-20",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "I was at a disadvantage ___ (compare) to the younger members of the team.",
      "提示词": "compare",
@@ -772,7 +824,7 @@
     },
     {
      "id": "099-29",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "Before going abroad, you need to ___ (申请)a visa in advance.",
      "提示词": null,
@@ -788,7 +840,7 @@
     },
     {
      "id": "099-35",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "Blue collar jobs is a term ___ (追溯到) the 1920s.",
      "提示词": null,
@@ -804,7 +856,7 @@
     },
     {
      "id": "099-38",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "I’ve learned that you are never too small to ___ (有影响).",
      "提示词": null,
@@ -820,7 +872,7 @@
     },
     {
      "id": "101-10",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "When the teacher was standing outside the classroom, he pretended ___ (listen) carefully.",
      "提示词": "listen",
@@ -836,7 +888,7 @@
     },
     {
      "id": "101-33",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "To improve his grades, David tries his best to ___ (专注于) the class and ignores what happens outside.",
      "提示词": null,
@@ -847,56 +899,6 @@
      "主考点": "非谓语",
      "主考点来源": "考查",
      "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "108-11",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "单词拼写",
-     "题干": "Harry really wanted to ___ (消失) into his bedroom, but he met Uncle Vernon’s angry little eyes and knew he would have to sit it out.",
-     "提示词": null,
-     "答案": "disappear",
-     "解析": "考查动词。句意：哈利真想消失在自己的卧室里，但他遇到了弗农姨父愤怒的小眼睛，他知道自己只能坐着不动。根据汉语意思提示可知，此处为动词disappear“消失”，满足句意要求，结合空前to不定式可知，为动词原形。故填disappear。",
-     "句意": null,
-     "cue": [],
-     "主考点": "非谓语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "108-17",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "完成句子",
-     "题干": "His incomparable skills and professional knowledge enabled him to successfully ___ (申请) the job.",
-     "提示词": null,
-     "答案": "apply for",
-     "解析": "考查动词短语。句意：他无与伦比的技能和专业知识使他成功地申请到了这份工作。根据汉语意思提示可知，此处为动词短语apply for“申请”，满足句意要求，结合空前to不定式可知，为动词原形。故填apply for。",
-     "句意": null,
-     "cue": [],
-     "主考点": "非谓语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "108-20",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "完成句子",
-     "题干": "___ (和……相比) the original, the copy looks no difference.",
-     "提示词": null,
-     "答案": "Compared to |Compare with",
-     "解析": "考查非谓语动词和动词短语。句意：与原作相比，复制品看起来没有什么不同。根据汉语意思提示可知，此处为动词短语compare to/with“与……相比”，满足句意要求，结合句子结构可知，此处为非谓语动词作状语，compare to/with和逻辑主语the copy为被动关系，所以为过去分词形式。故填Compared to/with。",
-     "句意": null,
-     "cue": [],
-     "主考点": "非谓语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "被动"
-     ],
      "疑似缺陷": false,
      "标记": []
     },
@@ -922,7 +924,7 @@
     },
     {
      "id": "125-07",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "Doing sports is a good way ___ (strong) your body.",
      "提示词": "strong",
@@ -938,7 +940,7 @@
     },
     {
      "id": "125-10",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "But ___ (spend) too much time online is unhealthy and makes it very difficult to focus on other things in life.",
      "提示词": "spend",
@@ -954,7 +956,7 @@
     },
     {
      "id": "125-22",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "完成句子",
      "题干": "I like reading in the library in my free time instead of playing games at home.\nI prefer ___ in the library in my free time rather than play games at home.",
      "提示词": null,
@@ -972,7 +974,7 @@
     },
     {
      "id": "136-07",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "It is no use ___ (complain) without taking any action.",
      "提示词": "complain",
@@ -988,7 +990,7 @@
     },
     {
      "id": "136-19",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "She got up early this morning so that she could get to school on time.\nShe got up early this morning ___ to school on time.",
      "提示词": null,
@@ -1008,7 +1010,7 @@
     },
     {
      "id": "136-24",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "大声朗读对学习一门外语很重要。(动名词作主语)",
      "提示词": null,
@@ -1024,7 +1026,7 @@
     },
     {
      "id": "138-18",
-     "标签": "2023 · 第十中学 · 高一上期中",
+     "标签": "2023 · 东莞第十中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "I don’t feel it right to ___ (评论) others’ lifestyle.",
      "提示词": null,
@@ -1040,7 +1042,7 @@
     },
     {
      "id": "143-09",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "It’s difficult for us ___ (organize) our ideas at that dangerous time.",
      "提示词": "organize",
@@ -1058,7 +1060,7 @@
     },
     {
      "id": "143-18",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "With all this noise going on, it’s hard for me ___ (专心读) this article.",
      "提示词": null,
@@ -1076,7 +1078,7 @@
     },
     {
      "id": "144-11",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
      "提示词": "take",
@@ -1092,7 +1094,7 @@
     },
     {
      "id": "144-22",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Because he buried himself in his book, he was not aware it was raining outside.",
      "提示词": null,
@@ -1112,7 +1114,7 @@
     },
     {
      "id": "161-14",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "The old man has been addicted to ___ (smoke) for 60 years.",
      "提示词": "smoke",
@@ -1128,7 +1130,7 @@
     },
     {
      "id": "161-21",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "I would stay at home rather than go out on weekends.\n=I ___ at home ___ out on weekends.",
      "提示词": null,
@@ -1162,6 +1164,7 @@
     "形式宾语 it（find/make/think… it adj.）": {
      "题数": 13,
      "题": [
+      "012-10",
       "029-14",
       "034-10",
       "055-16",
@@ -1169,7 +1172,6 @@
       "096-08",
       "096-37",
       "099-21",
-      "122-07",
       "136-09",
       "138-15",
       "144-10",
@@ -1192,8 +1194,24 @@
    },
    "题": [
     {
+     "id": "012-10",
+     "标签": "2020 · 东华高级中学 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "The teacher made ___ clear that our credits would be hard-earned.",
+     "提示词": null,
+     "答案": "it",
+     "解析": "考查代词。句意：老师明确表示，我们的学分是来之不易的。分析句子可知，空处位于动词made后，固定结构make it +adj+to do sth/ that 从句，it为形式宾语，句子真正的宾语是that引导的从句，故填it。",
+     "句意": null,
+     "cue": [],
+     "主考点": "it 形式主语／宾语",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
      "id": "029-14",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "You might find ___ relaxing to bring your small kid to a half-hour Story Time while you sit quietly in a corner with a good book.",
      "提示词": null,
@@ -1211,7 +1229,7 @@
     },
     {
      "id": "029-26",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "显然，现在越来越多青少年沉迷手机游戏。",
      "提示词": null,
@@ -1286,7 +1304,7 @@
     },
     {
      "id": "055-16",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Emergency and foreign aid was organized, but damaged roads would make ___ difficult to deliver goods and supplies.",
      "提示词": null,
@@ -1342,7 +1360,7 @@
     },
     {
      "id": "096-08",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our school has made ___ a rule that every student shall wear uniforms at school.",
      "提示词": null,
@@ -1360,7 +1378,7 @@
     },
     {
      "id": "096-37",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "I’d ___ (我将感激不尽) if you let me know whether you are available or not ahead of time.",
      "提示词": null,
@@ -1376,7 +1394,7 @@
     },
     {
      "id": "099-21",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "I consider ___ an honor to be able to see the bird.",
      "提示词": null,
@@ -1394,7 +1412,7 @@
     },
     {
      "id": "101-24",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ shocked us that as many as 100 species of fish, some unique to these waters, may have been affected by the pollution.",
      "提示词": null,
@@ -1411,24 +1429,8 @@
      "标记": []
     },
     {
-     "id": "122-07",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The teacher made ___ clear that our credits would be hard-earned.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查代词。句意：老师明确表示，我们的学分是来之不易的。分析句子可知，空处位于动词made后，固定结构make it +adj+to do sth/ that 从句，it为形式宾语，句子真正的宾语是that引导的从句，故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
      "id": "125-25",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "翻译",
      "题干": "对我来说，习惯高中生活不难。",
      "提示词": null,
@@ -1446,7 +1448,7 @@
     },
     {
      "id": "136-09",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The little boy found ___ very interesting to study English.",
      "提示词": null,
@@ -1464,7 +1466,7 @@
     },
     {
      "id": "138-15",
-     "标签": "2023 · 第十中学 · 高一上期中",
+     "标签": "2023 · 东莞第十中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The damaged roads made ___ difficult to deliver food and supplies to those in need.",
      "提示词": null,
@@ -1482,7 +1484,7 @@
     },
     {
      "id": "144-10",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "They want to make ___ clear to the volunteers that the cleaners are responsible for the cleaning work.",
      "提示词": null,
@@ -1500,7 +1502,7 @@
     },
     {
      "id": "144-20",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "I find to study English interesting.\nI ___ to study English.",
      "提示词": null,
@@ -1518,7 +1520,7 @@
     },
     {
      "id": "161-13",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Spending too much time online is unhealthy and makes ___ very difficult to focus on other things in life.",
      "提示词": null,
@@ -1536,7 +1538,7 @@
     },
     {
      "id": "161-25",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "Going from junior high school to senior high school is a really big challenge.",
      "提示词": null,
@@ -1627,7 +1629,7 @@
    "题": [
     {
      "id": "012-08",
-     "标签": "2020 · 东华 · 高一上期中",
+     "标签": "2020 · 东华高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
      "提示词": null,
@@ -1643,7 +1645,7 @@
     },
     {
      "id": "022-29",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Scientists worked diligently to rescue the bronze object because they wanted to preserve it for the next generation.\nThe reason ___ diligently to rescue the bronze object is that they wanted to preserve it for the next generation.",
      "提示词": null,
@@ -1677,7 +1679,7 @@
     },
     {
      "id": "047-16",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Sales director is a position ___ communication ability is just as important as sales skills.",
      "提示词": null,
@@ -1693,7 +1695,7 @@
     },
     {
      "id": "055-13",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "This was an amazing and rewarding activity of first aid ___ made a deep impression on every student in our grade.",
      "提示词": null,
@@ -1827,7 +1829,7 @@
     },
     {
      "id": "083-14",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The passengers and the suitcases ___ were in the waiting room had to wait for another plane.",
      "提示词": null,
@@ -1843,7 +1845,7 @@
     },
     {
      "id": "083-31",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "众所周知，千里之行， 始于足下。",
      "提示词": null,
@@ -1861,7 +1863,7 @@
     },
     {
      "id": "096-10",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "He bought a house last week ___ windows are made of wood.",
      "提示词": null,
@@ -1877,7 +1879,7 @@
     },
     {
      "id": "096-11",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "I bought an album ___ many post card with beautiful sights were included.",
      "提示词": null,
@@ -1895,7 +1897,7 @@
     },
     {
      "id": "096-13",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "She has the same fair hair and blue eyes ___ her mother had.",
      "提示词": null,
@@ -1911,7 +1913,7 @@
     },
     {
      "id": "096-14",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "The play the girl participating in ___ (base) on Irish legend.",
      "提示词": "base",
@@ -1929,7 +1931,7 @@
     },
     {
      "id": "096-19",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Jacob had 13 children, 10 of ___ founded big companies in China.",
      "提示词": null,
@@ -1945,7 +1947,7 @@
     },
     {
      "id": "096-20",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "There was not much ___ we could do when it was raining.",
      "提示词": null,
@@ -1961,7 +1963,7 @@
     },
     {
      "id": "099-18",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "After successfully winning the right to host the 2022 Winter Olympics, Beijing will become the world’s first city ___ hosts both Summer Olympics and Winter Olympics.",
      "提示词": null,
@@ -1977,7 +1979,7 @@
     },
     {
      "id": "099-19",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "I live next door to a couple ___ children often make a lot of noise.",
      "提示词": null,
@@ -1993,7 +1995,7 @@
     },
     {
      "id": "099-23",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "The boss of the company is trying to create an easy atmosphere ___ his employees enjoy their work.",
      "提示词": null,
@@ -2009,7 +2011,7 @@
     },
     {
      "id": "101-23",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "This was the very island ___ was bought by a millionaire.",
      "提示词": null,
@@ -2025,7 +2027,7 @@
     },
     {
      "id": "101-30",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "The Wayne is a small river that ___ (横穿) the park near my home.",
      "提示词": null,
@@ -2073,7 +2075,7 @@
     },
     {
      "id": "136-14",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "My eldest son, ___ work takes him all over the world, is in New York at the moment.",
      "提示词": null,
@@ -2089,7 +2091,7 @@
     },
     {
      "id": "144-15",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The present time is the best gift ___ you can give yourself.",
      "提示词": null,
@@ -2126,7 +2128,7 @@
       "047-23",
       "055-24",
       "071-26",
-      "108-22",
+      "088-23",
       "138-23"
      ]
     },
@@ -2153,7 +2155,7 @@
    "题": [
     {
      "id": "029-25",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "In 2016，Coach Lang Ping led her volleyball team to Olympic gold in Brazil.",
      "提示词": null,
@@ -2193,7 +2195,7 @@
     },
     {
      "id": "047-23",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "He did not realize the value of health until he fell seriously ill.",
      "提示词": null,
@@ -2211,7 +2213,7 @@
     },
     {
      "id": "055-24",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "She didn’t come back home until I finished this letter.",
      "提示词": null,
@@ -2270,8 +2272,26 @@
      "标记": []
     },
     {
+     "id": "088-23",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "People in modern times didn’t know about the Terracotta statues until 1974.\nIt was ___ 1974 ___ people in modern times knew about the Terracotta statues.",
+     "提示词": null,
+     "答案": "not until ； that",
+     "解析": "考查含有not until的强调句式。句意：直到1974年，现代人才知道兵马俑。原句为not…until…结构，可转换为强调句型“It is/was not until+从句/表时间的词+that+其他部分”；此句转换为“It was not until 1974 that people in modern times knew about the Terracotta statues.”，因此，第一空填not until，第二空填that。故答案为①not until；②that。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "强调句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
      "id": "099-41",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "翻译",
      "题干": "正是在你的帮助下，我的英语口语才取得了这么大的进步。",
      "提示词": null,
@@ -2291,7 +2311,7 @@
     },
     {
      "id": "101-35",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "I found this stray cat in the corner of the park.",
      "提示词": null,
@@ -2310,26 +2330,8 @@
      "标记": []
     },
     {
-     "id": "108-22",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "完成句子",
-     "题干": "People in modern times didn’t know about the Terracotta statues until 1974.\nIt was ___ 1974 ___ people in modern times knew about the Terracotta statues.",
-     "提示词": null,
-     "答案": "not until ； that",
-     "解析": "考查含有not until的强调句式。句意：直到1974年，现代人才知道兵马俑。原句为not…until…结构，可转换为强调句型“It is/was not until+从句/表时间的词+that+其他部分”；此句转换为“It was not until 1974 that people in modern times knew about the Terracotta statues.”，因此，第一空填not until，第二空填that。故答案为①not until；②that。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "强调句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
      "id": "125-24",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "完成句子",
      "题干": "He didn’t go to school yesterday because he was ill.",
      "提示词": null,
@@ -2352,7 +2354,7 @@
     },
     {
      "id": "136-22",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "I recognized him in the crowd when I was walking in the street.",
      "提示词": null,
@@ -2372,7 +2374,7 @@
     },
     {
      "id": "138-08",
-     "标签": "2023 · 第十中学 · 高一上期中",
+     "标签": "2023 · 东莞第十中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Remember, whenever you travel abroad, it is your country ___ you are representing.",
      "提示词": null,
@@ -2388,7 +2390,7 @@
     },
     {
      "id": "138-23",
-     "标签": "2023 · 第十中学 · 高一上期中",
+     "标签": "2023 · 东莞第十中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "The villagers didn’t realize the earthquake happened until the earth began to shake.",
      "提示词": null,
@@ -2406,7 +2408,7 @@
     },
     {
      "id": "143-25",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Mastering enough English wordsmakes you an excellent English learner.",
      "提示词": null,
@@ -2465,7 +2467,7 @@
    "题": [
     {
      "id": "012-16",
-     "标签": "2020 · 东华 · 高一上期中",
+     "标签": "2020 · 东华高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The doctor recommended that my brother ___ (give) up smoking.",
      "提示词": "give",
@@ -2484,7 +2486,7 @@
     },
     {
      "id": "055-08",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our teachers request that attention ___ (focus) on the lessons in class.",
      "提示词": "focus",
@@ -2521,7 +2523,7 @@
     },
     {
      "id": "096-39",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "The committee proposed that the government ___ (调查原因) why so many wild animals disappeared.",
      "提示词": null,
@@ -2540,7 +2542,7 @@
     },
     {
      "id": "099-24",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
      "提示词": "permit",
@@ -2580,7 +2582,7 @@
     },
     {
      "id": "125-13",
-     "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+     "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our head teacher recommends that we ___ (attend) the lecture to be given this weekend.",
      "提示词": "attend",
@@ -2599,7 +2601,7 @@
     },
     {
      "id": "143-24",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "I recommend him to see a doctor.",
      "提示词": null,
@@ -2620,7 +2622,7 @@
     },
     {
      "id": "144-16",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Jack wasn't saying anything, but the teacher smiled at him as if he ___ （do）something very clever.",
      "提示词": "do",
@@ -2698,7 +2700,7 @@
    "题": [
     {
      "id": "022-28",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Whatever you meet with in the future, I will spare no effort to help you.\n___ you meet with in the future, I will spare no effort to help you.",
      "提示词": null,
@@ -2732,7 +2734,7 @@
     },
     {
      "id": "047-19",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
      "提示词": null,
@@ -2750,7 +2752,7 @@
     },
     {
      "id": "096-38",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "___ (无论发生什么) tomorrow, hold on to today and you won’t regret.",
      "提示词": null,
@@ -2768,7 +2770,7 @@
     },
     {
      "id": "099-31",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "___ (即使) you plant the seed upside down, the roots will still grow down.",
      "提示词": null,
@@ -2786,7 +2788,7 @@
     },
     {
      "id": "099-37",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "But ___ (无论哪里) they looked, the results were always the same.",
      "提示词": null,
@@ -2802,7 +2804,7 @@
     },
     {
      "id": "101-37",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "翻译",
      "题干": "球重重地打在他身上，使他差点儿落入水中。",
      "提示词": null,
@@ -2842,7 +2844,7 @@
     },
     {
      "id": "138-17",
-     "标签": "2023 · 第十中学 · 高一上期中",
+     "标签": "2023 · 东莞第十中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "___ (如果……，会怎样) we don’t take action protect nature?",
      "提示词": null,
@@ -2860,7 +2862,7 @@
     },
     {
      "id": "143-14",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "My English classes are so interesting ___ I am fond of them.",
      "提示词": null,
@@ -2876,7 +2878,7 @@
     },
     {
      "id": "143-22",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "When we ___ (接管) the company, it was losing money.",
      "提示词": null,
@@ -2894,7 +2896,7 @@
     },
     {
      "id": "143-26",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "一旦养成了坏习惯，你就不容易改掉它。",
      "提示词": null,
@@ -2913,7 +2915,7 @@
     },
     {
      "id": "161-10",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "语法填空",
      "题干": "It was such ___ amazing film that everyone present thought highly of it.",
      "提示词": null,
@@ -2977,7 +2979,7 @@
    "题": [
     {
      "id": "029-09",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The survey shows people are confused about ___ they should eat to stay healthy.",
      "提示词": null,
@@ -2993,7 +2995,7 @@
     },
     {
      "id": "029-13",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The librarian requested that the book ___ （return） to the library as soon as possible.",
      "提示词": "return",
@@ -3013,7 +3015,7 @@
     },
     {
      "id": "029-23",
-     "标签": "2024 · 第八高中 · 高一上期中",
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "My English teacher recommends me to exchange learning methods with my classmates.",
      "提示词": null,
@@ -3053,7 +3055,7 @@
     },
     {
      "id": "047-18",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "It’s a shame that their friendship finally ___ (破裂) and they became enemies.",
      "提示词": null,
@@ -3071,7 +3073,7 @@
     },
     {
      "id": "047-20",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "They are likely to be fired by the company because of their faults.\n___ they will be fired by the company because of their faults.",
      "提示词": null,
@@ -3146,7 +3148,7 @@
     },
     {
      "id": "101-26",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "标签": "2023 · 东莞外国语学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "Nearly a week passed before the girl ___ (能够) explain what had happened to her.",
      "提示词": null,
@@ -3164,7 +3166,7 @@
     },
     {
      "id": "136-15",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
      "提示词": null,
@@ -3182,7 +3184,7 @@
     },
     {
      "id": "136-21",
-     "标签": "2022 · 第五高中 · 高一上期中",
+     "标签": "2022 · 东莞第五高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "The teacher highly recommended that we should make full preparations for the exams.\nIt was highly recommended that full preparations ___ for to exams.",
      "提示词": null,
@@ -3202,7 +3204,7 @@
     },
     {
      "id": "143-19",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Obviously, the ability to talk is something that marks humans off from animals.\n___ the ability to talk is something that marks humans off from animals.",
      "提示词": null,
@@ -3222,7 +3224,7 @@
     },
     {
      "id": "144-18",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "He seems to know everything.\n→ ___ he knows everything.",
      "提示词": null,
@@ -3243,7 +3245,7 @@
     },
     {
      "id": "144-19",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "My mother recommended me to see the film Return To The Dust.\nMy mother ___ see the film Return To The Dust.",
      "提示词": null,
@@ -3265,7 +3267,7 @@
     },
     {
      "id": "161-19",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "标签": "2024 · 松山湖未来学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "Mr. John recommends us students to read more classical novels to improve our writing skills.\n= Mr. John recommends that we students ___ more classic novels to improve our writing skills.",
      "提示词": null,
@@ -3309,8 +3311,8 @@
      "题数": 3,
      "题": [
       "022-32",
-      "096-44",
-      "108-24"
+      "088-25",
+      "096-44"
      ]
     },
     "地点 / 方位状语句首全倒装": {
@@ -3330,7 +3332,7 @@
    "题": [
     {
      "id": "022-32",
-     "标签": "2021 · 东华 · 高一上期中",
+     "标签": "2021 · 东华高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "She not only achieved her dream but also set a good example for us.\nNot only ___ her dream but also she set a good example for us.",
      "提示词": null,
@@ -3350,7 +3352,7 @@
     },
     {
      "id": "047-24",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "标签": "2022 · 东莞外国语学校 · 高一上期中",
      "题型": "翻译",
      "题干": "只有经过足够的锻炼，你才能保持健康。",
      "提示词": null,
@@ -3370,7 +3372,7 @@
     },
     {
      "id": "055-20",
-     "标签": "2022 · 东莞实验 · 高一上期中",
+     "标签": "2022 · 东莞实验中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "The speaker stood in front of the students of Grade one.\nIn front of the students of Grade one ___.",
      "提示词": null,
@@ -3387,28 +3389,8 @@
      "标记": []
     },
     {
-     "id": "096-44",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
-     "题型": "翻译",
-     "题干": "书法不仅是一种中国艺术形式，更是一种重要技能。",
-     "提示词": null,
-     "答案": "Not only is calligraphy a form of Chinese art, but also an important skill.",
-     "解析": "考查部分倒装和时态。根据“not only…but also”（不仅……而且）的用法，该结构置于句首的时候，要引起句子部分倒装，将助动词或系动词或情态动词提到主语前；表示“书法”含义的名词为calligraphy；表示“一种中国艺术形式”的表达为a form of Chinese art；表示“一种重要技能”含义的表达为an important skill，讲述一般性事实，时态用一般现在时，将系动词is提到主语calligraphy前，故翻译为：Not only is calligraphy a form of Chinese art, but also an important skill.",
-     "句意": null,
-     "cue": [
-      "使用Not only放句首翻译"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [
-      "情态动词"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "108-24",
-     "标签": "2023 · 东莞高中 · 高一上月考",
+     "id": "088-25",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
      "题型": "翻译",
      "题干": "我永远也忘记不了你对我和我的家人所表现出的善良和温暖。",
      "提示词": null,
@@ -3428,8 +3410,28 @@
      "标记": []
     },
     {
+     "id": "096-44",
+     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
+     "题型": "翻译",
+     "题干": "书法不仅是一种中国艺术形式，更是一种重要技能。",
+     "提示词": null,
+     "答案": "Not only is calligraphy a form of Chinese art, but also an important skill.",
+     "解析": "考查部分倒装和时态。根据“not only…but also”（不仅……而且）的用法，该结构置于句首的时候，要引起句子部分倒装，将助动词或系动词或情态动词提到主语前；表示“书法”含义的名词为calligraphy；表示“一种中国艺术形式”的表达为a form of Chinese art；表示“一种重要技能”含义的表达为an important skill，讲述一般性事实，时态用一般现在时，将系动词is提到主语calligraphy前，故翻译为：Not only is calligraphy a form of Chinese art, but also an important skill.",
+     "句意": null,
+     "cue": [
+      "使用Not only放句首翻译"
+     ],
+     "主考点": "倒装",
+     "主考点来源": "考查",
+     "其他命中": [
+      "情态动词"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
      "id": "144-21",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "They not only introduced advanced technology, but also changed their views on how to develop economy.\n___ they ___ advanced technology, but also changed their views on how to develop economy.",
      "提示词": null,
@@ -3466,7 +3468,7 @@
     },
     {
      "id": "054-25",
-     "标签": "2022 · 东莞实验 · 高一上月考",
+     "标签": "2022 · 东莞实验中学 · 高一上月考",
      "题型": "翻译",
      "题干": "只有努力学习，你才能在英语上取得大的进步。(only倒装句)",
      "提示词": null,
@@ -3509,8 +3511,8 @@
      "题数": 3,
      "题": [
       "083-24",
-      "099-28",
-      "108-18"
+      "088-19",
+      "099-28"
      ]
     },
     "时间状语定时态": {
@@ -3526,7 +3528,7 @@
    "题": [
     {
      "id": "012-09",
-     "标签": "2020 · 东华 · 高一上期中",
+     "标签": "2020 · 东华高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
      "提示词": "prefer",
@@ -3561,7 +3563,7 @@
     },
     {
      "id": "083-24",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "Some teens would rather sit up late than go to bed early.\nSome teens ___ up late ___ to bed early.",
      "提示词": null,
@@ -3578,8 +3580,24 @@
      "标记": []
     },
     {
+     "id": "088-19",
+     "标签": "2023 · 东华高级中学 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Peking University, one of the topic universities in China, ___ (追溯到) the end of the Qing dynasty.",
+     "提示词": null,
+     "答案": "dates back to",
+     "解析": "考查动词短语、时态和主谓一致。句意：北京大学是中国的名牌大学之一，其历史可以追溯到清末。根据汉语意思提示可知，此处为动词短语date back to“追溯到”，满足句意要求，结合句意可知，该句为陈述客观事实，为一般现在时，主语Peking University为单数名词，所以为动词三单形式。故填dates back to。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
      "id": "099-28",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
      "题型": "完成句子",
      "题干": "The text mainly ___ (专注于) the relationship between EQ and IQ.",
      "提示词": null,
@@ -3594,22 +3612,6 @@
      "标记": [
       "疑似拼写错"
      ]
-    },
-    {
-     "id": "108-18",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "完成句子",
-     "题干": "Peking University, one of the topic universities in China, ___ (追溯到) the end of the Qing dynasty.",
-     "提示词": null,
-     "答案": "dates back to",
-     "解析": "考查动词短语、时态和主谓一致。句意：北京大学是中国的名牌大学之一，其历史可以追溯到清末。根据汉语意思提示可知，此处为动词短语date back to“追溯到”，满足句意要求，结合句意可知，该句为陈述客观事实，为一般现在时，主语Peking University为单数名词，所以为动词三单形式。故填dates back to。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
     },
     {
      "id": "122-12",
@@ -3631,7 +3633,7 @@
     },
     {
      "id": "143-08",
-     "标签": "2024 · 第四高中 · 高一上期中",
+     "标签": "2024 · 东莞第四高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Spending too much time online ___ (be) unhealthy to us.",
      "提示词": "be",
@@ -3649,7 +3651,7 @@
     },
     {
      "id": "144-14",
-     "标签": "2022 · 翰林 · 高一上期中",
+     "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Last weekend, people who lived nearby ___ (invite) to check the bridge out.",
      "提示词": "invite",

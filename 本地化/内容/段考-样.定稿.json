@@ -42,7 +42,7 @@
           "stem": {
             "text": "It is highly recommended that the government ___ (take) measures to protect the environment.",
             "cue": [],
-            "src": "2023 · 东莞外国语 · 高一上月考"
+            "src": "2023 · 东莞外国语学校 · 高一上月考"
           },
           "ju": "强烈建议政府采取措施保护环境。",
           "mid": {"label": "成分", "text": "that 从句是真正的主语，谓语空着；主句是 It is recommended，从句用虚拟。"},
@@ -53,7 +53,7 @@
           "stem": {
             "text": "It is strongly recommended that the machines ___ (check) every year.",
             "cue": [],
-            "src": "2024 · 东莞高中 · 高一上月考"
+            "src": "2024 · 东莞高级中学 · 高一上月考"
           },
           "ju": "强烈建议每年检查这些机器。",
           "mid": {"label": "成分", "text": "同上用虚拟；machines 是 check 的承受者，用被动。"},
@@ -72,21 +72,21 @@
         {
           "stem": "I recommend you to focus on what the teacher says.\nI recommend ___ what the teacher says.",
           "cue": [],
-          "src": "2024 · 东莞高中 · 高一上月考",
+          "src": "2024 · 东莞高级中学 · 高一上月考",
           "ans": "(that) you (should) focus on",
           "why": "recommend that 从句用虚拟。"
         },
         {
           "stem": "Mrs Brown 建议我积极参加课外活动。",
           "cue": ["用 recommend 翻译"],
-          "src": "2023 · 石竹实验 · 高一上月考",
+          "src": "2023 · 石竹实验学校 · 高一上月考",
           "ans": "Mrs Brown recommended that I (should) take an active part in after-class activities.",
           "why": ""
         },
         {
           "stem": "What would happen if we didn’t get there on time?\n___ we didn’t get there on time?",
           "cue": ["同义句转换"],
-          "src": "2024 · 东莞高中 · 高一上月考",
+          "src": "2024 · 东莞高级中学 · 高一上月考",
           "ans": "What if",
           "why": "What if … = What would happen if …"
         }

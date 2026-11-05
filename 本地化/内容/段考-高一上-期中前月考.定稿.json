@@ -184,7 +184,7 @@
      "stem": {
       "text": "My spoken English is so poor that I cannot make myself ___ (understand).",
       "cue": [],
-      "src": "2023 · 东莞外国语 · 高一上月考"
+      "src": "2023 · 东莞外国语学校 · 高一上月考"
      },
      "ju": "我的英语口语很差，以至于不能让别人听懂我的话。",
      "mid": {
@@ -201,7 +201,7 @@
      "stem": {
       "text": "___ (hold) the 29th Olympics successfully shows the power of our nation.",
       "cue": [],
-      "src": "2022 · 莞中松山湖 · 高一上月考"
+      "src": "2022 · 东莞中学松山湖学校 · 高一上月考"
      },
      "ju": "成功举办第29届奥运会显示了我们国家的力量。",
      "mid": {
@@ -215,21 +215,21 @@
     {
      "stem": "Steve has expressed the hope that he is looking forward to ___ (hear) from you soon.",
      "cue": [],
-     "src": "2022 · 东莞实验 · 高一上月考",
+     "src": "2022 · 东莞实验中学 · 高一上月考",
      "ans": "hearing",
      "why": "look forward to 的 to 是介词，接 doing。"
     },
     {
      "stem": "At the weekends, I play computer games if I’m not busy ___ (study).",
      "cue": [],
-     "src": "2024 · 光正实验 · 高一上月考",
+     "src": "2024 · 光正实验学校 · 高一上月考",
      "ans": "studying",
      "why": "be busy doing sth. 是固定用法。"
     },
     {
      "stem": "Something about the song made me feel powerful, and I even started to daydream about ___ (报名) the concert and finally getting the chance to surprise everyone with my secret.",
      "cue": [],
-     "src": "2023 · 东华、东华松山湖 · 高一上月考",
+     "src": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
      "ans": "signing up for",
      "why": "about 是介词，后接动名词；sign up for 报名。"
     },
@@ -245,7 +245,7 @@
      "cue": [
       "同义句转换"
      ],
-     "src": "2022 · 东莞实验 · 高一上月考",
+     "src": "2022 · 东莞实验中学 · 高一上月考",
      "ans": "After getting off the bus, he found his wallet stolen.",
      "why": "that 从句的被动可改成「宾语 + 过去分词」。"
     },
@@ -254,7 +254,7 @@
      "cue": [
       "用V-ing 作主语改写"
      ],
-     "src": "2023 · 石竹实验 · 高一上月考",
+     "src": "2023 · 石竹实验学校 · 高一上月考",
      "ans": "Being happy is important for keeping healthy.",
      "why": "句首 Being happy 作主语，谓语用单数。"
     },
@@ -268,7 +268,7 @@
     {
      "stem": "The lecture ___ (organize) by our university to promote Chinese traditional culture is a big success.",
      "cue": [],
-     "src": "2023 · 东莞外国语 · 高一上月考",
+     "src": "2023 · 东莞外国语学校 · 高一上月考",
      "ans": "organized",
      "why": "讲座与 organize 是被动，后置定语用过去分词。"
     }
@@ -334,7 +334,7 @@
      "stem": {
       "text": "I don’t think ___ possible to finish so much work in such a short time.",
       "cue": [],
-      "src": "2024 · 光正实验 · 高一上月考"
+      "src": "2024 · 光正实验学校 · 高一上月考"
      },
      "ju": "我认为在这么短的时间内完成这么多工作是不可能的。",
      "mid": {
@@ -353,7 +353,7 @@
       "cue": [
        "用it作形式主语改写"
       ],
-      "src": "2023 · 翰林 · 高一月考"
+      "src": "2023 · 翰林高级中学 · 高一月考"
      },
      "ju": "在网上花太多时间是不健康的。",
      "mid": {
@@ -367,14 +367,14 @@
     {
      "stem": "The young woman found ___ difficult to learn a second language at university.",
      "cue": [],
-     "src": "2023 · 翰林 · 高一月考",
+     "src": "2023 · 翰林高级中学 · 高一月考",
      "ans": "it",
      "why": "find it + 形容词 + to do。"
     },
     {
      "stem": "The injury in her leg makes ___ impossible for her to return to track and field.",
      "cue": [],
-     "src": "2022 · 莞中松山湖 · 高一上月考",
+     "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
      "ans": "it",
      "why": "make it + 形容词 + for sb. to do。"
     },
@@ -383,14 +383,14 @@
      "cue": [
       "用it作形式宾语改写句子"
      ],
-     "src": "2024 · 东莞高中 · 高一上月考",
+     "src": "2024 · 东莞高级中学 · 高一上月考",
      "ans": "You will find it helpful to join in some extra-curricular activities.",
      "why": "that 从句改为 find it + 形容词 + to do。"
     },
     {
      "stem": "___ is obvious that our earth is suffering serious damage because of improper (不恰当的) human activities.",
      "cue": [],
-     "src": "2023 · 东莞外国语 · 高一上月考",
+     "src": "2023 · 东莞外国语学校 · 高一上月考",
      "ans": "It",
      "why": "It is obvious that 句型，it 作形式主语。"
     },
@@ -399,7 +399,7 @@
      "cue": [
       "用形式主语it翻译"
      ],
-     "src": "2022 · 东莞实验 · 高一上月考",
+     "src": "2022 · 东莞实验中学 · 高一上月考",
      "ans": "It is our responsibility to protect the environment.",
      "why": "It is 名词 to do：不定式作真正主语。"
     }
@@ -446,7 +446,7 @@
      "stem": {
       "text": "It is highly recommended that the government ___ (take) measures to protect the environment.",
       "cue": [],
-      "src": "2023 · 东莞外国语 · 高一上月考"
+      "src": "2023 · 东莞外国语学校 · 高一上月考"
      },
      "ju": "强烈建议政府采取措施保护环境。",
      "mid": {
@@ -465,7 +465,7 @@
       "cue": [
        "同义句转换"
       ],
-      "src": "2024 · 东莞高中 · 高一上月考"
+      "src": "2024 · 东莞高级中学 · 高一上月考"
      },
      "ju": "如果我们没有按时到达那里会发生什么？",
      "mid": {
@@ -481,21 +481,21 @@
      "cue": [
       "用recommend翻译句子"
      ],
-     "src": "2023 · 石竹实验 · 高一上月考",
+     "src": "2023 · 石竹实验学校 · 高一上月考",
      "ans": "Mrs Brown recommended that I (should) take part in after-class activities actively.",
      "why": "recommend 后从句用 (should) + 动词原形。"
     },
     {
      "stem": "It is strongly recommended that the machines ___ (check) every year.",
      "cue": [],
-     "src": "2024 · 东莞高中 · 高一上月考",
+     "src": "2024 · 东莞高级中学 · 高一上月考",
      "ans": "(should) be checked",
      "why": "machines 被检查，用 be checked。"
     },
     {
      "stem": "The doctor recommended that my brother ___ (give) up smoking.",
      "cue": [],
-     "src": "2020 · 东华 · 高一上期中",
+     "src": "2020 · 东华高级中学 · 高一上期中",
      "ans": "(should) give",
      "why": "should 可省，give 不能丢。"
     },
@@ -509,7 +509,7 @@
     {
      "stem": "Our teachers request that attention ___ (focus) on the lessons in class.",
      "cue": [],
-     "src": "2022 · 东莞实验 · 高一上期中",
+     "src": "2022 · 东莞实验中学 · 高一上期中",
      "ans": "(should) be focused",
      "why": "request 同 recommend，从句虚拟。"
     }
@@ -571,7 +571,7 @@
      "stem": {
       "text": "Tim writes his parents an email every week and tells them ___ happened on the ship.",
       "cue": [],
-      "src": "2024 · 光正实验 · 高一上月考"
+      "src": "2024 · 光正实验学校 · 高一上月考"
      },
      "ju": "Tim 每周给父母写一封电子邮件，告诉他们船上发生的事情。",
      "mid": {
@@ -590,7 +590,7 @@
       "cue": [
        "同义句转换"
       ],
-      "src": "2023 · 翰林 · 高一月考"
+      "src": "2023 · 翰林高级中学 · 高一月考"
      },
      "ju": "很显然，保持均衡饮食很重要。",
      "mid": {
@@ -604,7 +604,7 @@
     {
      "stem": "First, Adam had to think very carefully about ___ courses he wanted to take.",
      "cue": [],
-     "src": "2025 · 嘉荣外国语 · 高一上月考",
+     "src": "2025 · 嘉荣外国语学校 · 高一上月考",
      "ans": "which",
      "why": "which 修饰 courses，引导宾语从句。"
     },
@@ -620,14 +620,14 @@
      "cue": [
       "用recommend翻译"
      ],
-     "src": "2023 · 翰林 · 高一月考",
+     "src": "2023 · 翰林高级中学 · 高一月考",
      "ans": "The teacher recommended that we should not be addicted to playing computer games.",
      "why": "宾语从句用 that 引导，从句谓语 should + 原形。"
     },
     {
      "stem": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
      "cue": [],
-     "src": "2022 · 第五高中 · 高一上期中",
+     "src": "2022 · 东莞第五高级中学 · 高一上期中",
      "ans": "What",
      "why": "主语从句里指物、作主语，句首大写。"
     }
@@ -676,7 +676,7 @@
       "cue": [
        "强调划线的部分"
       ],
-      "src": "2024 · 光正实验 · 高一上月考"
+      "src": "2024 · 光正实验学校 · 高一上月考"
      },
      "ju": "我爷爷昨天在街上遛狗。",
      "mid": {
@@ -695,7 +695,7 @@
       "cue": [
        "对划线部分进行强调"
       ],
-      "src": "2023 · 东莞外国语 · 高一上月考"
+      "src": "2023 · 东莞外国语学校 · 高一上月考"
      },
      "ju": "正是因为老师的鼓励，我的英语口语才有了很大进步。",
      "mid": {
@@ -729,7 +729,7 @@
      "cue": [
       "改为强调地点状语的强调句"
      ],
-     "src": "2024 · 第八高中 · 高一上期中",
+     "src": "2024 · 东莞第八高级中学 · 高一上期中",
      "ans": "It was in Brazil that Coach Lang Ping led her volleyball team to Olympic gold in 2016.",
      "why": "被强调的是地点状语 in Brazil。"
     },
