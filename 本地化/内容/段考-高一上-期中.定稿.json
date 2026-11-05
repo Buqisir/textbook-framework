@@ -42,28 +42,10 @@
       {
         "name": "定语从句",
         "cov": 0.85,
-        "n": 45,
+        "n": 41,
         "book": "必修一 U4–U5",
         "ahead": false,
         "go": "专题 3",
-        "skip": false
-      },
-      {
-        "name": "状语从句",
-        "cov": 0.8,
-        "n": 19,
-        "book": "不单列",
-        "ahead": true,
-        "go": "专题 4",
-        "skip": false
-      },
-      {
-        "name": "名词性从句",
-        "cov": 0.75,
-        "n": 30,
-        "book": "选必一 U5 起",
-        "ahead": true,
-        "go": "专题 5",
         "skip": false
       },
       {
@@ -72,7 +54,7 @@
         "n": 15,
         "book": "不单列",
         "ahead": true,
-        "go": "专题 6",
+        "go": "专题 4",
         "skip": false
       },
       {
@@ -80,6 +62,24 @@
         "cov": 0.6,
         "n": 14,
         "book": "不单列",
+        "ahead": true,
+        "go": "专题 5",
+        "skip": false
+      },
+      {
+        "name": "状语从句",
+        "cov": 0.45,
+        "n": 11,
+        "book": "不单列",
+        "ahead": true,
+        "go": "专题 6",
+        "skip": false
+      },
+      {
+        "name": "名词性从句",
+        "cov": 0.4,
+        "n": 14,
+        "book": "选必一 U5 起",
         "ahead": true,
         "go": "专题 7",
         "skip": false
@@ -111,7 +111,7 @@
         {
           "type": "gloss",
           "lines": [
-            "60 题里 15 题",
+            "15 题",
             "已有谓语，句中无连词"
           ]
         },
@@ -130,7 +130,7 @@
         {
           "type": "gloss",
           "lines": [
-            "60 题里 12 题",
+            "12 题",
             "看前面的动词或介词"
           ]
         },
@@ -149,7 +149,7 @@
         {
           "type": "gloss",
           "lines": [
-            "60 题里 25 题",
+            "25 题",
             "to 后原形，介词后 -ing"
           ]
         },
@@ -226,6 +226,16 @@
           "why": "pretend 后接不定式作宾语。"
         },
         {
+          "stem": "看到那些画，她想起了自己的童年。 → ___, she remembered her childhood.",
+          "cue": [
+            "分词作状语"
+          ],
+          "src": "2022 · 莞中松山湖 · 高一上期中",
+          "ans": "Seeing the pictures, she remembered her childhood.",
+          "why": "she 与 see 是主动关系，用 -ing。",
+          "long": true
+        },
+        {
           "stem": "Because he buried himself in his book, he was not aware it was raining outside.",
           "cue": [
             "现在分词作状语改写"
@@ -243,6 +253,13 @@
           "why": "动名词作主语，谓语用单数。"
         },
         {
+          "stem": "He spends a lot of time ___ (revise) his notes to ensure he understands everything.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一上期中",
+          "ans": "revising",
+          "why": "spend time doing sth.。"
+        },
+        {
           "stem": "This book is definitely worth ___ (read).",
           "cue": [],
           "src": "2022 · 莞中松山湖 · 高一上期中",
@@ -255,23 +272,6 @@
           "src": "2022 · 莞中松山湖 · 高一上期中",
           "ans": "stolen",
           "why": "with + 名词 + 过去分词（被偷）。"
-        },
-        {
-          "stem": "看到那些画，她想起了自己的童年。 → ___, she remembered her childhood.",
-          "cue": [
-            "分词作状语"
-          ],
-          "src": "2022 · 莞中松山湖 · 高一上期中",
-          "ans": "Seeing the pictures, she remembered her childhood.",
-          "why": "she 与 see 是主动关系，用 -ing。",
-          "long": true
-        },
-        {
-          "stem": "He spends a lot of time ___ (revise) his notes to ensure he understands everything.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高一上期中",
-          "ans": "revising",
-          "why": "spend time doing sth.。"
         }
       ]
     },
@@ -289,7 +289,7 @@
         {
           "type": "gloss",
           "lines": [
-            "20 题里 13 题",
+            "13 题",
             "it 占位，真宾在后"
           ]
         },
@@ -308,7 +308,7 @@
         {
           "type": "gloss",
           "lines": [
-            "20 题里 7 题",
+            "7 题",
             "常由副词或 seems 改写"
           ]
         },
@@ -435,7 +435,7 @@
       "name": "定语从句",
       "vols": 20,
       "cov": 17,
-      "n": 45,
+      "n": 41,
       "explain": [
         {
           "type": "subhead",
@@ -444,7 +444,7 @@
         {
           "type": "gloss",
           "lines": [
-            "29 题里 5 题",
+            "4 题",
             "reason 用 why"
           ]
         },
@@ -467,17 +467,17 @@
         {
           "type": "gloss",
           "lines": [
-            "29 题里 18 题",
+            "20 题",
             "缺主语/宾语，看先行词"
           ]
         },
         {
           "type": "p",
-          "text": "从句缺主语或宾语：指人用 who（作主语）、whom（作宾语），指物用 which 或 that，所属关系用 whose（如 whose windows）。逗号后的 which 可指前面整句。"
+          "text": "从句缺主语或宾语：指人用 who（作主语）、whom（作宾语），指物用 which 或 that，所属关系用 whose（如 whose windows）。"
         },
         {
           "type": "p",
-          "text": "介词后用“介词 + whom / which”，如 with whom；that 不能跟在介词后，也不能用于逗号后。"
+          "text": "介词后用“介词 + whom / which”，如 with whom；that 不能跟在介词后。逗号后的 which、whom、whose 是非限定，前面用逗号隔开，不能换成 that。"
         },
         {
           "type": "subhead",
@@ -486,17 +486,17 @@
         {
           "type": "gloss",
           "lines": [
-            "29 题里 6 题",
-            "逗号后补充前一句"
+            "10 题",
+            "题干要求合并两句"
           ]
         },
         {
           "type": "p",
-          "text": "两句合成一句：把第二句里与先行词有关的词换成 whose、whom 或 which，放在先行词之后，用逗号隔开。"
+          "text": "两句合成一句：先找两句共同的名词作先行词，把第二句里与它有关的词换成关系词，放在先行词之后。"
         },
         {
           "type": "p",
-          "text": "翻译题中的 As we all know 也是非限定从句，As 指代整句，可译作“众所周知”。"
+          "text": "合并题的关系词按先行词选：指人 who、whom、whose，指物 which、that，指地点 where。"
         }
       ],
       "examples": [
@@ -534,19 +534,21 @@
         },
         {
           "gloss": [
-            "两句合一：whose"
+            "两句合一，所属用 whose"
           ],
           "stem": {
-            "text": "My eldest son, ___ work takes him all over the world, is in New York at the moment.",
-            "cue": [],
-            "src": "2022 · 第五高中 · 高一上期中"
+            "text": "The boy was rushed to the hospital. The boy’s leg was seriously injured in the accident.",
+            "cue": [
+              "合并成定语从句"
+            ],
+            "src": "2022 · 东莞市 · 高一上期中"
           },
-          "ju": "我的大儿子现在在纽约，他的工作使他走遍了全世界。",
+          "ju": "男孩被紧急送往医院，他的腿在事故中受了重伤。",
           "mid": {
             "label": "成分",
-            "text": "逗号后是非限定从句，空处在从句中作定语修饰 work，表示所属，用 whose。"
+            "text": "第二句的 leg 与先行词 The boy 是所属关系，改为 whose leg，放在 The boy 之后。"
           },
-          "ans": "whose"
+          "ans": "The boy whose leg was seriously injured in the accident was rushed to the hospital."
         }
       ],
       "keypoint": "先看先行词和从句缺什么：缺状语用 where、when、why；缺主语或宾语用 who、whom、which、that，所属用 whose。逗号后是非限定，不能用 that。",
@@ -600,291 +602,26 @@
           "long": true
         },
         {
-          "stem": "Mike studies hard all the way, which ___ (树立榜样) to his sister and brother.",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "sets an example",
-          "why": "非限定 which 指前面整句。"
-        },
-        {
           "stem": "The Smiths have two children, both of ___ work in New York.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "whom",
           "why": "both of 后用 whom，指人。"
+        },
+        {
+          "stem": "The student’s calligraphy work was shown on the blackboard. I know the student.",
+          "cue": [
+            "用定语从句合并"
+          ],
+          "src": "2022 · 东莞实验 · 高一上期中",
+          "ans": "I know the student whose calligraphy work was shown on the blackboard.",
+          "why": "第二句的 calligraphy 所属 student，用 whose。",
+          "long": true
         }
       ]
     },
     {
       "no": 4,
-      "name": "状语从句",
-      "vols": 20,
-      "cov": 16,
-      "n": 19,
-      "explain": [
-        {
-          "type": "subhead",
-          "text": "让步"
-        },
-        {
-          "type": "gloss",
-          "lines": [
-            "13 题里 5 题",
-            "no matter 或 even 开头"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "no matter + 疑问词（what、where）表示“无论”，相当于 -ever 词；句首的 No matter what 首字母大写。"
-        },
-        {
-          "type": "p",
-          "text": "even if 表示“即使”（假设），even though 表示“尽管”（事实），两者不能互换。"
-        },
-        {
-          "type": "subhead",
-          "text": "结果"
-        },
-        {
-          "type": "gloss",
-          "lines": [
-            "13 题里 4 题",
-            "so…that / such…that"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "so + 形容词或副词 + that，such + 名词短语 + that，that 后接结果，如 so interesting that（有趣到……）。"
-        },
-        {
-          "type": "p",
-          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。"
-        },
-        {
-          "type": "p",
-          "text": "时间用 when、once，条件用 What if；so that 的目的义也可用 in order to 改写。"
-        },
-        {
-          "type": "pattern",
-          "text": "no matter what / where + 从句  |  so + adj. + that + 从句"
-        }
-      ],
-      "examples": [
-        {
-          "gloss": [
-            "No matter what"
-          ],
-          "stem": {
-            "text": "Whatever you meet with in the future, I will spare no effort to help you. → ___ you meet with in the future, I will spare no effort to help you.",
-            "cue": [
-              "句型转换"
-            ],
-            "src": "2021 · 东华 · 高一上期中"
-          },
-          "ju": "无论你在未来遇到什么，我都会不遗余力地帮助你。",
-          "mid": {
-            "label": "成分",
-            "text": "Whatever 引导让步状语从句，可改写为 no matter what，从句作主句的状语，句首大写。"
-          },
-          "ans": "No matter what"
-        },
-        {
-          "gloss": [
-            "so…that"
-          ],
-          "stem": {
-            "text": "The greenhouse effect is becoming so serious ___ we must take some actions to deal with it.",
-            "cue": [],
-            "src": "2025 · 东莞市 · 高一上期中"
-          },
-          "ju": "温室效应正变得如此严重，我们必须采取一些行动来应对它。",
-          "mid": {
-            "label": "判断",
-            "text": "so serious 后接 that 引导结果状语从句，是固定句型，表示“如此……以至于……”。"
-          },
-          "ans": "that"
-        }
-      ],
-      "keypoint": "先认连接词：no matter + 疑问词表“无论”，even if 表假设，even though 表事实。见 so 或 such 后接 that，先判断是结果，还是“以便”的目的。",
-      "drill": [
-        {
-          "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
-          "cue": [],
-          "src": "2022 · 东莞外国语 · 高一上期中",
-          "ans": "Even though",
-          "why": "尽管表事实，用 even though。"
-        },
-        {
-          "stem": "___ (即使) you plant the seed upside down, the roots will still grow down.",
-          "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
-          "ans": "Even if",
-          "why": "即使表假设，用 even if。"
-        },
-        {
-          "stem": "But ___ (无论哪里) they looked, the results were always the same.",
-          "cue": [],
-          "src": "2024 · 莞中松山湖 · 高一上期中",
-          "ans": "no matter where",
-          "why": "no matter + 疑问词表无论。"
-        },
-        {
-          "stem": "My English classes are so interesting ___ I am fond of them.",
-          "cue": [],
-          "src": "2024 · 第四高中 · 高一上期中",
-          "ans": "that",
-          "why": "so…that 引导结果状语从句。"
-        },
-        {
-          "stem": "球重重地打在他身上，使他差点儿落入水中。",
-          "cue": [
-            "用so…that…翻译句子"
-          ],
-          "src": "2023 · 东莞外国语 · 高一上期中",
-          "ans": "The ball struck him so hard that he nearly fell into the water.",
-          "why": "so hard that 表结果。",
-          "long": true
-        },
-        {
-          "stem": "She got up early this morning so that she could get to school on time. → ___ to school on time, she got up early this morning.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "In order to get to school on time, she got up early this morning.",
-          "why": "so that 表目的，可改 in order to。",
-          "long": true
-        }
-      ]
-    },
-    {
-      "no": 5,
-      "name": "名词性从句",
-      "vols": 20,
-      "cov": 15,
-      "n": 30,
-      "explain": [
-        {
-          "type": "subhead",
-          "text": "主语从句"
-        },
-        {
-          "type": "gloss",
-          "lines": [
-            "16 题里 7 题",
-            "句首 It 占位"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "句首的 that 从句或 what 从句作主语。It is obvious、likely、a shame 后接 that 从句，It 是形式主语，that 从句是真主语。"
-        },
-        {
-          "type": "p",
-          "text": "What 引导的主语从句在从句内部作成分，如 What impressed me most 中 what 作 impressed 的主语；主句谓语看后面的名词单复数。"
-        },
-        {
-          "type": "p",
-          "text": "宾语从句多见 about what 这类介词后缺宾语；recommend 类宾语从句归专题 7，此处不重复。"
-        },
-        {
-          "type": "pattern",
-          "text": "It is likely that …  |  It seems that …"
-        }
-      ],
-      "examples": [
-        {
-          "gloss": [
-            "It is obvious that"
-          ],
-          "stem": {
-            "text": "Obviously, the ability to talk is something that marks humans off from animals. → ___ the ability to talk is something that marks humans off from animals.",
-            "cue": [
-              "同义转换"
-            ],
-            "src": "2024 · 第四高中 · 高一上期中"
-          },
-          "ju": "很明显，说话的能力是人类与动物的区别。",
-          "mid": {
-            "label": "判断",
-            "text": "Obviously 改为 It is obvious that：It 作形式主语，that 从句是真正的主语。"
-          },
-          "ans": "It is obvious that"
-        },
-        {
-          "gloss": [
-            "What 作主语"
-          ],
-          "stem": {
-            "text": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
-            "cue": [],
-            "src": "2022 · 第五高中 · 高一上期中"
-          },
-          "ju": "给我留下最深印象的是九寨沟令人惊叹的瀑布。",
-          "mid": {
-            "label": "成分",
-            "text": "句首的空引导主语从句，在从句中作 impressed 的主语，所以用 what；谓语 were 与后面的 waterfalls 一致。"
-          },
-          "ans": "What"
-        },
-        {
-          "gloss": [
-            "介词后用 what"
-          ],
-          "stem": {
-            "text": "The survey shows people are confused about ___ they should eat to stay healthy.",
-            "cue": [],
-            "src": "2024 · 第八高中 · 高一上期中"
-          },
-          "ju": "一项调查表明，人们对保持健康该吃什么感到困惑。",
-          "mid": {
-            "label": "成分",
-            "text": "about 后是介词，之后是宾语从句；从句的 eat 缺宾语，what 既引导从句又作 eat 的宾语。"
-          },
-          "ans": "what"
-        }
-      ],
-      "keypoint": "先看从句在句中的位置：句首作主语的，常转成 It be adj. that 句型；动词或介词后缺成分，用 what 引导。",
-      "drill": [
-        {
-          "stem": "They are likely to be fired by the company because of their faults. → ___ they will be fired by the company because of their faults.",
-          "cue": [
-            "同义句改写"
-          ],
-          "src": "2022 · 东莞外国语 · 高一上期中",
-          "ans": "It is likely that",
-          "why": "likely 接 that 从句，It 作形式主语。"
-        },
-        {
-          "stem": "Obviously, the manager is satisfied with the guy’s arrangement. → ___ the manager is satisfied with the guy’s arrangement.",
-          "cue": [
-            "句型转换"
-          ],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "It is obvious that",
-          "why": "Obviously 改为 It is obvious that。"
-        },
-        {
-          "stem": "He seems to know everything. → ___ he knows everything.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2022 · 翰林 · 高一上期中",
-          "ans": "It seems that",
-          "why": "seem to do 改为 It seems that。"
-        },
-        {
-          "stem": "似乎越来越多的青少年已经很沉迷于网络游戏。",
-          "cue": [],
-          "src": "2023 · 东莞市 · 高一上期中",
-          "ans": "It seems that more and more teenagers have been addicted to (playing) online games.",
-          "why": "as if 与 that 皆可，It 作形式主语。",
-          "long": true
-        }
-      ]
-    },
-    {
-      "no": 6,
       "name": "强调句",
       "vols": 20,
       "cov": 14,
@@ -897,13 +634,13 @@
         {
           "type": "gloss",
           "lines": [
-            "14 题里 7 题",
+            "8 题",
             "拿掉框架后是完整句"
           ]
         },
         {
           "type": "p",
-          "text": "结构是 It is/was + 被强调部分 + that（指人可用 who）+ 其余部分。被强调的可以是主语、宾语或状语；强调宾语时同上，只是被强调的是宾语。"
+          "text": "结构是 It is/was + 被强调部分 + that（指人可用 who）+ 其余部分。被强调的可以是主语、宾语或状语；强调宾语时结构相同，只是被强调的是宾语。"
         },
         {
           "type": "p",
@@ -916,7 +653,7 @@
         {
           "type": "gloss",
           "lines": [
-            "14 题里 5 题",
+            "5 题",
             "直到…才…，别漏 not"
           ]
         },
@@ -962,7 +699,7 @@
           "ju": "直到得了重病，他才意识到健康的价值。",
           "mid": {
             "label": "成分",
-            "text": "not until 整体是被强调部分，that 后接原主句，时态不变。"
+            "text": "not until he fell seriously ill 是被强调部分，that 后接原主句 he realized the value of health，时态不变。"
           },
           "ans": "It was not until he fell seriously ill that he realized the value of health."
         }
@@ -991,7 +728,7 @@
           "cue": [
             "同义转换"
           ],
-          "src": "2023 · 东莞高中 · 高一上月考",
+          "src": "2023 · 东华 · 高一上期中",
           "ans": "not until / that",
           "why": "not until…that 固定句型。"
         },
@@ -1028,7 +765,7 @@
       ]
     },
     {
-      "no": 7,
+      "no": 5,
       "name": "虚拟语气",
       "vols": 20,
       "cov": 12,
@@ -1041,7 +778,7 @@
         {
           "type": "gloss",
           "lines": [
-            "9 题里 8 题",
+            "8 题",
             "建议要求类 that 从句用虚拟"
           ]
         },
@@ -1156,6 +893,265 @@
       ]
     },
     {
+      "no": 6,
+      "name": "状语从句",
+      "vols": 20,
+      "cov": 9,
+      "n": 11,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "让步"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "5 题",
+            "no matter 或 even 开头"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "no matter + 疑问词（what、where）表示“无论”，相当于 -ever 词；句首的 No matter what 首字母大写。"
+        },
+        {
+          "type": "p",
+          "text": "even if 表示“即使”（假设），even though 表示“尽管”（事实），两者不能互换。"
+        },
+        {
+          "type": "subhead",
+          "text": "结果"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "3 题",
+            "so…that / such…that"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "so + 形容词或副词 + that，such + 名词短语 + that，that 后接结果，如 so interesting that（有趣到……）。"
+        },
+        {
+          "type": "p",
+          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。时间（until、once）、原因（because）各 1 题，一句带过。"
+        },
+        {
+          "type": "pattern",
+          "text": "no matter what / where + 从句  |  so + adj. + that + 从句"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "No matter what"
+          ],
+          "stem": {
+            "text": "Whatever you meet with in the future, I will spare no effort to help you. → ___ you meet with in the future, I will spare no effort to help you.",
+            "cue": [
+              "句型转换"
+            ],
+            "src": "2021 · 东华 · 高一上期中"
+          },
+          "ju": "无论你在未来遇到什么，我都会不遗余力地帮助你。",
+          "mid": {
+            "label": "成分",
+            "text": "Whatever 引导让步状语从句，可改写为 no matter what，从句作主句的状语，句首大写。"
+          },
+          "ans": "No matter what"
+        },
+        {
+          "gloss": [
+            "so…that"
+          ],
+          "stem": {
+            "text": "The greenhouse effect is becoming so serious ___ we must take some actions to deal with it.",
+            "cue": [],
+            "src": "2025 · 东莞市 · 高一上期中"
+          },
+          "ju": "温室效应正变得如此严重，我们必须采取一些行动来应对它。",
+          "mid": {
+            "label": "判断",
+            "text": "so serious 后接 that 引导结果状语从句，是固定句型，表示“如此……以至于……”。"
+          },
+          "ans": "that"
+        }
+      ],
+      "keypoint": "先认连接词：no matter + 疑问词表“无论”，even if 表假设，even though 表事实。见 so 或 such 后接 that，先判断是结果，还是“以便”的目的。",
+      "drill": [
+        {
+          "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
+          "cue": [],
+          "src": "2022 · 东莞外国语 · 高一上期中",
+          "ans": "Even though",
+          "why": "尽管表事实，用 even though。"
+        },
+        {
+          "stem": "___ (即使) you plant the seed upside down, the roots will still grow down.",
+          "cue": [],
+          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "ans": "Even if",
+          "why": "即使表假设，用 even if。"
+        },
+        {
+          "stem": "But ___ (无论哪里) they looked, the results were always the same.",
+          "cue": [],
+          "src": "2024 · 莞中松山湖 · 高一上期中",
+          "ans": "no matter where",
+          "why": "no matter + 疑问词表无论。"
+        },
+        {
+          "stem": "My English classes are so interesting ___ I am fond of them.",
+          "cue": [],
+          "src": "2024 · 第四高中 · 高一上期中",
+          "ans": "that",
+          "why": "so…that 引导结果状语从句。"
+        },
+        {
+          "stem": "球重重地打在他身上，使他差点儿落入水中。",
+          "cue": [
+            "用so…that…翻译句子"
+          ],
+          "src": "2023 · 东莞外国语 · 高一上期中",
+          "ans": "The ball struck him so hard that he nearly fell into the water.",
+          "why": "so hard that 表结果。",
+          "long": true
+        },
+        {
+          "stem": "I hadn’t realized she was Miss Liu ___ she spoke. (用适当的词填空)",
+          "cue": [],
+          "src": "2022 · 东莞市 · 高一上期中",
+          "ans": "until",
+          "why": "not…until 直到……才……。"
+        },
+        {
+          "stem": "Many students lost marks in the exam simply ___ they didn’t read the questions carefully. (用适当的词填空)",
+          "cue": [],
+          "src": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
+          "ans": "because",
+          "why": "两句间是因果关系。"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "name": "名词性从句",
+      "vols": 20,
+      "cov": 8,
+      "n": 14,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "主语从句"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "6 题",
+            "句首 It 占位"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "句首的 that 从句或 what 从句作主语。It is obvious、likely 后接 that 从句，It 是形式主语，that 从句是真主语。"
+        },
+        {
+          "type": "p",
+          "text": "What 引导的主语从句在从句内部作成分，如 What impressed me most 中 what 作 impressed 的主语；主句谓语看后面的名词单复数。"
+        },
+        {
+          "type": "p",
+          "text": "宾语从句多见 about what 这类介词后缺宾语；recommend 类宾语从句归专题 5，此处不重复。"
+        },
+        {
+          "type": "pattern",
+          "text": "It is likely that …  |  It seems that …"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "What 作主语"
+          ],
+          "stem": {
+            "text": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
+            "cue": [],
+            "src": "2022 · 第五高中 · 高一上期中"
+          },
+          "ju": "给我留下最深印象的是九寨沟令人惊叹的瀑布。",
+          "mid": {
+            "label": "成分",
+            "text": "句首的空引导主语从句，在从句中作 impressed 的主语，所以用 what；谓语 were 与后面的 waterfalls 一致。"
+          },
+          "ans": "What"
+        },
+        {
+          "gloss": [
+            "介词后用 what"
+          ],
+          "stem": {
+            "text": "The survey shows people are confused about ___ they should eat to stay healthy.",
+            "cue": [],
+            "src": "2024 · 第八高中 · 高一上期中"
+          },
+          "ju": "一项调查表明，人们对保持健康该吃什么感到困惑。",
+          "mid": {
+            "label": "成分",
+            "text": "about 后是介词，之后是宾语从句；从句的 eat 缺宾语，what 既引导从句又作 eat 的宾语。"
+          },
+          "ans": "what"
+        }
+      ],
+      "keypoint": "先看从句在句中的位置：句首作主语的，常转成 It be adj. that 句型；动词或介词后缺成分，用 what 引导。",
+      "drill": [
+        {
+          "stem": "They are likely to be fired by the company because of their faults. → ___ they will be fired by the company because of their faults.",
+          "cue": [
+            "同义句改写"
+          ],
+          "src": "2022 · 东莞外国语 · 高一上期中",
+          "ans": "It is likely that",
+          "why": "likely 接 that 从句，It 作形式主语。"
+        },
+        {
+          "stem": "He seems to know everything. → ___ he knows everything.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2022 · 翰林 · 高一上期中",
+          "ans": "It seems that",
+          "why": "seem to do 改为 It seems that。"
+        },
+        {
+          "stem": "Obviously, the ability to talk is something that marks humans off from animals. → ___ the ability to talk is something that marks humans off from animals.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2024 · 第四高中 · 高一上期中",
+          "ans": "It is obvious that",
+          "why": "Obviously 改为 It is obvious that。"
+        },
+        {
+          "stem": "Obviously, the manager is satisfied with the guy’s arrangement. → ___ the manager is satisfied with the guy’s arrangement.",
+          "cue": [
+            "句型转换"
+          ],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "It is obvious that",
+          "why": "Obviously 改为 It is obvious that。"
+        },
+        {
+          "stem": "似乎越来越多的青少年已经很沉迷于网络游戏。",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一上期中",
+          "ans": "It seems that more and more teenagers have been addicted to (playing) online games.",
+          "why": "as if 与 that 皆可，It 作形式主语。",
+          "long": true
+        }
+      ]
+    },
+    {
       "no": 8,
       "name": "倒装",
       "vols": 20,
@@ -1169,7 +1165,7 @@
         {
           "type": "gloss",
           "lines": [
-            "8 题里 4 题",
+            "4 题",
             "Not only、Never 放句首"
           ]
         },
@@ -1182,38 +1178,12 @@
           "text": "只倒助动词，不倒后面的 but also 从句，如 Not only did she achieve …（did 在前，achieve 用原形）。"
         },
         {
-          "type": "subhead",
-          "text": "Only 句首"
-        },
-        {
-          "type": "gloss",
-          "lines": [
-            "8 题里 2 题",
-            "only + 状语，句首倒装"
-          ]
+          "type": "p",
+          "text": "only + 状语（介词短语或从句）放句首时，主句用 can、did 等助动词提到主语前；only 修饰主语时不倒装。"
         },
         {
           "type": "p",
-          "text": "only + 状语（介词短语或从句）放句首，主句用 can、did 等助动词提到主语前。"
-        },
-        {
-          "type": "p",
-          "text": "状语是介词短语或从句时都要倒；only 修饰主语时句子不倒装，只有 only + 状语放句首才倒。"
-        },
-        {
-          "type": "subhead",
-          "text": "地点状语句首"
-        },
-        {
-          "type": "gloss",
-          "lines": [
-            "8 题里 2 题",
-            "地点状语句首，全倒装"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "表地点或方位的状语（on both sides of、in front of）放句首，谓语是 be 或不及物动词、主语是名词时，谓语全部提到主语前。主语是代词时不倒。"
+          "text": "表地点或方位的状语放句首，谓语是 be 或不及物动词、主语是名词时全部倒装；主语是代词时不倒。"
         },
         {
           "type": "pattern",
@@ -1271,28 +1241,11 @@
           "long": true
         },
         {
-          "stem": "只有努力学习，你才能在英语上取得大的进步。",
-          "cue": [
-            "only倒装句"
-          ],
-          "src": "2022 · 东莞实验 · 高一上月考",
-          "ans": "Only by studying hard can you make great progress in English.",
-          "why": "only + 介词短语句首，can 提前。",
-          "long": true
-        },
-        {
-          "stem": "On both sides of the road ___ (be) beautiful flowers now.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高一上月考",
-          "ans": "are",
-          "why": "地点状语句首，主语 flowers 复数。"
-        },
-        {
           "stem": "我永远也忘记不了你对我和我的家人所表现出的善良和温暖。",
           "cue": [
             "用倒装句和定语从句翻译"
           ],
-          "src": "2023 · 东莞高中 · 高一上月考",
+          "src": "2023 · 东华 · 高一上期中",
           "ans": "Never will I forget the kindness and warmth (that/which) you showed me and my family.",
           "why": "Never 句首，will 提到 I 前。",
           "long": true
@@ -1305,6 +1258,16 @@
           "src": "2022 · 莞中松山湖 · 高一上期中",
           "ans": "Not only is calligraphy a form of Chinese art, but also an important skill.",
           "why": "Not only 句首，is 提到主语前。",
+          "long": true
+        },
+        {
+          "stem": "They not only introduced advanced technology, but also changed their views on how to develop economy. → ___ they ___ advanced technology, but also changed their views on how to develop economy.",
+          "cue": [
+            "改为倒装句"
+          ],
+          "src": "2022 · 翰林 · 高一上期中",
+          "ans": "Not only did they introduce",
+          "why": "not only 句首倒助动词 did。",
           "long": true
         }
       ]
