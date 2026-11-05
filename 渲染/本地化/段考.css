@@ -45,3 +45,12 @@
 /* 答案区按专题分组：每组一个 h4 + 一个 ol.key（h4 不进 ol，HTML 合法） */
 .answers > h4 { font: 700 9pt/var(--u) "sans-ui"; margin: var(--h) 0 0; break-after: avoid; }
 .answers > h4 + .key { margin-top: 0; }
+
+/* 强调划线类题：被强调部分（题库无划线，按答案标出） */
+u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline-offset: 2pt; }
+
+/* 整句答案单独占一行，说明另起；行高仍为 u（单一字族，不撑行盒） */
+.key .ans.long { display: block; line-height: var(--u); margin-right: 0; }
+
+/* 解析段：夹长英文时两端对齐会拉开字距，改齐左 */
+.solution > p { text-align: left; }

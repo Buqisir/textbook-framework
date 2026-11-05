@@ -88,3 +88,15 @@ def papers(rows):
         g, t, n, guess = info[rep]
         out.append((rep, sorted(members), g, t, n, guess))
     return out
+
+
+def topic_hit(name, pat, jie):
+    """解析命中专题。主谓一致特殊：东莞解析常把「时态和主谓一致」当套话写在任何谓语题上，
+    只有 ①提到就近原则，或 ②「考查」句里有主谓一致且不夹时态／语态／短语／搭配，才算。"""
+    jie = jie or ''
+    if name != '主谓一致':
+        return re.search(pat, jie) is not None
+    if '就近原则' in jie:
+        return True
+    m = re.search(r'考查([^。]*)', jie)
+    return bool(m and '主谓一致' in m.group(1) and not re.search(r'时态|语态|短语|搭配', m.group(1)))

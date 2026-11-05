@@ -10,9 +10,10 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from 节点 import NODES, papers  # noqa: E402
+from 节点 import NODES, papers, topic_hit  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+# 与 段考专题.py / 段考选题.py 保持一致
 TOPICS = [
     ('非谓语', r'非谓语|动名词|不定式|现在分词|过去分词'),
     ('it 形式主语／宾语', r'形式主语|形式宾语'),
@@ -57,7 +58,7 @@ for rep, members, g, t, n, guess in papers(rows):
             seen.add(dk)
             nd['题'] += 1
             for name, pat in TOPICS:
-                if re.search(pat, r['解析'] or ''):
+                if topic_hit(name, pat, r['解析']):
                     nd['专题'][name]['卷'].add(rep)
                     nd['专题'][name]['题'].append(r['id'])
 

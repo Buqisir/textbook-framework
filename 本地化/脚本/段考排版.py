@@ -13,6 +13,8 @@
 行内文本（explain 段、例题句意、解析、练一练说明等）先转义，再做三个替换：
   **词**     → <b>词</b>
   [[词]]     → <span class="em-atom">词</span>
+  [_词_]     → <u>词</u>（强调划线类题的划线部分）
+  练一练 drill 项可带 long: true（或答案 ≥6 词时自动）→ <b class="ans long">，答案单独占一行
   ___        → <span class="blank"></span>（空位）
 题干（stem.text / drill.stem）额外规则：题干里的换行（改写题原句与待填句之间）→ " → "；
   英文为主的题干 → <p lang="en">，中文为主（翻译题）→ <p>；cue 放 <span class="cue">（…）</span>；
@@ -71,7 +73,7 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
   ]
 }
 
-练一练答案区按讲的专题分组：每组前 <h4>专题 n　名称</h4>，<li data-no="…"><b class="ans">答案</b>说明</li>。
+练一练答案区按讲的专题分组：每组是 <h4>专题 n　名称</h4>（直接挂在 section 下）+ 独立的 <ol class="key">，<li data-no="…"><b class="ans">答案</b>说明</li>。
 """
 import html
 import json
@@ -94,6 +96,7 @@ CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
 BOLD_RE = re.compile(r'\*\*(.+?)\*\*')
 ATOM_RE = re.compile(r'\[\[(.+?)\]\]')
+UL_RE = re.compile(r'\[_(.+?)_\]')   # [_划线部分_] → <u>（强调划线类题：题库无划线，按答案标出）
 
 
 def esc(s):
@@ -105,6 +108,7 @@ def inline(s):
     t = BLANK_RE.sub('\x00BLANK\x00', esc(s))
     t = BOLD_RE.sub(r'<b>\1</b>', t)
     t = ATOM_RE.sub(r'<span class="em-atom">\1</span>', t)
+    t = UL_RE.sub(r'<u>\1</u>', t)
     return t.replace('\x00BLANK\x00', '<span class="blank"></span>')
 
 
@@ -244,18 +248,22 @@ def topic_html(t, drill_nos):
 
 
 def answers_html(topics, drill_nos_by_topic):
-    lis = []
+    groups = []
     for t in topics:
         if not t.get('drill'):
             continue
-        lis.append(f'    <h4>专题 {t["no"]}　{esc(t["name"])}</h4>')
+        lis = []
         for d, n in zip(t['drill'], drill_nos_by_topic[t['no']]):
             why = inline(d.get('why') or '')
-            lis.append(f'    <li data-no="{n}"><b class="ans">{inline(d["ans"])}</b>{why}</li>')
+            long = d.get('long') or len(d['ans'].split()) >= 6   # 整句答案单独占一行
+            cls = 'ans long' if long else 'ans'
+            lis.append(f'    <li data-no="{n}"><b class="{cls}">{inline(d["ans"])}</b>{why}</li>')
+        groups.append(f'  <h4>专题 {t["no"]}　{esc(t["name"])}</h4>\n'
+                      '  <ol class="key">\n' + '\n'.join(lis) + '\n  </ol>')
     return (
         '<section class="part answers">\n'
         '  <header class="topic-head" data-no="答"><h3>练一练答案</h3></header>\n'
-        '  <ol class="key">\n' + '\n'.join(lis) + '\n  </ol>\n'
+        + '\n'.join(groups) + '\n'
         '</section>\n')
 
 
