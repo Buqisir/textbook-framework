@@ -561,3 +561,18 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 /* 节标题占位：标题下挂 126pt（6 行）透明内边距、不可拆，再用负外边距拉回后文。页末剩不足 6 行时标题换页（所有者：页末只有标题就放下一页）。
  * Vivliostyle 在会留白时不守 break-after: avoid，只能这样保证。126 = 12 个半格，网格不受影响。 */
 .part > .topic-head { padding-bottom: 126pt; margin-bottom: calc(var(--u) - 126pt); break-inside: avoid; }
+
+/* 出处加半角方括号 [ ]（所有者定，2026-11-05）：与题内的词形提示、改写要求（圆括号）分开；改写要求不拆行 */
+.src::before { content: "["; }
+.src::after { content: "]"; }
+.cue { white-space: nowrap; }
+
+/* 题内提示 / 做题要求（cue，如「（用 recommend 翻译句子）」）与题干同字号：12pt 宋体（所有者定，2026-11-05；原 9pt 黑体） */
+.cue { font: 400 12pt/1 "serif-cjk"; margin-left: 0.25em; }
+
+/* 答案区改单栏（所有者提，2026-11-05）：双栏每栏约 18 字，几乎每条都折成三四行；单栏每条多数一两行读完。
+ * 题号悬挂 2 字；整句答案仍独占一行；条与条之间空半格。 */
+.key { columns: 1; }
+.key li + li { margin-top: var(--h); }
+.key li + li { margin-top: 0; }   /* 单栏后条目自然分开，不再空半格，省页 */
+.key li { max-width: 408pt; }    /* 整句英文答案与题干同宽，≤ 80 字符 */
