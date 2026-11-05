@@ -193,7 +193,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .src { font: 400 9pt/1 "sans-ui"; }
 .ex-head .src { margin-right: 0; }
 .ex-head .hint { font: 400 9pt/1 "sans-ui"; }
-.src + .hint::before { content: "\2002\00B7\2002"; }
+.src + .hint::before { content: "\2003"; }   /* 出处与提示之间空一字，不用「 · 」 */
 .stem > p[lang="en"] { font-size: 12pt; }   /* 题干 12pt STIX，不放大 */
 .solution { margin: var(--h) 0 0 calc(2 * var(--zi)); }   /* 与题干空半格；整块左缩 2 字 */
 .solution > p { margin: 0; }

@@ -168,7 +168,7 @@ def stat_html(s):
 def header_html(d):
     stats = ''.join(f'<li>{stat_html(s)}</li>' for s in d['stats'])
     return (
-        f'<section class="unit stage" data-unit="高一上 · {esc(d["h2"])}">\n'
+        f'<section class="unit stage" data-unit="高一上{esc(d["h2"])}">\n'
         f'<header class="unit-head stage-head" data-no="{esc(d["data_no"])}">\n'
         f'  <p class="unit-book">{esc(d["unit_book"])}</p>\n'
         f'  <h2>{esc(d["h2"])}</h2>\n'
@@ -195,7 +195,7 @@ def overview_html(o):
             f'<td class="go">{inline(r["go"])}</td></tr>')
     return (
         '<section class="part overview">\n'
-        f'  <header class="topic-head"><h3>{esc(o["title"])}</h3><span class="chip chip-freq">{esc(o["chip"])}</span></header>\n'
+        f'  <header class="topic-head"><h3>{esc(o["title"])}</h3><span class="chip chip-freq">{esc(o["chip"].replace(' · ', ' '))}</span></header>\n'
         f'  <p class="lead">{inline(o["lead"])}</p>\n'
         '  <table class="focus">\n'
         '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col><col class="c-go"></colgroup>\n'
@@ -251,7 +251,7 @@ def example_html(e):
 
 def topic_html(t, drill_nos):
     no = t['no']
-    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷 · <b>{t["n"]}</b> 道')
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷，<b>{t["n"]}</b> 道')
     parts = [
         f'<section class="topic" data-no="{no}">\n',
         f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'
@@ -297,7 +297,7 @@ def answers_html(topics, drill_nos_by_topic):
 
 def gloss_en(lines):
     """柱注合成一行：多行用「 · 」接起。英式没有柱，柱注住在小标题药丸右侧或例题首行。"""
-    return ' · '.join(inline(x) for x in lines)
+    return '；'.join(inline(x) for x in lines)   # 两条提示用分号接（不用「 · 」）
 
 
 def explain_items_en(blocks):
@@ -404,7 +404,7 @@ def drill_p_en(d):
 
 def topic_en_html(t, drill_nos):
     no = t['no']
-    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷 · <b>{t["n"]}</b> 道')
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷，<b>{t["n"]}</b> 道')
     parts = [
         f'<section class="topic" data-no="{no}">\n',
         f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'

@@ -472,7 +472,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "形容词后 → 名词<br>修饰物 → -ive"
+          "gloss": "形容词后用名词<br>修饰物用 -ive"
         },
         {
           "词头": "curious",
@@ -525,7 +525,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "所有格、of 后 → 名词"
+          "gloss": "所有格、of 后用名词"
         },
         {
           "词头": "frightened",
@@ -585,7 +585,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "人的感受 → -ed"
+          "gloss": "人的感受用 -ed"
         },
         {
           "词头": "anxious",
@@ -645,7 +645,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "feel、be 后 → 形容词<br>of 后 → 名词"
+          "gloss": "feel、be 后用形容词<br>of 后用名词"
         },
         {
           "词头": "annoyed",
@@ -712,7 +712,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "人的感受 → -ed<br>事物特征 → -ing"
+          "gloss": "人的感受用 -ed<br>事物特征用 -ing"
         },
         {
           "词头": "confident",
@@ -765,7 +765,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "所有格、enough 后 → 名词"
+          "gloss": "所有格、enough 后用名词"
         },
         {
           "词头": "individual",
@@ -803,7 +803,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰动词 → 副词"
+          "gloss": "修饰动词用副词"
         },
         {
           "词头": "formal",
@@ -841,7 +841,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰动词 → 副词"
+          "gloss": "修饰动词用副词"
         },
         {
           "词头": "nationality",
@@ -886,7 +886,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "名词前 → 形容词"
+          "gloss": "名词前用形容词"
         },
         {
           "词头": "personality",
@@ -924,7 +924,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "形容词后 → 名词"
+          "gloss": "形容词后用名词"
         }
       ],
       "phrases": [
@@ -949,7 +949,7 @@
               "answer_show": "kept me company"
             }
           ],
-          "gloss": "accompany 同义 → keep<br>人称代词居中"
+          "gloss": "与 accompany 同义，用 keep<br>人称代词居中"
         },
         {
           "短语": "make/leave a good impression on sb",
@@ -987,7 +987,7 @@
               "answer_show": "made a good impression on"
             }
           ],
-          "gloss": "has 后 → 过去分词<br>原题考 on",
+          "gloss": "has 后用过去分词<br>原题考 on",
           "对照": {
             "短语": "have a good impression of sb",
             "释义": "对某人有好印象"
@@ -1014,7 +1014,7 @@
               "answer_show": "It's not difficult for me to get used to the life of high school."
             }
           ],
-          "gloss": "中文义 → 固定搭配<br>it 作形式主语"
+          "gloss": "按中文义用固定搭配<br>it 作形式主语"
         }
       ],
       "tricks": [
@@ -1751,7 +1751,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰名词 → 形容词<br>系动词后 → 形容词"
+          "gloss": "修饰名词用形容词<br>系动词后用形容词"
         },
         {
           "词头": "confusing",
@@ -1812,13 +1812,13 @@
               "cue": [],
               "提示词": "confuse",
               "答案": "confusing",
-              "解析": "考查形容词。句意：作为一个母亲，这总是让人困惑：你给你的孩子吃什么?句中用形容词作表语。定语从句中主语是物，所以用-ing形式形容词。形容词confusing，表示“令人困惑的”。根据句意，故填confusing。",
+              "解析": "考查形容词。句意：作为一个母亲，这总是让人困惑：你给你的孩子吃什么?句中用形容词作表语。定语从句中主语是物，所以用 -ing形式形容词。形容词confusing，表示“令人困惑的”。根据句意，故填confusing。",
               "句意": "",
               "reason": "主语是物，-ing 形容词作表语",
               "answer_show": null
             }
           ],
-          "gloss": "感到 → confused<br>令人 → confusing"
+          "gloss": "「感到」用 confused<br>「令人」用 confusing"
         },
         {
           "词头": "responsible",
@@ -1871,7 +1871,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "of 后、作主语 → 名词"
+          "gloss": "of 后、作主语用名词"
         },
         {
           "词头": "actually",
@@ -1924,7 +1924,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "句首修饰全句 → 副词"
+          "gloss": "句首修饰全句用副词"
         },
         {
           "词头": "fluent",
@@ -1984,7 +1984,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰动词 → 副词"
+          "gloss": "修饰动词用副词"
         },
         {
           "词头": "obviously",
@@ -2090,7 +2090,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "冠词、形容词后 → 名词"
+          "gloss": "冠词、形容词后用名词"
         },
         {
           "词头": "survival",
@@ -2150,7 +2150,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "one 后 → 单数指人<br>the 后 → 复数"
+          "gloss": "one 后用单数，指人<br>the 后用复数"
         },
         {
           "词头": "attract",
@@ -2195,7 +2195,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "名词后 → 复合名词"
+          "gloss": "与名词构成复合名词"
         },
         {
           "词头": "prefer",
@@ -2233,7 +2233,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "冠词后 → 名词"
+          "gloss": "冠词后用名词"
         },
         {
           "词头": "suitable",
@@ -2286,7 +2286,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "than 前 → 形容词<br>is 后 → 形容词"
+          "gloss": "than 前用形容词<br>is 后用形容词"
         },
         {
           "词头": "addicted",
@@ -2338,7 +2338,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "those 后 → 形容词"
+          "gloss": "those 后用形容词"
         },
         {
           "词头": "behaviour",
@@ -2391,7 +2391,7 @@
               "answer_show": "behavior（亦可 behaviour）"
             }
           ],
-          "gloss": "best 后 → 名词<br>bad 后 → 名词"
+          "gloss": "best、bad 后用名词"
         },
         {
           "词头": "advanced",
@@ -2429,7 +2429,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "more 后 → 形容词"
+          "gloss": "more 后用形容词"
         }
       ],
       "phrases": [
@@ -2454,7 +2454,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "be 后 → 形容词<br>原题考 responsible for",
+          "gloss": "be 后用形容词<br>原题考 responsible for",
           "对照": {
             "短语": "a sense of responsibility",
             "释义": "责任感"
@@ -2481,7 +2481,7 @@
               "answer_show": "took responsibility for（亦可 was responsible for）"
             }
           ],
-          "gloss": "同义搭配 → take / be<br>后接 for + 动名词"
+          "gloss": "同义搭配：take / be<br>后接 for + 动名词"
         }
       ],
       "tricks": [
@@ -2978,7 +2978,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰形容词 → 副词"
+          "gloss": "修饰形容词用副词"
         },
         {
           "词头": "arrangement",
@@ -3031,7 +3031,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "形容词后 → 名词<br>名词后 → 复合名词"
+          "gloss": "形容词后用名词<br>与名词构成复合名词"
         },
         {
           "词头": "amazing",
@@ -3077,7 +3077,7 @@
               "cue": [],
               "提示词": "amaze",
               "答案": "amazing",
-              "解析": "考查形容词。句意：我把一次不愉快的经历变成了我一生中最奇妙的冒险。分析句子结构可知，空后是名词，所以空处应该能形容词作定语，修饰adventure，为物，应该用-ing形式。故填amazing。",
+              "解析": "考查形容词。句意：我把一次不愉快的经历变成了我一生中最奇妙的冒险。分析句子结构可知，空后是名词，所以空处应该能形容词作定语，修饰adventure，为物，应该用 -ing形式。故填amazing。",
               "句意": "",
               "reason": "修饰物 adventure，-ing 作定语",
               "answer_show": null
@@ -3098,7 +3098,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰物 → -ing<br>to one's → 名词"
+          "gloss": "修饰物用 -ing<br>to one's 后用名词"
         },
         {
           "词头": "apply",
@@ -3143,7 +3143,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "冠词后 → 名词<br>指人 → -ant"
+          "gloss": "冠词后用名词<br>指人用 -ant"
         },
         {
           "词头": "official",
@@ -3203,7 +3203,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "修饰动词 → 副词"
+          "gloss": "修饰动词用副词"
         },
         {
           "词头": "powerful",
@@ -3248,7 +3248,7 @@
               "answer_show": null
             }
           ],
-          "gloss": "名词前 → 形容词"
+          "gloss": "名词前用形容词"
         }
       ],
       "phrases": [],
