@@ -357,12 +357,40 @@ def example_en_html(e, n):
         '  </article>\n')
 
 
+# ── 作答方式（2026-11-05 所有者定）──
+# whole：整句作答（题干无空，或以「→ ___」收尾）→ 题下单独两条书写横线 <div class="answer-lines">，去掉句末的「→ ___」；
+# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 空位加长 <span class="blank long">；
+# normal：其余（含单句改错）不变。只用于练习题（练一练 / 原题），例题不加。
+ANSWER_LINES = '<div class="answer-lines"></div>'
+_TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
+
+
+def answer_mode(stem, cues=None):
+    if '改错' in ''.join(cues or []):
+        return 'normal'
+    s = (stem or '').replace('\n', ' → ').strip()
+    if not re.search(r'_{2,}', s) or _TAIL_BLANK_RE.search(s):
+        return 'whole'
+    return 'half' if '→' in s else 'normal'
+
+
+def strip_tail_blank(stem):
+    return _TAIL_BLANK_RE.sub('', stem or '')
+
+
 def drill_p_en(d):
     """练一练题干段（英式）：出处放段首，后空 1 字接题干；改写指令（cue）仍在句末。"""
+    mode = answer_mode(d.get('stem'), d.get('cue'))
     text = (d.get('stem') or '').replace('\n', ' → ')
+    if mode == 'whole':
+        text = strip_tail_blank(text)
     src = f'<span class="src">{esc(d["src"])}</span>' if d.get('src') else ''
     lang = ' lang="en"' if is_en(text) else ''
-    return f'<p{lang}>{src}{inline(text)}{cue_html(d.get("cue"))}</p>'
+    body = inline(text)
+    if mode == 'half':
+        body = body.replace('<span class="blank"></span>', '<span class="blank long"></span>')
+    tail = ANSWER_LINES if mode == 'whole' else ''
+    return f'<p{lang}>{src}{body}{cue_html(d.get("cue"))}</p>{tail}'
 
 
 def topic_en_html(t, drill_nos):

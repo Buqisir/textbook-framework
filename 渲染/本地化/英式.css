@@ -503,3 +503,17 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 
 /* 出处 10.5pt（所有者定，2026-11-05；原 9pt 嫌小）：行内件 line-height 1，不撑行盒 */
 .src { font: 400 10.5pt/1 "sans-ui"; }
+
+/* ══ 答题横线（所有者定，2026-11-05）══
+ * 整句作答的练习题：题下空半格，两条书写横线（各占 1u，线在行底，0.6pt 实地墨色，同 .blank），宽同英文题干。
+ * 只填句中一截的改写题：空位加长到 12em。 */
+.answer-lines {
+  height: calc(2 * var(--u));
+  margin-top: var(--h);
+  max-width: 408pt;
+  background:
+    linear-gradient(var(--ink), var(--ink)) left calc(var(--u) - 0.6pt) / 100% 0.6pt no-repeat,
+    linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.6pt no-repeat;
+}
+.unit:not(.stage) .answer-lines { max-width: 390pt; }
+.blank.long { width: 12em; }

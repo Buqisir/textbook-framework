@@ -76,12 +76,38 @@ def gloss_line(g):
     return ' · '.join(x for x in g.split('<br>') if x)
 
 
+# ── 作答方式（2026-11-05 所有者定）──
+# whole：整句作答（题干无空，或以「→ ___」收尾）→ 题下单独两条书写横线 <div class="answer-lines">，去掉句末的「→ ___」；
+# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 空位加长 <span class="blank long">；
+# normal：其余（含单句改错）不变。只用于练习题（练一练 / 原题），例题不加。
+ANSWER_LINES = '<div class="answer-lines"></div>'
+_TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
+
+
+def answer_mode(stem, cues=None):
+    if '改错' in ''.join(cues or []):
+        return 'normal'
+    s = (stem or '').replace('\n', ' → ').strip()
+    if not re.search(r'_{2,}', s) or _TAIL_BLANK_RE.search(s):
+        return 'whole'
+    return 'half' if '→' in s else 'normal'
+
+
+def strip_tail_blank(stem):
+    return _TAIL_BLANK_RE.sub('', stem or '')
+
+
 def atom_li(a):
     """原题：出处在题干行首（后空 1 字接题干，CSS 定），改写指令仍在句末。"""
-    text = a['题干']
-    body = f'<span class="src">{esc(a["标签"])}</span>' + stem_html(text) + cue_html(a.get('cue'))
+    mode = answer_mode(a['题干'], a.get('cue'))
+    text = strip_tail_blank(a['题干']) if mode == 'whole' else a['题干']
+    stem = stem_html(text)
+    if mode == 'half':
+        stem = stem.replace('<span class="blank"></span>', '<span class="blank long"></span>')
+    body = f'<span class="src">{esc(a["标签"])}</span>' + stem + cue_html(a.get('cue'))
     lang = ' lang="en"' if is_en(text) else ''
-    return f'<li data-no="{a["no"]}"><p{lang}>{body}</p></li>'
+    tail = ANSWER_LINES if mode == 'whole' else ''
+    return f'<li data-no="{a["no"]}"><p{lang}>{body}</p>{tail}</li>'
 
 
 def atoms_html(atoms):
