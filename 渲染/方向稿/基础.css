@@ -92,7 +92,7 @@ th, td { padding-top: 0; padding-bottom: 0; }
 
 /* 独立英文语料块：按英文规则左对齐，不做中西补偿 */
 p[lang="en"] {
-  font-family: "arrow", "serif-en";
+  font-family: "arrow", "serif-en", "serif-cjk";   /* 英文块里夹的中文提示（如「(沉迷于)」）落到思源宋体，不回退系统字体 */
   text-align: left;
   text-spacing-trim: normal;
 }

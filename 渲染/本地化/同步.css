@@ -4,7 +4,11 @@
  * 用色：主色仍只给编号与图形——单元号、部分号、题号、计数条、「东莞考过」实点。 */
 @import url("主线.css");
 
-/* ── 单元头：跨版心，4u 高 ── */
+/* ── 单元：每单元起新页 ── */
+.unit + .unit { break-before: page; }
+.part > .topic-head { break-inside: avoid; break-after: avoid; }
+
+/* ── 单元头：跨版心，5u 高 ── */
 .unit-head {
   position: relative;
   min-height: calc(4 * var(--u));
@@ -37,18 +41,22 @@
 /* 「东莞考过」实点：图形，用主色 */
 .dot { display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; }
 
-/* ── ① 考情总表：通栏 ── */
-.freq { width: 100%; border-collapse: collapse; }
+/* ── ① 考情总表：通栏，定宽列。形式最多 3 个，考法最多 2 个（选题脚本负责截断） ── */
+.freq { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.freq col.c-word { width: var(--col); }
+.freq col.c-how { width: 84pt; }
+.freq col.c-tally { width: 96pt; }
 .freq th { font: 400 9pt/var(--u) "sans-ui"; text-align: left; background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat; }
 .freq td { vertical-align: top; text-align: left; background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
 .freq th, .freq td { padding-left: 0; padding-right: var(--zi); }
 .freq tr > :last-child { padding-right: 0; }
-.freq td:first-child { width: var(--col); font: 600 12pt/var(--u) "serif-en"; }
+.freq td:first-child { font: 600 12pt/var(--u) "serif-en"; }
 .freq td.forms { font-family: "serif-en"; }
+.freq td.forms span { white-space: nowrap; }
 .freq td.forms span + span::before { content: "\2002\00B7\2002"; }
 .freq td.forms sub { font: 400 9pt/1 "sans-ui"; vertical-align: baseline; margin-left: 0.15em; }
-.freq td.how { font: 400 9pt/var(--u) "sans-ui"; white-space: nowrap; }
-.freq th:last-child, .freq td.tally { width: 108pt; white-space: nowrap; }
+.freq td.how { font: 400 9pt/var(--u) "sans-ui"; }
+.freq td.tally { white-space: nowrap; }
 .tally i { display: inline-block; width: 3.75pt; height: 7.5pt; margin-right: 1.5pt; background: var(--accent); vertical-align: -0.5pt; }
 .tally span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
 
@@ -83,9 +91,11 @@
 .atoms li { display: block; position: relative; }
 .atoms li::before { content: attr(data-no); position: absolute; left: -2em; font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
 .atoms li > p[lang="en"] { display: inline; }
-.atoms .src { font: 400 9pt/1 "sans-ui"; margin-left: 1em; white-space: nowrap; }
-.atoms .src::before { content: "["; }
-.atoms .src::after { content: "]"; }
+.src { font: 400 9pt/1 "sans-ui"; margin-left: 1em; white-space: nowrap; }
+.src::before { content: "["; }
+.src::after { content: "]"; }
+/* 改写类题的具体指令（同义句转换、强调划线部分、用 it 作形式主语……）保留，9pt 跟在句末 */
+.cue { font: 400 9pt/1 "sans-ui"; margin-left: 0.5em; }
 
 
 /* ── 答案：册末，两栏，10.5pt 仍压在 u 网格上 ── */
@@ -100,3 +110,8 @@
 .key h4 { column-span: all; font: 700 9pt/var(--u) "sans-ui"; margin: var(--h) 0 0 -2em; }
 
 /* 小号行内件一律 line-height: 1，免得撑高 21pt 行盒、把基线推离网格 */
+
+/* 例题：出处随题干句末（.src），柱里只留「例 n」与柱注；整句答案另起一行 */
+.solution > p.ans-line { text-align: left; }
+.solution > p.ans-line > .ans { display: block; padding-left: 2em; font-family: "arrow", "serif-en", "serif-cjk"; }
+.explain > .evidence { text-align: left; margin-top: var(--h); }
