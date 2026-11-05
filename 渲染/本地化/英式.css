@@ -1,0 +1,307 @@
+/* 英式版式 · 段考样章（2026-11-05）
+ * 依据：规范/04-英式版式.md（§1 版心、§2 色形、§3.1–3.9 组件、§4 密度）。
+ * 只 import 基础.css（字体、令牌、正文基线、.blank、@page 的 string-set）；不引用 段考.css / 同步.css / 主线.css（柱式，04 §0 停用）。
+ *
+ * 尺寸：版心 36 字 = 432pt（左右各 28.8mm，左右页镜像相同）× 35 行 = 735pt（天 16mm / 地 21.7mm）。
+ *   u = 21pt（行距，= 两个半格）；h = 10.5pt（半格）；zi = 12pt（一字）。左缘纵轴只有版心左缘一条。
+ * 网格纪律：块间距、内边距、色块高度取 h 的整数倍；9pt / 10.5pt 的行内件（药丸、出处、说明）一律 line-height: 1，
+ *   不撑高 21pt 行盒；独立成行的 9pt / 10.5pt 文字用 position: relative; top 下移到 12pt 的基线（01 §1 规则 4）；
+ *   线用背景渐变或 box-shadow inset 画，不占行高。
+ * 12pt 行的基线 = 行盒顶 + 15.06pt，mod 10.5 = 4.56pt，所有块从版心顶起排，基线落在同一条半格网上。
+ * 色：--accent 只给药丸底、专题号块、题号、星圈、答案条、册头角标；--accent-wash 是本页唯一浅底（知识块）。
+ */
+@import url("基础.css");
+
+/* ── 页面：单栏，左右页边距相同；页码 12pt 黑体粗，面包屑 9pt（规范 §3.9） ── */
+@page { size: A4; margin: 16mm 28.8mm 21.7mm 28.8mm; }
+@page :left {
+  margin-left: 28.8mm;
+  margin-right: 28.8mm;
+  @bottom-left-corner {
+    content: counter(page);
+    font: 700 12pt/1 "sans-ui";
+    color: var(--ink);
+    text-align: right;
+    vertical-align: top;
+    padding-top: calc(6mm - 2.64pt);   /* 与 9pt 面包屑同基线：6mm + 7.92 − 10.56 */
+    padding-right: 12pt;
+  }
+  @bottom-left {
+    content: string(unit) " \203A  " string(topic, first);
+    font: 400 9pt/1 "sans-ui";
+    color: var(--ink);
+    text-align: left;
+    vertical-align: top;
+    padding-top: 6mm;
+  }
+}
+@page :right {
+  margin-left: 28.8mm;
+  margin-right: 28.8mm;
+  @bottom-right-corner {
+    content: counter(page);
+    font: 700 12pt/1 "sans-ui";
+    color: var(--ink);
+    text-align: left;
+    vertical-align: top;
+    padding-top: calc(6mm - 2.64pt);
+    padding-left: 12pt;
+  }
+  @bottom-right {
+    content: string(unit) " \203A  " string(topic, first);
+    font: 400 9pt/1 "sans-ui";
+    color: var(--ink);
+    text-align: right;
+    vertical-align: top;
+    padding-top: 6mm;
+  }
+}
+
+/* 下划线（强调划线类题的 [_…_] 划线部分，段考.css 在现行主题里提供，这里补上） */
+u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline-offset: 2pt; }
+
+/* ── 3.1 册头：kicker → 册名 → 统计行；编号做右上角角标；无下线，与下文空 1u ── */
+.stage-head { position: relative; margin: 0 0 var(--u); }
+.stage-head::before {
+  content: attr(data-no);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 6pt;                 /* 0 半字 */
+  font: 700 12pt/var(--u) "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 4pt;
+}
+.stage-head .unit-book { margin: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }   /* 9pt 独立行：下移到 12pt 基线 */
+.stage-head h2 { margin: 0; font: 700 24pt/calc(2 * var(--u)) "sans-ui"; position: relative; top: -4.56pt; }  /* 24pt 基线 30.12 → 25.56（落回网格） */
+.stage-head .unit-stats { list-style: none; margin: 0; padding: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+.stage-head .unit-stats li { display: inline; margin-right: 2em; }
+.stage-head .unit-stats b { font: 700 12pt/1 "sans-ui"; margin-right: 0.25em; }
+
+/* ── 3.3 专题头：2u 方块（专题号，主色实地）+ 20pt 专题名 + 考频 chip；无下线；与下文空 1u ──
+ * 名称基线 25.56pt（= u + 4.56，落在半格网上）；chip 与它同基线。 */
+.topic-head { position: relative; height: calc(2 * var(--u)); margin: 0 0 var(--u); break-after: avoid; }
+.topic-head::before {
+  content: attr(data-no);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(2 * var(--u));
+  height: calc(2 * var(--u));
+  border-radius: 4pt;
+  background: var(--accent);
+  color: #FFFFFF;
+  font: 700 18pt/calc(2 * var(--u)) "sans-ui";
+  text-align: center;
+}
+.topic-head h3 {
+  margin: 0 0 0 calc(2 * var(--u) + var(--zi));   /* 方块 + 1 字 */
+  font: 700 20pt/calc(2 * var(--u)) "sans-ui";
+  letter-spacing: 0.04em;
+  position: relative;
+  top: -3.04pt;
+}
+.topic-head .chip-freq {
+  position: absolute;
+  right: 0;
+  top: 17.64pt;                   /* 25.56 − 7.92（9pt、line-height 1 的基线） */
+  font: 400 9pt/1 "sans-ui";
+}
+.topic-head .chip-freq b { font-weight: 700; }
+
+/* ── 3.2 考情总览：通栏表格；标题 16pt，无编号 ── */
+.overview > .topic-head::before { content: none; }
+.overview > .topic-head h3 { margin-left: 0; font: 700 16pt/calc(2 * var(--u)) "sans-ui"; top: -1.52pt; }   /* 16pt 基线 27.08 → 25.56 */
+.overview .lead { margin: 0 0 var(--h); font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+.overview > .after { margin: var(--h) 0 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+
+.focus { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.focus col.c-name { width: 96pt; }
+.focus col.c-cov { width: 132pt; }
+.focus col.c-n { width: 36pt; }
+.focus col.c-go { width: 48pt; }
+.focus th {
+  font: 400 9pt/var(--u) "sans-ui";
+  text-align: left;
+  position: relative;
+  top: 1.14pt;
+  background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat;
+}
+.focus td {
+  vertical-align: top;
+  text-align: left;
+  background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat;
+}
+.focus th, .focus td { padding: 0 var(--zi) 0 0; }
+.focus tr > :last-child { padding-right: 0; }
+.focus td.name { font: 500 12pt/var(--u) "sans-ui"; }
+.focus tbody tr.skip td.name { font-weight: 400; }
+.focus td.n, .focus td.book, .focus td.go { font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
+.focus td.book .ahead { font-weight: 700; }   /* 考在教之前：加粗不加色 */
+.focus td.cov { white-space: nowrap; }
+.cov i { display: inline-block; width: 6pt; height: 7.5pt; margin-right: 1.5pt; box-shadow: inset 0 0 0 0.5pt var(--accent); vertical-align: -0.5pt; }
+.cov i.on { background: var(--accent); box-shadow: none; }
+.cov span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
+
+/* ── 专题：每专题起新页 ── */
+.topic { break-before: page; }
+
+/* ── 3.4 知识块：每个小标题及其内容一组（.group）：浅底圆角，药丸标题，同行柱注 ── */
+.group {
+  margin-top: var(--h);
+  padding: var(--h) var(--zi);     /* 上下半格，左右 1 字 */
+  background: var(--accent-wash);
+  border-radius: 4pt;
+  break-inside: avoid;
+}
+.group > p { margin: 0; text-indent: 0; position: relative; }
+/* 小标题 → 实心药丸（inline-block，line-height 1，不撑高行盒） */
+.group > .subhead {
+  display: inline-block;
+  padding: 1.5pt var(--h);
+  font: 700 10.5pt/1 "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 999pt;
+}
+/* 柱注 → 药丸右侧同一行的 9pt 说明（多行已在排版时用「 · 」合成一行） */
+.group > .gloss { display: inline; margin-left: 1em; font: 400 9pt/1 "sans-ui"; }
+/* 要点段：不缩进；悬挂一个主色小方块，落在色块左内边距里 */
+.group > p:not(.subhead):not(.pattern)::before {
+  content: "";
+  position: absolute;
+  left: -8pt;
+  top: 9pt;
+  width: 4pt;
+  height: 4pt;
+  background: var(--accent);
+}
+/* 句型：组内最后一行；9pt 黑体标签 + 12pt STIX 粗 */
+.group > .pattern { font-weight: 700; }
+.group > .pattern::before { content: "句型"; margin-right: 0.75em; font: 400 9pt/1 "sans-ui"; }
+/* 注：组内一行；「注」9pt 黑体粗 + 正文 */
+.group > .note { margin: 0; }
+.group > .note::before { content: "注"; margin-right: 0.5em; font: 700 9pt/1 "sans-ui"; }
+
+/* ── 3.5 例题：首行「例 n + 出处 + 提示」；题干另起；解析左缩 2 字，无底无框 ── */
+.example { margin-top: var(--u); break-inside: avoid; }
+.example + .example { margin-top: var(--u); }
+.stem { break-inside: avoid; }
+.ex-head { margin: 0; }
+.ex-no { font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); margin-right: 1em; }   /* 例 n：12pt 黑体粗主色，后空 1 字 */
+.src { font: 400 9pt/1 "sans-ui"; }
+.ex-head .src { margin-right: 0; }
+.ex-head .hint { font: 400 9pt/1 "sans-ui"; }
+.src + .hint::before { content: "\2002\00B7\2002"; }
+.stem > p[lang="en"] { font-size: 12pt; }   /* 题干 12pt STIX，不放大 */
+.solution { margin: var(--h) 0 0 calc(2 * var(--zi)); }   /* 与题干空半格；整块左缩 2 字 */
+.solution > p { margin: 0; }
+/* 解析药丸（h4）与「句意」同行：药丸 inline-block，紧随其后的句意段转为 inline */
+.solution > h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 1.5pt var(--h);
+  font: 700 9pt/1 "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 999pt;
+}
+.solution > h4 + p { display: inline; margin-left: 0.5em; }
+.solution b:not(.ans) { font: 700 12pt/var(--u) "serif-cjk"; }   /* 句意 / 成分 / 故填：标签 12pt 宋体粗 */
+.ans { font-family: "arrow", "serif-en", "serif-cjk"; font-weight: 700; }
+.solution > p.ans-line > .ans { display: block; }
+
+/* ── 3.6 要点：描边圆角框（0.75pt 主色，box-shadow 画）+ 左上角骑星圈 ── */
+.keypoint {
+  position: relative;
+  margin: var(--u) 0 0;
+  padding: var(--h) var(--zi) var(--h) calc(2 * var(--zi));   /* 上下半格，左 2 字，右 1 字 */
+  background: #FFFFFF;
+  border-radius: 4pt;
+  box-shadow: inset 0 0 0 0.75pt var(--accent);
+  break-inside: avoid;
+}
+.keypoint::before { content: "要点"; margin-right: 0.5em; font: 700 12pt/var(--u) "sans-ui"; }
+.keypoint > p { display: inline; margin: 0; }
+/* 星圈：直径 1u，圆心落在框左上角点向内 1 字处、上沿线上（left = 12 − 10.5；top = −10.5） */
+.keypoint::after {
+  content: "";
+  position: absolute;
+  left: 1.5pt;
+  top: -10.5pt;
+  width: var(--u);
+  height: var(--u);
+  border-radius: 50%;
+  background-color: var(--accent);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFFFFF' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12pt 12pt;
+}
+
+/* ── 3.7 练一练：描边药丸标题（无发丝线）；题号悬挂 2 字；出处在题前 ── */
+.drill { margin-top: var(--u); }
+.drill > h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 1.5pt 0.75em;
+  font: 700 12pt/1 "sans-ui";
+  color: var(--accent);
+  background: #FFFFFF;
+  border-radius: 999pt;
+  box-shadow: inset 0 0 0 0.75pt var(--accent);
+}
+.drill > .atoms { list-style: none; margin: var(--h) 0 0; padding-left: 2em; }
+.atoms > li { position: relative; margin: 0; break-inside: avoid; }
+.atoms > li + li { margin-top: var(--h); }
+.atoms > li::before {
+  content: attr(data-no);
+  position: absolute;
+  left: -2em;
+  top: 0;
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.atoms > li > p { margin: 0; }
+.drill .src { margin-right: 12pt; }   /* 出处在题前，后空 1 字接题干 */
+.cue { font: 400 9pt/1 "sans-ui"; margin-left: 6pt; }
+
+/* ── 3.8 答案：每个专题一条主色答案条（h4）+ 两栏 key ── */
+/* 答案接在末专题之后，不另起页（同 同步讲义 2026-11-05 的做法）：收全后尾页不会只剩两三道练习。上方空 1u */
+.answers { break-before: auto; margin-top: var(--u); }
+.answers > .topic-head h3 { margin-left: calc(2 * var(--u) + var(--zi)); }
+/* 条高 1u（height 固定），10.5pt 字用 22.14pt 行高把基线压到 15.06pt（12pt 网格），行盒溢出不影响条高 */
+.answers > h4 {
+  height: var(--u);
+  margin: var(--u) 0 var(--h);
+  padding: 0 var(--zi);
+  font: 700 10.5pt/22.14pt "sans-ui";
+  color: #FFFFFF;
+  background: var(--accent);
+  border-radius: 4pt;
+  break-after: avoid;
+}
+.key {
+  columns: 2;
+  column-gap: calc(2 * var(--zi));
+  margin: 0;
+  padding-left: 2em;
+  list-style: none;
+  font-size: 12pt;
+  line-height: var(--u);
+}
+.key li { position: relative; break-inside: avoid; margin: 0; text-align: left; }
+.key li + li { margin-top: var(--h); }
+.key li::before {
+  content: attr(data-no);
+  position: absolute;
+  left: -2em;
+  top: 0;
+  font: 700 12pt/var(--u) "sans-ui";
+  color: var(--accent);
+}
+.key .ans { font: 700 12pt/1 "serif-en"; margin-right: 0.5em; }   /* line-height 1：不撑高行盒 */
+.key .ans.long { display: block; line-height: var(--u); margin-right: 0; }
+
+/* 小号行内件一律 line-height: 1（药丸、出处、说明），免得撑高 21pt 行盒。 */

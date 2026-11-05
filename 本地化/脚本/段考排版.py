@@ -74,7 +74,21 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
 }
 
 练一练答案区按讲的专题分组：每组是 <h4>专题 n　名称</h4>（直接挂在 section 下）+ 独立的 <ol class="key">，<li data-no="…"><b class="ans">答案</b>说明</li>。
+
+=== 英式输出（--theme 英式，版式依据 规范/04-英式版式.md）===
+
+运行：python3 -I 本地化/脚本/段考排版.py <节点> --theme 英式 [--topics 1,3]
+  输出 渲染/本地化/段考-高一上-<节点>-英式.html，主题 渲染/本地化/英式.css（只 import 基础.css）。
+  JSON schema 不变；只是结构不同（其余同现行）：
+  · 讲解：每个 subhead 及其后的 gloss / p / pattern / note 包进 <div class="group">，直到下一个 subhead。
+    gloss 多行用「 · 」合成一行，与小标题药丸同行。note 的多行用空格接成一行。
+  · 例题：首行 <p class="ex-head"><b class="ex-no">例 n</b><span class="src">出处</span><span class="hint">柱注</span></p>，
+    题干段另起、不再带出处；解析首段前是 <h4>解析</h4>（药丸，与「句意」同行）。
+  · 练一练：出处放题干段行首 <p><span class="src">…</span>题干…</p>，句末不再放；改写指令 .cue 仍在句末。
+  · 新 class 只有 group、ex-head、ex-no、hint；其余沿用现有 class（src、gloss、pattern、note、keypoint、solution、ans-line 等）。
+  · --topics：只输出指定专题及其答案组；册头与考情总览保留；练一练题号仍按全册连续编号。只能与 --theme 英式 同用。
 """
+import argparse
 import html
 import json
 import re
@@ -91,12 +105,15 @@ NODE_FILES = {
     '样': ('段考-样.定稿.json', '段考-样-回放.html'),
 }
 
+THEME_CSS = {'现行': '段考.css', '英式': '英式.css'}
+
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
 BOLD_RE = re.compile(r'\*\*(.+?)\*\*')
 ATOM_RE = re.compile(r'\[\[(.+?)\]\]')
 UL_RE = re.compile(r'\[_(.+?)_\]')   # [_划线部分_] → <u>（强调划线类题：题库无划线，按答案标出）
+HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 英式：独立的 -ing / -ed 前缀，连字符后不断行
 
 
 def esc(s):
@@ -267,6 +284,107 @@ def answers_html(topics, drill_nos_by_topic):
         '</section>\n')
 
 
+# ── 英式版式（--theme 英式）：只改结构，JSON 与现行相同 ─────────────────
+
+def gloss_en(lines):
+    """柱注合成一行：多行用「 · 」接起。英式没有柱，柱注住在小标题药丸右侧或例题首行。"""
+    return ' · '.join(inline(x) for x in lines)
+
+
+def explain_items_en(blocks):
+    """讲解块逐个转 HTML（英式）。返回 [(类型, html)]。"""
+    out = []
+    for b in blocks:
+        t = b['type']
+        if t == 'subhead':
+            h = f'<p class="subhead">{inline(b["text"])}</p>'
+        elif t == 'gloss':
+            h = f'<aside class="gloss">{gloss_en(b["lines"])}</aside>'
+        elif t == 'p':
+            h = f'<p>{inline(b["text"])}</p>'
+        elif t == 'pattern':
+            h = f'<p class="pattern" lang="en">{inline(b["text"])}</p>'
+        elif t == 'note':
+            h = '<div class="note">' + ' '.join(inline(x) for x in b['lines']) + '</div>'
+        else:
+            raise SystemExit(f'explain 未知块类型：{t}')
+        out.append((t, h))
+    return out
+
+
+def explain_en_html(blocks):
+    """每个小标题及其后的内容包进 <div class="group">，直到下一个小标题。小标题之前的内容（若有）不分组。"""
+    segs = []   # [是否分组, [html, ...]]
+    for t, h in explain_items_en(blocks):
+        if t == 'subhead':
+            segs.append([True, [h]])
+        elif segs:
+            segs[-1][1].append(h)
+        else:
+            segs.append([False, [h]])
+    out = []
+    for grouped, hs in segs:
+        if grouped:
+            inner = '\n'.join('        ' + h for h in hs)
+            out.append('      <div class="group">\n' + inner + '\n      </div>')
+        else:
+            out.append('\n'.join('      ' + h for h in hs))
+    return '\n'.join(out)
+
+
+def example_en_html(e, n):
+    """例题（英式）：首行「例 n + 出处 + 柱注合成的提示」；题干另起，不带出处；解析首段前放解析药丸（h4）。"""
+    mid = e['mid']
+    label = mid.get('label', '成分')
+    head = f'<b class="ex-no">例 {n}</b>'
+    if e['stem'].get('src'):
+        head += f'<span class="src">{esc(e["stem"]["src"])}</span>'
+    hint = gloss_en(e.get('gloss') or [])
+    if hint:
+        head += f'<span class="hint">{hint}</span>'
+    return (
+        '  <article class="example">\n'
+        '    <div class="stem">\n'
+        f'      <p class="ex-head">{head}</p>\n'
+        f'      {stem_p(e["stem"], src_inline=False)}\n'
+        '    </div>\n'
+        '    <div class="solution">\n'
+        '      <h4>解析</h4>\n'
+        f'      <p><b>句意</b>：{inline(e["ju"])}</p>\n'
+        f'      <p><b>{esc(label)}</b>：{inline(mid["text"])}</p>\n'
+        + answer_p(e['ans']) + '\n'
+        '    </div>\n'
+        '  </article>\n')
+
+
+def drill_p_en(d):
+    """练一练题干段（英式）：出处放段首，后空 1 字接题干；改写指令（cue）仍在句末。"""
+    text = (d.get('stem') or '').replace('\n', ' → ')
+    src = f'<span class="src">{esc(d["src"])}</span>' if d.get('src') else ''
+    lang = ' lang="en"' if is_en(text) else ''
+    return f'<p{lang}>{src}{inline(text)}{cue_html(d.get("cue"))}</p>'
+
+
+def topic_en_html(t, drill_nos):
+    no = t['no']
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷 · <b>{t["n"]}</b> 道')
+    parts = [
+        f'<section class="topic" data-no="{no}">\n',
+        f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'
+        f'<span class="chip chip-freq">{chip}</span></header>\n',
+        '  <div class="explain">\n' + explain_en_html(t['explain']) + '\n  </div>\n',
+    ]
+    parts += [example_en_html(e, i) for i, e in enumerate(t['examples'], 1)]
+    if t.get('keypoint'):
+        parts.append(f'  <aside class="keypoint">\n    <p>{inline(t["keypoint"])}</p>\n  </aside>\n')
+    if t.get('drill'):
+        items = [f'      <li data-no="{n}">{drill_p_en(d)}</li>' for d, n in zip(t['drill'], drill_nos)]
+        parts.append('  <div class="drill">\n    <h4>练一练</h4>\n    <ol class="atoms">\n'
+                     + '\n'.join(items) + '\n    </ol>\n  </div>\n')
+    parts.append('</section>\n\n')
+    return ''.join(parts)
+
+
 def validate(D):
     errs = []
     if len(D['stats']) != 3:
@@ -305,7 +423,8 @@ def validate(D):
     return errs
 
 
-def build(D):
+def build(D, theme='现行', only=None):
+    """only：专题编号集合（仅英式）；None 为整册。练一练题号始终按全册连续编号。"""
     # 练一练题号全册连续
     drill_nos_by_topic, n = {}, 0
     for t in D['topics']:
@@ -314,22 +433,31 @@ def build(D):
             n += 1
             ids.append(n)
         drill_nos_by_topic[t['no']] = ids
+    topics = [t for t in D['topics'] if only is None or t['no'] in only]
+    topic_fn = topic_en_html if theme == '英式' else topic_html
     body = (header_html(D) + overview_html(D['overview'])
-            + ''.join(topic_html(t, drill_nos_by_topic[t['no']]) for t in D['topics'])
-            + answers_html(D['topics'], drill_nos_by_topic)
+            + ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
+            + answers_html(topics, drill_nos_by_topic)
             + '</section>\n')
+    if theme == '英式':
+        body = HYPHEN_RE.sub('-⁠', body)   # 「用 -ing」的连字符后不断行（U+2060 词连接符，零宽）
     title = f'段考专题讲义 · 高一上 · {D["h2"]}'
     return ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{esc(title)}</title>'
-            '<link rel="stylesheet" href="段考.css"></head>\n<body>\n'
+            f'<link rel="stylesheet" href="{THEME_CSS[theme]}"></head>\n<body>\n'
             + body + '</body>\n</html>\n')
 
 
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in NODE_FILES:
-        raise SystemExit(f'用法：段考排版.py <{"|".join(NODE_FILES)}>')
-    src_name, out_name = NODE_FILES[sys.argv[1]]
+    ap = argparse.ArgumentParser(description='段考专题讲义排版：定稿 JSON → HTML。')
+    ap.add_argument('node', choices=list(NODE_FILES), help='节点名')
+    ap.add_argument('--theme', choices=list(THEME_CSS), default='现行',
+                    help='版式主题：现行（柱式，默认）或 英式（规范/04）')
+    ap.add_argument('--topics', help='只输出这些专题（逗号分隔编号，如 1 或 1,3）；仅英式可用')
+    args = ap.parse_args()
+
+    src_name, out_name = NODE_FILES[args.node]
     src = CONTENT / src_name
     D = json.loads(src.read_text(encoding='utf-8'))
     errs = validate(D)
@@ -337,8 +465,18 @@ def main():
         for e in errs:
             print('错误', e, file=sys.stderr)
         raise SystemExit(1)
-    doc = build(D)
+    only = None
+    if args.topics:
+        if args.theme != '英式':
+            raise SystemExit('--topics 只能与 --theme 英式 同用（现行整册 HTML 不能被覆盖）')
+        only = {int(x) for x in args.topics.split(',') if x.strip()}
+        bad = only - {t['no'] for t in D['topics']}
+        if bad:
+            raise SystemExit(f'没有这些专题编号：{sorted(bad)}')
+    doc = build(D, args.theme, only)
     assert 'style=' not in doc, '出现内联样式'
+    if args.theme == '英式':
+        out_name = out_name.replace('.html', '-英式.html')
     out = RENDER / out_name
     out.write_text(doc, encoding='utf-8')
     print('写入', out)
