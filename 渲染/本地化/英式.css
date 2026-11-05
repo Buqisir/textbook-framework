@@ -576,3 +576,6 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .key li + li { margin-top: var(--h); }
 .key li + li { margin-top: 0; }   /* 单栏后条目自然分开，不再空半格，省页 */
 .key li { max-width: 408pt; }    /* 整句英文答案与题干同宽，≤ 80 字符 */
+
+/* 要点星圈与框的左边相切（所有者定，2026-11-05）：圆的最左点落在框左缘线上，圆心仍在上沿线上 */
+.keypoint::after { left: 0; }
