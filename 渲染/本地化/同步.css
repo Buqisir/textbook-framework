@@ -45,7 +45,7 @@
 .freq { width: 100%; border-collapse: collapse; table-layout: fixed; }
 .freq col.c-word { width: var(--col); }
 .freq col.c-how { width: 84pt; }
-.freq col.c-tally { width: 96pt; }
+.freq col.c-tally { width: 80pt; }   /* 计数条最多 12 格 63pt + 数字；省下的宽度给形式列，少折行 */
 .freq th { font: 400 9pt/var(--u) "sans-ui"; text-align: left; background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat; }
 .freq td { vertical-align: top; text-align: left; background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
 .freq th, .freq td { padding-left: 0; padding-right: var(--zi); }
@@ -148,3 +148,6 @@
   font-weight: 700;
   background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.3pt no-repeat;
 }
+
+/* 讲义一答案：不另起页，接在单元小测之后（收全后小测尾页常剩大半页空白）。上方空 1u */
+.unit .answers { break-before: auto; margin-top: var(--u); }
