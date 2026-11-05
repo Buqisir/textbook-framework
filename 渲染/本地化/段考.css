@@ -41,3 +41,7 @@
 
 /* 例题出处在句末时，主线的柱内出处不用 */
 .stem > .chip-source { display: none; }
+
+/* 答案区按专题分组：每组一个 h4 + 一个 ol.key（h4 不进 ol，HTML 合法） */
+.answers > h4 { font: 700 9pt/var(--u) "sans-ui"; margin: var(--h) 0 0; break-after: avoid; }
+.answers > h4 + .key { margin-top: 0; }
