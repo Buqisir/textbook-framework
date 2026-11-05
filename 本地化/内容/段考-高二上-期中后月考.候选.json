@@ -360,26 +360,14 @@
    "题数": 4,
    "候选": {
     "本节点": 1,
-    "借用": 7,
-    "合计": 8
+    "借用": 0,
+    "合计": 1
    },
    "子类": {
-    "形式宾语 it（find/make/think… it adj.）": {
-     "题数": 4,
-     "题": [
-      "077-07",
-      "102-06",
-      "109-19",
-      "110-11"
-     ]
-    },
     "形式主语 It is adj. to do / that": {
-     "题数": 4,
+     "题数": 1,
      "题": [
-      "076-22",
-      "003-29",
-      "070-22",
-      "077-19"
+      "076-22"
      ]
     }
    },
@@ -402,161 +390,6 @@
      "标记": [],
      "子类": "形式主语 It is adj. to do / that",
      "子类依据": "全文"
-    },
-    {
-     "id": "003-29",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "翻译",
-     "题干": "你来自哪里对于我来说没有什么影响。\n___ where you come from.",
-     "提示词": null,
-     "答案": "It doesn't matter",
-     "解析": "表示“…没有什么影响”，使用句型“It doesn't matter…”，it充当形式主语，句子的真正主语是后面的从句。故答案为：It doesn't matter。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
-    },
-    {
-     "id": "070-22",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "People assume that economic development and environmental protection are equally important.\n___ economic development and environmental protection are equally important.",
-     "提示词": null,
-     "答案": "It ； is ； assumed ； that",
-     "解析": "考查一般现在时、it作形式主语、被动语态和主语从句。句意：人们认为，经济发展和环境保护同等重要。根据空格数可知，此处应用it作形式主语，真正的主语为主语从句，从句中不缺少成分和意义，所以应用从属连词that引导。根据“economic development and environmental protection are equally important”可知，此处应用一般现在时。动词assume意为 “认为”，和主语构成被动关系。主语为第三人称单数。故填①It ②is③ assumed④ that。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "名词性从句",
-      "被动"
-     ],
-     "考查句": "考查一般现在时、it作形式主语、被动语态和主语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "考查句"
-    },
-    {
-     "id": "077-07",
-     "标签": "2024 · 万江中学 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "I thought ___ a privilege to have access to quality education and opportunities for personal growth.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查代词。句意：我认为能获得高质量的教育和个人成长的机会是一种荣幸。分析句子可知，此空应填it作形式宾语，而真正的宾语为后面的不定式 to have access to quality education and opportunities for personal growth。故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语"
-     ],
-     "考查句": "考查代词",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "全文"
-    },
-    {
-     "id": "077-19",
-     "标签": "2024 · 万江中学 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "The video filmed by my mom was thought to be amusing, making me widely known in the town.\n___ the video filmed by my mom was amusing, making me widely known in the town.",
-     "提示词": null,
-     "答案": "It ； was ； thought ； that",
-     "解析": "考查固定句型。句意：我妈妈拍摄的视频被认为很有趣，使我在这个镇上广为人知。原句中使用被动结构“was thought to be”，表示“被认为”，可转换为固定句型“it was thought that…”，表达某事被普遍认为，其中it作形式主语，句首单词首字母大写，句子陈述过去发生的事情，时态为一般过去时，且结合句意表示被动，故用一般过去时的被动语态，that引导主语从句“the video filmed by my mom was amusing”，从句句意完整，不缺少成分，应用连接词that引导。故填①It；②was；③thought；④that。",
-     "句意": null,
-     "cue": [
-      "同义句转换"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查固定句型",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
-    },
-    {
-     "id": "102-06",
-     "标签": "2023 · 东莞外国语学校 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "I find ___ absolutely astonishing that you didn’t like it.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查it用法。句意：你不喜欢它，我感到难以置信。分析句子可知，空处应填it作形式宾语，that引导的从句是真正的宾语，故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查it用法",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "全文"
-    },
-    {
-     "id": "109-19",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "As a Chinese, she considers that it is her duty to display the best aspect of the country.\nAs a Chinese, she considers ___ to display the best aspect of the country.",
-     "提示词": null,
-     "答案": "it ； her ； duty",
-     "解析": "考查句型转换。句意：作为一个中国人，她认为展示中国最好的一面是她的责任。原句中consider后跟that引导的宾语从句，宾语从句中it作形式主语，不定式作真正主语，此句可转换为“consider+宾语+宾语补足语”，it作形式宾语，真正的宾语是不定式to display the best aspect of the country，her duty作宾语补足语。故填it her duty。",
-     "句意": null,
-     "cue": [
-      "同义句改写"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语"
-     ],
-     "考查句": "考查句型转换",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "全文"
-    },
-    {
-     "id": "110-11",
-     "标签": "2025 · 东莞市 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "Farmers consider ___ helpful to use organic farming techniques to protect the soil quality.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查it作形式宾语。句意：农民们认为使用有机耕作技术来保护土壤质量是有益的。consider + it +形容词+to do sth.为固定用法，it为形式宾语，动词不定式是真正的宾语。故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语"
-     ],
-     "考查句": "考查it作形式宾语",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "考查句"
     }
    ],
    "编号": 2
@@ -569,8 +402,8 @@
    "题数": 7,
    "候选": {
     "本节点": 5,
-    "借用": 3,
-    "合计": 8
+    "借用": 0,
+    "合计": 5
    },
    "子类": {
     "表语从句": {
@@ -582,18 +415,10 @@
      ]
     },
     "主语从句": {
-     "题数": 4,
+     "题数": 2,
      "题": [
       "151-18",
-      "157-11",
-      "070-16",
-      "078-11"
-     ]
-    },
-    "宾语从句": {
-     "题数": 1,
-     "题": [
-      "003-10"
+      "157-11"
      ]
     }
    },
@@ -698,74 +523,6 @@
      "标记": [],
      "子类": "表语从句",
      "子类依据": "全文"
-    },
-    {
-     "id": "003-10",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "78-year-old Mr Metzger explained that the exhibit, ___ he said was a copy of similar work he had created in 1960, was meant to show that all art is temporary and finite.",
-     "提示词": null,
-     "答案": "which",
-     "解析": "分析句子可知，本句中谓语动词是explained，在that引导的宾语从句中主语是the exhibit，was meant是从句的谓语动词，设空处应用连接词引导非限制性定语从句，且连接词在定语从句中作主语，应用关系代词which引导该从句，故填which。",
-     "句意": "78岁的梅茨格解释说，这次展览是他1960年创作的类似作品的复制品，意在表明所有艺术都是暂时的、有限的。",
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "定语从句"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "宾语从句",
-     "子类依据": "全文"
-    },
-    {
-     "id": "070-16",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "___ we are supposed to do is to spare no effort to preserve our cultural heritages.",
-     "提示词": null,
-     "答案": "What",
-     "解析": "考查主语从句。句意：我们应该做的是不遗余力地保护我们的文化遗产。              we are supposed to do是主语从句，从句缺少宾语，且意义为“……的事物”，所以应该用连接代词what引导从句，句首单词首字母大写。故填What。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查主语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ],
-     "子类": "主语从句",
-     "子类依据": "考查句"
-    },
-    {
-     "id": "078-11",
-     "标签": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "___ depressed the doctor a lot that no one knew how to prevent or treat the disease.",
-     "提示词": null,
-     "答案": "It",
-     "解析": "考查主语从句和it作形式主语。句意：没有人知道如何预防或治疗这种疾病，这使医生非常沮丧。分析可知，所填空为句子的主语，而从句“that no one knew how to prevent or treat the disease”为句子的真正主语，即，主语从句置于句尾部分，因此所填应是形式主语it，置于句首，首字母大写。故填It。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "it 形式主语／宾语"
-     ],
-     "考查句": "考查主语从句和it作形式主语",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ],
-     "子类": "主语从句",
-     "子类依据": "考查句"
     }
    ],
    "编号": 3
@@ -778,22 +535,14 @@
    "题数": 2,
    "候选": {
     "本节点": 1,
-    "借用": 3,
-    "合计": 4
+    "借用": 0,
+    "合计": 1
    },
    "子类": {
     "recommend / suggest / insist 类 that 从句": {
      "题数": 1,
      "题": [
       "151-14"
-     ]
-    },
-    "其他": {
-     "题数": 3,
-     "题": [
-      "003-15",
-      "003-28",
-      "002-30"
      ]
     }
    },
@@ -818,75 +567,6 @@
      "标记": [],
      "子类": "recommend / suggest / insist 类 that 从句",
      "子类依据": "全文"
-    },
-    {
-     "id": "003-15",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "If I ___ (be) you in the party yesterday, I would have performed more excellent.",
-     "提示词": "be",
-     "答案": "had been",
-     "解析": "根据主句可知，从句表示与过去事实相反的虚拟语气，要用过去完成时。故填：had been。",
-     "句意": "如果我昨天在聚会上是你的话，我会表现得更出色的。",
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "全文",
-     "其他命中": [
-      "时态"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "003-28",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "She didn't know how to convey her feelings well in a poem, so I helped her.",
-     "提示词": null,
-     "答案": "If she had known how to convey her feelings well in a poem, I wouldn't have helped her.",
-     "解析": "分析句子可知，原句陈述过去的情况，按要求用虚拟语气改写句子，表示与过去事实相反，“如果她知道如何在诗中很好地表达她的感情，我就不会帮助她了。”条件状语从句中用过去完成时，If she had known how to convey her feelings well in a poem，主句中用 would have done. 故答案为 If she had known how to convey her feelings well in a poem, I wouldn't have helped her。",
-     "句意": "她不知道如何用诗来表达她的感情，所以我帮助了她。",
-     "cue": [
-      "用虚拟语气改写句子"
-     ],
-     "主考点": "虚拟语气",
-     "主考点来源": "全文",
-     "其他命中": [
-      "状语从句",
-      "时态"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "002-30",
-     "标签": "2018 · 东华高级中学 · 高二上期末",
-     "题型": "语法填空",
-     "题干": "If he ___ (take) my advice, he wouldn't have lost his job.",
-     "提示词": "take",
-     "答案": "had taken",
-     "解析": "题干为虚拟条件句，且表示与过去事实相反的情况，故从句谓语要用过去完成时。故答案为：had taken。",
-     "句意": "如果听了我的建议，他就不会丢掉工作了。",
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "全文",
-     "其他命中": [
-      "时态"
-     ],
-     "考查句": null,
-     "借用节点": "期末",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
     }
    ],
    "编号": 4
@@ -1092,14 +772,9 @@
    "强调句": 1
   },
   "疑似缺陷题数": 0,
-  "候选合计": 34,
-  "借用合计": 13,
-  "借用节点分布": {
-   "期中": 12,
-   "期末": 1
-  },
-  "不足 8 题的讲专题": [
-   "虚拟语气(4)"
-  ]
+  "候选合计": 21,
+  "借用合计": 0,
+  "借用节点分布": {},
+  "不足 8 题的讲专题": []
  }
 }

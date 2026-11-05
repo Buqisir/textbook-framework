@@ -468,8 +468,7 @@ def topic_en_html(t, drill_nos):
 
 def validate(D):
     errs = []
-    if len(D['stats']) != 3:
-        errs.append('册头 stats 必须 3 项')
+    # 册头不显示统计（规范/05），stats 字段可省
     names = set()
     for r in D['overview']['rows']:
         if not (0 <= r['cov'] <= 1):

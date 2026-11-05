@@ -15,16 +15,10 @@
    "题数": 11,
    "候选": {
     "本节点": 7,
-    "借用": 1,
-    "合计": 8
+    "借用": 0,
+    "合计": 7
    },
    "子类": {
-    "作状语": {
-     "题数": 1,
-     "题": [
-      "012-20"
-     ]
-    },
     "作定语": {
      "题数": 1,
      "题": [
@@ -190,26 +184,6 @@
      "标记": [],
      "子类": "作宾语 / 固定搭配",
      "子类依据": "全文"
-    },
-    {
-     "id": "012-20",
-     "标签": "2020 · 东华高级中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Please take notes while ___ ( listen) to the teacher.",
-     "提示词": "listen",
-     "答案": "listening",
-     "解析": "考查非谓语动词。句意：请一边听老师讲课，一边做笔记。祈使句主语是you，连词while引导的时间状语从句可以省略主语you和be动词。表示主动，用现在分词。故填listening。",
-     "句意": null,
-     "cue": [],
-     "主考点": "非谓语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查非谓语动词",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "作状语",
-     "子类依据": "全文"
     }
    ],
    "编号": 1
@@ -222,26 +196,17 @@
    "题数": 7,
    "候选": {
     "本节点": 4,
-    "借用": 4,
-    "合计": 8
+    "借用": 0,
+    "合计": 4
    },
    "子类": {
-    "关系副词 where / when / why": {
-     "题数": 2,
-     "题": [
-      "022-29",
-      "047-16"
-     ]
-    },
     "其他": {
-     "题数": 6,
+     "题数": 4,
      "题": [
       "054-09",
       "054-10",
       "089-23",
-      "094-14",
-      "012-08",
-      "034-14"
+      "094-14"
      ]
     }
    },
@@ -325,88 +290,6 @@
      "标记": [],
      "子类": "其他",
      "子类依据": null
-    },
-    {
-     "id": "012-08",
-     "标签": "2020 · 东华高级中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
-     "提示词": null,
-     "答案": "which",
-     "解析": "考查定语从句。句意：去年夏天，我参观了美丽的斜塔，它有八层楼高，每层都有一个圆形的柱子，一个接一个地拔地而起。此处为非限定性定语从句，先行词为the beautiful Leaning Tower，指物，在从句中作主语，应用关系代词which引导。故填which。",
-     "句意": null,
-     "cue": [],
-     "主考点": "定语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查定语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "022-29",
-     "标签": "2021 · 东华高级中学 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Scientists worked diligently to rescue the bronze object because they wanted to preserve it for the next generation.\nThe reason ___ diligently to rescue the bronze object is that they wanted to preserve it for the next generation.",
-     "提示词": null,
-     "答案": "why ； scientists ； worked",
-     "解析": "考查定语从句。设空处构成定语从句，修饰先行词the reason，在从句中作原因状语，因而用关系副词why引导，故转换为：The reason why scientists worked diligently to rescue the bronze object is that they wanted to preserve it for the next generation.故填①why；②scientists；③worked。",
-     "句意": "科学家们努力抢救这件青铜文物的原因是他们想为下一代保存它。",
-     "cue": [
-      "同义句转换"
-     ],
-     "主考点": "定语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查定语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "关系副词 where / when / why",
-     "子类依据": "全文"
-    },
-    {
-     "id": "034-14",
-     "标签": "2025 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The destination ___ is marked on the map as a \"must-see\" spot attracts thousands of tourists annually.",
-     "提示词": null,
-     "答案": "which |that",
-     "解析": "句意：地图上标记为“必游之地”的这个目的地每年吸引成千上万名游客。此处为定语从句，先行词The destination，指物，在从句中作主语，应用关系代词that或which引导。",
-     "句意": null,
-     "cue": [],
-     "主考点": "定语从句",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "047-16",
-     "标签": "2022 · 东莞外国语学校 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Sales director is a position ___ communication ability is just as important as sales skills.",
-     "提示词": null,
-     "答案": "where",
-     "解析": "考查定语从句。句意：“销售经理是一个职位,在这个职位上,交流能力和销售能力一样重要。”分析句子，空处引导定语从句，修饰先行词position，先行词指抽象地点，关系词在定语从句中作地点状语，应用关系副词where引导从句。故填where。",
-     "句意": null,
-     "cue": [],
-     "主考点": "定语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查定语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "关系副词 where / when / why",
-     "子类依据": "全文"
     }
    ],
    "编号": 2
@@ -419,26 +302,21 @@
    "题数": 3,
    "候选": {
     "本节点": 3,
-    "借用": 5,
-    "合计": 8
+    "借用": 0,
+    "合计": 3
    },
    "子类": {
     "形式宾语 it（find/make/think… it adj.）": {
-     "题数": 5,
+     "题数": 2,
      "题": [
       "054-12",
-      "094-26",
-      "012-10",
-      "029-14",
-      "034-10"
+      "094-26"
      ]
     },
     "形式主语 It is adj. to do / that": {
-     "题数": 3,
+     "题数": 1,
      "题": [
-      "089-20",
-      "029-26",
-      "034-22"
+      "089-20"
      ]
     }
    },
@@ -505,114 +383,6 @@
      "标记": [],
      "子类": "形式宾语 it（find/make/think… it adj.）",
      "子类依据": "全文"
-    },
-    {
-     "id": "012-10",
-     "标签": "2020 · 东华高级中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The teacher made ___ clear that our credits would be hard-earned.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查代词。句意：老师明确表示，我们的学分是来之不易的。分析句子可知，空处位于动词made后，固定结构make it +adj+to do sth/ that 从句，it为形式宾语，句子真正的宾语是that引导的从句，故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查代词",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "全文"
-    },
-    {
-     "id": "029-14",
-     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "You might find ___ relaxing to bring your small kid to a half-hour Story Time while you sit quietly in a corner with a good book.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "考查形式宾语。句意：你可能会发现带你的小孩去半小时的故事时间，而你自己则安静地坐在角落里读一本好书是一件很放松的事情。根据空前动词“find”和空后形容词“relaxing”及不定式“to bring your small kid to a half-hour Story Time”可知，空处应填代词it，作形式宾语，构成“find it+形容词+to do sth.”的句型结构，其中it在句中作形式宾语，不定式“to do sth.”是真正的宾语。故填it。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语"
-     ],
-     "考查句": "考查形式宾语",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "考查句"
-    },
-    {
-     "id": "029-26",
-     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
-     "题型": "翻译",
-     "题干": "显然，现在越来越多青少年沉迷手机游戏。",
-     "提示词": null,
-     "答案": "It is obvious that more and more teenagers are addicted to mobile games nowadays.",
-     "解析": "显然，现在越来越多青少年沉迷手机游戏。\n\n根据提示可知这句话使用it作为形式主语，be动词用is，obvious是形容词作表语，that引导真正的主语从句，从句主语是more and more teenagers\"越来越多青少年\"，\"沉迷\"用短语be addicted to，be动词和teenagers一致用are，mobile games是宾语，意为\"手机游戏\"，时间状语是nowadays\"如今\"。\n\n故翻译为：It is obvious that more and more teenagers are addicted to mobile games nowadays.",
-     "句意": null,
-     "cue": [
-      "用it 作形式主语翻译句子"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "全文",
-     "其他命中": [
-      "名词性从句"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
-    },
-    {
-     "id": "034-10",
-     "标签": "2025 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The company made ___ a rule that employees must attend monthly training sessions.",
-     "提示词": null,
-     "答案": "it",
-     "解析": "句意：这家公司规定员工必须参加每月的培训课程。分析句子结构可知，此处考查固定结构make it a rule that...，表“定为常规”，it作形式宾语，真正宾语是后面that引导的从句。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查固定结构make it a rule that...，表“定为常规”，it作形式宾语，真正宾语是后面that引导的从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式宾语 it（find/make/think… it adj.）",
-     "子类依据": "考查句"
-    },
-    {
-     "id": "034-22",
-     "标签": "2025 · 东莞市 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Obviously, the new policy has improved efficiency, unlike the previous one.\n___ the new policy has improved efficiency, unlike the previous one.",
-     "提示词": null,
-     "答案": "It ； is ； obvious ； that",
-     "解析": "句意：显而易见，这项新政策相比以往的政策提升了效率。副词Obviously可以改写为固定句型It is obvious that...，其中It充当形式主语，真正的主语是that引导的从句。",
-     "句意": null,
-     "cue": [
-      "同义句转换"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
     }
    ],
    "编号": 3
@@ -625,26 +395,15 @@
    "题数": 2,
    "候选": {
     "本节点": 2,
-    "借用": 6,
-    "合计": 8
+    "借用": 0,
+    "合计": 2
    },
    "子类": {
     "recommend / suggest / insist 类 that 从句": {
-     "题数": 7,
+     "题数": 2,
      "题": [
       "054-14",
-      "094-07",
-      "012-16",
-      "071-21",
-      "096-39",
-      "099-24",
-      "122-24"
-     ]
-    },
-    "其他": {
-     "题数": 1,
-     "题": [
-      "055-08"
+      "094-07"
      ]
     }
    },
@@ -686,130 +445,6 @@
      "标记": [],
      "子类": "recommend / suggest / insist 类 that 从句",
      "子类依据": "全文"
-    },
-    {
-     "id": "012-16",
-     "标签": "2020 · 东华高级中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The doctor recommended that my brother ___ (give) up smoking.",
-     "提示词": "give",
-     "答案": "should give |give",
-     "解析": "考查虚拟语气。句意：医生建议我弟弟戒烟。分析句子可知，句子为宾语从句，“that”引导从句作“recommended”的宾语，“recommended”意为“建议”，此时从句要用虚拟语气，谓语动词为“(should)+动词原形”，“should”可省略，故空格处应填“should give”或“give”。故填should give/give。",
-     "句意": null,
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查虚拟语气",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "recommend / suggest / insist 类 that 从句",
-     "子类依据": "全文"
-    },
-    {
-     "id": "055-08",
-     "标签": "2022 · 东莞实验中学 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Our teachers request that attention ___ (focus) on the lessons in class.",
-     "提示词": "focus",
-     "答案": "should be focused |be focused",
-     "解析": "考查虚拟语气和被动语态。句意：我们的老师要求在课堂上把注意力集中在课文上。分析句子结构可知，request意为“要求”，后面的宾语从句中使用虚拟语气，谓语动词使用（should）do，attention和focus为被动关系，需用被动语态。故填（should）be focused。",
-     "句意": null,
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [
-      "被动"
-     ],
-     "考查句": "考查虚拟语气和被动语态",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "071-21",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Mary likes dancing and her adviser recommended she ___ (报名)a ballet course.",
-     "提示词": null,
-     "答案": "should ； sign ； up ； for",
-     "解析": "考查动词短语和虚拟语气。句意：玛丽喜欢跳舞，她的顾问建议她报名参加芭蕾舞课。分析句子结构和意思可知，这里考查“报名”对应的动词短语sign up for，作recommended 后面的宾语从句的谓语，用should do的虚拟语气。故填should sign up for。",
-     "句意": null,
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查动词短语和虚拟语气",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "recommend / suggest / insist 类 that 从句",
-     "子类依据": "全文"
-    },
-    {
-     "id": "096-39",
-     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "The committee proposed that the government ___ (调查原因) why so many wild animals disappeared.",
-     "提示词": null,
-     "答案": "investigate  ； the ； reason",
-     "解析": "考查虚拟语气和动词。句意：委员会建议政府调查这么多野生动物消失的原因。表示“调查原因”可用investigate the reason，且propose表示建议所接的宾语从句一般用虚拟语气，其虚拟语气的结构为：(should) +原形动词，should可省略。故填①investigate；②the；③reason。",
-     "句意": null,
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查虚拟语气和动词",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "recommend / suggest / insist 类 that 从句",
-     "子类依据": "全文"
-    },
-    {
-     "id": "099-24",
-     "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
-     "提示词": "permit",
-     "答案": "should be permitted |be permitted",
-     "解析": "考查虚拟语气。句意：巴勒斯坦人长期以来一直要求允许难民返回家园。此处宾语从句用虚拟语气，谓语用should+动词原形，should可以省略；且permit与主语构成被动关系，故填should be permitted/be permitted。",
-     "句意": null,
-     "cue": [],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查虚拟语气",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "recommend / suggest / insist 类 that 从句",
-     "子类依据": "全文"
-    },
-    {
-     "id": "122-24",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "翻译",
-     "题干": "Mrs Brown 建议他积极参加课外活动。",
-     "提示词": null,
-     "答案": "Mrs Brown recommended that he (should) take part in after-class/ after-school/ extra-curricular activities actively. Mrs Brown recommended him to take part in after-class/ after- school/ extra-curricular activities actively.",
-     "解析": "考查固定短语和虚拟语气。主语为Mrs Brown；表示“建议”可用recommend that，从句用虚拟语气；或用recommend sb. to do sth.；表示“积极参加课外活动”翻译为take part in after-class/ after-school/ extra-curricular activities actively。句子陈述过去的事情，为一般过去时。故翻译为Mrs Brown recommended that he (should) take part in after-class/ after-school/ extra-curricular activities actively./Mrs Brown recommended him to take part in after-class/ after- school/ extra-curricular activities actively.",
-     "句意": null,
-     "cue": [
-      "用 recommend 翻译句子"
-     ],
-     "主考点": "虚拟语气",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查固定短语和虚拟语气",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "recommend / suggest / insist 类 that 从句",
-     "子类依据": "全文"
     }
    ],
    "编号": 4
@@ -822,36 +457,20 @@
    "题数": 2,
    "候选": {
     "本节点": 2,
-    "借用": 6,
-    "合计": 8
+    "借用": 0,
+    "合计": 2
    },
    "子类": {
     "Only + 状语句首": {
-     "题数": 2,
-     "题": [
-      "054-25",
-      "047-24"
-     ]
-    },
-    "否定词句首": {
-     "题数": 3,
-     "题": [
-      "022-32",
-      "088-25",
-      "096-44"
-     ]
-    },
-    "地点 / 方位状语句首全倒装": {
      "题数": 1,
      "题": [
-      "055-20"
+      "054-25"
      ]
     },
     "其他": {
-     "题数": 2,
+     "题数": 1,
      "题": [
-      "089-25",
-      "144-21"
+      "089-25"
      ]
     }
    },
@@ -893,140 +512,6 @@
       "定语从句"
      ],
      "考查句": "考查倒装句和定语从句",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "022-32",
-     "标签": "2021 · 东华高级中学 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "She not only achieved her dream but also set a good example for us.\nNot only ___ her dream but also she set a good example for us.",
-     "提示词": null,
-     "答案": "did ； she ； achieve",
-     "解析": "考查倒装句。将not only置于句首时，需要用部分倒装，所以将助动词提到主语前，注意时态为一般过去时，转换为：Not only did she achieve her dream but also she set a good example for us.故答案为①did；②she；③achieve。",
-     "句意": "她不仅实现了她的梦想，而且为我们树立了一个好榜样。",
-     "cue": [
-      "句型转换"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查倒装句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "否定词句首",
-     "子类依据": "全文"
-    },
-    {
-     "id": "047-24",
-     "标签": "2022 · 东莞外国语学校 · 高一上期中",
-     "题型": "翻译",
-     "题干": "只有经过足够的锻炼，你才能保持健康。",
-     "提示词": null,
-     "答案": "Only after enough exercise can you keep fit.",
-     "解析": "考查部分倒装和动词短语。根据提示可知，句子需将“only+状语”放在句首引起部分倒装。状语“经过足够的锻炼”可用短语after enough exercise，主语“你”用you，“才能”用情态动词can，“保持健康”可用动词短语keep fit，部分倒装需把情态动词can放到主语之前。故可译为：Only after enough exercise can you keep fit.",
-     "句意": null,
-     "cue": [
-      "用only的倒装句翻译"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查部分倒装和动词短语",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "Only + 状语句首",
-     "子类依据": "全文"
-    },
-    {
-     "id": "055-20",
-     "标签": "2022 · 东莞实验中学 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "The speaker stood in front of the students of Grade one.\nIn front of the students of Grade one ___.",
-     "提示词": null,
-     "答案": "stood the speaker",
-     "解析": "考查倒装句。句意：演讲者站在一年级学生面前。表示方位的介词短语in front of the students of Grade one置于句首，句子使用完全倒装，将谓语stood放在主语the speaker前面。故填stood the speaker。",
-     "句意": null,
-     "cue": [
-      "句式转换"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查倒装句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "地点 / 方位状语句首全倒装",
-     "子类依据": "全文"
-    },
-    {
-     "id": "088-25",
-     "标签": "2023 · 东华高级中学 · 高一上期中",
-     "题型": "翻译",
-     "题干": "我永远也忘记不了你对我和我的家人所表现出的善良和温暖。",
-     "提示词": null,
-     "答案": "Never will I forget the kindness and warmth (that/which) you showed me and my family.",
-     "解析": "考查倒装句式、定语从句、名词短语、动词。根据句意以及句子的提示要求可知，该句应为否定词Never位于句首，句子需要部分倒装，即把情态动词will表示“将要”放在主语I之前，表示“忘记”的动词forget放在主语之后，表示“善良和温暖”应为名词短语the kindness and warmth；后接关系代词that/which引导的定语从句，对先行词kindness and warmth进行修饰，在该从句中，表示“你对我和我的家人所表现出”可译为you showed me and my family，动词show表示“展示，表现”，此处应为过去时。故翻译为：Never will I forget the kindness and warmth (that/which) you showed me and my family.",
-     "句意": null,
-     "cue": [
-      "用倒装句和定语从句翻译"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [
-      "定语从句"
-     ],
-     "考查句": "考查倒装句式、定语从句、名词短语、动词",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "否定词句首",
-     "子类依据": "全文"
-    },
-    {
-     "id": "096-44",
-     "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
-     "题型": "翻译",
-     "题干": "书法不仅是一种中国艺术形式，更是一种重要技能。",
-     "提示词": null,
-     "答案": "Not only is calligraphy a form of Chinese art, but also an important skill.",
-     "解析": "考查部分倒装和时态。根据“not only…but also”（不仅……而且）的用法，该结构置于句首的时候，要引起句子部分倒装，将助动词或系动词或情态动词提到主语前；表示“书法”含义的名词为calligraphy；表示“一种中国艺术形式”的表达为a form of Chinese art；表示“一种重要技能”含义的表达为an important skill，讲述一般性事实，时态用一般现在时，将系动词is提到主语calligraphy前，故翻译为：Not only is calligraphy a form of Chinese art, but also an important skill.",
-     "句意": null,
-     "cue": [
-      "使用Not only放句首翻译"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查部分倒装和时态",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "否定词句首",
-     "子类依据": "全文"
-    },
-    {
-     "id": "144-21",
-     "标签": "2022 · 翰林高级中学 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "They not only introduced advanced technology, but also changed their views on how to develop economy.\n___ they ___ advanced technology, but also changed their views on how to develop economy.",
-     "提示词": null,
-     "答案": "Not ； only ； did ； introduce",
-     "解析": "考查倒装句。句意：他们不仅引进了先进技术，而且改变了对如何发展经济的看法。分析句子可知，句子要求我们把原句改写为倒装句，句中涉及固定句型“not only…but also…”，意为“不仅……而且……”，把“not only”放在句首，此时句子要用部分倒装，句子为一般过去时，将助动词“did”提前，“introduced”变为原形“introduce”，句首单词首字母大写。故答案是Not; only; did; introduce。",
-     "句意": null,
-     "cue": [
-      "改为倒装句"
-     ],
-     "主考点": "倒装",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查倒装句",
-     "借用节点": "期中",
      "疑似缺陷": false,
      "标记": [],
      "子类": "其他",
@@ -1219,11 +704,9 @@
    "状语从句": 1
   },
   "疑似缺陷题数": 0,
-  "候选合计": 40,
-  "借用合计": 22,
-  "借用节点分布": {
-   "期中": 22
-  },
+  "候选合计": 18,
+  "借用合计": 0,
+  "借用节点分布": {},
   "不足 8 题的讲专题": []
  }
 }

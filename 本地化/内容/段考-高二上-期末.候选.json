@@ -685,8 +685,8 @@
    "题数": 7,
    "候选": {
     "本节点": 5,
-    "借用": 3,
-    "合计": 8
+    "借用": 0,
+    "合计": 5
    },
    "子类": {
     "形式宾语 it（find/make/think… it adj.）": {
@@ -697,14 +697,11 @@
      ]
     },
     "形式主语 It is adj. to do / that": {
-     "题数": 6,
+     "题数": 3,
      "题": [
       "023-19",
       "150-14",
-      "150-18",
-      "076-22",
-      "003-29",
-      "070-22"
+      "150-18"
      ]
     }
    },
@@ -815,71 +812,6 @@
      "标记": [],
      "子类": "形式主语 It is adj. to do / that",
      "子类依据": "考查句"
-    },
-    {
-     "id": "076-22",
-     "标签": "2023 · 万江中学 · 高二上月考",
-     "题型": "翻译",
-     "题干": "他下定决心要恢复这个花瓶原来的美丽，这是明智的。（it作形式主语）",
-     "提示词": null,
-     "答案": "It is wise of him to decide to restore the vase to its original beauty.",
-     "解析": "考查固定句型、名词短语、和时态。该句描述一般事实，应用一般现在时。表示“某人做某事是明智的”应用固定句型It is wise of sb. to do sth.，其中it作形式主语，to do作真正的主语。表示“下定决心做某事”应用固定句型decide to do sth.，其中to do作动词decide的宾语；表示“恢复这个花瓶”应用动词短语restore the vase；表示“原来的美丽”应用名词短语its original beauty；表示“恢复这个花瓶原来的美丽”应用restore the vase to its original beauty。故翻译为It is wise of him to decide to restore the vase to its original beauty。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查固定句型、名词短语、和时态",
-     "借用节点": "期中后月考",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
-    },
-    {
-     "id": "003-29",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "翻译",
-     "题干": "你来自哪里对于我来说没有什么影响。\n___ where you come from.",
-     "提示词": null,
-     "答案": "It doesn't matter",
-     "解析": "表示“…没有什么影响”，使用句型“It doesn't matter…”，it充当形式主语，句子的真正主语是后面的从句。故答案为：It doesn't matter。",
-     "句意": null,
-     "cue": [],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "全文"
-    },
-    {
-     "id": "070-22",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "People assume that economic development and environmental protection are equally important.\n___ economic development and environmental protection are equally important.",
-     "提示词": null,
-     "答案": "It ； is ； assumed ； that",
-     "解析": "考查一般现在时、it作形式主语、被动语态和主语从句。句意：人们认为，经济发展和环境保护同等重要。根据空格数可知，此处应用it作形式主语，真正的主语为主语从句，从句中不缺少成分和意义，所以应用从属连词that引导。根据“economic development and environmental protection are equally important”可知，此处应用一般现在时。动词assume意为 “认为”，和主语构成被动关系。主语为第三人称单数。故填①It ②is③ assumed④ that。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "it 形式主语／宾语",
-     "主考点来源": "考查",
-     "其他命中": [
-      "名词性从句",
-      "被动"
-     ],
-     "考查句": "考查一般现在时、it作形式主语、被动语态和主语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "形式主语 It is adj. to do / that",
-     "子类依据": "考查句"
     }
    ],
    "编号": 3
@@ -892,8 +824,8 @@
    "题数": 7,
    "候选": {
     "本节点": 6,
-    "借用": 2,
-    "合计": 8
+    "借用": 0,
+    "合计": 6
    },
    "子类": {
     "关系副词 where / when / why": {
@@ -901,12 +833,6 @@
      "题": [
       "023-10",
       "065-11"
-     ]
-    },
-    "who / whom": {
-     "题数": 1,
-     "题": [
-      "003-27"
      ]
     },
     "which": {
@@ -917,11 +843,10 @@
      ]
     },
     "其他": {
-     "题数": 3,
+     "题数": 2,
      "题": [
       "008-18",
-      "060-10",
-      "076-08"
+      "060-10"
      ]
     }
    },
@@ -1043,46 +968,6 @@
      "标记": [],
      "子类": "关系副词 where / when / why",
      "子类依据": "全文"
-    },
-    {
-     "id": "076-08",
-     "标签": "2023 · 万江中学 · 高二上月考",
-     "题型": "语法填空",
-     "题干": "The patient may have seen many skilled specialists, none of ___ can cure him of the rare disease.",
-     "提示词": null,
-     "答案": "whom",
-     "解析": "考查定语从句。句意：病人可能看过许多技术娴熟的专家，但没有一个人能治愈这种罕见的疾病。分析句子可知，空处应填关系代词引导定语从句修饰先行词specialists“专家”，且先行词在从句中作介词of的宾语，指代人，只能用关系代词whom。故填whom。",
-     "句意": null,
-     "cue": [],
-     "主考点": "定语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查定语从句",
-     "借用节点": "期中后月考",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "003-27",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "\"Painting is my favorite hobby but I like football as well,\" says Kieron, ___ (他如此专注于) in painting that he is drawing from getting up to going to school.",
-     "提示词": null,
-     "答案": "who is so absorbed in",
-     "解析": "因指的是现在的事情，要用一般现在时；Kieron在定语从句中作主语，用关系代词who；be absorbed in专心于。故填：who is so absorbed in。",
-     "句意": "“绘画是我最喜欢的爱好，但我也喜欢足球，”基隆说，他如此专注于绘画以致他从早上起床画到上学。",
-     "cue": [],
-     "主考点": "定语从句",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "who / whom",
-     "子类依据": "全文"
     }
    ],
    "编号": 4
@@ -1095,19 +980,10 @@
    "题数": 4,
    "候选": {
     "本节点": 4,
-    "借用": 4,
-    "合计": 8
+    "借用": 0,
+    "合计": 4
    },
    "子类": {
-    "not until 强调": {
-     "题数": 4,
-     "题": [
-      "157-20",
-      "078-22",
-      "102-21",
-      "146-21"
-     ]
-    },
     "It is/was … that/who 强调": {
      "题数": 4,
      "题": [
@@ -1198,95 +1074,6 @@
      "标记": [],
      "子类": "It is/was … that/who 强调",
      "子类依据": "全文"
-    },
-    {
-     "id": "157-20",
-     "标签": "2023 · 麻涌中学 · 高二上月考",
-     "题型": "完成句子",
-     "题干": "Rongjiang county in Guizhou didn’t become famous until it staged the Village Super League.",
-     "提示词": null,
-     "答案": "It was not until it staged the Village Super League that Rongjiang county in Guizhou became famous.",
-     "解析": "考查强调句型。句意：贵州的容江县是在举办乡村超级联赛之后才出名的。根据句意以及句子结构可知，该句划线部分until it staged the Village Super League，可转换为it is not until…that...的强调句型，被强调部分为not until it staged the Village Super League为句子的状语成分。故答案是：It was not until it staged the Village Super League that Rongjiang county in Guizhou became famous.",
-     "句意": null,
-     "cue": [
-      "就划线部分强调"
-     ],
-     "主考点": "强调句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查强调句型",
-     "借用节点": "期中后月考",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "not until 强调",
-     "子类依据": "全文"
-    },
-    {
-     "id": "078-22",
-     "标签": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
-     "题型": "翻译",
-     "题干": "直到妈妈过来安慰她，她才停止了哭泣。",
-     "提示词": null,
-     "答案": "It was not until her mother came to comfort her that she stopped crying.",
-     "解析": "考查强调句型及句子结构，时态。该句中主句部分“她停止了哭泣”陈述某一天发生的事情，可使用she做主语，谓语部分stop crying作谓语使用一般过去时态；时间状语从句部分“直到妈妈过来安慰她”使用连词until引导，主语her mother，谓语部分come to comfort her使用一般过去时；表示“直到妈妈过来安慰她，她才停止了哭泣”陈述句表示为She didn't stop crying until her mother came to comfort her。再按题目要求使用强调句型对时间状语not加until从句进行强调，并注意句首字母大写。It was not until her mother came to comfort her that she stopped crying.",
-     "句意": null,
-     "cue": [
-      "用 not until的强调句翻译句子"
-     ],
-     "主考点": "强调句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查强调句型及句子结构，时态",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "not until 强调",
-     "子类依据": "全文"
-    },
-    {
-     "id": "102-21",
-     "标签": "2023 · 东莞外国语学校 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "I didn’t totally understand the importance of passing kindness until I was helped by strangers.",
-     "提示词": null,
-     "答案": "It was not until I was helped by strangers that I totally understood the importance of passing kindness.",
-     "解析": "考查强调句。句意：直到有陌生人帮助我，我才完全明白传递善意的重要性。分析句子结构，本句为包含时间状语从句的复合句，根据汉语提示可知要求对时间状语从句not until I was helped by strangers进行强调，根据强调句的相关知识，强调句的结构为：It is/was+被强调部分+that/who+其他部分，所以需将时间状语从句提前至被强调部分并使用that连接，其他部分不变，故本句改写为：It was not until I was helped by strangers that I totally understood the importance of passing kindness.",
-     "句意": null,
-     "cue": [
-      "对划线部分进行强调"
-     ],
-     "主考点": "强调句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查强调句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "not until 强调",
-     "子类依据": "全文"
-    },
-    {
-     "id": "146-21",
-     "标签": "2023 · 翰林高级中学 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "I didn’t have a good understanding of traditional Chinese culture until I participated in the activity.",
-     "提示词": null,
-     "答案": "It was not until I participated in the activity that I had a good understanding of traditional Chinese culture.",
-     "解析": "考查强调句。句意：直到我参加了这个活动，我才对中国传统文化有了很好的了解。分析所给原句，以及题干要求可知，需把原句改为强调句，强调部分是“until I participated in the activity”，根据didn’t可知，用一般过去时，所以用“it was+被强调部分+that+剩余部分”强调句型，句中有didn’t和until，此处是“not… until”结构，改为强调句时，否定前移。故答案为：It was not until I participated in the activity that I had a good understanding of traditional Chinese culture.",
-     "句意": null,
-     "cue": [
-      "强调划线部分",
-      "句型转换"
-     ],
-     "主考点": "强调句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查强调句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "not until 强调",
-     "子类依据": "全文"
     }
    ],
    "编号": 5
@@ -1299,41 +1086,15 @@
    "题数": 2,
    "候选": {
     "本节点": 2,
-    "借用": 6,
-    "合计": 8
+    "借用": 0,
+    "合计": 2
    },
    "子类": {
-    "让步": {
-     "题数": 1,
-     "题": [
-      "070-14"
-     ]
-    },
     "条件": {
-     "题数": 3,
-     "题": [
-      "008-11",
-      "023-18",
-      "003-18"
-     ]
-    },
-    "时间": {
-     "题数": 1,
-     "题": [
-      "003-30"
-     ]
-    },
-    "原因": {
-     "题数": 1,
-     "题": [
-      "003-24"
-     ]
-    },
-    "其他": {
      "题数": 2,
      "题": [
-      "003-08",
-      "070-17"
+      "008-11",
+      "023-18"
      ]
     }
    },
@@ -1379,142 +1140,6 @@
      "标记": [],
      "子类": "条件",
      "子类依据": "全文"
-    },
-    {
-     "id": "003-08",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "One of the other paintings is at the Metropolitan Museum of Art in New York, ___ another was displayed at auction in 1992.",
-     "提示词": null,
-     "答案": "while",
-     "解析": "分析句子可知，设空前后两个分句之间表示对比或对照，应用连词while连接，故填while。",
-     "句意": "另外一幅画在纽约大都会艺术博物馆展出，而另一幅画在1992年的拍卖会上展出。",
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
-    },
-    {
-     "id": "003-18",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "Remove clothing using scissors if necessary ___ it is stuck to the burn.",
-     "提示词": null,
-     "答案": "unless",
-     "解析": "考查状语从句。分析句子可知此处包含一个条件状语从句，句意“衣服粘在烧伤处”是不能剪掉衣服的条件，所以应用unless（除非）引导该从句，故填unless。",
-     "句意": "如有必要，可使用剪刀脱掉衣服，除非衣服粘在烧伤处。",
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查状语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "条件",
-     "子类依据": "全文"
-    },
-    {
-     "id": "003-24",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "完成句子",
-     "题干": "Because he hadn't passed the driving test, he was scolded badly by Miss Bao. （改简单句）",
-     "提示词": null,
-     "答案": "Not having passed the driving test, he was scolded badly by Miss Bao",
-     "解析": "分析句子可知，原句为复合句，从句部分是以Because引导的原因状语从句，按要求转换为简单句，可用分词短语作原因状语，主语he与动词pass之间为主动关系，且pass这一动作发生在谓语动作was scolded之前，应用现在分词的完成时，否定形式在前面加not，转换为not having passed the driving test，故答案为Not having passed the driving test, he was scolded badly by Miss Bao。",
-     "句意": "因为他没有通过驾驶考试，他被包小姐狠狠地骂了一顿。",
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "非谓语"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": true,
-     "缺陷原因": [
-      "无空位"
-     ],
-     "标记": [],
-     "子类": "原因",
-     "子类依据": "全文"
-    },
-    {
-     "id": "003-30",
-     "标签": "2018 · 虎门外国语学校 · 高二上期中",
-     "题型": "翻译",
-     "题干": "这个女孩子一看到医生就哭了。",
-     "提示词": null,
-     "答案": "Hardly had the girl seen the doctor when she cried.",
-     "解析": "表示“一…就…”，常用句式：Hardly…when…， when引导的时间状语从句中通常用一般过去时，主句用过去完成时；将否定词hardly置于句首，主句部分用部分倒装形式，即将助动词had提到主语the girl的前面，“看到医生”see the doctor，从句部分用陈述句。结合汉语提示，故答案为：Hardly had the girl seen the doctor when she cried.",
-     "句意": null,
-     "cue": [
-      "用倒装句翻译"
-     ],
-     "主考点": "状语从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "倒装",
-      "时态"
-     ],
-     "考查句": null,
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "时间",
-     "子类依据": "全文"
-    },
-    {
-     "id": "070-14",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "___ he was refused by the host, he insisted on entering the room.",
-     "提示词": null,
-     "答案": "Thoug |Although |While",
-     "解析": "考查状语从句。句意：虽然主人拒绝他，他坚持要进房间。引导让步状语从句，表示“虽然”用though或although/while，首字母大写。故填Thoug/Although/While。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查状语从句",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空",
-      "疑似拼写错"
-     ],
-     "子类": "让步",
-     "子类依据": "全文"
-    },
-    {
-     "id": "070-17",
-     "标签": "2024 · 东莞市 · 高二上期中",
-     "题型": "语法填空",
-     "题干": "If ___ (expose) to extreme heat, the plastic material may melt.",
-     "提示词": "expose",
-     "答案": "exposed",
-     "解析": "考查状语从句的省略。句意：如果暴露在极端高温下，这种塑料材料可能会融化。当状语从句的主语与主句的主语一致时或从句主语为it时，可以省略状语从句的主语和be动词。此句中If从句主语与主句主语the plastic material一致，the plastic material与expose“使接触”为被动关系，结合主句可知此从句用一般现在时的被动语态，从句为If the plastic material is exposed to extreme heat，从句的主语和be动词可省略，保留过去分词。故填exposed。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语",
-      "省略"
-     ],
-     "考查句": "考查状语从句的省略",
-     "借用节点": "期中",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "其他",
-     "子类依据": null
     }
    ],
    "编号": 6
@@ -1692,13 +1317,10 @@
    "比较级": 1,
    "倒装": 1
   },
-  "疑似缺陷题数": 1,
-  "候选合计": 60,
-  "借用合计": 15,
-  "借用节点分布": {
-   "期中后月考": 3,
-   "期中": 12
-  },
+  "疑似缺陷题数": 0,
+  "候选合计": 45,
+  "借用合计": 0,
+  "借用节点分布": {},
   "不足 8 题的讲专题": []
  }
 }
