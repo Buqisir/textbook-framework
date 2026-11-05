@@ -137,17 +137,7 @@
  * 空隙加在上一组末段的下边（小标题是浮动件，加在它上面会和右侧段落错位）。半格 = 10.5pt，不破网格。 */
 .explain > p:has(+ .subhead) { margin-bottom: var(--h); }
 
-/* ── 讲义一改版（2026-11-05）：① 考向卡、③ 改写套路 ──
- * ① 考向卡 = 考情总表加一列「教辅」（狂K 把这个词列在哪一层：探究 / 基础 / 差距 / 未列）。
- *    东莞高频、教辅却不当重点的（基础 / 未列）加粗：反差要一眼看得见。
- *    表下一行 .freq-gap：教辅列为探究重点、东莞从没考过的词。 */
-.freq col.c-kb { width: 48pt; }
-.freq td.kb { font: 400 9pt/var(--u) "sans-ui"; }
-.freq td.kb.gap { font-weight: 700; }
-.freq-gap { margin-top: var(--h); font: 400 9pt/var(--u) "sans-ui"; text-align: left; }
-.freq-gap > b { font-weight: 700; margin-right: 1em; }
-.freq-gap > span[lang="en"] { font: 400 10.5pt/1 "serif-en"; }
-
-/* ③ 改写套路：沿用 .phrase 的格。柱里放套路名（中文黑体）+ 柱注；正文栏一行「原句 → 改法」公式，下接原题 */
+/* ── 讲义一改版（2026-11-05）：③ 句式转换 ── */
+/* ③ 句式转换：沿用 .phrase 的格。柱里放套路名（中文黑体）+ 柱注；正文栏一行「原句 → 改法」公式，下接原题 */
 .trick > .fam-head { font: 700 12pt/var(--u) "sans-ui"; }
 .trick > .ph > b { font-family: "arrow", "serif-en", "serif-cjk"; font-size: 10.5pt; }
