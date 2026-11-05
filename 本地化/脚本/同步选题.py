@@ -5,6 +5,10 @@
 输入：本地化/数据/题库.jsonl、题-单元.jsonl、单元.json、词族索引.json、待校对.tsv（只读）
 输出：本地化/内容/同步-必修一-W-U2.json（候选骨架：自动部分已填，人工部分留空）
 
+结构：① 考情（统计）→ ② 词性转换 → ③ 短语（前半）与句式转换（后半）→ ⑤ 单元小测（④ 已删）。
+③ 句式的题由 TRICK_PICKS 人工挑选（题干带改写指令的东莞原题），脚本只校验，不替人选。
+③ 前半的短语题跳过改写题，改写题只进句式块。
+
 规则见 AGENTS.md「选题规则」。仅使用标准库，结果确定。
 """
 import collections
@@ -25,30 +29,20 @@ ZH_TITLE = {1: '欢迎单元', 2: '青少年生活', 3: '环游世界'}
 BOOK = '必修第一册'
 ORDER = [1, 2, 3]
 
-# ④ 语法例题与练习：人工从候选中选定（候选见骨架 grammar.candidates）。
-# 东莞题不够时用狂K 教材原句改成填空，出处写「教材原句 P页码」（TB 条目）。
-def TB(tid, page, stem, ans, qtype, note):
-    return {'id': tid, '标签': f'教材原句 {page}', '题型': qtype, '题干': stem,
-            '提示词': None, '答案': ans, '解析': note, '句意': None, '年份': None, '_tb': True}
-
-
-GRAMMAR_PICKS = {
-    1: {'examples': ['007-14', '126-23'],
-        'drill': [
-            TB('TB-W-1', 'P6', 'I found most of my classmates and teachers ___ (friend) and helpful.', 'friendly',
-               '语法填空', '考查 find + 宾语 + 宾补。friendly 与 helpful 并列作宾补，修饰 classmates and teachers。'),
-            TB('TB-W-2', 'P6', 'He heard a woman ___ (cry) over there under a tree.', 'crying',
-               '语法填空', '考查 hear + 宾语 + 宾补。宾语 a woman 与 cry 之间是主动关系，用现在分词作宾补。'),
-            TB('TB-W-3', 'P6', 'His mother told him ___ in the street. (不要在街上玩)', 'not to play',
-               '完成句子', '考查 tell + 宾语 + 宾补。宾补是不定式短语，否定词 not 放在 to 前。')]},
-    2: {'examples': ['038-17', '035-16'],
-        'drill': ['104-33', '148-21', '148-08']},
-    3: {'examples': ['166-12', '059-09'],
-        'drill': ['033-11', '054-30',
-                  TB('TB-U2-1', 'P30', "We're ___ (arrive) at 9:30 a.m. and will start sightseeing right away.",
-                     'arriving', '语法填空',
-                     '考查现在进行时表将来。arrive 是位移动词，句中 at 9:30 a.m. 给出将来的时间点。')]},
+# ③ 句式转换：人工从东莞原题中挑选（题干带改写指令的题）。每块 1–3 题，只用原题，不编题。
+# 句式名 ≤6 字；柱注与公式在定稿 JSON 里填写。挑选结果由下面的校验检查：
+# 题须在有效池内（去重后的代表题）、题干带改写指令（REWRITE_RE）、命中本单元。
+TRICK_PICKS = {
+    1: [('被动改主动', ['111-21', '155-20']),
+        ('动词改短语', ['121-21', '158-21', '041-19']),
+        ('形式主语', ['161-25'])],
+    2: [('分词作状语', ['137-23']),
+        ('定语从句', ['058-24']),
+        ('倒装', ['066-25'])],
+    3: [('进行时表将来', ['111-27']),
+        ('动词改短语', ['050-29'])],
 }
+REWRITE_RE = re.compile(r'同义|改写|合并|转换|用.*翻译|句型')
 
 TYPE_ORDER = ['语法填空', '完成句子', '单词拼写', '翻译', '单选', '其他']
 KAOFA_LABEL = {'词性转换': '词性转换', '动词形式': '动词形式', '名词复数': '复数'}
@@ -121,6 +115,11 @@ def clean_stem_full(stem):
 
 def clean_stem(stem):
     return clean_stem_full(stem)[0]
+
+
+def is_rewrite(q):
+    """题干带改写指令（同义句转换、用…改写、用…合并、用…翻译、句型转换）。"""
+    return any(REWRITE_RE.search(c) for c in clean_stem_full(q['题干'])[1])
 
 
 def to_html_stem(stem):
@@ -296,25 +295,18 @@ def main():
             stem_best[k] = qid
     pool_ids = set(stem_best.values())
     pool = {qid: cand[qid] for qid in pool_ids}
-    # 语法例题/练习的候选池：全部有效且去重后的题（不要求命中词）
-    all_valid = {}
-    g2 = collections.defaultdict(list)
-    for qid, q in Q.items():
-        if valid(q) and q.get('重复组') is not None:
-            g2[q['重复组']].append(qid)
-    drop2 = set()
-    for g, ids in g2.items():
-        best = ids[0]
-        for i in ids[1:]:
-            best = newest(best, i)
-        drop2.update(i for i in ids if i != best)
-    sb2 = {}
-    for qid, q in Q.items():
-        if not valid(q) or qid in drop2:
-            continue
-        k = norm_key(clean_stem(q['题干']))
-        sb2[k] = newest(sb2[k], qid) if k in sb2 else qid
-    all_valid = set(sb2.values())
+    # ---- 6. ③ 句式：人工挑选的改写题须在有效池内（去重后的代表题）、题干带改写指令、命中本单元
+    trick_ids = set()
+    for seq, blocks in TRICK_PICKS.items():
+        for name, ids in blocks:
+            if len(name) > 6:
+                raise SystemExit(f'句式名超过 6 字：{name}')
+            for qid in ids:
+                if qid not in pool or not is_rewrite(Q[qid]) or not any(h['序'] == seq for h in pool[qid][1]):
+                    raise SystemExit(f'句式选题无效：{qid}（{name}）')
+                if qid in trick_ids:
+                    raise SystemExit(f'句式选题重复：{qid}')
+                trick_ids.add(qid)
 
     # ---- 5. 统计：词头 → 题、形式、考法（只统计 owner 为 1–3 的命中）
     head_qs = collections.defaultdict(list)     # 词头 → [(qid, hit)]
@@ -340,10 +332,6 @@ def main():
             out.add(KAOFA_LABEL[kf])
         return out
 
-    unit_info = {}
-    for seq in ORDER:
-        unit_info[seq] = {}
-
     # 单元词汇索引
     vocab = {}
     for u in units_raw:
@@ -359,14 +347,7 @@ def main():
     report = collections.defaultdict(list)
     skeleton = {'生成': '本地化/脚本/同步选题.py', '书': BOOK, '单元': []}
 
-    used = set()   # 全书已用题（④ 例题、练习、② ③ ⑤ 原题）
-
-    # 预留 ④ 语法例题与练习（高一上）
-    GRAMMAR_KW = {
-        1: ['基本句型', '句子成分', '宾补'],
-        2: ['名词短语', '形容词短语', '副词短语'],
-        3: ['进行时'],
-    }
+    used = set(trick_ids)   # 全书已用题：③ 句式的题先预留，② ③ 前半 ⑤ 不再用
 
     for seq in ORDER:
         code, title_en_key, zh, en = UNITS[seq]
@@ -399,36 +380,6 @@ def main():
 
         def lst_all_for(w):
             return heads.get(w, [])
-
-        # ---- ④ 语法：先预留例题与练习（高一上）
-        kw_pool = []
-        for qid in all_valid:
-            q = Q[qid]
-            if '高一上' not in (q.get('标签') or '') or qid in used:
-                continue
-            if q['题型'] not in ('语法填空', '完成句子', '单词拼写'):
-                continue
-            text = q.get('解析') or ''
-            if any(k in text for k in GRAMMAR_KW[seq]):
-                kw_pool.append(qid)
-        kw_pool.sort(key=lambda i: (-(Q[i]['年份'] or 0), i))
-        report[seq].append(('语法关键词候选', len(kw_pool)))
-        # 校验人工选择仍在有效池内
-        for qid in GRAMMAR_PICKS[seq]['examples'] + [i for i in GRAMMAR_PICKS[seq]['drill'] if isinstance(i, str)]:
-            if qid not in all_valid:
-                raise SystemExit(f'人工选择无效：{qid}')
-
-        cands_list = [Q[i] for i in kw_pool[:30]]  # 候选仅供人工挑选
-        examples, drills = [], []
-        for qid in GRAMMAR_PICKS[seq]['examples']:
-            examples.append(Q[qid])
-            used.add(qid)
-        for item in GRAMMAR_PICKS[seq]['drill']:
-            if isinstance(item, dict):
-                drills.append(item)
-            else:
-                drills.append(Q[item])
-                used.add(item)
 
         # ② 词性转换词族
         fam_rows = [r for r in freq_rows if '词性转换' in r['考法']]
@@ -510,7 +461,7 @@ def main():
         pgroups = collections.defaultdict(list)   # (词头, 短语) → [(qid, h)]
         for w, lst in heads.items():
             for qid, h in lst:
-                if qid in used or h['方式'] != '搭配':
+                if qid in used or h['方式'] != '搭配' or is_rewrite(Q[qid]):
                     continue
                 phrase = h['证据'].split('｜')[0]
                 pgroups[(w, phrase)].append((qid, h))
@@ -544,6 +495,11 @@ def main():
                 used.add(qid)
                 p['atoms'].append(build_atom(Q[qid]))
 
+        # ③ 后半：句式块（题在 TRICK_PICKS 里人工挑定）
+        tricks = [{'句式': name, 'gloss': '', 'formula': '',
+                   'atoms': [build_atom(Q[qid]) for qid in ids]}
+                  for name, ids in TRICK_PICKS.get(seq, [])]
+
         # ⑤ 单元小测：未用到的本单元题，按题型混排，最多 8 道
         leftovers = collections.defaultdict(list)
         for w, lst in heads.items():
@@ -569,7 +525,6 @@ def main():
         # 统计
         uniq_files = {Q[qid]['文件'] for qid, _ in pool.items() if any(owner[h['词头']] == seq for h in pool[qid][1])}
         phrase_count = sum(len(e.get('搭配', [])) for e in uraw['词汇'])
-        grammar_q = len(examples) + len(drills)
         unit_qids = {qid for w, lst in heads.items() for qid, _ in lst}
         years = [Q[i]['年份'] for i in unit_qids if Q[i]['年份']]
         n_kaofa = sum(1 for i in unit_qids if U[i].get('考法') == '词性转换')
@@ -579,25 +534,16 @@ def main():
             'chips': {'year_range': f'{min(years)}–{max(years)}' if years else '',
                       'n_questions': len(unit_qids), 'n_kaofa': n_kaofa, 'n_phrase': n_phr},
             'h2': en, 'zh': ZH_TITLE[seq],
-            'stats': {'卷数': len(uniq_files), '词数': len(uraw['词汇']), '短语数': phrase_count, '语法题数': grammar_q},
+            'stats': {'卷数': len(uniq_files), '词数': len(uraw['词汇']), '短语数': phrase_count,
+                      '句式题数': sum(len(t['atoms']) for t in tricks)},
             'freq': top10,
             'families': families,
             'phrases': phrases,
-            'grammar': {
-                'titles': [g['标题'] for g in uraw['语法']],
-                'keywords': GRAMMAR_KW[seq],
-                'candidates': [build_atom(q) for q in cands_list],
-                'explain': {'subhead': '', 'paragraphs': [], 'pattern': '', 'compare': []},
-                'examples': [{'q': build_atom(q), 'gloss': '', 'solution': {}} for q in examples],
-                'drill': [build_atom(q) for q in drills],
-            },
+            'tricks': tricks,
             'quiz': [build_atom(Q[qid]) for qid in quiz],
         })
-        unit_info[seq]['freq_rows_total'] = len(freq_rows)
-        unit_info[seq]['fam_pool'] = len(fam_rows)
-        unit_info[seq]['quiz_left'] = sum(len(v) for v in leftovers.values())
 
-    # 编号：每单元内 ② ③ ④drill ⑤ 连续编号；答案同号
+    # 编号：每单元内 ② ③（短语、句式）⑤ 连续编号；答案同号
     for u in skeleton['单元']:
         n = 0
         for fam in u['families']:
@@ -608,10 +554,10 @@ def main():
             for a in ph['atoms']:
                 n += 1
                 a['no'] = n
-        u['grammar']['drill_start'] = n + 1
-        for a in u['grammar']['drill']:
-            n += 1
-            a['no'] = n
+        for t in u['tricks']:
+            for a in t['atoms']:
+                n += 1
+                a['no'] = n
         for a in u['quiz']:
             n += 1
             a['no'] = n
@@ -622,7 +568,7 @@ def main():
     print(f'写入 {OUT}')
     for u in skeleton['单元']:
         print(u['data_no'], u['stats'], '频次行', len(u['freq']), '词族', len(u['families']),
-              '短语', len(u['phrases']), '例题', len(u['grammar']['examples']), '练习', len(u['grammar']['drill']),
+              '短语', len(u['phrases']), '句式', [(t['句式'], [a['id'] for a in t['atoms']]) for t in u['tricks']],
               '小测', len(u['quiz']), '编号至', u['numbered_total'])
     for seq, items in sorted(report.items()):
         for it in items:
