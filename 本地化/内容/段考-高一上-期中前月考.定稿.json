@@ -1,25 +1,25 @@
 {
  "data_no": "01",
- "unit_book": "段考专题　高一上 · 第 1 站",
+ "unit_book": "段考专题　高一上",
  "h2": "期中前月考",
  "stats": [
   {
    "b": "12",
-   "post": "套东莞卷"
+   "post": "套试卷"
   },
   {
    "b": "5",
    "post": "个专题"
   },
   {
-   "pre": "考时教材约进行到 ",
+   "pre": "教学进度 ",
    "b": "U2"
   }
  ],
  "overview": {
-  "title": "这次段考考什么",
-  "chip": "2022–2025 · 单句类题",
-  "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+  "title": "考情总览",
+  "chip": "2022–2025 · 东莞真题",
+  "lead": "每格代表 10% 的试卷；教材进度加粗，表示考查早于教学。",
   "rows": [
    {
     "name": "非谓语",
@@ -85,7 +85,7 @@
     "skip": true
    }
   ],
-  "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单讲。"
+  "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单列。"
  },
  "topics": [
   {
@@ -108,11 +108,11 @@
     },
     {
      "type": "p",
-     "text": "动词或介词后面接什么形式，先看前面那个词。look forward to、spend time、be busy、quit 后面用 doing；pretend、need、be about to 后面用 to do。"
+     "text": "动词或介词后面接什么形式，看前面那个词。look forward to、spend time、be busy、quit 后面用 doing；pretend、need、be about to 后面用 to do。"
     },
     {
      "type": "p",
-     "text": "look forward to 的 to 是介词，后面一定接 doing，不接动词原形。题目多半给固定搭配，背住搭配就能定形式。"
+     "text": "look forward to 的 to 是介词，后面接 doing，不接动词原形。题目多半给固定搭配，熟悉搭配即可定形式。"
     },
     {
      "type": "pattern",
@@ -131,7 +131,7 @@
     },
     {
      "type": "p",
-     "text": "find、make 之后，宾语和宾补之间看逻辑：宾语是动作的承受者，宾补用过去分词（found herself left alone、make myself understood）。"
+     "text": "find、make 之后，若宾语是动作的承受者，宾补用过去分词（found herself left alone、make myself understood）。"
     },
     {
      "type": "p",
@@ -154,10 +154,10 @@
     },
     {
      "type": "p",
-     "text": "作状语、作定语各 2 题，不单列：Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）各见一句即可。"
+     "text": "作状语、作定语各 2 题，不单列：Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）各举一例。"
     }
    ],
-   "keypoint": "先看空前的词：介词 to、spend、be busy、quit 后用 doing；pretend、need、be about to 后用 to do。再看动作与逻辑主语的关系，是被动就用 done。",
+   "keypoint": "空前的词决定形式：介词 to、spend、be busy、quit 后用 doing；pretend、need、be about to 后用 to do。动作与逻辑主语是被动关系时用 done。",
    "examples": [
     {
      "gloss": [
@@ -425,7 +425,7 @@
     },
     {
      "type": "p",
-     "text": "recommend、suggest、insist、request 等动词后的宾语从句，或 It is recommended that… 的主语从句，从句谓语用 (should) + 动词原形。东莞这一站几乎只考这一种。"
+     "text": "recommend、suggest、insist、request 等动词后的宾语从句，或 It is recommended that… 的主语从句，从句谓语用 (should) + 动词原形。段考里几乎只考这一种。"
     },
     {
      "type": "p",
@@ -535,7 +535,7 @@
     },
     {
      "type": "p",
-     "text": "宾语从句先看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
+     "text": "宾语从句看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
     },
     {
      "type": "p",
@@ -558,10 +558,10 @@
     },
     {
      "type": "p",
-     "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：先找 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
+     "text": "这类句子和上一专题的 it 形式主语是同一句型，判断方法相同：找到 it，再看句末的 that 从句。表语、同位语从句本册没有题，不讲。"
     }
    ],
-   "keypoint": "宾语从句先看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
+   "keypoint": "宾语从句看从句缺不缺成分，缺就用 what、which、who，不缺用 that（可省）、whether 或 if。主语从句多是 It is adj. that，that 不能省。",
    "examples": [
     {
      "gloss": [
@@ -657,14 +657,14 @@
     },
     {
      "type": "p",
-     "text": "判断：拿掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
+     "text": "判断：去掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
     },
     {
      "type": "pattern",
      "text": "It was + 被强调部分 + that + 其余部分"
     }
    ],
-   "keypoint": "拿掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语或宾语时，用 that。",
+   "keypoint": "去掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语或宾语时，用 that。",
    "examples": [
     {
      "gloss": [

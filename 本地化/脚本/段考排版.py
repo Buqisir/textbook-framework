@@ -23,17 +23,17 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
 
 {
   "data_no": "01",                                  册头编号（期中前月考 "01"、期中 "02"）
-  "unit_book": "段考专题　高一上 · 第 1 站",          册头 kicker
+  "unit_book": "段考专题　高一上",          册头 kicker
   "h2": "期中前月考",                                 册头标题
   "stats": [                                        册头三项：{pre?, b, post?}，pre/post 为普通文字
-    {"b": "12", "post": "套东莞卷"},
+    {"b": "12", "post": "套试卷"},
     {"b": "6", "post": "个专题"},
-    {"pre": "考时教材约进行到 ", "b": "U2"}
+    {"pre": "教学进度 ", "b": "U2"}
   ],
-  "overview": {                                     「这次段考考什么」（专题总表）
-    "title": "这次段考考什么",
-    "chip": "2022–2025 · 单句类题",
-    "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+  "overview": {                                     「考情总览」（专题总表）
+    "title": "考情总览",
+    "chip": "2022–2025 · 东莞真题",
+    "lead": "每格代表 10% 的试卷；教材进度加粗，表示考查早于教学。",
     "rows": [                                       行顺序 = 总表行顺序（讲的在前，不讲的在后）
       {"name": "非谓语", "cov": 1.0, "n": 55,      cov 覆盖率 0–1；格数 = round(cov×10)；n 题数
        "book": "必修二 U4 起", "ahead": true,       book 教材文字；ahead 为真则加粗（考在教之前）
@@ -45,7 +45,7 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
     {
       "no": 4,                                      编号（与 data-no 一致，从 1 起）
       "name": "虚拟语气",
-      "vols": 12, "cov": 8, "n": 10,                专题头 chip：「12 卷中 8 卷考 · 10 题」
+      "vols": 12, "cov": 8, "n": 10,                专题头 chip：「覆盖 8/12 卷 · 10 道」
       "explain": [                                  讲解块，按顺序输出
         {"type": "subhead", "text": "recommend 型"},           <p class="subhead">
         {"type": "gloss", "lines": ["10 题里 9 题", "recommend：必修一 U1"]},   <aside class="gloss">（柱注，≤2 行）
@@ -173,7 +173,7 @@ def overview_html(o):
         f'  <p class="lead">{inline(o["lead"])}</p>\n'
         '  <table class="focus">\n'
         '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col><col class="c-go"></colgroup>\n'
-        '    <thead><tr><th>专题</th><th>多少卷考到</th><th>题数</th><th>人教教材</th><th>本册</th></tr></thead>\n'
+        '    <thead><tr><th>专题</th><th>覆盖率</th><th>题数</th><th>教材进度</th><th>本册</th></tr></thead>\n'
         '    <tbody>\n' + '\n'.join(rows) + '\n    </tbody>\n'
         '  </table>\n'
         f'  <p class="after">{inline(o["after"])}</p>\n'
@@ -225,7 +225,7 @@ def example_html(e):
 
 def topic_html(t, drill_nos):
     no = t['no']
-    chip = (f'{t["vols"]} 卷中 <b>{t["cov"]}</b> 卷考 · <b>{t["n"]}</b> 题')
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷 · <b>{t["n"]}</b> 道')
     parts = [
         f'<section class="topic" data-no="{no}">\n',
         f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'

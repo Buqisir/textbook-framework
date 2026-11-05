@@ -1,16 +1,16 @@
 {
   "data_no": "01",
-  "unit_book": "段考专题　高一上 · 第 1 站",
+  "unit_book": "段考专题　高一上",
   "h2": "期中前月考",
   "stats": [
-    {"b": "12", "post": "套东莞卷"},
+    {"b": "12", "post": "套试卷"},
     {"b": "6", "post": "个专题"},
-    {"pre": "考时教材约进行到 ", "b": "U2"}
+    {"pre": "教学进度 ", "b": "U2"}
   ],
   "overview": {
-    "title": "这次段考考什么",
-    "chip": "2022–2025 · 单句类题",
-    "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+    "title": "考情总览",
+    "chip": "2022–2025 · 东莞真题",
+    "lead": "每格代表 10% 的试卷；教材进度加粗，表示考查早于教学。",
     "rows": [
       {"name": "非谓语", "cov": 1.0, "n": 55, "book": "必修二 U4 起", "ahead": true, "go": "专题 1", "skip": false},
       {"name": "it 形式主宾语", "cov": 0.92, "n": 17, "book": "不单列", "ahead": true, "go": "专题 2", "skip": false},
@@ -19,7 +19,7 @@
       {"name": "强调句", "cov": 0.5, "n": 6, "book": "不单列", "ahead": true, "go": "专题 5", "skip": false},
       {"name": "定语从句", "cov": 0.33, "n": 5, "book": "必修一 U4", "ahead": false, "go": "期中册", "skip": true}
     ],
-    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单讲。"
+    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单列。"
   },
   "topics": [
     {
@@ -31,7 +31,7 @@
       "explain": [
         {"type": "subhead", "text": "recommend 型"},
         {"type": "gloss", "lines": ["10 题里 9 题", "recommend：必修一 U1"]},
-        {"type": "p", "text": "东莞这一站考虚拟，几乎只考一种：[[recommend]] 后接 that 从句，从句谓语用 [[(should) + 动词原形]]。题目常把它藏在两处：主语从句 [[It is recommended that …]]，或者要求把 [[recommend sb. to do]] 改写成从句。"},
+        {"type": "p", "text": "段考里考虚拟，几乎只考这一种：[[recommend]] 后接 that 从句，从句谓语用 [[(should) + 动词原形]]。题目常把它藏在两处：主语从句 [[It is recommended that …]]，或者要求把 [[recommend sb. to do]] 改写成从句。"},
         {"type": "pattern", "text": "recommend that sb. (should) do  |  It is recommended that sth. (should) be done"},
         {"type": "note", "lines": ["主语是物", "→ (should) be done"]},
         {"type": "p", "text": "从句主语若是动作的承受者，套被动：[[(should) be done]]。should 可省，答案两种都给分；但 be 不能丢。"}

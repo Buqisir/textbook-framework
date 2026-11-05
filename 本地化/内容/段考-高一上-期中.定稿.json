@@ -1,25 +1,25 @@
 {
   "data_no": "02",
-  "unit_book": "段考专题　高一上 · 第 2 站",
+  "unit_book": "段考专题　高一上",
   "h2": "期中",
   "stats": [
     {
       "b": "20",
-      "post": "套东莞卷"
+      "post": "套试卷"
     },
     {
       "b": "8",
       "post": "个专题"
     },
     {
-      "pre": "考时教材约进行到 ",
+      "pre": "教学进度 ",
       "b": "U3"
     }
   ],
   "overview": {
-    "title": "这次段考考什么",
-    "chip": "2020–2025 · 单句类题",
-    "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+    "title": "考情总览",
+    "chip": "2020–2025 · 东莞真题",
+    "lead": "每格代表 10% 的试卷；教材进度加粗，表示考查早于教学。",
     "rows": [
       {
         "name": "非谓语",
@@ -94,7 +94,7 @@
         "skip": false
       }
     ],
-    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单讲。快的学校期中前已教到必修一 U5。倒装期中 3 成卷考，期末升到近 7 成。"
+    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单列。快的学校期中前已教到必修一 U5。倒装期中 3 成卷考，期末升到近 7 成。"
   },
   "topics": [
     {
@@ -117,11 +117,11 @@
         },
         {
           "type": "p",
-          "text": "分词作状语最常见，如 Compared with、Burying himself。先分清它与逻辑主语的关系：主动用 -ing，被动用 -ed（compared 指被比较）。"
+          "text": "分词作状语最常见，如 Compared with、Burying himself。分词与逻辑主语是主动关系时用 -ing，是被动关系时用 -ed（compared 指被比较）。"
         },
         {
           "type": "p",
-          "text": "不定式作目的状语，动词用原形，如 to establish、to promote。句意是“为了”时，先想 in order to 能否替换。"
+          "text": "不定式作目的状语，动词用原形，如 to establish、to promote。句意是“为了”时，可以试换成 in order to。"
         },
         {
           "type": "subhead",
@@ -136,11 +136,11 @@
         },
         {
           "type": "p",
-          "text": "动词后的 to 与 -ing 靠搭配定：pretend、attempt、need 接不定式；spend time、be addicted to、lead to 接动名词。"
+          "text": "动词后的 to 与 -ing 由搭配决定：pretend、attempt、need 接不定式；spend time、be addicted to、lead to 接动名词。"
         },
         {
           "type": "p",
-          "text": "remember、stop、try 后接 to 与 -ing 意思不同，要看句意，不能只凭形式判断。"
+          "text": "remember、stop、try 后接 to 与 -ing 意思不同，要结合句意判断，不能只看形式。"
         },
         {
           "type": "subhead",
@@ -155,7 +155,7 @@
         },
         {
           "type": "p",
-          "text": "空前有 to 或介词时先看形式：作不定式符号的 to 后用原形（breathe、make up、comment on），作介词的 to 后用 -ing（addicted to smoking）。"
+          "text": "空前有 to 或介词时，看 to 的性质：作不定式符号的 to 后用原形（breathe、make up、comment on），作介词的 to 后用 -ing（addicted to smoking）。"
         },
         {
           "type": "p",
@@ -216,7 +216,7 @@
           "ans": "complaining"
         }
       ],
-      "keypoint": "先看空前：句中已有谓语且无连词，空处用非谓语作状语或定语；空前是 to 或介词，按搭配定形式。主动用 -ing 或 to 原形，被动用 -ed 或 to be done。",
+      "keypoint": "句中已有谓语且无连词时，空处多为非谓语作状语或定语；空前是 to 或介词，按搭配选形式。主动用 -ing 或 to 原形，被动用 -ed 或 to be done。",
       "drill": [
         {
           "stem": "Sometimes the little boy pretended ___ (read) a book on the sofa to make his parents praise him.",
@@ -295,7 +295,7 @@
         },
         {
           "type": "p",
-          "text": "find、make、consider 等动词后，若真正的宾语是不定式或 that 从句，先用 it 占位，it 不译。"
+          "text": "find、make、consider 等动词后，若真正的宾语是不定式或 that 从句，用 it 占位，it 不译。"
         },
         {
           "type": "p",
@@ -314,7 +314,7 @@
         },
         {
           "type": "p",
-          "text": "句首 It 顶位，真主语是后置的不定式或 that 从句。obvious、clear 后接 that；difficult、hard 后接 to do（前面可有 for sb.）。that 后必须是完整句。"
+          "text": "句首 It 作形式主语，真主语是后置的不定式或 that 从句。obvious、clear 后接 that；difficult、hard 后接 to do（前面可有 for sb.）。that 后必须是完整句。"
         },
         {
           "type": "p",
@@ -377,7 +377,7 @@
           "ans": "It is obvious that"
         }
       ],
-      "keypoint": "it 在宾语位置且后接形容词时，是形式宾语，真正的宾语在后；it 在句首接 be adj.，真主语在句末，先找后置的 to 或 that。",
+      "keypoint": "it 在宾语位置且后接形容词时，是形式宾语，真正的宾语在后；it 在句首接 be adj.，真主语在句末，看后置的是 to 还是 that。",
       "drill": [
         {
           "stem": "The research reveals that teenagers find ___ difficult to concentrate on their study after playing mobile games continuously for an hour.",
@@ -492,7 +492,7 @@
         },
         {
           "type": "p",
-          "text": "两句合成一句：先找两句共同的名词作先行词，把第二句里与它有关的词换成关系词，放在先行词之后。"
+          "text": "两句合成一句时，找出两句共有的名词作先行词，把第二句里与它有关的词换成关系词，放在先行词之后。"
         },
         {
           "type": "p",
@@ -551,7 +551,7 @@
           "ans": "The boy whose leg was seriously injured in the accident was rushed to the hospital."
         }
       ],
-      "keypoint": "先看先行词和从句缺什么：缺状语用 where、when、why；缺主语或宾语用 who、whom、which、that，所属用 whose。逗号后是非限定，不能用 that。",
+      "keypoint": "从句缺状语时用 where、when、why；缺主语或宾语时用 who、whom、which、that；所属关系用 whose。逗号后是非限定，不能用 that。",
       "drill": [
         {
           "stem": "Sales director is a position ___ communication ability is just as important as sales skills.",
@@ -635,7 +635,7 @@
           "type": "gloss",
           "lines": [
             "8 题",
-            "拿掉框架后是完整句"
+            "去掉框架后仍是完整句"
           ]
         },
         {
@@ -654,7 +654,7 @@
           "type": "gloss",
           "lines": [
             "5 题",
-            "直到…才…，别漏 not"
+            "直到…才…，需含 not"
           ]
         },
         {
@@ -704,7 +704,7 @@
           "ans": "It was not until he fell seriously ill that he realized the value of health."
         }
       ],
-      "keypoint": "先找被强调的成分（时间、地点、原因或人、物），套 It is/was…that；去掉 It is…that 后句子须完整。not until 整体放进 It was 与 that 之间。",
+      "keypoint": "被强调的成分可以是时间、地点、原因，也可以是人或物，套入 It is/was…that；去掉 It is…that 后句子须完整。not until 整体放进 It was 与 that 之间。",
       "drill": [
         {
           "stem": "Remember, whenever you travel abroad, it is your country ___ you are representing.",
@@ -935,7 +935,7 @@
         },
         {
           "type": "p",
-          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。时间（until、once）、原因（because）各 1 题，一句带过。"
+          "text": "so that 也可表目的（以便）。看句意：“如此……以至”是结果，“为了……”是目的。时间（until、once）、原因（because）各 1 题，不单列。"
         },
         {
           "type": "pattern",
@@ -978,7 +978,7 @@
           "ans": "that"
         }
       ],
-      "keypoint": "先认连接词：no matter + 疑问词表“无论”，even if 表假设，even though 表事实。见 so 或 such 后接 that，先判断是结果，还是“以便”的目的。",
+      "keypoint": "连接词看三处：no matter + 疑问词表“无论”，even if 表假设，even though 表事实。so 或 such 后接 that 时，判断是结果还是“以便”的目的。",
       "drill": [
         {
           "stem": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
@@ -1098,12 +1098,12 @@
           "ju": "一项调查表明，人们对保持健康该吃什么感到困惑。",
           "mid": {
             "label": "成分",
-            "text": "about 后是介词，之后是宾语从句；从句的 eat 缺宾语，what 既引导从句又作 eat 的宾语。"
+            "text": "about 后是介词，之后是宾语从句；从句的 eat 缺宾语，what 同时引导从句并作 eat 的宾语。"
           },
           "ans": "what"
         }
       ],
-      "keypoint": "先看从句在句中的位置：句首作主语的，常转成 It be adj. that 句型；动词或介词后缺成分，用 what 引导。",
+      "keypoint": "从句在句中作主语时，常转成 It be adj. that 句型；动词或介词后缺成分时，用 what 引导。",
       "drill": [
         {
           "stem": "They are likely to be fired by the company because of their faults. → ___ they will be fired by the company because of their faults.",
@@ -1228,7 +1228,7 @@
           "ans": "stood the speaker"
         }
       ],
-      "keypoint": "句首若是否定词或 only + 状语，先把助动词、情态动词或 be 提到主语前；句首若是地点状语且主语是名词，谓语全部提前。",
+      "keypoint": "句首是否定词或 only + 状语时，把助动词、情态动词或 be 提到主语前；句首是地点状语且主语是名词时，谓语全部提前。",
       "drill": [
         {
           "stem": "只有经过足够的锻炼，你才能保持健康。",
