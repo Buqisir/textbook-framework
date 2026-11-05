@@ -1,0 +1,119 @@
+/* 同步课单元讲义 · 在主线稿（柱式 ①+③）上加本地化组件（2026-11-05）
+ * 结构：单元头 → ① 东莞怎么考 → ② 词性转换 → ③ 短语与句型 → ④ 本单元语法 → ⑤ 单元小测 → 答案
+ * 新组件：unit-head、part、freq（考情总表 + 计数条）、family（词族行）、phrase（短语条）、atoms（原题条）、key（答案）。
+ * 用色：主色仍只给编号与图形——单元号、部分号、题号、计数条、「东莞考过」实点。 */
+@import url("主线.css");
+
+/* ── 单元：每单元起新页 ── */
+.unit + .unit { break-before: page; }
+.part > .topic-head { break-inside: avoid; break-after: avoid; }
+
+/* ── 单元头：跨版心，5u 高 ── */
+.unit-head {
+  position: relative;
+  min-height: calc(4 * var(--u));
+  padding-left: var(--main);
+  margin-bottom: var(--u);
+  background: linear-gradient(var(--accent), var(--accent)) left bottom / 100% 0.75pt no-repeat;
+}
+.unit-head::before {
+  content: attr(data-no);
+  position: absolute;
+  left: 0;
+  top: var(--u);
+  font: 700 36pt/calc(2 * var(--u)) "sans-ui";
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+.unit-head .unit-book { font: 400 9pt/var(--u) "sans-ui"; padding-top: var(--h); padding-bottom: var(--h); }
+.unit-head h2 { margin: 0; font: 600 24pt/calc(2 * var(--u)) "serif-en"; position: relative; top: 5.94pt; }   /* 24pt 行盒基线 30.12pt，下移 5.94pt 落回半格 */
+.unit-head h2 small { font: 400 12pt/1 "serif-cjk"; margin-left: 1em; }
+.unit-head .unit-stats { list-style: none; margin: 0; padding: 0; font: 400 9pt/var(--u) "sans-ui"; display: flex; gap: 2em; position: relative; top: 1.14pt; }   /* 9pt 行内夹 12pt 数字：下移 1.14pt 让数字基线回格 */
+.unit-head .unit-stats b { font: 700 12pt/1 "sans-ui"; margin-right: 0.25em; }
+
+/* ── 部分：不另起页（主线的 .topic 起新页，这里不用） ── */
+.part { counter-reset: ex; margin-top: var(--u); }
+.part > .topic-head { margin-bottom: var(--h); }
+.part > .topic-head .chip-freq b { font-weight: 700; }
+.part > .lead { margin-left: var(--main); font: 400 9pt/var(--u) "sans-ui"; margin-bottom: var(--h); }
+.part > .lead .dot { margin-right: 0.3em; }
+
+/* 「东莞考过」实点：图形，用主色 */
+.dot { display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; }
+
+/* ── ① 考情总表：通栏，定宽列。形式最多 3 个，考法最多 2 个（选题脚本负责截断） ── */
+.freq { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.freq col.c-word { width: var(--col); }
+.freq col.c-how { width: 84pt; }
+.freq col.c-tally { width: 96pt; }
+.freq th { font: 400 9pt/var(--u) "sans-ui"; text-align: left; background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat; }
+.freq td { vertical-align: top; text-align: left; background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
+.freq th, .freq td { padding-left: 0; padding-right: var(--zi); }
+.freq tr > :last-child { padding-right: 0; }
+.freq td:first-child { font: 600 12pt/var(--u) "serif-en"; }
+.freq td.forms { font-family: "serif-en"; }
+.freq td.forms span { display: inline-block; white-space: nowrap; }   /* 原子行内块：形式之间可断行，形式内部不断 */
+.freq td.forms span + span::before { content: "\2002\00B7\2002"; }
+.freq td.forms sub { font: 400 9pt/1 "sans-ui"; vertical-align: baseline; margin-left: 0.15em; }
+.freq td.how { font: 400 9pt/var(--u) "sans-ui"; }
+.freq td.tally { white-space: nowrap; }
+.tally i { display: inline-block; width: 3.75pt; height: 7.5pt; margin-right: 1.5pt; background: var(--accent); vertical-align: -0.5pt; }
+.tally span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
+
+/* ── ② 词族行 / ③ 短语条：名字住柱，正文栏放词族链与原题 ── */
+.family, .phrase { margin-left: var(--main); margin-top: var(--u); break-inside: avoid; }
+.part > .lead + .family, .part > .lead + .phrase { margin-top: 0; }
+.fam-head {
+  float: left; clear: left;
+  width: var(--col);
+  margin-left: calc(-1 * var(--main));
+  font: 600 12pt/var(--u) "serif-en";
+  text-align: left;
+}
+.fam-chain { font-family: "serif-en"; text-align: left; }
+.fam-chain .form { white-space: nowrap; }
+.fam-chain .form + .form { margin-left: 1.5em; }
+.fam-chain .form > i { font-style: italic; margin: 0 0.25em; }
+.fam-chain .form > .zh { font: 400 10.5pt/1 "serif-cjk"; }
+.fam-chain .form > b { font-weight: 400; }
+.fam-chain .form.hit > b { font-weight: 600; }
+.fam-chain .form.hit::before { content: ""; display: inline-block; width: 5pt; height: 5pt; border-radius: 50%; background: var(--accent); vertical-align: 1.5pt; margin-right: 0.3em; }
+.ph { text-align: left; }
+.ph > b { font: 600 12pt/var(--u) "serif-en"; margin-right: 1em; }
+.ph > .zh { font: 400 10.5pt/1 "serif-cjk"; }
+
+/* 原题条：编号主色，出处 9pt 跟在句末 */
+.atoms { margin: var(--h) 0 0; padding-left: 2em; list-style: none; }
+.atoms li { text-wrap: pretty; text-align: left; }
+.atoms p[lang="en"], .ph b[lang="en"], .fam-chain { font-family: "arrow", "serif-en", "serif-cjk"; }
+.atoms li + li { margin-top: var(--h); }
+/* 题号不用 ::marker：Chromium 的 outside marker 每条把首行基线下推约 0.09pt，40 题累计近 4pt 离格。改为 data-no + ::before 悬挂 */
+.atoms li { display: block; position: relative; }
+.atoms li::before { content: attr(data-no); position: absolute; left: -2em; font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
+.atoms li > p { display: inline; }   /* 中文题干（翻译题）同样行内，出处跟在句末 */
+.src { font: 400 9pt/1 "sans-ui"; margin-left: 1em; white-space: nowrap; }
+.src::before { content: "["; }
+.src::after { content: "]"; }
+/* 改写类题的具体指令（同义句转换、强调划线部分、用 it 作形式主语……）保留，9pt 跟在句末 */
+.cue { font: 400 9pt/1 "sans-ui"; margin-left: 0.5em; }
+
+
+/* ── 答案：册末，两栏，10.5pt 仍压在 u 网格上 ── */
+.answers { break-before: page; }
+.key { columns: 2; column-gap: calc(2 * var(--zi)); margin: 0; padding-left: 2em; font-size: 10.5pt; line-height: var(--u); }
+.key li { break-inside: avoid; text-align: left; }
+.key li { display: block; position: relative; }
+.key li::before { content: attr(data-no); position: absolute; left: -2em; font: 700 10.5pt/var(--u) "sans-ui"; color: var(--accent); }
+.key .ans { font: 600 10.5pt/1 "serif-en"; margin-right: 0.75em; }   /* line-height 1：长答案折行时不撑高行盒 */
+.answers > .topic-head::before { content: none; }
+.answers > .topic-head h3 { margin-left: var(--main); }
+.key h4 { column-span: all; font: 700 9pt/var(--u) "sans-ui"; margin: var(--h) 0 0 -2em; }
+
+/* 小号行内件一律 line-height: 1，免得撑高 21pt 行盒、把基线推离网格 */
+
+/* 例题：出处随题干句末（.src），柱里只留「例 n」与柱注；整句答案另起一行 */
+.solution > p.ans-line { text-align: left; }
+.solution > p.ans-line > .ans { display: block; padding-left: 2em; font-family: "arrow", "serif-en", "serif-cjk"; }
+.explain > .evidence { text-align: left; margin-top: var(--h); }
+.ans { font-family: "arrow", "serif-en", "serif-cjk"; }   /* 答案里的「（亦可 …）」中文落到思源宋体 */
+.part > .lead { break-after: avoid; }

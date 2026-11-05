@@ -17,6 +17,8 @@
 HTML（内联 CSS）→ `渲染/node_modules/.bin/vivliostyle build <html> -o <pdf> --timeout 120` → PDF。
 Agent 只产出符合内容 schema 的结构化 HTML，像素层由 CSS 主题确定性保证——不写内联样式、不发明 class。
 
+课页（专项讲练）的现行主题是 `渲染/方向稿/基础.css` + `主线.css`（2026-11-04 视觉重做）；`渲染/澄页.css` 只服务尚未迁移的旧页型（见 `规范/01` §8）。渲染后跑 `python3 -I 调研/视觉重做/工具/指标.py <pdf>` 自查（`规范/01` §7）。字体必须在入口 HTML 所在目录之内，否则 Vivliostyle 会静默回退到系统字体。
+
 ## 分工
 
 UI 风格与视觉裁决由项目负责人（Claude）做；调研、模板代码、排版实现由干活 Agent 执行。视觉产出每一版都要经负责人过目后才算完成。

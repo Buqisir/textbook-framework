@@ -25,3 +25,7 @@ ocr-out/
 .DS_Store
 __pycache__/
 *.pyc
+
+# 方向稿渲染产物
+渲染/方向稿/_out/
+渲染/本地化/*-回放.html

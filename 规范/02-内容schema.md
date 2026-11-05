@@ -23,7 +23,7 @@ Agent 的工作面。Agent 拿到原始文字素材后，把内容装进本文�
 
 **排序键永远是考点树**（超重点 → 类型 → 技法），年份只是题的属性，真题不得按年成章（中魂第一定律）。
 
-**槽位规则**：topic 内六个槽位空槽可省略，**顺序不可换**。例题精讲必须当面闭合（题干 + 解析同处）。检测件答案不进练习册，一律进答案册。
+**槽位规则**：topic 内六个槽位空槽可省略，**顺序不可换**。例题精讲必须当面闭合（题干 + 解析同处；2026-11-04 起解析可续到次页，但至少前两行与题干同页，见 03 §3）。检测件答案不进练习册，一律进答案册。
 
 **例外：小条贴身例题**（2026-08-25）。知识点由若干互不相干的小条拼成时（如冠词固定搭配），允许 `explain` 与 `example` 交替：每条 = 一个 `subhead` 起头的 `explain` + 紧跟一道 `example`，讲完一条立刻演示一遍，不攒到节末。此时 `keypoint` / `note` / `drill` 仍在全部小条之后，顺序不变。适用条件：小条之间没有共同的判断动作可讲，笼统罗列会让讲解空转。
 
@@ -37,11 +37,14 @@ Agent 的工作面。Agent 拿到原始文字素材后，把内容装进本文�
 - `subhead` 小标题——讲解内「这一条的名字」；也用于 `drill` 内给真题 / 模拟分组（见下）
 - `em-atom` 句内强调原子——只涂**可背的原子**（时态名、连接词、日期、公式名），一行 ≤3 个，禁止整句
 - `pattern` 句型/公式行（英文用 serif-en）
-- `compare` 辨析对（两栏小表：常见义 vs 考场义、A 结构 vs B 结构）
+- `compare` 辨析对（两栏小表：常见义 vs 考场义、A 结构 vs B 结构）。时态类辨析可加首列时间轴：`<th class="axis">`、`<td class="axis" data-axis="point|span|two">`（03 §2a），单元格内不写字
 - 英文例句行：英句 + 中译 + 可选教材坐标，三相顺序固定，中译降级
+- 段落：一个意思一段；段间不空行、不用空 `p` 调距（段首缩进由 CSS 给）
 
 ### example 例题精讲
-- `stem` 题干：英文语料（serif-en 整块，按词断行）+ 空位标记 + 可选提示词 `(word)`
+- `stem` 题干：`source` 芯片（第一个子元素）+ 英文语料（serif-en 整块，按词断行）+ 空位 `blank` + 可选提示词 `(word)`
+  - 可选 `gloss`（题眼），紧跟 `source` 之后
+  - **题号由 CSS 计数生成**（2026-11-04）：内容里不写「例 1」，也不写题型说明（「写出括号内动词的正确形式」）。同一单元题型统一时，题型说明只在练习的 `drill-passage` 说明行或单元首交代一次
 - `source` 芯片（必填）：`{ year, paper, item?, origin: real | adapted | original }`——原创也打标，避免「无标 = 真题」误读。芯片挂在题号侧，永不插入英文句内
 - `solution` 解析，**公式锁死、空槽可省、顺序不许乱**：
   - 语法填空：`句意（中）→ 缺什么成分/词性 → 原文证据（英文整块引用）→ 词形变化 → 故填 ___`
@@ -50,11 +53,28 @@ Agent 的工作面。Agent 拿到原始文字素材后，把内容装进本文�
   - 英文证据单独成 span，左齐；答案词在句首与句尾各出现一次
 - 可选 `aside` 旁注列：教师口令式短句（「先找谓语」），不是概念重讲
 
+### blank 书写空（2026-11-04 新增）
+题干、练习、证据行里的空位。取代旧的 `______` 下划线字符——字符画的线不能定宽、不能定位，也不是真正的书写空间。
+- 单句题：`<span class="blank"></span>`
+- 语篇内带号：`<span class="blank" data-no="5"></span>`（号码由 CSS 悬在线左，内容里不写「5.」）
+- 证据行引用原句时同样用 `blank`
+
+### gloss 柱注（2026-11-04 新增）
+住在左柱里的一句结论，让学生只扫左柱也能复习。`<aside class="gloss">`，紧跟在它所属的标签之后：
+- `explain` 内：跟在 `subhead` 后（如「时间信号 → 时态」）
+- `stem` 内：跟在 `source` 芯片后，写**题眼**（如「题眼 By the time」）
+- `solution` 内：跟在 `<h4>解析</h4>` 后，写**口令**（如「锚点 brushed<br>→ 过去的过去」）
+- `drill` 内：跟在 `<h4>练一练</h4>` 后，写一句动作提示（如「先画轴，再动笔」）
+
+写法：**最多两行、每行不超过 10 字**，写成「关键词 → 结论」；换行处可用 `<br>`。只能从本块已有内容里提炼，不得引入新知识点。由干活 Agent 提炼，负责人或所有者审定；审不过宁可留空。
+
 ### keypoint 要点卡
 可背的规则/句型公式。一张卡一条主张；`label`（默认「要点」）+ 内容列。这是全书唯一「请记住」的容器，别的内容不许借用。
 
 ### note 注 / 易错
 一句话贴在具体的式子/句子上（「同类项竖着对齐更好算」）。字段：`target`（指向哪一行）。警示不开新色、不做红框。
+- **首选位置**（2026-11-04）：放进 `explain`，紧挨在它解释的段落**之前**，版面上住进左柱。此时压成最多三行短句（「by the time 从句<br>→ 用一般过去」）；原句里正文已讲过的部分不重复。
+- 不贴具体段落的注，仍放在 topic 级 `keypoint` 之后。
 
 ### drill 变式练习
 分层闭环（中魂第二定律）：同一批考点，**先原子后语篇**。练习册的 drill **只留题**。
@@ -137,7 +157,7 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
   <article class="example">
     <div class="stem">
       <span class="chip chip-source">2026·全国一卷</span>
-      <p lang="en">By the time he arrived, the train ______ (leave).</p>
+      <p lang="en">By the time he arrived, the train <span class="blank"></span> (leave).</p>
     </div>
     <div class="solution">
       <p><b>句意</b>：他到达时火车已经开走。</p>
@@ -154,7 +174,7 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
       <ol>
         <li>
           <span class="chip chip-source">2026·全国一卷</span>
-          <p lang="en">… dates back to ______ Han Dynasty.</p>
+          <p lang="en">… dates back to <span class="blank"></span> Han Dynasty.</p>
         </li>
       </ol>
     </div>
@@ -162,7 +182,10 @@ textbook: { unit, page, role: example | adapted_passage }   ← 教材回链
 </section>
 ```
 
-- 中文内容不加 `lang`，英文语料块/证据加 `lang="en"`（触发 serif-en 与英语断行规则）。
+- 中文内容不加 `lang`，英文语料块/证据加 `lang="en"`（触发 serif-en 与英语断行规则）。**中文句子里夹的英文不加 `lang`**，由 CSS 的 en-mix 自动放大 1.12（01 §3）。
+- **引号**一律“ ” ‘ ’（GB/T 15834 4.8.2），不用「」『』。
+- **汉字与英文、数字之间一律加一个半角空格**；紧挨中文标点一侧不加（`在 now 上，` / `last year、since 2019`）。不得一处有空格、一处没有。
+- 练习题号：一个单元内连续编号，跨 topic 接续时用 `<ol start="8">`；不在 `li` 里手写号码。
 - **禁止**：内联 style、schema 外的 class、用空 div 调间距、在英文句内塞中文元数据。
 
 ## 5. Agent 工作流

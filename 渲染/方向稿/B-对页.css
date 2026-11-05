@@ -1,0 +1,118 @@
+/* 方向 B · 对页单元
+ * 主张：一个考点一组对页——左页讲清，右页练完，翻页即换考点。
+ * 参照：English Grammar in Use 的「一单元 = 一对页」、节字母签栏、一节一块浅底（02-标杆对照 §1）。
+ * 网格：签栏 4 字（48pt）+ 栏距 1 字 + 底块 37 字（444pt，块内左右各留 1 字，文字宽 35 字 / 英文约 84 字符）。
+ * 容器：结构层浅灰底块（讲 / 例 / 练），记忆层浅青底（要点）；零描边框。
+ * 断页纪律：考点从左页起；第二道例题强制起右页。内容放不下一对页 = 内容要拆，不改 CSS。 */
+@import url("基础.css");
+
+:root { --tab: 48pt; --gap: 12pt; --off: calc(var(--tab) + var(--gap)); }
+
+.topic { break-before: left; counter-reset: ex; }
+.topic > .example:nth-of-type(2) { break-before: right; }
+
+.topic > .explain, .topic > .example, .topic > .keypoint, .topic > .note, .topic > .drill {
+  position: relative;
+  margin-left: var(--off);
+}
+
+/* 底块 */
+.explain, .example, .drill {
+  background: var(--ash);
+  padding: var(--h) var(--zi);
+  margin-top: var(--h);
+}
+.drill { background: transparent; padding-left: 0; padding-right: 0;
+  border-top: 0; background-image: linear-gradient(var(--accent), var(--accent)); background-size: 100% 0.75pt; background-repeat: no-repeat; }
+
+/* 签：签栏里的白字坐色块，一行高 */
+.explain::before, .example::before, .keypoint::before, .drill::before, .note::before {
+  position: absolute;
+  left: calc(-1 * var(--off));
+  top: 0;
+  width: var(--tab);
+  font: 700 9pt/var(--u) "sans-ui";
+  text-align: center;
+  color: #fff;
+  background: var(--accent);
+}
+.explain::before { content: "讲"; }
+.example { counter-increment: ex; }
+.example::before { content: "例 " counter(ex); }
+.keypoint::before { content: "要点"; }
+.drill::before { content: "练"; top: var(--h); }
+.note::before { content: "注"; color: var(--accent); background: none; }
+
+/* ── 考点头 ── */
+.topic-head {
+  position: relative;
+  margin-left: var(--off);
+  padding-bottom: var(--h);
+}
+.topic-head::before {
+  content: attr(data-no);
+  position: absolute;
+  left: calc(-1 * var(--off));
+  top: 0;
+  width: var(--tab);
+  font: 700 20pt/42pt "sans-ui";
+  color: var(--accent);
+}
+.topic-head h3 { font: 700 20pt/42pt "sans-ui"; letter-spacing: 0.03em; text-align: left; }
+.topic-head .chip-freq { display: block; font: 400 9pt/var(--h) "sans-ui"; color: var(--ink-dim); }
+
+/* ── 讲解 ── */
+.subhead { font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
+.explain > p:not(.subhead):not(.pattern) { text-indent: 2em; }
+.pattern {
+  font-weight: 600;
+  margin: var(--h) 0;
+  padding: var(--h) var(--zi);
+  background: #fff;
+}
+.compare { width: 100%; border-collapse: collapse; margin-top: var(--h); background: #fff; }
+.compare th {
+  font: 700 9pt/var(--u) "sans-ui"; color: #fff; background: var(--accent);
+  text-align: left; padding-left: var(--zi);
+}
+.compare td {
+  text-align: left; vertical-align: top; padding-left: var(--zi);
+  background: linear-gradient(var(--ash), var(--ash)) left bottom / 100% 1pt no-repeat;
+}
+
+/* ── 例题 ── */
+.stem {
+  background: #fff;
+  padding: var(--h) var(--zi);
+  break-after: avoid;
+  break-inside: avoid;
+}
+.stem > .chip-source {
+  float: right;
+  margin-left: var(--zi);
+  font: 400 9pt/var(--u) "sans-ui";
+  color: var(--ink-dim);
+}
+.solution { margin-top: var(--h); orphans: 3; }
+.solution > h4 { font: 700 9pt/var(--u) "sans-ui"; color: var(--ink-dim); letter-spacing: 0.2em; }
+.solution b:not(.ans) { font: 500 12pt/var(--u) "sans-ui"; color: var(--ink); }
+.evidence { padding-left: 2em; font-style: italic; }
+.ans { font-family: "serif-en"; font-style: italic; color: var(--accent); }
+.solution > aside { margin-top: var(--h); font: 400 9pt/var(--u) "sans-ui"; color: var(--ink-dim); }
+.solution > aside p { display: inline; margin-right: 2em; }
+.solution > aside p::before { content: "\25B6\2002"; color: var(--accent); font-size: 6pt; vertical-align: 1pt; }
+
+/* ── 要点 ── */
+.keypoint { margin-top: var(--h); padding: var(--h) var(--zi); background: var(--accent-wash); }
+
+/* ── 注 ── */
+.note { margin-top: var(--h); font-size: 10.5pt; }
+
+/* ── 练 ── */
+.drill > h4 { font: 700 12pt/var(--u) "sans-ui"; margin-bottom: var(--h); }
+.drill-atoms ol { padding-left: 2em; }
+.drill-atoms li::marker { content: counter(list-item) "\2002"; font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
+.drill-atoms li + li { margin-top: var(--h); }
+.drill-passage { margin-top: var(--u); }
+.drill-passage > p:first-child { font: 400 9pt/var(--u) "sans-ui"; color: var(--ink-dim); }
+.drill-passage p[lang="en"] { line-height: calc(2 * var(--u) * 0.75); }
