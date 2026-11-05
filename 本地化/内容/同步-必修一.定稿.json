@@ -1071,7 +1071,7 @@
       "tricks": [
         {
           "句式": "被动改主动",
-          "gloss": "2 题<br>原主语改作宾语",
+          "gloss": "原主语改作宾语",
           "formula": "was impressed with sth → made an impression on sb",
           "atoms": [
             {
@@ -1111,7 +1111,7 @@
         },
         {
           "句式": "动词改短语",
-          "gloss": "3 题<br>动词换成「动词+名词」",
+          "gloss": "动词换成「动词+名词」",
           "formula": "impressed sb → left a deep impression on sb",
           "atoms": [
             {
@@ -1168,7 +1168,7 @@
         },
         {
           "句式": "形式主语",
-          "gloss": "1 题<br>动名词主语后移",
+          "gloss": "动名词主语后移",
           "formula": "Going … is a big … → It is a big … to go …",
           "atoms": [
             {
@@ -2698,7 +2698,7 @@
       "tricks": [
         {
           "句式": "分词作状语",
-          "gloss": "1 题<br>主语一致，省去连词",
+          "gloss": "主语一致，省去连词",
           "formula": "Because …, they … → Inspired …, they …",
           "atoms": [
             {
@@ -2722,7 +2722,7 @@
         },
         {
           "句式": "定语从句",
-          "gloss": "1 题<br>「…的人」译作 who",
+          "gloss": "「…的人」译作 who",
           "formula": "只有…的人才能… → Only those who … can …",
           "atoms": [
             {
@@ -2746,7 +2746,7 @@
         },
         {
           "句式": "倒装",
-          "gloss": "1 题<br>助动词提到主语前",
+          "gloss": "助动词提到主语前",
           "formula": "… exercises … → Not only does … exercise …",
           "atoms": [
             {
@@ -3678,7 +3678,7 @@
       "tricks": [
         {
           "句式": "动词改短语",
-          "gloss": "1 题<br>动词换成「动词+名词」",
+          "gloss": "动词换成「动词+名词」",
           "formula": "arrange sth → make arrangements for sth",
           "atoms": [
             {

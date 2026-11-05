@@ -356,14 +356,14 @@
       "unit_book": "选择性必修第四册　Unit 2",
       "chips": {
         "year_range": "2022–2026",
-        "n_questions": 16,
+        "n_questions": 19,
         "n_kaofa": 7,
-        "n_phrase": 4
+        "n_phrase": 6
       },
       "h2": "Iconic Attractions",
       "zh": "Iconic Attractions",
       "stats": {
-        "卷数": 12,
+        "卷数": 15,
         "词数": 65,
         "短语数": 50,
         "句式题数": 0
@@ -381,6 +381,14 @@
               "n": 1
             },
             {
+              "form": "keep in touch",
+              "n": 1
+            },
+            {
+              "form": "keep in touch with",
+              "n": 1
+            },
+            {
               "form": "keep/stay in touch",
               "n": 1
             },
@@ -390,9 +398,23 @@
             }
           ],
           "考法": [
-            "短语"
+            "短语",
+            "翻译"
           ],
-          "题数": 5
+          "题数": 7
+        },
+        {
+          "词头": "located",
+          "forms": [
+            {
+              "form": "located",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 3
         },
         {
           "词头": "temporary",
@@ -417,19 +439,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 2
-        },
-        {
-          "词头": "located",
-          "forms": [
-            {
-              "form": "located",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "动词形式"
           ],
           "题数": 2
         },
@@ -690,22 +699,36 @@
           "reason": ""
         },
         {
-          "id": "079-08",
+          "id": "153-27",
           "no": 9,
-          "标签": "2024 · 东莞市 · 高二下期中",
-          "题型": "语法填空",
-          "题干": "We might have to employ someone ___ (temporary) as a secretary until we can fill the post.",
-          "题干HTML": "We might have to employ someone <span class=\"blank\"></span> (temporary) as a secretary until we can fill the post.",
+          "标签": "2025 · 虎门中学 · 高一下月考",
+          "题型": "翻译",
+          "题干": "用网络和朋友保持联系是很方便的。 → ___",
+          "题干HTML": "用网络和朋友保持联系是很方便的。 → <span class=\"blank\"></span>",
           "cue": [],
-          "提示词": "temporary",
-          "答案": "temporarily",
-          "解析": "考查副词。句意：在我们找到合适人选之前，我们可能得暂时雇一个人做秘书。副词temporarily作状语修饰动词employ。故填temporarily。",
+          "提示词": null,
+          "答案": "It’s convenient to keep in touch with friends through the Internet.",
+          "解析": "考查固定句型和动词时态。句子描述一个客观事实，应使用一般现在时，固定句型“It is+形容词+to do sth.”，表示“做某事是……的”，It是形式主语，不定式是真正的主语；表示“方便的”应用形容词convenient；表示“和朋友保持联系”应用固定短语keep in touch with friends；表示“通过网络”应用through the Internet。故翻译为It’s convenient to keep in touch with friends through the Internet.",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "103-15",
+          "no": 10,
+          "标签": "2025 · 东莞实验中学 · 高一下月考",
+          "题型": "语法填空",
+          "题干": "With the main office ___ (locate) in the city centre, the company can easily be connected with its customers.",
+          "题干HTML": "With the main office <span class=\"blank\"></span> (locate) in the city centre, the company can easily be connected with its customers.",
+          "cue": [],
+          "提示词": "locate",
+          "答案": "located",
+          "解析": "考查非谓语动词。句意：公司的总办事处位于市中心，能很容易地与客户取得联系。本题考查“with+宾语+宾语补足语”的结构，在句中作状语。所以空处需要非谓语动词作宾语补足语。此处宾语是the main office，与locate之间是被动关系，所以用过去分词作宾语补足语。故填located。",
           "句意": "",
           "reason": ""
         },
         {
           "id": "070-20",
-          "no": 10,
+          "no": 11,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "完成句子",
           "题干": "Despite the distance, I ___ (保持联系) my family by phone calls every weekend last year when I was abroad.",
@@ -718,22 +741,22 @@
           "reason": ""
         },
         {
-          "id": "079-11",
-          "no": 11,
+          "id": "079-08",
+          "no": 12,
           "标签": "2024 · 东莞市 · 高二下期中",
           "题型": "语法填空",
-          "题干": "Yan’an, a city ___ (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
-          "题干HTML": "Yan’an, a city <span class=\"blank\"></span> (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
+          "题干": "We might have to employ someone ___ (temporary) as a secretary until we can fill the post.",
+          "题干HTML": "We might have to employ someone <span class=\"blank\"></span> (temporary) as a secretary until we can fill the post.",
           "cue": [],
-          "提示词": "locate",
-          "答案": "located",
-          "解析": "考查非谓语动词。句意：延安，一个位于陕西省北部的城市，在过去的几年里，它的旅游业取得了很大的进步。句中谓语是has seen，空格处用非谓语动词，Yan’an和locate之间是逻辑动宾关系，因此空格处用过去分词表被动，故填located。",
+          "提示词": "temporary",
+          "答案": "temporarily",
+          "解析": "考查副词。句意：在我们找到合适人选之前，我们可能得暂时雇一个人做秘书。副词temporarily作状语修饰动词employ。故填temporarily。",
           "句意": "",
           "reason": ""
         },
         {
           "id": "077-17",
-          "no": 12,
+          "no": 13,
           "标签": "2024 · 万江中学 · 高二上期中",
           "题型": "完成句子",
           "题干": "We ___ (与……保持联系) our grandparents every weekend last year through video calls.",
@@ -746,30 +769,16 @@
           "reason": ""
         },
         {
-          "id": "118-17",
-          "no": 13,
-          "标签": "2024 · 厚街中学 · 高二下月考",
-          "题型": "语法填空",
-          "题干": "All of us ___ (entitle) to equal protection under the law.",
-          "题干HTML": "All of us <span class=\"blank\"></span> (entitle) to equal protection under the law.",
-          "cue": [],
-          "提示词": "entitle",
-          "答案": "are entitled",
-          "解析": "考查时态语态。句意：我们所有人都有权受到法律的平等保护。主语与谓语构成被动关系，结合语境可知发生在过去，用一般现在时的被动语态，主语为All of us，谓语用复数。故填are entitled。",
-          "句意": "",
-          "reason": ""
-        },
-        {
-          "id": "142-12",
+          "id": "079-11",
           "no": 14,
-          "标签": "2024 · 东莞第四高级中学 · 高二下期中",
+          "标签": "2024 · 东莞市 · 高二下期中",
           "题型": "语法填空",
-          "题干": "They are ___ (frequent) underpaid for the work that they do.",
-          "题干HTML": "They are <span class=\"blank\"></span> (frequent) underpaid for the work that they do.",
+          "题干": "Yan’an, a city ___ (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
+          "题干HTML": "Yan’an, a city <span class=\"blank\"></span> (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
           "cue": [],
-          "提示词": "frequent",
-          "答案": "frequently",
-          "解析": "考查副词。句意：他们所做的工作往往报酬过低。修饰underpaid应用副词frequently，作状语。故填frequently。",
+          "提示词": "locate",
+          "答案": "located",
+          "解析": "考查非谓语动词。句意：延安，一个位于陕西省北部的城市，在过去的几年里，它的旅游业取得了很大的进步。句中谓语是has seen，空格处用非谓语动词，Yan’an和locate之间是逻辑动宾关系，因此空格处用过去分词表被动，故填located。",
           "句意": "",
           "reason": ""
         }
@@ -916,14 +925,14 @@
       "unit_book": "选择性必修第四册　Unit 4",
       "chips": {
         "year_range": "2018–2026",
-        "n_questions": 11,
+        "n_questions": 14,
         "n_kaofa": 4,
         "n_phrase": 2
       },
       "h2": "Sharing",
       "zh": "分享",
       "stats": {
-        "卷数": 10,
+        "卷数": 13,
         "词数": 64,
         "短语数": 68,
         "句式题数": 0
@@ -945,11 +954,23 @@
               "n": 1
             },
             {
+              "form": "is taking",
+              "n": 1
+            },
+            {
+              "form": "should take / take",
+              "n": 1
+            },
+            {
               "form": "take for granted",
               "n": 1
             },
             {
               "form": "taken",
+              "n": 1
+            },
+            {
+              "form": "taking",
               "n": 1
             },
             {
@@ -961,7 +982,7 @@
             "动词形式",
             "短语"
           ],
-          "题数": 6
+          "题数": 9
         },
         {
           "词头": "stability",
@@ -1242,8 +1263,22 @@
           "reason": ""
         },
         {
-          "id": "077-06",
+          "id": "029-11",
           "no": 9,
+          "标签": "2024 · 东莞第八高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
+          "题干HTML": "Would you please return to your seat？The plane <span class=\"blank\"></span> （take） off soon.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "is taking",
+          "解析": "请您回到您的座位上去好吗？飞机马上就要起飞了。\n\n根据句意以及表示将来的词\"soon\"可知，飞机即将起飞，应用现在进行时（be doing）时表示将来；由于主语The plane为单数，谓语应用单数is；再结合提示词take，该空应填is taking。\n\n故填：is taking。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "077-06",
+          "no": 10,
           "标签": "2024 · 万江中学 · 高二上期中",
           "题型": "语法填空",
           "题干": "Jacob, who is 6 years old, is looking forward to ___ (take) to the Great Wall.",
@@ -1256,8 +1291,36 @@
           "reason": ""
         },
         {
+          "id": "050-07",
+          "no": 11,
+          "标签": "2023 · 东莞外国语学校 · 高一上月考",
+          "题型": "语法填空",
+          "题干": "It is highly recommended that the government ___ (take) measures to protect the environment.",
+          "题干HTML": "It is highly recommended that the government <span class=\"blank\"></span> (take) measures to protect the environment.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "should take / take",
+          "解析": "考查虚拟语气。句意：强烈建议政府采取措施保护环境。空处为主语从句的谓语动词，it is recommended that...句型中that引导的主语从句要用虚拟语气，谓语部分为(should)+do，主语government和take之间为主动关系，故填(should) take。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "144-11",
+          "no": 12,
+          "标签": "2022 · 翰林高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
+          "题干HTML": "As for the most suitable means of transportation, I’d like to recommend <span class=\"blank\"></span> (take) Beijing-Guangzhou High-Speed Railway.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "taking",
+          "解析": "考查非谓语动词。句意：至于最合适的交通工具，我建议乘京广高铁。此处为短语recommend doing sth.表示“建议做某事”。故填taking。",
+          "句意": "",
+          "reason": ""
+        },
+        {
           "id": "016-26",
-          "no": 10,
+          "no": 13,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "语法填空",
           "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
@@ -1271,7 +1334,7 @@
         },
         {
           "id": "002-30",
-          "no": 11,
+          "no": 14,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "语法填空",
           "题干": "If he ___ (take) my advice, he wouldn't have lost his job.",
@@ -1284,7 +1347,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 11
+      "numbered_total": 14
     },
     {
       "序": 36,

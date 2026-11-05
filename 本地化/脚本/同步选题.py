@@ -325,6 +325,10 @@ def build_book(book, D):
         if hi:
             if '高一' not in seg and '高二' not in seg:
                 return False
+        elif book.startswith('选必'):
+            # 选必册题少：高一、高二卷都收（负责人定，2026-11-05），同等条件仍高二优先（is_main）
+            if '高一' not in seg and '高二' not in seg:
+                return False
         elif grade not in seg or other in seg:
             return False
         if re.search(r'划线|画线|下划线', q.get('题干') or ''):

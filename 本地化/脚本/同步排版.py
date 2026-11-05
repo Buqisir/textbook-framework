@@ -237,8 +237,8 @@ def phrase_section(u):
         f'  <header class="topic-head" data-no="4"><h3>短语与句式转换</h3>'
         '</header>\n'
         + ''.join(phrase_html(p) for p in u['phrases'])
-        + '  <p class="lead"><b>句式转换</b></p>\n'
-        + ''.join(trick_html(t) for t in u['tricks'])
+        + ('  <p class="lead"><b>句式转换</b></p>\n' + ''.join(trick_html(t) for t in u['tricks'])
+           if u['tricks'] else '')
         + '</section>\n')
 
 
@@ -317,16 +317,15 @@ def validate(S):
             errs.append(f'{u["data_no"]} 单词拼写有重复的题')
         if len(u['phrases']) > 6:
             errs.append(f'{u["data_no"]} 短语超过 6 条')
-        if not 1 <= len(u['tricks']) <= 4:
-            errs.append(f'{u["data_no"]} 句式块数不在 1–4')
+        if len(u['tricks']) > 4:   # 0 块可以：没有东莞改写题就不设（规范/05：题少就少）
+            errs.append(f'{u["data_no"]} 句式块超过 4 个')
         for t in u['tricks']:
             if len(t['句式']) > 6:
                 errs.append(f'{u["data_no"]} 句式名超过 6 字：{t["句式"]}')
             if not 1 <= len(t['atoms']) <= 3:
                 errs.append(f'{u["data_no"]} 句式「{t["句式"]}」题数不在 1–3')
-            first = t['gloss'].split('<br>')[0]
-            if first != f'{len(t["atoms"])} 题':
-                errs.append(f'{u["data_no"]} 句式「{t["句式"]}」柱注第一行与题数不符：{first}')
+            if re.search(r'\d+ ?题', t['gloss']):   # 柱注不写题数（规范/05）
+                errs.append(f'{u["data_no"]} 句式「{t["句式"]}」柱注不应写题数：{t["gloss"]}')
             if '\n' in t['formula'] or len(t['formula']) > 50:
                 errs.append(f'{u["data_no"]} 句式「{t["句式"]}」公式超过 50 字符或多行')
         if len(u['quiz']) > 8:
