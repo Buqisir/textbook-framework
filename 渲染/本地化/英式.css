@@ -592,3 +592,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .focus col.c-cov { width: auto; }
 .focus col.c-n { width: 60pt; }
 .focus col.c-go { width: 72pt; }
+
+/* 答案区标题收紧（2026-11-05）：答案页不需要 2u 大标题；改 1u 高、16pt，下空半格（省 1.5 行，免得全册最后一页只剩一两行答案） */
+.answers > .topic-head { height: var(--u); margin-bottom: var(--h); padding-bottom: 0; }
+.answers > .topic-head h3 { font: 700 16pt/var(--u) "sans-ui"; top: -1.52pt; }

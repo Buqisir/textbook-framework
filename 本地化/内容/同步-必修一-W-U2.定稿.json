@@ -3526,21 +3526,6 @@
               "句意": "",
               "reason": "物主代词 my 后用名词",
               "answer_show": null
-            },
-            {
-              "id": "075-06",
-              "no": 10,
-              "标签": "2023 · 万江中学 · 高二上月考",
-              "题型": "语法填空",
-              "题干": "Most of the ___ (apply) who apply for the position of the firm are incompetent.",
-              "题干HTML": "Most of the <span class=\"blank\"></span> (apply) who apply for the position of the firm are incompetent.",
-              "cue": [],
-              "提示词": "apply",
-              "答案": "applicants",
-              "解析": "考查名词。句意：大多数申请该公司职位的申请人都不称职。分析句子结构，空白处在句子中做主语，使用名词，根据下文“who apply for the position of the firm(申请该公司职位的)”可知空白处应填指人的名词，根据空白处前面的代词most可知空白处应填复数名词，故填applicants。",
-              "句意": "",
-              "reason": "most of 后用复数名词，指人",
-              "answer_show": null
             }
           ],
           "gloss": "冠词后用名词，复数加 -s<br>指人用 -ant，指事用 -ation"
@@ -3574,7 +3559,7 @@
           "atoms": [
             {
               "id": "071-13",
-              "no": 11,
+              "no": 10,
               "标签": "2023 · 东莞市 · 高一上期中",
               "题型": "语法填空",
               "题干": "It’s ___ (official) recognized that this product is safe and will be put into market soon.",
@@ -3589,7 +3574,7 @@
             },
             {
               "id": "019-07",
-              "no": 12,
+              "no": 11,
               "标签": "2021 · 东莞市 · 高一上期末",
               "题型": "语法填空",
               "题干": "Tom was ___ (official) recognized as a hero for saving a girl from a car accident.",
@@ -3628,7 +3613,7 @@
           "atoms": [
             {
               "id": "101-12",
-              "no": 13,
+              "no": 12,
               "标签": "2023 · 东莞外国语学校 · 高一上期中",
               "题型": "语法填空",
               "题干": "We can provide ___ (accommodate) for six people at a push.",
@@ -3672,7 +3657,7 @@
           "atoms": [
             {
               "id": "122-14",
-              "no": 14,
+              "no": 13,
               "标签": "2023 · 东莞市 · 高一上期中",
               "题型": "语法填空",
               "题干": "Muifa, a ___ (power) typhoon, hit Zhejiang Province last week and caused terrible damage there.",
@@ -3698,7 +3683,7 @@
           "atoms": [
             {
               "id": "050-29",
-              "no": 21,
+              "no": 20,
               "标签": "2023 · 东莞外国语学校 · 高一上月考",
               "题型": "完成句子",
               "题干": "Our school will arrange the meeting next week. → Our school will ___ the meeting next week.",
@@ -3719,7 +3704,7 @@
       "quiz": [
         {
           "id": "034-11",
-          "no": 22,
+          "no": 21,
           "标签": "2025 · 东莞市 · 高一上期中",
           "题型": "语法填空",
           "题干": "Efforts are required ___ (narrow) the distance between scientific ideas and real-life use.",
@@ -3734,7 +3719,7 @@
         },
         {
           "id": "099-11",
-          "no": 23,
+          "no": 22,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Whatever the season, Jiuzhaigou is an ___ (极其) beautiful place to visit.",
@@ -3749,7 +3734,7 @@
         },
         {
           "id": "080-16",
-          "no": 24,
+          "no": 23,
           "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "Artificial Intelligence (Al) ___ (apply) to many fields in recent years.",
@@ -3764,7 +3749,7 @@
         },
         {
           "id": "099-12",
-          "no": 25,
+          "no": 24,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "With a passion for adventure, he set off on his journey to his dream ___ (目的地) — the Amazon rainforest.",
@@ -3779,7 +3764,7 @@
         },
         {
           "id": "149-07",
-          "no": 26,
+          "no": 25,
           "标签": "2025 · 翰林高级中学 · 高一上期末",
           "题型": "语法填空",
           "题干": "These materials are quite expensive ___ (transport) by plane.",
@@ -3794,7 +3779,7 @@
         },
         {
           "id": "092-09",
-          "no": 27,
+          "no": 26,
           "标签": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Singer-songwriter Jay Chou has one of the most incredible and truly ___ (独一无二的，独特的) voices you’ll ever hear.",
@@ -3809,7 +3794,7 @@
         },
         {
           "id": "029-10",
-          "no": 28,
+          "no": 27,
           "标签": "2024 · 东莞第八高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "The experiment is ___ （extreme） challenging，so we must make careful arrangements for it.",
@@ -3824,7 +3809,7 @@
         },
         {
           "id": "092-10",
-          "no": 29,
+          "no": 28,
           "标签": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "But increasingly their differences are seen as a ___ (来源) of strength rather than a weakness to be overcome.",
@@ -3838,11 +3823,11 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 29,
+      "numbered_total": 28,
       "spelling": [
         {
           "id": "107-18",
-          "no": 15,
+          "no": 14,
           "标签": "2023 · 东莞第二高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "After reaching your ___ (目的地), you will have a day to explore and be amazed by this ancient city.",
@@ -3857,7 +3842,7 @@
         },
         {
           "id": "097-25",
-          "no": 16,
+          "no": 15,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Is English an ___ (官方的) language in your country?",
@@ -3872,7 +3857,7 @@
         },
         {
           "id": "107-17",
-          "no": 17,
+          "no": 16,
           "标签": "2023 · 东莞第二高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "You can spend three days exploring the rainforest with a local guide and enjoying the plants and animals ___ (独一无二的) to the rainforest.",
@@ -3887,7 +3872,7 @@
         },
         {
           "id": "108-07",
-          "no": 18,
+          "no": 17,
           "标签": "2023 · 东莞高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "He was satisfied with the temporary ___ (住所) provided by the kind man.",
@@ -3902,7 +3887,7 @@
         },
         {
           "id": "107-19",
-          "no": 19,
+          "no": 18,
           "标签": "2023 · 东莞第二高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "For more ___ (小册子) about other package tours around Peru, contact us at tourinfo@travelperu.org.",
@@ -3917,7 +3902,7 @@
         },
         {
           "id": "096-28",
-          "no": 20,
+          "no": 19,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Chinese architects are getting international ___ (认可).",
