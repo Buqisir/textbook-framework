@@ -415,7 +415,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .freq td:first-child { font: 700 12pt/var(--u) "arrow", "serif-en", "serif-cjk"; padding-right: 6pt; }
 .unit:not(.stage) .freq td.forms { font-family: "arrow", "serif-en", "serif-cjk"; }
 .unit:not(.stage) .freq td.forms span { display: inline-block; white-space: nowrap; }   /* 形式之间可断行，形式内部不断 */
-.unit:not(.stage) .freq td.forms span + span { margin-left: 1.5em; }   /* 形式之间用间距，折行时行首不出现「·」 */
+.unit:not(.stage) .freq td.forms span { margin-right: 1.5em; }   /* 形式之间的间距挂在右侧：折行时续行顶格，不出现行首缩进 */
 .unit:not(.stage) .freq td.forms sub { font: 400 9pt/1 "sans-ui"; vertical-align: baseline; margin-left: 0.15em; }
 .unit:not(.stage) .freq td.how, .unit:not(.stage) .freq td.tally { padding-top: 2.28pt; font: 400 9pt/18.72pt "sans-ui"; }
 .unit:not(.stage) .freq td.how { padding-right: 6pt; }
@@ -457,7 +457,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
   border-radius: 999pt;
   box-shadow: inset 0 0 0 0.75pt var(--accent);
 }
-.phrase + .lead { margin-top: calc(1.5 * var(--u)); }   /* 句式转换分隔：上空 1.5u（半格整数倍），不与上一题挤在一起 */
+.unit:not(.stage) .phrase + .lead { margin-top: calc(1.5 * var(--u)); }   /* 句式转换分隔：上空 1.5u（半格整数倍），不与上一题挤在一起 */
 .lead + .phrase { margin-top: var(--h); }
 
 /* ③ 句式块（§7）：句式名实心药丸（同知识块小标题）+ gloss 同行；公式放 --accent-wash 条；其下原题 */
@@ -486,3 +486,12 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .answers { break-before: auto; }
 /* 两栏 key：第二栏题号挂在栏间距里（左悬挂 2 字），栏距取 3 字，题号与第一栏文字之间留 1 字 */
 .unit:not(.stage) .key { column-gap: calc(3 * var(--zi)); }
+
+/* ══ 负责人审校（2026-11-05）：三册统一 ══ */
+/* 答案两栏：栏距 3 字，第二栏悬挂的题号不贴第一栏文字（段考、同步统一） */
+.key { column-gap: calc(3 * var(--zi)); }
+/* 整句答案（例题故填另起一行、答案页 long）：齐左，不两端拉开 */
+.solution > p.ans-line, .solution > p.ans-line > .ans, .key li, .key .ans.long { text-align: left; }
+/* 答案条目之间不再空半格：答案页本该紧凑，题号主色 + 答案加粗已足够分条（栏距加宽后期中册多出一页的尾页） */
+.key li + li { margin-top: 0; }
+.unit:not(.stage) .freq td.forms span:last-child { margin-right: 0; }   /* 末个形式不带尾距，免得提前折行 */
