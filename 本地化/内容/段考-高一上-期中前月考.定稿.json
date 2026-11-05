@@ -150,10 +150,6 @@
           "text": "动名词短语作主语，整个短语看作单数，谓语用单数。句首的 doing 首字母大写，如 Taking、Holding、Being。"
         },
         {
-          "type": "p",
-          "text": "非谓语还可作状语和后置定语，如 Compared with…（过去分词作状语）、a lot to explore（不定式作后置定语）。"
-        },
-        {
           "type": "subhead",
           "text": "作定语"
         },
@@ -229,7 +225,8 @@
             "label": "成分",
             "text": "look forward to 的 to 是介词，其后用 explore 的动名词 exploring 作宾语。"
           },
-          "ans": "exploring"
+          "ans": "exploring",
+          "group": "作宾语与搭配"
         },
         {
           "gloss": [
@@ -246,7 +243,8 @@
             "label": "判断",
             "text": "make 之后 myself 是宾语，understand 与之是被动关系，作宾补，用过去分词。"
           },
-          "ans": "understood"
+          "ans": "understood",
+          "group": "作宾补"
         },
         {
           "gloss": [
@@ -263,7 +261,8 @@
             "label": "成分",
             "text": "Holding the 29th Olympics 是动名词短语作主语，句首用 doing；谓语 shows 用单数。"
           },
-          "ans": "Holding"
+          "ans": "Holding",
+          "group": "作主语"
         },
         {
           "gloss": [
@@ -280,7 +279,8 @@
             "label": "判断",
             "text": "lecture 与 organize 是被动关系，空格用过去分词作后置定语，修饰 lecture。句中已有谓语 is，空格不能填谓语动词。"
           },
-          "ans": "organized"
+          "ans": "organized",
+          "group": "作定语"
         }
       ],
       "drill": [
@@ -557,7 +557,8 @@
             "label": "成分",
             "text": "think 后的 it 是形式宾语，真正的宾语是 to finish so much work。"
           },
-          "ans": "it"
+          "ans": "it",
+          "group": "形式宾语"
         },
         {
           "gloss": [
@@ -576,7 +577,8 @@
             "label": "判断",
             "text": "动名词短语作主语时，句首改用 it，把主语挪到句末，用 to do。"
           },
-          "ans": "It is unhealthy to spend too much time online"
+          "ans": "It is unhealthy to spend too much time online",
+          "group": "形式主语"
         }
       ],
       "drill": [
@@ -731,7 +733,8 @@
             "label": "判断",
             "text": "主句是 It is recommended，that 从句作真正的主语，从句用 (should) + 动词原形。"
           },
-          "ans": "(should) take"
+          "ans": "(should) take",
+          "group": "recommend 型"
         }
       ],
       "drill": [
@@ -862,7 +865,8 @@
             "label": "成分",
             "text": "what 引导宾语从句，在从句中作主语，happened 前缺主语。"
           },
-          "ans": "what"
+          "ans": "what",
+          "group": "作宾语"
         }
       ],
       "drill": [
@@ -947,7 +951,8 @@
             "label": "判断",
             "text": "yesterday 是被强调的时间状语，原句一般过去时，用 It was … that。"
           },
-          "ans": "It was yesterday that my grandpa walked the dog in the street"
+          "ans": "It was yesterday that my grandpa walked the dog in the street",
+          "group": "强调状语"
         },
         {
           "gloss": [
@@ -966,7 +971,8 @@
             "label": "成分",
             "text": "because of the teacher’s encouragement 是原因状语，放进 It was…that 中间。"
           },
-          "ans": "It was because of the teacher’s encouragement that I improved my oral English greatly"
+          "ans": "It was because of the teacher’s encouragement that I improved my oral English greatly",
+          "group": "强调状语"
         }
       ],
       "drill": [

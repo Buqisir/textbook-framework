@@ -321,24 +321,34 @@ def explain_items_en(blocks):
     return out
 
 
-def explain_en_html(blocks):
-    """每个小标题及其后的内容包进 <div class="group">，直到下一个小标题。小标题之前的内容（若有）不分组。"""
-    segs = []   # [是否分组, [html, ...]]
-    for t, h in explain_items_en(blocks):
+def explain_segments_en(blocks):
+    """讲解块分段：每个小标题及其后的内容一段 → [(小标题文字或 None, html)]。"""
+    segs = []   # [小标题, [html, ...], 是否分组]
+    items = explain_items_en(blocks)
+    # explain_items_en 与 blocks 不一定一一对应，按 subhead 出现顺序取小标题文字
+    sub_texts = [b['text'] for b in blocks if b['type'] == 'subhead']
+    k = 0
+    for t, h in items:
         if t == 'subhead':
-            segs.append([True, [h]])
+            segs.append([sub_texts[k] if k < len(sub_texts) else None, [h], True])
+            k += 1
         elif segs:
             segs[-1][1].append(h)
         else:
-            segs.append([False, [h]])
+            segs.append([None, [h], False])
     out = []
-    for grouped, hs in segs:
+    for name, hs, grouped in segs:
         if grouped:
             inner = '\n'.join('        ' + h for h in hs)
-            out.append('      <div class="group">\n' + inner + '\n      </div>')
+            out.append((name, '      <div class="group">\n' + inner + '\n      </div>'))
         else:
-            out.append('\n'.join('      ' + h for h in hs))
-    return '\n'.join(out)
+            out.append((name, '\n'.join('      ' + h for h in hs)))
+    return out
+
+
+def explain_en_html(blocks):
+    """每个小标题及其后的内容包进 <div class="group">，直到下一个小标题。"""
+    return '\n'.join(h for _, h in explain_segments_en(blocks))
 
 
 def example_en_html(e, n):
@@ -409,9 +419,21 @@ def topic_en_html(t, drill_nos):
         f'<section class="topic" data-no="{no}">\n',
         f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'
         f'<span class="chip chip-freq">{chip}</span></header>\n',
-        '  <div class="explain">\n' + explain_en_html(t['explain']) + '\n  </div>\n',
     ]
-    parts += [example_en_html(e, i) for i, e in enumerate(t['examples'], 1)]
+    # 讲一块、练一块（所有者定，2026-11-05）：每个讲解块后紧跟 group 指向它的例题；未标 group 的例题放在所有讲解块之后
+    exs = t['examples']
+    n = 0
+    for name, h in explain_segments_en(t['explain']):
+        parts.append('  <div class="explain">\n' + h + '\n  </div>\n')
+        for e in exs:
+            if name is not None and e.get('group') == name:
+                n += 1
+                parts.append(example_en_html(e, n))
+    names = {nm for nm, _ in explain_segments_en(t['explain'])}
+    for e in exs:
+        if e.get('group') not in names:
+            n += 1
+            parts.append(example_en_html(e, n))
     if t.get('keypoint'):
         parts.append(f'  <aside class="keypoint">\n    <p>{inline(t["keypoint"])}</p>\n  </aside>\n')
     if t.get('drill'):
