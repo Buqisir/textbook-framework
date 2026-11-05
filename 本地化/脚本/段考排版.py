@@ -77,8 +77,8 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
 
 === 英式输出（--theme 英式，版式依据 规范/04-英式版式.md）===
 
-运行：python3 -I 本地化/脚本/段考排版.py <节点> --theme 英式 [--topics 1,3]
-  输出 渲染/本地化/段考-高一上-<节点>-英式.html，主题 渲染/本地化/英式.css（只 import 基础.css）。
+运行：python3 -I 本地化/脚本/段考排版.py <节点> [--topics 1,3]（英式为默认主题，2026-11-05 起）
+  整册输出 渲染/本地化/段考-高一上-<节点>.html；带 --topics 输出 …-样章.html；--theme 现行 输出旧柱式 …-柱式.html，主题 渲染/本地化/英式.css（只 import 基础.css）。
   JSON schema 不变；只是结构不同（其余同现行）：
   · 讲解：每个 subhead 及其后的 gloss / p / pattern / note 包进 <div class="group">，直到下一个 subhead。
     gloss 多行用「 · 」合成一行，与小标题药丸同行。note 的多行用空格接成一行。
@@ -452,8 +452,8 @@ def build(D, theme='现行', only=None):
 def main():
     ap = argparse.ArgumentParser(description='段考专题讲义排版：定稿 JSON → HTML。')
     ap.add_argument('node', choices=list(NODE_FILES), help='节点名')
-    ap.add_argument('--theme', choices=list(THEME_CSS), default='现行',
-                    help='版式主题：现行（柱式，默认）或 英式（规范/04）')
+    ap.add_argument('--theme', choices=list(THEME_CSS), default='英式',
+                    help='版式主题：英式（规范/04，默认）或 现行（旧柱式，2026-11-05 停用，仅留作对照）')
     ap.add_argument('--topics', help='只输出这些专题（逗号分隔编号，如 1 或 1,3）；仅英式可用')
     args = ap.parse_args()
 
@@ -468,15 +468,18 @@ def main():
     only = None
     if args.topics:
         if args.theme != '英式':
-            raise SystemExit('--topics 只能与 --theme 英式 同用（现行整册 HTML 不能被覆盖）')
+            raise SystemExit('--topics 只能与 --theme 英式 同用')
         only = {int(x) for x in args.topics.split(',') if x.strip()}
         bad = only - {t['no'] for t in D['topics']}
         if bad:
             raise SystemExit(f'没有这些专题编号：{sorted(bad)}')
     doc = build(D, args.theme, only)
     assert 'style=' not in doc, '出现内联样式'
-    if args.theme == '英式':
-        out_name = out_name.replace('.html', '-英式.html')
+    # 英式整册 = 正式文件名；英式选专题 = 样章；旧柱式另存，不覆盖正式文件
+    if args.theme == '英式' and only is not None:
+        out_name = out_name.replace('.html', '-样章.html')
+    elif args.theme == '现行':
+        out_name = out_name.replace('.html', '-柱式.html')
     out = RENDER / out_name
     out.write_text(doc, encoding='utf-8')
     print('写入', out)

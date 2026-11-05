@@ -342,3 +342,14 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 
 /* 知识块内中英混排短段：两端对齐会把「（breathe、make up」拉出大空，改齐左 */
 .group > p { text-align: left; }
+
+/* 例题题干左缩 2 字：与练一练题干、解析同一条轴；行宽 34 字，英文 ≤ 80 字符（04 §1） */
+.stem > p { margin-left: calc(2 * var(--zi)); }
+
+/* 专题接排：整册时专题不再每个都起新页（尾页常只剩一两道练习）；专题之间空 2u，考情总览后的第一个专题仍起新页 */
+.topic { break-before: auto; margin-top: calc(2 * var(--u)); }
+.overview + .topic { break-before: page; margin-top: 0; }
+
+/* 「练一练」药丸不落单在页底：药丸所在的匿名行与第一题之间禁止断页 */
+
+.drill > .atoms > li:first-child { break-before: avoid; }
