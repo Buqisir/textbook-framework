@@ -117,3 +117,18 @@
 .explain > .evidence { text-align: left; margin-top: var(--h); }
 .ans { font-family: "arrow", "serif-en", "serif-cjk"; }   /* 答案里的「（亦可 …）」中文落到思源宋体 */
 .part > .lead { break-after: avoid; }
+
+/* ── 讲解段：每段是一条独立要点，不是连续行文（2026-11-05 老师反馈「不对齐」）──
+ * 首行缩进 2em 配 1–2 行的短段，左缘成锯齿。改为：不缩进，左缘与句型、例题题干同一条线；
+ * 每条要点在柱与正文的间距里悬挂一个主色小方块。方块用 CSS 画，不用 ▸ 字符（STIX 无此字形，会回退 DejaVu）。
+ * 不用星标：星在教辅里表示「重要 / 高频」，留给有这个含义的地方。 */
+.explain > p:not(.subhead):not(.pattern) { text-indent: 0; position: relative; }
+.explain > p:not(.subhead):not(.pattern)::before {
+  content: "";
+  position: absolute;
+  left: -7.5pt;
+  top: calc((var(--u) - 3.5pt) / 2 + 1pt);   /* 落在首行汉字字身中线 */
+  width: 3.5pt;
+  height: 3.5pt;
+  background: var(--accent);
+}
