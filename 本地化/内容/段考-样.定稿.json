@@ -1,0 +1,96 @@
+{
+  "data_no": "01",
+  "unit_book": "段考专题　高一上 · 第 1 站",
+  "h2": "期中前月考",
+  "stats": [
+    {"b": "12", "post": "套东莞卷"},
+    {"b": "6", "post": "个专题"},
+    {"pre": "考时教材约进行到 ", "b": "U2"}
+  ],
+  "overview": {
+    "title": "这次段考考什么",
+    "chip": "2022–2025 · 单句类题",
+    "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+    "rows": [
+      {"name": "非谓语", "cov": 1.0, "n": 55, "book": "必修二 U4 起", "ahead": true, "go": "专题 1", "skip": false},
+      {"name": "it 形式主宾语", "cov": 0.92, "n": 17, "book": "不单列", "ahead": true, "go": "专题 2", "skip": false},
+      {"name": "名词性从句", "cov": 0.83, "n": 21, "book": "选必一 U5 起", "ahead": true, "go": "专题 3", "skip": false},
+      {"name": "虚拟语气", "cov": 0.67, "n": 10, "book": "不单列", "ahead": true, "go": "专题 4", "skip": false},
+      {"name": "强调句", "cov": 0.5, "n": 6, "book": "不单列", "ahead": true, "go": "专题 5", "skip": false},
+      {"name": "定语从句", "cov": 0.33, "n": 5, "book": "必修一 U4", "ahead": false, "go": "期中册", "skip": true}
+    ],
+    "after": "时态、被动语态每卷都考，初中已学，见同步讲义，本册不单讲。"
+  },
+  "topics": [
+    {
+      "no": 4,
+      "name": "虚拟语气",
+      "vols": 12,
+      "cov": 8,
+      "n": 10,
+      "explain": [
+        {"type": "subhead", "text": "recommend 型"},
+        {"type": "gloss", "lines": ["10 题里 9 题", "recommend：必修一 U1"]},
+        {"type": "p", "text": "东莞这一站考虚拟，几乎只考一种：[[recommend]] 后接 that 从句，从句谓语用 [[(should) + 动词原形]]。题目常把它藏在两处：主语从句 [[It is recommended that …]]，或者要求把 [[recommend sb. to do]] 改写成从句。"},
+        {"type": "pattern", "text": "recommend that sb. (should) do  |  It is recommended that sth. (should) be done"},
+        {"type": "note", "lines": ["主语是物", "→ (should) be done"]},
+        {"type": "p", "text": "从句主语若是动作的承受者，套被动：[[(should) be done]]。should 可省，答案两种都给分；但 be 不能丢。"}
+      ],
+      "examples": [
+        {
+          "gloss": ["主语从句", "→ (should) do"],
+          "stem": {
+            "text": "It is highly recommended that the government ___ (take) measures to protect the environment.",
+            "cue": [],
+            "src": "2023 · 东莞外国语 · 高一上月考"
+          },
+          "ju": "强烈建议政府采取措施保护环境。",
+          "mid": {"label": "成分", "text": "that 从句是真正的主语，谓语空着；主句是 It is recommended，从句用虚拟。"},
+          "ans": "(should) take"
+        },
+        {
+          "gloss": ["machines 被检查", "→ (should) be checked"],
+          "stem": {
+            "text": "It is strongly recommended that the machines ___ (check) every year.",
+            "cue": [],
+            "src": "2024 · 东莞高中 · 高一上月考"
+          },
+          "ju": "强烈建议每年检查这些机器。",
+          "mid": {"label": "成分", "text": "同上用虚拟；machines 是 check 的承受者，用被动。"},
+          "ans": "(should) be checked"
+        }
+      ],
+      "keypoint": "见 recommend that，从句谓语写 (should) + 原形；主语是物再加 be done。改写题把 recommend sb. to do 换成 recommend that sb. (should) do。",
+      "drill": [
+        {
+          "stem": "The expert recommended to do some research before carrying out the experiment.",
+          "cue": ["用宾语从句改写"],
+          "src": "2024 · 东莞市 · 高一上联考",
+          "ans": "The expert recommended that some research (should) be done before carrying out the experiment.",
+          "why": "research 是承受者，用 (should) be done。"
+        },
+        {
+          "stem": "I recommend you to focus on what the teacher says.\nI recommend ___ what the teacher says.",
+          "cue": [],
+          "src": "2024 · 东莞高中 · 高一上月考",
+          "ans": "(that) you (should) focus on",
+          "why": "recommend that 从句用虚拟。"
+        },
+        {
+          "stem": "Mrs Brown 建议我积极参加课外活动。",
+          "cue": ["用 recommend 翻译"],
+          "src": "2023 · 石竹实验 · 高一上月考",
+          "ans": "Mrs Brown recommended that I (should) take an active part in after-class activities.",
+          "why": ""
+        },
+        {
+          "stem": "What would happen if we didn’t get there on time?\n___ we didn’t get there on time?",
+          "cue": ["同义句转换"],
+          "src": "2024 · 东莞高中 · 高一上月考",
+          "ans": "What if",
+          "why": "What if … = What would happen if …"
+        }
+      ]
+    }
+  ]
+}

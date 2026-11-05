@@ -1,0 +1,193 @@
+/* 主线稿 · 柱式（①+③ 合成，2026-11-04 定）
+ * 来源：方向 A 柱式 → 借 B「考点起新页」、借 C「段首缩进段间不空」→ 柱 ①填满 + ③按需通栏合成（调研/视觉重做/07）。
+ * 主张：左柱放骨架与柱注，右栏放内容；表格、要点卡、练一练这类宽块排满通栏。
+ * 网格：柱 8 字（96pt）+ 栏距 1 字 + 正文栏 33 字（396pt，英文约 79 字符）；通栏 42 字。
+ * 用色：主色只给编号——考点号、例题号、练习题号、语篇空号、页码，以及时间轴图形；柱里文字一律墨色。
+ * 容器：只有要点卡一种（记忆层浅底）；全稿零描边框。 */
+@import url("基础.css");
+
+:root { --col: 96pt; --gap: 12pt; --main: calc(var(--col) + var(--gap)); }
+
+.topic { counter-reset: ex; }
+.topic + .topic { break-before: page; }
+
+/* 正文栏块：左缩到柱外。通栏块（表格、要点、练一练）不缩 */
+.explain, .example { margin-left: var(--main); }
+
+/* ── 柱：标签与柱注浮到左柱，与其后块首行齐平 ── */
+.subhead, .solution > h4,
+.stem::before, .stem > .chip-source, .pattern::before,
+.gloss, .explain > .note {
+  float: left;
+  clear: left;
+  width: var(--col);
+  margin-left: calc(-1 * var(--main));
+  text-align: left;
+  color: var(--ink);
+}
+.gloss {
+  display: block;
+  font: 400 9pt/13.5pt "arrow", "sans-ui";
+  text-wrap: balance;
+}
+
+/* ── 考点头：跨全版心 ── */
+.topic-head {
+  position: relative;
+  padding-top: var(--h);
+  padding-bottom: var(--h);
+  margin-bottom: var(--u);
+  background: linear-gradient(var(--accent), var(--accent)) left bottom / 100% 0.75pt no-repeat;
+  break-after: avoid;
+}
+.topic-head::before {
+  content: attr(data-no);
+  float: left;
+  width: var(--col);
+  font: 700 24pt/42pt "sans-ui";
+  color: var(--accent);
+  margin-right: var(--gap);
+}
+.topic-head h3 {
+  font: 700 18pt/42pt "sans-ui";
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.topic-head .chip-freq {
+  position: absolute;
+  right: 0;
+  bottom: var(--h);
+  font: 400 9pt/var(--u) "sans-ui";
+}
+
+/* ── 讲解 ── */
+.subhead { font: 700 12pt/var(--u) "sans-ui"; break-after: avoid; }
+.explain > p:not(.subhead):not(.pattern) { text-indent: 2em; }
+.explain > .pattern { margin-top: var(--h); margin-bottom: var(--h); }
+.pattern { font-weight: 600; font-size: 12pt; }
+.pattern::before { content: "句型"; font: 400 9pt/var(--u) "sans-ui"; font-style: normal; }
+.em-atom { font-weight: 600; }   /* 半粗：700 压在宋体段落里像墨团 */
+
+/* 讲解内的注：贴在它解释的那段旁边，住在柱里 */
+.explain > .note {
+  font: 400 9pt/13.5pt "arrow", "sans-ui";
+  padding-top: 4.5pt;   /* 首行与段落首行齐平 */
+  text-wrap: balance;
+}
+.explain > .note::before { content: "注"; display: block; font: 700 9pt/13.5pt "sans-ui"; }
+
+/* 辨析表：通栏。左侧可带时间轴列 */
+.explain > .compare { margin-left: calc(-1 * var(--main)); width: calc(100% + var(--main)); margin-top: var(--h); }
+.compare { border-collapse: collapse; }
+.compare th {
+  font: 400 9pt/var(--u) "sans-ui";
+  text-align: left;
+  background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat;
+}
+.compare td {
+  text-align: left;
+  vertical-align: top;
+  background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat;
+}
+.compare td { padding-left: 0; padding-right: var(--zi); }
+.compare tr > :last-child { padding-right: 0; }
+.compare tr > :nth-child(2) { white-space: nowrap; }
+
+/* 时间轴列：一条轴 + 右端刻度（= now）；point 一个实点，span 延续到 now 的粗条，two 实点（先）+ 空心点（后） */
+.compare .axis { display: table-cell; width: var(--col); padding-right: var(--gap); }
+.compare td.axis {
+  position: relative;
+  background:
+    linear-gradient(var(--ink), var(--ink)) left 0 top 50% / calc(100% - var(--gap) - 1pt) 0.6pt no-repeat,
+    linear-gradient(var(--ink), var(--ink)) right var(--gap) top 50% / 0.6pt 7pt no-repeat,
+    linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat;
+}
+.compare td.axis::before, .compare td.axis::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 6.75pt;
+  height: 6.75pt;
+  margin-top: -3.375pt;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.compare td.axis[data-axis="point"]::before { left: 30pt; background: var(--accent); }
+.compare td.axis[data-axis="span"]::before { left: 22pt; right: var(--gap); width: auto; height: 3.75pt; margin-top: -1.875pt; border-radius: 0; background: var(--accent); }
+.compare td.axis[data-axis="two"]::before { left: 16pt; background: var(--accent); }
+.compare td.axis[data-axis="two"]::after { left: 46pt; border: 1.5pt solid var(--accent); background: var(--paper, #FFFFFF); }
+
+/* ── 例题 ── */
+.example { margin-top: var(--u); counter-increment: ex; }
+/* 例题号挂在题干上（不挂在 .example 上）：断页时编号跟着题干走 */
+.stem::before { content: "例 " counter(ex); font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
+.stem > .chip-source { font: 400 9pt/13.5pt "sans-ui"; }
+.stem > .chip-source::before { content: "["; }
+.stem > .chip-source::after { content: "]"; }
+.stem p[lang="en"] { font-size: 12.75pt; }
+/* 03 §3（2026-11-04 放宽）：例题可跨页，但题干不断开、题干后不断页，解析首段至少两行与题干同页。
+   块内子元素不得写 break-after: avoid 去拴后块——它会沿父级外传，让相邻两题之间也不许断页。 */
+.stem { break-inside: avoid; break-after: avoid; }
+.solution { margin-top: var(--h); }
+.solution > p { orphans: 2; widows: 2; }
+.solution > h4 { font: 700 12pt/var(--u) "sans-ui"; }
+.solution b:not(.ans) { font: 500 12pt/var(--u) "sans-ui"; }   /* 换字族不换色 */
+.evidence { padding-left: 2em; font-style: italic; }
+.ans { font-family: "serif-en"; font-style: italic; }
+.solution > aside:not(.gloss) {
+  font: 400 9pt/var(--u) "sans-ui";
+  margin-top: var(--h);
+  break-before: avoid;
+}
+.solution > aside:not(.gloss) p { display: inline; margin-right: 2em; }
+.solution > aside:not(.gloss) p::before { content: "\25B6\2002"; color: var(--accent); font-size: 6pt; vertical-align: 1pt; }
+
+/* ── 要点卡：通栏，标签在底色块内 ── */
+.keypoint {
+  margin-top: var(--u);
+  padding: var(--h) calc(1.5 * var(--zi));
+  background: var(--accent-wash);
+  border-radius: 2pt;
+  display: flex;
+  gap: calc(1.5 * var(--zi));
+  break-inside: avoid;
+}
+.keypoint::before { content: "要点"; flex: none; font: 700 12pt/var(--u) "sans-ui"; }
+.keypoint p { flex: 1 1 auto; }
+
+/* ── 考点级的注（不贴具体段落时）：正文栏 ── */
+.topic > .note {
+  margin-top: var(--h);
+  margin-left: var(--main);
+  font-size: 10.5pt;
+  line-height: var(--u);
+  position: relative;
+  top: 0.57pt;
+  break-before: avoid;
+}
+
+/* ── 练一练：通栏 ── */
+.drill {
+  position: relative;
+  margin-top: var(--u);
+  padding-top: var(--h);
+  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.3pt no-repeat;
+}
+.drill > h4 { font: 700 12pt/var(--u) "sans-ui"; margin-bottom: var(--h); break-after: avoid; }
+.drill > .gloss {
+  float: none;
+  position: absolute;
+  right: 0;
+  top: var(--h);
+  width: auto;
+  margin: 0;
+  line-height: var(--u);
+}
+.drill-atoms ol { padding-left: 2em; }
+.drill-atoms li { text-wrap: pretty; }
+.drill-atoms li::marker { content: counter(list-item) "\2002"; font: 700 12pt/var(--u) "sans-ui"; color: var(--accent); }
+.drill-atoms li + li { margin-top: var(--h); }
+.drill-passage { margin-top: var(--h); }
+.drill-passage > p:first-child { font: 400 9pt/var(--u) "sans-ui"; }
+.drill-passage p[lang="en"] { line-height: calc(1.5 * var(--u)); text-wrap: pretty; position: relative; top: -5.25pt; }   /* 1.5 倍行距给手写留空；上移半个行距差，基线回到网格 */
+.blank[data-no]::before { color: var(--accent); }
