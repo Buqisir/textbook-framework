@@ -19,112 +19,112 @@
     "作宾补": {
      "题数": 1,
      "题": [
-      "101-33"
+      "096-33"
      ]
     },
     "作状语": {
      "题数": 15,
      "题": [
-      "013-20",
-      "025-14",
-      "025-26",
-      "051-13",
-      "059-11",
-      "075-11",
-      "087-13",
-      "087-22",
-      "101-31",
-      "101-36",
-      "101-40",
-      "113-20",
-      "127-11",
-      "141-19",
-      "149-22"
+      "012-20",
+      "022-14",
+      "022-26",
+      "047-13",
+      "055-11",
+      "071-11",
+      "083-13",
+      "083-22",
+      "096-31",
+      "096-36",
+      "096-40",
+      "108-20",
+      "122-11",
+      "136-19",
+      "144-22"
      ]
     },
     "作定语": {
      "题数": 4,
      "题": [
-      "051-11",
-      "087-29",
-      "104-35",
-      "130-07"
+      "047-11",
+      "083-29",
+      "099-35",
+      "125-07"
      ]
     },
     "作主语": {
      "题数": 4,
      "题": [
-      "033-19",
-      "038-11",
-      "130-10",
-      "141-24"
+      "029-19",
+      "034-11",
+      "125-10",
+      "136-24"
      ]
     },
     "作宾语 / 固定搭配": {
      "题数": 11,
      "题": [
-      "038-13",
-      "059-15",
-      "059-21",
-      "059-25",
-      "062-10",
-      "087-19",
-      "101-18",
-      "101-21",
-      "104-29",
-      "106-10",
-      "166-14"
+      "034-13",
+      "055-15",
+      "055-21",
+      "055-25",
+      "058-10",
+      "083-19",
+      "096-18",
+      "096-21",
+      "099-29",
+      "101-10",
+      "161-14"
      ]
     },
     "形式：不定式": {
      "题数": 4,
      "题": [
-      "025-24",
-      "130-22",
-      "148-09",
-      "148-18"
+      "022-24",
+      "125-22",
+      "143-09",
+      "143-18"
      ]
     },
     "形式：-ing": {
      "题数": 6,
      "题": [
-      "033-20",
-      "075-23",
-      "101-15",
-      "141-07",
-      "149-11",
-      "166-21"
+      "029-20",
+      "071-23",
+      "096-15",
+      "136-07",
+      "144-11",
+      "161-21"
      ]
     },
     "形式：-ed": {
      "题数": 2,
      "题": [
-      "101-17",
-      "104-20"
+      "096-17",
+      "099-20"
      ]
     },
     "其他": {
      "题数": 13,
      "题": [
-      "025-10",
-      "025-25",
-      "033-17",
-      "033-24",
-      "075-24",
-      "087-25",
-      "087-27",
-      "101-41",
-      "104-38",
-      "106-33",
-      "113-11",
-      "113-17",
-      "143-18"
+      "022-10",
+      "022-25",
+      "029-17",
+      "029-24",
+      "071-24",
+      "083-25",
+      "083-27",
+      "096-41",
+      "099-38",
+      "101-33",
+      "108-11",
+      "108-17",
+      "138-18"
      ]
     }
    },
    "题": [
     {
-     "id": "013-20",
+     "id": "012-20",
      "标签": "2020 · 东华 · 高一上期中",
      "题型": "语法填空",
      "题干": "Please take notes while ___ ( listen) to the teacher.",
@@ -143,7 +143,7 @@
      "标记": []
     },
     {
-     "id": "025-10",
+     "id": "022-10",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "单词拼写",
      "题干": "It has to be maintained at an altitude where the thin air makes it a struggle for humans to ___ (呼吸).",
@@ -159,7 +159,7 @@
      "标记": []
     },
     {
-     "id": "025-14",
+     "id": "022-14",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "单词拼写",
      "题干": "We take this opportunity to contact you and look forward to working with you to ___ (建立) trade relations with China.",
@@ -175,7 +175,7 @@
      "标记": []
     },
     {
-     "id": "025-24",
+     "id": "022-24",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "翻译",
      "题干": "把书和体育用品捐给需要的孩子更有意义。\nIt is more meaningful ___ books and sports goods ___ children in need.",
@@ -193,7 +193,7 @@
      "标记": []
     },
     {
-     "id": "025-25",
+     "id": "022-25",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "翻译",
      "题干": "对于很多父母来说在工作和生活之间保持平衡是一个很大的挑战。\n___ between work and family can be a big challenge for many parents.",
@@ -209,7 +209,7 @@
      "标记": []
     },
     {
-     "id": "025-26",
+     "id": "022-26",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "翻译",
      "题干": "与音乐和绘画这些艺术形式相比，广受欢迎的电影的历史相对短一些。\n___ such art forms as music and paintings, film, ___ enjoys great popularity, has a much shorter history.",
@@ -228,7 +228,7 @@
      "标记": []
     },
     {
-     "id": "033-17",
+     "id": "029-17",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "Li Ming is scheduled to ___ （报名参加） joining a football club so that he can catch up with other players.",
@@ -244,7 +244,7 @@
      "标记": []
     },
     {
-     "id": "033-19",
+     "id": "029-19",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
@@ -260,7 +260,7 @@
      "标记": []
     },
     {
-     "id": "033-20",
+     "id": "029-20",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
@@ -280,7 +280,7 @@
      "标记": []
     },
     {
-     "id": "033-24",
+     "id": "029-24",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "It seems that Mary has changed a lot since she went to university.",
@@ -298,7 +298,7 @@
      "标记": []
     },
     {
-     "id": "038-11",
+     "id": "034-11",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "Efforts are required ___ (narrow) the distance between scientific ideas and real-life use.",
@@ -314,7 +314,7 @@
      "标记": []
     },
     {
-     "id": "038-13",
+     "id": "034-13",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "He spends a lot of time ___ (revise) his notes to ensure he understands everything.",
@@ -330,7 +330,7 @@
      "标记": []
     },
     {
-     "id": "051-11",
+     "id": "047-11",
      "标签": "2022 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "There has been a couple of young man and woman ___ (argue) in the street.",
@@ -346,7 +346,7 @@
      "标记": []
     },
     {
-     "id": "051-13",
+     "id": "047-13",
      "标签": "2022 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ ( compare) with other sports, basketball features more continuous action.",
@@ -366,7 +366,7 @@
      ]
     },
     {
-     "id": "059-11",
+     "id": "055-11",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "语法填空",
      "题干": "The new teaching building is big and well-equipped, ___ (compare) with the old one.",
@@ -382,7 +382,7 @@
      "标记": []
     },
     {
-     "id": "059-15",
+     "id": "055-15",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "语法填空",
      "题干": "Sometimes the little boy pretended ___ (read) a book on the sofa to make his parents praise him.",
@@ -398,7 +398,7 @@
      "标记": []
     },
     {
-     "id": "059-21",
+     "id": "055-21",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "完成句子",
      "题干": "It seems that my roommate has much confidence for the coming final exam.\nMy roommate ___ much confidence for the coming final exam.",
@@ -416,7 +416,7 @@
      "标记": []
     },
     {
-     "id": "059-25",
+     "id": "055-25",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "翻译",
      "题干": "Jane 更喜欢自己解决问题而不是向他人寻求帮助。",
@@ -432,7 +432,7 @@
      "标记": []
     },
     {
-     "id": "062-10",
+     "id": "058-10",
      "标签": "2022 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "We consider ___ important to save both water and electricity.",
@@ -450,7 +450,7 @@
      "标记": []
     },
     {
-     "id": "075-11",
+     "id": "071-11",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ (compare) with people living in Palestine, our life is much happier and safer.",
@@ -468,7 +468,7 @@
      ]
     },
     {
-     "id": "075-23",
+     "id": "071-23",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "The boy ___ (假装在睡觉) when his mother came into the bedroom.",
@@ -486,7 +486,7 @@
      "标记": []
     },
     {
-     "id": "075-24",
+     "id": "071-24",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "I have no idea what I can do to make up for my mistake.\nI have no idea ___ to make up for my mistake.",
@@ -506,7 +506,7 @@
      "标记": []
     },
     {
-     "id": "087-13",
+     "id": "083-13",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ (bury) myself in my book, I didn’t realize it was raining.",
@@ -524,7 +524,7 @@
      ]
     },
     {
-     "id": "087-19",
+     "id": "083-19",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "单词拼写",
      "题干": "Slowly, the city began to ___ (呼吸) again.",
@@ -540,7 +540,7 @@
      "标记": []
     },
     {
-     "id": "087-22",
+     "id": "083-22",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "单词拼写",
      "题干": "They were lucky to ___ (幸免于) the accident.",
@@ -556,7 +556,7 @@
      "标记": []
     },
     {
-     "id": "087-25",
+     "id": "083-25",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "We need one more player to ___ (组成) a team.",
@@ -572,7 +572,7 @@
      "标记": []
     },
     {
-     "id": "087-27",
+     "id": "083-27",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "My own problems seem less significant ___ (与……比较) other people’s.",
@@ -590,7 +590,7 @@
      "标记": []
     },
     {
-     "id": "087-29",
+     "id": "083-29",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "This is an old building ___ (追溯到) the 14th century.",
@@ -606,7 +606,7 @@
      "标记": []
     },
     {
-     "id": "101-15",
+     "id": "096-15",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "This book is definitely worth ___ (read).",
@@ -622,7 +622,7 @@
      "标记": []
     },
     {
-     "id": "101-17",
+     "id": "096-17",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "She had to walk home with her bike ___ (steal).",
@@ -641,7 +641,7 @@
      "标记": []
     },
     {
-     "id": "101-18",
+     "id": "096-18",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "Laziness leads to ___ (fail) the exam.",
@@ -657,7 +657,7 @@
      "标记": []
     },
     {
-     "id": "101-21",
+     "id": "096-21",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "He struggled with the vocabulary and attempted ___ (memorize) as many words as possible.",
@@ -673,7 +673,7 @@
      "标记": []
     },
     {
-     "id": "101-31",
+     "id": "096-31",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "单词拼写",
      "题干": "She would open a book, ___ (假装) to read, with tears dropping on the open page.",
@@ -689,7 +689,7 @@
      "标记": []
     },
     {
-     "id": "101-33",
+     "id": "096-33",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "单词拼写",
      "题干": "Those who dare to try often get themselves ___ (被困住).",
@@ -705,7 +705,7 @@
      "标记": []
     },
     {
-     "id": "101-36",
+     "id": "096-36",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "单词拼写",
      "题干": "They went from door to door to ___ (推销) their new products.",
@@ -721,7 +721,7 @@
      "标记": []
     },
     {
-     "id": "101-40",
+     "id": "096-40",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "翻译",
      "题干": "看到那些画，她想起了自己的童年。（分词作状语）\n___, she remembered her childhood.",
@@ -737,7 +737,7 @@
      "标记": []
     },
     {
-     "id": "101-41",
+     "id": "096-41",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "翻译",
      "题干": "他决定第二天向经理申请一份工作。\nHe decided to ___ the manager for a job the next day.",
@@ -753,7 +753,7 @@
      "标记": []
     },
     {
-     "id": "104-20",
+     "id": "099-20",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "I was at a disadvantage ___ (compare) to the younger members of the team.",
@@ -771,7 +771,7 @@
      "标记": []
     },
     {
-     "id": "104-29",
+     "id": "099-29",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "Before going abroad, you need to ___ (申请)a visa in advance.",
@@ -787,7 +787,7 @@
      "标记": []
     },
     {
-     "id": "104-35",
+     "id": "099-35",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "Blue collar jobs is a term ___ (追溯到) the 1920s.",
@@ -803,7 +803,7 @@
      "标记": []
     },
     {
-     "id": "104-38",
+     "id": "099-38",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "I’ve learned that you are never too small to ___ (有影响).",
@@ -819,7 +819,7 @@
      "标记": []
     },
     {
-     "id": "106-10",
+     "id": "101-10",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "When the teacher was standing outside the classroom, he pretended ___ (listen) carefully.",
@@ -835,7 +835,7 @@
      "标记": []
     },
     {
-     "id": "106-33",
+     "id": "101-33",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "完成句子",
      "题干": "To improve his grades, David tries his best to ___ (专注于) the class and ignores what happens outside.",
@@ -851,7 +851,7 @@
      "标记": []
     },
     {
-     "id": "113-11",
+     "id": "108-11",
      "标签": "2023 · 东莞高中 · 高一上月考",
      "题型": "单词拼写",
      "题干": "Harry really wanted to ___ (消失) into his bedroom, but he met Uncle Vernon’s angry little eyes and knew he would have to sit it out.",
@@ -867,7 +867,7 @@
      "标记": []
     },
     {
-     "id": "113-17",
+     "id": "108-17",
      "标签": "2023 · 东莞高中 · 高一上月考",
      "题型": "完成句子",
      "题干": "His incomparable skills and professional knowledge enabled him to successfully ___ (申请) the job.",
@@ -883,7 +883,7 @@
      "标记": []
     },
     {
-     "id": "113-20",
+     "id": "108-20",
      "标签": "2023 · 东莞高中 · 高一上月考",
      "题型": "完成句子",
      "题干": "___ (和……相比) the original, the copy looks no difference.",
@@ -901,7 +901,7 @@
      "标记": []
     },
     {
-     "id": "127-11",
+     "id": "122-11",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ (compare) to our small apartment,our uncle’s house seemed like a palace.",
@@ -921,7 +921,7 @@
      ]
     },
     {
-     "id": "130-07",
+     "id": "125-07",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "Doing sports is a good way ___ (strong) your body.",
@@ -937,7 +937,7 @@
      "标记": []
     },
     {
-     "id": "130-10",
+     "id": "125-10",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "But ___ (spend) too much time online is unhealthy and makes it very difficult to focus on other things in life.",
@@ -953,7 +953,7 @@
      "标记": []
     },
     {
-     "id": "130-22",
+     "id": "125-22",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "完成句子",
      "题干": "I like reading in the library in my free time instead of playing games at home.\nI prefer ___ in the library in my free time rather than play games at home.",
@@ -971,7 +971,7 @@
      "标记": []
     },
     {
-     "id": "141-07",
+     "id": "136-07",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "语法填空",
      "题干": "It is no use ___ (complain) without taking any action.",
@@ -987,7 +987,7 @@
      "标记": []
     },
     {
-     "id": "141-19",
+     "id": "136-19",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "She got up early this morning so that she could get to school on time.\nShe got up early this morning ___ to school on time.",
@@ -1007,7 +1007,7 @@
      "标记": []
     },
     {
-     "id": "141-24",
+     "id": "136-24",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "翻译",
      "题干": "大声朗读对学习一门外语很重要。(动名词作主语)",
@@ -1023,7 +1023,7 @@
      "标记": []
     },
     {
-     "id": "143-18",
+     "id": "138-18",
      "标签": "2023 · 第十中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "I don’t feel it right to ___ (评论) others’ lifestyle.",
@@ -1039,7 +1039,7 @@
      "标记": []
     },
     {
-     "id": "148-09",
+     "id": "143-09",
      "标签": "2024 · 第四高中 · 高一上期中",
      "题型": "语法填空",
      "题干": "It’s difficult for us ___ (organize) our ideas at that dangerous time.",
@@ -1057,7 +1057,7 @@
      "标记": []
     },
     {
-     "id": "148-18",
+     "id": "143-18",
      "标签": "2024 · 第四高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "With all this noise going on, it’s hard for me ___ (专心读) this article.",
@@ -1075,7 +1075,7 @@
      "标记": []
     },
     {
-     "id": "149-11",
+     "id": "144-11",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "语法填空",
      "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
@@ -1091,7 +1091,7 @@
      "标记": []
     },
     {
-     "id": "149-22",
+     "id": "144-22",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "完成句子",
      "题干": "Because he buried himself in his book, he was not aware it was raining outside.",
@@ -1111,7 +1111,7 @@
      "标记": []
     },
     {
-     "id": "166-14",
+     "id": "161-14",
      "标签": "2024 · 松山湖未来 · 高一上期中",
      "题型": "语法填空",
      "题干": "The old man has been addicted to ___ (smoke) for 60 years.",
@@ -1127,7 +1127,7 @@
      "标记": []
     },
     {
-     "id": "166-21",
+     "id": "161-21",
      "标签": "2024 · 松山湖未来 · 高一上期中",
      "题型": "完成句子",
      "题干": "I would stay at home rather than go out on weekends.\n=I ___ at home ___ out on weekends.",
@@ -1162,37 +1162,37 @@
     "形式宾语 it（find/make/think… it adj.）": {
      "题数": 13,
      "题": [
-      "033-14",
-      "038-10",
-      "059-16",
-      "075-19",
-      "101-08",
-      "101-37",
-      "104-21",
-      "127-07",
-      "141-09",
-      "143-15",
-      "149-10",
-      "149-20",
-      "166-13"
+      "029-14",
+      "034-10",
+      "055-16",
+      "071-19",
+      "096-08",
+      "096-37",
+      "099-21",
+      "122-07",
+      "136-09",
+      "138-15",
+      "144-10",
+      "144-20",
+      "161-13"
      ]
     },
     "形式主语 It is adj. to do / that": {
      "题数": 7,
      "题": [
-      "033-26",
-      "038-22",
-      "038-24",
-      "062-21",
-      "106-24",
-      "130-25",
-      "166-25"
+      "029-26",
+      "034-22",
+      "034-24",
+      "058-21",
+      "101-24",
+      "125-25",
+      "161-25"
      ]
     }
    },
    "题": [
     {
-     "id": "033-14",
+     "id": "029-14",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "语法填空",
      "题干": "You might find ___ relaxing to bring your small kid to a half-hour Story Time while you sit quietly in a corner with a good book.",
@@ -1210,7 +1210,7 @@
      "标记": []
     },
     {
-     "id": "033-26",
+     "id": "029-26",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "翻译",
      "题干": "显然，现在越来越多青少年沉迷手机游戏。",
@@ -1230,7 +1230,7 @@
      "标记": []
     },
     {
-     "id": "038-10",
+     "id": "034-10",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The company made ___ a rule that employees must attend monthly training sessions.",
@@ -1246,7 +1246,7 @@
      "标记": []
     },
     {
-     "id": "038-22",
+     "id": "034-22",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "Obviously, the new policy has improved efficiency, unlike the previous one.\n___ the new policy has improved efficiency, unlike the previous one.",
@@ -1264,7 +1264,7 @@
      "标记": []
     },
     {
-     "id": "038-24",
+     "id": "034-24",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "The package seems to have arrived early this morning.",
@@ -1285,7 +1285,7 @@
      "标记": []
     },
     {
-     "id": "059-16",
+     "id": "055-16",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "语法填空",
      "题干": "Emergency and foreign aid was organized, but damaged roads would make ___ difficult to deliver goods and supplies.",
@@ -1303,7 +1303,7 @@
      "标记": []
     },
     {
-     "id": "062-21",
+     "id": "058-21",
      "标签": "2022 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "Obviously, people are living a happy life in this community.\n___ people are living a happy life in this community.",
@@ -1323,7 +1323,7 @@
      "标记": []
     },
     {
-     "id": "075-19",
+     "id": "071-19",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The research reveals that teenagers find ___ difficult to concentrate on their study after playing mobile games continuously for an hour.",
@@ -1341,7 +1341,7 @@
      "标记": []
     },
     {
-     "id": "101-08",
+     "id": "096-08",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our school has made ___ a rule that every student shall wear uniforms at school.",
@@ -1359,7 +1359,7 @@
      "标记": []
     },
     {
-     "id": "101-37",
+     "id": "096-37",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "I’d ___ (我将感激不尽) if you let me know whether you are available or not ahead of time.",
@@ -1375,7 +1375,7 @@
      "标记": []
     },
     {
-     "id": "104-21",
+     "id": "099-21",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "I consider ___ an honor to be able to see the bird.",
@@ -1393,7 +1393,7 @@
      "标记": []
     },
     {
-     "id": "106-24",
+     "id": "101-24",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "___ shocked us that as many as 100 species of fish, some unique to these waters, may have been affected by the pollution.",
@@ -1411,7 +1411,7 @@
      "标记": []
     },
     {
-     "id": "127-07",
+     "id": "122-07",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The teacher made ___ clear that our credits would be hard-earned.",
@@ -1427,7 +1427,7 @@
      "标记": []
     },
     {
-     "id": "130-25",
+     "id": "125-25",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "翻译",
      "题干": "对我来说，习惯高中生活不难。",
@@ -1445,7 +1445,7 @@
      "标记": []
     },
     {
-     "id": "141-09",
+     "id": "136-09",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "语法填空",
      "题干": "The little boy found ___ very interesting to study English.",
@@ -1463,7 +1463,7 @@
      "标记": []
     },
     {
-     "id": "143-15",
+     "id": "138-15",
      "标签": "2023 · 第十中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "The damaged roads made ___ difficult to deliver food and supplies to those in need.",
@@ -1481,7 +1481,7 @@
      "标记": []
     },
     {
-     "id": "149-10",
+     "id": "144-10",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "语法填空",
      "题干": "They want to make ___ clear to the volunteers that the cleaners are responsible for the cleaning work.",
@@ -1499,7 +1499,7 @@
      "标记": []
     },
     {
-     "id": "149-20",
+     "id": "144-20",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "完成句子",
      "题干": "I find to study English interesting.\nI ___ to study English.",
@@ -1517,7 +1517,7 @@
      "标记": []
     },
     {
-     "id": "166-13",
+     "id": "161-13",
      "标签": "2024 · 松山湖未来 · 高一上期中",
      "题型": "语法填空",
      "题干": "Spending too much time online is unhealthy and makes ___ very difficult to focus on other things in life.",
@@ -1535,7 +1535,7 @@
      "标记": []
     },
     {
-     "id": "166-25",
+     "id": "161-25",
      "标签": "2024 · 松山湖未来 · 高一上期中",
      "题型": "完成句子",
      "题干": "Going from junior high school to senior high school is a really big challenge.",
@@ -1562,7 +1562,7 @@
    "讲": true,
    "覆盖卷": 17,
    "覆盖率": 0.85,
-   "题数": 45,
+   "题数": 41,
    "候选": {
     "本节点": 29,
     "借用": 0,
@@ -1572,61 +1572,61 @@
     "关系副词 where / when / why": {
      "题数": 5,
      "题": [
-      "025-29",
-      "051-16",
-      "075-17",
-      "075-28",
-      "101-20"
+      "022-29",
+      "047-16",
+      "071-17",
+      "071-28",
+      "096-20"
      ]
     },
     "who / whom": {
      "题数": 2,
      "题": [
-      "062-24",
-      "075-18"
+      "058-24",
+      "071-18"
      ]
     },
     "which": {
      "题数": 3,
      "题": [
-      "075-16",
-      "101-11",
-      "127-17"
+      "071-16",
+      "096-11",
+      "122-17"
      ]
     },
     "that": {
      "题数": 1,
      "题": [
-      "106-30"
+      "101-30"
      ]
     },
     "其他": {
      "题数": 18,
      "题": [
-      "013-08",
-      "038-14",
-      "059-13",
-      "062-12",
-      "075-15",
-      "087-14",
-      "087-31",
-      "101-10",
-      "101-13",
-      "101-14",
-      "101-19",
-      "104-18",
-      "104-19",
-      "104-23",
-      "106-23",
-      "127-13",
-      "141-14",
-      "149-15"
+      "012-08",
+      "034-14",
+      "055-13",
+      "058-12",
+      "071-15",
+      "083-14",
+      "083-31",
+      "096-10",
+      "096-13",
+      "096-14",
+      "096-19",
+      "099-18",
+      "099-19",
+      "099-23",
+      "101-23",
+      "122-13",
+      "136-14",
+      "144-15"
      ]
     }
    },
    "题": [
     {
-     "id": "013-08",
+     "id": "012-08",
      "标签": "2020 · 东华 · 高一上期中",
      "题型": "语法填空",
      "题干": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
@@ -1642,7 +1642,7 @@
      "标记": []
     },
     {
-     "id": "025-29",
+     "id": "022-29",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "完成句子",
      "题干": "Scientists worked diligently to rescue the bronze object because they wanted to preserve it for the next generation.\nThe reason ___ diligently to rescue the bronze object is that they wanted to preserve it for the next generation.",
@@ -1660,7 +1660,7 @@
      "标记": []
     },
     {
-     "id": "038-14",
+     "id": "034-14",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The destination ___ is marked on the map as a \"must-see\" spot attracts thousands of tourists annually.",
@@ -1676,7 +1676,7 @@
      "标记": []
     },
     {
-     "id": "051-16",
+     "id": "047-16",
      "标签": "2022 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "Sales director is a position ___ communication ability is just as important as sales skills.",
@@ -1692,7 +1692,7 @@
      "标记": []
     },
     {
-     "id": "059-13",
+     "id": "055-13",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "语法填空",
      "题干": "This was an amazing and rewarding activity of first aid ___ made a deep impression on every student in our grade.",
@@ -1708,7 +1708,7 @@
      "标记": []
     },
     {
-     "id": "062-12",
+     "id": "058-12",
      "标签": "2022 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "Houses ___ overlook the lake cost more.",
@@ -1724,7 +1724,7 @@
      "标记": []
     },
     {
-     "id": "062-24",
+     "id": "058-24",
      "标签": "2022 · 东莞市 · 高一上期中",
      "题型": "翻译",
      "题干": "只有勇敢面对挑战的人才能成功。",
@@ -1742,7 +1742,7 @@
      "标记": []
     },
     {
-     "id": "075-15",
+     "id": "071-15",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "Those ___ houses were damaged in typhoon can fill in this form and apply for financial aid.",
@@ -1758,7 +1758,7 @@
      "标记": []
     },
     {
-     "id": "075-16",
+     "id": "071-16",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "Xi’an city ___ used to be the capital of 13 dynasties is developing fast these years.",
@@ -1774,7 +1774,7 @@
      "标记": []
     },
     {
-     "id": "075-17",
+     "id": "071-17",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "Your performance at the discussion gave me a deep impression and that’s the reason ___ I want you.",
@@ -1790,7 +1790,7 @@
      "标记": []
     },
     {
-     "id": "075-18",
+     "id": "071-18",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The Smiths have two children, both of ___ work in New York．",
@@ -1806,7 +1806,7 @@
      "标记": []
     },
     {
-     "id": "075-28",
+     "id": "071-28",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "翻译",
      "题干": "我永远也不会忘记我们一起在高中读书的日子。",
@@ -1826,7 +1826,7 @@
      "标记": []
     },
     {
-     "id": "087-14",
+     "id": "083-14",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "The passengers and the suitcases ___ were in the waiting room had to wait for another plane.",
@@ -1842,7 +1842,7 @@
      "标记": []
     },
     {
-     "id": "087-31",
+     "id": "083-31",
      "标签": "2022 · 东华松山湖 · 高一上期中",
      "题型": "翻译",
      "题干": "众所周知，千里之行， 始于足下。",
@@ -1860,7 +1860,7 @@
      "标记": []
     },
     {
-     "id": "101-10",
+     "id": "096-10",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "He bought a house last week ___ windows are made of wood.",
@@ -1876,7 +1876,7 @@
      "标记": []
     },
     {
-     "id": "101-11",
+     "id": "096-11",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "I bought an album ___ many post card with beautiful sights were included.",
@@ -1894,7 +1894,7 @@
      ]
     },
     {
-     "id": "101-13",
+     "id": "096-13",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "She has the same fair hair and blue eyes ___ her mother had.",
@@ -1910,7 +1910,7 @@
      "标记": []
     },
     {
-     "id": "101-14",
+     "id": "096-14",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "The play the girl participating in ___ (base) on Irish legend.",
@@ -1928,7 +1928,7 @@
      "标记": []
     },
     {
-     "id": "101-19",
+     "id": "096-19",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "Jacob had 13 children, 10 of ___ founded big companies in China.",
@@ -1944,7 +1944,7 @@
      "标记": []
     },
     {
-     "id": "101-20",
+     "id": "096-20",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "There was not much ___ we could do when it was raining.",
@@ -1960,7 +1960,7 @@
      "标记": []
     },
     {
-     "id": "104-18",
+     "id": "099-18",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "After successfully winning the right to host the 2022 Winter Olympics, Beijing will become the world’s first city ___ hosts both Summer Olympics and Winter Olympics.",
@@ -1976,7 +1976,7 @@
      "标记": []
     },
     {
-     "id": "104-19",
+     "id": "099-19",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "I live next door to a couple ___ children often make a lot of noise.",
@@ -1992,7 +1992,7 @@
      "标记": []
     },
     {
-     "id": "104-23",
+     "id": "099-23",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "The boss of the company is trying to create an easy atmosphere ___ his employees enjoy their work.",
@@ -2008,7 +2008,7 @@
      "标记": []
     },
     {
-     "id": "106-23",
+     "id": "101-23",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "语法填空",
      "题干": "This was the very island ___ was bought by a millionaire.",
@@ -2024,7 +2024,7 @@
      "标记": []
     },
     {
-     "id": "106-30",
+     "id": "101-30",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "完成句子",
      "题干": "The Wayne is a small river that ___ (横穿) the park near my home.",
@@ -2040,7 +2040,7 @@
      "标记": []
     },
     {
-     "id": "127-13",
+     "id": "122-13",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "语法填空",
      "题干": "The man with ___ you shook hands just now is our headmaster.",
@@ -2056,7 +2056,7 @@
      "标记": []
     },
     {
-     "id": "127-17",
+     "id": "122-17",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "Mike studies hard all the way, which ___ (树立榜样) to his sister and brother.",
@@ -2072,7 +2072,7 @@
      "标记": []
     },
     {
-     "id": "141-14",
+     "id": "136-14",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "语法填空",
      "题干": "My eldest son, ___ work takes him all over the world, is in New York at the moment.",
@@ -2088,7 +2088,7 @@
      "标记": []
     },
     {
-     "id": "149-15",
+     "id": "144-15",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "语法填空",
      "题干": "The present time is the best gift ___ you can give yourself.",
@@ -2109,653 +2109,6 @@
    "编号": 3
   },
   {
-   "名称": "状语从句",
-   "讲": true,
-   "覆盖卷": 16,
-   "覆盖率": 0.8,
-   "题数": 19,
-   "候选": {
-    "本节点": 13,
-    "借用": 0,
-    "合计": 13
-   },
-   "子类": {
-    "让步": {
-     "题数": 6,
-     "题": [
-      "025-28",
-      "051-19",
-      "101-38",
-      "104-31",
-      "104-37",
-      "166-10"
-     ]
-    },
-    "目的": {
-     "题数": 1,
-     "题": [
-      "127-21"
-     ]
-    },
-    "结果": {
-     "题数": 3,
-     "题": [
-      "038-08",
-      "106-37",
-      "148-14"
-     ]
-    },
-    "条件": {
-     "题数": 1,
-     "题": [
-      "143-17"
-     ]
-    },
-    "时间": {
-     "题数": 1,
-     "题": [
-      "148-22"
-     ]
-    },
-    "其他": {
-     "题数": 1,
-     "题": [
-      "148-26"
-     ]
-    }
-   },
-   "题": [
-    {
-     "id": "025-28",
-     "标签": "2021 · 东华 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Whatever you meet with in the future, I will spare no effort to help you.\n___ you meet with in the future, I will spare no effort to help you.",
-     "提示词": null,
-     "答案": "No ； matter ； what",
-     "解析": "考查让步状语从句。特殊疑问词-ever可引导让步状语从句，这类词在引导让步状语从句时常可换成“no matter+相应的疑问词”，此处应用no matter what。句首单词首字母要大写。故填No matter what。",
-     "句意": "无论你在未来遇到什么，我都会不遗余力地帮助你。",
-     "cue": [
-      "句型转换"
-     ],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "038-08",
-     "标签": "2025 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The greenhouse effect is becoming so serious ___ we must take some actions to deal with it.",
-     "提示词": null,
-     "答案": "that",
-     "解析": "句意：温室效应正变得如此严重，我们必须采取一些行动来应对它。分析句子结构可知，此处考查固定句型so...that...，意为“如此……以至于……”，引导结果状语从句，所以填that。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "051-19",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
-     "提示词": null,
-     "答案": "Even ； though |if",
-     "解析": "考查状语从句连接词。句意：尽管我的祖父已经九十多岁了，他仍然偶尔打网球。分析句子结构，根据句意可知，空处应是引导让步状语从句，根据所给中文提示词，应是even though/if意为“尽管”。句首单词首字母大写。故填：①Even，②though。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ]
-    },
-    {
-     "id": "101-38",
-     "标签": "2022 · 莞中松山湖 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "___ (无论发生什么) tomorrow, hold on to today and you won’t regret.",
-     "提示词": null,
-     "答案": "No ； matter ； what ； happens",
-     "解析": "考查让步状语从句。句意：不管明天发生什么，把握好今天，你就不会后悔的。根据汉语提示和空格数可知，“无论什么”为：no matter what，“发生”为happen；逗号前为从句部分，根据句意和主句时态可知，从句的谓语动词需用一般现在时，happen应该使用第三人称单数形式，句首单词首字母大写。故填①No ②matter ③what ④happens。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ]
-    },
-    {
-     "id": "104-31",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "___ (即使) you plant the seed upside down, the roots will still grow down.",
-     "提示词": null,
-     "答案": "Even if |Even though",
-     "解析": "考查让步状语从句。句意：即使你把种子倒过来种，根还是会往下长。“即使”用even if/though表示，引导让步状语从句。位于句首，首字母大写。故填Even if/though。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ]
-    },
-    {
-     "id": "104-37",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "But ___ (无论哪里) they looked, the results were always the same.",
-     "提示词": null,
-     "答案": "no matter where",
-     "解析": "考查让步状语从句。句意：但无论他们往哪里看，结果总是一样的。根据汉语意思提示可知，此处为连词no matter where“无论在哪里”引导的让步状语从句，满足句意要求。故填no matter where。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "106-37",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
-     "题型": "翻译",
-     "题干": "球重重地打在他身上，使他差点儿落入水中。",
-     "提示词": null,
-     "答案": "The ball struck him so hard that he nearly fell into the water.",
-     "解析": "考查结果状语从句。结合提示可知，此处用so...that引导结果状语从句，“球”使用名词ball作主语，“打”用动词strike，“重重地”使用副词so hard作状语，“差点儿”使用副词nearly，“落入水中”译为动词短语fall into the water，句子是描述过去发生的事情，应用一般过去时，故翻译为：The ball struck him so hard that he nearly fell into the water。",
-     "句意": null,
-     "cue": [
-      "用so…that…翻译句子"
-     ],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "时态"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "127-21",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "She got up early this morning so that she could get to school on time.\n= ___ to school on time, she got up early this morning.",
-     "提示词": null,
-     "答案": "In order to get",
-     "解析": "考查固定短语。句意：她今天早上起得很早，以便能准时到达学校。分析原句可知，“so that she could get to school on time”是目的状语从句，结合改写句中不定式短语“to school on time”，可用短语固定短语in order to do...与其构成不定式短语作目的状语；句首单词首字母大写。故填In order to get。",
-     "句意": null,
-     "cue": [
-      "同义句转换"
-     ],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "143-17",
-     "标签": "2023 · 第十中学 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "___ (如果……，会怎样) we don’t take action protect nature?",
-     "提示词": null,
-     "答案": "What ； if",
-     "解析": "考查固定句型。句意：如果我们不采取行动保护自然会怎样？“如果……，会怎样”用固定句型What if...?，该句型中if引导条件状语从句；句首单词首字母大写。故填What if。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ]
-    },
-    {
-     "id": "148-14",
-     "标签": "2024 · 第四高中 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "My English classes are so interesting ___ I am fond of them.",
-     "提示词": null,
-     "答案": "that",
-     "解析": "考查结果状语从句。句意：我的英语课很有趣，我很喜欢。此处为句型so...that...，引导结果状语从句。故填that。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "148-22",
-     "标签": "2024 · 第四高中 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "When we ___ (接管) the company, it was losing money.",
-     "提示词": null,
-     "答案": "took ； control ； of",
-     "解析": "考查固定短语和时态。句意：当我们接管公司时，它正在亏损。表示“接管”用固定短语take control of，when引导的时间状语从句描述过去的动作，故时态用一般过去时，从句谓语用过去式。故填took control of。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "时态"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "148-26",
-     "标签": "2024 · 第四高中 · 高一上期中",
-     "题型": "翻译",
-     "题干": "一旦养成了坏习惯，你就不容易改掉它。",
-     "提示词": null,
-     "答案": "Once you form a bad habit, it’s not easy to get rid of it.",
-     "解析": "考查状语从句、非谓语动词和代词。表示“一旦”应用once引导状语从句；表示“养成坏习惯”短语为form a bad habit，作从句谓语，从句陈述客观事实，应用一般现在时，主语为you，谓语应用原形；表示“改掉”短语为get rid of，it作形式主语，不定式作真正主语。故翻译为Once you form a bad habit, it’s not easy to get rid of it.",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语",
-      "it 形式主语／宾语"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "166-10",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "It was such ___ amazing film that everyone present thought highly of it.",
-     "提示词": null,
-     "答案": "an",
-     "解析": "考查不定冠词。句意：这是一部非常棒的电影，在场的每个人都对它评价很高。such…that…引导结果状语从句，film为可数名词单数，amazing为元音音素发音，表示泛指，不定冠词用an。故填an。",
-     "句意": null,
-     "cue": [],
-     "主考点": "状语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    }
-   ],
-   "编号": 4
-  },
-  {
-   "名称": "名词性从句",
-   "讲": true,
-   "覆盖卷": 15,
-   "覆盖率": 0.75,
-   "题数": 30,
-   "候选": {
-    "本节点": 16,
-    "借用": 0,
-    "合计": 16
-   },
-   "子类": {
-    "表语从句": {
-     "题数": 1,
-     "题": [
-      "075-29"
-     ]
-    },
-    "主语从句": {
-     "题数": 8,
-     "题": [
-      "051-18",
-      "051-20",
-      "075-22",
-      "075-25",
-      "141-15",
-      "141-21",
-      "148-19",
-      "149-18"
-     ]
-    },
-    "宾语从句": {
-     "题数": 7,
-     "题": [
-      "033-09",
-      "033-13",
-      "033-23",
-      "038-12",
-      "106-26",
-      "149-19",
-      "166-19"
-     ]
-    }
-   },
-   "题": [
-    {
-     "id": "033-09",
-     "标签": "2024 · 第八高中 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The survey shows people are confused about ___ they should eat to stay healthy.",
-     "提示词": null,
-     "答案": "what",
-     "解析": "一项调查表明人们对于保持健康该吃什么很困惑。\n\n根据句意，横线处应是what，eat是及物动词，缺少宾语，用what作其宾语，同时引导宾语从句。\n\n故填：what。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "全文",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "033-13",
-     "标签": "2024 · 第八高中 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The librarian requested that the book ___ （return） to the library as soon as possible.",
-     "提示词": "return",
-     "答案": "be returned",
-     "解析": "图书管理员要求这本书尽快归还图书馆。\n\nrequest表示\"请求\"，当它引导宾语从句时，从句要用虚拟语气，其结构为\"（should） + 动词原形\"，其中\"should\"可以省略。在本句\"The librarian requested that the book  （return） to the library as soon as possible.\"中，book与return之间是被动关系，即书被归还，所以要用\"（should） be returned\"的形式，\"should\"被省略。\n\n 故填：be returned。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "虚拟语气",
-      "被动",
-      "省略"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "033-23",
-     "标签": "2024 · 第八高中 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "My English teacher recommends me to exchange learning methods with my classmates.",
-     "提示词": null,
-     "答案": "My English teacher recommends that I （should） exchange learning methods with my classmates.",
-     "解析": "我的英语老师建议我和同学们交流学习方法。\n\nrecommend sb.to do sth.可以转换成recommend that…，recommend后接宾语从句要用虚拟语气，从句谓语动词用\"should+动词原形\"，should可省略。\n\n故填：My English teacher recommends that I （should） exchange learning methods with my classmates.",
-     "句意": null,
-     "cue": [
-      "用宾语从句改写句子"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "虚拟语气",
-      "省略"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "038-12",
-     "标签": "2025 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "She recommended that the program ___ (design) to help students practice and improve their oral English.",
-     "提示词": "design",
-     "答案": "(should) be designed",
-     "解析": "句意：她建议这个项目应该被设计来帮助学生练习并提高他们的英语口语。recommend后接宾语从句时，从句要用虚拟语气，即(should) + 动词原形，program与design之间是被动关系，所以用被动语态(should) be designed。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "全文",
-     "其他命中": [
-      "虚拟语气",
-      "被动"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "051-18",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "It’s a shame that their friendship finally ___ (破裂) and they became enemies.",
-     "提示词": null,
-     "答案": "fell apart",
-     "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "时态"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "051-20",
-     "标签": "2022 · 东莞外国语 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "They are likely to be fired by the company because of their faults.\n___ they will be fired by the company because of their faults.",
-     "提示词": null,
-     "答案": "It ； is ； likely ； that",
-     "解析": "考查主语从句。句意：他们很可能会因为他们的错误而被公司解雇。根据题干要求，需进行同义句改写，一般现在时，分析原句和改写句，可知缺少了表语likely，此处可用that引导的主语从句，然后用it作形式主语，故填：①It，②is，③likely，④that。",
-     "句意": null,
-     "cue": [
-      "同义句改写"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "it 形式主语／宾语"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "075-22",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "What you behave during childhood ___ (对……有影响) to what you will be when growing up.",
-     "提示词": null,
-     "答案": "makes ； a ； difference",
-     "解析": "考查固定搭配和动词时态。句意：你童年时的行为将会对你长大后的样子有影响。根据汉语提示“对……有影响”可知，此处为固定短语make a difference to，此处陈述客观事实，使用一般现在时，主语为主语从句，谓语动词使用第三人称单数形式。故填①makes；②a；③difference。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "075-25",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Obviously, the manager is satisfied with the guy’s arrangement.\n___ the manager is satisfied with the guy’s arrangement.",
-     "提示词": null,
-     "答案": "It ； is ； obvious ； that",
-     "解析": "考查主语从句。句意：显然，经理对这家伙的安排很满意。分析句子结构和意思可知，原句是副词obviously位于句首作状语，可以转换成it作形式主语的主语从句结构It is obvious that+句子，that引导真正的主语从句。故填It is obvious that。",
-     "句意": null,
-     "cue": [
-      "句型转换"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "it 形式主语／宾语"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "075-29",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "翻译",
-     "题干": "似乎越来越多的青少年已经很沉迷于网络游戏。",
-     "提示词": null,
-     "答案": "It seems as if/that more and more teenagers have been addicted to (playing) online games.",
-     "解析": "考查表语从句和动词时态。表示“似乎”应用It seems as if/that...，as if或者that引导表语从句；表示“越来越多的青少年”应用more and more teenagers；表示“沉迷于”应用be addicted to，此处表示“已经沉迷于”，使用现在完成时，主语为复数名词，助动词用have；表示“网络游戏”应用online games，此处也可使用play online games，位于介词to后面，使用动名词。故翻译成：It seems as if/that more and more teenagers have been addicted to (playing) online games.",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "非谓语",
-      "时态"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "106-26",
-     "标签": "2023 · 东莞外国语 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Nearly a week passed before the girl ___ (能够) explain what had happened to her.",
-     "提示词": null,
-     "答案": "was ； able ； to",
-     "解析": "考查固定短语。句意：将近一个星期过去了，女孩才能够解释发生在她身上的事。根据汉语提示可知，be able to“能够”，what引导的宾语从句用的是过去完成时，主句应用一般过去时，主语girl为名词单数，故填①was②able③to。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "时态"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "141-15",
-     "标签": "2022 · 第五高中 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
-     "提示词": null,
-     "答案": "What",
-     "解析": "考查主语从句连接词。句意：给我留下最深印象的是九寨沟的令人惊叹的瀑布。该空需要一个连接词引导主语从句，并指代事物在从句中作主语，应填what，位于句首注意首字母大写。故填What。",
-     "句意": null,
-     "cue": [],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "补句首空"
-     ]
-    },
-    {
-     "id": "141-21",
-     "标签": "2022 · 第五高中 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "The teacher highly recommended that we should make full preparations for the exams.\nIt was highly recommended that full preparations ___ for to exams.",
-     "提示词": null,
-     "答案": "should ； be ； prepared",
-     "解析": "考查谓语动词。句意：老师强烈建议我们为考试做充分的准备。分析句子结构和意思可知，原句话是that引导的宾语从句，转换之后是that引导的主语从句，从句中主语full preparations和动词make 也变成了被动关系，所以用被动结构should be prepared。故填should be prepared。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "被动"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "148-19",
-     "标签": "2024 · 第四高中 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Obviously, the ability to talk is something that marks humans off from animals.\n___ the ability to talk is something that marks humans off from animals.",
-     "提示词": null,
-     "答案": "It ； is ； obvious |clear ； that",
-     "解析": "考查主语从句。句意：很明显，说话的能力是人类与动物的区别。根据题干要求进行同义句转换，原句中obviously为副词，意为“很明显”，其可以转换为固定句型it is obvious/clear that，该结构中it为形式主语，that引导的从句为真正的主语。同时该空置于句首，开头单词首字母大写。故答案为It；is；obvious/clear；that。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "it 形式主语／宾语"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "149-18",
-     "标签": "2022 · 翰林 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "He seems to know everything.\n→ ___ he knows everything.",
-     "提示词": null,
-     "答案": "It ； seems ； that",
-     "解析": "考查固定句型，主语从句，时态和主谓一致。句意：他似乎无所不知。由seems可知，句子时态是一般现在时，空格处意为“似乎”，可换为固定句型It seems that...，其中It是形式主语，that从句是主语从句，位于句首的单词首字母大写，故填It，seems，that。",
-     "句意": null,
-     "cue": [
-      "同义转换"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "it 形式主语／宾语",
-      "主谓一致"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "149-19",
-     "标签": "2022 · 翰林 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "My mother recommended me to see the film Return To The Dust.\nMy mother ___ see the film Return To The Dust.",
-     "提示词": null,
-     "答案": "recommended ； that ； I ； should",
-     "解析": "考查宾语从句和虚拟语气。句意： 我妈妈建议我去看电影《隐入尘烟》。recommend译为“建议”。原句中涉及动词短语recommend sb to do sth，表示“建议某人做某事”。可以将其改写为recommend+that从句，从句中的谓语动词用should+动词原形，其中should可以省略。由原句可知时态为一般过去时，所以填recommended。故答案为recommended； that； I； should。",
-     "句意": null,
-     "cue": [
-      "同义句改写"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "虚拟语气",
-      "时态",
-      "省略"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "166-19",
-     "标签": "2024 · 松山湖未来 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "Mr. John recommends us students to read more classical novels to improve our writing skills.\n= Mr. John recommends that we students ___ more classic novels to improve our writing skills.",
-     "提示词": null,
-     "答案": "should ； read",
-     "解析": "考查宾语从句和虚拟语气。句意：约翰先生建议我们学生多读一些古典小说来提高我们的写作技巧。改为宾语从句，recommend表示“建议”，that引导的宾语从句用should do构成虚拟语气，此处动词为read。故填①should②read。",
-     "句意": null,
-     "cue": [
-      "同义句转换"
-     ],
-     "主考点": "名词性从句",
-     "主考点来源": "考查",
-     "其他命中": [
-      "虚拟语气"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    }
-   ],
-   "编号": 5
-  },
-  {
    "名称": "强调句",
    "讲": true,
    "覆盖卷": 14,
@@ -2770,36 +2123,36 @@
     "not until 强调": {
      "题数": 5,
      "题": [
-      "051-23",
-      "059-24",
-      "075-26",
-      "113-22",
-      "143-23"
+      "047-23",
+      "055-24",
+      "071-26",
+      "108-22",
+      "138-23"
      ]
     },
     "It is/was … that/who 强调": {
      "题数": 7,
      "题": [
-      "033-25",
-      "038-23",
-      "062-23",
-      "104-41",
-      "106-35",
-      "141-22",
-      "148-25"
+      "029-25",
+      "034-23",
+      "058-23",
+      "099-41",
+      "101-35",
+      "136-22",
+      "143-25"
      ]
     },
     "其他": {
      "题数": 2,
      "题": [
-      "130-24",
-      "143-08"
+      "125-24",
+      "138-08"
      ]
     }
    },
    "题": [
     {
-     "id": "033-25",
+     "id": "029-25",
      "标签": "2024 · 第八高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "In 2016，Coach Lang Ping led her volleyball team to Olympic gold in Brazil.",
@@ -2819,7 +2172,7 @@
      "标记": []
     },
     {
-     "id": "038-23",
+     "id": "034-23",
      "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "She used the flash cards to teach the kids new words last class.",
@@ -2839,7 +2192,7 @@
      "标记": []
     },
     {
-     "id": "051-23",
+     "id": "047-23",
      "标签": "2022 · 东莞外国语 · 高一上期中",
      "题型": "完成句子",
      "题干": "He did not realize the value of health until he fell seriously ill.",
@@ -2857,7 +2210,7 @@
      "标记": []
     },
     {
-     "id": "059-24",
+     "id": "055-24",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "完成句子",
      "题干": "She didn’t come back home until I finished this letter.",
@@ -2878,7 +2231,7 @@
      "标记": []
     },
     {
-     "id": "062-23",
+     "id": "058-23",
      "标签": "2022 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "Because she sat too long in front of the computer, her eyes suffered.",
@@ -2899,7 +2252,7 @@
      "标记": []
     },
     {
-     "id": "075-26",
+     "id": "071-26",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "He didn’t make the team until he won the match.",
@@ -2917,7 +2270,7 @@
      "标记": []
     },
     {
-     "id": "104-41",
+     "id": "099-41",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "翻译",
      "题干": "正是在你的帮助下，我的英语口语才取得了这么大的进步。",
@@ -2937,7 +2290,7 @@
      "标记": []
     },
     {
-     "id": "106-35",
+     "id": "101-35",
      "标签": "2023 · 东莞外国语 · 高一上期中",
      "题型": "完成句子",
      "题干": "I found this stray cat in the corner of the park.",
@@ -2957,7 +2310,7 @@
      "标记": []
     },
     {
-     "id": "113-22",
+     "id": "108-22",
      "标签": "2023 · 东莞高中 · 高一上月考",
      "题型": "完成句子",
      "题干": "People in modern times didn’t know about the Terracotta statues until 1974.\nIt was ___ 1974 ___ people in modern times knew about the Terracotta statues.",
@@ -2975,7 +2328,7 @@
      "标记": []
     },
     {
-     "id": "130-24",
+     "id": "125-24",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "完成句子",
      "题干": "He didn’t go to school yesterday because he was ill.",
@@ -2998,7 +2351,7 @@
      ]
     },
     {
-     "id": "141-22",
+     "id": "136-22",
      "标签": "2022 · 第五高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "I recognized him in the crowd when I was walking in the street.",
@@ -3018,7 +2371,7 @@
      "标记": []
     },
     {
-     "id": "143-08",
+     "id": "138-08",
      "标签": "2023 · 第十中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Remember, whenever you travel abroad, it is your country ___ you are representing.",
@@ -3034,7 +2387,7 @@
      "标记": []
     },
     {
-     "id": "143-23",
+     "id": "138-23",
      "标签": "2023 · 第十中学 · 高一上期中",
      "题型": "完成句子",
      "题干": "The villagers didn’t realize the earthquake happened until the earth began to shake.",
@@ -3052,7 +2405,7 @@
      "标记": []
     },
     {
-     "id": "148-25",
+     "id": "143-25",
      "标签": "2024 · 第四高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "Mastering enough English wordsmakes you an excellent English learner.",
@@ -3070,7 +2423,7 @@
      "标记": []
     }
    ],
-   "编号": 6
+   "编号": 4
   },
   {
    "名称": "虚拟语气",
@@ -3087,31 +2440,31 @@
     "recommend / suggest / insist 类 that 从句": {
      "题数": 7,
      "题": [
-      "013-16",
-      "075-21",
-      "101-39",
-      "104-24",
-      "127-24",
-      "130-13",
-      "148-24"
+      "012-16",
+      "071-21",
+      "096-39",
+      "099-24",
+      "122-24",
+      "125-13",
+      "143-24"
      ]
     },
     "if 虚拟条件句": {
      "题数": 1,
      "题": [
-      "149-16"
+      "144-16"
      ]
     },
     "其他": {
      "题数": 1,
      "题": [
-      "059-08"
+      "055-08"
      ]
     }
    },
    "题": [
     {
-     "id": "013-16",
+     "id": "012-16",
      "标签": "2020 · 东华 · 高一上期中",
      "题型": "语法填空",
      "题干": "The doctor recommended that my brother ___ (give) up smoking.",
@@ -3130,7 +2483,7 @@
      "标记": []
     },
     {
-     "id": "059-08",
+     "id": "055-08",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our teachers request that attention ___ (focus) on the lessons in class.",
@@ -3149,7 +2502,7 @@
      "标记": []
     },
     {
-     "id": "075-21",
+     "id": "071-21",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
      "题干": "Mary likes dancing and her adviser recommended she ___ (报名)a ballet course.",
@@ -3167,7 +2520,7 @@
      "标记": []
     },
     {
-     "id": "101-39",
+     "id": "096-39",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "完成句子",
      "题干": "The committee proposed that the government ___ (调查原因) why so many wild animals disappeared.",
@@ -3186,7 +2539,7 @@
      "标记": []
     },
     {
-     "id": "104-24",
+     "id": "099-24",
      "标签": "2024 · 莞中松山湖 · 高一上期中",
      "题型": "语法填空",
      "题干": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
@@ -3206,7 +2559,7 @@
      "标记": []
     },
     {
-     "id": "127-24",
+     "id": "122-24",
      "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "翻译",
      "题干": "Mrs Brown 建议他积极参加课外活动。",
@@ -3226,7 +2579,7 @@
      "标记": []
     },
     {
-     "id": "130-13",
+     "id": "125-13",
      "标签": "2023 · 莞美、大岭山中学、大朗佳美 · 高一上期中",
      "题型": "语法填空",
      "题干": "Our head teacher recommends that we ___ (attend) the lecture to be given this weekend.",
@@ -3245,7 +2598,7 @@
      "标记": []
     },
     {
-     "id": "148-24",
+     "id": "143-24",
      "标签": "2024 · 第四高中 · 高一上期中",
      "题型": "完成句子",
      "题干": "I recommend him to see a doctor.",
@@ -3266,7 +2619,7 @@
      "标记": []
     },
     {
-     "id": "149-16",
+     "id": "144-16",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "语法填空",
      "题干": "Jack wasn't saying anything, but the teacher smiled at him as if he ___ （do）something very clever.",
@@ -3284,161 +2637,202 @@
      "标记": []
     }
    ],
-   "编号": 7
+   "编号": 5
   },
   {
-   "名称": "主谓一致",
+   "名称": "状语从句",
    "讲": true,
-   "覆盖卷": 10,
-   "覆盖率": 0.5,
+   "覆盖卷": 9,
+   "覆盖率": 0.45,
    "题数": 11,
    "候选": {
-    "本节点": 8,
+    "本节点": 13,
     "借用": 0,
-    "合计": 8
+    "合计": 13
    },
    "子类": {
-    "动名词 / 不定式短语作主语": {
+    "让步": {
+     "题数": 6,
+     "题": [
+      "022-28",
+      "047-19",
+      "096-38",
+      "099-31",
+      "099-37",
+      "161-10"
+     ]
+    },
+    "目的": {
      "题数": 1,
      "题": [
-      "148-08"
+      "122-21"
      ]
     },
-    "固定短语 / 固定句型": {
+    "结果": {
      "题数": 3,
      "题": [
-      "087-24",
-      "104-28",
-      "113-18"
+      "034-08",
+      "101-37",
+      "143-14"
      ]
     },
-    "时间状语定时态": {
-     "题数": 4,
+    "条件": {
+     "题数": 1,
      "题": [
-      "013-09",
-      "075-12",
-      "127-12",
-      "149-14"
+      "138-17"
+     ]
+    },
+    "时间": {
+     "题数": 1,
+     "题": [
+      "143-22"
+     ]
+    },
+    "其他": {
+     "题数": 1,
+     "题": [
+      "143-26"
      ]
     }
    },
    "题": [
     {
-     "id": "013-09",
-     "标签": "2020 · 东华 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
-     "提示词": "prefer",
-     "答案": "prefers",
-     "解析": "考查动词时态和主谓一致。句意：她擅长英语，并且更喜欢英语课只用英语教授。此处主语为she，为第三人称单数，and连接前后两个谓语动词，第一个为is，故此处也应为三人称单数的一般现在时，故填prefers。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
+     "id": "022-28",
+     "标签": "2021 · 东华 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Whatever you meet with in the future, I will spare no effort to help you.\n___ you meet with in the future, I will spare no effort to help you.",
+     "提示词": null,
+     "答案": "No ； matter ； what",
+     "解析": "考查让步状语从句。特殊疑问词-ever可引导让步状语从句，这类词在引导让步状语从句时常可换成“no matter+相应的疑问词”，此处应用no matter what。句首单词首字母要大写。故填No matter what。",
+     "句意": "无论你在未来遇到什么，我都会不遗余力地帮助你。",
+     "cue": [
+      "句型转换"
+     ],
+     "主考点": "状语从句",
      "主考点来源": "考查",
      "其他命中": [],
      "疑似缺陷": false,
      "标记": []
     },
     {
-     "id": "075-12",
-     "标签": "2023 · 东莞市 · 高一上期中",
+     "id": "034-08",
+     "标签": "2025 · 东莞市 · 高一上期中",
      "题型": "语法填空",
-     "题干": "Great efforts ___ (make) so far to win the championship.",
-     "提示词": "make",
-     "答案": "have been made",
-     "解析": "考查动词时态语态和主谓一致。句意：到目前为止，为了赢得冠军已经付出了巨大的努力。根据时间状语“so far”可知，此处使用现在完成时，主语Great efforts和make为被动关系，需用被动语态，主语为复数名词，助动词用have。故填have been made。",
+     "题干": "The greenhouse effect is becoming so serious ___ we must take some actions to deal with it.",
+     "提示词": null,
+     "答案": "that",
+     "解析": "句意：温室效应正变得如此严重，我们必须采取一些行动来应对它。分析句子结构可知，此处考查固定句型so...that...，意为“如此……以至于……”，引导结果状语从句，所以填that。",
      "句意": null,
      "cue": [],
-     "主考点": "主谓一致",
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "047-19",
+     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "___ (尽管) my grandfather is in his nineties, he still plays tennis now and then.",
+     "提示词": null,
+     "答案": "Even ； though |if",
+     "解析": "考查状语从句连接词。句意：尽管我的祖父已经九十多岁了，他仍然偶尔打网球。分析句子结构，根据句意可知，空处应是引导让步状语从句，根据所给中文提示词，应是even though/if意为“尽管”。句首单词首字母大写。故填：①Even，②though。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
+     "id": "096-38",
+     "标签": "2022 · 莞中松山湖 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "___ (无论发生什么) tomorrow, hold on to today and you won’t regret.",
+     "提示词": null,
+     "答案": "No ； matter ； what ； happens",
+     "解析": "考查让步状语从句。句意：不管明天发生什么，把握好今天，你就不会后悔的。根据汉语提示和空格数可知，“无论什么”为：no matter what，“发生”为happen；逗号前为从句部分，根据句意和主句时态可知，从句的谓语动词需用一般现在时，happen应该使用第三人称单数形式，句首单词首字母大写。故填①No ②matter ③what ④happens。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
+     "id": "099-31",
+     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "___ (即使) you plant the seed upside down, the roots will still grow down.",
+     "提示词": null,
+     "答案": "Even if |Even though",
+     "解析": "考查让步状语从句。句意：即使你把种子倒过来种，根还是会往下长。“即使”用even if/though表示，引导让步状语从句。位于句首，首字母大写。故填Even if/though。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
+     "id": "099-37",
+     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "But ___ (无论哪里) they looked, the results were always the same.",
+     "提示词": null,
+     "答案": "no matter where",
+     "解析": "考查让步状语从句。句意：但无论他们往哪里看，结果总是一样的。根据汉语意思提示可知，此处为连词no matter where“无论在哪里”引导的让步状语从句，满足句意要求。故填no matter where。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "101-37",
+     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "题型": "翻译",
+     "题干": "球重重地打在他身上，使他差点儿落入水中。",
+     "提示词": null,
+     "答案": "The ball struck him so hard that he nearly fell into the water.",
+     "解析": "考查结果状语从句。结合提示可知，此处用so...that引导结果状语从句，“球”使用名词ball作主语，“打”用动词strike，“重重地”使用副词so hard作状语，“差点儿”使用副词nearly，“落入水中”译为动词短语fall into the water，句子是描述过去发生的事情，应用一般过去时，故翻译为：The ball struck him so hard that he nearly fell into the water。",
+     "句意": null,
+     "cue": [
+      "用so…that…翻译句子"
+     ],
+     "主考点": "状语从句",
      "主考点来源": "考查",
      "其他命中": [
-      "被动",
       "时态"
      ],
      "疑似缺陷": false,
      "标记": []
     },
     {
-     "id": "087-24",
-     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "id": "122-21",
+     "标签": "2023 · 东莞市 · 高一上期中",
      "题型": "完成句子",
-     "题干": "Some teens would rather sit up late than go to bed early.\nSome teens ___ up late ___ to bed early.",
+     "题干": "She got up early this morning so that she could get to school on time.\n= ___ to school on time, she got up early this morning.",
      "提示词": null,
-     "答案": "prefer ； sitting ； to ； going",
-     "解析": "考查固定句型和主谓一致。句意：有些青少年宁愿熬夜也不愿早睡。分析句子句意和结构可知，原句使用了would rather do...than do...句型，其意为“宁愿做…也不愿做……”，可转换为同义句型prefer doing…to doing…，又因主语Some teens是复数名词，谓语动词也用复数形式。故填①prefer；②sitting；③to；④going。",
+     "答案": "In order to get",
+     "解析": "考查固定短语。句意：她今天早上起得很早，以便能准时到达学校。分析原句可知，“so that she could get to school on time”是目的状语从句，结合改写句中不定式短语“to school on time”，可用短语固定短语in order to do...与其构成不定式短语作目的状语；句首单词首字母大写。故填In order to get。",
      "句意": null,
      "cue": [
-      "同义句改写"
+      "同义句转换"
      ],
-     "主考点": "主谓一致",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "104-28",
-     "标签": "2024 · 莞中松山湖 · 高一上期中",
-     "题型": "完成句子",
-     "题干": "The text mainly ___ (专注于) the relationship between EQ and IQ.",
-     "提示词": null,
-     "答案": "focuses ； on",
-     "解析": "考查固定短语，时态和主谓一致。句意：这篇文章主要关注情商和智商之间的关系。“专注于”是固定短语focus on，句子描述客观事实，时态用一般现在时，text是单数，因此focus用第三人称单数，故填focuses，on。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": [
-      "疑似拼写错"
-     ]
-    },
-    {
-     "id": "113-18",
-     "标签": "2023 · 东莞高中 · 高一上月考",
-     "题型": "完成句子",
-     "题干": "Peking University, one of the topic universities in China, ___ (追溯到) the end of the Qing dynasty.",
-     "提示词": null,
-     "答案": "dates back to",
-     "解析": "考查动词短语、时态和主谓一致。句意：北京大学是中国的名牌大学之一，其历史可以追溯到清末。根据汉语意思提示可知，此处为动词短语date back to“追溯到”，满足句意要求，结合句意可知，该句为陈述客观事实，为一般现在时，主语Peking University为单数名词，所以为动词三单形式。故填dates back to。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "127-12",
-     "标签": "2023 · 东莞市 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "The train ___ (schedule) to arrive at 10:15 am, but it’s running ten minutes late.",
-     "提示词": "schedule",
-     "答案": "is scheduled",
-     "解析": "考查时态语态和主谓一致。句意：火车定于上午10点15分到达，但是晚点了10分钟。提示词schedule(为……安排时间；预定)是谓语动词，与主语The train之间是被动关系，描述一般性事实，用一般现在时态，主语是单数名词，助动词用is。故填is scheduled。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
-     "主考点来源": "考查",
-     "其他命中": [
-      "被动"
-     ],
-     "疑似缺陷": false,
-     "标记": []
-    },
-    {
-     "id": "148-08",
-     "标签": "2024 · 第四高中 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Spending too much time online ___ (be) unhealthy to us.",
-     "提示词": "be",
-     "答案": "is",
-     "解析": "考查动词时态和主谓一致。句意：花太多时间上网对我们来说是不健康的。句子表述客观事实，故使用一般现在时。主语是动名词短语Spending too much time online，谓语动词需要用第三人称单数形式。故填is。",
-     "句意": null,
-     "cue": [],
-     "主考点": "主谓一致",
+     "主考点": "状语从句",
      "主考点来源": "考查",
      "其他命中": [
       "非谓语"
@@ -3447,27 +2841,450 @@
      "标记": []
     },
     {
-     "id": "149-14",
-     "标签": "2022 · 翰林 · 高一上期中",
-     "题型": "语法填空",
-     "题干": "Last weekend, people who lived nearby ___ (invite) to check the bridge out.",
-     "提示词": "invite",
-     "答案": "were invited",
-     "解析": "考查主谓一致和语态。句意：上周末，住在附近的人们被邀请来参观这座桥。根据Last weekend可知时态是一般过去时，分析句子可知，who引导定语从句who lived nearby，先行词是主句的主语people，指人，此处是主句的谓语，因此要用动词的复数形式，且由people和invite之间是动宾关系，因此要用被动语态。故填were invited。",
+     "id": "138-17",
+     "标签": "2023 · 第十中学 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "___ (如果……，会怎样) we don’t take action protect nature?",
+     "提示词": null,
+     "答案": "What ； if",
+     "解析": "考查固定句型。句意：如果我们不采取行动保护自然会怎样？“如果……，会怎样”用固定句型What if...?，该句型中if引导条件状语从句；句首单词首字母大写。故填What if。",
      "句意": null,
      "cue": [],
-     "主考点": "主谓一致",
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
+     "id": "143-14",
+     "标签": "2024 · 第四高中 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "My English classes are so interesting ___ I am fond of them.",
+     "提示词": null,
+     "答案": "that",
+     "解析": "考查结果状语从句。句意：我的英语课很有趣，我很喜欢。此处为句型so...that...，引导结果状语从句。故填that。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "143-22",
+     "标签": "2024 · 第四高中 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "When we ___ (接管) the company, it was losing money.",
+     "提示词": null,
+     "答案": "took ； control ； of",
+     "解析": "考查固定短语和时态。句意：当我们接管公司时，它正在亏损。表示“接管”用固定短语take control of，when引导的时间状语从句描述过去的动作，故时态用一般过去时，从句谓语用过去式。故填took control of。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
      "主考点来源": "考查",
      "其他命中": [
-      "定语从句",
-      "被动",
       "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "143-26",
+     "标签": "2024 · 第四高中 · 高一上期中",
+     "题型": "翻译",
+     "题干": "一旦养成了坏习惯，你就不容易改掉它。",
+     "提示词": null,
+     "答案": "Once you form a bad habit, it’s not easy to get rid of it.",
+     "解析": "考查状语从句、非谓语动词和代词。表示“一旦”应用once引导状语从句；表示“养成坏习惯”短语为form a bad habit，作从句谓语，从句陈述客观事实，应用一般现在时，主语为you，谓语应用原形；表示“改掉”短语为get rid of，it作形式主语，不定式作真正主语。故翻译为Once you form a bad habit, it’s not easy to get rid of it.",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语",
+      "it 形式主语／宾语"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "161-10",
+     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "It was such ___ amazing film that everyone present thought highly of it.",
+     "提示词": null,
+     "答案": "an",
+     "解析": "考查不定冠词。句意：这是一部非常棒的电影，在场的每个人都对它评价很高。such…that…引导结果状语从句，film为可数名词单数，amazing为元音音素发音，表示泛指，不定冠词用an。故填an。",
+     "句意": null,
+     "cue": [],
+     "主考点": "状语从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    }
+   ],
+   "编号": 6
+  },
+  {
+   "名称": "名词性从句",
+   "讲": true,
+   "覆盖卷": 8,
+   "覆盖率": 0.4,
+   "题数": 14,
+   "候选": {
+    "本节点": 16,
+    "借用": 0,
+    "合计": 16
+   },
+   "子类": {
+    "表语从句": {
+     "题数": 1,
+     "题": [
+      "071-29"
+     ]
+    },
+    "主语从句": {
+     "题数": 8,
+     "题": [
+      "047-18",
+      "047-20",
+      "071-22",
+      "071-25",
+      "136-15",
+      "136-21",
+      "143-19",
+      "144-18"
+     ]
+    },
+    "宾语从句": {
+     "题数": 7,
+     "题": [
+      "029-09",
+      "029-13",
+      "029-23",
+      "034-12",
+      "101-26",
+      "144-19",
+      "161-19"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "029-09",
+     "标签": "2024 · 第八高中 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "The survey shows people are confused about ___ they should eat to stay healthy.",
+     "提示词": null,
+     "答案": "what",
+     "解析": "一项调查表明人们对于保持健康该吃什么很困惑。\n\n根据句意，横线处应是what，eat是及物动词，缺少宾语，用what作其宾语，同时引导宾语从句。\n\n故填：what。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "029-13",
+     "标签": "2024 · 第八高中 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "The librarian requested that the book ___ （return） to the library as soon as possible.",
+     "提示词": "return",
+     "答案": "be returned",
+     "解析": "图书管理员要求这本书尽快归还图书馆。\n\nrequest表示\"请求\"，当它引导宾语从句时，从句要用虚拟语气，其结构为\"（should） + 动词原形\"，其中\"should\"可以省略。在本句\"The librarian requested that the book  （return） to the library as soon as possible.\"中，book与return之间是被动关系，即书被归还，所以要用\"（should） be returned\"的形式，\"should\"被省略。\n\n 故填：be returned。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [
+      "虚拟语气",
+      "被动",
+      "省略"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "029-23",
+     "标签": "2024 · 第八高中 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "My English teacher recommends me to exchange learning methods with my classmates.",
+     "提示词": null,
+     "答案": "My English teacher recommends that I （should） exchange learning methods with my classmates.",
+     "解析": "我的英语老师建议我和同学们交流学习方法。\n\nrecommend sb.to do sth.可以转换成recommend that…，recommend后接宾语从句要用虚拟语气，从句谓语动词用\"should+动词原形\"，should可省略。\n\n故填：My English teacher recommends that I （should） exchange learning methods with my classmates.",
+     "句意": null,
+     "cue": [
+      "用宾语从句改写句子"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [
+      "虚拟语气",
+      "省略"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "034-12",
+     "标签": "2025 · 东莞市 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "She recommended that the program ___ (design) to help students practice and improve their oral English.",
+     "提示词": "design",
+     "答案": "(should) be designed",
+     "解析": "句意：她建议这个项目应该被设计来帮助学生练习并提高他们的英语口语。recommend后接宾语从句时，从句要用虚拟语气，即(should) + 动词原形，program与design之间是被动关系，所以用被动语态(should) be designed。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "全文",
+     "其他命中": [
+      "虚拟语气",
+      "被动"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "047-18",
+     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "It’s a shame that their friendship finally ___ (破裂) and they became enemies.",
+     "提示词": null,
+     "答案": "fell apart",
+     "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "047-20",
+     "标签": "2022 · 东莞外国语 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "They are likely to be fired by the company because of their faults.\n___ they will be fired by the company because of their faults.",
+     "提示词": null,
+     "答案": "It ； is ； likely ； that",
+     "解析": "考查主语从句。句意：他们很可能会因为他们的错误而被公司解雇。根据题干要求，需进行同义句改写，一般现在时，分析原句和改写句，可知缺少了表语likely，此处可用that引导的主语从句，然后用it作形式主语，故填：①It，②is，③likely，④that。",
+     "句意": null,
+     "cue": [
+      "同义句改写"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "071-22",
+     "标签": "2023 · 东莞市 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "What you behave during childhood ___ (对……有影响) to what you will be when growing up.",
+     "提示词": null,
+     "答案": "makes ； a ； difference",
+     "解析": "考查固定搭配和动词时态。句意：你童年时的行为将会对你长大后的样子有影响。根据汉语提示“对……有影响”可知，此处为固定短语make a difference to，此处陈述客观事实，使用一般现在时，主语为主语从句，谓语动词使用第三人称单数形式。故填①makes；②a；③difference。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "071-25",
+     "标签": "2023 · 东莞市 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Obviously, the manager is satisfied with the guy’s arrangement.\n___ the manager is satisfied with the guy’s arrangement.",
+     "提示词": null,
+     "答案": "It ； is ； obvious ； that",
+     "解析": "考查主语从句。句意：显然，经理对这家伙的安排很满意。分析句子结构和意思可知，原句是副词obviously位于句首作状语，可以转换成it作形式主语的主语从句结构It is obvious that+句子，that引导真正的主语从句。故填It is obvious that。",
+     "句意": null,
+     "cue": [
+      "句型转换"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "071-29",
+     "标签": "2023 · 东莞市 · 高一上期中",
+     "题型": "翻译",
+     "题干": "似乎越来越多的青少年已经很沉迷于网络游戏。",
+     "提示词": null,
+     "答案": "It seems as if/that more and more teenagers have been addicted to (playing) online games.",
+     "解析": "考查表语从句和动词时态。表示“似乎”应用It seems as if/that...，as if或者that引导表语从句；表示“越来越多的青少年”应用more and more teenagers；表示“沉迷于”应用be addicted to，此处表示“已经沉迷于”，使用现在完成时，主语为复数名词，助动词用have；表示“网络游戏”应用online games，此处也可使用play online games，位于介词to后面，使用动名词。故翻译成：It seems as if/that more and more teenagers have been addicted to (playing) online games.",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语",
+      "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "101-26",
+     "标签": "2023 · 东莞外国语 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Nearly a week passed before the girl ___ (能够) explain what had happened to her.",
+     "提示词": null,
+     "答案": "was ； able ； to",
+     "解析": "考查固定短语。句意：将近一个星期过去了，女孩才能够解释发生在她身上的事。根据汉语提示可知，be able to“能够”，what引导的宾语从句用的是过去完成时，主句应用一般过去时，主语girl为名词单数，故填①was②able③to。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "136-15",
+     "标签": "2022 · 第五高中 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "___ impressed me most were the amazing waterfalls in Jiuzhaigou.",
+     "提示词": null,
+     "答案": "What",
+     "解析": "考查主语从句连接词。句意：给我留下最深印象的是九寨沟的令人惊叹的瀑布。该空需要一个连接词引导主语从句，并指代事物在从句中作主语，应填what，位于句首注意首字母大写。故填What。",
+     "句意": null,
+     "cue": [],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ]
+    },
+    {
+     "id": "136-21",
+     "标签": "2022 · 第五高中 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "The teacher highly recommended that we should make full preparations for the exams.\nIt was highly recommended that full preparations ___ for to exams.",
+     "提示词": null,
+     "答案": "should ； be ； prepared",
+     "解析": "考查谓语动词。句意：老师强烈建议我们为考试做充分的准备。分析句子结构和意思可知，原句话是that引导的宾语从句，转换之后是that引导的主语从句，从句中主语full preparations和动词make 也变成了被动关系，所以用被动结构should be prepared。故填should be prepared。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "143-19",
+     "标签": "2024 · 第四高中 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Obviously, the ability to talk is something that marks humans off from animals.\n___ the ability to talk is something that marks humans off from animals.",
+     "提示词": null,
+     "答案": "It ； is ； obvious |clear ； that",
+     "解析": "考查主语从句。句意：很明显，说话的能力是人类与动物的区别。根据题干要求进行同义句转换，原句中obviously为副词，意为“很明显”，其可以转换为固定句型it is obvious/clear that，该结构中it为形式主语，that引导的从句为真正的主语。同时该空置于句首，开头单词首字母大写。故答案为It；is；obvious/clear；that。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "144-18",
+     "标签": "2022 · 翰林 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "He seems to know everything.\n→ ___ he knows everything.",
+     "提示词": null,
+     "答案": "It ； seems ； that",
+     "解析": "考查固定句型，主语从句，时态和主谓一致。句意：他似乎无所不知。由seems可知，句子时态是一般现在时，空格处意为“似乎”，可换为固定句型It seems that...，其中It是形式主语，that从句是主语从句，位于句首的单词首字母大写，故填It，seems，that。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "it 形式主语／宾语",
+      "主谓一致"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "144-19",
+     "标签": "2022 · 翰林 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "My mother recommended me to see the film Return To The Dust.\nMy mother ___ see the film Return To The Dust.",
+     "提示词": null,
+     "答案": "recommended ； that ； I ； should",
+     "解析": "考查宾语从句和虚拟语气。句意： 我妈妈建议我去看电影《隐入尘烟》。recommend译为“建议”。原句中涉及动词短语recommend sb to do sth，表示“建议某人做某事”。可以将其改写为recommend+that从句，从句中的谓语动词用should+动词原形，其中should可以省略。由原句可知时态为一般过去时，所以填recommended。故答案为recommended； that； I； should。",
+     "句意": null,
+     "cue": [
+      "同义句改写"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "虚拟语气",
+      "时态",
+      "省略"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "161-19",
+     "标签": "2024 · 松山湖未来 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Mr. John recommends us students to read more classical novels to improve our writing skills.\n= Mr. John recommends that we students ___ more classic novels to improve our writing skills.",
+     "提示词": null,
+     "答案": "should ； read",
+     "解析": "考查宾语从句和虚拟语气。句意：约翰先生建议我们学生多读一些古典小说来提高我们的写作技巧。改为宾语从句，recommend表示“建议”，that引导的宾语从句用should do构成虚拟语气，此处动词为read。故填①should②read。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "名词性从句",
+     "主考点来源": "考查",
+     "其他命中": [
+      "虚拟语气"
      ],
      "疑似缺陷": false,
      "标记": []
     }
    ],
-   "编号": 8
+   "编号": 7
   },
   {
    "名称": "倒装",
@@ -3484,35 +3301,35 @@
     "Only + 状语句首": {
      "题数": 2,
      "题": [
-      "051-24",
-      "058-25"
+      "047-24",
+      "054-25"
      ]
     },
     "否定词句首": {
      "题数": 3,
      "题": [
-      "025-32",
-      "101-44",
-      "113-24"
+      "022-32",
+      "096-44",
+      "108-24"
      ]
     },
     "地点 / 方位状语句首全倒装": {
      "题数": 2,
      "题": [
-      "059-20",
-      "031-09"
+      "055-20",
+      "027-09"
      ]
     },
     "其他": {
      "题数": 1,
      "题": [
-      "149-21"
+      "144-21"
      ]
     }
    },
    "题": [
     {
-     "id": "025-32",
+     "id": "022-32",
      "标签": "2021 · 东华 · 高一上期中",
      "题型": "完成句子",
      "题干": "She not only achieved her dream but also set a good example for us.\nNot only ___ her dream but also she set a good example for us.",
@@ -3532,7 +3349,7 @@
      "标记": []
     },
     {
-     "id": "051-24",
+     "id": "047-24",
      "标签": "2022 · 东莞外国语 · 高一上期中",
      "题型": "翻译",
      "题干": "只有经过足够的锻炼，你才能保持健康。",
@@ -3552,7 +3369,7 @@
      "标记": []
     },
     {
-     "id": "059-20",
+     "id": "055-20",
      "标签": "2022 · 东莞实验 · 高一上期中",
      "题型": "完成句子",
      "题干": "The speaker stood in front of the students of Grade one.\nIn front of the students of Grade one ___.",
@@ -3570,7 +3387,7 @@
      "标记": []
     },
     {
-     "id": "101-44",
+     "id": "096-44",
      "标签": "2022 · 莞中松山湖 · 高一上期中",
      "题型": "翻译",
      "题干": "书法不仅是一种中国艺术形式，更是一种重要技能。",
@@ -3590,7 +3407,7 @@
      "标记": []
     },
     {
-     "id": "113-24",
+     "id": "108-24",
      "标签": "2023 · 东莞高中 · 高一上月考",
      "题型": "翻译",
      "题干": "我永远也忘记不了你对我和我的家人所表现出的善良和温暖。",
@@ -3611,7 +3428,7 @@
      "标记": []
     },
     {
-     "id": "149-21",
+     "id": "144-21",
      "标签": "2022 · 翰林 · 高一上期中",
      "题型": "完成句子",
      "题干": "They not only introduced advanced technology, but also changed their views on how to develop economy.\n___ they ___ advanced technology, but also changed their views on how to develop economy.",
@@ -3631,7 +3448,7 @@
      "标记": []
     },
     {
-     "id": "031-09",
+     "id": "027-09",
      "标签": "2024 · 东莞市 · 高一上月考",
      "题型": "语法填空",
      "题干": "On both sides of the road ___ (be) beautiful flowers now.",
@@ -3648,7 +3465,7 @@
      "标记": []
     },
     {
-     "id": "058-25",
+     "id": "054-25",
      "标签": "2022 · 东莞实验 · 高一上月考",
      "题型": "翻译",
      "题干": "只有努力学习，你才能在英语上取得大的进步。(only倒装句)",
@@ -3668,13 +3485,196 @@
      "标记": []
     }
    ],
+   "编号": 8
+  },
+  {
+   "名称": "主谓一致",
+   "讲": true,
+   "覆盖卷": 1,
+   "覆盖率": 0.05,
+   "题数": 1,
+   "候选": {
+    "本节点": 8,
+    "借用": 0,
+    "合计": 8
+   },
+   "子类": {
+    "动名词 / 不定式短语作主语": {
+     "题数": 1,
+     "题": [
+      "143-08"
+     ]
+    },
+    "固定短语 / 固定句型": {
+     "题数": 3,
+     "题": [
+      "083-24",
+      "099-28",
+      "108-18"
+     ]
+    },
+    "时间状语定时态": {
+     "题数": 4,
+     "题": [
+      "012-09",
+      "071-12",
+      "122-12",
+      "144-14"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "012-09",
+     "标签": "2020 · 东华 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
+     "提示词": "prefer",
+     "答案": "prefers",
+     "解析": "考查动词时态和主谓一致。句意：她擅长英语，并且更喜欢英语课只用英语教授。此处主语为she，为第三人称单数，and连接前后两个谓语动词，第一个为is，故此处也应为三人称单数的一般现在时，故填prefers。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "071-12",
+     "标签": "2023 · 东莞市 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "Great efforts ___ (make) so far to win the championship.",
+     "提示词": "make",
+     "答案": "have been made",
+     "解析": "考查动词时态语态和主谓一致。句意：到目前为止，为了赢得冠军已经付出了巨大的努力。根据时间状语“so far”可知，此处使用现在完成时，主语Great efforts和make为被动关系，需用被动语态，主语为复数名词，助动词用have。故填have been made。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动",
+      "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "083-24",
+     "标签": "2022 · 东华松山湖 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "Some teens would rather sit up late than go to bed early.\nSome teens ___ up late ___ to bed early.",
+     "提示词": null,
+     "答案": "prefer ； sitting ； to ； going",
+     "解析": "考查固定句型和主谓一致。句意：有些青少年宁愿熬夜也不愿早睡。分析句子句意和结构可知，原句使用了would rather do...than do...句型，其意为“宁愿做…也不愿做……”，可转换为同义句型prefer doing…to doing…，又因主语Some teens是复数名词，谓语动词也用复数形式。故填①prefer；②sitting；③to；④going。",
+     "句意": null,
+     "cue": [
+      "同义句改写"
+     ],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "099-28",
+     "标签": "2024 · 莞中松山湖 · 高一上期中",
+     "题型": "完成句子",
+     "题干": "The text mainly ___ (专注于) the relationship between EQ and IQ.",
+     "提示词": null,
+     "答案": "focuses ； on",
+     "解析": "考查固定短语，时态和主谓一致。句意：这篇文章主要关注情商和智商之间的关系。“专注于”是固定短语focus on，句子描述客观事实，时态用一般现在时，text是单数，因此focus用第三人称单数，故填focuses，on。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ]
+    },
+    {
+     "id": "108-18",
+     "标签": "2023 · 东莞高中 · 高一上月考",
+     "题型": "完成句子",
+     "题干": "Peking University, one of the topic universities in China, ___ (追溯到) the end of the Qing dynasty.",
+     "提示词": null,
+     "答案": "dates back to",
+     "解析": "考查动词短语、时态和主谓一致。句意：北京大学是中国的名牌大学之一，其历史可以追溯到清末。根据汉语意思提示可知，此处为动词短语date back to“追溯到”，满足句意要求，结合句意可知，该句为陈述客观事实，为一般现在时，主语Peking University为单数名词，所以为动词三单形式。故填dates back to。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "122-12",
+     "标签": "2023 · 东莞市 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "The train ___ (schedule) to arrive at 10:15 am, but it’s running ten minutes late.",
+     "提示词": "schedule",
+     "答案": "is scheduled",
+     "解析": "考查时态语态和主谓一致。句意：火车定于上午10点15分到达，但是晚点了10分钟。提示词schedule(为……安排时间；预定)是谓语动词，与主语The train之间是被动关系，描述一般性事实，用一般现在时态，主语是单数名词，助动词用is。故填is scheduled。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "143-08",
+     "标签": "2024 · 第四高中 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "Spending too much time online ___ (be) unhealthy to us.",
+     "提示词": "be",
+     "答案": "is",
+     "解析": "考查动词时态和主谓一致。句意：花太多时间上网对我们来说是不健康的。句子表述客观事实，故使用一般现在时。主语是动名词短语Spending too much time online，谓语动词需要用第三人称单数形式。故填is。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    },
+    {
+     "id": "144-14",
+     "标签": "2022 · 翰林 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "Last weekend, people who lived nearby ___ (invite) to check the bridge out.",
+     "提示词": "invite",
+     "答案": "were invited",
+     "解析": "考查主谓一致和语态。句意：上周末，住在附近的人们被邀请来参观这座桥。根据Last weekend可知时态是一般过去时，分析句子可知，who引导定语从句who lived nearby，先行词是主句的主语people，指人，此处是主句的谓语，因此要用动词的复数形式，且由people和invite之间是动宾关系，因此要用被动语态。故填were invited。",
+     "句意": null,
+     "cue": [],
+     "主考点": "主谓一致",
+     "主考点来源": "考查",
+     "其他命中": [
+      "定语从句",
+      "被动",
+      "时态"
+     ],
+     "疑似缺陷": false,
+     "标记": []
+    }
+   ],
    "编号": 9
   }
  ],
  "统计": {
   "节点文件数": 22,
-  "原始行数": 471,
-  "单选其他": 1,
+  "原始行数": 470,
+  "单选其他": 0,
   "疑似非单句": 22,
   "去重后题数": 402,
   "重复组去掉": 46,
