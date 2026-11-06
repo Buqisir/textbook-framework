@@ -1,0 +1,1410 @@
+{
+ "data_no": "10",
+ "unit_book": "段考专题　高二上",
+ "h2": "期中",
+ "stats": [
+  {
+   "b": "12",
+   "post": "套试卷"
+  },
+  {
+   "b": "6",
+   "post": "个专题"
+  },
+  {
+   "b": "79",
+   "post": "道题"
+  }
+ ],
+ "overview": {
+  "title": "考情总览",
+  "chip": "2018–2025 · 东莞真题",
+  "lead": "每格代表 10% 的试卷。",
+  "rows": [
+   {
+    "name": "非谓语",
+    "cov": 0.92,
+    "n": 48,
+    "book": "",
+    "ahead": false,
+    "go": "专题 1",
+    "skip": false
+   },
+   {
+    "name": "名词性从句",
+    "cov": 0.92,
+    "n": 26,
+    "book": "",
+    "ahead": false,
+    "go": "专题 2",
+    "skip": false
+   },
+   {
+    "name": "it 形式主宾语",
+    "cov": 0.67,
+    "n": 12,
+    "book": "",
+    "ahead": false,
+    "go": "专题 3",
+    "skip": false
+   },
+   {
+    "name": "定语从句",
+    "cov": 0.67,
+    "n": 12,
+    "book": "",
+    "ahead": false,
+    "go": "专题 4",
+    "skip": false
+   },
+   {
+    "name": "状语从句",
+    "cov": 0.5,
+    "n": 12,
+    "book": "",
+    "ahead": false,
+    "go": "专题 5",
+    "skip": false
+   },
+   {
+    "name": "倒装",
+    "cov": 0.33,
+    "n": 4,
+    "book": "",
+    "ahead": false,
+    "go": "专题 6",
+    "skip": false
+   }
+  ],
+  "after": ""
+ },
+ "topics": [
+  {
+   "no": 1,
+   "name": "非谓语",
+   "vols": 12,
+   "cov": 11,
+   "n": 48,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作定语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "名词是动作的承受者",
+      "用过去分词或 to be done"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "非谓语作定语，修饰前面的名词，相当于一个定语从句。判断时看名词与动作的关系：主动用现在分词或 to do，被动用过去分词或 to be done，如 a plan to be discussed（有待讨论的计划）。"
+    },
+    {
+     "type": "p",
+     "text": "过去分词作后置定语时常带介词短语，如 the team composed of five people（由五人组成的队）。be composed of 与 consist of 都表示「由……组成」，其中 consist of 不用于被动。"
+    },
+    {
+     "type": "subhead",
+     "text": "作状语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "分词作状语",
+      "逻辑主语是句子主语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Surprised by the news, he stood still（听到这个消息，他呆住了）。"
+    },
+    {
+     "type": "p",
+     "text": "否定的分词短语把 not 放在分词之前，如 Not knowing the answer, I kept silent（因为不知道答案，我保持沉默）。"
+    },
+    {
+     "type": "p",
+     "text": "分词短语作状语可以改写为时间或原因从句，改写时要看清主语与时态，如 Hearing the news 可改为 When he heard the news。"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾语与搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "介词后接 doing",
+      "固定搭配记整体"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "介词后面的动词用 doing，如 prior to doing（在……之前）、by doing（通过做……）、for doing（因为做……）。to 作介词时，后接 doing，如 look forward to doing。"
+    },
+    {
+     "type": "p",
+     "text": "spend 时间 doing 表示「花时间做……」，commit oneself to doing 表示「致力于做……」，get involved in 与 keep in touch with 都是固定搭配，要整体记住。"
+    },
+    {
+     "type": "pattern",
+     "text": "spend time doing  |  commit oneself to doing  |  prior to doing"
+    },
+    {
+     "type": "subhead",
+     "text": "不定式搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "形容词后接不定式",
+      "want、convince 后接"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "形容词后接不定式说明动作的范围，如 be easy to do、be hard to settle，不定式用主动形式表示被动意义，逻辑主语是句子主语。"
+    },
+    {
+     "type": "p",
+     "text": "be to blame for 表示「应对……负责」，不定式形式是 to blame。want to、manage to 之后接动词原形；convince sb. to do 中，不定式作宾补。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首的动名词",
+      "谓语用单数"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动名词或动名词短语作主语时，谓语用单数，如 Reading aloud helps improve pronunciation（大声朗读有助于改善发音）。"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾补"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "宾语是动作的承受者",
+      "宾补用 done"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "have sth done 表示「让某物被做」或「遭遇某事」，宾补用过去分词，如 had my watch stolen（我的表被偷了）。find oneself、find sb. 之后，若宾语与宾补是被动关系，宾补也用过去分词。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "作定语",
+     "gloss": [
+      "作后置定语",
+      "composed of 由……组成"
+     ],
+     "stem": {
+      "text": "He declined to join the team ___ (compose) of five people.",
+      "cue": [],
+      "src": "2023 · 东莞外国语学校 · 高二上期中"
+     },
+     "ju": "他拒绝加入由五人组成的那支队伍。",
+     "mid": {
+      "label": "判断",
+      "text": "team 与 compose 是被动关系，空格作后置定语修饰 team，用过去分词。句中已有谓语 declined，空格不能填谓语。"
+     },
+     "ans": "composed"
+    },
+    {
+     "group": "作状语",
+     "gloss": [
+      "分词作状语",
+      "seeds 与 grow 被动"
+     ],
+     "stem": {
+      "text": "___ (grow)in rich soil, these seeds can grow fast.",
+      "cue": [],
+      "src": "2022 · 东莞第四高级中学 · 高二上期中"
+     },
+     "ju": "这些种子生长在肥沃的土壤里，所以能快速生长。",
+     "mid": {
+      "label": "成分",
+      "text": "句首分词短语作状语，逻辑主语 these seeds 与 grow 是被动关系，用过去分词。"
+     },
+     "ans": "Grown"
+    },
+    {
+     "group": "作状语",
+     "gloss": [
+      "分词作状语",
+      "not 放分词前"
+     ],
+     "stem": {
+      "text": "Because he didn’t know Chinese, he couldn’t understand what I said.",
+      "cue": [
+       "用分词作状语改写"
+      ],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "他不懂中文，所以听不懂我说的话。",
+     "mid": {
+      "label": "成分",
+      "text": "Not knowing Chinese 作原因状语，逻辑主语 he 与 know 是主动关系，用现在分词，not 放在分词之前。"
+     },
+     "ans": "Not knowing Chinese, he couldn’t understand what I said."
+    },
+    {
+     "group": "作宾语与搭配",
+     "gloss": [
+      "look forward to 后",
+      "接 doing 形式"
+     ],
+     "stem": {
+      "text": "Jacob, who is 6 years old, is looking forward to ___ (take) to the Great Wall.",
+      "cue": [],
+      "src": "2024 · 万江中学 · 高二上期中"
+     },
+     "ju": "今年六岁的 Jacob 盼着被带去长城。",
+     "mid": {
+      "label": "判断",
+      "text": "look forward to 中的 to 是介词，后接动名词。Jacob 与 take 是被动关系，所以用 being taken。"
+     },
+     "ans": "being taken"
+    },
+    {
+     "group": "不定式搭配",
+     "gloss": [
+      "形容词后接不定式",
+      "主动形式表被动"
+     ],
+     "stem": {
+      "text": "The Heimlich manoeuvre is quite easy ___ (do).",
+      "cue": [],
+      "src": "2023 · 东莞外国语学校 · 高二上期中"
+     },
+     "ju": "海姆立克急救法很容易操作。",
+     "mid": {
+      "label": "成分",
+      "text": "easy 是形容词，后接不定式说明范围。do 的逻辑主语是 the Heimlich manoeuvre，用主动形式表示被动意义。"
+     },
+     "ans": "to do"
+    },
+    {
+     "group": "不定式搭配",
+     "gloss": [
+      "be to blame for",
+      "表示应对……负责"
+     ],
+     "stem": {
+      "text": "You shouldn’t blame this accident on him,on the contrary you are ___ (负责任）for it.",
+      "cue": [],
+      "src": "2023 · 东莞第四高级中学 · 高二上期中"
+     },
+     "ju": "你不该把这次事故归咎于他，相反，你应该为此负责。",
+     "mid": {
+      "label": "成分",
+      "text": "are 之后的 to blame 作表语，be to blame for 表示「应对……负责」，不定式形式是 to blame。"
+     },
+     "ans": "to blame"
+    },
+    {
+     "group": "作宾补",
+     "gloss": [
+      "have 之后",
+      "宾补用过去分词"
+     ],
+     "stem": {
+      "text": "On the way home, my car broke down, so I had to have it ___ (repair).",
+      "cue": [],
+      "src": "2023 · 翰林高级中学 · 高二上期中"
+     },
+     "ju": "回家的路上，我的车坏了，只好送去修理。",
+     "mid": {
+      "label": "判断",
+      "text": "have 之后 it 是宾语，repair 与 it 是被动关系，用过去分词作宾补，即 have sth done。"
+     },
+     "ans": "repaired"
+    }
+   ],
+   "keypoint": "空前的词决定形式：介词之后，以及 prior to、look forward to 之后，用 doing；want to、be to blame 之后用动词原形。与逻辑主语是被动关系时用过去分词，have sth done 表示被做。",
+   "drill": [
+    {
+     "stem": "Zhan Tianyou, now ___ (know) as the Father of China’s Railroad, served his country for 31 years, improving life for millions of people.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "known",
+     "why": "known as 为过去分词短语",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "The speaker, ___ (interrupt) rudely by the audience during his speech, felt a little embarrassed.",
+     "cue": [],
+     "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
+     "ans": "interrupted",
+     "why": "speaker 被打断，用过去分词",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "The victim ___ (suffer) from second or third-degree burns should be sent to the nearby hospital without any delay.",
+     "cue": [],
+     "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
+     "ans": "suffering",
+     "why": "victim 主动遭受，用现在分词",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "As nobody here knows what is wrong with the old man, we must send for a doctor ___ (handle) the problem.",
+     "cue": [],
+     "src": "2023 · 东莞第四高级中学 · 高二上期中",
+     "ans": "to handle",
+     "why": "doctor 去处理，不定式作定语",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "His first book ___ (publish) next month is based on a true story.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "to be published",
+     "why": "将来被动，用 to be done",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "Because I didn’t know his telephone number, I had to refer to the phonebook.",
+     "cue": [
+      "改为用现在分词做状语"
+     ],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "Not knowing his telephone number, I had to refer to the phonebook.",
+     "why": "not 放分词前表示否定",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "The Great Wall was originally built in the Western Zhou period ___ (defend) against the attack of the enemies.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "to defend",
+     "why": "to defend 表目的，不定式作状语",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "When he heard the news, he couldn't help laughing.",
+     "cue": [
+      "改为分词作状语",
+      "英译汉"
+     ],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "Hearing the news, he couldn’t help laughing.",
+     "why": "he 听到消息，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "They did not know where to start their sightseeing in China, so they went to the Tourist Information Centre.\n___ where to start their sightseeing in China, they went to the Tourist Information Centre.",
+     "cue": [
+      "使用非谓语改写句子"
+     ],
+     "src": "2022 · 丰泰外国语、七中、清溪、塘厦 · 高二上期中",
+     "ans": "Not knowing",
+     "why": "not 放分词前，作原因状语",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "The soil was washed away by the flood, ___ (expose) bare rock.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "exposing",
+     "why": "洪水冲刷，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (不能忍受) the noise downtown, he decided to move to live in the suburb.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "Not tolerating",
+     "why": "he 不能忍受，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "One of the good ways to love parents is to ___ them. (和他们保持联系)",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "keep/stay in touch with",
+     "why": "keep in touch 固定搭配",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "Yang Shanzhou, who started to plant trees after his retirement in 1988, committed himself to ___ (transform) the landscape of Daliang Mountain.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "transforming",
+     "why": "commit to 的 to 是介词",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "He spent the evening ___ (wrap) up the Christmas presents.",
+     "cue": [],
+     "src": "2023 · 东莞外国语学校 · 高二上期中",
+     "ans": "wrapping",
+     "why": "spend 时间 doing",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "David began his lecture by ___ (cite) a poem by Robert Frost.",
+     "cue": [],
+     "src": "2023 · 东莞第四高级中学 · 高二上期中",
+     "ans": "citing",
+     "why": "by 作介词，后接 doing",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "He spent the evening ___ (wrap) up the New Year presents.",
+     "cue": [],
+     "src": "2023 · 东莞外国语学校 · 高二上期中",
+     "ans": "wrapping",
+     "why": "spend 时间 doing",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "Prior ___ coming to China, I have travelled to many places of interest.",
+     "cue": [],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "to",
+     "why": "prior to 后接 doing",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "一个足球运动员被指控因为故意不进球拿了钱。",
+     "cue": [
+      "默写，必须与课文原句一致"
+     ],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "A footballer was accused of taking money for deliberately not scoring goals.",
+     "why": "for 作介词，后接 doing",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "I have managed to convince myself ___ (overcome) my fear of failure and try my best.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "to overcome",
+     "why": "convince 后 to 作宾补",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "No one wants to ___ (参与，卷入)the war.",
+     "cue": [],
+     "src": "2023 · 东莞第四高级中学 · 高二上期中",
+     "ans": "get involved in / be engaged in",
+     "why": "engaged in 也表参与",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "Those who spread the disease are ___ (blame).",
+     "cue": [],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "to blame",
+     "why": "be to blame 表示应受责备",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "I don’t want to ___ (参与，卷入) the meaningless argument.",
+     "cue": [],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "get involved in",
+     "why": "want to 后接动词原形",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (combine) pleasure with education is a crucial way to improve our teaching efficiency.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "Combining",
+     "why": "动名词短语作主语，谓语用单数",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (motivate) students to learn is a teacher’s top responsibility.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "Motivating",
+     "why": "主动关系，动名词作主语",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "Much to our horror, we found ourselves ___ (catch) in the heaviest snowfall we had ever encountered.",
+     "cue": [],
+     "src": "2024 · 万江中学 · 高二上期中",
+     "ans": "caught",
+     "why": "find 宾补用过去分词",
+     "group": "作宾补",
+     "level": "必练"
+    },
+    {
+     "stem": "Unfortunately, I had my watch ___ (steal) last night.",
+     "cue": [],
+     "src": "2022 · 丰泰外国语、七中、清溪、塘厦 · 高二上期中",
+     "ans": "stolen",
+     "why": "have sth done 表遭遇",
+     "group": "作宾补",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "名词性从句",
+   "vols": 12,
+   "cov": 11,
+   "n": 26,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "主语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首作主语",
+      "缺成分用 what"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that，如 What we need most is time（我们最需要的是时间）。"
+    },
+    {
+     "type": "p",
+     "text": "句首主语从句较长时，常用 It 作形式主语，真正的主语 that 从句移到句末，如 It depressed me that the team lost the match（球队输了这场比赛，让我很沮丧）。"
+    },
+    {
+     "type": "pattern",
+     "text": "It seemed that……  |  What……is that……"
+    },
+    {
+     "type": "subhead",
+     "text": "表语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "系动词后作表语",
+      "表示是否用 whether"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "表语从句位于 is、was 等系动词之后，说明主语是什么。表示「是否」用 whether，如 The problem is whether the bus will arrive on time。"
+    },
+    {
+     "type": "p",
+     "text": "The reason why……is that……是常见的表语从句句型，表示原因。is 后接 when、where 引导的从句，表示时间或地点，如 Spring is when flowers bloom。"
+    },
+    {
+     "type": "subhead",
+     "text": "宾语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "动词、介词后",
+      "表示是否用 whether"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动词后的宾语从句，表示「是否」时用 whether 或 if，缺成分时用 what、how 等，如 tell how close you may be to victory（告诉你离胜利有多近）。"
+    },
+    {
+     "type": "p",
+     "text": "介词后的宾语从句只用 whether 或 what，不用 that，如 debate over whether（就……是否……进行争论）。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "主语从句",
+     "gloss": [
+      "主语从句",
+      "缺宾语用 what"
+     ],
+     "stem": {
+      "text": "___ we are supposed to do is to spare no effort to preserve our cultural heritages.",
+      "cue": [],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "我们应该做的，是尽一切努力保护文化遗产。",
+     "mid": {
+      "label": "成分",
+      "text": "句首是主语从句，从句中 are supposed to do 缺宾语，用 what。"
+     },
+     "ans": "What"
+    },
+    {
+     "group": "主语从句",
+     "gloss": [
+      "It 作形式主语",
+      "that 从句是真正主语"
+     ],
+     "stem": {
+      "text": "___ depressed the doctor a lot that no one knew how to prevent or treat the disease.",
+      "cue": [],
+      "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中"
+     },
+     "ju": "人们对这种疾病无法预防也无法治疗，这让医生非常沮丧。",
+     "mid": {
+      "label": "判断",
+      "text": "句首 It 是形式主语，that 从句才是真正的主语，depressed 是及物动词。"
+     },
+     "ans": "It"
+    },
+    {
+     "group": "表语从句",
+     "gloss": [
+      "系动词 is 后",
+      "表示是否用 whether"
+     ],
+     "stem": {
+      "text": "The problem is ___ you can arrive at the airport in time or not.",
+      "cue": [],
+      "src": "2023 · 东莞第四高级中学 · 高二上期中"
+     },
+     "ju": "问题在于你能否按时到达机场。",
+     "mid": {
+      "label": "成分",
+      "text": "is 后接表语从句，表示「是否」，用 whether。"
+     },
+     "ans": "whether"
+    },
+    {
+     "group": "宾语从句",
+     "gloss": [
+      "介词 on 后",
+      "表示是否用 whether"
+     ],
+     "stem": {
+      "text": "Mobile phones have changed the way we communicate, but people hold different opinions on ___ they are useful tools for education.",
+      "cue": [],
+      "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中"
+     },
+     "ju": "人们对手机能否用于教育，看法并不一致。",
+     "mid": {
+      "label": "成分",
+      "text": "opinions on 是介词短语，介词后的从句用 whether，不用 that。"
+     },
+     "ans": "whether"
+    }
+   ],
+   "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语，动词或介词后作宾语。表示是否用 whether，缺成分用 what、how 等，成分齐全用 that。",
+   "drill": [
+    {
+     "stem": "The woman seemed to like the water from the pump so much that she had it delivered to her house every day.\n___ the woman liked the water from the pump so much that she had it delivered to her house every day.",
+     "cue": [
+      "同义句"
+     ],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "It seemed that",
+     "why": "It 作形式主语，that 为真正主语",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "让我印象最深的是他总是致力于帮助别人。",
+     "cue": [
+      "用主语从句翻译"
+     ],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "What impresses me most is that he is always committed to helping others.",
+     "why": "What 作主语，that 引导表语从句",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "___ is so breathtaking about the experience is the out-of-this-world scenes.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "What",
+     "why": "What 缺主语，作主语从句",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "To his astonishment, his answer should have caused so strong a reaction.\n___ made him ___ was that his answer should have caused so strong a reaction.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "What, astonished",
+     "why": "What 作主语，宾补",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "My hometown is no longer ___ it used to be.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "what",
+     "why": "what 作表语，指以前的样子",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "科学家们之所以重视环境保护，是因为环境对人类的生存至关重要。",
+     "cue": [
+      "用表语从句"
+     ],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "The reason why scientists attach importance to environmental protection is that the environment is crucial to human survival.",
+     "why": "表示原因的表语从句",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "体育节之所以成功，是因为每个班都在努力训练为这次盛会做准备。",
+     "cue": [
+      "用名词性从句翻译"
+     ],
+     "src": "2023 · 东莞外国语学校 · 高二上期中",
+     "ans": "What made the Sports Meet successful was that every class had been training hard in preparation for the big event.",
+     "why": "What 作主语，that 引导表语从句",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "As is well known to all,the Spring Festival is ___ the family are reunited and celebrate the new year.",
+     "cue": [],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "when",
+     "why": "when 引导表语从句，表示时间",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "A number of accidents involving elderly drivers have sparked debate over ___ seniors should continue to drive or not.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "whether",
+     "why": "介词后用 whether 表是否",
+     "group": "宾语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Do not let any failures discourage you, for you can never tell ___ close you may be to victory.",
+     "cue": [],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "how",
+     "why": "tell how 表示「多么」",
+     "group": "宾语从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "it 形式主宾语",
+   "vols": 12,
+   "cov": 8,
+   "n": 12,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "形式宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "find、think 后",
+      "宾语是不定式或从句"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "find、consider、think、make 等动词后，若真正的宾语是不定式或从句，且宾语后带形容词或名词作宾补，就用 it 作形式宾语，真正的宾语放在宾补之后，如 I consider it important to keep fit（我认为保持健康很重要）。"
+    },
+    {
+     "type": "p",
+     "text": "consider it her duty to do 是常见句型，it 是形式宾语，her duty 作宾补，不定式 to do 是真正的宾语。"
+    },
+    {
+     "type": "pattern",
+     "text": "find / make / consider it adj. to do"
+    },
+    {
+     "type": "subhead",
+     "text": "形式主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "It 作形式主语",
+      "真正主语后置"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "句子主语是从句或不定式，且较长时，用 it 作形式主语，真正的主语放在句末，如 It is assumed that……、It was thought that……。"
+    },
+    {
+     "type": "p",
+     "text": "It is likely that…… 可改写为 sb. is likely to do，这类完成句子考的是两种句型的转换，主语和谓语要随句型调整。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "形式宾语",
+     "gloss": [
+      "find 后",
+      "it 作形式宾语"
+     ],
+     "stem": {
+      "text": "I find ___ absolutely astonishing that you didn’t like it.",
+      "cue": [],
+      "src": "2023 · 东莞外国语学校 · 高二上期中"
+     },
+     "ju": "你不喜欢它，我觉得这太令人吃惊了。",
+     "mid": {
+      "label": "成分",
+      "text": "find 之后 it 是形式宾语，真正的宾语是后面的 that 从句，absolutely astonishing 是宾补。"
+     },
+     "ans": "it"
+    },
+    {
+     "group": "形式宾语",
+     "gloss": [
+      "think 后",
+      "it 作形式宾语"
+     ],
+     "stem": {
+      "text": "I don’t think ___ possible to master a foreign language without much memory work.",
+      "cue": [],
+      "src": "2022 · 丰泰外国语、七中、清溪、塘厦 · 高二上期中"
+     },
+     "ju": "我认为不花大量时间记忆，就不可能掌握一门外语。",
+     "mid": {
+      "label": "成分",
+      "text": "don’t think 之后 it 是形式宾语，possible 是宾补，真正的宾语是后面的不定式 to master。"
+     },
+     "ans": "it"
+    },
+    {
+     "group": "形式主语",
+     "gloss": [
+      "It is assumed that",
+      "形式主语"
+     ],
+     "stem": {
+      "text": "People assume that economic development and environmental protection are equally important.\n___ economic development and environmental protection are equally important.",
+      "cue": [
+       "同义转换"
+      ],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "人们认为经济发展与环境保护同样重要。",
+     "mid": {
+      "label": "判断",
+      "text": "句首 It 是形式主语，that 从句是真正的主语，is assumed 为被动句型。"
+     },
+     "ans": "It is assumed that"
+    }
+   ],
+   "keypoint": "find、make、consider 之后有 it 加宾补，真正的宾语在后面，it 是形式宾语。句首 it 后接 be 加形容词，或 It is assumed 之类的被动句型，句末是从句或不定式时，it 是形式主语。",
+   "drill": [
+    {
+     "stem": "Farmers consider ___ helpful to use organic farming techniques to protect the soil quality.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "it",
+     "why": "consider it 作形式宾语",
+     "group": "形式宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "I thought ___ a privilege to have access to quality education and opportunities for personal growth.",
+     "cue": [],
+     "src": "2024 · 万江中学 · 高二上期中",
+     "ans": "it",
+     "why": "thought 后用 it 作形式宾语",
+     "group": "形式宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "As a Chinese, she considers that it is her duty to display the best aspect of the country.\nAs a Chinese, she considers ___ to display the best aspect of the country.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "it her duty",
+     "why": "consider it 宾补 to do",
+     "group": "形式宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "The video filmed by my mom was thought to be amusing, making me widely known in the town.\n___ the video filmed by my mom was amusing, making me widely known in the town.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2024 · 万江中学 · 高二上期中",
+     "ans": "It was thought that",
+     "why": "thought that 被动句型",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "It is likely that he will be late for school.\nHe ___ late for school.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2022 · 丰泰外国语、七中、清溪、塘厦 · 高二上期中",
+     "ans": "is likely to be",
+     "why": "is likely to be 句型转换",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "你来自哪里对于我来说没有什么影响。\n___ where you come from.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "It doesn't matter",
+     "why": "It doesn’t matter 句型",
+     "group": "形式主语",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "定语从句",
+   "vols": 12,
+   "cov": 8,
+   "n": 12,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "非限制性从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "逗号后补充说明",
+      "不用 that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "非限制性定语从句与先行词之间有逗号，对先行词补充说明，关系词不能用 that，也不能省略。先行词是人时用 who、whom，是物时用 which。"
+    },
+    {
+     "type": "p",
+     "text": "most of whom、some of which 等「介词 of 加关系代词」结构中，关系代词不能省略，如 most of whom are family members（其中大多数是家人）。"
+    },
+    {
+     "type": "pattern",
+     "text": "……, who……  |  ……, most of whom……"
+    },
+    {
+     "type": "subhead",
+     "text": "关系副词"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "先行词指地点、时间",
+      "在从句中作状语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "关系副词 where、when、why 在从句中作状语。先行词是地点时用 where，是时间时用 when，是原因时用 why。"
+    },
+    {
+     "type": "p",
+     "text": "关系副词可以用「介词加 which」替换，如 the year when 等于 the year in which，但在考题中多用关系副词。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "非限制性从句",
+     "gloss": [
+      "逗号后补充说明",
+      "most of whom"
+     ],
+     "stem": {
+      "text": "John invited about 40 people to his wedding, most of ___ are family members.",
+      "cue": [],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "约翰的婚礼上请了大约四十人，其中大多数是他的家人。",
+     "mid": {
+      "label": "成分",
+      "text": "most of 后接关系代词，先行词 people 指人，用 whom，在从句中作 of 的宾语。"
+     },
+     "ans": "whom"
+    },
+    {
+     "group": "关系副词",
+     "gloss": [
+      "先行词指地点",
+      "在从句中作状语"
+     ],
+     "stem": {
+      "text": "Eliandro Libania, a Brazilian judo (柔道) black belt coach, has found a unique bond with Beijing, ___ he has lived for the past five years.",
+      "cue": [],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "他在北京生活了过去五年，与这座城市建立了独特的联系。",
+     "mid": {
+      "label": "判断",
+      "text": "先行词 Beijing 指地点，从句 he has lived 中 live 是不及物动词，地点状语用 where。"
+     },
+     "ans": "where"
+    }
+   ],
+   "keypoint": "关系词在从句中作什么成分决定用哪一个：作主语、宾语用 who、whom、which；作状语用 when、where、why。逗号后的非限制性从句不能用 that。",
+   "drill": [
+    {
+     "stem": "78-year-old Mr Metzger explained that the exhibit, ___ he said was a copy of similar work he had created in 1960, was meant to show that all art is temporary and finite.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "which",
+     "why": "非限制性，which 作 was 的主语",
+     "group": "非限制性从句",
+     "level": "必练"
+    },
+    {
+     "stem": "\"Painting is my favorite hobby but I like football as well,\" says Kieron, ___ (他如此专注于) in painting that he is drawing from getting up to going to school.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "who is so absorbed in",
+     "why": "非限制性，who 指人作主语",
+     "group": "非限制性从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Millions of people died in the early 19th century, ___ an outbreak of cholera hit Europe.",
+     "cue": [],
+     "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
+     "ans": "when",
+     "why": "先行词是时间，用关系副词 when",
+     "group": "关系副词",
+     "level": "必练"
+    },
+    {
+     "stem": "They went through two wheat-growing provinces, ___ they saw a bunch of farms.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "where",
+     "why": "先行词是地点，用关系副词 where",
+     "group": "关系副词",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "name": "状语从句",
+   "vols": 12,
+   "cov": 6,
+   "n": 12,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "条件从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "unless 相当于 if……not",
+      "if necessary 为固定省略"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "unless 引导条件状语从句，相当于 if……not，如 unless it rains（除非下雨）。unless 与 if……not 的意思相同，二者不能同时出现在同一句中。"
+    },
+    {
+     "type": "p",
+     "text": "if necessary、if possible 是固定的省略形式，从句中的 it is 省略，只留形容词。"
+    },
+    {
+     "type": "subhead",
+     "text": "从句省略"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "从句与主句主语一致",
+      "省略从句主语和 be"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "状语从句的主语与主句主语一致，或从句主语为 it 时，可省略从句主语和 be，保留分词或形容词，如 If exposed to the sun（如果暴露在阳光下）。"
+    },
+    {
+     "type": "p",
+     "text": "When left alone 同理，省略 he was，保留过去分词作状语。"
+    },
+    {
+     "type": "subhead",
+     "text": "时间从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "hardly……when",
+      "主句倒装"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "hardly、no sooner 与 when、than 连用，表示「刚一……就……」，主句要倒装。"
+    },
+    {
+     "type": "subhead",
+     "text": "让步与对比"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "though、although 表让步",
+      "while 表示对比"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "though、although 引导让步从句，表示「虽然」；while 除表示「当……时」外，还可表示对比，如 while another was displayed at auction（而另一幅在拍卖会上展出）。"
+    },
+    {
+     "type": "subhead",
+     "text": "结果从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "so……that",
+      "such……that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "so 后接形容词或副词，such 后接 a 或 an，再接形容词和可数名词单数，两者都引导结果从句。改写时注意 such 不能直接接形容词。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "条件从句",
+     "gloss": [
+      "unless 表示「除非」",
+      "相当于 if……not"
+     ],
+     "stem": {
+      "text": "We won’t get there as scheduled ___ we get everything done today.",
+      "cue": [],
+      "src": "2024 · 万江中学 · 高二上期中"
+     },
+     "ju": "除非今天把所有事情做完，否则我们不能按计划到达那里。",
+     "mid": {
+      "label": "成分",
+      "text": "unless 引导条件状语从句，相当于 if……not，空格填 unless。"
+     },
+     "ans": "unless"
+    }
+   ],
+   "keypoint": "unless 表条件，though 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词或形容词」。",
+   "drill": [
+    {
+     "stem": "You can take urgent measures to avoid further injuries if it is necessary.\nYou can take urgent measures to avoid further injuries ___.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2023 · 翰林高级中学 · 高二上期中",
+     "ans": "if necessary",
+     "why": "if 从句省略 it is",
+     "group": "条件从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Remove clothing using scissors if necessary ___ it is stuck to the burn.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "unless",
+     "why": "unless 相当于 if……not",
+     "group": "条件从句",
+     "level": "必练"
+    },
+    {
+     "stem": "If ___ (expose) to extreme heat, the plastic material may melt.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "exposed",
+     "why": "if 从句省略 be，留 exposed",
+     "group": "从句省略",
+     "level": "必练"
+    },
+    {
+     "stem": "昨晚，当汤姆被独自留在黑暗中时， 他感到恐惧和无助。",
+     "cue": [
+      "用状语从句的省略结构翻译句子"
+     ],
+     "src": "2024 · 万江中学 · 高二上期中",
+     "ans": "When left alone in the dark last night, Tom felt frightened and helpless.",
+     "why": "从句省略 he was，留 left",
+     "group": "从句省略",
+     "level": "必练"
+    },
+    {
+     "stem": "这个女孩子一看到医生就哭了。",
+     "cue": [
+      "用倒装句翻译"
+     ],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "Hardly had the girl seen the doctor when she cried.",
+     "why": "hardly……when 连用，主句倒装",
+     "group": "时间从句",
+     "level": "必练"
+    },
+    {
+     "stem": "___ he was refused by the host, he insisted on entering the room.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高二上期中",
+     "ans": "Though / Although / While",
+     "why": "三者均可表示让步",
+     "group": "让步与对比",
+     "level": "必练"
+    },
+    {
+     "stem": "One of the other paintings is at the Metropolitan Museum of Art in New York, ___ another was displayed at auction in 1992.",
+     "cue": [],
+     "src": "2018 · 虎门外国语学校 · 高二上期中",
+     "ans": "while",
+     "why": "while 表对比",
+     "group": "让步与对比",
+     "level": "必练"
+    },
+    {
+     "stem": "The Women basketball match between China and Japan was so close that all the audience were holding their breath from the beginning to the end.\nIt was ___ a close women basketball match between China and Japan ___ all the audience were holding their breath from the beginning to the end.",
+     "cue": [
+      "同义转换"
+     ],
+     "src": "2023 · 东莞第四高级中学 · 高二上期中",
+     "ans": "such ... that",
+     "why": "so……that 改为 such",
+     "group": "结果从句",
+     "level": "必练"
+    },
+    {
+     "stem": "She is such an elegant lady that we all like her.\nThe lady is ___ elegant ___ we all like her.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "so ... that",
+     "why": "such 改为 so 加形容词",
+     "group": "结果从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "name": "倒装",
+   "vols": 12,
+   "cov": 4,
+   "n": 4,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "否定词句首"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "not until、no sooner",
+      "主句部分倒装"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "not until、no sooner、hardly 等否定词放在句首，主句要部分倒装。谓语是 be、情态动词或助动词时，把它们提到主语前；谓语是实义动词时，借助 do、does、did。"
+    },
+    {
+     "type": "p",
+     "text": "no sooner had……than…… 表示「一……就……」，主句用过去完成时并倒装，如 No sooner had he left than it rained（他刚走，天就下了）。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "否定词句首",
+     "gloss": [
+      "not until 在句首",
+      "主句部分倒装"
+     ],
+     "stem": {
+      "text": "He didn’t realise his fatal mistake until the next day.",
+      "cue": [
+       "改为倒装句"
+      ],
+      "src": "2024 · 东莞市 · 高二上期中"
+     },
+     "ju": "直到第二天，他才意识到自己犯了致命的错误。",
+     "mid": {
+      "label": "成分",
+      "text": "句首 Not until 引导时间状语，主句谓语 realise 是实义动词，倒装时借助 did 提到主语前。"
+     },
+     "ans": "Not until the next day did he realise his fatal mistake."
+    }
+   ],
+   "keypoint": "否定词或否定意义的短语放在句首，其后的主句要倒装。谓语是 be、情态动词或助动词时，把它们提到主语前；谓语是实义动词时，借助 do、does、did。",
+   "drill": [
+    {
+     "stem": "我一到家就开始下雨了。",
+     "cue": [
+      "No sooner… than过去完成时的倒装句"
+     ],
+     "src": "2022 · 东莞第四高级中学 · 高二上期中",
+     "ans": "No sooner had I got home than it began to rain.",
+     "why": "No sooner……than 倒装",
+     "group": "否定词句首",
+     "level": "必练"
+    },
+    {
+     "stem": "直到我做了我们班班长，我才意识到团队合作的重要性。",
+     "cue": [
+      "翻译成倒装句"
+     ],
+     "src": "2022 · 丰泰外国语、七中、清溪、塘厦 · 高二上期中",
+     "ans": "Not until I was chosen monitor of the class did I realize the importance of teamwork.",
+     "why": "Not until 倒装 did I",
+     "group": "否定词句首",
+     "level": "必练"
+    }
+   ]
+  }
+ ]
+}
