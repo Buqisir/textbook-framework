@@ -1,7 +1,7 @@
-# 东莞本地化 · 交接（2026-11-06 晚更新：通读核实完、修改清单待执行）
+# 东莞本地化 · 交接（2026-11-06 夜更新：通读清单执行完、逐页过图完）
 
 接手前先读：`AGENTS.md`、`规范/00-项目共识.md`、**`规范/05-所有者修改原则.md`**（2026-11-05 审校总结）、`规范/04-英式版式.md`，以及本文。
-已合入 main 的 PR：[Buqisir/textbook-framework#1](https://github.com/Buqisir/textbook-framework/pull/1)–[#4](https://github.com/Buqisir/textbook-framework/pull/4)。
+已合入 main 的 PR：[Buqisir/textbook-framework#1](https://github.com/Buqisir/textbook-framework/pull/1)–[#5](https://github.com/Buqisir/textbook-framework/pull/5)。
 
 **接手先看 §0。**
 
@@ -15,7 +15,7 @@
 - 选必合册：`同步排版.py` 的 `VOLUMES`，输出 `同步-选必一二.html`、`同步-选必三四.html`；定稿仍是一本教材一份，单元头和页脚写各自教材册。
 
 **待办**：
-1. 全量渲染 21 册并自检（半格对齐、pdffonts、孤标题），负责人看图，打 zip 发所有者。
+1. ~~全量渲染 21 册并自检，负责人逐页看图，打 zip 发所有者~~（11-06 夜完成。逐页看图修了 4 处版式：单元标题中文副题不拆行、标题左对齐；考情表末行与表下说明不单独落到下一页；答案末条不单独成页；中文题干（翻译题）左对齐，不再被两端对齐拉开字距。均在 `英式.css`）。
 2. 各组报告里「清单外、未改」的条目（每个 `修改结果-*.md` 末尾），留待所有者验收时一并看。
 3. 有些讲解例句在题库里找不到（如 If you study hard, you will pass the exam），是早期写讲义时编的，规则上讲解例句应取自东莞原题。可写脚本全面比对后统一换掉。
 
