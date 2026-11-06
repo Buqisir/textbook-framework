@@ -14,5 +14,5 @@ for f in sys.argv[1:]:
         if not L: continue
         bottom=max(x[0] for x in L)
         last=[x for x in L if x[0]>=bottom-30]
-        if any(x[1] in HEADS or x[2]>=16 for x in last) and not any(x[2]>=12 and x[1] not in HEADS and len(x[1])>3 for x in last):
+        if any((x[1] in HEADS and x[2]>=12) or x[2]>=16 for x in last) and not any(x[2]>=12 and x[1] not in HEADS and len(x[1])>3 for x in last):
             print(f.split('/')[-1],'页',i+1,'页末是标题：',[x[1] for x in last])

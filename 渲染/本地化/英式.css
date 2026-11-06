@@ -596,3 +596,6 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 /* 答案区标题收紧（2026-11-05）：答案页不需要 2u 大标题；改 1u 高、16pt，下空半格（省 1.5 行，免得全册最后一页只剩一两行答案） */
 .answers > .topic-head { height: var(--u); margin-bottom: var(--h); padding-bottom: 0; }
 .answers > .topic-head h3 { font: 700 16pt/var(--u) "sans-ui"; top: -1.52pt; }
+
+/* 答案里夹中文（如「或者：」）时不回退系统字体：粗体答案字体栈补上箭头与宋体 */
+.key .ans { font-family: "arrow", "serif-en", "serif-cjk"; }

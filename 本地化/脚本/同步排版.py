@@ -13,7 +13,7 @@ HTML title 为「同步讲义 <册>」。
   单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
   ①：.freq 表，词汇 / 考查形式 / 考法 / 频次。
   ②：每个词族 .family = 词头行（词头 + gloss 同一行）+ 词族链（.fam-chain 浅底条）+ 原题（.atoms）。
-  ③：单词拼写：节头（无 chip）+ 原题列表（6–8 道，给中文提示写英文单词）。
+  ③：单词拼写：节头（无 chip）+ 原题列表（至多 8 道，不足就有多少放多少；给中文提示写英文单词）。
   ④：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
       句式块 .phrase.trick（句式名药丸 + gloss 同行 / 公式浅底条 / 原题）。
   ⑤：原题列表。
@@ -27,7 +27,7 @@ HTML title 为「同步讲义 <册>」。
   freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
   families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（每个词族的原题；每个形式一道）
       gloss：一到两行（用 <br> 分隔），排版时用「；」接成一行
-  spelling[atoms]                                                ③ 单词拼写（6–8 道，每词一道）
+  spelling[atoms]                                                ③ 单词拼写（≤8 道，每词一道）
   phrases[{短语, 释义, 词头, gloss, atoms}]                       ④ 前半：短语块（可无题）
   tricks[{句式, gloss, formula, atoms}]                          ④ 后半：句式块
       句式：句式名，≤6 字
@@ -311,8 +311,8 @@ def validate(S):
         for f in u['families']:
             if len(f['chain']) > 4:
                 errs.append(f'{u["data_no"]} 词族链超过 4 个形式')
-        if not 6 <= len(u['spelling']) <= 8:
-            errs.append(f'{u["data_no"]} 单词拼写题数不在 6–8')
+        if len(u['spelling']) > 8:   # 不足 6 道就有多少放多少（规范/05：题少就少）
+            errs.append(f'{u["data_no"]} 单词拼写超过 8 道')
         if len({a['提示词'] or a['题干'] for a in u['spelling']}) != len(u['spelling']):
             errs.append(f'{u["data_no"]} 单词拼写有重复的题')
         if len(u['phrases']) > 6:
