@@ -1109,13 +1109,6 @@
               "释义": "有效地",
               "hit": true,
               "来源": "派生"
-            },
-            {
-              "词": "efficiently",
-              "词性": "adv.",
-              "释义": "高效地",
-              "hit": true,
-              "来源": "补入"
             }
           ],
           "atoms": [
@@ -1129,13 +1122,13 @@
               "cue": [],
               "提示词": "effect",
               "答案": "efficiently",
-              "解析": "副词efficiently修饰动词manage。故填：efficiently。",
+              "解析": "提示词为 effect，副词 effectively 修饰动词 manage。故填：effectively。",
               "句意": "迈克能高效地处理一切。",
-              "reason": "改 efficiently 为 effectively",
+              "reason": "副词修饰 manage；提示词是 effect",
               "answer_show": "effectively"
             }
           ],
-          "gloss": "effective 的副词形式<br>副词修饰动词，如 efficiently"
+          "gloss": "effective 的副词形式<br>副词修饰动词，如 effectively"
         },
         {
           "词头": "harmony",

@@ -1581,9 +1581,9 @@
               "cue": [],
               "提示词": "shame",
               "答案": "shameful",
-              "解析": "be动词后接形容词作表语。故填：shameful。",
+              "解析": "be动词后接形容词作表语。故填：ashamed。",
               "句意": "我为他在晚宴上的粗鲁行为感到可耻。",
-              "reason": "am 后用形容词；题库 shameful 误",
+              "reason": "am 后用形容词",
               "answer_show": "ashamed"
             }
           ]
@@ -1832,10 +1832,10 @@
           "cue": [],
           "提示词": "variety",
           "答案": "varieties",
-          "解析": "考查固定短语。句意：几个世纪以来，他们一直在吃各种各样的东西。分析句子可知，此处为固定短语varieties of“各种各样的”，满足句意要求。故填varieties。",
+          "解析": "考查固定短语。句意：几个世纪以来，他们一直在吃各种各样的东西。分析句子可知，此处为固定短语varieties of或a variety“各种各样的”，满足句意要求。故填varieties，亦可填a variety。",
           "句意": "",
-          "reason": "varieties of 指多种，用复数",
-          "answer_show": null
+          "reason": "varieties / a variety 均可",
+          "answer_show": "varieties / a variety"
         },
         {
           "id": "160-26",

@@ -890,10 +890,10 @@
        "cue": [],
        "提示词": null,
        "答案": "keep ； in ； mind",
-       "解析": "句意：高一学生要牢记，从一开始养成良好的学习习惯会让接下来三年顺畅很多。根据汉语提示 “牢记”可知，用keep in mind，本句为祈使句，用动词原形。",
+       "解析": "句意：高一学生要牢记，从一开始养成良好的学习习惯会让接下来三年顺畅很多。根据汉语提示 “牢记”可知，用keep (it) in mind，it 可省，本句为祈使句，用动词原形。",
        "句意": "",
        "reason": "keep sth in mind 固定搭配",
-       "answer_show": null
+       "answer_show": "keep (it) in mind"
       },
       {
        "id": "123-25",
@@ -925,10 +925,10 @@
      "cue": [],
      "提示词": "delete",
      "答案": "to delete",
-     "解析": "考查with 复合结构。句意：由于许多关键文件被删除，他不得不加快行动以防被发现。此处考查with复合结构作状语，delete作宾语补足语，根据“ he had to speed up his action in case of being discovered”可推断，delete这一动作是将来要发生的动作，用不定式，delete与files是被动关系，在with复合结构中不定式作宾语补足语用主动形式表示被动，故填to delete。",
+     "解析": "考查with 复合结构。句意：由于许多关键文件被删除，他不得不加快行动以防被发现。此处考查with复合结构作状语，delete作宾语补足语，根据“ he had to speed up his action in case of being discovered”可推断，delete这一动作是将来要发生的动作，用不定式，delete与files是被动关系，在with复合结构中不定式作宾语补足语用主动形式表示被动，故填to delete，亦可填to be deleted。",
      "句意": "",
      "reason": "files 后用不定式，表示需要删除",
-     "answer_show": null
+     "answer_show": "to delete / to be deleted"
     },
     {
      "id": "032-11",
@@ -2330,7 +2330,7 @@
      "答案": "butterflies",
      "解析": "考查名词的数。句意：我心里七上八下的，因为很快就轮到我在这么多人面前演讲了。have butterflies in one’s stomach是固定短语，意为“心里紧张，七上八下”，本空用butterfly的复数形式butterflies，作had的宾语。故填butterflies。",
      "句意": "",
-     "reason": "have butterflies in stomach 固定搭配，用复数",
+     "reason": "have butterflies in one's stomach，用复数",
      "answer_show": null
     }
    ],
