@@ -521,6 +521,13 @@ def build(D, theme='现行', only=None, gt='高一上'):
             n += 1
             ids.append(n)
         drill_nos_by_topic[t['no']] = ids
+    # 题数只算本册印出的题（例题 + 练一练），读者翻书能对上；覆盖卷数仍取统计
+    printed = {t['name']: len(t.get('examples', [])) + len(t.get('drill', [])) for t in D['topics']}
+    for t in D['topics']:
+        t['n'] = printed[t['name']]
+    for r in D['overview']['rows']:
+        if r['name'] in printed:
+            r['n'] = printed[r['name']]
     topics = [t for t in D['topics'] if only is None or t['no'] in only]
     topic_fn = topic_en_html if theme == '英式' else topic_html
     body = (header_html(D, gt) + overview_html(D['overview'])
