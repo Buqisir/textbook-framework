@@ -695,6 +695,21 @@
           "句意": "这一切都发生在一刹那间。",
           "reason": "in an 之后用名词",
           "answer_show": null
+        },
+        {
+          "id": "009-17",
+          "no": 8,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "___ (精确的) measurement is required in scientific research.",
+          "题干HTML": "<span class=\"blank\"></span> (精确的) measurement is required in scientific research.",
+          "cue": [],
+          "提示词": null,
+          "答案": "Accurate",
+          "解析": "考查形容词。句意：科学研究需要精确的测量。分析句子，设空处使用形容词作定语，修饰名词，表示“精确的”用accurate，该空置于句首，开头单词首字母大写。故填Accurate。",
+          "句意": "",
+          "reason": "作主语 measurement 的定语，用形容词；位于句首，首字母大写",
+          "answer_show": null
         }
       ],
       "phrases": [],
@@ -702,7 +717,7 @@
       "quiz": [
         {
           "id": "012-09",
-          "no": 8,
+          "no": 9,
           "标签": "2020 · 东华高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
@@ -716,7 +731,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 8
+      "numbered_total": 9
     },
     {
       "序": 19,
@@ -1732,6 +1747,21 @@
           "句意": "医生说Tom只是轻微受伤且他很快就会恢复。",
           "reason": "修饰过去分词 injured，用副词",
           "answer_show": null
+        },
+        {
+          "id": "098-28",
+          "no": 14,
+          "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
+          "题型": "单词拼写",
+          "题干": "She ___ (示意) to the cars behind her that they were going the wrong way.",
+          "题干HTML": "She <span class=\"blank\"></span> (示意) to the cars behind her that they were going the wrong way.",
+          "cue": [],
+          "提示词": null,
+          "答案": "gestured",
+          "解析": "考查动词。句意：她向身后的汽车示意他们走错了路。空处作主句的谓语，应用动词。根据汉语提示和空后的“to the cars behind her that...”可知，应用及物动词gesture“做手势，用动作示意”。gesture to sb. that...意为“向某人示意……”。根据句中的were可知，句子表示过去发生的事情，应用一般过去时。故填gestured。",
+          "句意": "",
+          "reason": "句子谓语，叙述过去的事，用过去式",
+          "answer_show": null
         }
       ],
       "phrases": [
@@ -1743,7 +1773,7 @@
           "atoms": [
             {
               "id": "031-17",
-              "no": 14,
+              "no": 15,
               "标签": "2025 · 东莞市 · 高一上期末",
               "题型": "完成句子",
               "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
@@ -1758,7 +1788,7 @@
             },
             {
               "id": "099-38",
-              "no": 15,
+              "no": 16,
               "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
               "题型": "完成句子",
               "题干": "I’ve learned that you are never too small to ___ (有影响).",
@@ -1781,7 +1811,7 @@
           "atoms": [
             {
               "id": "013-28",
-              "no": 16,
+              "no": 17,
               "标签": "2020 · 光明中学 · 高二上月考",
               "题型": "完成句子",
               "题干": "I once had the unpleasant experience of someone not ___ (遵守承诺) to me.",
@@ -1804,7 +1834,7 @@
           "atoms": [
             {
               "id": "052-19",
-              "no": 17,
+              "no": 18,
               "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
               "题型": "完成句子",
               "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
@@ -1824,7 +1854,7 @@
       "quiz": [
         {
           "id": "099-27",
-          "no": 18,
+          "no": 19,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "They have been eating ___ (variety) of the stuff for centuries.",
@@ -1839,7 +1869,7 @@
         },
         {
           "id": "160-26",
-          "no": 19,
+          "no": 20,
           "标签": "2024 · 弘林高级中学 · 高二下月考",
           "题型": "完成句子",
           "题干": "As teachers, you must believe that you can ___ (对产生很大影响) your students.",
@@ -1854,7 +1884,7 @@
         },
         {
           "id": "109-10",
-          "no": 20,
+          "no": 21,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "At this warm greeting, the poor man, who was not used to such kindness, ___ (weep) like a child.",
@@ -1869,7 +1899,7 @@
         },
         {
           "id": "108-14",
-          "no": 21,
+          "no": 22,
           "标签": "2023 · 东莞高级中学 · 高一上月考",
           "题型": "语法填空",
           "题干": "Yet the pace of a child’s progress can also be a source of ___ (anxious) for mothers and fathers.",
@@ -1883,7 +1913,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 21
+      "numbered_total": 22
     },
     {
       "序": 21,

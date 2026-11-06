@@ -827,7 +827,7 @@
         },
         {
           "type": "p",
-          "text": "关系副词 when、where、why 在定语从句中作状语，分别相当于 in which、at which、for which。先行词表示地点时用 where，如 a platform where you can learn more。"
+          "text": "关系副词 when、where、why 在定语从句中作状语，分别相当于 in which、at which、for which。先行词表示地点时用 where。"
         },
         {
           "type": "p",
@@ -871,24 +871,6 @@
       "examples": [
         {
           "gloss": [
-            "先行词是 platform",
-            "用 where"
-          ],
-          "stem": {
-            "text": "The whale watching camp provides a platform ___ you can learn more about these intelligent creatures.",
-            "cue": [],
-            "src": "2024 · 东莞市 · 高二下期末"
-          },
-          "ju": "这个观鲸营地为人们提供了一个平台，可以更多地了解这些聪明的动物。",
-          "mid": {
-            "label": "判断",
-            "text": "定语从句中 where 表示地点，相当于 in which，修饰先行词 a platform。"
-          },
-          "ans": "where",
-          "group": "关系副词"
-        },
-        {
-          "gloss": [
             "非限制性定语从句",
             "所属用 whose"
           ],
@@ -908,6 +890,15 @@
       ],
       "keypoint": "先行词是时间用 when，地点用 where，原因用 why；是人用 who 或 whom，是物用 which 或 that。表示所属用 whose。非限制性定语从句前有逗号，不用 that。",
       "drill": [
+        {
+          "stem": "The whale watching camp provides a platform ___ you can learn more about these intelligent creatures.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高二下期末",
+          "ans": "where",
+          "why": "先行词是 platform；用 where",
+          "group": "关系副词",
+          "level": "必练"
+        },
         {
           "stem": "The nursery rhyme has become a hit because it has a lovely rhythm.\nThe reason ___ the nursery rhyme has become a hit ___ it has a lovely rhythm.",
           "cue": [

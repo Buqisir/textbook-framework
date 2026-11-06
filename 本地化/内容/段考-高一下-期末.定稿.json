@@ -154,7 +154,7 @@
         },
         {
           "type": "p",
-          "text": "判断：看宾语是不是动作的执行者。宾语执行动作，用 doing；宾语承受动作，用 done。"
+          "text": "宾语是动作的执行者时用 doing，是动作的承受者时用 done。"
         },
         {
           "type": "subhead",
@@ -276,26 +276,6 @@
           },
           "ans": "to give",
           "group": "作定语"
-        },
-        {
-          "gloss": [
-            "宾补用现在分词",
-            "宾语主动执行动作"
-          ],
-          "stem": {
-            "text": "From the window, they saw that children were running happily around the park.\nFrom the window, they saw ___ happily around the park.",
-            "cue": [
-              "同义句转换"
-            ],
-            "src": "2025 · 东莞市 · 高一下期末"
-          },
-          "ju": "他们从窗户望出去，看见孩子们在公园里欢快地奔跑。",
-          "mid": {
-            "label": "判断",
-            "text": "see 之后 children 与 run 是主动关系，宾补用现在分词。"
-          },
-          "ans": "children running",
-          "group": "作宾补"
         }
       ],
       "keypoint": "空格修饰名词时，名词是动作的承受者就用 done，是执行者就用 doing 或 to do。空格作状语时，分词的逻辑主语必须是句子的主语。",
@@ -439,6 +419,17 @@
           "level": "必练"
         },
         {
+          "stem": "From the window, they saw that children were running happily around the park.\nFrom the window, they saw ___ happily around the park.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "children running",
+          "why": "宾补用现在分词；宾语主动执行动作",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
           "stem": "The amazing taste of Dongguan food keeps tourists ___ (come) back for more.",
           "cue": [],
           "src": "2026 · 东莞第六高级中学 · 高一下期末",
@@ -522,7 +513,7 @@
         },
         {
           "type": "p",
-          "text": "判断：看从句缺什么成分。缺主语或宾语用 which、that、who；缺时间或地点状语用 when、where。"
+          "text": "从句缺主语或宾语时用 which、that、who，缺时间或地点状语时用 when、where。"
         },
         {
           "type": "pattern",
@@ -632,7 +623,7 @@
         },
         {
           "type": "p",
-          "text": "判断：动词后紧跟形容词，再接不定式或从句，宾语位置就填 it，如 You will find it rewarding to be a volunteer。"
+          "text": "动词后紧跟形容词、再接不定式或从句时，宾语位置用 it 作形式宾语，如 You will find it rewarding to be a volunteer。"
         },
         {
           "type": "pattern",
@@ -958,7 +949,7 @@
         },
         {
           "type": "p",
-          "text": "判断：句首是 only 加状语，主句有助动词或情态动词，就把它提前；主句谓语是实义动词时，借助 did、does 等助动词。"
+          "text": "句首是 only 加状语时，主句的助动词或情态动词提到主语前；主句谓语是实义动词时，借助 did、does 等助动词。"
         },
         {
           "type": "pattern",
@@ -1042,7 +1033,7 @@
         },
         {
           "type": "p",
-          "text": "判断：去掉 It is/was 和 that/who 后，句子仍然完整，就是强调句。"
+          "text": "去掉 It is/was 和 that/who 后句子仍然完整的，是强调句。"
         },
         {
           "type": "pattern",

@@ -131,7 +131,7 @@
         },
         {
           "type": "p",
-          "text": "判断：看名词与动作的关系。名词是执行者用 doing 或 to do，名词是承受者用 done 或 to be done。"
+          "text": "名词是动作的执行者时用 doing 或 to do，是动作的承受者时用 done 或 to be done。"
         },
         {
           "type": "subhead",
@@ -178,7 +178,7 @@
         {
           "type": "gloss",
           "lines": [
-            "tell、ask 等后",
+            "tell 等动词后",
             "祈使句改用不定式"
           ]
         },
@@ -461,7 +461,7 @@
         },
         {
           "type": "p",
-          "text": "判断：看 is 或 remains 之后的部分是否完整。完整的句子用 that 或 whether，缺成分则用疑问词或关系词。"
+          "text": "is 或 remains 之后的从句结构完整时用 that 或 whether，缺成分时用疑问词或关系词。"
         },
         {
           "type": "subhead",
@@ -609,8 +609,8 @@
           "stem": "After several hours of driving, they finally arrived at ___ local people called \"the Golden Valley\".",
           "cue": [],
           "src": "2019 · 东莞市 · 高二上期末",
-          "ans": "what",
-          "why": "called 后缺宾语，用 what",
+          "ans": "what / a place",
+          "why": "called 后缺宾语，用 what；填 a place 也通",
           "group": "宾语从句",
           "level": "必练"
         }
@@ -663,7 +663,7 @@
         },
         {
           "type": "p",
-          "text": "判断：动词后紧跟形容词，再接不定式或从句，就填 it。"
+          "text": "动词后紧跟形容词、再接不定式或从句时，动词后用 it 作形式宾语。"
         }
       ],
       "examples": [
@@ -858,7 +858,7 @@
         },
         {
           "type": "p",
-          "text": "没有时间词时，看叙述的事是否已经发生。说过去已经发生的事，谓语用一般过去时。"
+          "text": "叙述过去已经发生的事，即使句中没有时间词，谓语也用一般过去时。"
         },
         {
           "type": "pattern",
@@ -1008,7 +1008,7 @@
         },
         {
           "type": "p",
-          "text": "判断：去掉 It is/was 和 that/who 后，句子仍然完整，就是强调句。被强调的部分常是时间、地点、原因等状语，也可以是主语或宾语。"
+          "text": "去掉 It is/was 和 that/who 后句子仍然完整的，是强调句。被强调的部分常是时间、地点、原因等状语，也可以是主语或宾语。"
         },
         {
           "type": "pattern",

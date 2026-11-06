@@ -244,7 +244,7 @@
      "level": "必练"
     },
     {
-     "stem": "Because I had spent all night writing, I was tired the next day.\n___ all night writing, I was very tired the next day.",
+     "stem": "Because I had spent all night writing, I was tired the next day.\n___ all night writing, I was tired the next day.",
      "cue": [
       "用现在分词改写"
      ],
@@ -426,31 +426,21 @@
     },
     {
      "type": "p",
-     "text": "句首主语从句较长时，常用 It 作形式主语，如 It seemed that the woman liked the water。"
+     "text": "句首主语从句较长时，常用 It 作形式主语，如 It seemed that the woman liked the water（那位女士似乎很喜欢水）。"
     }
    ],
-   "examples": [
-    {
-     "group": "表语从句",
-     "gloss": [
-      "系动词 was 后",
-      "that 引导说明性内容"
-     ],
-     "stem": {
-      "text": "What surprised us was ___ he worked out the problem in such a short time.",
-      "cue": [],
-      "src": "2023 · 东莞市 · 高二上联考"
-     },
-     "ju": "最让我们吃惊的是，他在这么短的时间内解出了这道题。",
-     "mid": {
-      "label": "成分",
-      "text": "was 后接表语从句，从句 he worked out the problem 成分齐全，that 引导，不作成分。"
-     },
-     "ans": "that"
-    }
-   ],
+   "examples": [],
    "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语。表示是否用 whether，缺成分用 what，成分齐全用 that。",
    "drill": [
+    {
+     "stem": "What surprised us was ___ he worked out the problem in such a short time.",
+     "cue": [],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "that",
+     "why": "系动词 was 后；that 引导说明性内容",
+     "group": "表语从句",
+     "level": "必练"
+    },
     {
      "stem": "最让我印象深刻的是她对未来很乐观。",
      "cue": [],
