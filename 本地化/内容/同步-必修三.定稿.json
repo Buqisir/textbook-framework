@@ -896,58 +896,6 @@
       ],
       "families": [
         {
-          "词头": "majority",
-          "题数": 3,
-          "chain": [
-            {
-              "词": "majority",
-              "词性": "n.",
-              "释义": "大多数",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "major",
-              "词性": "adj.",
-              "释义": "主要的",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "minor",
-              "词性": "adj.",
-              "释义": "次要的",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "minority",
-              "词性": "n.",
-              "释义": "少数",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "114-07",
-              "no": 1,
-              "标签": "2025 · 光正实验学校 · 高一下期中",
-              "题型": "语法填空",
-              "题干": "A couple of people objected to the proposal, but the vast ___ (major) approved of it.",
-              "题干HTML": "A couple of people objected to the proposal, but the vast <span class=\"blank\"></span> (major) approved of it.",
-              "cue": [],
-              "提示词": "major",
-              "答案": "majority",
-              "解析": "考查名词。句意：有几个人反对这个提议，但绝大多数人赞成它。根据句意和句子结构，所给词应填入名词形式作主语，表示“大多数”的意思。major的名词形式是majority，其单独做主语，谓语动词通常用单数。故填majority。",
-              "句意": "",
-              "reason": "vast 后用名词，表示大多数",
-              "answer_show": null
-            }
-          ],
-          "gloss": "形容词后用名词<br>majority 表示大多数"
-        },
-        {
           "词头": "harm",
           "题数": 2,
           "chain": [
@@ -976,7 +924,7 @@
           "atoms": [
             {
               "id": "005-10",
-              "no": 2,
+              "no": 1,
               "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
               "题型": "语法填空",
               "题干": "More and more people have realized that staying up late is ___ (harm) to our health.",
@@ -1014,7 +962,7 @@
           "atoms": [
             {
               "id": "114-08",
-              "no": 3,
+              "no": 2,
               "标签": "2025 · 光正实验学校 · 高一下期中",
               "题型": "语法填空",
               "题干": "She responded with a “Thank you” in ___ (respond) to the stranger’s kindness.",
@@ -1059,7 +1007,7 @@
           "atoms": [
             {
               "id": "036-11",
-              "no": 4,
+              "no": 3,
               "标签": "2026 · 海逸外国语学校 · 高一下期中",
               "题型": "语法填空",
               "题干": "I felt ___ (scare) when I walked alone in the dark street last night.",
@@ -1078,23 +1026,22 @@
       ],
       "spelling": [
         {
-          "id": "106-15",
-          "no": 5,
-          "标签": "2023 · 东华高级中学 · 高一下期中",
+          "id": "009-11",
+          "no": 4,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
-          "题干": "A ___ (大多数) of people hold the belief that robots will never take control of humans.",
-          "题干HTML": "A <span class=\"blank\"></span> (大多数) of people hold the belief that robots will never take control of humans.",
+          "题干": "The survey shows that the ___ (大多数) of the students are in favour of the teaching reform.",
+          "题干HTML": "The survey shows that the <span class=\"blank\"></span> (大多数) of the students are in favour of the teaching reform.",
           "cue": [],
           "提示词": null,
           "答案": "majority",
-          "解析": "考查名词。句意：大多数人认为机器人永远不会控制人类。“大多数”表达为名词majority，短语a majority of意为“大多数的”，后接名词复数。故填majority。",
+          "解析": "考查名词。句意：调查显示大多数学生赞成教学改革。分析句子，设空处使用名词作主语，表示“大多数”用majority。故填majority。",
           "句意": "",
-          "reason": "a 后用名词，表示大多数",
-          "answer_show": null
+          "reason": "the 后用名词，表示大多数"
         },
         {
           "id": "090-11",
-          "no": 6,
+          "no": 5,
           "标签": "2024 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "The company offers ___ (灵活的) working hours to accommodate employees’ personal schedules.",
@@ -1109,7 +1056,7 @@
         },
         {
           "id": "090-09",
-          "no": 7,
+          "no": 6,
           "标签": "2024 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He was faced with the ___ (进退两难的局面) of whether or not to return to his country.",
@@ -1124,7 +1071,7 @@
         },
         {
           "id": "098-33",
-          "no": 8,
+          "no": 7,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Did you notice the ___ (眼泪)in his eyes when he talked about Diane?",
@@ -1139,7 +1086,7 @@
         },
         {
           "id": "095-07",
-          "no": 9,
+          "no": 8,
           "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "“I got it,” Lily said again in a near ___ (耳语).",
@@ -1154,7 +1101,7 @@
         },
         {
           "id": "002-15",
-          "no": 10,
+          "no": 9,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "We must ___ (任命；委派) a new teacher at once to the mountain school.",
@@ -1177,7 +1124,7 @@
           "atoms": [
             {
               "id": "154-23",
-              "no": 11,
+              "no": 10,
               "标签": "2025 · 虎门外国语学校 · 高一下联考",
               "题型": "完成句子",
               "题干": "The generous man has donated large amounts of money to the charity organization → ___",
@@ -1198,7 +1145,7 @@
       "quiz": [
         {
           "id": "036-13",
-          "no": 12,
+          "no": 11,
           "标签": "2026 · 海逸外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "We all saw Mary ___ （complain） about the food at the party the other day.",
@@ -1213,7 +1160,7 @@
         },
         {
           "id": "131-09",
-          "no": 13,
+          "no": 12,
           "标签": "2026 · 石龙中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "Rare animals ___ (harm) if people keep destroying their living places.",
@@ -1228,7 +1175,7 @@
         },
         {
           "id": "073-18",
-          "no": 14,
+          "no": 13,
           "标签": "2025 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "His application ___ (reject) once again, which made him disappointed.",
@@ -1243,7 +1190,7 @@
         },
         {
           "id": "024-14",
-          "no": 15,
+          "no": 14,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "Having worked in the kindergarten for three ___ (decade), they retired.",
@@ -1257,7 +1204,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 15
+      "numbered_total": 14
     },
     {
       "序": 14,
@@ -1411,66 +1358,6 @@
       ],
       "families": [
         {
-          "词头": "suit",
-          "题数": 3,
-          "chain": [
-            {
-              "词": "suit",
-              "词性": "vt.",
-              "释义": "适合",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "suitable",
-              "词性": "adj.",
-              "释义": "适合的",
-              "hit": true,
-              "来源": "派生"
-            },
-            {
-              "词": "suited",
-              "词性": "adj.",
-              "释义": "合适的",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "158-11",
-              "no": 1,
-              "标签": "2024 · 麻涌中学 · 高一上月考",
-              "题型": "语法填空",
-              "题干": "The dress is ___ (suit) for a formal occasion than the casual one.",
-              "题干HTML": "The dress is <span class=\"blank\"></span> (suit) for a formal occasion than the casual one.",
-              "cue": [],
-              "提示词": "suit",
-              "答案": "more suitable",
-              "解析": "考查形容词的比较级。句意：这件衣服比休闲装更适合正式场合。空格处用形容词作表语，suit的形容词是suitable，意为“适合的”，由than可知，空格处用比较级more suitable。故填more suitable。",
-              "句意": "",
-              "reason": "more 后用形容词比较级",
-              "answer_show": null
-            },
-            {
-              "id": "050-10",
-              "no": 2,
-              "标签": "2023 · 东莞外国语学校 · 高一上月考",
-              "题型": "语法填空",
-              "题干": "To sum up, Harry Potter is an amazing film which is ___ (suit) for both children and adults.",
-              "题干HTML": "To sum up, Harry Potter is an amazing film which is <span class=\"blank\"></span> (suit) for both children and adults.",
-              "cue": [],
-              "提示词": "suit",
-              "答案": "suitable",
-              "解析": "考查形容词。句意：总之，哈利波特是一部了不起的电影，既适合儿童也适合成人。be suitable for“适合……”是固定搭配，形容词suitable作表语。故填suitable。",
-              "句意": "",
-              "reason": "is 后作表语，形容词",
-              "answer_show": null
-            }
-          ],
-          "gloss": "be 或 more 后用形容词<br>形容词 suitable 表示合适"
-        },
-        {
           "词头": "fortune",
           "题数": 2,
           "chain": [
@@ -1506,7 +1393,7 @@
           "atoms": [
             {
               "id": "112-11",
-              "no": 3,
+              "no": 1,
               "标签": "2026 · 众美中学 · 高二下月考",
               "题型": "语法填空",
               "题干": "___ (fortune), the interviewer spoke highly of him during the interview,so he was accepted.",
@@ -1544,7 +1431,7 @@
           "atoms": [
             {
               "id": "087-14",
-              "no": 4,
+              "no": 2,
               "标签": "2023 · 东华高级中学 · 高一下月考",
               "题型": "语法填空",
               "题干": "As a chain of education reforms has taken place, there is a need for greater ___ (diverse) and choices in education.",
@@ -1564,7 +1451,7 @@
       "spelling": [
         {
           "id": "098-23",
-          "no": 5,
+          "no": 3,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "After they got married, they ___ (定居)in Brooklyn.",
@@ -1579,7 +1466,7 @@
         },
         {
           "id": "106-16",
-          "no": 6,
+          "no": 4,
           "标签": "2023 · 东华高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "The whole community were pleased with the news that a new commercial center was under ___ (建造) and related facilities would be provided.",
@@ -1594,7 +1481,7 @@
         },
         {
           "id": "098-29",
-          "no": 7,
+          "no": 5,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Her attitude has ___ (确定无疑) changed for the better since she started this new job.",
@@ -1609,7 +1496,7 @@
         },
         {
           "id": "098-32",
-          "no": 8,
+          "no": 6,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "“Are you actively ___ (寻找) jobs? ” she asked.",
@@ -1632,7 +1519,7 @@
           "atoms": [
             {
               "id": "049-18",
-              "no": 9,
+              "no": 7,
               "标签": "2023 · 东莞外国语学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "Some Chinese immigrants have ___ (闯世界) in San Francisco for many years.",
@@ -1652,7 +1539,7 @@
       "quiz": [
         {
           "id": "024-09",
-          "no": 10,
+          "no": 8,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "___ (admit) into a key university, the girl was very excited.",
@@ -1667,7 +1554,7 @@
         },
         {
           "id": "064-14",
-          "no": 11,
+          "no": 9,
           "标签": "2024 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "Parents consider it a duty ___ (select) healthy foods for their children.",
@@ -1682,7 +1569,7 @@
         },
         {
           "id": "106-08",
-          "no": 12,
+          "no": 10,
           "标签": "2023 · 东华高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "___ (earn) a living, some people opened up shops and restaurants in Chinatown.",
@@ -1696,7 +1583,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 12
+      "numbered_total": 10
     },
     {
       "序": 15,
@@ -1825,68 +1712,6 @@
       ],
       "families": [
         {
-          "词头": "determine",
-          "题数": 4,
-          "chain": [
-            {
-              "词": "determine",
-              "词性": "vi. & vt.",
-              "释义": "决定；决心",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "determined",
-              "词性": "adj.",
-              "释义": "有决心的",
-              "hit": true,
-              "来源": "派生"
-            },
-            {
-              "词": "determination",
-              "词性": "n.",
-              "释义": "决心",
-              "hit": true,
-              "来源": "补入"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "094-09",
-              "no": 1,
-              "标签": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
-              "题型": "语法填空",
-              "题干": "She had a ___ (determine) expression on her face when she talked about her dream.",
-              "题干HTML": "She had a <span class=\"blank\"></span> (determine) expression on her face when she talked about her dream.",
-              "cue": [],
-              "提示词": "determine",
-              "答案": "determined",
-              "解析": "考查形容词。句意：当她谈论自己的梦想时，脸上露出了坚定的神情。根据“a”和“expression”可知，此处需填形容词，括号词determine为动词，其形容词形式为determined，在句中作定语，修饰名词expression。故填determined。",
-              "句意": "",
-              "reason": "名词 expression 前用形容词",
-              "answer_show": null
-            },
-            {
-              "id": "047-10",
-              "no": 2,
-              "标签": "2022 · 东莞外国语学校 · 高一上期中",
-              "题型": "语法填空",
-              "题干": "Perseverance and ___ (determine) contribute greatly to one’s success.",
-              "题干HTML": "Perseverance and <span class=\"blank\"></span> (determine) contribute greatly to one’s success.",
-              "cue": [
-                "用所给词的适当形式填空"
-              ],
-              "提示词": "determine",
-              "答案": "determination",
-              "解析": "考查名词。句意：毅力和决心是一个人成功的重要因素。分析句子可知，空处和Perseverance并列，作句子的主语，应用determine的名词形式determination，意为“决心”，是不可数名词。故填determination。",
-              "句意": "",
-              "reason": "与 Perseverance 并列，用名词",
-              "answer_show": null
-            }
-          ],
-          "gloss": "名词前用形容词<br>与名词并列时用 determination"
-        },
-        {
           "词头": "argue",
           "题数": 2,
           "chain": [
@@ -1908,7 +1733,7 @@
           "atoms": [
             {
               "id": "097-36",
-              "no": 3,
+              "no": 1,
               "标签": "2022 · 东莞中学松山湖学校 · 高一上月考",
               "题型": "语法填空",
               "题干": "He had a heated ___ (argue)with his mother about the problem for hours.",
@@ -1960,7 +1785,7 @@
           "atoms": [
             {
               "id": "067-11",
-              "no": 4,
+              "no": 2,
               "标签": "2025 · 东莞市 · 高一下期末",
               "题型": "语法填空",
               "题干": "They were ___ (disappoint) when the concert was canceled due to heavy rain and strong winds.",
@@ -1980,7 +1805,7 @@
       "spelling": [
         {
           "id": "098-22",
-          "no": 5,
+          "no": 3,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "A test satellite was ___ (发射) from Cape Canaveral.",
@@ -1995,7 +1820,7 @@
         },
         {
           "id": "098-25",
-          "no": 6,
+          "no": 4,
           "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "题型": "单词拼写",
           "题干": "She had a burning ___ (渴望) to go back to her home country before she died.",
@@ -2010,7 +1835,7 @@
         },
         {
           "id": "095-09",
-          "no": 7,
+          "no": 5,
           "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "The ___ (信号) for a race to start is often the firing of a gun.",
@@ -2025,7 +1850,7 @@
         },
         {
           "id": "009-09",
-          "no": 8,
+          "no": 6,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "Some people are bound to fail because they are ___ (缺乏的) in diligence and perseverance.",
@@ -2044,7 +1869,7 @@
       "quiz": [
         {
           "id": "067-16",
-          "no": 9,
+          "no": 7,
           "标签": "2025 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "___ (launch) this new project, the company has conducted many surveys.",
@@ -2059,7 +1884,7 @@
         },
         {
           "id": "059-08",
-          "no": 10,
+          "no": 8,
           "标签": "2023 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "At present, schools in Dongguan are equipped with many advanced teaching ___ (facility).",
@@ -2074,7 +1899,7 @@
         },
         {
           "id": "047-11",
-          "no": 11,
+          "no": 9,
           "标签": "2022 · 东莞外国语学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "There have been a couple of young men and women ___ (argue) in the street.",
@@ -2090,7 +1915,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 11
+      "numbered_total": 9
     },
     {
       "序": 16,
