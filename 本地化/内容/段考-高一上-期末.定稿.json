@@ -306,7 +306,7 @@
    "keypoint": "句中已有谓语且无连词时，空处多半是非谓语。介词后用动名词，pretend、attempt 等动词后用不定式，分词与逻辑主语是主动关系用 -ing，被动关系用 -ed。",
    "drill": [
     {
-     "stem": "They have decided to spend the winter holidays ___ (explore) ___ the city together.",
+     "stem": "They have decided to spend the winter holidays ___ (explore) the city together.",
      "cue": [],
      "src": "2025 · 翰林高级中学 · 高一上期末",
      "ans": "exploring",

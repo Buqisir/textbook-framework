@@ -74,96 +74,6 @@
         "ahead": false,
         "go": "专题 6",
         "skip": false
-      },
-      {
-        "name": "状语从句",
-        "cov": 0.2,
-        "n": 2,
-        "book": "",
-        "ahead": false,
-        "go": "期末册",
-        "skip": true
-      },
-      {
-        "name": "强调句",
-        "cov": 0.2,
-        "n": 2,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "倒装",
-        "cov": 0.1,
-        "n": 1,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "主谓一致",
-        "cov": 0.0,
-        "n": 0,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "被动",
-        "cov": 0.4,
-        "n": 6,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "时态",
-        "cov": 0.2,
-        "n": 4,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "情态动词",
-        "cov": 0.0,
-        "n": 0,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "比较级",
-        "cov": 0.0,
-        "n": 0,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "省略",
-        "cov": 0.1,
-        "n": 1,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
-      },
-      {
-        "name": "反意疑问",
-        "cov": 0.0,
-        "n": 0,
-        "book": "",
-        "ahead": false,
-        "go": "",
-        "skip": true
       }
     ],
     "after": ""
@@ -401,7 +311,7 @@
       "keypoint": "句中已有谓语且无连词时，空处多为非谓语。分词与逻辑主语是主动关系用 -ing，是被动关系用 -ed。介词后只接 doing；pretend、attempt、need 等后接不定式；spend time、lead to、look forward to 后接动名词。",
       "drill": [
         {
-          "stem": "Unless ___ (give) enough time, they are not able to complete such a demanding.",
+          "stem": "Unless ___ (give) enough time, they are not able to complete such a demanding task.",
           "cue": [],
           "src": "2025 · 厚街中学 · 高二下月考",
           "ans": "given",

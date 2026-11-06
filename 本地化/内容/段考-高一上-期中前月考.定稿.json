@@ -65,24 +65,6 @@
         "ahead": true,
         "go": "专题 5",
         "skip": false
-      },
-      {
-        "name": "状语从句",
-        "cov": 0.17,
-        "n": 3,
-        "book": "无专章",
-        "ahead": false,
-        "go": "期中册",
-        "skip": true
-      },
-      {
-        "name": "定语从句",
-        "cov": 0.17,
-        "n": 2,
-        "book": "必修一 U4",
-        "ahead": false,
-        "go": "期中册",
-        "skip": true
       }
     ],
     "after": ""
