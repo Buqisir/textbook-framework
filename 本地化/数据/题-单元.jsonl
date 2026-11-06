@@ -149,7 +149,7 @@
 {"id": "007-19", "命中": [], "考法": null}
 {"id": "007-20", "命中": [], "考法": null}
 {"id": "007-21", "命中": [], "考法": null}
-{"id": "007-22", "命中": [{"序": 13, "词头": "replace", "方式": "搭配", "证据": "take the place of｜答案：took the place", "唯一": true}], "考法": null}
+{"id": "007-22", "命中": [{"序": 13, "词头": "take one's place", "方式": "搭配", "证据": "take one's place｜答案：took the place", "唯一": true}, {"序": 13, "词头": "take the place of", "方式": "搭配", "证据": "take the place of｜答案：took the place", "唯一": true}], "考法": null}
 {"id": "007-23", "命中": [], "考法": null}
 {"id": "007-24", "命中": [], "考法": null}
 {"id": "008-07", "命中": [{"序": 22, "词头": "steady", "方式": "提示词", "证据": "提示词 steady", "唯一": true}], "考法": "词性转换"}
@@ -167,7 +167,7 @@
 {"id": "008-19", "命中": [{"序": 7, "词头": "attempt", "方式": "提示词", "证据": "提示词 attempt", "唯一": true}], "考法": "动词形式"}
 {"id": "008-20", "命中": [{"序": 9, "词头": "tough", "方式": "提示词", "证据": "提示词 tough", "唯一": true}], "考法": "比较级"}
 {"id": "008-21", "命中": [], "考法": "动词形式"}
-{"id": "008-22", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make sense｜答案：made sense", "唯一": false}], "考法": null}
+{"id": "008-22", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "make sense", "方式": "搭配", "证据": "make sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "make sense of", "方式": "搭配", "证据": "make sense of｜答案：made sense", "唯一": false}], "考法": null}
 {"id": "008-23", "命中": [], "考法": null}
 {"id": "008-24", "命中": [], "考法": null}
 {"id": "008-25", "命中": [], "考法": null}
@@ -214,11 +214,11 @@
 {"id": "011-15", "命中": [], "考法": "动词形式"}
 {"id": "011-16", "命中": [], "考法": null}
 {"id": "011-17", "命中": [], "考法": null}
-{"id": "011-18", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 12, "词头": "set off", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 19, "词头": "set out", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 27, "词头": "set apart from", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}], "考法": null}
+{"id": "011-18", "命中": [{"序": 11, "词头": "set aside", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 12, "词头": "set aside", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 19, "词头": "set aside", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}, {"序": 27, "词头": "set aside", "方式": "搭配", "证据": "set aside｜答案：Regardless of set aside", "唯一": false}], "考法": null}
 {"id": "011-19", "命中": [], "考法": null}
 {"id": "011-20", "命中": [], "考法": null}
 {"id": "011-21", "命中": [], "考法": null}
-{"id": "011-22", "命中": [{"序": 3, "词头": "credit", "方式": "搭配", "证据": "credit card｜答案：In the British restaurants, the waiters usually bring the en…", "唯一": true}, {"序": 32, "词头": "take over", "方式": "搭配", "证据": "take away｜答案：In the British restaurants, the waiters usually bring the en…", "唯一": true}], "考法": null}
+{"id": "011-22", "命中": [{"序": 3, "词头": "credit", "方式": "搭配", "证据": "credit card｜答案：In the British restaurants, the waiters usually bring the en…", "唯一": true}, {"序": 32, "词头": "take away", "方式": "搭配", "证据": "take away｜答案：In the British restaurants, the waiters usually bring the en…", "唯一": true}], "考法": null}
 {"id": "012-07", "命中": [], "考法": "比较级"}
 {"id": "012-08", "命中": [], "考法": null}
 {"id": "012-09", "命中": [{"序": 2, "词头": "prefer", "方式": "提示词", "证据": "提示词 prefer", "唯一": false}, {"序": 18, "词头": "preference", "方式": "提示词", "证据": "提示词 prefer", "唯一": false}], "考法": "动词形式"}
@@ -255,12 +255,12 @@
 {"id": "013-25", "命中": [{"序": 1, "词头": "leave... alone", "方式": "提示词", "证据": "提示词 leave", "唯一": true}], "考法": "动词形式"}
 {"id": "013-26", "命中": [], "考法": null}
 {"id": "013-27", "命中": [], "考法": null}
-{"id": "013-28", "命中": [{"序": 20, "词头": "in other words", "方式": "搭配", "证据": "keep one's word｜答案：keeping his promise/word", "唯一": true}], "考法": null}
+{"id": "013-28", "命中": [{"序": 20, "词头": "keep one's word", "方式": "搭配", "证据": "keep one's word｜答案：keeping his promise/word", "唯一": true}], "考法": null}
 {"id": "013-29", "命中": [], "考法": null}
 {"id": "013-30", "命中": [], "考法": null}
 {"id": "013-31", "命中": [], "考法": null}
 {"id": "013-32", "命中": [], "考法": null}
-{"id": "013-33", "命中": [{"序": 13, "词头": "replace", "方式": "搭配", "证据": "take the place of｜答案：As is known to us, many changes have taken place over the pa…", "唯一": true}], "考法": null}
+{"id": "013-33", "命中": [{"序": 13, "词头": "take one's place", "方式": "搭配", "证据": "take one's place｜答案：As is known to us, many changes have taken place over the pa…", "唯一": true}, {"序": 13, "词头": "take the place of", "方式": "搭配", "证据": "take the place of｜答案：As is known to us, many changes have taken place over the pa…", "唯一": true}], "考法": null}
 {"id": "014-08", "命中": [], "考法": null}
 {"id": "014-09", "命中": [], "考法": null}
 {"id": "014-10", "命中": [], "考法": null}
@@ -317,7 +317,7 @@
 {"id": "016-33", "命中": [], "考法": null}
 {"id": "016-34", "命中": [], "考法": null}
 {"id": "016-35", "命中": [], "考法": null}
-{"id": "016-36", "命中": [{"序": 15, "词头": "run out", "方式": "搭配", "证据": "run away (from...)｜答案：The suspect broke away from the young policeman and (then) r…", "唯一": true}, {"序": 22, "词头": "break out", "方式": "搭配", "证据": "break away from｜答案：The suspect broke away from the young policeman and (then) r…", "唯一": true}], "考法": null}
+{"id": "016-36", "命中": [{"序": 15, "词头": "run away", "方式": "搭配", "证据": "run away (from...)｜答案：The suspect broke away from the young policeman and (then) r…", "唯一": true}, {"序": 22, "词头": "break away from", "方式": "搭配", "证据": "break away from｜答案：The suspect broke away from the young policeman and (then) r…", "唯一": true}], "考法": null}
 {"id": "017-06", "命中": [], "考法": null}
 {"id": "017-07", "命中": [{"序": 1, "词头": "impression", "方式": "提示词", "证据": "提示词 impress", "唯一": true}], "考法": "词性转换"}
 {"id": "017-08", "命中": [], "考法": null}
@@ -372,7 +372,7 @@
 {"id": "019-15", "命中": [], "考法": null}
 {"id": "019-16", "命中": [{"序": 8, "词头": "pressure", "方式": "提示词", "证据": "提示词 press", "唯一": false}, {"序": 9, "词头": "press", "方式": "提示词", "证据": "提示词 press", "唯一": false}, {"序": 34, "词头": "press conference", "方式": "提示词", "证据": "提示词 press", "唯一": false}], "考法": "词性转换"}
 {"id": "019-17", "命中": [], "考法": null}
-{"id": "019-18", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set a good example to |for", "唯一": true}], "考法": null}
+{"id": "019-18", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set a good example to |for", "唯一": true}], "考法": null}
 {"id": "019-19", "命中": [], "考法": null}
 {"id": "019-20", "命中": [], "考法": null}
 {"id": "019-21", "命中": [], "考法": null}
@@ -449,12 +449,12 @@
 {"id": "023-13", "命中": [], "考法": "动词形式"}
 {"id": "023-14", "命中": [], "考法": null}
 {"id": "023-15", "命中": [], "考法": null}
-{"id": "023-16", "命中": [{"序": 10, "词头": "charge", "方式": "搭配", "证据": "take charge（of）｜答案：takes charge of", "唯一": false}, {"序": 22, "词头": "in charge（of sth）", "方式": "搭配", "证据": "take charge｜答案：takes charge of", "唯一": false}], "考法": null}
+{"id": "023-16", "命中": [{"序": 10, "词头": "charge", "方式": "搭配", "证据": "take charge（of）｜答案：takes charge of", "唯一": false}, {"序": 22, "词头": "take charge", "方式": "搭配", "证据": "take charge｜答案：takes charge of", "唯一": false}], "考法": null}
 {"id": "023-17", "命中": [], "考法": null}
 {"id": "023-18", "命中": [], "考法": null}
 {"id": "023-19", "命中": [], "考法": null}
 {"id": "023-20", "命中": [], "考法": null}
-{"id": "023-21", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is his spirit of devotion that sets him apart from other …", "唯一": true}], "考法": null}
+{"id": "023-21", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is his spirit of devotion that sets him apart from other …", "唯一": true}], "考法": null}
 {"id": "023-22", "命中": [], "考法": null}
 {"id": "024-07", "命中": [{"序": 10, "词头": "announce", "方式": "提示词", "证据": "提示词 announce", "唯一": true}], "考法": "动词形式"}
 {"id": "024-08", "命中": [{"序": 10, "词头": "puzzle", "方式": "提示词", "证据": "提示词 puzzle", "唯一": true}], "考法": "词性转换"}
@@ -570,11 +570,11 @@
 {"id": "029-15", "命中": [], "考法": "动词形式"}
 {"id": "029-16", "命中": [{"序": 2, "词头": "responsible", "方式": "提示词", "证据": "提示词 responsible", "唯一": true}], "考法": "词性转换"}
 {"id": "029-17", "命中": [], "考法": null}
-{"id": "029-18", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：setting an example to", "唯一": true}], "考法": null}
+{"id": "029-18", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：setting an example to", "唯一": true}], "考法": null}
 {"id": "029-19", "命中": [], "考法": null}
 {"id": "029-20", "命中": [], "考法": null}
 {"id": "029-21", "命中": [], "考法": null}
-{"id": "029-22", "命中": [{"序": 4, "词头": "rather than", "方式": "搭配", "证据": "prefer to do sth rather than do sth｜答案：preferred to stay rather than", "唯一": true}], "考法": null}
+{"id": "029-22", "命中": [{"序": 4, "词头": "prefer to do rather than", "方式": "搭配", "证据": "prefer to do sth rather than do sth｜答案：preferred to stay rather than", "唯一": true}], "考法": null}
 {"id": "029-23", "命中": [], "考法": null}
 {"id": "029-24", "命中": [], "考法": null}
 {"id": "029-25", "命中": [], "考法": null}
@@ -590,12 +590,12 @@
 {"id": "030-14", "命中": [{"序": 4, "词头": "determination", "方式": "提示词", "证据": "提示词 determine", "唯一": false}, {"序": 15, "词头": "determine", "方式": "提示词", "证据": "提示词 determine", "唯一": false}], "考法": "动词形式"}
 {"id": "030-15", "命中": [{"序": 11, "词头": "absorbed in sth/sb", "方式": "提示词", "证据": "提示词 absorb", "唯一": false}, {"序": 28, "词头": "absorbed", "方式": "提示词", "证据": "提示词 absorb", "唯一": false}], "考法": "动词形式"}
 {"id": "030-16", "命中": [], "考法": null}
-{"id": "030-17", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
+{"id": "030-17", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
 {"id": "030-18", "命中": [], "考法": null}
 {"id": "030-19", "命中": [], "考法": null}
 {"id": "030-20", "命中": [], "考法": null}
 {"id": "030-21", "命中": [], "考法": null}
-{"id": "030-22", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make fun of｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": false}, {"序": 24, "词头": "trick", "方式": "搭配", "证据": "make fun of sb｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": false}, {"序": 35, "词头": "disability", "方式": "搭配", "证据": "a physical/mental disability｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": true}], "考法": null}
+{"id": "030-22", "命中": [{"序": 4, "词头": "make fun of", "方式": "搭配", "证据": "make fun of｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": false}, {"序": 24, "词头": "make fun of", "方式": "搭配", "证据": "make fun of sb｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": false}, {"序": 35, "词头": "disability", "方式": "搭配", "证据": "a physical/mental disability｜答案：It is impolite to make fun of people with physical disabilit…", "唯一": true}], "考法": null}
 {"id": "031-07", "命中": [], "考法": null}
 {"id": "031-08", "命中": [{"序": 3, "词头": "arrangement", "方式": "提示词", "证据": "提示词 arrange", "唯一": true}], "考法": "词性转换"}
 {"id": "031-09", "命中": [], "考法": null}
@@ -606,7 +606,7 @@
 {"id": "031-14", "命中": [], "考法": "动词形式"}
 {"id": "031-15", "命中": [], "考法": null}
 {"id": "031-16", "命中": [{"序": 7, "词头": "prevent", "方式": "提示词", "证据": "提示词 prevent", "唯一": true}], "考法": "动词形式"}
-{"id": "031-17", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a difference", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make a difference to｜答案：make a difference", "唯一": false}], "考法": null}
+{"id": "031-17", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a difference", "唯一": false}, {"序": 31, "词头": "make a difference to", "方式": "搭配", "证据": "make a difference to｜答案：make a difference", "唯一": false}], "考法": null}
 {"id": "031-18", "命中": [], "考法": null}
 {"id": "031-19", "命中": [], "考法": null}
 {"id": "031-20", "命中": [], "考法": null}
@@ -631,7 +631,7 @@
 {"id": "032-16", "命中": [], "考法": null}
 {"id": "032-17", "命中": [], "考法": null}
 {"id": "032-18", "命中": [], "考法": null}
-{"id": "032-19", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
+{"id": "032-19", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
 {"id": "032-20", "命中": [], "考法": null}
 {"id": "032-21", "命中": [{"序": 29, "词头": "emission", "方式": "搭配", "证据": "carbon emissions｜答案：The policy has significantly reduced the industrial pollutio…", "唯一": true}], "考法": null}
 {"id": "032-22", "命中": [], "考法": null}
@@ -682,7 +682,7 @@
 {"id": "035-16", "命中": [], "考法": null}
 {"id": "035-17", "命中": [], "考法": null}
 {"id": "035-18", "命中": [], "考法": null}
-{"id": "035-19", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
+{"id": "035-19", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
 {"id": "035-20", "命中": [], "考法": null}
 {"id": "035-21", "命中": [], "考法": null}
 {"id": "035-22", "命中": [], "考法": null}
@@ -736,7 +736,7 @@
 {"id": "038-13", "命中": [{"序": 1, "词头": "submit", "方式": "提示词", "证据": "提示词 submit", "唯一": false}, {"序": 29, "词头": "submit", "方式": "提示词", "证据": "提示词 submit", "唯一": false}], "考法": "动词形式"}
 {"id": "038-14", "命中": [], "考法": null}
 {"id": "038-15", "命中": [{"序": 36, "词头": "accuse", "方式": "提示词", "证据": "提示词 accuse", "唯一": true}], "考法": "动词形式"}
-{"id": "038-16", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
+{"id": "038-16", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：sets apart from", "唯一": true}], "考法": null}
 {"id": "038-17", "命中": [{"序": 17, "词头": "conclusion", "方式": "搭配", "证据": "draw/reach/come to/arrive at a conclusion｜答案：came to a conclusion", "唯一": true}], "考法": null}
 {"id": "038-18", "命中": [], "考法": null}
 {"id": "038-19", "命中": [], "考法": null}
@@ -754,7 +754,7 @@
 {"id": "039-15", "命中": [{"序": 11, "词头": "energy", "方式": "提示词", "证据": "提示词 energy", "唯一": false}, {"序": 29, "词头": "alternative energy", "方式": "提示词", "证据": "提示词 energy", "唯一": false}], "考法": "词性转换"}
 {"id": "039-16", "命中": [{"序": 4, "词头": "come along", "方式": "提示词", "证据": "提示词 come", "唯一": false}, {"序": 17, "词头": "come to power", "方式": "提示词", "证据": "提示词 come", "唯一": false}, {"序": 22, "词头": "come down with", "方式": "提示词", "证据": "提示词 come", "唯一": false}, {"序": 35, "词头": "come across", "方式": "提示词", "证据": "提示词 come", "唯一": false}, {"序": 36, "词头": "come to a conclusion", "方式": "提示词", "证据": "提示词 come", "唯一": false}], "考法": "动词形式"}
 {"id": "039-17", "命中": [{"序": 4, "词头": "track", "方式": "搭配", "证据": "keep track of｜答案：keeping track of", "唯一": true}], "考法": null}
-{"id": "039-18", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make（good/full）use of｜答案：make the most of/make full use of", "唯一": true}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make full use of｜答案：make the most of/make full use of", "唯一": true}], "考法": null}
+{"id": "039-18", "命中": [{"序": 4, "词头": "make use of", "方式": "搭配", "证据": "make（good/full）use of｜答案：make the most of/make full use of", "唯一": true}, {"序": 31, "词头": "make full use of", "方式": "搭配", "证据": "make full use of｜答案：make the most of/make full use of", "唯一": true}], "考法": null}
 {"id": "039-19", "命中": [], "考法": null}
 {"id": "039-20", "命中": [], "考法": null}
 {"id": "039-21", "命中": [], "考法": null}
@@ -772,7 +772,7 @@
 {"id": "040-14", "命中": [{"序": 12, "词头": "gather", "方式": "提示词", "证据": "提示词 gather", "唯一": true}], "考法": "动词形式"}
 {"id": "040-15", "命中": [{"序": 9, "词头": "particular", "方式": "提示词", "证据": "提示词 particular", "唯一": false}, {"序": 27, "词头": "in particular", "方式": "提示词", "证据": "提示词 particular", "唯一": false}], "考法": "词性转换"}
 {"id": "040-16", "命中": [], "考法": null}
-{"id": "040-17", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make fun of｜答案：made fun of", "唯一": false}, {"序": 24, "词头": "trick", "方式": "搭配", "证据": "make fun of sb｜答案：made fun of", "唯一": false}], "考法": null}
+{"id": "040-17", "命中": [{"序": 4, "词头": "make fun of", "方式": "搭配", "证据": "make fun of｜答案：made fun of", "唯一": false}, {"序": 24, "词头": "make fun of", "方式": "搭配", "证据": "make fun of sb｜答案：made fun of", "唯一": false}], "考法": null}
 {"id": "040-18", "命中": [], "考法": null}
 {"id": "040-19", "命中": [], "考法": null}
 {"id": "040-20", "命中": [], "考法": null}
@@ -812,7 +812,7 @@
 {"id": "042-13", "命中": [], "考法": null}
 {"id": "042-14", "命中": [], "考法": null}
 {"id": "042-15", "命中": [], "考法": null}
-{"id": "042-16", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up mind", "唯一": true}], "考法": null}
+{"id": "042-16", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up mind", "唯一": true}], "考法": null}
 {"id": "042-17", "命中": [], "考法": null}
 {"id": "042-18", "命中": [], "考法": null}
 {"id": "042-19", "命中": [], "考法": null}
@@ -830,7 +830,7 @@
 {"id": "043-15", "命中": [{"序": 9, "词头": "particular", "方式": "提示词", "证据": "提示词 particular", "唯一": false}, {"序": 27, "词头": "in particular", "方式": "提示词", "证据": "提示词 particular", "唯一": false}], "考法": "词性转换"}
 {"id": "043-16", "命中": [{"序": 11, "词头": "absorbed in sth/sb", "方式": "提示词", "证据": "提示词 absorb", "唯一": false}, {"序": 28, "词头": "absorbed", "方式": "提示词", "证据": "提示词 absorb", "唯一": false}], "考法": "动词形式"}
 {"id": "043-17", "命中": [], "考法": null}
-{"id": "043-18", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}], "考法": null}
+{"id": "043-18", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：keep in mind", "唯一": true}], "考法": null}
 {"id": "043-19", "命中": [], "考法": null}
 {"id": "043-20", "命中": [], "考法": null}
 {"id": "043-21", "命中": [], "考法": null}
@@ -885,7 +885,7 @@
 {"id": "046-15", "命中": [{"序": 1, "词头": "adopt", "方式": "提示词", "证据": "提示词 adopt", "唯一": false}, {"序": 19, "词头": "adopt", "方式": "提示词", "证据": "提示词 adopt", "唯一": false}], "考法": "动词形式"}
 {"id": "046-16", "命中": [], "考法": null}
 {"id": "046-17", "命中": [], "考法": null}
-{"id": "046-18", "命中": [{"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept in touch with", "唯一": true}], "考法": null}
+{"id": "046-18", "命中": [{"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept in touch with", "唯一": true}], "考法": null}
 {"id": "046-19", "命中": [], "考法": null}
 {"id": "046-20", "命中": [], "考法": null}
 {"id": "046-21", "命中": [], "考法": null}
@@ -900,8 +900,8 @@
 {"id": "047-14", "命中": [], "考法": null}
 {"id": "047-15", "命中": [{"序": 4, "词头": "strength", "方式": "提示词", "证据": "提示词 strength", "唯一": false}, {"序": 23, "词头": "strengthen", "方式": "提示词", "证据": "提示词 strength", "唯一": false}], "考法": "名词复数"}
 {"id": "047-16", "命中": [], "考法": null}
-{"id": "047-17", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set a good example to |for", "唯一": true}], "考法": null}
-{"id": "047-18", "命中": [{"序": 4, "词头": "apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}, {"序": 27, "词头": "set apart from", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}], "考法": null}
+{"id": "047-17", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set a good example to |for", "唯一": true}], "考法": null}
+{"id": "047-18", "命中": [{"序": 4, "词头": "apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}, {"序": 27, "词头": "fall apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}], "考法": null}
 {"id": "047-19", "命中": [], "考法": null}
 {"id": "047-20", "命中": [], "考法": null}
 {"id": "047-21", "命中": [], "考法": null}
@@ -939,7 +939,7 @@
 {"id": "049-15", "命中": [{"序": 17, "词头": "flow", "方式": "提示词", "证据": "提示词 flow", "唯一": true}], "考法": "动词形式"}
 {"id": "049-16", "命中": [], "考法": null}
 {"id": "049-17", "命中": [], "考法": null}
-{"id": "049-18", "命中": [{"序": 14, "词头": "seek (sought, sought)", "方式": "搭配", "证据": "seek one's fortune｜答案：sought their fortune", "唯一": true}], "考法": null}
+{"id": "049-18", "命中": [{"序": 14, "词头": "seek one's fortune", "方式": "搭配", "证据": "seek one's fortune｜答案：sought their fortune", "唯一": true}], "考法": null}
 {"id": "049-19", "命中": [], "考法": null}
 {"id": "049-20", "命中": [], "考法": null}
 {"id": "049-21", "命中": [], "考法": null}
@@ -972,7 +972,7 @@
 {"id": "050-30", "命中": [], "考法": null}
 {"id": "050-31", "命中": [], "考法": null}
 {"id": "050-32", "命中": [], "考法": null}
-{"id": "050-33", "命中": [{"序": 12, "词头": "moment", "方式": "搭配", "证据": "the first/second/... time｜答案：It is the first time that she has taken part in the sports m…", "唯一": true}], "考法": null}
+{"id": "050-33", "命中": [{"序": 12, "词头": "the first time", "方式": "搭配", "证据": "the first/second/... time｜答案：It is the first time that she has taken part in the sports m…", "唯一": true}], "考法": null}
 {"id": "051-07", "命中": [], "考法": null}
 {"id": "051-08", "命中": [{"序": 22, "词头": "infect", "方式": "提示词", "证据": "提示词 infect", "唯一": true}], "考法": "词性转换"}
 {"id": "051-09", "命中": [{"序": 23, "词头": "recall", "方式": "提示词", "证据": "提示词 recall", "唯一": true}], "考法": "动词形式"}
@@ -983,7 +983,7 @@
 {"id": "051-14", "命中": [], "考法": null}
 {"id": "051-15", "命中": [{"序": 10, "词头": "defence", "方式": "提示词", "证据": "提示词 defend", "唯一": false}, {"序": 22, "词头": "defend", "方式": "提示词", "证据": "提示词 defend", "唯一": false}], "考法": "动词形式"}
 {"id": "051-16", "命中": [], "考法": null}
-{"id": "051-17", "命中": [{"序": 16, "词头": "to be honest", "方式": "搭配", "证据": "generally/strictly speaking｜答案：In |Generally summary |conclusion |general |speaking", "唯一": true}], "考法": null}
+{"id": "051-17", "命中": [{"序": 16, "词头": "generally speaking", "方式": "搭配", "证据": "generally/strictly speaking｜答案：In |Generally summary |conclusion |general |speaking", "唯一": true}], "考法": null}
 {"id": "051-18", "命中": [], "考法": null}
 {"id": "051-19", "命中": [], "考法": null}
 {"id": "051-20", "命中": [], "考法": null}
@@ -1003,10 +1003,10 @@
 {"id": "052-13", "命中": [], "考法": null}
 {"id": "052-14", "命中": [], "考法": null}
 {"id": "052-15", "命中": [{"序": 19, "词头": "amuse", "方式": "提示词", "证据": "提示词 amuse", "唯一": true}], "考法": "词性转换"}
-{"id": "052-16", "命中": [{"序": 8, "词头": "remove", "方式": "搭配", "证据": "get rid of｜答案：get rid of", "唯一": true}], "考法": null}
+{"id": "052-16", "命中": [{"序": 8, "词头": "get rid of", "方式": "搭配", "证据": "get rid of｜答案：get rid of", "唯一": true}], "考法": null}
 {"id": "052-17", "命中": [{"序": 22, "词头": "fault", "方式": "搭配", "证据": "find fault（with）｜答案：finding fault with", "唯一": true}], "考法": null}
 {"id": "052-18", "命中": [], "考法": null}
-{"id": "052-19", "命中": [{"序": 20, "词头": "trial", "方式": "搭配", "证据": "trial and error｜答案：trial and error", "唯一": false}, {"序": 32, "词头": "test out", "方式": "搭配", "证据": "trial and error｜答案：trial and error", "唯一": false}], "考法": null}
+{"id": "052-19", "命中": [{"序": 20, "词头": "trial", "方式": "搭配", "证据": "trial and error｜答案：trial and error", "唯一": false}, {"序": 32, "词头": "trial and error", "方式": "搭配", "证据": "trial and error｜答案：trial and error", "唯一": false}], "考法": null}
 {"id": "052-20", "命中": [], "考法": null}
 {"id": "052-21", "命中": [], "考法": null}
 {"id": "052-22", "命中": [], "考法": null}
@@ -1082,7 +1082,7 @@
 {"id": "056-22", "命中": [], "考法": null}
 {"id": "056-23", "命中": [], "考法": null}
 {"id": "056-24", "命中": [], "考法": null}
-{"id": "056-25", "命中": [{"序": 32, "词头": "take over", "方式": "搭配", "证据": "take back｜答案：The pictures often take him back to the years when/ in which…", "唯一": true}], "考法": null}
+{"id": "056-25", "命中": [{"序": 32, "词头": "take back", "方式": "搭配", "证据": "take back｜答案：The pictures often take him back to the years when/ in which…", "唯一": true}], "考法": null}
 {"id": "056-26", "命中": [], "考法": null}
 {"id": "056-27", "命中": [], "考法": null}
 {"id": "057-07", "命中": [{"序": 17, "词头": "gentle", "方式": "提示词", "证据": "提示词 gentle", "唯一": true}], "考法": "词性转换"}
@@ -1156,7 +1156,7 @@
 {"id": "060-18", "命中": [], "考法": null}
 {"id": "060-19", "命中": [], "考法": null}
 {"id": "060-20", "命中": [], "考法": null}
-{"id": "060-21", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is his spirit of devotion that sets him apart from other …", "唯一": true}], "考法": null}
+{"id": "060-21", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is his spirit of devotion that sets him apart from other …", "唯一": true}], "考法": null}
 {"id": "060-22", "命中": [], "考法": null}
 {"id": "061-06", "命中": [], "考法": null}
 {"id": "061-07", "命中": [{"序": 34, "词头": "possession", "方式": "提示词", "证据": "提示词 possess", "唯一": true}], "考法": "词性转换"}
@@ -1227,7 +1227,7 @@
 {"id": "064-15", "命中": [], "考法": null}
 {"id": "064-16", "命中": [{"序": 1, "词头": "individual", "方式": "提示词", "证据": "提示词 individual", "唯一": false}, {"序": 10, "词头": "individual", "方式": "提示词", "证据": "提示词 individual", "唯一": false}], "考法": "词性转换"}
 {"id": "064-17", "命中": [], "考法": null}
-{"id": "064-18", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep |bear it in mind", "唯一": true}], "考法": null}
+{"id": "064-18", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep |bear it in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：keep |bear it in mind", "唯一": true}], "考法": null}
 {"id": "064-19", "命中": [], "考法": null}
 {"id": "064-20", "命中": [], "考法": null}
 {"id": "064-21", "命中": [], "考法": null}
@@ -1320,7 +1320,7 @@
 {"id": "069-14", "命中": [], "考法": null}
 {"id": "069-15", "命中": [{"序": 5, "词头": "predict", "方式": "提示词", "证据": "提示词 predict", "唯一": false}, {"序": 18, "词头": "predict", "方式": "提示词", "证据": "提示词 predict", "唯一": false}], "考法": "动词形式"}
 {"id": "069-16", "命中": [], "考法": null}
-{"id": "069-17", "命中": [{"序": 18, "词头": "touch easily even if they are on opposite sides of the world.", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：keep/stay in touch", "唯一": false}, {"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：keep/stay in touch", "唯一": true}], "考法": null}
+{"id": "069-17", "命中": [{"序": 18, "词头": "be in contact with", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：keep/stay in touch", "唯一": false}, {"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：keep/stay in touch", "唯一": true}], "考法": null}
 {"id": "069-18", "命中": [], "考法": null}
 {"id": "069-19", "命中": [], "考法": null}
 {"id": "069-20", "命中": [], "考法": null}
@@ -1337,7 +1337,7 @@
 {"id": "070-17", "命中": [{"序": 23, "词头": "exposure", "方式": "提示词", "证据": "提示词 expose", "唯一": true}], "考法": "动词形式"}
 {"id": "070-18", "命中": [{"序": 18, "词头": "combine", "方式": "提示词", "证据": "提示词 combine", "唯一": true}], "考法": "动词形式"}
 {"id": "070-19", "命中": [], "考法": null}
-{"id": "070-20", "命中": [{"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept in touch with", "唯一": true}], "考法": null}
+{"id": "070-20", "命中": [{"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept in touch with", "唯一": true}], "考法": null}
 {"id": "070-21", "命中": [], "考法": null}
 {"id": "070-22", "命中": [], "考法": null}
 {"id": "070-23", "命中": [], "考法": null}
@@ -1355,7 +1355,7 @@
 {"id": "071-19", "命中": [], "考法": null}
 {"id": "071-20", "命中": [], "考法": null}
 {"id": "071-21", "命中": [], "考法": null}
-{"id": "071-22", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：makes a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：makes a difference", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make a difference to｜答案：makes a difference", "唯一": false}], "考法": null}
+{"id": "071-22", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：makes a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：makes a difference", "唯一": false}, {"序": 31, "词头": "make a difference to", "方式": "搭配", "证据": "make a difference to｜答案：makes a difference", "唯一": false}], "考法": null}
 {"id": "071-23", "命中": [], "考法": null}
 {"id": "071-24", "命中": [], "考法": null}
 {"id": "071-25", "命中": [], "考法": null}
@@ -1433,7 +1433,7 @@
 {"id": "075-19", "命中": [], "考法": null}
 {"id": "075-20", "命中": [], "考法": null}
 {"id": "075-21", "命中": [], "考法": null}
-{"id": "075-22", "命中": [{"序": 16, "词头": "to be honest", "方式": "搭配", "证据": "generally/strictly speaking｜答案：Generally speaking, optimistic people are more likely to qui…", "唯一": true}], "考法": null}
+{"id": "075-22", "命中": [{"序": 16, "词头": "generally speaking", "方式": "搭配", "证据": "generally/strictly speaking｜答案：Generally speaking, optimistic people are more likely to qui…", "唯一": true}], "考法": null}
 {"id": "076-06", "命中": [{"序": 11, "词头": "repetition", "方式": "提示词", "证据": "提示词 repeat", "唯一": false}, {"序": 28, "词头": "repeatedly", "方式": "提示词", "证据": "提示词 repeat", "唯一": false}], "考法": "词性转换"}
 {"id": "076-07", "命中": [{"序": 1, "词头": "submit", "方式": "提示词", "证据": "提示词 submit", "唯一": false}, {"序": 29, "词头": "submit", "方式": "提示词", "证据": "提示词 submit", "唯一": false}], "考法": "动词形式"}
 {"id": "076-08", "命中": [], "考法": null}
@@ -1445,7 +1445,7 @@
 {"id": "076-14", "命中": [{"序": 29, "词头": "undergo", "方式": "提示词", "证据": "提示词 undergo", "唯一": true}], "考法": "动词形式"}
 {"id": "076-15", "命中": [], "考法": null}
 {"id": "076-16", "命中": [], "考法": null}
-{"id": "076-17", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：set him apart from", "唯一": true}], "考法": null}
+{"id": "076-17", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：set him apart from", "唯一": true}], "考法": null}
 {"id": "076-18", "命中": [], "考法": null}
 {"id": "076-19", "命中": [], "考法": null}
 {"id": "076-20", "命中": [], "考法": null}
@@ -1462,7 +1462,7 @@
 {"id": "077-14", "命中": [], "考法": null}
 {"id": "077-15", "命中": [{"序": 18, "词头": "catch fire", "方式": "提示词", "证据": "提示词 catch", "唯一": true}], "考法": "动词形式"}
 {"id": "077-16", "命中": [], "考法": null}
-{"id": "077-17", "命中": [{"序": 18, "词头": "touch easily even if they are on opposite sides of the world.", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：kept |stayed in touch with", "唯一": false}, {"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept |stayed in touch with", "唯一": true}], "考法": null}
+{"id": "077-17", "命中": [{"序": 18, "词头": "be in contact with", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：kept |stayed in touch with", "唯一": false}, {"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：kept |stayed in touch with", "唯一": true}], "考法": null}
 {"id": "077-18", "命中": [], "考法": null}
 {"id": "077-19", "命中": [], "考法": null}
 {"id": "077-20", "命中": [], "考法": null}
@@ -1516,7 +1516,7 @@
 {"id": "080-21", "命中": [{"序": 4, "词头": "track", "方式": "搭配", "证据": "keep track of｜答案：keeps track of", "唯一": true}], "考法": null}
 {"id": "080-22", "命中": [], "考法": null}
 {"id": "080-23", "命中": [], "考法": null}
-{"id": "080-24", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep |bear in mind", "唯一": true}], "考法": null}
+{"id": "080-24", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep |bear in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：keep |bear in mind", "唯一": true}], "考法": null}
 {"id": "080-25", "命中": [], "考法": null}
 {"id": "080-26", "命中": [], "考法": null}
 {"id": "080-27", "命中": [], "考法": null}
@@ -1534,7 +1534,7 @@
 {"id": "081-18", "命中": [{"序": 13, "词头": "appoint", "方式": "提示词", "证据": "提示词 appoint", "唯一": false}, {"序": 32, "词头": "appointment", "方式": "提示词", "证据": "提示词 appoint", "唯一": false}], "考法": "动词形式"}
 {"id": "081-19", "命中": [], "考法": null}
 {"id": "081-20", "命中": [], "考法": null}
-{"id": "081-21", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
+{"id": "081-21", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
 {"id": "081-22", "命中": [], "考法": null}
 {"id": "081-23", "命中": [], "考法": null}
 {"id": "081-24", "命中": [], "考法": null}
@@ -1551,7 +1551,7 @@
 {"id": "082-18", "命中": [{"序": 13, "词头": "appoint", "方式": "提示词", "证据": "提示词 appoint", "唯一": false}, {"序": 32, "词头": "appointment", "方式": "提示词", "证据": "提示词 appoint", "唯一": false}], "考法": "动词形式"}
 {"id": "082-19", "命中": [], "考法": null}
 {"id": "082-20", "命中": [], "考法": null}
-{"id": "082-21", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
+{"id": "082-21", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
 {"id": "082-22", "命中": [], "考法": null}
 {"id": "082-23", "命中": [], "考法": null}
 {"id": "082-24", "命中": [], "考法": null}
@@ -1645,7 +1645,7 @@
 {"id": "086-22", "命中": [{"序": 12, "词头": "typical", "方式": "答案", "证据": "答案 typical", "唯一": true}], "考法": null}
 {"id": "086-23", "命中": [{"序": 8, "词头": "make progress", "方式": "搭配", "证据": "make great/much progress｜答案：make progress", "唯一": true}], "考法": null}
 {"id": "086-24", "命中": [], "考法": null}
-{"id": "086-25", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：makes sense", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make sense｜答案：makes sense", "唯一": false}], "考法": null}
+{"id": "086-25", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：makes sense", "唯一": false}, {"序": 31, "词头": "make sense", "方式": "搭配", "证据": "make sense｜答案：makes sense", "唯一": false}, {"序": 31, "词头": "make sense of", "方式": "搭配", "证据": "make sense of｜答案：makes sense", "唯一": false}], "考法": null}
 {"id": "086-26", "命中": [], "考法": null}
 {"id": "086-27", "命中": [], "考法": null}
 {"id": "086-28", "命中": [], "考法": null}
@@ -1787,7 +1787,7 @@
 {"id": "094-22", "命中": [], "考法": null}
 {"id": "094-23", "命中": [], "考法": null}
 {"id": "094-24", "命中": [], "考法": null}
-{"id": "094-25", "命中": [{"序": 4, "词头": "now and then", "方式": "搭配", "证据": "from time to time｜答案：from time to time", "唯一": true}], "考法": null}
+{"id": "094-25", "命中": [{"序": 4, "词头": "from time to time", "方式": "搭配", "证据": "from time to time｜答案：from time to time", "唯一": true}], "考法": null}
 {"id": "094-26", "命中": [], "考法": null}
 {"id": "094-27", "命中": [], "考法": null}
 {"id": "094-28", "命中": [], "考法": null}
@@ -1809,7 +1809,7 @@
 {"id": "095-21", "命中": [], "考法": null}
 {"id": "095-22", "命中": [], "考法": null}
 {"id": "095-23", "命中": [], "考法": null}
-{"id": "095-24", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：What sets Qian Xuesen apart from most engineers is his const…", "唯一": true}], "考法": null}
+{"id": "095-24", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：What sets Qian Xuesen apart from most engineers is his const…", "唯一": true}], "考法": null}
 {"id": "096-07", "命中": [], "考法": null}
 {"id": "096-08", "命中": [], "考法": null}
 {"id": "096-09", "命中": [{"序": 1, "词头": "look forward to", "方式": "提示词", "证据": "提示词 look", "唯一": true}], "考法": "动词形式"}
@@ -1938,7 +1938,7 @@
 {"id": "099-27", "命中": [{"序": 6, "词头": "variety", "方式": "提示词", "证据": "提示词 variety", "唯一": false}, {"序": 11, "词头": "various", "方式": "提示词", "证据": "提示词 variety", "唯一": false}, {"序": 20, "词头": "vary", "方式": "提示词", "证据": "提示词 variety", "唯一": false}, {"序": 31, "词头": "variation", "方式": "提示词", "证据": "提示词 variety", "唯一": false}], "考法": "名词复数"}
 {"id": "099-28", "命中": [], "考法": null}
 {"id": "099-29", "命中": [], "考法": null}
-{"id": "099-30", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for", "唯一": true}], "考法": null}
+{"id": "099-30", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for", "唯一": true}], "考法": null}
 {"id": "099-31", "命中": [], "考法": null}
 {"id": "099-32", "命中": [], "考法": null}
 {"id": "099-33", "命中": [], "考法": null}
@@ -1946,7 +1946,7 @@
 {"id": "099-35", "命中": [], "考法": null}
 {"id": "099-36", "命中": [], "考法": null}
 {"id": "099-37", "命中": [], "考法": null}
-{"id": "099-38", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a difference", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make a difference to｜答案：make a difference", "唯一": false}], "考法": null}
+{"id": "099-38", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a difference", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a difference", "唯一": false}, {"序": 31, "词头": "make a difference to", "方式": "搭配", "证据": "make a difference to｜答案：make a difference", "唯一": false}], "考法": null}
 {"id": "099-39", "命中": [], "考法": null}
 {"id": "099-40", "命中": [], "考法": null}
 {"id": "099-41", "命中": [{"序": 8, "词头": "make progress", "方式": "搭配", "证据": "make great/much progress｜答案：It is with your help that I have made such great progress in…", "唯一": true}], "考法": null}
@@ -2013,7 +2013,7 @@
 {"id": "102-17", "命中": [], "考法": null}
 {"id": "102-18", "命中": [], "考法": null}
 {"id": "102-19", "命中": [], "考法": null}
-{"id": "102-20", "命中": [{"序": 1, "词头": "look forward to", "方式": "搭配", "证据": "pay attention to｜答案：We should pay attention to small details,which can guarantee…", "唯一": true}], "考法": null}
+{"id": "102-20", "命中": [{"序": 1, "词头": "pay attention to", "方式": "搭配", "证据": "pay attention to｜答案：We should pay attention to small details,which can guarantee…", "唯一": true}], "考法": null}
 {"id": "102-21", "命中": [], "考法": null}
 {"id": "102-22", "命中": [], "考法": null}
 {"id": "103-01", "命中": [], "考法": null}
@@ -2051,12 +2051,12 @@
 {"id": "104-14", "命中": [{"序": 29, "词头": "release", "方式": "提示词", "证据": "提示词 release", "唯一": true}], "考法": "动词形式"}
 {"id": "104-15", "命中": [{"序": 27, "词头": "precise", "方式": "提示词", "证据": "提示词 precise", "唯一": true}], "考法": "词性转换"}
 {"id": "104-16", "命中": [], "考法": null}
-{"id": "104-17", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up her mind to", "唯一": true}], "考法": null}
+{"id": "104-17", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up her mind to", "唯一": true}], "考法": null}
 {"id": "104-18", "命中": [], "考法": null}
 {"id": "104-19", "命中": [], "考法": null}
 {"id": "104-20", "命中": [], "考法": null}
 {"id": "104-21", "命中": [], "考法": null}
-{"id": "104-22", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is the format in poetry that sets it apart from other lit…", "唯一": true}], "考法": null}
+{"id": "104-22", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is the format in poetry that sets it apart from other lit…", "唯一": true}], "考法": null}
 {"id": "105-06", "命中": [], "考法": null}
 {"id": "105-07", "命中": [], "考法": "动词形式"}
 {"id": "105-08", "命中": [{"序": 23, "词头": "participate", "方式": "提示词", "证据": "提示词 participate", "唯一": false}, {"序": 36, "词头": "participant", "方式": "提示词", "证据": "提示词 participate", "唯一": false}], "考法": "词性转换"}
@@ -2150,7 +2150,7 @@
 {"id": "110-14", "命中": [{"序": 26, "词头": "help sb to one's feet", "方式": "提示词", "证据": "提示词 help", "唯一": true}], "考法": "动词形式"}
 {"id": "110-15", "命中": [{"序": 18, "词头": "catch fire", "方式": "提示词", "证据": "提示词 catch", "唯一": true}], "考法": "动词形式"}
 {"id": "110-16", "命中": [], "考法": null}
-{"id": "110-17", "命中": [{"序": 18, "词头": "touch easily even if they are on opposite sides of the world.", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：keep |stay in touch with", "唯一": false}, {"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：keep |stay in touch with", "唯一": true}], "考法": null}
+{"id": "110-17", "命中": [{"序": 18, "词头": "be in contact with", "方式": "搭配", "证据": "be/get/stay in contact/touch with｜答案：keep |stay in touch with", "唯一": false}, {"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：keep |stay in touch with", "唯一": true}], "考法": null}
 {"id": "110-18", "命中": [], "考法": null}
 {"id": "110-19", "命中": [], "考法": null}
 {"id": "110-20", "命中": [], "考法": null}
@@ -2188,7 +2188,7 @@
 {"id": "112-14", "命中": [], "考法": "动词形式"}
 {"id": "112-15", "命中": [{"序": 1, "词头": "take notes", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 3, "词头": "take control of", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 7, "词头": "take part in", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 12, "词头": "take advantage of", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 17, "词头": "take up a position", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 32, "词头": "take over", "方式": "提示词", "证据": "提示词 take", "唯一": false}, {"序": 35, "词头": "take", "方式": "提示词", "证据": "提示词 take", "唯一": false}], "考法": "动词形式"}
 {"id": "112-16", "命中": [], "考法": null}
-{"id": "112-17", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
+{"id": "112-17", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
 {"id": "112-18", "命中": [], "考法": null}
 {"id": "112-19", "命中": [], "考法": null}
 {"id": "112-20", "命中": [], "考法": null}
@@ -2260,11 +2260,11 @@
 {"id": "116-18", "命中": [{"序": 30, "词头": "abandon", "方式": "提示词", "证据": "提示词 abandon", "唯一": true}], "考法": "动词形式"}
 {"id": "116-19", "命中": [], "考法": null}
 {"id": "116-20", "命中": [], "考法": null}
-{"id": "116-21", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up her mind", "唯一": true}], "考法": null}
+{"id": "116-21", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up her mind", "唯一": true}], "考法": null}
 {"id": "116-22", "命中": [], "考法": null}
 {"id": "116-23", "命中": [], "考法": null}
 {"id": "116-24", "命中": [], "考法": null}
-{"id": "116-25", "命中": [{"序": 12, "词头": "set off", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is the format in poetry that sets it apart from other lit…", "唯一": true}], "考法": null}
+{"id": "116-25", "命中": [{"序": 12, "词头": "set apart", "方式": "搭配", "证据": "set sb/sth apart (from sb/sth)｜答案：It is the format in poetry that sets it apart from other lit…", "唯一": true}], "考法": null}
 {"id": "117-10", "命中": [{"序": 10, "词头": "approach", "方式": "提示词", "证据": "提示词 approach", "唯一": true}], "考法": "动词形式"}
 {"id": "117-11", "命中": [{"序": 11, "词头": "award", "方式": "提示词", "证据": "提示词 award", "唯一": true}], "考法": "动词形式"}
 {"id": "117-12", "命中": [], "考法": null}
@@ -2282,8 +2282,8 @@
 {"id": "117-24", "命中": [], "考法": null}
 {"id": "117-25", "命中": [], "考法": null}
 {"id": "117-26", "命中": [], "考法": null}
-{"id": "117-27", "命中": [{"序": 22, "词头": "break out", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
-{"id": "117-28", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}], "考法": null}
+{"id": "117-27", "命中": [{"序": 22, "词头": "break away from", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
+{"id": "117-28", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：keep in mind", "唯一": true}], "考法": null}
 {"id": "117-29", "命中": [], "考法": null}
 {"id": "117-30", "命中": [], "考法": null}
 {"id": "117-31", "命中": [], "考法": null}
@@ -2370,10 +2370,10 @@
 {"id": "122-14", "命中": [{"序": 3, "词头": "powerful", "方式": "提示词", "证据": "提示词 power", "唯一": false}, {"序": 5, "词头": "power", "方式": "提示词", "证据": "提示词 power", "唯一": false}, {"序": 17, "词头": "come to power", "方式": "提示词", "证据": "提示词 power", "唯一": false}], "考法": "词性转换"}
 {"id": "122-15", "命中": [], "考法": null}
 {"id": "122-16", "命中": [{"序": 3, "词头": "arrangement", "方式": "提示词", "证据": "提示词 arrangement", "唯一": true}], "考法": "名词复数"}
-{"id": "122-17", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：sets an example", "唯一": true}], "考法": null}
+{"id": "122-17", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：sets an example", "唯一": true}], "考法": null}
 {"id": "122-18", "命中": [], "考法": null}
 {"id": "122-19", "命中": [], "考法": null}
-{"id": "122-20", "命中": [{"序": 4, "词头": "rather than", "方式": "搭配", "证据": "prefer to do sth rather than do sth｜答案：prefers to rather than", "唯一": true}], "考法": null}
+{"id": "122-20", "命中": [{"序": 4, "词头": "prefer to do rather than", "方式": "搭配", "证据": "prefer to do sth rather than do sth｜答案：prefers to rather than", "唯一": true}], "考法": null}
 {"id": "122-21", "命中": [], "考法": null}
 {"id": "122-22", "命中": [], "考法": null}
 {"id": "122-23", "命中": [], "考法": null}
@@ -2391,12 +2391,12 @@
 {"id": "123-17", "命中": [], "考法": null}
 {"id": "123-18", "命中": [], "考法": null}
 {"id": "123-19", "命中": [], "考法": null}
-{"id": "123-20", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make fun of｜答案：make fun of", "唯一": false}, {"序": 24, "词头": "trick", "方式": "搭配", "证据": "make fun of sb｜答案：make fun of", "唯一": false}], "考法": null}
+{"id": "123-20", "命中": [{"序": 4, "词头": "make fun of", "方式": "搭配", "证据": "make fun of｜答案：make fun of", "唯一": false}, {"序": 24, "词头": "make fun of", "方式": "搭配", "证据": "make fun of sb｜答案：make fun of", "唯一": false}], "考法": null}
 {"id": "123-21", "命中": [], "考法": null}
 {"id": "123-22", "命中": [], "考法": null}
 {"id": "123-23", "命中": [], "考法": null}
 {"id": "123-24", "命中": [], "考法": null}
-{"id": "123-25", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}], "考法": null}
+{"id": "123-25", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}], "考法": null}
 {"id": "124-15", "命中": [], "考法": null}
 {"id": "124-16", "命中": [{"序": 32, "词头": "draw on/upon", "方式": "提示词", "证据": "提示词 draw", "唯一": true}], "考法": "动词形式"}
 {"id": "124-17", "命中": [{"序": 30, "词头": "bark", "方式": "提示词", "证据": "提示词 bark", "唯一": true}], "考法": "动词形式"}
@@ -2425,13 +2425,13 @@
 {"id": "125-16", "命中": [], "考法": "词性转换"}
 {"id": "125-17", "命中": [], "考法": null}
 {"id": "125-18", "命中": [], "考法": null}
-{"id": "125-19", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for |to", "唯一": true}], "考法": null}
+{"id": "125-19", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for |to", "唯一": true}], "考法": null}
 {"id": "125-20", "命中": [], "考法": null}
-{"id": "125-21", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make sense｜答案：made sense", "唯一": false}], "考法": null}
+{"id": "125-21", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "make sense", "方式": "搭配", "证据": "make sense｜答案：made sense", "唯一": false}, {"序": 31, "词头": "make sense of", "方式": "搭配", "证据": "make sense of｜答案：made sense", "唯一": false}], "考法": null}
 {"id": "125-22", "命中": [], "考法": null}
 {"id": "125-23", "命中": [], "考法": null}
 {"id": "125-24", "命中": [], "考法": null}
-{"id": "125-25", "命中": [{"序": 1, "词头": "look forward to", "方式": "搭配", "证据": "be/get used to（doing）sth｜答案：It’s not difficult for me to get used to the life of high sc…", "唯一": true}], "考法": null}
+{"id": "125-25", "命中": [{"序": 1, "词头": "be used to", "方式": "搭配", "证据": "be/get used to（doing）sth｜答案：It’s not difficult for me to get used to the life of high sc…", "唯一": true}], "考法": null}
 {"id": "126-06", "命中": [], "考法": null}
 {"id": "126-07", "命中": [], "考法": "词性转换"}
 {"id": "126-08", "命中": [{"序": 5, "词头": "suffer", "方式": "提示词", "证据": "提示词 suffer", "唯一": true}], "考法": "动词形式"}
@@ -2537,7 +2537,7 @@
 {"id": "131-16", "命中": [], "考法": null}
 {"id": "131-17", "命中": [], "考法": null}
 {"id": "131-18", "命中": [], "考法": null}
-{"id": "131-19", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make fun of｜答案：made fun of", "唯一": false}, {"序": 24, "词头": "trick", "方式": "搭配", "证据": "make fun of sb｜答案：made fun of", "唯一": false}], "考法": null}
+{"id": "131-19", "命中": [{"序": 4, "词头": "make fun of", "方式": "搭配", "证据": "make fun of｜答案：made fun of", "唯一": false}, {"序": 24, "词头": "make fun of", "方式": "搭配", "证据": "make fun of sb｜答案：made fun of", "唯一": false}], "考法": null}
 {"id": "131-20", "命中": [], "考法": null}
 {"id": "131-21", "命中": [], "考法": null}
 {"id": "131-22", "命中": [], "考法": null}
@@ -2555,7 +2555,7 @@
 {"id": "132-15", "命中": [{"序": 17, "词头": "gentle", "方式": "提示词", "证据": "提示词 gentle", "唯一": true}], "考法": "词性转换"}
 {"id": "132-16", "命中": [{"序": 36, "词头": "attend to", "方式": "提示词", "证据": "提示词 attend", "唯一": true}], "考法": "动词形式"}
 {"id": "132-17", "命中": [], "考法": null}
-{"id": "132-18", "命中": [{"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：to keep in touch", "唯一": true}], "考法": null}
+{"id": "132-18", "命中": [{"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：to keep in touch", "唯一": true}], "考法": null}
 {"id": "132-19", "命中": [], "考法": null}
 {"id": "132-20", "命中": [], "考法": null}
 {"id": "132-21", "命中": [], "考法": null}
@@ -2594,7 +2594,7 @@
 {"id": "134-18", "命中": [], "考法": null}
 {"id": "134-19", "命中": [], "考法": null}
 {"id": "134-20", "命中": [], "考法": null}
-{"id": "134-21", "命中": [{"序": 15, "词头": "determine", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
+{"id": "134-21", "命中": [{"序": 15, "词头": "make up one's mind", "方式": "搭配", "证据": "make up one's mind to do sth｜答案：made up his mind", "唯一": true}], "考法": null}
 {"id": "134-22", "命中": [], "考法": null}
 {"id": "134-23", "命中": [], "考法": null}
 {"id": "134-24", "命中": [{"序": 6, "词头": "global", "方式": "搭配", "证据": "global warming｜答案：Having learned about global warming, the students launched a…", "唯一": true}], "考法": null}
@@ -2626,7 +2626,7 @@
 {"id": "136-14", "命中": [], "考法": null}
 {"id": "136-15", "命中": [], "考法": null}
 {"id": "136-16", "命中": [{"序": 5, "词头": "shock", "方式": "提示词", "证据": "提示词 shock", "唯一": false}, {"序": 23, "词头": "culture shock", "方式": "提示词", "证据": "提示词 shock", "唯一": false}], "考法": "词性转换"}
-{"id": "136-17", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：loses heart set an example", "唯一": true}], "考法": null}
+{"id": "136-17", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：loses heart set an example", "唯一": true}], "考法": null}
 {"id": "136-18", "命中": [], "考法": null}
 {"id": "136-19", "命中": [], "考法": null}
 {"id": "136-20", "命中": [], "考法": null}
@@ -2652,7 +2652,7 @@
 {"id": "137-22", "命中": [], "考法": null}
 {"id": "137-23", "命中": [{"序": 2, "词头": "challenge", "方式": "搭配", "证据": "face/meet/accept/take on the challenge of｜答案：Inspired by the speech, the young couple decided to take up …", "唯一": true}], "考法": null}
 {"id": "137-24", "命中": [], "考法": null}
-{"id": "137-25", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}], "考法": null}
+{"id": "137-25", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：Please keep in mind that the more languages you understand, …", "唯一": true}], "考法": null}
 {"id": "138-07", "命中": [], "考法": null}
 {"id": "138-08", "命中": [], "考法": null}
 {"id": "138-09", "命中": [{"序": 3, "词头": "extremely", "方式": "提示词", "证据": "提示词 extreme", "唯一": true}], "考法": "词性转换"}
@@ -2665,10 +2665,10 @@
 {"id": "138-16", "命中": [{"序": 5, "词头": "disaster", "方式": "提示词", "证据": "提示词 disaster", "唯一": true}], "考法": "名词复数"}
 {"id": "138-17", "命中": [], "考法": null}
 {"id": "138-18", "命中": [], "考法": null}
-{"id": "138-19", "命中": [{"序": 4, "词头": "apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}, {"序": 27, "词头": "set apart from", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}], "考法": null}
+{"id": "138-19", "命中": [{"序": 4, "词头": "apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}, {"序": 27, "词头": "fall apart", "方式": "搭配", "证据": "fall apart｜答案：fell apart", "唯一": false}], "考法": null}
 {"id": "138-20", "命中": [], "考法": null}
-{"id": "138-21", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：make any sense", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make sense｜答案：make any sense", "唯一": false}], "考法": null}
-{"id": "138-22", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for", "唯一": true}], "考法": null}
+{"id": "138-21", "命中": [{"序": 4, "词头": "make sense", "方式": "搭配", "证据": "make no sense｜答案：make any sense", "唯一": false}, {"序": 31, "词头": "make sense", "方式": "搭配", "证据": "make sense｜答案：make any sense", "唯一": false}, {"序": 31, "词头": "make sense of", "方式": "搭配", "证据": "make sense of｜答案：make any sense", "唯一": false}], "考法": null}
+{"id": "138-22", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set an example for", "唯一": true}], "考法": null}
 {"id": "138-23", "命中": [], "考法": null}
 {"id": "138-24", "命中": [], "考法": null}
 {"id": "138-25", "命中": [], "考法": null}
@@ -2762,7 +2762,7 @@
 {"id": "143-23", "命中": [], "考法": null}
 {"id": "143-24", "命中": [], "考法": null}
 {"id": "143-25", "命中": [], "考法": null}
-{"id": "143-26", "命中": [{"序": 8, "词头": "remove", "方式": "搭配", "证据": "get rid of｜答案：Once you form a bad habit, it’s not easy to get rid of it.", "唯一": true}], "考法": null}
+{"id": "143-26", "命中": [{"序": 8, "词头": "get rid of", "方式": "搭配", "证据": "get rid of｜答案：Once you form a bad habit, it’s not easy to get rid of it.", "唯一": true}], "考法": null}
 {"id": "144-07", "命中": [], "考法": "词性转换"}
 {"id": "144-08", "命中": [{"序": 1, "词头": "annoyed", "方式": "提示词", "证据": "提示词 annoy", "唯一": true}], "考法": "词性转换"}
 {"id": "144-09", "命中": [{"序": 2, "词头": "actually", "方式": "提示词", "证据": "提示词 actual", "唯一": true}], "考法": "词性转换"}
@@ -2796,7 +2796,7 @@
 {"id": "145-18", "命中": [], "考法": null}
 {"id": "145-19", "命中": [], "考法": null}
 {"id": "145-20", "命中": [], "考法": null}
-{"id": "145-21", "命中": [{"序": 3, "词头": "destination", "方式": "搭配", "证据": "holiday/tourist destination｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": true}, {"序": 13, "词头": "a great/good deal (of)", "方式": "搭配", "证据": "a great/large quantity of｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": false}, {"序": 24, "词头": "quantity", "方式": "搭配", "证据": "in large/small quantities｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": false}], "考法": null}
+{"id": "145-21", "命中": [{"序": 3, "词头": "destination", "方式": "搭配", "证据": "holiday/tourist destination｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": true}, {"序": 13, "词头": "a great quantity of", "方式": "搭配", "证据": "a great/large quantity of｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": false}, {"序": 13, "词头": "large quantities of", "方式": "搭配", "证据": "large quantities of｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": false}, {"序": 24, "词头": "quantity", "方式": "搭配", "证据": "in large/small quantities｜答案：The West Lake is so world-famous a tourist destination that …", "唯一": false}], "考法": null}
 {"id": "145-22", "命中": [], "考法": null}
 {"id": "146-06", "命中": [], "考法": "动词形式"}
 {"id": "146-07", "命中": [], "考法": null}
@@ -2841,7 +2841,7 @@
 {"id": "148-15", "命中": [], "考法": null}
 {"id": "148-16", "命中": [{"序": 11, "词头": "award", "方式": "提示词", "证据": "提示词 award", "唯一": true}], "考法": "动词形式"}
 {"id": "148-17", "命中": [], "考法": null}
-{"id": "148-18", "命中": [{"序": 22, "词头": "break out", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
+{"id": "148-18", "命中": [{"序": 22, "词头": "break away from", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
 {"id": "148-19", "命中": [], "考法": null}
 {"id": "148-20", "命中": [], "考法": null}
 {"id": "148-21", "命中": [], "考法": null}
@@ -2865,7 +2865,7 @@
 {"id": "149-20", "命中": [{"序": 1, "词头": "impression", "方式": "搭配", "证据": "have/get a good/bad impression of sb｜答案：made |left a good impression", "唯一": true}], "考法": null}
 {"id": "149-21", "命中": [], "考法": null}
 {"id": "149-22", "命中": [], "考法": null}
-{"id": "149-23", "命中": [{"序": 4, "词头": "make it", "方式": "搭配", "证据": "make（good/full）use of｜答案：We think it very effective to make use of these English lear…", "唯一": true}], "考法": null}
+{"id": "149-23", "命中": [{"序": 4, "词头": "make use of", "方式": "搭配", "证据": "make（good/full）use of｜答案：We think it very effective to make use of these English lear…", "唯一": true}], "考法": null}
 {"id": "149-24", "命中": [], "考法": null}
 {"id": "149-25", "命中": [], "考法": null}
 {"id": "149-26", "命中": [], "考法": null}
@@ -2902,7 +2902,7 @@
 {"id": "151-19", "命中": [], "考法": null}
 {"id": "151-20", "命中": [], "考法": null}
 {"id": "151-21", "命中": [], "考法": null}
-{"id": "151-22", "命中": [{"序": 12, "词头": "moment", "方式": "搭配", "证据": "the first/second/... time｜答案：It is/ was the second time that we have/ had cooperated with…", "唯一": true}], "考法": null}
+{"id": "151-22", "命中": [{"序": 12, "词头": "the first time", "方式": "搭配", "证据": "the first/second/... time｜答案：It is/ was the second time that we have/ had cooperated with…", "唯一": true}], "考法": null}
 {"id": "152-06", "命中": [{"序": 24, "词头": "stable", "方式": "提示词", "证据": "提示词 stable", "唯一": false}, {"序": 35, "词头": "stability", "方式": "提示词", "证据": "提示词 stable", "唯一": false}], "考法": "词性转换"}
 {"id": "152-07", "命中": [], "考法": null}
 {"id": "152-08", "命中": [{"序": 10, "词头": "break away（from sb/sth）", "方式": "提示词", "证据": "提示词 break", "唯一": false}, {"序": 20, "词头": "break down", "方式": "提示词", "证据": "提示词 break", "唯一": false}, {"序": 22, "词头": "break out", "方式": "提示词", "证据": "提示词 break", "唯一": false}], "考法": "动词形式"}
@@ -2934,13 +2934,13 @@
 {"id": "153-18", "命中": [], "考法": null}
 {"id": "153-19", "命中": [], "考法": null}
 {"id": "153-20", "命中": [{"序": 1, "词头": "company", "方式": "搭配", "证据": "keep sb company｜答案：keep me company", "唯一": false}, {"序": 19, "词头": "accompany", "方式": "搭配", "证据": "keep sb company｜答案：keep me company", "唯一": false}], "考法": null}
-{"id": "153-21", "命中": [{"序": 22, "词头": "break out", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
+{"id": "153-21", "命中": [{"序": 22, "词头": "break away from", "方式": "搭配", "证据": "break away from｜答案：broke away from", "唯一": true}], "考法": null}
 {"id": "153-22", "命中": [], "考法": null}
 {"id": "153-23", "命中": [], "考法": null}
 {"id": "153-24", "命中": [], "考法": null}
 {"id": "153-25", "命中": [], "考法": null}
 {"id": "153-26", "命中": [], "考法": null}
-{"id": "153-27", "命中": [{"序": 33, "词头": "in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：It’s convenient to keep in touch with friends through the In…", "唯一": true}], "考法": null}
+{"id": "153-27", "命中": [{"序": 33, "词头": "keep in contact with", "方式": "搭配", "证据": "keep/stay in contact/touch with｜答案：It’s convenient to keep in touch with friends through the In…", "唯一": true}], "考法": null}
 {"id": "154-07", "命中": [], "考法": null}
 {"id": "154-08", "命中": [], "考法": "动词形式"}
 {"id": "154-09", "命中": [{"序": 9, "词头": "access", "方式": "提示词", "证据": "提示词 access", "唯一": true}], "考法": "词性转换"}
@@ -2952,12 +2952,12 @@
 {"id": "154-15", "命中": [{"序": 5, "词头": "strike", "方式": "提示词", "证据": "提示词 striking→strike", "唯一": false}, {"序": 10, "词头": "striking", "方式": "提示词", "证据": "提示词 striking→strike", "唯一": false}], "考法": "比较级"}
 {"id": "154-16", "命中": [], "考法": null}
 {"id": "154-17", "命中": [], "考法": null}
-{"id": "154-18", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}], "考法": null}
+{"id": "154-18", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：keep in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：keep in mind", "唯一": true}], "考法": null}
 {"id": "154-19", "命中": [], "考法": null}
 {"id": "154-20", "命中": [], "考法": null}
 {"id": "154-21", "命中": [], "考法": null}
 {"id": "154-22", "命中": [], "考法": null}
-{"id": "154-23", "命中": [{"序": 13, "词头": "a great/good deal (of)", "方式": "搭配", "证据": "a great/large amount of｜答案：Large amounts of money have been donated to the charity orga…", "唯一": true}], "考法": null}
+{"id": "154-23", "命中": [{"序": 13, "词头": "a great amount of", "方式": "搭配", "证据": "a great/large amount of｜答案：Large amounts of money have been donated to the charity orga…", "唯一": true}], "考法": null}
 {"id": "154-24", "命中": [], "考法": null}
 {"id": "154-25", "命中": [{"序": 1, "词头": "company", "方式": "搭配", "证据": "keep sb company｜答案：When I accompanied the patient, I found his room cleaned up.…", "唯一": false}, {"序": 19, "词头": "accompany", "方式": "搭配", "证据": "keep sb company｜答案：When I accompanied the patient, I found his room cleaned up.…", "唯一": false}], "考法": null}
 {"id": "155-06", "命中": [], "考法": null}
@@ -2979,7 +2979,7 @@
 {"id": "155-22", "命中": [], "考法": null}
 {"id": "155-23", "命中": [], "考法": null}
 {"id": "155-24", "命中": [{"序": 1, "词头": "senior", "方式": "搭配", "证据": "senior high school｜答案：It is senior high school that is a challenge.", "唯一": true}], "考法": null}
-{"id": "155-25", "命中": [{"序": 8, "词头": "measure", "方式": "搭配", "证据": "take measures/steps/action to do sth｜答案：The government has taken action so that people’s living stan…", "唯一": true}], "考法": null}
+{"id": "155-25", "命中": [{"序": 8, "词头": "take measures", "方式": "搭配", "证据": "take measures/steps/action to do sth｜答案：The government has taken action so that people’s living stan…", "唯一": true}], "考法": null}
 {"id": "155-26", "命中": [], "考法": null}
 {"id": "156-07", "命中": [], "考法": "动词形式"}
 {"id": "156-08", "命中": [], "考法": null}
@@ -2991,7 +2991,7 @@
 {"id": "156-14", "命中": [], "考法": null}
 {"id": "156-15", "命中": [{"序": 11, "词头": "original", "方式": "提示词", "证据": "提示词 original", "唯一": false}, {"序": 29, "词头": "originate", "方式": "提示词", "证据": "提示词 original", "唯一": false}], "考法": "词性转换"}
 {"id": "156-16", "命中": [], "考法": null}
-{"id": "156-17", "命中": [{"序": 28, "词头": "make up one's mind (to do sth)", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Keep it in mind", "唯一": true}], "考法": null}
+{"id": "156-17", "命中": [{"序": 28, "词头": "bear in mind", "方式": "搭配", "证据": "bear/keep sb/sth in mind｜答案：Keep it in mind", "唯一": true}, {"序": 28, "词头": "bear in mind that", "方式": "搭配", "证据": "bear/keep in mind that｜答案：Keep it in mind", "唯一": true}], "考法": null}
 {"id": "156-18", "命中": [], "考法": null}
 {"id": "156-19", "命中": [], "考法": null}
 {"id": "156-20", "命中": [], "考法": null}
@@ -3063,7 +3063,7 @@
 {"id": "160-23", "命中": [{"序": 23, "词头": "participate", "方式": "提示词", "证据": "提示词 participate", "唯一": false}, {"序": 36, "词头": "participant", "方式": "提示词", "证据": "提示词 participate", "唯一": false}], "考法": "词性转换"}
 {"id": "160-24", "命中": [], "考法": null}
 {"id": "160-25", "命中": [], "考法": null}
-{"id": "160-26", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a great difference to", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a great difference to", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make a difference to｜答案：make a great difference to", "唯一": false}], "考法": null}
+{"id": "160-26", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：make a great difference to", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：make a great difference to", "唯一": false}, {"序": 31, "词头": "make a difference to", "方式": "搭配", "证据": "make a difference to｜答案：make a great difference to", "唯一": false}], "考法": null}
 {"id": "160-27", "命中": [], "考法": null}
 {"id": "160-28", "命中": [], "考法": null}
 {"id": "160-29", "命中": [], "考法": null}
@@ -3080,9 +3080,9 @@
 {"id": "161-14", "命中": [], "考法": "动词形式"}
 {"id": "161-15", "命中": [{"序": 1, "词头": "frightened", "方式": "提示词", "证据": "提示词 frighten", "唯一": true}], "考法": "词性转换"}
 {"id": "161-16", "命中": [], "考法": null}
-{"id": "161-18", "命中": [{"序": 11, "词头": "set sth up", "方式": "搭配", "证据": "set an example for sb｜答案：set an example", "唯一": true}], "考法": null}
+{"id": "161-18", "命中": [{"序": 11, "词头": "set an example for", "方式": "搭配", "证据": "set an example for sb｜答案：set an example", "唯一": true}], "考法": null}
 {"id": "161-19", "命中": [], "考法": null}
-{"id": "161-20", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：makes a difference to", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：makes a difference to", "唯一": false}, {"序": 31, "词头": "be made up of", "方式": "搭配", "证据": "make a difference to｜答案：makes a difference to", "唯一": false}], "考法": null}
+{"id": "161-20", "命中": [{"序": 4, "词头": "make a difference", "方式": "搭配", "证据": "make some/much/no difference（to sb/sth）｜答案：makes a difference to", "唯一": false}, {"序": 20, "词头": "differ", "方式": "搭配", "证据": "make a/no difference to sb/sth｜答案：makes a difference to", "唯一": false}, {"序": 31, "词头": "make a difference to", "方式": "搭配", "证据": "make a difference to｜答案：makes a difference to", "唯一": false}], "考法": null}
 {"id": "161-21", "命中": [], "考法": null}
 {"id": "161-22", "命中": [], "考法": null}
 {"id": "161-23", "命中": [], "考法": null}
@@ -3102,6 +3102,6 @@
 {"id": "162-17", "命中": [], "考法": null}
 {"id": "162-18", "命中": [], "考法": null}
 {"id": "162-19", "命中": [], "考法": null}
-{"id": "162-20", "命中": [{"序": 1, "词头": "look forward to", "方式": "搭配", "证据": "pay attention to｜答案：We should pay attention to small details,which can guarantee…", "唯一": true}], "考法": null}
+{"id": "162-20", "命中": [{"序": 1, "词头": "pay attention to", "方式": "搭配", "证据": "pay attention to｜答案：We should pay attention to small details,which can guarantee…", "唯一": true}], "考法": null}
 {"id": "162-21", "命中": [], "考法": null}
 {"id": "162-22", "命中": [], "考法": null}
