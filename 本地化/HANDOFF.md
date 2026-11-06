@@ -1,7 +1,7 @@
 # 东莞本地化 · 交接（2026-11-06 夜更新：通读清单执行完、逐页过图完）
 
 接手前先读：`AGENTS.md`、`规范/00-项目共识.md`、**`规范/05-所有者修改原则.md`**（2026-11-05 审校总结）、`规范/04-英式版式.md`，以及本文。
-已合入 main 的 PR：[Buqisir/textbook-framework#1](https://github.com/Buqisir/textbook-framework/pull/1)–[#5](https://github.com/Buqisir/textbook-framework/pull/5)。
+已合入 main 的 PR：[Buqisir/textbook-framework#1](https://github.com/Buqisir/textbook-framework/pull/1)–[#5](https://github.com/Buqisir/textbook-framework/pull/5)（#5 为通读修改轮）。
 
 **接手先看 §0。**
 
@@ -17,7 +17,7 @@
 **待办**：
 1. ~~全量渲染 21 册并自检，负责人逐页看图，打 zip 发所有者~~（11-06 夜完成。逐页看图修了 4 处版式：单元标题中文副题不拆行、标题左对齐；考情表末行与表下说明不单独落到下一页；答案末条不单独成页；中文题干（翻译题）左对齐，不再被两端对齐拉开字距。均在 `英式.css`）。
 2. 各组报告里「清单外、未改」的条目（每个 `修改结果-*.md` 末尾），留待所有者验收时一并看。
-3. 有些讲解例句在题库里找不到（如 If you study hard, you will pass the exam），是早期写讲义时编的，规则上讲解例句应取自东莞原题。可写脚本全面比对后统一换掉。
+3. ~~讲解例句里早期编的句子换成东莞原题~~（11-06 夜完成：`脚本/例句溯源.py` 比对，46 处换成本册例题或东莞原题、或删去例子，明细见 `报告/讲解例句溯源.md`。以后改讲解后跑一遍，「未见」只应剩报告里列的几处）。
 
 ## 1. 要做什么（需求方原话的提炼）
 
@@ -151,6 +151,6 @@ HTML 必须放在 `渲染/本地化/` 下。字体、`基础.css`、`主线.css`
 
 ## 7. Git 约定
 
-- 本轮（通读修改、合册）在 `claude/blissful-allen-mny4gf`，从 PR #4 后的 main 重开，尚未合入 main。
+- 通读修改、合册一轮已由 [Buqisir/textbook-framework#5](https://github.com/Buqisir/textbook-framework/pull/5) 合入 main；讲解例句溯源一轮在 `claude/blissful-allen-mny4gf`，从 #5 合并后的 main 重开。
 - 提交信息末尾带 Co-Authored-By 和 Claude-Session 两行，不写模型 ID。
 - 需求方没要求，就不建 PR、不改写 main 的历史。
