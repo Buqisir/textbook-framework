@@ -85,7 +85,7 @@
     },
     {
      "type": "p",
-     "text": "suffer from、submit 等词作后置定语时，要看名词是动作的发出者还是承受者。the proposals submitted so far（至今提交的提案）中，proposals 是被提交的，用过去分词。"
+     "text": "suffer from、submit 等词作后置定语时，要看名词是动作的发出者还是承受者，再决定用现在分词或过去分词。"
     },
     {
      "type": "subhead",
@@ -100,7 +100,7 @@
     },
     {
      "type": "p",
-     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Encouraged by my teacher, I tried again（在老师的鼓励下，我又试了一次）。"
+     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Absorbed in her book, Jane didn't notice a boy slip out of the classroom（简全神贯注地看书，没有注意到一个男孩溜出了教室）。"
     },
     {
      "type": "p",
@@ -229,7 +229,7 @@
       "用分词作定语"
      ],
      "src": "2023 · 东莞市 · 高二上联考",
-     "ans": "The Museum of Art built/completed/constructed last year is worthy of being visited/is worth visiting.",
+     "ans": "The Museum of Art built/completed/constructed last year is worthy of being visited.",
      "why": "built 修饰 museum",
      "group": "作定语",
      "level": "必练"
@@ -250,7 +250,7 @@
      ],
      "src": "2023 · 东莞市 · 高二上联考",
      "ans": "Having spent",
-     "why": "I 主动写作，用完成式分词",
+     "why": "与主语主动关系，动作在先，用完成式",
      "group": "作状语",
      "level": "必练"
     },
@@ -422,7 +422,7 @@
     },
     {
      "type": "p",
-     "text": "主语从句位于句首，谓语动词用单数。表示「是否」用 whether 引导，如 Whether it will rain is unknown（会不会下雨还不知道）。"
+     "text": "主语从句位于句首，谓语动词用单数。表示「是否」用 whether 引导。"
     },
     {
      "type": "p",
