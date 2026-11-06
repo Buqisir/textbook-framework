@@ -99,7 +99,7 @@
     },
     {
      "type": "p",
-     "text": "介词后面不能接动词原形，要接名词、代词或动名词。动词或形容词与介词构成的固定搭配也按这个规则处理，如 be fond of、be addicted to、spend time in、when it comes to。这些搭配里的 to 是介词，后面接 -ing，不是不定式符号。"
+     "text": "介词后面不能接动词原形，要接名词、代词或动名词。动词或形容词与介词构成的固定搭配也按这个规则处理，如 be fond of、be addicted to。这些搭配里的 to 是介词，后面接 -ing，不是不定式符号。spend + 时间 + doing 中，doing 同样是动名词作宾语。"
     },
     {
      "type": "subhead",
@@ -114,7 +114,7 @@
     },
     {
      "type": "p",
-     "text": "pretend、attempt、decide 等动词后面接不定式作宾语，形式是 to 加动词原形。这类动词后接动名词时意思会变，要按具体搭配逐个确认。"
+     "text": "pretend、attempt、decide 等动词后面接不定式作宾语，形式是 to 加动词原形。"
     },
     {
      "type": "subhead",
@@ -133,7 +133,7 @@
     },
     {
      "type": "p",
-     "text": "句首分词短语后面要用逗号。完成句子中，常把 which 或 when 引导的从句改成分词短语，例如 which caused 改为 causing。"
+     "text": "句首分词短语后面要用逗号。完成句子中，常把 which 或 when 引导的从句改成分词短语。"
     },
     {
      "type": "subhead",
@@ -148,7 +148,7 @@
     },
     {
      "type": "p",
-     "text": "单个分词作定语放在名词前，分词短语作定语放在名词后，如 belonging to、designed to treat。判断方法与分词作状语相同：分词与被修饰的名词是主动关系用 -ing，是被动关系用 -ed。"
+     "text": "单个分词作定语放在名词前，分词短语作定语放在名词后，如 designed to treat。判断方法与分词作状语相同：分词与被修饰的名词是主动关系用 -ing，是被动关系用 -ed。"
     },
     {
      "type": "subhead",
@@ -162,7 +162,7 @@
     },
     {
      "type": "p",
-     "text": "不定式作目的状语，说明做某事的目的，可换成 in order to。形容词后接不定式，说明在某方面的性质，如 be expensive to transport、be easy to do，不定式的动作与句子主语是动宾关系时用主动形式。"
+     "text": "不定式作目的状语，说明做某事的目的，可换成 in order to。形容词后接不定式，说明在某方面的性质，如 be easy to do，不定式的动作与句子主语是动宾关系时用主动形式。"
     },
     {
      "type": "subhead",
@@ -177,7 +177,7 @@
     },
     {
      "type": "p",
-     "text": "tell sb. to do、ask sb. to do 中，宾语后的不定式作宾补。find oneself surrounded by 中，宾语与过去分词是被动关系，过去分词作宾补。直接引语是祈使句时，改成间接引语要用 tell 或 ask sb. to do。"
+     "text": "tell sb. to do、ask sb. to do 中，宾语后的不定式作宾补。find oneself 后接过去分词时，宾语与过去分词是被动关系，过去分词作宾补。直接引语是祈使句时，改成间接引语要用 tell 或 ask sb. to do。"
     },
     {
      "type": "subhead",
@@ -206,7 +206,7 @@
     },
     {
      "type": "p",
-     "text": "两个不定式并列时，第二个 to 可以省略。make contributions to 是固定短语，这里 and 后面的 make 与前面的 study 并列，所以用动词原形。"
+     "text": "两个不定式并列时，第二个 to 可以省略。这里 and 后面的动词与前面的 study 并列，所以用动词原形。"
     }
    ],
    "examples": [
@@ -310,7 +310,7 @@
      "cue": [],
      "src": "2025 · 翰林高级中学 · 高一上期末",
      "ans": "exploring",
-     "why": "spend time in doing 固定搭配",
+     "why": "spend + 时间 + doing 固定搭配",
      "group": "介词后动名词",
      "level": "必练"
     },
@@ -717,7 +717,7 @@
     },
     {
      "type": "p",
-     "text": "find、make、think、feel 等动词后接“宾语加宾补加不定式”或从句时，宾语位置用 it 占位，真正的宾语放在宾补之后。宾补多是 easy、difficult、convenient、effective 一类形容词。"
+     "text": "find、make、think、feel 等动词后接“宾语加宾补加不定式”或从句时，宾语位置用 it 占位，真正的宾语放在宾补之后。宾补多是表示难易、效果一类的形容词。"
     },
     {
      "type": "p",
@@ -736,7 +736,7 @@
     },
     {
      "type": "p",
-     "text": "keep it in mind that、make it a rule that 等结构中，that 从句是真正的宾语，it 作形式宾语放在动词之后。"
+     "text": "动词后接 that 从句作宾语时，it 作形式宾语放在动词之后，that 从句是真正的宾语。"
     },
     {
      "type": "subhead",
@@ -751,7 +751,7 @@
     },
     {
      "type": "p",
-     "text": "It takes / took sb. 时间 to do sth. 中，it 作形式主语，动词不定式是真正的主语，to 后接动词原形。adapt to、adjust to 中的 to 是介词，后接名词或 doing。"
+     "text": "It takes / took sb. 时间 to do sth. 中，it 作形式主语，动词不定式是真正的主语，to 后接动词原形。动词短语后的 to 是介词，后接名词或 doing。"
     }
    ],
    "examples": [
@@ -1057,7 +1057,7 @@
       "用倒装句改写"
      ],
      "src": "2024 · 东莞市 · 高一上期末",
-     "ans": "Not only does doing housework exercise the body but also develops a sense of responsibility.",
+     "ans": "Not only does doing housework exercise the body but also develop a sense of responsibility.",
      "why": "does 提到 doing housework 前",
      "group": "not only 型",
      "level": "必练"
@@ -1106,7 +1106,7 @@
     },
     {
      "type": "p",
-     "text": "no matter how、no matter what、no matter where 引导让步状语从句，意为“无论……都……”。whatever、wherever、however 等 -ever 词表示同样的意思，可与 no matter 加疑问词互换。句首单词首字母要大写。"
+     "text": "no matter + 疑问词引导让步状语从句，意为“无论……都……”。whatever、wherever、however 等 -ever 词表示同样的意思，可与 no matter 加疑问词互换。句首单词首字母要大写。"
     },
     {
      "type": "p",

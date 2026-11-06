@@ -103,7 +103,7 @@
     },
     {
      "type": "p",
-     "text": "不定式表示将要发生或有待完成的动作，如 a working party to look into the problem（专门调查这个问题的工作小组）。名词是 ability、chance、decision、way 等时，后面的不定式一般作定语。"
+     "text": "不定式表示将要发生或有待完成的动作。名词是 ability、chance、decision、way 等时，后面的不定式一般作定语。"
     },
     {
      "type": "subhead",
@@ -122,7 +122,7 @@
     },
     {
      "type": "p",
-     "text": "表示目的的不定式作状语，逻辑主语与主句主语一致，如 To keep healthy, she goes swimming every day（为了保持健康，她每天去游泳）。"
+     "text": "表示目的的不定式作状语，逻辑主语与主句主语一致。"
     },
     {
      "type": "p",
@@ -145,11 +145,11 @@
     },
     {
      "type": "p",
-     "text": "keep in touch with 表示「与……保持联系」，是固定搭配。题目常只给中文词义，答案是完整的搭配。"
+     "text": "题目常只给中文词义，答案是完整的搭配。"
     },
     {
      "type": "pattern",
-     "text": "spend time doing  |  be in charge of doing  |  keep in touch with sb."
+     "text": "spend time doing  |  be busy doing"
     },
     {
      "type": "subhead",
@@ -168,7 +168,7 @@
     },
     {
      "type": "p",
-     "text": "try、manage、be determined 等动词后接不定式：tried to attract，had managed to arrange，was determined to defend。be to blame for 表示「应对……负责」，不定式形式是 to blame。"
+     "text": "try、manage、be determined 等动词后接不定式：tried to attract，was determined to defend。be to blame for 表示「应对……负责」，不定式形式是 to blame。"
     },
     {
      "type": "subhead",
@@ -183,7 +183,7 @@
     },
     {
      "type": "p",
-     "text": "动名词或动名词短语作主语时，谓语用单数，如 Being exposed to a foreign culture is beneficial。句首的 doing 首字母大写。"
+     "text": "动名词或动名词短语作主语时，谓语用单数。句首的 doing 首字母大写。"
     },
     {
      "type": "p",
@@ -378,7 +378,7 @@
      "cue": [],
      "src": "2023 · 石竹实验学校 · 高二上月考",
      "ans": "So far, more than 500 students have signed up for the marathon to be held next month.",
-     "why": "题库答案 he 应为 be，作定语",
+     "why": "将来被动，用 to be done",
      "group": "作定语",
      "level": "必练"
     },
@@ -635,7 +635,7 @@
     },
     {
      "type": "p",
-     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that，如 What he said surprised me（他说的话让我吃惊）。"
+     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that。"
     },
     {
      "type": "p",
@@ -643,7 +643,7 @@
     },
     {
      "type": "pattern",
-     "text": "It is apparent that……  |  What……is that……"
+     "text": "It is acknowledged that……  |  What……is that……"
     },
     {
      "type": "subhead",
@@ -677,11 +677,11 @@
     },
     {
      "type": "p",
-     "text": "动词后的宾语从句，成分齐全时用 that 引导，常可省略；从句缺成分时用 what，如 discover what they mean to you，其中 what 在从句中作 mean 的宾语。"
+     "text": "动词后的宾语从句，成分齐全时用 that 引导，常可省略；从句缺成分时用 what。"
     },
     {
      "type": "p",
-     "text": "介词后的宾语从句只用 what、whether，不用 that，如 thank sb. for what they give us（感谢某人所给予的一切）。"
+     "text": "介词后的宾语从句不用 that。表示「是否」用 whether，缺成分用 what、how 等。"
     },
     {
      "type": "subhead",
@@ -1061,21 +1061,21 @@
     {
      "type": "gloss",
      "lines": [
-      "when、the moment 引导",
+      "when、as soon as 引导",
       "从句可省略为分词"
      ]
     },
     {
      "type": "p",
-     "text": "when、as soon as、the moment 等引导的时间从句，表示主句动作发生的时间。从句主语与主句主语一致，或指代同一事物时，可省略从句主语和 be，只留分词或形容词。"
+     "text": "when、as soon as 等引导的时间从句，表示主句动作发生的时间。从句主语与主句主语一致，或指代同一事物时，可省略从句主语和 be，只留分词或形容词。"
     },
     {
      "type": "p",
-     "text": "the moment、the instant、the second 等名词也可作连词，表示「一……就……」，如 the moment I saw him（我一看见他）。"
+     "text": "表示瞬间的名词也可作连词，表示「一……就……」，用法与 as soon as 相同。"
     },
     {
      "type": "pattern",
-     "text": "when (it is) done  |  the moment sb. does"
+     "text": "when (it is) done  |  as soon as sb. does"
     },
     {
      "type": "subhead",
@@ -1090,7 +1090,7 @@
     },
     {
      "type": "p",
-     "text": "whoever、whatever 等引导让步从句，表示「无论谁、无论什么」，可改写为 no matter who、no matter what。Whoever you are 与 No matter who you are 意思相同。"
+     "text": "whoever、whatever 等引导让步从句，表示「无论谁、无论什么」，可改写为 no matter 加疑问词的形式。"
     },
     {
      "type": "subhead",
@@ -1120,7 +1120,7 @@
     },
     {
      "type": "p",
-     "text": "so……that 与 such……that 都表示「如此……以至于……」。such 后接 a 或 an，再接形容词和可数名词单数，如 such an interesting game，与 so interesting a game 意思相同。"
+     "text": "so……that 与 such……that 都表示「如此……以至于……」。such 后接 a 或 an，再接形容词和可数名词单数；复数或不可数名词前不加 a 或 an，如 such interesting games。"
     }
    ],
    "examples": [
@@ -1163,7 +1163,7 @@
      "ans": "taken"
     }
    ],
-   "keypoint": "连词决定从句的意思：when、the moment 表时间，if 表条件，whoever 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词」。",
+   "keypoint": "连词决定从句的意思：when 表时间，if 表条件，whoever 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词」。",
    "drill": [
     {
      "stem": "I felt free from the cares of the day as soon as I left the building.\nI felt free from the cares of the day ___ I left the building.",
@@ -1208,7 +1208,7 @@
     {
      "stem": "Table tennis is so interesting a game that people all over the world play it.\nTable tennis is ___ game that people all over the world play it",
      "cue": [
-      "同义句转化",
+      "同义句转换",
       "句型转换"
      ],
      "src": "2023 · 石竹实验学校 · 高二上月考",
@@ -1243,11 +1243,11 @@
     },
     {
      "type": "p",
-     "text": "介词加关系代词时，介词由从句中动词的搭配决定。none of which 表示「其中没有一个」，如 three pens, none of which writes smoothly。"
+     "text": "介词加关系代词时，介词由从句中动词的搭配决定。"
     },
     {
      "type": "pattern",
-     "text": "……, which……  |  ……, none of which……"
+     "text": "……, which……  |  ……, prep. + which……"
     },
     {
      "type": "subhead",

@@ -311,7 +311,10 @@ def answers_html(topics, drill_nos_by_topic):
             continue
         lis = []
         for d, n in zip(t['drill'], drill_nos_by_topic[t['no']]):
-            why = inline(d.get('why') or '')
+            why = d.get('why') or ''
+            if d['ans'] and why.lower().startswith(d['ans'].lower()):   # 说明开头重复答案（「keep track of keep track of 掌握……」）→ 去掉
+                why = why[len(d['ans']):].lstrip(' ，,：:')
+            why = inline(why)
             long = d.get('long') or len(d['ans'].split()) >= 6   # 整句答案单独占一行
             cls = 'ans long' if long else 'ans'
             lis.append(f'    <li data-no="{n}"><b class="{cls}">{inline(d["ans"])}</b>{why}</li>')
