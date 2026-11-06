@@ -1276,24 +1276,9 @@
           "句意": "",
           "reason": "three 后用复数名词",
           "answer_show": null
-        },
-        {
-          "id": "049-14",
-          "no": 16,
-          "标签": "2023 · 东莞外国语学校 · 高一下期中",
-          "题型": "语法填空",
-          "题干": "___ (publish) their researches in journals, scientists have to work hard and even without financial reward.",
-          "题干HTML": "<span class=\"blank\"></span> (publish) their researches in journals, scientists have to work hard and even without financial reward.",
-          "cue": [],
-          "提示词": "publish",
-          "答案": "To publish",
-          "解析": "考查非谓语动词。句意：为了在期刊上发表他们的研究成果，科学家们必须努力工作，甚至没有经济报酬。设空处为目的状语，应用动词不定式to publish，设空处在句首，to的首字母要大写。故填To publish。",
-          "句意": "",
-          "reason": "句首表目的，用不定式",
-          "answer_show": null
         }
       ],
-      "numbered_total": 16
+      "numbered_total": 15
     },
     {
       "序": 14,
