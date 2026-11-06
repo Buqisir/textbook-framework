@@ -290,8 +290,21 @@ def unit_section(u, book):
         f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2 lang="en">{esc(u["h2"])}{zh}</h2>\n'
         '</header>\n\n')
-    body = (freq_section(u) + '\n' + family_section(u) + '\n' + spelling_section(u) + '\n'
-            + phrase_section(u) + '\n' + quiz_section(u) + '\n' + answers_section(u))
+    # 空节不出（标题也不出），节号按实际出现的顺序重编（负责人定，2026-11-06：题少的单元不留空标题）
+    parts = []
+    if u.get('freq'):
+        parts.append(freq_section(u))
+    if u.get('families'):
+        parts.append(family_section(u))
+    if u.get('spelling'):
+        parts.append(spelling_section(u))
+    if u.get('phrases') or u.get('tricks'):
+        parts.append(phrase_section(u))
+    if u.get('quiz'):
+        parts.append(quiz_section(u))
+    parts = [re.sub(r'(<header class="topic-head" data-no=")\d+(")', lambda m, k=k: f'{m.group(1)}{k}{m.group(2)}', sec, count=1)
+             for k, sec in enumerate(parts, 1)]
+    body = '\n'.join(parts) + ('\n' + answers_section(u) if parts else '')
     return head + body + '\n</section>\n'
 
 
