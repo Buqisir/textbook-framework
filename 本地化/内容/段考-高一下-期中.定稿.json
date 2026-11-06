@@ -88,7 +88,7 @@
         },
         {
           "type": "p",
-          "text": "分词作状语时，逻辑主语是动作的执行者用现在分词，是动作的承受者用过去分词。Absorbed in the wonderful performance 中，Tom 是被吸引的人，用 -ed。"
+          "text": "分词作状语时，逻辑主语是动作的执行者用现在分词，是动作的承受者用过去分词。Surrounded by so many strangers 中，the young man 与 surround 是被动关系，用 -ed。"
         },
         {
           "type": "p",
@@ -96,7 +96,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作目的状语，动词用原形，如 To publish their research，可换成 in order to。with 加名词和分词构成的结构作状语，表示伴随，如 with the work finished。"
+          "text": "不定式作目的状语，动词用原形，可换成 in order to。with 加名词和分词构成的结构作状语，表示伴随。"
         },
         {
           "type": "pattern",
@@ -115,7 +115,7 @@
         },
         {
           "type": "p",
-          "text": "非谓语作定语放在名词之后。现在分词表示主动或正在进行，过去分词表示被动或已完成，不定式表示将要发生的动作，如 the first female astronaut to travel into space。"
+          "text": "分词短语和不定式作定语放在名词之后；单个分词作定语多放在名词前。现在分词表示主动或正在进行，过去分词表示被动或已完成，不定式表示将要发生的动作。"
         },
         {
           "type": "p",
@@ -138,7 +138,7 @@
         },
         {
           "type": "p",
-          "text": "keep sb. informed、find the window broken、have the machine repaired 中，宾语与宾补是被动关系，宾补用过去分词。"
+          "text": "have the machine repaired 中，宾语与宾补是被动关系，宾补用过去分词。"
         },
         {
           "type": "p",
@@ -161,7 +161,7 @@
         },
         {
           "type": "p",
-          "text": "fail to do、decide to do、seek one’s fortune、keep sb. company 等短语要整体记，不能只凭句意换形式。"
+          "text": "fail to do、decide to do 等短语要整体记，不能只凭句意换形式。"
         },
         {
           "type": "p",
@@ -188,7 +188,7 @@
         },
         {
           "type": "p",
-          "text": "What worries me most is 后可接动名词作表语，如 What worries me most is her staying up late。形式主语 It is an honor to do 句型中，真正的主语是不定式。"
+          "text": "What 从句作表语时，可改为动名词作表语。形式主语 It is an honor to do 句型中，真正的主语是不定式。"
         },
         {
           "type": "pattern",
@@ -206,7 +206,7 @@
         },
         {
           "type": "p",
-          "text": "be 之后接过去分词构成被动语态，如 were announced。be 之后接 -ing 构成进行时，两者要看主语是否是动作的承受者。"
+          "text": "be 之后接过去分词构成被动语态。be 之后接 -ing 构成进行时，两者要看主语是否是动作的承受者。"
         },
         {
           "type": "pattern",
@@ -700,7 +700,7 @@
         },
         {
           "type": "p",
-          "text": "先行词是地点时用 where，是时间时用 when。先行词是抽象的地点或情况时也用 where，如 cases where、a point where。"
+          "text": "先行词是地点时用 where，是时间时用 when。先行词是抽象的地点或情况时也用 where，如 cases where。"
         },
         {
           "type": "p",
@@ -727,7 +727,7 @@
         },
         {
           "type": "p",
-          "text": "非限制性定语从句可以简化为分词短语，如 which was first celebrated 可以写作 first celebrated。"
+          "text": "非限制性定语从句可以简化为分词短语，去掉 which was 即可。"
         },
         {
           "type": "pattern",
@@ -746,11 +746,11 @@
         },
         {
           "type": "p",
-          "text": "限制性定语从句中，who 指人作主语，that 指人或物都可以。who is talking 可以简化为现在分词 talking，作后置定语。"
+          "text": "限制性定语从句中，who 指人作主语，that 指人或物都可以。从句中的 who is 可以简化为现在分词，作后置定语。"
         },
         {
           "type": "p",
-          "text": "that 在从句中也可以作介词的宾语，如 lessons that they were fond of 中，that 作 fond of 的宾语。"
+          "text": "that 在从句中也可以作介词的宾语，此时介词留在从句末尾。"
         },
         {
           "type": "subhead",
@@ -765,7 +765,7 @@
         },
         {
           "type": "p",
-          "text": "as 引导的非限制性定语从句可放在句首或句末，指代整个主句，如 As is reported，意为“如报道所说”。"
+          "text": "as 引导的非限制性定语从句可放在句首或句末，指代整个主句。"
         }
       ],
       "examples": [
@@ -983,7 +983,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作主语、句子较长时，句首用 it，真正的主语放在句末，如 It is important to keep a balance between study and rest。"
+          "text": "不定式作主语、句子较长时，句首用 it，真正的主语放在句末。"
         },
         {
           "type": "pattern",
@@ -1110,11 +1110,11 @@
         },
         {
           "type": "p",
-          "text": "now that 表示“既然”，强调已经成立的情况，如 Now that we understand history and traditions。"
+          "text": "now that 表示“既然”，强调已经成立的情况。"
         },
         {
           "type": "p",
-          "text": "as 引导的原因从句可以改为分词短语，如 As they were deeply attracted by the scenery 可写作 Deeply attracted by the scenery。"
+          "text": "as 引导的原因从句可以改为分词短语。"
         },
         {
           "type": "pattern",
@@ -1133,11 +1133,11 @@
         },
         {
           "type": "p",
-          "text": "if 从句的主语与主句一致或含 be 动词时，可省略连词和主语，保留分词：Given more time, scientists will cure the disease。"
+          "text": "if 从句的主语与主句一致或含 be 动词时，可省略连词、主语和 be，保留分词或形容词。"
         },
         {
           "type": "p",
-          "text": "if 从句用一般现在时时，主句用一般将来时，如 if people keep destroying their living places，主句 will be harmed。"
+          "text": "if 从句用一般现在时，主句用一般将来时。"
         },
         {
           "type": "pattern",
@@ -1156,11 +1156,11 @@
         },
         {
           "type": "p",
-          "text": "让步状语从句可用 although、though，也可用 in spite of 加名词，如 in spite of many failures，in spite of their commercialization。"
+          "text": "让步状语从句可用 although、though，也可用 in spite of 加名词。"
         },
         {
           "type": "p",
-          "text": "从句省略主语和 be 动词后保留过去分词，如 Though treated unfairly、Encouraged by his teacher。"
+          "text": "从句省略主语和 be 动词后保留过去分词，如 Encouraged by his teacher。"
         },
         {
           "type": "pattern",
@@ -1179,7 +1179,7 @@
         },
         {
           "type": "p",
-          "text": "such 后接名词短语，so 后接形容词或副词，结果从句用 that 引导：He made such rapid progress in English that the teacher praised him。"
+          "text": "such 后接名词短语，so 后接形容词或副词，结果从句用 that 引导。"
         }
       ],
       "examples": [
@@ -1333,10 +1333,6 @@
           "text": "主语从句放在句首，谓语动词用单数。that 引导的主语从句在从句中不作成分；what 引导的主语从句意为“……的事”或“……之处”。"
         },
         {
-          "type": "p",
-          "text": "What sets Qian Xuesen apart from most engineers is his constant desire to innovate。"
-        },
-        {
           "type": "pattern",
           "text": "That / What … is …"
         },
@@ -1353,7 +1349,7 @@
         },
         {
           "type": "p",
-          "text": "find、hear、keep in mind 等动词后接 that 从句或其他从句作宾语。这类从句也可以改写为宾语加宾补，如 found the street crowded with people。"
+          "text": "find、hear、keep in mind 等动词后接 that 从句或其他从句作宾语。这类从句也可以改写为宾语加宾补。"
         },
         {
           "type": "pattern",
@@ -1371,7 +1367,7 @@
         },
         {
           "type": "p",
-          "text": "the fact that 后的 that 从句解释 fact 的具体内容，that 不作成分，如 the fact that ocean ships can sail up the Great Lakes。"
+          "text": "the fact that 后的 that 从句解释 fact 的具体内容，that 不作成分。"
         },
         {
           "type": "pattern",
@@ -1414,7 +1410,7 @@
           "level": "必练"
         },
         {
-          "stem": "___ wild life can be well protected is of great importance.",
+          "stem": "___ wildlife can be well protected is of great importance.",
           "cue": [],
           "src": "2019 · 北师大石竹附属学校 · 高一下期中",
           "ans": "That",

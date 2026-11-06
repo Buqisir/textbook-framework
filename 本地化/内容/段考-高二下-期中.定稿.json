@@ -94,7 +94,7 @@
         },
         {
           "type": "p",
-          "text": "过去分词作原因状语时，逻辑主语常是被动的，如 Absorbed in drawing cartoons（因专注于画漫画）。"
+          "text": "过去分词作原因状语时，逻辑主语常是被动的。"
         },
         {
           "type": "subhead",
@@ -109,7 +109,7 @@
         },
         {
           "type": "p",
-          "text": "do whatever he could to help me 中的不定式作目的状语，省略了 do。only to find 表示出乎意料的结果，如 she opened it, only to find a book（她打开它，却只发现一本书）。"
+          "text": "whatever 引导的从句中省略了 do，后面的不定式作目的状语。only to find 表示出乎意料的结果。"
         },
         {
           "type": "subhead",
@@ -118,13 +118,13 @@
         {
           "type": "gloss",
           "lines": [
-            "修饰名词，放在名词后",
-            "分词主动用 -ing"
+            "分词短语放在名词后",
+            "单个分词多放在名词前"
           ]
         },
         {
           "type": "p",
-          "text": "非谓语作定语放在被修饰的名词后面，相当于一个定语从句。不定式表示将要发生的动作，如 The meeting to be held tomorrow；过去分词表示被动，如 a city located in northern Shaanxi。"
+          "text": "非谓语作定语时，带修饰语的分词短语放在被修饰的名词后面，相当于一个定语从句；单个分词多放在名词前。现在分词表示主动，过去分词表示被动；不定式表示将要发生的动作，如 The meeting to be held tomorrow。"
         },
         {
           "type": "subhead",
@@ -169,7 +169,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作表语说明主语的目的、计划或内容，如 The purpose of this program is to develop our interest in English learning。"
+          "text": "不定式作表语说明主语的目的、计划或内容。"
         },
         {
           "type": "subhead",
@@ -214,7 +214,7 @@
         },
         {
           "type": "p",
-          "text": "不定式短语作主语时，整个短语视为单数，谓语用单数。句中常见 it 形式主语与之对应，如 It is my responsibility to ensure…。"
+          "text": "不定式短语作主语时，整个短语视为单数，谓语用单数。句中常见 it 形式主语与之对应。"
         },
         {
           "type": "pattern",
@@ -318,7 +318,7 @@
             "动作正在进行"
           ],
           "stem": {
-            "text": "It seemed that the young actress was waiting for someone in the hall.\n= The young actress seemed ___ for someone in the hall.",
+            "text": "It seemed that the young actress was waiting for someone in the hall.\nThe young actress seemed ___ for someone in the hall.",
             "cue": [
               "句型转换"
             ],
@@ -462,8 +462,8 @@
           "stem": "Looking at the faces of the sculptures from the past, you can see history ___ (活过来).",
           "cue": [],
           "src": "2026 · 东莞外国语学校 · 高二下期中",
-          "ans": "come to life",
-          "why": "感官动词后裸不定式作宾补",
+          "ans": "come to life / coming to life",
+          "why": "感官动词后用原形或 doing 作宾补",
           "group": "作宾补",
           "level": "必练"
         },
@@ -542,7 +542,7 @@
           "level": "必练"
         },
         {
-          "stem": "It seemed that the little boy was lying.\n→ The little boy seemed ___.",
+          "stem": "It seemed that the little boy was lying.\nThe little boy seemed ___.",
           "cue": [
             "句型转换"
           ],
@@ -801,11 +801,11 @@
         },
         {
           "type": "p",
-          "text": "主语与动词是被动关系时，用 be 加过去分词。一般过去时的被动式是 was 或 were 加过去分词，如 was broadcast、was abandoned。"
+          "text": "主语与动词是被动关系时，用 be 加过去分词。一般过去时的被动式是 was 或 were 加过去分词，如 was broadcast。"
         },
         {
           "type": "p",
-          "text": "形容词 worthy 后接不定式表示被动意义时，用不定式的被动式 to be done，如 worthy to be watched。"
+          "text": "形容词 worthy 后接不定式表示被动意义时，用不定式的被动式 to be done。"
         },
         {
           "type": "subhead",
@@ -995,13 +995,13 @@
           "level": "必练"
         },
         {
-          "stem": "Sora is bringing the artificial intelligence technology a big change.",
+          "stem": "Sora is bringing a big change to the artificial intelligence technology.",
           "cue": [
             "用被动语态改写"
           ],
           "src": "2024 · 东莞市 · 高二下期中",
-          "ans": "The artificial intelligence technology is being brought a big change by Sora. / A big change is being brought to the artificial intelligence technology by Sora.",
-          "why": "bring sb. sth. 有两种被动",
+          "ans": "A big change is being brought to the artificial intelligence technology by Sora.",
+          "why": "bring sth. to sth.，sth. 作被动句主语",
           "group": "主动改被动",
           "level": "必练"
         },
@@ -1231,13 +1231,13 @@
         {
           "type": "gloss",
           "lines": [
-            "缺主语或宾语用 what",
+            "缺成分用 what、who 等",
             "句首作主语"
           ]
         },
         {
           "type": "p",
-          "text": "主语从句在句中作主语，从句缺成分时用 what，如 What makes me interested is that kangaroos…。"
+          "text": "主语从句在句中作主语，从句缺成分时用 what、who、which 等引导。"
         },
         {
           "type": "subhead",
@@ -1247,12 +1247,12 @@
           "type": "gloss",
           "lines": [
             "动词或介词之后",
-            "缺宾语用 what"
+            "缺成分用 what、who 等"
           ]
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词或介词之后，如 Gratitude helps us appreciate what makes life beautiful（感恩让我们珍惜那些让生活美好的事物）。"
+          "text": "宾语从句位于动词或介词之后，从句缺成分时用 what、who、which 等引导。"
         },
         {
           "type": "subhead",
@@ -1267,7 +1267,7 @@
         },
         {
           "type": "p",
-          "text": "表语从句位于系动词之后，说明主语的内容。表示“是否”用 whether，如 Her confusion is whether she should stick to her own way of life。"
+          "text": "表语从句位于系动词之后，说明主语的内容。表示“是否”用 whether，不用 if。"
         }
       ],
       "examples": [
@@ -1290,7 +1290,7 @@
           "group": "同位语从句"
         }
       ],
-      "keypoint": "名词后接 that 从句说明内容时，是同位语从句。名词性从句缺主语或宾语时用 what；只表示“是否”时用 whether 或 if。that 只起连接作用，不在从句中充当成分。",
+      "keypoint": "名词后接 that 从句说明内容时，是同位语从句。名词性从句缺成分时用 what、who、which 等；表示“是否”时用 whether，if 只引导宾语从句。that 只起连接作用，不在从句中充当成分。",
       "drill": [
         {
           "stem": "毫无疑问，阅读书籍可以拓宽我们的视野并丰富我们的知识。",

@@ -104,11 +104,11 @@
         },
         {
           "type": "p",
-          "text": "分词作状语时，它的逻辑主语就是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Hearing the news, she burst into tears（她听到消息后痛哭起来）。"
+          "text": "分词作状语时，它的逻辑主语就是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Compared to the whole universe, the earth seems so small（与整个宇宙相比，地球显得非常渺小）。"
         },
         {
           "type": "p",
-          "text": "句末的 -ing 形式多表示结果或伴随，如 she burst into tears, releasing all her emotions。分词的完成式 having done 表示动作先于谓语发生，如 Having finished his homework, he went out to play。"
+          "text": "句末的 -ing 形式多表示结果或伴随。分词的完成式 having done 表示动作先于谓语发生，如 Having finished his homework, he went out to play。"
         },
         {
           "type": "pattern",
@@ -651,11 +651,11 @@
         },
         {
           "type": "p",
-          "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句，如 It surprises us that … 与 It is surprising that …。"
+          "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句。"
         },
         {
           "type": "p",
-          "text": "改写时，把主语从句或动名词短语挪到句末，句首换成 it，如 Spending too much time online is unhealthy 可写成 It is unhealthy to spend too much time online。"
+          "text": "改写时，把主语从句或动名词短语挪到句末，句首换成 it。动名词主语要改成不定式（to do）放到句末，如 Spending too much time online is unhealthy 可写成 It is unhealthy to spend too much time online。"
         }
       ],
       "examples": [
@@ -833,7 +833,7 @@
         },
         {
           "type": "p",
-          "text": "Despite、In spite of 表让步，相当于 although。Because 引导的原因从句，若主语与主句一致，可改写成分词短语作原因状语，如 Thinking of …。"
+          "text": "Despite、In spite of 表让步，相当于 although。Because 引导的原因从句，若主语与主句一致，可改写成分词短语作原因状语。"
         },
         {
           "type": "p",
@@ -879,7 +879,7 @@
         }
       ],
       "examples": [],
-      "keypoint": "两个小句主语一致时，从句可改成分词或介词短语。if 表示真实条件，just as 表示正当，so that 的同义说法是 in order to 或 so as to。",
+      "keypoint": "两个小句主语一致时，从句可改成分词或介词短语。if 表示真实条件，just as 表示正当，主语一致时 so that 的同义说法是 in order to 或 so as to。",
       "drill": [
         {
           "stem": "Because he thought of people still in need of help, he stayed longer for the medical care.\n___ people still in need of help, he stayed longer for the medical care.",

@@ -264,6 +264,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
   color: var(--accent);
 }
 .atoms > li > p { margin: 0; }
+.atoms > li > p:not([lang="en"]) { text-align: left; }   /* 中文题干（翻译）不两端对齐：行尾接整体换行的提示时，字距会被拉开 */
 .drill .src { margin-right: 12pt; }   /* 出处在题前，后空 1 字接题干 */
 .cue { font: 400 9pt/1 "sans-ui"; margin-left: 6pt; }
 
@@ -293,6 +294,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 }
 .key li { position: relative; break-inside: avoid; margin: 0; text-align: left; }
 .key li + li { margin-top: var(--h); }
+.key li:last-child { break-before: avoid; }   /* 答案末条不单独成页 */
 .key li::before {
   content: attr(data-no);
   position: absolute;
@@ -376,8 +378,8 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 }
 .unit:not(.stage) > .unit-head .unit-book { margin: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
 /* 30pt 行盒 3u 中基线原在 63.9pt，上提 6.84pt 落到 57.06pt（= 15.06 + 42） */
-.unit:not(.stage) > .unit-head h2 { margin: 0; font: 700 30pt/calc(3 * var(--u)) "arrow", "serif-en", "serif-cjk"; position: relative; top: -6.84pt; }
-.unit:not(.stage) > .unit-head h2 small { font: 400 14pt/1 "sans-ui"; margin-left: 1em; }
+.unit:not(.stage) > .unit-head h2 { margin: 0; text-align: left; font: 700 30pt/calc(3 * var(--u)) "arrow", "serif-en", "serif-cjk"; position: relative; top: -6.84pt; }
+.unit:not(.stage) > .unit-head h2 small { font: 400 14pt/1 "sans-ui"; margin-left: 1em; white-space: nowrap; }
 .unit:not(.stage) > .unit-head .unit-stats { list-style: none; margin: 0; padding: 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }
 .unit:not(.stage) > .unit-head .unit-stats li { display: inline; margin-right: 2em; }
 /* 16pt 数字行盒压到 15.68pt，不把 9pt 行的行盒撑高 0.16pt */
@@ -420,6 +422,9 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .freq td.how, .unit:not(.stage) .freq td.tally { padding-top: 2.28pt; font: 400 9pt/18.72pt "sans-ui"; }
 .unit:not(.stage) .freq td.how { padding-right: 6pt; }
 .unit:not(.stage) .freq td.tally { white-space: nowrap; }
+.unit:not(.stage) .part > .after { margin: var(--u) 0 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }   /* 考情表下的口径说明，同段考总览表 */
+.unit:not(.stage) .part > .after { break-before: avoid; }   /* 说明不与表分页 */
+.unit:not(.stage) .freq tbody:last-of-type tr:last-child, .unit:not(.stage) .freq tbody:last-of-type tr:last-child > td { break-before: avoid; break-inside: avoid; }   /* 表尾不单剩一行 */
 .tally i { display: inline-block; width: 3.75pt; height: 7.5pt; margin-right: 1.5pt; background: var(--accent); vertical-align: -0.5pt; }
 .tally span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
 

@@ -1223,10 +1223,10 @@
           "cue": [],
           "提示词": null,
           "答案": "His confidence has left/made/had a deep impression on us. We have been/are deeply impressed by/with his confidence.",
-          "解析": "考查句子结构。根据句意可知，本句可用现在完成时表示过去的动作对现在的影响或用一般现在时表示现在状态。可以表示主语“他的自信”为名词短语his confidence；表示“给我们留下了深刻的印象”用leave(或make或have) a deep impression on us，主谓一致，动词用has+过去分词，impression为名词。也可以用“我们”we作主语，用动词impress“给……以深刻印象”作谓语，此时动词和主语之间是被动关系，表示为be deeply impressed，主谓一致be动词可用现在完成时表达为have been，或用一般现在时表达为are；谓语动词之后用介词by或with接名词短语his confidence。句首字母大写，故翻译为①His confidence has left/made/had a deep impression on us.②We have been/are deeply impressed by/with his confidence。",
+          "解析": "考查句子结构。根据句意可知，本句可用现在完成时表示过去的动作对现在的影响或用一般现在时表示现在状态。可以表示主语“他的自信”为名词短语his confidence；表示“给我们留下了深刻的印象”用leave(或make) a deep impression on us，主谓一致，动词用has+过去分词，impression为名词。也可以用“我们”we作主语，用动词impress“给……以深刻印象”作谓语，此时动词和主语之间是被动关系，表示为be deeply impressed，主谓一致be动词可用现在完成时表达为have been，或用一般现在时表达为are；谓语动词之后用介词by或with接名词短语his confidence。句首字母大写，故翻译为①His confidence has left/made a deep impression on us.②We have been/are deeply impressed by/with his confidence。",
           "句意": "",
-          "reason": "leave/make/have 留印象，现在完成",
-          "answer_show": "His confidence has left a deep impression on us.（亦可 made / had）"
+          "reason": "leave/make 留印象，现在完成",
+          "answer_show": "His confidence has left a deep impression on us.（亦可 made）"
         },
         {
           "id": "031-10",
@@ -2687,9 +2687,9 @@
               ],
               "提示词": null,
               "答案": "Inspired by the speech, the young couple decided to take up the challenge.",
-              "解析": "考查非谓语动词。句意：受到演讲的启发，这对年轻夫妇决定接受挑战。过去分词inspired可以作原因状语，表被动。句首字母大写，去掉Because the couple were。故答案为Inspired by the speech, the young couple decided to take up the challenge.",
+              "解析": "考查非谓语动词。句意：受到演讲的启发，这对年轻夫妇决定接受挑战。过去分词inspired可以作原因状语，表被动。句首字母大写，去掉Because the couple were。故答案为Inspired by the speech, the couple decided to take up the challenge.",
               "句意": "",
-              "reason": "过去分词作原因状语，去掉 because；题库答案多出 young，已删",
+              "reason": "过去分词作原因状语；原句无 young，不加",
               "answer_show": "Inspired by the speech, the couple decided to take up the challenge."
             }
           ]
@@ -3416,8 +3416,8 @@
               "no": 6,
               "标签": "2023 · 东莞市 · 高一上期中",
               "题型": "语法填空",
-              "题干": "To our ___ (amaze), Tom,who used to be addicted to online games, is beyond recognition as he is concentrating on his studies now.",
-              "题干HTML": "To our <span class=\"blank\"></span> (amaze), Tom,who used to be addicted to online games, is beyond recognition as he is concentrating on his studies now.",
+              "题干": "To our ___ (amaze), Tom, who used to be addicted to online games, is beyond recognition as he is concentrating on his studies now.",
+              "题干HTML": "To our <span class=\"blank\"></span> (amaze), Tom, who used to be addicted to online games, is beyond recognition as he is concentrating on his studies now.",
               "cue": [],
               "提示词": "amaze",
               "答案": "amazement",
@@ -4664,9 +4664,9 @@
           "cue": [],
           "提示词": null,
           "答案": "pretend",
-          "解析": "考查动词。句意：如果你不懂装懂，你只会使自己出丑。空处为从句谓语动词，根据汉语提示，动词pretend符合句意；主句为一般将来时，根据“主将从现”原则，故从句应为一般现在时表将来。主语是you，谓语动词用原形。故填pretend。",
+          "解析": "考查动词。句意：如果你不懂装懂，你只会使自己出丑。空处为从句谓语动词，根据汉语提示，动词pretend符合句意；主句为一般将来时，根据“主将从现”原则，故从句应为一般现在时表将来。主语是you，一般现在时的形式与原形相同。故填pretend。",
           "句意": "",
-          "reason": "If 从句中用动词原形"
+          "reason": "if 从句用一般现在时，表将来"
         },
         {
           "id": "087-22",
@@ -5470,65 +5470,12 @@
               "answer_show": null
             }
           ]
-        },
-        {
-          "词头": "survive",
-          "题数": 4,
-          "gloss": "动词用 survive<br>名词为 survivor",
-          "chain": [
-            {
-              "词": "survive",
-              "词性": "vi. & vt.",
-              "释义": "幸存",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "survivor",
-              "词性": "n.",
-              "释义": "幸存者",
-              "hit": true,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "048-10",
-              "no": 4,
-              "标签": "2023 · 东莞外国语学校 · 高一下月考",
-              "题型": "语法填空",
-              "题干": "So far, over fifty companies have donated food and medicine to help the ___ (survive) of the earthquake.",
-              "题干HTML": "So far, over fifty companies have donated food and medicine to help the <span class=\"blank\"></span> (survive) of the earthquake.",
-              "cue": [],
-              "提示词": "survive",
-              "答案": "survivors",
-              "解析": "考查名词。句意：到目前为止，已有50多家公司捐赠食品和药品来帮助地震的幸存者。根据句意可知，表示幸存者，用survivor，表示多个幸存者用复数形式。故填survivors。",
-              "句意": "",
-              "reason": "the 之后用名词复数，指幸存者",
-              "answer_show": null
-            },
-            {
-              "id": "083-22",
-              "no": 5,
-              "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
-              "题型": "单词拼写",
-              "题干": "They were lucky to ___ (幸免于) the accident.",
-              "题干HTML": "They were lucky to <span class=\"blank\"></span> (幸免于) the accident.",
-              "cue": [],
-              "提示词": null,
-              "答案": "survive",
-              "解析": "考查动词。句意：他们在事故中幸免于难。“幸免于”用动词survive表示，与不定式符号to构成不定式短语，作原因状语。故填survive。",
-              "句意": "",
-              "reason": "to 后接动词原形，表示幸免于",
-              "answer_show": null
-            }
-          ]
         }
       ],
       "spelling": [
         {
           "id": "099-14",
-          "no": 6,
+          "no": 4,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "I think there is much ___ (智慧) to be learned from the hearts of children.",
@@ -5542,7 +5489,7 @@
         },
         {
           "id": "107-23",
-          "no": 7,
+          "no": 5,
           "标签": "2023 · 东莞第二高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Slowly, the city began to ___ (呼吸) again.",
@@ -5556,7 +5503,7 @@
         },
         {
           "id": "099-13",
-          "no": 8,
+          "no": 6,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "The snowstorm ___ (袭击) while we were still on the mountain.",
@@ -5570,7 +5517,7 @@
         },
         {
           "id": "096-34",
-          "no": 9,
+          "no": 7,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Explain your difficulties ___ (平静地) and sensibly.",
@@ -5584,7 +5531,7 @@
         },
         {
           "id": "099-15",
-          "no": 10,
+          "no": 8,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "The hurricane totally ___ (摧毁) the whole village.",
@@ -5598,7 +5545,7 @@
         },
         {
           "id": "084-08",
-          "no": 11,
+          "no": 9,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Normally at this time of year spring planting would be in full swing, but the ___ (干旱) has made farming impossible in parts of the province.",
@@ -5612,7 +5559,7 @@
         },
         {
           "id": "108-12",
-          "no": 12,
+          "no": 10,
           "标签": "2023 · 东莞高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "The snake usually reaches a ___ (长度) of 100 cm.",
@@ -5634,7 +5581,7 @@
           "atoms": [
             {
               "id": "128-20",
-              "no": 13,
+              "no": 11,
               "标签": "2023 · 石竹实验学校 · 高一下月考",
               "题型": "完成句子",
               "题干": "It was being given ___ (急救)at the scene of the accident that probably made the man survive.",
@@ -5656,7 +5603,7 @@
           "atoms": [
             {
               "id": "148-25",
-              "no": 14,
+              "no": 12,
               "标签": "2025 · 翰林高级中学 · 高一下期中",
               "题型": "翻译",
               "题干": "我很荣幸地站在这里发表演讲。 → ___",
@@ -5680,7 +5627,7 @@
           "atoms": [
             {
               "id": "108-19",
-              "no": 15,
+              "no": 13,
               "标签": "2023 · 东莞高级中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "Fishermen, tourists, hotels, homes, and cars ___ (卷走，彻底消除) by huge waves caused by the strong earthquake that reached a magnitude of 9.0.",
@@ -5699,7 +5646,7 @@
       "quiz": [
         {
           "id": "031-12",
-          "no": 16,
+          "no": 14,
           "标签": "2025 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "The pizza you ordered online ___ (deliver) now, and it will be here soon.",
@@ -5713,7 +5660,7 @@
         },
         {
           "id": "086-21",
-          "no": 17,
+          "no": 15,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He ___ (遭受，蒙受) from poor eyesight and could no longer read properly.",
@@ -5727,7 +5674,7 @@
         },
         {
           "id": "154-15",
-          "no": 18,
+          "no": 16,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "Among all the shining points, the ___ (striking) feature of the landscape is the huge mountain in the distance.",
@@ -5741,7 +5688,7 @@
         },
         {
           "id": "087-21",
-          "no": 19,
+          "no": 17,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Universities should be about the acquisition(习得) of knowledge, ___ (智慧) and understanding.",
@@ -5755,7 +5702,7 @@
         },
         {
           "id": "083-21",
-          "no": 20,
+          "no": 18,
           "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "A man of great ___ (智慧) often appears slow.",
@@ -5769,7 +5716,7 @@
         },
         {
           "id": "063-12",
-          "no": 21,
+          "no": 19,
           "标签": "2023 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "Natural ___ (disaster) are events like earthquakes or floods that can be very dangerous.",
@@ -5782,7 +5729,7 @@
           "reason": "主语复数，与 are 呼应"
         }
       ],
-      "numbered_total": 21
+      "numbered_total": 19
     },
     {
       "序": 6,
@@ -6149,8 +6096,8 @@
               "no": 4,
               "标签": "2025 · 东莞市 · 高一上期末",
               "题型": "语法填空",
-              "题干": "We are often demanded to learn from books, but in fact learning from others is ___ (equal) important.",
-              "题干HTML": "We are often demanded to learn from books, but in fact learning from others is <span class=\"blank\"></span> (equal) important.",
+              "题干": "We are often asked to learn from books, but in fact learning from others is ___ (equal) important.",
+              "题干HTML": "We are often asked to learn from books, but in fact learning from others is <span class=\"blank\"></span> (equal) important.",
               "cue": [],
               "提示词": "equal",
               "答案": "equally",
@@ -6462,8 +6409,8 @@
           "no": 20,
           "标签": "2025 · 厚街中学 · 高一下月考",
           "题型": "语法填空",
-          "题干": "The panda, a national treasure of China, ___ (refer) to as a ”living fossil“ due to its long history and unique biological characteristics.",
-          "题干HTML": "The panda, a national treasure of China, <span class=\"blank\"></span> (refer) to as a ”living fossil“ due to its long history and unique biological characteristics.",
+          "题干": "The panda, a national treasure of China, ___ (refer) to as a “living fossil” due to its long history and unique biological characteristics.",
+          "题干HTML": "The panda, a national treasure of China, <span class=\"blank\"></span> (refer) to as a “living fossil” due to its long history and unique biological characteristics.",
           "cue": [],
           "提示词": "refer",
           "答案": "is referred",

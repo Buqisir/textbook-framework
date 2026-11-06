@@ -121,13 +121,13 @@
         {
           "type": "gloss",
           "lines": [
-            "后置修饰名词",
+            "分词短语后置",
             "被动用 done"
           ]
         },
         {
           "type": "p",
-          "text": "非谓语作定语放在被修饰名词之后。名词是动作的承受者，用过去分词，如 the books written by a famous author，表示被动或完成。"
+          "text": "分词短语作定语放在被修饰名词之后，如 the books written by a famous author，表示被动或完成。单个分词多放在名词之前，如 a broken window。"
         },
         {
           "type": "p",
@@ -165,7 +165,7 @@
         },
         {
           "type": "p",
-          "text": "分词作表语时多已形容词化，表示主语的感受，如 be surprised、be excited、be disturbed，只表示状态，不表示动作。"
+          "text": "分词作表语时多已形容词化，表示主语的感受，如 be surprised、be excited，只表示状态，不表示动作。"
         },
         {
           "type": "p",
@@ -184,7 +184,7 @@
         },
         {
           "type": "p",
-          "text": "间接引语中，祈使句要改成不定式作宾补，否定式在 to 前加 not。如 The teacher told us not to be late，是 tell sb. not to do 的固定说法。"
+          "text": "间接引语中，祈使句要改成不定式作宾补，否定式在 to 前加 not。tell sb. not to do 是固定说法。"
         },
         {
           "type": "subhead",
@@ -434,7 +434,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句在句首作主语，谓语用单数。从句缺成分时用 what、who 等，从句完整时用 that 或 whether，如 Whether he will come is still unknown。"
+          "text": "主语从句在句首作主语，谓语用单数。从句缺成分时用 what、who、which 等，从句完整时用 that 或 whether，如 Whether he will come is still unknown。"
         },
         {
           "type": "p",
@@ -480,7 +480,7 @@
         },
         {
           "type": "p",
-          "text": "一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序，如 She asked whether he could come."
+          "text": "一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序。"
         }
       ],
       "examples": [
@@ -559,7 +559,7 @@
           "group": "表语从句"
         }
       ],
-      "keypoint": "从句在句首作主语，缺成分用 what，不缺成分用 that 或 whether。系动词之后的表语从句同样看从句是否缺成分。一般疑问的宾语从句用 if 或 whether。",
+      "keypoint": "从句在句首作主语，缺成分用 what、who、which 等，不缺成分用 that 或 whether。系动词之后的表语从句同样看从句是否缺成分。一般疑问的宾语从句用 if 或 whether。",
       "drill": [
         {
           "stem": "To our surprise, Karl Marx should have lived and died in London.\n___ is that Karl Marx should have lived and died in London.",
@@ -636,7 +636,7 @@
         },
         {
           "type": "p",
-          "text": "句首 it 作形式主语，真正的主语是句末的不定式或 that 从句。常见 It is obvious / clear / known / believed that …，It bothers sb. that …。"
+          "text": "句首 it 作形式主语，真正的主语是句末的不定式或 that 从句。常见 It is obvious / clear / known that …，It bothers sb. that …。"
         },
         {
           "type": "p",
@@ -788,7 +788,7 @@
         },
         {
           "type": "p",
-          "text": "两句合并时，若后一句说明前一句中的名词，可用介词加 which 引导非限制性从句，如 I bought a book, from which I learned a lot。"
+          "text": "两句合并时，若后一句说明前一句中的名词，可用介词加 which 引导非限制性从句。"
         }
       ],
       "examples": [],
@@ -818,7 +818,7 @@
             "用定语从句合并句子"
           ],
           "src": "2022 · 东莞市 · 高二上期末",
-          "ans": "I am fond of reading poems from which I can learn a lot of beautiful words.",
+          "ans": "I am fond of reading poems, from which I can learn a lot of beautiful words.",
           "why": "后一句说明 poems，用 from which 合并",
           "group": "关系代词",
           "level": "必练"
@@ -858,7 +858,7 @@
         },
         {
           "type": "p",
-          "text": "没有时间词时，看叙述的事是否已经发生。说过去已经发生的事，谓语用一般过去时，如 The reason he gave for his absence made sense（他缺席时给的理由讲得通）。"
+          "text": "没有时间词时，看叙述的事是否已经发生。说过去已经发生的事，谓语用一般过去时。"
         },
         {
           "type": "pattern",
@@ -877,11 +877,11 @@
         },
         {
           "type": "p",
-          "text": "risk、in spite of 等词后接动名词，动名词的逻辑主语是动作的承受者，用被动式 being done，如 risk being punished（冒着被惩罚的风险），in spite of being banned（尽管被禁止）。"
+          "text": "risk、in spite of 等词后接动名词，动名词的逻辑主语是动作的承受者，用被动式 being done，如 risk being punished（冒着被惩罚的风险）。"
         },
         {
           "type": "p",
-          "text": "主动句改成被动句时，be 的形式跟原句时态一致。原句是过去完成时，被动式就用 had been done，如 had sliced 改成 had been sliced。"
+          "text": "主动句改成被动句时，be 的形式跟原句时态一致。原句是过去完成时，被动式就用 had been done。"
         }
       ],
       "examples": [

@@ -90,7 +90,7 @@
     },
     {
      "type": "p",
-     "text": "不定式放在名词后面作定语，说明这个名词要做什么，或者能做什么。不定式的动词用原形，如 a chance to survive、something to identify、a lot to explore。"
+     "text": "不定式放在名词后面作定语，说明这个名词要做什么，或者能做什么。不定式的动词用原形，如 a lot to explore。"
     },
     {
      "type": "subhead",
@@ -120,7 +120,7 @@
     },
     {
      "type": "p",
-     "text": "不定式作目的状语，说明做某事的目的，可换成 in order to。keep sb. company 是固定搭配，意为“陪伴某人”。"
+     "text": "不定式作目的状语，说明做某事的目的，可换成 in order to。"
     },
     {
      "type": "subhead",
@@ -135,7 +135,7 @@
     },
     {
      "type": "p",
-     "text": "动名词短语作主语时，谓语动词用单数。beneficial to 与 of benefit to 意思相同，改写时只需替换这个短语，谓语的单数形式不变。"
+     "text": "动名词短语作主语时，谓语动词用单数；同义改写时，谓语的单数形式不变。"
     }
    ],
    "examples": [
@@ -309,7 +309,7 @@
     },
     {
      "type": "p",
-     "text": "appreciate、find、make 等动词后接 if 从句，或接“宾语加宾补加不定式”时，宾语位置用 it 占位，真正的宾语放在后面。I would appreciate it if… 是固定句型。"
+     "text": "appreciate 后接 if 从句时，宾语位置用 it 占位，I would appreciate it if… 是固定句型。find、make 等动词后接“宾语加宾补加不定式”时，宾语位置用 it 占位，真正的宾语放在后面。"
     },
     {
      "type": "subhead",
@@ -318,7 +318,7 @@
     {
      "type": "gloss",
      "lines": [
-      "It is reported that",
+      "据报道类",
       "that 从句是真正主语"
      ]
     },
@@ -328,7 +328,7 @@
     }
    ],
    "examples": [],
-   "keypoint": "find、make 等动词后接“宾语加宾补加不定式”时，宾语位置填 it。句首是 It is reported that 结构时，it 是形式主语。",
+   "keypoint": "find、make 等动词后接“宾语加宾补加不定式”时，宾语位置填 it；appreciate 后接 if 从句时也填 it。句首是 It is reported that 结构时，it 是形式主语。",
    "drill": [
     {
      "stem": "In the past, people found getting enough food was difficult.\nIn the past, people found ___ difficult ___ enough food.",

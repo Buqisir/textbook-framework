@@ -116,7 +116,7 @@
         },
         {
           "type": "p",
-          "text": "分词作状语最常见，如 Compared with、Burying himself。分词与逻辑主语是主动关系时用 -ing，是被动关系时用 -ed（compared 指被比较）。"
+          "text": "分词作状语最常见。分词与逻辑主语是主动关系时用 -ing，是被动关系时用 -ed。"
         },
         {
           "type": "p",
@@ -152,11 +152,11 @@
         },
         {
           "type": "p",
-          "text": "动名词或不定式短语作主语时，整个短语视为单数，谓语用单数。句首的 doing 首字母大写：Being happy is important；Spending too much time online is unhealthy。"
+          "text": "动名词或不定式短语作主语时，整个短语视为单数，谓语用单数。句首的 doing 首字母大写：Being happy is important。"
         },
         {
           "type": "p",
-          "text": "主语较长时，常把真正的主语放到句末，句首用 it 作形式主语：It is unhealthy to spend too much time online。"
+          "text": "主语较长时，常把真正的主语放到句末，句首用 it 作形式主语。"
         },
         {
           "type": "pattern",
@@ -178,7 +178,7 @@
         },
         {
           "type": "p",
-          "text": "现在分词表示主动或正在进行，过去分词表示被动或已完成，如 a term dating back to the 1920s（可追溯到 20 世纪 20 年代的一个术语）、the lecture organized by our university。"
+          "text": "现在分词表示主动或正在进行，过去分词表示被动或已完成，如 the lecture organized by our university。"
         },
         {
           "type": "pattern",
@@ -196,7 +196,7 @@
         },
         {
           "type": "p",
-          "text": "find、make、get、have 等词后接的宾语若是动作的承受者，宾补用过去分词：get themselves trapped（使自己被困住）、make myself understood（让别人能理解自己）。"
+          "text": "find、make、get、have 等词后接的宾语若是动作的承受者，宾补用过去分词：make myself understood（让别人能理解自己）。"
         },
         {
           "type": "p",
@@ -351,7 +351,7 @@
           "level": "必练"
         },
         {
-          "stem": "Blue collar jobs is a term ___ (追溯到) the 1920s.",
+          "stem": "“Blue-collar jobs” is a term ___ (追溯到) the 1920s.",
           "cue": [],
           "src": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "dating back to",
@@ -369,7 +369,7 @@
           "level": "必练"
         },
         {
-          "stem": "___ (compare) to our small apartment,our uncle’s house seemed like a palace.",
+          "stem": "___ (compare) to our small apartment, our uncle’s house seemed like a palace.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "Compared",
@@ -387,7 +387,7 @@
           "level": "必练"
         },
         {
-          "stem": "It seems that my roommate has much confidence for the coming final exam.\nMy roommate ___ much confidence for the coming final exam.",
+          "stem": "It seems that my roommate has much confidence in the coming final exam.\nMy roommate ___ much confidence in the coming final exam.",
           "cue": [
             "同义句转换"
           ],
@@ -536,7 +536,7 @@
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "trapped",
-          "why": "get oneself done，宾补用过去分词",
+          "why": "get oneself trapped，宾补用过去分词",
           "group": "作宾补",
           "level": "必练"
         },
@@ -713,7 +713,7 @@
         },
         {
           "type": "p",
-          "text": "it 与真宾之间是宾补：make it clear that（说清楚）、make it a rule that（定为规定）、find it difficult to do（觉得难做）。"
+          "text": "it 与真宾之间是宾补：consider it an honor to do（认为……是荣幸）。"
         },
         {
           "type": "subhead",
@@ -731,7 +731,7 @@
         },
         {
           "type": "p",
-          "text": "改写题常见两种：Obviously … → It is obvious that …；sb. seems to do → It seems that …（时态跟原句）。"
+          "text": "改写题常见两种：副词改成 It is 形容词 that …；sb. seems to do → It seems that …（时态跟原句）。"
         },
         {
           "type": "pattern",
@@ -741,7 +741,8 @@
       "examples": [
         {
           "gloss": [
-            "make it clear that"
+            "make 之后",
+            "形式宾语 it"
           ],
           "stem": {
             "text": "The teacher made ___ clear that our credits would be hard-earned.",
@@ -1018,11 +1019,11 @@
         },
         {
           "type": "p",
-          "text": "从句缺主语或宾语：指人用 who（作主语）、whom（作宾语），指物用 which 或 that，所属关系用 whose（如 whose windows）。"
+          "text": "从句缺主语或宾语：指人用 who（作主语）、whom（作宾语），指物用 which 或 that，所属关系用 whose。"
         },
         {
           "type": "p",
-          "text": "介词后用“介词 + whom / which”，如 with whom；that 不能跟在介词后。逗号后的 which、whom、whose 是非限定，前面用逗号隔开，不能换成 that。"
+          "text": "介词后用“介词 + whom / which”；that 不能跟在介词后。逗号后的 which、whom、whose 是非限定，前面用逗号隔开，不能换成 that。"
         },
         {
           "type": "subhead",
@@ -1054,7 +1055,7 @@
         },
         {
           "type": "p",
-          "text": "翻译题里“……的日子”常译作 the days when …，也可用 in which。"
+          "text": "翻译题里“……的日子”常用 when 引导定语从句，也可用 in which。"
         },
         {
           "type": "pattern",
@@ -1437,7 +1438,7 @@
       "keypoint": "被强调的成分可以是时间、地点、原因，也可以是人或物，套入 It is/was…that；去掉 It is…that 后句子须完整。not until 整体放进 It was 与 that 之间。",
       "drill": [
         {
-          "stem": "She used the flash cards to teach the kids new words last class.",
+          "stem": "She used [_the flash cards_] to teach the kids new words last class.",
           "cue": [
             "用强调句对划线部分强调"
           ],
@@ -1448,7 +1449,7 @@
           "level": "必练"
         },
         {
-          "stem": "Mastering enough English words makes you an excellent English learner.",
+          "stem": "[_Mastering enough English words_] makes you an excellent English learner.",
           "cue": [
             "强调划线部分"
           ],
@@ -1480,7 +1481,7 @@
           "level": "必练"
         },
         {
-          "stem": "He didn’t go to school yesterday because he was ill.",
+          "stem": "He didn’t go to school yesterday [_because he was ill_].",
           "cue": [
             "强调划线部分"
           ],
@@ -1491,7 +1492,7 @@
           "level": "必练"
         },
         {
-          "stem": "I found this stray cat in the corner of the park.",
+          "stem": "I found this stray cat [_in the corner of the park_].",
           "cue": [
             "对划线部分进行强调"
           ],
@@ -1502,7 +1503,7 @@
           "level": "必练"
         },
         {
-          "stem": "The villagers didn’t realize the earthquake happened until the earth began to shake.",
+          "stem": "The villagers didn’t realize the earthquake happened [_until the earth began to shake_].",
           "cue": [
             "改为强调句，并强调划线部分"
           ],
@@ -1560,7 +1561,7 @@
           "level": "必练"
         },
         {
-          "stem": "She didn’t come back home until I finished this letter.",
+          "stem": "She didn’t come back home [_until I finished this letter_].",
           "cue": [
             "强调划线部分"
           ],
@@ -1614,10 +1615,6 @@
         {
           "type": "p",
           "text": "as if、as though 引导的从句意为「好像……似的」，实际并非如此，所以从句要虚拟。指过去的情况用 had done，指现在或将来的情况用一般过去时或 were。"
-        },
-        {
-          "type": "p",
-          "text": "例如 He smiled at me as if he had done something clever（他冲我笑，好像做了什么聪明事）。"
         },
         {
           "type": "pattern",
@@ -1803,7 +1800,7 @@
         },
         {
           "type": "p",
-          "text": "no matter + 疑问词（what、where）表示“无论”，相当于 -ever 词；句首的 No matter what 首字母大写。"
+          "text": "no matter + 疑问词（what、where）表示“无论”，相当于 -ever 词；位于句首时首字母大写。"
         },
         {
           "type": "p",
@@ -1821,7 +1818,7 @@
         },
         {
           "type": "p",
-          "text": "so + 形容词或副词 + that，such + 名词短语 + that，that 后接结果，如 so interesting that（有趣到……）。"
+          "text": "so + 形容词或副词 + that，such + 名词短语 + that，that 后接结果，如 so serious that（严重到……）。"
         },
         {
           "type": "p",
@@ -1847,7 +1844,7 @@
         },
         {
           "type": "p",
-          "text": "I hadn’t realized she was Miss Liu until she spoke（直到她开口说话，我才意识到她是刘老师）。从句的动词用它本身的时态，不随主句变化。"
+          "text": "until 从句的动词用它本身的时态，不随主句变化。"
         },
         {
           "type": "pattern",
@@ -1865,7 +1862,7 @@
         },
         {
           "type": "p",
-          "text": "once 作连词时意为「一旦」，引导时间或条件状语从句，说明一旦发生某种情况，主句的结果就随之出现：Once you form a bad habit, it is hard to get rid of it（一旦养成坏习惯，就很难改掉）。"
+          "text": "once 作连词时意为「一旦」，引导时间或条件状语从句，说明一旦发生某种情况，主句的结果就随之出现。"
         },
         {
           "type": "p",
@@ -1887,7 +1884,7 @@
         },
         {
           "type": "p",
-          "text": "because 引导原因状语从句，直接说明原因。because 后接句子，because of 后接名词或名词短语：because he was ill（因为他病了），because of his illness（因为他的病）。"
+          "text": "because 引导原因状语从句，直接说明原因。because 后接句子，because of 后接名词或名词短语，如 because of his illness（因为他的病）。"
         },
         {
           "type": "p",
@@ -2043,7 +2040,7 @@
         },
         {
           "type": "p",
-          "text": "句首的 that 从句或 what 从句作主语。It is obvious、likely 后接 that 从句，It 是形式主语，that 从句是真主语。"
+          "text": "句首的 that 从句或 what 从句作主语。It is 形容词 that 结构中，It 是形式主语，that 从句是真主语。"
         },
         {
           "type": "p",
@@ -2069,7 +2066,7 @@
         },
         {
           "type": "p",
-          "text": "介词后面的宾语从句不用 that，只用 what、whether 等：be confused about what they should eat（对该吃什么感到困惑）。"
+          "text": "介词后面的宾语从句不用 that，是否用 whether，缺成分用 what、how 等。"
         }
       ],
       "examples": [
@@ -2198,7 +2195,7 @@
         },
         {
           "type": "p",
-          "text": "表示地点或方位的状语（如 In front of…、Out、Up）放在句首时，如果谓语是 be 或不及物动词，主语是名词，谓语和主语要全部倒装：In front of the students stood the speaker。"
+          "text": "表示地点或方位的状语（如 In front of…、Out、Up）放在句首时，如果谓语是 be 或不及物动词，主语是名词，谓语和主语要全部倒装。"
         },
         {
           "type": "p",

@@ -111,11 +111,11 @@
         },
         {
           "type": "p",
-          "text": "find、make 之后，若宾语是动作的承受者，宾补用过去分词（found herself left alone、make myself understood）。"
+          "text": "find、make 之后，若宾语是动作的承受者，宾补用过去分词（make myself understood）。"
         },
         {
           "type": "p",
-          "text": "that 从句若是「宾语 + 被动」，可改成「宾语 + 过去分词」，如 found that his wallet was stolen → found his wallet stolen。"
+          "text": "that 从句若是「宾语 + 被动」，可改成「宾语 + 过去分词」。"
         },
         {
           "type": "subhead",
@@ -129,7 +129,7 @@
         },
         {
           "type": "p",
-          "text": "动名词短语作主语，整个短语看作单数，谓语用单数。句首的 doing 首字母大写，如 Taking、Holding、Being。"
+          "text": "动名词短语作主语，整个短语看作单数，谓语用单数。句首的 doing 首字母大写。"
         },
         {
           "type": "subhead",
@@ -143,7 +143,7 @@
         },
         {
           "type": "p",
-          "text": "非谓语作定语，放在被修饰的名词后面，相当于一个定语从句。不定式表示将要发生或有待完成的动作，如 a lot to explore（有很多值得探索的东西）。"
+          "text": "非谓语作定语，放在被修饰的名词后面，相当于一个定语从句。不定式表示将要发生或有待完成的动作。"
         },
         {
           "type": "p",
@@ -165,7 +165,7 @@
         },
         {
           "type": "p",
-          "text": "分词作状语时，它的逻辑主语就是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Compared with other athletes（与其他运动员相比）。"
+          "text": "分词作状语时，它的逻辑主语就是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed。"
         },
         {
           "type": "p",
@@ -183,7 +183,7 @@
         },
         {
           "type": "p",
-          "text": "不定式或动名词可以作表语，说明主语是什么或做什么。表示目的或打算要做的事多用不定式：The goal of the organization is to design more practical tools（该组织的目标是设计更实用的工具）。"
+          "text": "不定式或动名词可以作表语，说明主语是什么或做什么。表示目的或打算要做的事多用不定式。"
         },
         {
           "type": "p",
@@ -582,11 +582,11 @@
         },
         {
           "type": "p",
-          "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句，常见 It is obvious / clear / important that…。"
+          "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句，常见 It is 形容词 that…。"
         },
         {
           "type": "p",
-          "text": "改写时：Obviously 这类副词改成 It is obvious that…；动名词主语（Spending…）改成 It is 形容词 to do…，主语挪到句末。"
+          "text": "改写时：副词改成 It is 形容词 that…；动名词主语（Spending…）改成 It is 形容词 to do…，主语挪到句末。"
         }
       ],
       "keypoint": "空格在 find、think、make 之后，且后面是形容词加 to do，填 it；句首的 it 是形式主语，真正的主语在句末。",
@@ -896,7 +896,7 @@
           ],
           "src": "2022 · 东莞实验中学 · 高一上月考",
           "ans": "The teacher recommends that we (should) spend an hour every day on English study.",
-          "why": "recommend 后宾语从句用 (should) 原形；题库答案漏译“每天”，已补 every day",
+          "why": "recommend 后用 (should) 原形；须译“每天”",
           "group": "recommend 型",
           "level": "必练"
         }
@@ -934,7 +934,7 @@
         {
           "type": "gloss",
           "lines": [
-            "多以 It is obvious that"
+            "多以 It is 形容词 that"
           ]
         },
         {
@@ -1090,7 +1090,7 @@
           "level": "必练"
         },
         {
-          "stem": "Senior high school is a challenge.",
+          "stem": "[_Senior high school_] is a challenge.",
           "cue": [
             "就划线部分改写强调句"
           ],
