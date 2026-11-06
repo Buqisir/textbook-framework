@@ -553,7 +553,7 @@
       "keypoint": "从句在句首作主语，缺成分用 what，不缺成分用 that 或 whether。系动词之后的表语从句同样看从句是否缺成分。一般疑问的宾语从句用 if 或 whether。",
       "drill": [
         {
-          "stem": "To our surprise, Carl Marx should have lived and died in London.\n___ is that Carl Marx should have lived and died in London.",
+          "stem": "To our surprise, Karl Marx should have lived and died in London.\n___ is that Karl Marx should have lived and died in London.",
           "cue": [
             "同义句改写"
           ],
@@ -795,7 +795,7 @@
           "level": "必练"
         },
         {
-          "stem": "Holiday is usually a time ___ everybody takes a break from daily work.",
+          "stem": "Holidays are usually a time ___ everybody takes a break from daily work.",
           "cue": [],
           "src": "2022 · 东莞市 · 高二上期末",
           "ans": "when",

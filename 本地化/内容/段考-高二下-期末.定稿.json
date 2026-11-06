@@ -295,7 +295,7 @@
       "keypoint": "句中已有谓语且无连词时，空处多为非谓语，可作状语、定语或宾补。分词与逻辑主语是主动关系用 -ing，被动关系用 -ed；不定式表示目的、将来或结果。have sth done 中宾补用过去分词。",
       "drill": [
         {
-          "stem": "The improvement of ecological construction in China has enabled larger amounts of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
+          "stem": "The improvement of ecological construction in China has enabled larger numbers of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期末",
           "ans": "becoming",
@@ -874,7 +874,7 @@
           "level": "必练"
         },
         {
-          "stem": "\"Can I apply to be a volunteer in the coming marathon?\" ___ Mary asked\nMary asked ___ apply to be a volunteer in the coming marathon.",
+          "stem": "\"Can I apply to be a volunteer in the coming marathon?\" Mary asked.\nMary asked ___ apply to be a volunteer in the coming marathon.",
           "cue": [
             "改为间接引语"
           ],

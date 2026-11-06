@@ -642,7 +642,7 @@
      "level": "必练"
     },
     {
-     "stem": "Zheng Qinwen is the first woman ___ won the women’s singles champion in tennis.",
+     "stem": "Zheng Qinwen is the first woman ___ won the women’s singles championship in tennis.",
      "cue": [],
      "src": "2024 · 东莞市 · 高一上期末",
      "ans": "that",
@@ -1024,7 +1024,7 @@
       "did 提前"
      ],
      "stem": {
-      "text": "They not only introduced advanced technology, but also changed their views on how to develop economy.\n___ they ___ advanced technology, but also changed their views on how to develop economy.",
+      "text": "They not only introduced advanced technology, but also changed their views on how to develop the economy.\n___ they ___ advanced technology, but also changed their views on how to develop the economy.",
       "cue": [
        "改为倒装句"
       ],

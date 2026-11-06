@@ -544,7 +544,7 @@
           "level": "必练"
         },
         {
-          "stem": "Online shopping make ___ much easier for the public to spend more on gifts for their loved ones.",
+          "stem": "Online shopping makes ___ much easier for the public to spend more on gifts for their loved ones.",
           "cue": [],
           "src": "2025 · 东莞市 · 高一下联考",
           "ans": "it",
@@ -879,12 +879,12 @@
           "level": "必练"
         },
         {
-          "stem": "They didn't realize the importance of environment protecting [_until all the fish in the river died out_].",
+          "stem": "They didn't realize the importance of protecting the environment [_until all the fish in the river died out_].",
           "cue": [
             "强调划线部分"
           ],
           "src": "2023 · 东莞实验中学 · 高一下月考",
-          "ans": "It was not until all the fish in the river died out that they realized the importance of environment protecting.",
+          "ans": "It was not until all the fish in the river died out that they realized the importance of protecting the environment.",
           "why": "It was not until … that 强调时间",
           "group": "not until 句",
           "level": "必练"

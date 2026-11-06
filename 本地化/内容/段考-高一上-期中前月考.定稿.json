@@ -643,7 +643,7 @@
           "level": "必练"
         },
         {
-          "stem": "Some beginners think ___ difficult to learn Chinese in just a few moths.",
+          "stem": "Some beginners think ___ difficult to learn Chinese in just a few months.",
           "cue": [],
           "src": "2024 · 麻涌中学 · 高一上月考",
           "ans": "it",
@@ -839,7 +839,7 @@
           "level": "必练"
         },
         {
-          "stem": "My English teacher recommended us that an English dictionary ___ (buy).",
+          "stem": "My English teacher recommended to us that an English dictionary ___ (buy).",
           "cue": [],
           "src": "2024 · 东莞市 · 高一上月考",
           "ans": "(should) be bought",
@@ -895,8 +895,8 @@
             "用recommend翻译"
           ],
           "src": "2022 · 东莞实验中学 · 高一上月考",
-          "ans": "The teacher recommends that we (should) spend an hour on English study.",
-          "why": "recommend 后宾语从句用 (should) 原形",
+          "ans": "The teacher recommends that we (should) spend an hour every day on English study.",
+          "why": "recommend 后宾语从句用 (should) 原形；题库答案漏译“每天”，已补 every day",
           "group": "recommend 型",
           "level": "必练"
         }
