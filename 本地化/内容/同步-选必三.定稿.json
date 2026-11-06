@@ -267,7 +267,7 @@
     {
      "短语": "fall apart",
      "释义": "破裂；破碎；崩溃",
-     "词头": "set apart from",
+     "词头": "fall apart",
      "gloss": "不及物，后不接宾语<br>过去式用 fell apart",
      "atoms": [
       {
@@ -300,11 +300,7 @@
        "reason": "不及物短语，过去式用 fell apart",
        "answer_show": null
       }
-     ],
-     "对照": {
-      "短语": "set apart from sb/sth",
-      "释义": "使……与众不同"
-     }
+     ]
     }
    ],
    "tricks": [],
@@ -1540,7 +1536,7 @@
    },
    "freq": [
     {
-     "词头": "unfortunately",
+     "词头": "fortunate",
      "forms": [
       {
        "form": "fortunately",
@@ -2482,7 +2478,7 @@
     {
      "短语": "make a difference to",
      "释义": "对……有影响；起作用",
-     "词头": "be made up of",
+     "词头": "make a difference",
      "gloss": "有影响的对象用 to 引出<br>动词 make 随主语变化",
      "atoms": [
       {
@@ -2520,7 +2516,7 @@
     {
      "短语": "make sense",
      "释义": "有意义；讲得通",
-     "词头": "be made up of",
+     "词头": "make sense",
      "gloss": "表示讲得通、合乎情理<br>否定用 make any sense",
      "atoms": [
       {
@@ -2558,7 +2554,7 @@
     {
      "短语": "make full use of",
      "释义": "充分利用",
-     "词头": "be made up of",
+     "词头": "make full use of",
      "gloss": "后接 sth 作宾语",
      "atoms": [
       {

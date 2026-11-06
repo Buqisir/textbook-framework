@@ -1583,7 +1583,7 @@
               "答案": "shameful",
               "解析": "be动词后接形容词作表语。故填：shameful。",
               "句意": "我为他在晚宴上的粗鲁行为感到可耻。",
-              "reason": "shameful 误，改 ashamed",
+              "reason": "am 后用形容词；题库 shameful 误",
               "answer_show": "ashamed"
             }
           ]
@@ -1896,7 +1896,7 @@
         "n_phrase": 0
       },
       "h2": "Working the Land",
-      "zh": "Working the Land",
+      "zh": "农业耕作",
       "stats": {
         "卷数": 3,
         "词数": 69,

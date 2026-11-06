@@ -316,7 +316,7 @@
             {
               "词": "assistants",
               "词性": "n.",
-              "释义": "助手",
+              "释义": "助手（复数）",
               "hit": true,
               "来源": "补入"
             }
@@ -685,7 +685,7 @@
         "n_phrase": 1
       },
       "h2": "Bridging Cultures",
-      "zh": "Bridging Cultures",
+      "zh": "跨文化交流",
       "stats": {
         "卷数": 44,
         "词数": 68,
@@ -1765,7 +1765,7 @@
               "答案": "get involved in",
               "解析": "考查短语。句意：我不想卷入这无意义的争论。结合汉语提示，表达“参与，卷入”用get involved in，不定式符号to后跟动词原形（want to do）。故填get involved in。",
               "句意": "",
-              "reason": "involved in 固定搭配",
+              "reason": "get involved in 为固定搭配",
               "answer_show": null
             }
           ]
@@ -1881,15 +1881,11 @@
       },
       "freq": [
         {
-          "词头": "trick",
+          "词头": "make fun of",
           "forms": [
             {
-              "form": "fun of",
-              "n": 2
-            },
-            {
               "form": "make fun of",
-              "n": 2
+              "n": 4
             }
           ],
           "考法": [
@@ -2118,7 +2114,7 @@
         "n_phrase": 0
       },
       "h2": "Journey Across a Vast Land",
-      "zh": "Journey Across a Vast Land",
+      "zh": "穿越辽阔大地",
       "stats": {
         "卷数": 2,
         "词数": 55,
@@ -2313,7 +2309,7 @@
           "答案": "panicked",
           "解析": "考查动词时态。句意：当我看到烟从引擎里冒出来时，我慌了。空处在句中作谓语，根据后文“ when I saw smoke coming out of the engine”可知此处应用一般过去时，panic的过去式为panicked。故填panicked。",
           "句意": "",
-          "reason": "when 从句用一般过去时",
+          "reason": "主句与 saw 同用一般过去时",
           "answer_show": null
         }
       ],
