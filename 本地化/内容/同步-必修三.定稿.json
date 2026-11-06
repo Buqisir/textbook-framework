@@ -18,7 +18,7 @@
         "卷数": 18,
         "词数": 78,
         "短语数": 68,
-        "句式题数": 0
+        "句式题数": 1
       },
       "freq": [
         {
@@ -199,20 +199,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "moment",
-          "forms": [
-            {
-              "form": "first time",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语",
-            "翻译"
           ],
           "题数": 1
         },
@@ -586,25 +572,35 @@
           "句意": "",
           "reason": "修饰 time，形容词",
           "answer_show": null
-        },
-        {
-          "id": "090-08",
-          "no": 12,
-          "标签": "2024 · 东华高级中学 · 高一下月考",
-          "题型": "单词拼写",
-          "题干": "A ___ (代表) from the tour company will meet you at the check-in.",
-          "题干HTML": "A <span class=\"blank\"></span> (代表) from the tour company will meet you at the check-in.",
-          "cue": [],
-          "提示词": null,
-          "答案": "representative",
-          "解析": "考查名词。句意：旅游公司的代表将在登记处与您会面。空处作句子主语，结合汉语提示representative符合题意，冠词a提示用其单数形式。故填representative。",
-          "句意": "",
-          "reason": "冠词 A 后用名词，指人",
-          "answer_show": null
         }
       ],
       "phrases": [],
-      "tricks": [],
+      "tricks": [
+        {
+          "句式": "第一次句型",
+          "gloss": "从句用现在完成时",
+          "formula": "她第一次参加运动会。 → It is the first time that …",
+          "atoms": [
+            {
+              "id": "050-33",
+              "no": 12,
+              "标签": "2023 · 东莞外国语学校 · 高一上月考",
+              "题型": "翻译",
+              "题干": "这是她第一次参加运动会。 → ___",
+              "题干HTML": "这是她第一次参加运动会。 → <span class=\"blank\"></span>",
+              "cue": [
+                "用It is the first time that...翻译"
+              ],
+              "提示词": null,
+              "答案": "It is the first time that she has taken part in the sports meeting.",
+              "解析": "考查固定句型和固定短语。根据提示，本题用固定句型It is the first time that sb. have/has done表示“某人第一次做某事”，that引导的从句应用现在完成时，“参加”可用take part in表达，作从句谓语，用现在完成时，主语she是第三人称单数，助动词用has，“运动会”用sports meeting表达，此处为特指，用定冠词the修饰。故翻译为It is the first time that she has taken part in the sports meeting.",
+              "句意": "",
+              "reason": "从句用现在完成时",
+              "answer_show": null
+            }
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": "040-14",
@@ -695,26 +691,9 @@
           "句意": "",
           "reason": "作非限定定语，现在分词",
           "answer_show": null
-        },
-        {
-          "id": "050-33",
-          "no": 19,
-          "标签": "2023 · 东莞外国语学校 · 高一上月考",
-          "题型": "翻译",
-          "题干": "这是她第一次参加运动会。 → ___",
-          "题干HTML": "这是她第一次参加运动会。 → <span class=\"blank\"></span>",
-          "cue": [
-            "用It is the first time that...翻译"
-          ],
-          "提示词": null,
-          "答案": "It is the first time that she has taken part in the sports meeting.",
-          "解析": "考查固定句型和固定短语。根据提示，本题用固定句型It is the first time that sb. have/has done表示“某人第一次做某事”，that引导的从句应用现在完成时，“参加”可用take part in表达，作从句谓语，用现在完成时，主语she是第三人称单数，助动词用has，“运动会”用sports meeting表达，此处为特指，用定冠词the修饰。故翻译为It is the first time that she has taken part in the sports meeting.",
-          "句意": "",
-          "reason": "第一次句型，that 后用现在完成",
-          "answer_show": null
         }
       ],
-      "numbered_total": 19
+      "numbered_total": 18
     },
     {
       "序": 13,
@@ -2343,57 +2322,12 @@
             }
           ],
           "gloss": "所有格后用名词<br>permit 的名词形式"
-        },
-        {
-          "词头": "intention",
-          "题数": 1,
-          "chain": [
-            {
-              "词": "intention",
-              "词性": "n.",
-              "释义": "打算",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "intend",
-              "词性": "vi. & vt.",
-              "释义": "打算",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "intended",
-              "词性": "adj.",
-              "释义": "打算的",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "132-12",
-              "no": 3,
-              "标签": "2023 · 东莞第一中学 · 高一下月考",
-              "题型": "语法填空",
-              "题干": "In 1998, Mark left Edinburgh with the ___ (intend) of finding a job in London.",
-              "题干HTML": "In 1998, Mark left Edinburgh with the <span class=\"blank\"></span> (intend) of finding a job in London.",
-              "cue": [],
-              "提示词": "intend",
-              "答案": "intention",
-              "解析": "考查名词。句意：1998年，马克离开爱丁堡，打算在伦敦找份工作。作介词的宾语，应用名词intention。故填intention。",
-              "句意": "",
-              "reason": "with the 后用名词",
-              "answer_show": null
-            }
-          ],
-          "gloss": "with the 后用名词<br>intend 的名词形式"
         }
       ],
       "spelling": [
         {
           "id": "095-11",
-          "no": 4,
+          "no": 3,
           "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "Please do not ___ (犹豫；迟疑) to contact me if you have any questions.",
@@ -2408,7 +2342,7 @@
         },
         {
           "id": "002-10",
-          "no": 5,
+          "no": 4,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "It's illegal to read people's private letters without ___ (允许).",
@@ -2423,7 +2357,7 @@
         },
         {
           "id": "009-10",
-          "no": 6,
+          "no": 5,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "He made an ___ (道歉)to me for what he said.",
@@ -2438,7 +2372,7 @@
         },
         {
           "id": "095-12",
-          "no": 7,
+          "no": 6,
           "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "She tries not to use her phone when she studies, but it’s hard to ___ (忽视).",
@@ -2453,7 +2387,7 @@
         },
         {
           "id": "095-10",
-          "no": 8,
+          "no": 7,
           "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "It takes time and ___ (耐心) to learn a language.",
@@ -2468,7 +2402,7 @@
         },
         {
           "id": "106-17",
-          "no": 9,
+          "no": 8,
           "标签": "2023 · 东华高级中学 · 高一下期中",
           "题型": "单词拼写",
           "题干": "She returned to London to ___ (追求) her acting career.",
@@ -2491,7 +2425,7 @@
           "atoms": [
             {
               "id": "005-23",
-              "no": 10,
+              "no": 9,
               "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "You should apologize to your teacher for coming to class late. → You should ___ your teacher for coming to class late.",
@@ -2512,7 +2446,7 @@
       "quiz": [
         {
           "id": "064-07",
-          "no": 11,
+          "no": 10,
           "标签": "2024 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "One of the most important ___ (element) of being a good friend is listening carefully.",
@@ -2527,7 +2461,7 @@
         },
         {
           "id": "099-24",
-          "no": 12,
+          "no": 11,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
@@ -2541,7 +2475,7 @@
           "answer_show": "should be permitted / be permitted"
         }
       ],
-      "numbered_total": 12
+      "numbered_total": 11
     }
   ]
 }

@@ -8,7 +8,7 @@
       "unit_book": "必修第一册　Welcome Unit",
       "chips": {
         "year_range": "2019–2026",
-        "n_questions": 78,
+        "n_questions": 79,
         "n_kaofa": 28,
         "n_phrase": 16
       },
@@ -56,6 +56,28 @@
           "题数": 16
         },
         {
+          "词头": "explore",
+          "forms": [
+            {
+              "form": "exploring",
+              "n": 4
+            },
+            {
+              "form": "explore",
+              "n": 2
+            },
+            {
+              "form": "to explore",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "动词形式",
+            "拼写"
+          ],
+          "题数": 8
+        },
+        {
           "词头": "company",
           "forms": [
             {
@@ -87,28 +109,6 @@
           ],
           "考法": [
             "词性转换",
-            "拼写"
-          ],
-          "题数": 7
-        },
-        {
-          "词头": "explore",
-          "forms": [
-            {
-              "form": "exploring",
-              "n": 3
-            },
-            {
-              "form": "explore",
-              "n": 2
-            },
-            {
-              "form": "to explore",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "动词形式",
             "拼写"
           ],
           "题数": 7
@@ -327,23 +327,10 @@
           "题数": 1
         },
         {
-          "词头": "junior",
+          "词头": "get used to",
           "forms": [
             {
-              "form": "junior",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "look forward to",
-          "forms": [
-            {
-              "form": "look forward to",
+              "form": "get used to",
               "n": 1
             }
           ],
@@ -402,19 +389,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "senior",
-          "forms": [
-            {
-              "form": "senior",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
           ],
           "题数": 1
         }
@@ -1020,7 +994,7 @@
               "解析": "考查固定短语和时态。句意：令人开心的是，他已经告诉我了他所有的计划，而且他给我留下了好印象。“留下好印象”用动词短语make/leave a good impression on sb.，作谓语，结合句意和空格前助动词has可知，此处强调过去的动作对现在造成的影响，用现在完成时态has made/left a good impression on。故填made/left; a; good; impression。",
               "句意": "",
               "reason": "he's 即 he has，现在完成时用 made",
-              "answer_show": "made a good impression on"
+              "answer_show": "made a good impression（亦可 left）"
             },
             {
               "id": "113-17",
@@ -1047,7 +1021,7 @@
         {
           "短语": "be/get used to（doing）sth",
           "释义": "习惯于（做）某事",
-          "词头": "look forward to",
+          "词头": "used",
           "atoms": [
             {
               "id": "125-25",
@@ -1826,7 +1800,7 @@
           "题数": 1
         },
         {
-          "词头": "extra-curricular",
+          "词头": "extra",
           "forms": [
             {
               "form": "extra",
@@ -1839,7 +1813,7 @@
           "题数": 1
         },
         {
-          "词头": "movement",
+          "词头": "move",
           "forms": [
             {
               "form": "moved",
@@ -2715,8 +2689,8 @@
               "答案": "Inspired by the speech, the young couple decided to take up the challenge.",
               "解析": "考查非谓语动词。句意：受到演讲的启发，这对年轻夫妇决定接受挑战。过去分词inspired可以作原因状语，表被动。句首字母大写，去掉Because the couple were。故答案为Inspired by the speech, the young couple decided to take up the challenge.",
               "句意": "",
-              "reason": "过去分词作原因状语，去掉 because",
-              "answer_show": "Inspired by the speech, the young couple decided to take up the challenge."
+              "reason": "过去分词作原因状语，去掉 because；题库答案多出 young，已删",
+              "answer_show": "Inspired by the speech, the couple decided to take up the challenge."
             }
           ]
         },
@@ -2827,7 +2801,7 @@
           "答案": "schedule",
           "解析": "考查名词。句意：高中生经常面临紧张的日程安排，平衡学术学习和课外活动。根据汉语提示“日程安排”及前文a tight可知，此处应用名词schedule作宾语。故填schedule。",
           "句意": "",
-          "reason": "tight 后作宾语，日程安排",
+          "reason": "tight 后用名词，作 face 的宾语",
           "answer_show": null
         },
         {
@@ -2842,7 +2816,7 @@
           "答案": "Addicted",
           "解析": "考查形容词。句意：痴迷于中国传统文化，她加入了学校的书法社团，并且每天坚持练习。addicted to是固定短语，表示“对……很入迷”，此处为形容词作原因状语，句首单词首字母需大写。故填Addicted。",
           "句意": "",
-          "reason": "addicted to 作原因状语，句首大写",
+          "reason": "过去分词作原因状语，句首大写",
           "answer_show": null
         },
         {
@@ -3985,31 +3959,6 @@
           "题数": 8
         },
         {
-          "词头": "make it",
-          "forms": [
-            {
-              "form": "fun of",
-              "n": 2
-            },
-            {
-              "form": "make fun of",
-              "n": 1
-            },
-            {
-              "form": "make it",
-              "n": 1
-            },
-            {
-              "form": "make use of",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 5
-        },
-        {
           "词头": "determination",
           "forms": [
             {
@@ -4048,6 +3997,23 @@
           "题数": 4
         },
         {
+          "词头": "make fun of",
+          "forms": [
+            {
+              "form": "made fun of",
+              "n": 2
+            },
+            {
+              "form": "make fun of",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 3
+        },
+        {
           "词头": "make sense",
           "forms": [
             {
@@ -4059,7 +4025,7 @@
               "n": 1
             },
             {
-              "form": "sense",
+              "form": "made sense",
               "n": 1
             }
           ],
@@ -4090,19 +4056,6 @@
           "题数": 3
         },
         {
-          "词头": "apart",
-          "forms": [
-            {
-              "form": "apart",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 2
-        },
-        {
           "词头": "failure",
           "forms": [
             {
@@ -4121,6 +4074,19 @@
           "题数": 2
         },
         {
+          "词头": "fall apart",
+          "forms": [
+            {
+              "form": "fell apart",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 2
+        },
+        {
           "词头": "honour",
           "forms": [
             {
@@ -4135,6 +4101,23 @@
           "考法": [
             "词性转换",
             "拼写"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "make full use of",
+          "forms": [
+            {
+              "form": "make the most of / make full use of",
+              "n": 1
+            },
+            {
+              "form": "make use of",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
           ],
           "题数": 2
         },
@@ -4234,23 +4217,10 @@
           "题数": 1
         },
         {
-          "词头": "now and then",
+          "词头": "prefer…rather than",
           "forms": [
             {
-              "form": "from time to time",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "rather than",
-          "forms": [
-            {
-              "form": "prefers to rather than",
+              "form": "prefers to…rather than",
               "n": 1
             }
           ],
@@ -4267,7 +4237,22 @@
               "n": 1
             }
           ],
-          "考法": [],
+          "考法": [
+            "比较级"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "sometimes",
+          "forms": [
+            {
+              "form": "from time to time",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
           "题数": 1
         },
         {
@@ -4781,7 +4766,7 @@
           "短语": "make sense",
           "释义": "讲得通；有道理",
           "词头": "sense",
-          "gloss": "否定说法用 make no sense",
+          "gloss": "否定句中用 make any sense",
           "对照": {
             "短语": "make no sense",
             "释义": "没有意义；讲不通"
@@ -5084,24 +5069,6 @@
           "题数": 3
         },
         {
-          "词头": "affect",
-          "forms": [
-            {
-              "form": "affected",
-              "n": 1
-            },
-            {
-              "form": "effect",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "动词形式",
-            "拼写"
-          ],
-          "题数": 2
-        },
-        {
           "词头": "breathe",
           "forms": [
             {
@@ -5178,6 +5145,19 @@
             "拼写"
           ],
           "题数": 2
+        },
+        {
+          "词头": "affect",
+          "forms": [
+            {
+              "form": "affected",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
         },
         {
           "词头": "aid",
@@ -5336,10 +5316,10 @@
           "题数": 1
         },
         {
-          "词头": "sweep",
+          "词头": "sweep away",
           "forms": [
             {
-              "form": "away",
+              "form": "swept away",
               "n": 1
             }
           ],
@@ -5479,8 +5459,8 @@
               "no": 3,
               "标签": "2022 · 东莞第五高级中学 · 高一上期中",
               "题型": "语法填空",
-              "题干": "When I stopped playing and looked up, I was ___ (shock) to see a small crowed around us.",
-              "题干HTML": "When I stopped playing and looked up, I was <span class=\"blank\"></span> (shock) to see a small crowed around us.",
+              "题干": "When I stopped playing and looked up, I was ___ (shock) to see a small crowd around us.",
+              "题干HTML": "When I stopped playing and looked up, I was <span class=\"blank\"></span> (shock) to see a small crowd around us.",
               "cue": [],
               "提示词": "shock",
               "答案": "shocked",
@@ -5561,22 +5541,8 @@
           "reason": "much 之后用不可数名词"
         },
         {
-          "id": "107-24",
-          "no": 7,
-          "标签": "2023 · 东莞第二高级中学 · 高一上月考",
-          "题型": "单词拼写",
-          "题干": "With strong support from the government and the tireless ___ (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "题干HTML": "With strong support from the government and the tireless <span class=\"blank\"></span> (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "cue": [],
-          "提示词": null,
-          "答案": "effect",
-          "解析": "考查名词。句意：在政府的大力支持和全市人民的不懈努力下，全市实现了快速发展。分析句子结构，空白处在句子中作宾语使用名词，根据汉语提示，表示“影响，结果”含义的名词为：effect，故填effect。",
-          "句意": "",
-          "reason": "tireless 之后用名词，指影响"
-        },
-        {
           "id": "107-23",
-          "no": 8,
+          "no": 7,
           "标签": "2023 · 东莞第二高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Slowly, the city began to ___ (呼吸) again.",
@@ -5590,7 +5556,7 @@
         },
         {
           "id": "099-13",
-          "no": 9,
+          "no": 8,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "The snowstorm ___ (袭击) while we were still on the mountain.",
@@ -5604,7 +5570,7 @@
         },
         {
           "id": "096-34",
-          "no": 10,
+          "no": 9,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Explain your difficulties ___ (平静地) and sensibly.",
@@ -5618,7 +5584,7 @@
         },
         {
           "id": "099-15",
-          "no": 11,
+          "no": 10,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "The hurricane totally ___ (摧毁) the whole village.",
@@ -5632,7 +5598,7 @@
         },
         {
           "id": "084-08",
-          "no": 12,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Normally at this time of year spring planting would be in full swing, but the ___ (干旱) has made farming impossible in parts of the province.",
@@ -5646,7 +5612,7 @@
         },
         {
           "id": "108-12",
-          "no": 13,
+          "no": 12,
           "标签": "2023 · 东莞高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "The snake usually reaches a ___ (长度) of 100 cm.",
@@ -5668,7 +5634,7 @@
           "atoms": [
             {
               "id": "128-20",
-              "no": 14,
+              "no": 13,
               "标签": "2023 · 石竹实验学校 · 高一下月考",
               "题型": "完成句子",
               "题干": "It was being given ___ (急救)at the scene of the accident that probably made the man survive.",
@@ -5678,7 +5644,7 @@
               "答案": "first ； aid",
               "解析": "考查固定短语。句意：在事故现场进行急救可能使这个人活了下来。“急救”为固定搭配first aid，作宾语，不可数，故填first aid。",
               "句意": "",
-              "reason": "first aid 为固定搭配"
+              "reason": "名词词组，作 given 的宾语"
             }
           ]
         },
@@ -5690,7 +5656,7 @@
           "atoms": [
             {
               "id": "148-25",
-              "no": 15,
+              "no": 14,
               "标签": "2025 · 翰林高级中学 · 高一下期中",
               "题型": "翻译",
               "题干": "我很荣幸地站在这里发表演讲。 → ___",
@@ -5714,7 +5680,7 @@
           "atoms": [
             {
               "id": "108-19",
-              "no": 16,
+              "no": 15,
               "标签": "2023 · 东莞高级中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "Fishermen, tourists, hotels, homes, and cars ___ (卷走，彻底消除) by huge waves caused by the strong earthquake that reached a magnitude of 9.0.",
@@ -5733,7 +5699,7 @@
       "quiz": [
         {
           "id": "031-12",
-          "no": 17,
+          "no": 16,
           "标签": "2025 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "The pizza you ordered online ___ (deliver) now, and it will be here soon.",
@@ -5747,7 +5713,7 @@
         },
         {
           "id": "086-21",
-          "no": 18,
+          "no": 17,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He ___ (遭受，蒙受) from poor eyesight and could no longer read properly.",
@@ -5761,7 +5727,7 @@
         },
         {
           "id": "154-15",
-          "no": 19,
+          "no": 18,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "Among all the shining points, the ___ (striking) feature of the landscape is the huge mountain in the distance.",
@@ -5775,7 +5741,7 @@
         },
         {
           "id": "087-21",
-          "no": 20,
+          "no": 19,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Universities should be about the acquisition(习得) of knowledge, ___ (智慧) and understanding.",
@@ -5789,7 +5755,7 @@
         },
         {
           "id": "083-21",
-          "no": 21,
+          "no": 20,
           "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "A man of great ___ (智慧) often appears slow.",
@@ -5803,7 +5769,7 @@
         },
         {
           "id": "063-12",
-          "no": 22,
+          "no": 21,
           "标签": "2023 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "Natural ___ (disaster) are events like earthquakes or floods that can be very dangerous.",
@@ -5816,7 +5782,7 @@
           "reason": "主语复数，与 are 呼应"
         }
       ],
-      "numbered_total": 22
+      "numbered_total": 21
     },
     {
       "序": 6,
@@ -5954,7 +5920,7 @@
           "题数": 1
         },
         {
-          "词头": "based",
+          "词头": "base",
           "forms": [
             {
               "form": "is based",

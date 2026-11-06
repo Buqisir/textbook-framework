@@ -571,7 +571,7 @@
           "答案": "promote",
           "解析": "考查动词。句意：他们挨家挨户去推销他们的新产品。went 为谓语动词，空格处应填动词原形和不定式符号to构成目的状语，结合汉语提示“推销”是promote。故填promote。",
           "句意": "",
-          "reason": "go 后接不定式，to 后用原形"
+          "reason": "表目的，to 后用动词原形"
         },
         {
           "id": "108-11",
@@ -1225,7 +1225,8 @@
               "答案": "efficiently",
               "解析": "副词efficiently修饰动词manage。故填：efficiently。",
               "句意": "迈克能高效地处理一切。",
-              "reason": "修饰动词 manage，用副词"
+              "reason": "改 efficiently 为 effectively",
+              "answer_show": "effectively"
             }
           ],
           "gloss": "effective 的副词形式<br>副词修饰动词，如 efficiently"
@@ -1409,22 +1410,8 @@
           "reason": "介词 from 后用名词"
         },
         {
-          "id": "107-24",
-          "no": 10,
-          "标签": "2023 · 东莞第二高级中学 · 高一上月考",
-          "题型": "单词拼写",
-          "题干": "With strong support from the government and the tireless ___ (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "题干HTML": "With strong support from the government and the tireless <span class=\"blank\"></span> (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "cue": [],
-          "提示词": null,
-          "答案": "effect",
-          "解析": "考查名词。句意：在政府的大力支持和全市人民的不懈努力下，全市实现了快速发展。分析句子结构，空白处在句子中作宾语使用名词，根据汉语提示，表示“影响，结果”含义的名词为：effect，故填effect。",
-          "句意": "",
-          "reason": "the 之后用名词，表示影响"
-        },
-        {
           "id": "084-15",
-          "no": 11,
+          "no": 10,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Though unattractive, it was nevertheless important as an attempt to grow plants in a way which reproduced their natural ___ (栖息地).",
@@ -1438,7 +1425,7 @@
         },
         {
           "id": "084-17",
-          "no": 12,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Thus, the direction of the meeting is a mutual attempt to reduce conflict and achieve ___ (和谐).",
@@ -1452,7 +1439,7 @@
         },
         {
           "id": "084-16",
-          "no": 13,
+          "no": 12,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "With this satellite data delivery service, we're able to ___ (观察) what's happening in the ocean in ways we've never been able to before.",
@@ -1466,7 +1453,7 @@
         },
         {
           "id": "018-13",
-          "no": 14,
+          "no": 13,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "She had a severe attack of asthma and it took an hour to ___ (恢复) her breath.",
@@ -1480,7 +1467,7 @@
         },
         {
           "id": "002-08",
-          "no": 15,
+          "no": 14,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "In case I forget, please ___ (提醒) me of my promise.",
@@ -1501,7 +1488,7 @@
           "atoms": [
             {
               "id": "086-23",
-              "no": 16,
+              "no": 15,
               "标签": "2023 · 东华高级中学 · 高一下月考",
               "题型": "完成句子",
               "题干": "The medical community continues to ___ (取得进步) in the fight against cancer.",
@@ -1515,7 +1502,7 @@
             },
             {
               "id": "054-25",
-              "no": 17,
+              "no": 16,
               "标签": "2022 · 东莞实验中学 · 高一上月考",
               "题型": "翻译",
               "题干": "只有努力学习，你才能在英语上取得大的进步。 → ___",
@@ -1539,7 +1526,7 @@
           "atoms": [
             {
               "id": "143-26",
-              "no": 18,
+              "no": 17,
               "标签": "2024 · 东莞第四高级中学 · 高一上期中",
               "题型": "翻译",
               "题干": "一旦养成了坏习惯，你就不容易改掉它。 → ___",
@@ -1563,7 +1550,7 @@
           "atoms": [
             {
               "id": "155-25",
-              "no": 19,
+              "no": 18,
               "标签": "2024 · 东莞高级中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "The government has taken action in order to improve people’s living standards. → ___",
@@ -1579,7 +1566,7 @@
             },
             {
               "id": "005-26",
-              "no": 20,
+              "no": 19,
               "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "He made rapid progress in English and the teacher praised him. → ___",
@@ -1602,7 +1589,7 @@
           "atoms": [
             {
               "id": "099-41",
-              "no": 21,
+              "no": 20,
               "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
               "题型": "翻译",
               "题干": "正是在你的帮助下，我的英语口语才取得了这么大的进步。 → ___",
@@ -1625,7 +1612,7 @@
           "atoms": [
             {
               "id": "089-25",
-              "no": 22,
+              "no": 21,
               "标签": "2023 · 东华高级中学 · 高一上月考",
               "题型": "翻译",
               "题干": "只有当我们集中精力于学习时，我们才能取得进步，并最终进入我们梦寐以求的大学。 → ___",
@@ -1648,7 +1635,7 @@
           "atoms": [
             {
               "id": "059-24",
-              "no": 23,
+              "no": 22,
               "标签": "2023 · 东莞市 · 高一下期末",
               "题型": "完成句子",
               "题干": "China has made impressive progress in many fields. It makes us proud.",
@@ -1669,7 +1656,7 @@
       "quiz": [
         {
           "id": "149-14",
-          "no": 24,
+          "no": 23,
           "标签": "2025 · 翰林高级中学 · 高一上期末",
           "题型": "语法填空",
           "题干": "The school ___ (authority) are launching a program aimed at educating students on how to use the Internet safely and avoid suspicious websites.",
@@ -1683,7 +1670,7 @@
         },
         {
           "id": "015-10",
-          "no": 25,
+          "no": 24,
           "标签": "2020 · 虎门外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "Water ___ (exist) in three forms, which are liquid, gas and solid.",
@@ -1697,7 +1684,7 @@
         },
         {
           "id": "005-09",
-          "no": 26,
+          "no": 25,
           "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "The classroom ___ (measure) 30 feet long and 20 feet wide.",
@@ -1711,7 +1698,7 @@
         },
         {
           "id": "154-14",
-          "no": 27,
+          "no": 26,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "It is not the first time that the shy boy ___ (make) fun of in public.",
@@ -1726,7 +1713,7 @@
         },
         {
           "id": "024-10",
-          "no": 28,
+          "no": 27,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "Last night, there were millions of people ___ (watch) the opening ceremony live on TV.",
@@ -1741,7 +1728,7 @@
         },
         {
           "id": "048-12",
-          "no": 29,
+          "no": 28,
           "标签": "2023 · 东莞外国语学校 · 高一下月考",
           "题型": "语法填空",
           "题干": "Big progress in art ___ (make) by him in the recent years.",
@@ -1751,12 +1738,12 @@
           "答案": "has been made",
           "解析": "考查时态语态。句意：近年来他在艺术方面取得了很大的进步。根据in the recent years可知，本句为现在完成时，主语A big progress 与 make为被动关系，所以本句为现在完成时的被动语态，且主语为单数，谓语动词用单数。故填has been made。",
           "句意": "",
-          "reason": "progress 由人做，现在完成时被动",
+          "reason": "主语 progress 与 make 为被动",
           "answer_show": null
         },
         {
           "id": "132-09",
-          "no": 30,
+          "no": 29,
           "标签": "2023 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "___ (make) notes while listening can help you remember a story better.",
@@ -1771,7 +1758,7 @@
         },
         {
           "id": "062-14",
-          "no": 31,
+          "no": 30,
           "标签": "2022 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "In the past few years, China ___ (make) rapid progress in high-tech industries.",
@@ -1785,7 +1772,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 31
+      "numbered_total": 30
     },
     {
       "序": 9,
@@ -3352,23 +3339,11 @@
           "题数": 7
         },
         {
-          "词头": "set sth up",
+          "词头": "set an example",
           "forms": [
             {
-              "form": "example",
-              "n": 2
-            },
-            {
-              "form": "set an example for",
-              "n": 2
-            },
-            {
-              "form": "set sth up",
-              "n": 2
-            },
-            {
-              "form": "set an example",
-              "n": 1
+              "form": "set an example for sb",
+              "n": 7
             }
           ],
           "考法": [
@@ -3856,7 +3831,7 @@
               "reason": "表示不能，加否定前缀 un-"
             }
           ],
-          "gloss": "enable 的派生形容词<br>加 un- 表示不能"
+          "gloss": "able 加 un- 表示不能"
         },
         {
           "词头": "various",
