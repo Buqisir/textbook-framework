@@ -2,7 +2,7 @@
  "册": "高二下·期末",
  "年级学期": "高二下",
  "节点": "期末",
- "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问（待负责人确认）",
+ "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问；另讲时态与被动（被动或时态覆盖率 ≥ 60%，2026-11-06 所有者定）",
  "卷数": 8,
  "推定卷数": 0,
  "题数_关键词": 135,
@@ -398,7 +398,7 @@
      "id": "068-14",
      "标签": "2025 · 东莞市 · 高二下期末",
      "题型": "语法填空",
-     "题干": "The improvement of ecological construction in China has enabled larger amounts of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
+     "题干": "The improvement of ecological construction in China has enabled larger numbers of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
      "提示词": "become",
      "答案": "becoming",
      "解析": "考查非谓语动词。句意：中国生态建设的改善使大量鸟类飞入城市，成为人类常见的“邻居”。“(become) frequent “neighbors” of human beings”作状语， become(成为)用非谓语形式，与其逻辑主语“birds”是主动关系，用现在分词表主动。故填becoming。",
@@ -436,6 +436,226 @@
     }
    ],
    "编号": 1
+  },
+  {
+   "名称": "被动",
+   "讲": true,
+   "覆盖卷": 7,
+   "覆盖率": 0.88,
+   "题数": 13,
+   "候选": {
+    "本节点": 9,
+    "借用": 0,
+    "合计": 9
+   },
+   "子类": {
+    "其他": {
+     "题数": 9,
+     "题": [
+      "004-13",
+      "004-16",
+      "011-15",
+      "011-21",
+      "021-21",
+      "025-20",
+      "038-11",
+      "038-15",
+      "068-20"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "004-13",
+     "标签": "2018 · 东莞市 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "The child doesn't mind ___ (leave) at home when his parents go out to have a walk.",
+     "提示词": "leave",
+     "答案": "being left",
+     "解析": "mind doing sth. 介意做……；the child和leave之间是被动关系，需要动名词的被动语态；故答案being left。",
+     "句意": "这孩子不介意父母出去散步时留在家里",
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "004-16",
+     "标签": "2018 · 东莞市 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "___ (give) more time, he is sure to come up with a better solution.",
+     "提示词": "give",
+     "答案": "Given",
+     "解析": "given prep. & conj. 考虑到；如果有；不需要考虑与句子主语之间是被动还是主动；答案Given。",
+     "句意": "如果有更多的时间，他肯定会想出一个更好的解决办法。",
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [
+      "补句首空"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "011-15",
+     "标签": "2021 · 东莞市 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "The other day her father ___ (send) to a small village to rid the local villagers of poverty.",
+     "提示词": "send",
+     "答案": "was sent",
+     "解析": "考查动词被动语态。句意：前几天，她的父亲被派到一个小村庄去帮助当地村民脱贫。根据The other day（前几天）可知，整个句子表示过去的动作。另外由语意可知，她的父亲是被组织派去的。因此要用一般过去时的被动语态。故填was sent。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查动词被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "011-21",
+     "标签": "2021 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "They have tested the new machine to see if it works well.",
+     "提示词": null,
+     "答案": "The new machine has been tested (by them) to see if it works well.",
+     "解析": "考查被动语态。句意：这台新机器已(由他们)检验过了，看是否运转良好。主语The new machine与test之间为被动关系，所以用被动语态。根据原句时态可知，用现在完成时。故答案为The new machine has been tested (by them) to see if it works well.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "021-21",
+     "标签": "2022 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "They are testing out the new system to see if it works well.",
+     "提示词": null,
+     "答案": "The new system is being tested out by them to see if it works well.",
+     "解析": "考查被动语态。句意：他们正在测试新系统，看看它是否工作良好。分析句子可知， the new system和 test out是被动关系，且根据句意“正在”可知，需用正在进行时的被动。故可改写为The new system is being tested out by them to see if it works well.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "025-20",
+     "标签": "2024 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "By the end of last week, she had translated the book into three languages.",
+     "提示词": null,
+     "答案": "By the end of last week, the book had been translated into three languages (by her).",
+     "解析": "考查时态和被动语态。句意：到上周末为止，她已经把这本书翻译成三种语言了。改为被动语态的时候，By the end of last week是时间状语，不变；原本的宾语the book作为被动语态句子中的主语，had translated是过去完成时，改为被动语态是过去完成时的被动语态，是had been translated，into three languages不变，原本的主语she在被动语态中写为by her，也可省略，因此句子改为被动语态是“By the end of last week, the book had been translated into three languages (by her)”。故答案为By the end of last week, the book had been translated into three languages (by her).",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查时态和被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-11",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "You are supposed ___ (reward) with kindness when you treat others sincerely.",
+     "提示词": "reward",
+     "答案": "to be rewarded",
+     "解析": "句意：当你真诚对待他人时，你理应得到善意的回报。此处考查固定搭配be supposed to do sth.“理应做某事”；且主语you和reward之间是被动关系，表示“被回报”，因此用不定式的被动形式to be rewarded。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查固定搭配be supposed to do sth.“理应做某事”；且主语you和reward之间是被动关系，表示“被回报”，因此用不定式的被动形式to be rewarded",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-15",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "People hear him ___ (accuse) of stealing valuable goods from the local supermarket.",
+     "提示词": "accuse",
+     "答案": "accused",
+     "解析": "句意：人们听说他被指控从当地超市偷窃贵重物品。此处考查hear sb. done结构，表“听到某人被······”，him和accuse之间是被动关系，表示“他被指控”，用过去分词accused作宾语补足语。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查hear sb. done结构，表“听到某人被······”，him和accuse之间是被动关系，表示“他被指控”，用过去分词accused作宾语补足语",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "068-20",
+     "标签": "2025 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "The government has taken effective measures to protect the endangered animals.",
+     "提示词": null,
+     "答案": "Effective measures have been taken to protect the endangered animals by the government.",
+     "解析": "考查被动语态。句意：政府已经采取了有效措施来保护濒危动物。由主动语态改为被动语态，需将原句的宾语“effective measures”改为被动句的主语，原句的主语“the government”改为由介词by引出的动作执行者；原句谓语“has taken”是现在完成时的主动语态结构，改为现在完成时的被动语态结构“have/has been +过去分词”，即have/has been taken，主语是复数名词，助动词用复数形式have。故填Effective measures have been taken to protect the endangered animals by the government.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 2
   },
   {
    "名称": "it 形式主语／宾语",
@@ -597,7 +817,7 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 2
+   "编号": 3
   },
   {
    "名称": "定语从句",
@@ -795,7 +1015,7 @@
      "子类依据": null
     }
    ],
-   "编号": 3
+   "编号": 4
   },
   {
    "名称": "名词性从句",
@@ -864,10 +1084,10 @@
      "id": "004-24",
      "标签": "2018 · 东莞市 · 高二下期末",
      "题型": "翻译",
-     "题干": "绝人多数人所关心的是我们能否有一个更好的未来。\n___.",
+     "题干": "绝大多数人所关心的是我们能否有一个更好的未来。\n___.",
      "提示词": null,
      "答案": "What most people are concerned about is whether we will/can have a better future. |What most people care about is whether we will/can have a better future. |What concerns most people is whether we will/can have a better future.",
-     "解析": "这是表达的对社会发展的一种担忧，使用一般现在时即可。翻译时根据句子的意思可知，使用what引导一个主语从句，然后使用whether引导表语从句。在表达“绝人多数人所关心的”这一含义时可使用What most people are concerned about，What most people care about以及What concerns most people等形式。",
+     "解析": "这是表达的对社会发展的一种担忧，使用一般现在时即可。翻译时根据句子的意思可知，使用what引导一个主语从句，然后使用whether引导表语从句。在表达“绝大多数人所关心的”这一含义时可使用What most people are concerned about，What most people care about以及What concerns most people等形式。",
      "句意": null,
      "cue": [
       "用名词性从句翻译"
@@ -906,7 +1126,7 @@
      "id": "021-19",
      "标签": "2022 · 东莞市 · 高二下期末",
      "题型": "完成句子",
-     "题干": "\"Can I apply to be a volunteer in the coming marathon?\" ___ Mary asked\nMary asked ___ apply to be a volunteer in the coming marathon.",
+     "题干": "\"Can I apply to be a volunteer in the coming marathon?\" Mary asked.\nMary asked ___ apply to be a volunteer in the coming marathon.",
      "提示词": null,
      "答案": "whether |if ； she ； could",
      "解析": "考查宾语从句连接词和时态。句意：玛丽问她是否申请成为即将举行的马拉松比赛的志愿者。分析题干可知，间接引语应该是ask后接宾语从句，直接引语是个问句，所以连接词应该用whether或者if意为“是否”，变间接引语要注意人称的变化，变间接引语后，主句主语是Mary，所以从句主语应该用she，主句时态是一般过去时，所以从句也应是一般过去时，应用could。故填①whether或者if；②she；③could。",
@@ -1019,7 +1239,7 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 4
+   "编号": 5
   },
   {
    "名称": "倒装",
@@ -1141,7 +1361,223 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 5
+   "编号": 6
+  },
+  {
+   "名称": "时态",
+   "讲": true,
+   "覆盖卷": 3,
+   "覆盖率": 0.38,
+   "题数": 11,
+   "候选": {
+    "本节点": 9,
+    "借用": 0,
+    "合计": 9
+   },
+   "子类": {
+    "其他": {
+     "题数": 9,
+     "题": [
+      "004-07",
+      "004-22",
+      "038-12",
+      "038-13",
+      "038-17",
+      "038-18",
+      "038-19",
+      "061-14",
+      "061-22"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "004-07",
+     "标签": "2018 · 东莞市 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "Tom, as well as other staff members, ___ (invite) to this world-famous company's 100th anniversary last week.",
+     "提示词": "invite",
+     "答案": "was invited",
+     "解析": "本题考查一般过去时的被动语态和主谓一致。解题步骤：①确定考点。空格所在句子缺少谓语，故考查时态语态。②确定时态。last week是一般过去时的标志。③确定语态。invite是及物动词，其后缺少宾语，故用被动。④确定主谓一致。句子中出现as well as，根据“就远原则”，Tom是句子主语，故谓语用单数。因此答案为was invited。",
+     "句意": "上周约翰和其他工作人员应邀出席了这家世界著名公司第100周年纪念日。",
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "考查句": "考查一般过去时的被动语态和主谓一致",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "004-22",
+     "标签": "2018 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "To arouse the students' interests in English learning, our school will hold an English speaking contest next Friday.\nAn English speaking contest ___ in our school next Friday to arouse the students' interest in English learning.",
+     "提示词": null,
+     "答案": "will be held",
+     "解析": "原句是一般将来时的主动词语态，转换成一般将来时的被动被动语态。an English speaking contest与hold之间是动宾关系，用一般将来时的被动语态。",
+     "句意": "为了激发学生对英语学习的兴趣，我们学校下周将举行英语演讲比赛。",
+     "cue": [
+      "句型转换"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [
+      "被动"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-12",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "I ___ (starve) all day because I skipped breakfast.",
+     "提示词": "starve",
+     "答案": "have been starving",
+     "解析": "句意：因为我没吃早饭，我一整天都饿得慌。此处考查谓语动词，主语I与starve为主动关系，all day表示一整天，由语境可知，此处强调动作从过去持续到现在，所以应用现在完成进行时have been starving。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查谓语动词，主语I与starve为主动关系，all day表示一整天，由语境可知，此处强调动作从过去持续到现在，所以应用现在完成进行时have been starving",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-13",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "She ___ (submit) the application when she realized she forgot her signature.",
+     "提示词": "submit",
+     "答案": "had submitted",
+     "解析": "句意：她刚提交完申请，就意识到自己忘了签名。此处考查谓语动词，主语She与submit为主动关系，从句中谓语是一般过去时；且“提交申请”发生在“意识到”之前，属于过去的过去，要用过去完成时，所以应填had submitted。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查谓语动词，主语She与submit为主动关系，从句中谓语是一般过去时；且“提交申请”发生在“意识到”之前，属于过去的过去，要用过去完成时，所以应填had submitted",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-17",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "Having talked with every member present, the judge ___ (得出结论) that the accident was caused by carelessness.",
+     "提示词": null,
+     "答案": "came ； to ； a ； conclusion",
+     "解析": "句意：和在场的每一位成员交谈过后，法官得出结论，这起事故是由粗心大意造成的。根据句意和中文提示可知，表示“得出结论”应用固定短语come to a conclusion；句子叙述过去发生的事情，用一般过去时，come的过去式为came。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-18",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "Faced with great pressure, a few athletes ___ (退出) the contest and gave up the chance to win awards.",
+     "提示词": null,
+     "答案": "withdrew ； from",
+     "解析": "句意：面对巨大的压力，几个几名运动员退出了比赛，放弃了获奖的机会。根据中文提示可知，表示“退出”可用固定短语withdraw from；and连接并列谓语，由gave可知句子时态为一般过去时，withdraw的过去式为withdrew。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "038-19",
+     "标签": "2026 · 东莞第一中学 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "She politely refused my invitation when I invited her to the party.\nShe politely ___ when I invited her to the party.",
+     "提示词": null,
+     "答案": "turned ； me ； down",
+     "解析": "句意：当我邀请她参加派对时，她委婉地拒绝了我。refused my invitation，表“拒绝我的邀请”，可替换为turned me down“拒绝了我”，为固定搭配，时态用一般过去时表过去情况。",
+     "句意": null,
+     "cue": [
+      "同义句替换"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "061-14",
+     "标签": "2023 · 东莞市 · 高二下期末",
+     "题型": "语法填空",
+     "题干": "After a whole day’s work, Luke ___ (drag) his tired body home and then had a rest.",
+     "提示词": "drag",
+     "答案": "dragged",
+     "解析": "考查一般过去时。句意：工作了一整天后，卢克拖着疲惫的身体回家休息。根据并列的谓语动词had可知，此处是一般过去时，空处用动词过去式。故填dragged。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查一般过去时",
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "061-22",
+     "标签": "2023 · 东莞市 · 高二下期末",
+     "题型": "完成句子",
+     "题干": "The hero’s tales have inspired many explorers to search for sea routes.",
+     "提示词": null,
+     "答案": "Many explorers have been inspired by the hero’s tales to search for sea routes.",
+     "解析": "考查现在完成时的被动语态。句意：许多探险家受到英雄故事的鼓舞，开始寻找海上航线。分析题干可知，此句为现在完成时主动语态，改成被动语态时，句子结构为：主语+have/has been done+by sb/sth+其他成分；原句的宾语many explorers在被动语态中作主语，原句主语The hero’s tales在被动语态中作介词by的宾语，many explorers作主语，谓语动词为复数；故此句为被动语态为：Many explorers have been inspired by the hero’s tales to search for sea routes.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "考查句": "考查现在完成时的被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 7
   },
   {
    "名称": "状语从句",
@@ -1262,7 +1698,7 @@
      "子类依据": "考查句"
     }
    ],
-   "编号": 6
+   "编号": 8
   },
   {
    "名称": "强调句",
@@ -1318,36 +1754,6 @@
    "题数": 2,
    "候选": {
     "本节点": 2,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
-   "名称": "被动",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 7,
-   "覆盖率": 0.88,
-   "题数": 13,
-   "候选": {
-    "本节点": 9,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
-   "名称": "时态",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 3,
-   "覆盖率": 0.38,
-   "题数": 11,
-   "候选": {
-    "本节点": 9,
     "借用": 0,
     "合计": 0
    },
@@ -1436,7 +1842,7 @@
    "强调句": 1
   },
   "疑似缺陷题数": 1,
-  "候选合计": 48,
+  "候选合计": 66,
   "借用合计": 0,
   "借用节点分布": {},
   "不足 8 题的讲专题": []

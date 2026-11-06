@@ -2,7 +2,7 @@
  "册": "高二下·期中",
  "年级学期": "高二下",
  "节点": "期中",
- "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问（待负责人确认）",
+ "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问；另讲时态与被动（被动或时态覆盖率 ≥ 60%，2026-11-06 所有者定）",
  "卷数": 12,
  "推定卷数": 0,
  "题数_关键词": 204,
@@ -646,7 +646,7 @@
      "id": "105-07",
      "标签": "2024 · 东莞市 · 高二下期中",
      "题型": "语法填空",
-     "题干": "With the nuclear waste water ___ (pollute) the ocean, the world is worried about the problem and make efforts to find ways to deal with it.",
+     "题干": "With the nuclear waste water ___ (pollute) the ocean, the world is worried about the problem and makes efforts to find ways to deal with it.",
      "提示词": "pollute",
      "答案": "polluting",
      "解析": "考查非谓语动词。句意：随着核废水污染海洋，全世界都在担心这个问题，并努力寻找解决办法。这里是“with+宾语+宾补”复合结构，逻辑主语the nuclear waste water和pollute之间是主谓关系，且这里表示正在进行的动作，所以应用现在分词，作宾补。故填polluting。",
@@ -707,10 +707,10 @@
      "id": "105-20",
      "标签": "2024 · 东莞市 · 高二下期中",
      "题型": "完成句子",
-     "题干": "Guanyin Mountain Forest Park is located in Dongguan city and it features as the unique and beautiful scenery.",
+     "题干": "Guanyin Mountain Forest Park is located in Dongguan city and it features the unique and beautiful scenery.",
      "提示词": null,
-     "答案": "Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery。",
-     "解析": "考查过去分词短语作状语。句意：观音山森林公园位于东莞市境内，风景独特、优美。be located in“位于某处”，and前后主语一致，所以可以将and之前的句子改写为过去分词短语作状语的结构，故答案为Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery。",
+     "答案": "Located in Dongguan city, Guanyin Mountain Forest Park features the unique and beautiful scenery。",
+     "解析": "考查过去分词短语作状语。句意：观音山森林公园位于东莞市境内，风景独特、优美。be located in“位于某处”，and前后主语一致，所以可以将and之前的句子改写为过去分词短语作状语的结构，故答案为Located in Dongguan city, Guanyin Mountain Forest Park features the unique and beautiful scenery。",
      "句意": null,
      "cue": [
       "用过去分词作状语改写"
@@ -939,17 +939,16 @@
    "覆盖率": 1.0,
    "题数": 20,
    "候选": {
-    "本节点": 14,
+    "本节点": 13,
     "借用": 0,
-    "合计": 14
+    "合计": 13
    },
    "子类": {
     "关系副词 where / when / why": {
-     "题数": 6,
+     "题数": 5,
      "题": [
       "030-11",
       "032-15",
-      "074-20",
       "079-12",
       "081-16",
       "116-11"
@@ -1078,31 +1077,10 @@
      "子类依据": null
     },
     {
-     "id": "074-20",
-     "标签": "2025 · 东莞市 · 高二下期中",
-     "题型": "完成句子",
-     "题干": "I will never forget those days.I was brought up in the countryside then.",
-     "提示词": null,
-     "答案": "I will never forget those days, when I was brought up in the countryside. I will never forget those days, on which I was brought up in the countryside.",
-     "解析": "考查定语从句，句意：我永远不会忘记那些日子。那时我在乡下长大。先行词为those days，在定语从句作时间状语，关系副词为when或者on which。第二个句子中的then去掉，故填I will never forget those days, when I was brought up in the countryside./ I will never forget those days, on which I was brought up in the countryside.",
-     "句意": null,
-     "cue": [
-      "用定语从句合并"
-     ],
-     "主考点": "定语从句",
-     "主考点来源": "考查",
-     "其他命中": [],
-     "考查句": "考查定语从句，句意：我永远不会忘记那些日子",
-     "疑似缺陷": false,
-     "标记": [],
-     "子类": "关系副词 where / when / why",
-     "子类依据": "全文"
-    },
-    {
      "id": "074-22",
      "标签": "2025 · 东莞市 · 高二下期中",
      "题型": "翻译",
-     "题干": "毫无疑问，那些对生活充满热情的人更加有可能成功.",
+     "题干": "毫无疑问，那些对生活充满热情的人更加有可能成功。",
      "提示词": null,
      "答案": "There is no doubt that those who have great passion for life are more likely to succeed.",
      "解析": "考查固定句型、定语从句。表示“毫无疑问”用固定句型there is no doubt that...。表示“那些人”用those作从句主语，表示“对生活充满热情的人”用who引导的定语从句。定语从句中：修饰those，指人，关系词代替先行词在从句中作主语，用who引导；表示“对生活充满热情”用have great passion for life，其中passion是名词，表示“热情”，great修饰passion。表示“更加有可能成功”用be more likely to succeed，整个句子描述的是一种普遍现象或客观事实，时态使用一般现在时，主语是those，be动词用are。故翻译为There is no doubt that those who have great passion for life are more likely to succeed.",
@@ -1254,6 +1232,213 @@
     }
    ],
    "编号": 2
+  },
+  {
+   "名称": "被动",
+   "讲": true,
+   "覆盖卷": 10,
+   "覆盖率": 0.83,
+   "题数": 16,
+   "候选": {
+    "本节点": 8,
+    "借用": 0,
+    "合计": 8
+   },
+   "子类": {
+    "其他": {
+     "题数": 8,
+     "题": [
+      "030-21",
+      "032-07",
+      "035-11",
+      "045-22",
+      "079-21",
+      "105-21",
+      "135-12",
+      "142-20"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "030-21",
+     "标签": "2026 · 万江中学 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "The parents make the child practice the piano for two hours every day.",
+     "提示词": null,
+     "答案": "The child is made to practice the piano for two hours every day by the parents.",
+     "解析": "句意：父母让孩子每天练习两小时钢琴。原句为一般现在时，make sb. do sth.表示“让某人做某事”，变为被动语态时结构为be made to do sth. ，被动语态中不定式标志to要还原。原句主语是The parents，宾语是the child，改被动语态后，原宾语the child变为主语，is made体现一般现在时的被动语态结构，to practice the piano for two hours every day为动词不定式短语作主语补足语，by the parents表明动作执行者。",
+     "句意": null,
+     "cue": [
+      "用被动语态改写句子"
+     ],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "032-07",
+     "标签": "2026 · 东莞外国语学校 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "Her poem themed her deep love for children ___ (submit) to the national poetry contest before the deadline last month.",
+     "提示词": "submit",
+     "答案": "wassubmitted",
+     "解析": "句意：她的这首以对孩子们的深厚感情为主题的诗，是在上个月的截止日期前提交参加全国诗歌比赛的。主语poem与submit构成被动关系，结合后文last month可知为一般过去时的被动语态，谓语用单数。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "时态"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "035-11",
+     "标签": "2026 · 大岭山中学 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "From my point of view, the opening ceremony of the music festival is worthy ___ (watch).",
+     "提示词": "watch",
+     "答案": "to be watched",
+     "解析": "句意：在我看来，音乐节开幕式值得一看。be worthy to be done是固定结构，表示“值得被……”,watch与逻辑主语the opening ceremony是被动关系，故用不定式的被动式。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "045-22",
+     "标签": "2026 · 东莞市 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "It is thought that regular exercise improves memory and concentration.\nRegular exercise ___ memory and concentration.",
+     "提示词": null,
+     "答案": "is ； thought ； to ； improve",
+     "解析": "句意：人们认为，定期锻炼可以提高记忆力和注意力。根据is可知，原句用一般现在时，转换后的句子仍用一般现在时，主语Regular exercise与think为被动关系，转换后的句子用一般现在时的被动语态，谓语用is thought。be thought to do sth.“被认为做某事”，转换后的句子用不定式to improve。",
+     "句意": null,
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "079-21",
+     "标签": "2024 · 东莞市 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "The experts are examining the problem of food safety in this area.",
+     "提示词": null,
+     "答案": "The problem of food safety in this area is being examined by the experts.",
+     "解析": "考查被动语态。句意：专家们正在研究这个地区的食品安全问题。此处改为现在进行时的被动语态，主语为The problem of food safety in this area，谓语用单数。故改为The problem of food safety in this area is being examined by the experts.。",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "105-21",
+     "标签": "2024 · 东莞市 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "Sora is bringing the artificial intelligence technology a big change.",
+     "提示词": null,
+     "答案": "The artificial intelligence technology is being brought a big change by Sora. |A big changeis being brought tothe artificial intelligence technologyby Sora.",
+     "解析": "考查被动语态。句意：Sora正给人工智能技术带来重大变革。bring sb. sth.意为“给某人带来某物”，改为被动语态时，应为 Sb. be brought sth./Sth. be brought to sb.。原句使用了现在进行时，改为被动时应用现在进行时的被动语态。本句中bring的执行者是Sora，改为被动语态时，应用by引出执行者。bring的间接宾语the artificial intelligence technology成为主语，谓语应用单数，此句改为：The artificial intelligence technology is being brought a big change by Sora.；或者将bring的直接宾语a big change成为主语，谓语应用单数，此句被动语态为：A big change is being brought to the artificial intelligence technology by Sora.。故答案为：The artificial intelligence technology is being brought a big change by Sora./A big change is being brought to the artificial intelligence technology by Sora.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "135-12",
+     "标签": "2026 · 东莞第一中学 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "Thursday’s meeting lasted more than six hours and ___ (broadcast) live on television and the Internet.",
+     "提示词": "broadcast",
+     "答案": "was broadcast",
+     "解析": "句意：周四的会议持续了六个多小时，并在电视和互联网上进行了现场直播。句子主语Thursday’s meeting与broadcast（广播，播放）之间是被动关系，即会议被直播。由lasted可知，事情发生在过去，应用一般过去时的被动语态，其结构为“was/were + 过去分词”，broadcast的过去分词还是broadcast，主语是单数，所以用was broadcast。",
+     "句意": null,
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语",
+      "时态"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "142-20",
+     "标签": "2024 · 东莞第四高级中学 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "When I came here at this time last year, they were building the conference hall.",
+     "提示词": null,
+     "答案": "When I came here at this time last year, the conference hall was being built by them.",
+     "解析": "考查被动语态。句意：当我去年这个时候来到这里时，他们正在建造会议厅。此处主句改为被动语态，the conference hall作主语；为过去进行时的被动语态，表示被动应用介词by。故改为When I came here at this time last year, the conference hall was being built by them.",
+     "句意": null,
+     "cue": [
+      "改为被动语态"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [],
+     "考查句": "考查被动语态",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 3
   },
   {
    "名称": "it 形式主语／宾语",
@@ -1507,7 +1692,7 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 3
+   "编号": 4
   },
   {
    "名称": "名词性从句",
@@ -1760,7 +1945,292 @@
      "子类依据": "考查句"
     }
    ],
-   "编号": 4
+   "编号": 5
+  },
+  {
+   "名称": "时态",
+   "讲": true,
+   "覆盖卷": 7,
+   "覆盖率": 0.58,
+   "题数": 16,
+   "候选": {
+    "本节点": 12,
+    "借用": 0,
+    "合计": 12
+   },
+   "子类": {
+    "其他": {
+     "题数": 12,
+     "题": [
+      "017-16",
+      "032-12",
+      "032-18",
+      "032-20",
+      "032-22",
+      "035-14",
+      "045-11",
+      "045-12",
+      "045-19",
+      "081-23",
+      "135-11",
+      "135-20"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "017-16",
+     "标签": "2020 · 莞美学校 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "It suddenly hit me that we could turn to her for help.\nIt ___ me that we could turn to her for help.",
+     "提示词": null,
+     "答案": "suddenly struck/occurred to",
+     "解析": "It suddenly hit me that…表示“我突然想起某事”，表示“某人突然想起某事”，还可用句式It suddenly strikes/occurs to sb. that…，所以此处应用动词strike或动词短语occur to替换，本句陈述过去的事情，应用一般过去时，故填suddenly struck/occurred to。",
+     "句意": "我突然想到我们可以向她求助。",
+     "cue": [
+      "同义句转换"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "032-12",
+     "标签": "2026 · 东莞外国语学校 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "Due to severe pollution, the number of wild animals in this area ___ (decline) sharply in recent years.",
+     "提示词": "decline",
+     "答案": "has declined",
+     "解析": "句意：由于污染严重，该区域的野生动物数量近年来急剧减少。时间状语 in recent years（近几年来）是现在完成时典型标志，强调动作从过去持续到现在并造成影响。主语the number of wild animals（野生动物的数量）视作单数，助动词用has。decline的过去分词为declined。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "032-18",
+     "标签": "2026 · 东莞外国语学校 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "The boys in this private school felt anxious under the heavy pressure of living up to their parents’ expectations.\nThe boys in this private school ___ under the heavy pressure of living up to their parents’ expectations.",
+     "提示词": null,
+     "答案": "felt ； stressed ； out",
+     "解析": "句意：这所私立学校里的学生们在承受着来自父母期望的巨大压力的情况下，显得十分焦虑。此处felt anxious可用felt stressed out替换，为一般过去时。",
+     "句意": null,
+     "cue": [
+      "同义转换"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "032-20",
+     "标签": "2026 · 东莞外国语学校 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "“Why did my teacher assign me to be the monitor?” He wondered.(变间接引语)",
+     "提示词": null,
+     "答案": "He wondered why his teacher had assigned him to be the monitor.",
+     "解析": "句意：他很好奇为什么老师会让他担任班长一职。分析句子可知，特殊疑问句变为间接引语时，必须改为陈述语序（去掉助动词 did，不再使用疑问句式）。主句谓语动词 wondered 是一般过去时，从句时态需改为过去完成时（had assigned），表示“老师任命班长”发生在“他疑惑”之前。第一人称代词需与主句主语保持一致：my→his，me→him。引导词保留：特殊疑问词 why 直接作为间接引语的引导词。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": true,
+     "缺陷原因": [
+      "无空位"
+     ],
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "032-22",
+     "标签": "2026 · 东莞外国语学校 · 高二下期中",
+     "题型": "翻译",
+     "题干": "在过去十年，政府一直在支持新能源汽车的发展。",
+     "提示词": null,
+     "答案": "Over the past decade, the government has been supporting the development of new energy vehicles.",
+     "解析": "表示“在过去十年”用over the past ten years，作时间状语。表示“政府”用the government，作主语。表示“支持”用support，动作从过去持续到现在且仍在进行，应用现在完成进行时，谓语用has been supporting。表示“新能源汽车的发展”用the development of new energy vehicles，作宾语。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "035-14",
+     "标签": "2026 · 大岭山中学 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "Our country ___ (undergo) a great change since 1997, and it will never stop.",
+     "提示词": "undergo",
+     "答案": "has been undergoing",
+     "解析": "句意：自1997年以来，我们国家经历了巨大变革，并且变革发展的脚步永远不会停止。此处在句中作谓语动词，主语为Our country，为单数，与undergo之间为主动关系，且根据时间状语since 1997可知，此处应用现在完成时，再根据后文“and it will never stop”可知，此处表示动作还将继续持续下去，故应用现在完成进行时has been undergoing。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [
+      "疑似拼写错"
+     ],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "045-11",
+     "标签": "2026 · 东莞市 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "Some old furniture ___ (abandon) when they moved to their new house.",
+     "提示词": "abandon",
+     "答案": "was abandoned",
+     "解析": "句意：当他们搬到新家时，一些旧家具被丢弃了。根据“when they moved to their new house”可知，句子使用一般过去时，且主语furniture和abandon构成被动关系，应用一般过去时的被动语态，主语furniture为不可数名词，be动词用was，谓语用was abandoned。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [
+      "被动"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "045-12",
+     "标签": "2026 · 东莞市 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "He ___ (work) on this painting for three months, but he still hasn’t finished it.",
+     "提示词": "work",
+     "答案": "has been working",
+     "解析": "句意：他画这幅画已经三个月了，但还没有完成。根据时间状语for three months以及后文but he still hasn’t finished it可知，此处表示动作从过去某一时间开始一直持续到现在，并且还将继续下去，应用现在完成进行时，主语为he，助动词用has，谓语用has been working。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "045-19",
+     "标签": "2026 · 东莞市 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "He applied for a promotion, but his boss ___ (拒绝了他) due to lack of experience.",
+     "提示词": null,
+     "答案": "turned ； him ； down",
+     "解析": "句意：他申请升职，但老板以缺乏经验为由拒绝了他的申请。表示“拒绝某人”用固定短语turn sb. down，且根据applied可知，句子时态用一般过去时，谓语用过去式turned。表示“他”用him，作宾语。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "081-23",
+     "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "The local government has carried out several environmental protection measures to reduce air pollution over the past three years.",
+     "提示词": null,
+     "答案": "Several environmental protection measures have been carried out by the local government to reduce air pollution over the past three years.",
+     "解析": "考查现在完成时的被动语态和主谓一致。句意：在过去的三年里，当地政府已经采取了一些环境保护措施来减少空气污染。原句中的several environmental protection measures 与动词短语carry out 之间为被动关系，且为复数形式，助动词应用have，所以变为被动句后谓语动词为have been carried out，the local government为动作的发出者，所以应用介词by加the local government，其它不变，所以原句变为被动句后为Several environmental protection measures have been carried out by the local government to reduce air pollution over the past three years，故答案为Several environmental protection measures have been carried out by the local government to reduce air pollution over the past three years。",
+     "句意": null,
+     "cue": [
+      "改为被动句"
+     ],
+     "主考点": "时态",
+     "主考点来源": "考查",
+     "其他命中": [
+      "被动"
+     ],
+     "考查句": "考查现在完成时的被动语态和主谓一致",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "135-11",
+     "标签": "2026 · 东莞第一中学 · 高二下期中",
+     "题型": "语法填空",
+     "题干": "They ___ (do) their lessons for an hour, but they have finished only half.",
+     "提示词": "do",
+     "答案": "have been doing",
+     "解析": "句意：他们一直在做功课，已经做了一个小时，但只完成了一半。for an hour表示一段时间，but they have finished only half表明动作从过去开始一直持续到现在且仍在进行，符合现在完成进行时的用法，其结构为“have/has been + 现在分词”，主语They是复数，所以用have been doing。",
+     "句意": null,
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "135-20",
+     "标签": "2026 · 东莞第一中学 · 高二下期中",
+     "题型": "完成句子",
+     "题干": "“Where did you have a picnic last week?” asked Susan.",
+     "提示词": null,
+     "答案": "Susan asked where we had had a picnic the week before.",
+     "解析": "句意：苏珊问“你们上周在哪里野餐了？”。直接引语变间接引语时，原句中的疑问语序要变为陈述语序；原句的一般过去时 “did... have”要变为过去完成时“had had”；时间状语last week变为the week before。",
+     "句意": null,
+     "cue": [
+      "用间接引语改写"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 6
   },
   {
    "名称": "状语从句",
@@ -1853,36 +2323,6 @@
    "题": []
   },
   {
-   "名称": "被动",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 10,
-   "覆盖率": 0.83,
-   "题数": 16,
-   "候选": {
-    "本节点": 8,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
-   "名称": "时态",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 7,
-   "覆盖率": 0.58,
-   "题数": 16,
-   "候选": {
-    "本节点": 12,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
    "名称": "情态动词",
    "讲": false,
    "编号": null,
@@ -1947,13 +2387,13 @@
   "节点文件数": 13,
   "原始行数": 221,
   "单选其他": 0,
-  "疑似非单句": 6,
-  "去重后题数": 198,
+  "疑似非单句": 7,
+  "去重后题数": 197,
   "重复组去掉": 17,
   "主考点分布": {
    "未命中": 94,
    "非谓语": 40,
-   "定语从句": 14,
+   "定语从句": 13,
    "时态": 12,
    "名词性从句": 10,
    "it 形式主语／宾语": 10,
@@ -1965,8 +2405,8 @@
    "虚拟语气": 1,
    "比较级": 1
   },
-  "疑似缺陷题数": 2,
-  "候选合计": 74,
+  "疑似缺陷题数": 3,
+  "候选合计": 93,
   "借用合计": 0,
   "借用节点分布": {},
   "不足 8 题的讲专题": []
