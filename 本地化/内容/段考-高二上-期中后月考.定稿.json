@@ -18,7 +18,7 @@
  ],
  "overview": {
   "title": "考情总览",
-  "chip": "2023–2023 · 东莞真题",
+  "chip": "2023 · 东莞真题",
   "lead": "每格代表 10% 的试卷。",
   "rows": [
    {
@@ -104,7 +104,7 @@
     },
     {
      "type": "p",
-     "text": "完成句子时，分词短语可由原句的原因从句改写而来。从句的动作先于主句时，分词用完成式 having done，如 Having finished the work, he went home。"
+     "text": "分词短语可由原因状语从句改写而来。从句的动作先于主句时，分词用完成式 having done，如 Having finished the work, he went home。"
     },
     {
      "type": "subhead",
@@ -219,7 +219,7 @@
      "cue": [],
      "src": "2023 · 万江中学 · 高二上月考",
      "ans": "submitted",
-     "why": "主动修饰 proposals，用过去分词",
+     "why": "proposals 是被提交的，用过去分词",
      "group": "作定语",
      "level": "必练"
     },
@@ -360,7 +360,7 @@
     {
      "stem": "他下定决心要恢复这个花瓶原来的美丽，这是明智的。",
      "cue": [
-      "it作形式主语"
+      "it 作形式主语"
      ],
      "src": "2023 · 万江中学 · 高二上月考",
      "ans": "It is wise of him to decide to restore the vase to its original beauty.",
@@ -403,7 +403,7 @@
     },
     {
      "type": "p",
-     "text": "表语从句中缺主语或宾语时用 what，如 My hometown is no longer what it used to be（我的家乡已经不是从前的样子）。"
+     "text": "表语从句中缺主语、宾语或表语时用 what，如 My hometown is no longer what it used to be（我的家乡已经不是从前的样子）。"
     },
     {
      "type": "pattern",

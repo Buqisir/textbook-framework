@@ -136,7 +136,7 @@
      "type": "gloss",
      "lines": [
       "介词后接 doing",
-      "固定搭配记整体"
+      "固定搭配"
      ]
     },
     {
@@ -145,7 +145,7 @@
     },
     {
      "type": "p",
-     "text": "keep in touch with 表示「与……保持联系」，是固定搭配，题目常给出中文词义，要整体写出。"
+     "text": "keep in touch with 表示「与……保持联系」，是固定搭配。题目常只给中文词义，答案是完整的搭配。"
     },
     {
      "type": "pattern",
@@ -164,7 +164,7 @@
     },
     {
      "type": "p",
-     "text": "形容词后接不定式，说明动作的性质。be hard to settle 中，settle 与 problems 是被动关系，却用主动形式 to settle 表示被动意义。"
+     "text": "形容词后接不定式，说明动作的范围。be hard to settle 中，settle 与 problems 是被动关系，却用主动形式 to settle 表示被动意义。"
     },
     {
      "type": "p",
@@ -310,7 +310,7 @@
      "ju": "目前我们得加班，因为有些问题很难解决。",
      "mid": {
       "label": "判断",
-      "text": "hard 是形容词，后接不定式作原因状语的补足成分。settle 与 problems 是被动关系，但用主动形式表示被动意义。"
+      "text": "hard 是形容词，后接不定式作其补足成分。settle 与 problems 是被动关系，但用主动形式表示被动意义。"
      },
      "ans": "to settle"
     },
@@ -378,7 +378,7 @@
      "cue": [],
      "src": "2023 · 石竹实验学校 · 高二上月考",
      "ans": "So far, more than 500 students have signed up for the marathon to be held next month.",
-     "why": "原答案 he 应为 be，作定语",
+     "why": "题库答案 he 应为 be，作定语",
      "group": "作定语",
      "level": "必练"
     },
@@ -405,7 +405,7 @@
      "cue": [],
      "src": "2019 · 石龙中学 · 高二上月考",
      "ans": "consisting",
-     "why": "主动关系，用现在分词 作后置定语",
+     "why": "主动关系，用现在分词作后置定语",
      "group": "作定语",
      "level": "必练"
     },
@@ -459,7 +459,7 @@
      "level": "必练"
     },
     {
-     "stem": "Joe listened, ___ (shift)uncomfortably from one foot to another.",
+     "stem": "Joe listened, ___ (shift) uncomfortably from one foot to another.",
      "cue": [],
      "src": "2023 · 石竹实验学校 · 高二上月考",
      "ans": "shifting",
@@ -490,7 +490,7 @@
      "cue": [],
      "src": "2020 · 东莞中学 · 高二上月考",
      "ans": "consisting",
-     "why": "country 含省份，主动用现在分词",
+     "why": "consist 不用于被动，用现在分词",
      "group": "作状语",
      "level": "必练"
     },
@@ -510,7 +510,7 @@
      ],
      "src": "2025 · 东莞市 · 高二上联考",
      "ans": "kept in touch with",
-     "why": "固定搭配，整体记住",
+     "why": "keep in touch with 为固定搭配",
      "group": "作宾语与搭配",
      "level": "必练"
     },
@@ -519,7 +519,7 @@
      "cue": [],
      "src": "2025 · 东莞市 · 高二上月考",
      "ans": "keep/stay in touch",
-     "why": "keep in touch 为固定搭配",
+     "why": "keep 与 stay 均可，与 in touch 搭配",
      "group": "作宾语与搭配",
      "level": "必练"
     },
@@ -528,7 +528,7 @@
      "cue": [],
      "src": "2023 · 东莞外国语学校 · 高二上月考",
      "ans": "in charge of",
-     "why": "in charge of 接 doing",
+     "why": "be in charge of doing 表示负责做某事",
      "group": "作宾语与搭配",
      "level": "必练"
     },
@@ -537,16 +537,16 @@
      "cue": [],
      "src": "2020 · 光明中学 · 高二上月考",
      "ans": "keeping his promise/word",
-     "why": "of 后接 doing",
+     "why": "of 后接动名词，someone 是其逻辑主语",
      "group": "作宾语与搭配",
      "level": "必练"
     },
     {
-     "stem": "It was the professor rather than his assistants that was ___ (blame)for the failure of the experiment.",
+     "stem": "It was the professor rather than his assistants that was ___ (blame) for the failure of the experiment.",
      "cue": [],
      "src": "2023 · 翰林高级中学 · 高二月考",
      "ans": "to blame",
-     "why": "to blame 表示应负责",
+     "why": "be to blame for 表示应对……负责",
      "group": "不定式搭配",
      "level": "必练"
     },
@@ -662,7 +662,7 @@
     },
     {
      "type": "p",
-     "text": "表示「……的情况是……」，用 what 引导；表示原因的说明，用 that is why 句型，如 That is why he was late（这就是他迟到的原因）。"
+     "text": "What 引导的主语从句常与 that 引导的表语搭配，构成 What……is that……句型。表示原因的说明用 that is why 句型，如 That is why he was late（这就是他迟到的原因）。"
     },
     {
      "type": "subhead",
@@ -777,7 +777,7 @@
      ],
      "src": "2023 · 东莞外国语学校 · 高二上月考",
      "ans": "What, surprised",
-     "why": "改写为 What 作主语",
+     "why": "What 作主语，surprised 作宾补",
      "group": "主语从句",
      "level": "必练"
     },
@@ -1133,7 +1133,7 @@
      "stem": {
       "text": "When ___ strong sunlight, babies tend to increase temperature, ___ nervous and anxious.",
       "cue": [
-       "改写"
+       "用 when 从句的省略结构改写，后半句用分词"
       ],
       "src": "2020 · 光明中学 · 高二上月考"
      },
@@ -1292,7 +1292,7 @@
      "cue": [],
      "src": "2020 · 光明中学 · 高二上月考",
      "ans": "which",
-     "why": "none of which 即其中没有",
+     "why": "none of which 表示「其中没有一个」",
      "group": "非限制性从句",
      "level": "必练"
     },

@@ -125,10 +125,6 @@
           "text": "判断：看名词与动作的关系。名词是执行者用 doing 或 to do，名词是承受者用 done 或 to be done。"
         },
         {
-          "type": "pattern",
-          "text": "the books written by sb.  |  the goods sold in the shop"
-        },
-        {
           "type": "subhead",
           "text": "固定搭配"
         },
@@ -148,10 +144,6 @@
           "text": "without 是介词，后接名词或动名词，如 without a doubt、without saying a word。"
         },
         {
-          "type": "pattern",
-          "text": "be committed to doing  |  refuse to do  |  without + n."
-        },
-        {
           "type": "subhead",
           "text": "作表语"
         },
@@ -168,7 +160,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作表语说明主语是什么或做什么，如 My dream is to become a teacher。"
+          "text": "不定式作表语说明主语是什么或做什么，如 My dream is to become a teacher."
         },
         {
           "type": "subhead",
@@ -198,7 +190,7 @@
         },
         {
           "type": "p",
-          "text": "only to do 表示做了某事，结果却出人意料，常用于逗号之后，如 He hurried to the station, only to find the train had left。"
+          "text": "only to do 表示做了某事，结果却出人意料，常用于逗号之后，如 He hurried to the station, only to find the train had left."
         }
       ],
       "examples": [
@@ -383,7 +375,7 @@
           "level": "必练"
         },
         {
-          "stem": "I was deeply ___ （disturb） to hear the sorrowful news.",
+          "stem": "I was deeply ___ (disturb) to hear the sorrowful news.",
           "cue": [],
           "src": "2022 · 东莞中学 · 高二上期末",
           "ans": "disturbed",
@@ -441,7 +433,7 @@
         },
         {
           "type": "pattern",
-          "text": "What sb. did … is …  |  It surprised sb. that …"
+          "text": "It surprised sb. that …  |  What sb. did … is …  |  The question is who …"
         },
         {
           "type": "subhead",
@@ -463,10 +455,6 @@
           "text": "判断：看 is 或 remains 之后的部分是否完整。完整的句子用 that 或 whether，缺成分则用疑问词或关系词。"
         },
         {
-          "type": "pattern",
-          "text": "The question is who …  |  The question remains whether …  |  What … is that …"
-        },
-        {
           "type": "subhead",
           "text": "宾语从句"
         },
@@ -479,11 +467,11 @@
         },
         {
           "type": "p",
-          "text": "宾语从句中，若从句缺主语、宾语或介词宾语，用 what、who、which 等连接词，如 He knows what they want。"
+          "text": "宾语从句中，若从句缺主语、宾语或介词宾语，用 what、who、which 等连接词，如 He knows what they want."
         },
         {
           "type": "p",
-          "text": "一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序，如 She asked whether he could come。"
+          "text": "一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序，如 She asked whether he could come."
         }
       ],
       "examples": [
@@ -598,7 +586,7 @@
           "level": "必练"
         },
         {
-          "stem": "I asked Dad，\"Can you fix my bike tomorrow？\"\nI asked Dad ___ fix my bike the next day.",
+          "stem": "I asked Dad, \"Can you fix my bike tomorrow?\"\nI asked Dad ___ fix my bike the next day.",
           "cue": [
             "用间接引语改写"
           ],
@@ -647,7 +635,7 @@
         },
         {
           "type": "pattern",
-          "text": "It is adj. that …  |  It bothers sb. that …"
+          "text": "It is adj. that …  |  It bothers sb. that …  |  find it adj. to do"
         },
         {
           "type": "subhead",
@@ -667,10 +655,6 @@
         {
           "type": "p",
           "text": "判断：动词后紧跟形容词，再接不定式或从句，就填 it。"
-        },
-        {
-          "type": "pattern",
-          "text": "find it adj. to do  |  think it adj. that …"
         }
       ],
       "examples": [
@@ -716,7 +700,7 @@
       "keypoint": "空格在 think、find、make 之后，且后面是形容词加 to do 或 that 从句，填 it；句首 it 作形式主语，真正的主语在句末。",
       "drill": [
         {
-          "stem": "The scenery in Guilin is believed to be the best in the world．\nIt ___ the scenery in Guilin is the best in the world.",
+          "stem": "The scenery in Guilin is believed to be the best in the world.\nIt ___ the scenery in Guilin is the best in the world.",
           "cue": [
             "同义句改写"
           ],
@@ -738,7 +722,7 @@
         {
           "stem": "有时候父母觉得难以与孩子们沟通。",
           "cue": [
-            "用it做形式宾语翻译"
+            "用 it 做形式宾语翻译"
           ],
           "src": "2019 · 东莞市 · 高二上期末",
           "ans": "Sometimes parents find it difficult to communicate with their children.",
@@ -895,7 +879,7 @@
       "keypoint": "去掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语时只用 that，人作主语时 that 与 who 都可以。",
       "drill": [
         {
-          "stem": "His spirit of devotion sets him apart from other doctors.",
+          "stem": "[_His spirit of devotion_] sets him apart from other doctors.",
           "cue": [
             "强调划线部分"
           ],
@@ -906,7 +890,7 @@
           "level": "必练"
         },
         {
-          "stem": "It was for this reason ___ her uncle moved out of New York and settled down in a small village．",
+          "stem": "It was for this reason ___ her uncle moved out of New York and settled down in a small village.",
           "cue": [],
           "src": "2018 · 东华高级中学 · 高二上期末",
           "ans": "that",

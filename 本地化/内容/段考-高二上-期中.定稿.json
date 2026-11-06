@@ -145,7 +145,7 @@
     },
     {
      "type": "p",
-     "text": "spend 时间 doing 表示「花时间做……」，commit oneself to doing 表示「致力于做……」，get involved in 与 keep in touch with 都是固定搭配，要整体记住。"
+     "text": "spend 时间 doing 表示「花时间做……」，commit oneself to doing 表示「致力于做……」，get involved in 与 keep in touch with 都是固定搭配。"
     },
     {
      "type": "pattern",
@@ -227,7 +227,7 @@
       "seeds 与 grow 被动"
      ],
      "stem": {
-      "text": "___ (grow)in rich soil, these seeds can grow fast.",
+      "text": "___ (grow) in rich soil, these seeds can grow fast.",
       "cue": [],
       "src": "2022 · 东莞第四高级中学 · 高二上期中"
      },
@@ -301,7 +301,7 @@
       "表示应对……负责"
      ],
      "stem": {
-      "text": "You shouldn’t blame this accident on him,on the contrary you are ___ (负责任）for it.",
+      "text": "You shouldn’t blame this accident on him, on the contrary you are ___ (负责任) for it.",
       "cue": [],
       "src": "2023 · 东莞第四高级中学 · 高二上期中"
      },
@@ -331,7 +331,7 @@
      "ans": "repaired"
     }
    ],
-   "keypoint": "空前的词决定形式：介词之后，以及 prior to、look forward to 之后，用 doing；want to、be to blame 之后用动词原形。与逻辑主语是被动关系时用过去分词，have sth done 表示被做。",
+   "keypoint": "空前的词决定形式：介词之后，以及 prior to、look forward to 之后，用 doing；want to 之后用动词原形；be to blame for 之后用 doing。与逻辑主语是被动关系时用过去分词，have sth done 表示被做。",
    "drill": [
     {
      "stem": "Zhan Tianyou, now ___ (know) as the Father of China’s Railroad, served his country for 31 years, improving life for millions of people.",
@@ -394,15 +394,14 @@
      "cue": [],
      "src": "2023 · 翰林高级中学 · 高二上期中",
      "ans": "to defend",
-     "why": "to defend 表目的，不定式作状语",
+     "why": "表目的，不定式作状语",
      "group": "作状语",
      "level": "必练"
     },
     {
      "stem": "When he heard the news, he couldn't help laughing.",
      "cue": [
-      "改为分词作状语",
-      "英译汉"
+      "改为分词作状语"
      ],
      "src": "2022 · 东莞第四高级中学 · 高二上期中",
      "ans": "Hearing the news, he couldn’t help laughing.",
@@ -435,7 +434,7 @@
      "cue": [],
      "src": "2018 · 虎门外国语学校 · 高二上期中",
      "ans": "Not tolerating",
-     "why": "he 不能忍受，主动用现在分词",
+     "why": "he 不能忍受噪声，主动用现在分词",
      "group": "作状语",
      "level": "必练"
     },
@@ -444,7 +443,7 @@
      "cue": [],
      "src": "2025 · 东莞市 · 高二上期中",
      "ans": "keep/stay in touch with",
-     "why": "keep in touch 固定搭配",
+     "why": "keep 与 stay 均可，与 in touch with 搭配",
      "group": "作宾语与搭配",
      "level": "必练"
     },
@@ -514,7 +513,7 @@
      "level": "必练"
     },
     {
-     "stem": "No one wants to ___ (参与，卷入)the war.",
+     "stem": "No one wants to ___ (参与，卷入) the war.",
      "cue": [],
      "src": "2023 · 东莞第四高级中学 · 高二上期中",
      "ans": "get involved in / be engaged in",
@@ -541,11 +540,29 @@
      "level": "必练"
     },
     {
+     "stem": "My English teacher often says that reading English newspapers ___ (help) improve our vocabulary and reading skills.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上期中",
+     "ans": "helps",
+     "why": "动名词短语作主语，谓语用三单",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
      "stem": "___ (combine) pleasure with education is a crucial way to improve our teaching efficiency.",
      "cue": [],
      "src": "2024 · 东莞市 · 高二上期中",
      "ans": "Combining",
      "why": "动名词短语作主语，谓语用单数",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "Listening, which is an active behavior of human beings, ___ (consist) of hearing, understanding as well as remembering.",
+     "cue": [],
+     "src": "2023 · 万江中学、石龙中学、常平中学 · 高二上期中",
+     "ans": "consists",
+     "why": "动名词 Listening 作主语，谓语用单数",
      "group": "作主语",
      "level": "必练"
     },
@@ -761,7 +778,7 @@
      ],
      "src": "2023 · 翰林高级中学 · 高二上期中",
      "ans": "What, astonished",
-     "why": "What 作主语，宾补",
+     "why": "What 作主语，astonished 作宾补",
      "group": "主语从句",
      "level": "必练"
     },
@@ -797,7 +814,7 @@
      "level": "必练"
     },
     {
-     "stem": "As is well known to all,the Spring Festival is ___ the family are reunited and celebrate the new year.",
+     "stem": "As is well known to all, the Spring Festival is ___ the family are reunited and celebrate the new year.",
      "cue": [],
      "src": "2022 · 东莞第四高级中学 · 高二上期中",
      "ans": "when",
@@ -872,7 +889,7 @@
     },
     {
      "type": "p",
-     "text": "It is likely that…… 可改写为 sb. is likely to do，这类完成句子考的是两种句型的转换，主语和谓语要随句型调整。"
+     "text": "It is likely that…… 可改写为 sb. is likely to do，这类改写题考两种句型的转换，主语和谓语要随句型调整。"
     }
    ],
    "examples": [
