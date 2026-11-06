@@ -104,11 +104,11 @@
         },
         {
           "type": "p",
-          "text": "分词作状语时，它的逻辑主语必须是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Invited to the party, he felt honored（他受邀参加聚会，感到很荣幸）。"
+          "text": "分词作状语时，它的逻辑主语必须是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Frightened at the terrible accident, the woman couldn’t sleep well（那场可怕的事故把她吓坏了，她一直睡不好）。"
         },
         {
           "type": "p",
-          "text": "分词的完成式 having done 表示动作先于谓语发生，如 Having finished the work, he went home。否定式把 not 放在分词前，如 Not knowing the way, they asked a policeman。"
+          "text": "分词的完成式 having done 表示动作先于谓语发生，如 Having attempted several times, the boy still couldn’t solve his problem。否定式把 not 放在分词前，如 Not knowing how to plan the program, he consulted the former president for advice。"
         },
         {
           "type": "pattern",
@@ -127,7 +127,7 @@
         },
         {
           "type": "p",
-          "text": "分词短语作定语放在被修饰名词之后，如 the books written by a famous author，表示被动或完成。单个分词多放在名词之前，如 a broken window。"
+          "text": "分词短语作定语放在被修饰名词之后，如 the poems written by Li Bai，表示被动或完成。单个分词多放在名词之前，如 a broken window。"
         },
         {
           "type": "p",
@@ -150,7 +150,7 @@
         },
         {
           "type": "p",
-          "text": "without 是介词，后接名词或动名词，如 without a doubt、without saying a word。"
+          "text": "without 是介词，后接名词或动名词，如 without a doubt、without asking me。"
         },
         {
           "type": "subhead",
@@ -169,7 +169,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作表语说明主语是什么或做什么，如 My dream is to become a teacher."
+          "text": "不定式作表语说明主语是什么或做什么，如 Its purpose is to relieve worldwide starvation."
         },
         {
           "type": "subhead",
@@ -199,7 +199,7 @@
         },
         {
           "type": "p",
-          "text": "only to do 表示做了某事，结果却出人意料，常用于逗号之后，如 He hurried to the station, only to find the train had left."
+          "text": "only to do 表示做了某事，结果却出人意料，常用于逗号之后，如 The boy rushed to the school, only to find that the class had been dismissed."
         }
       ],
       "examples": [
@@ -434,7 +434,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句在句首作主语，谓语用单数。从句缺成分时用 what、who、which 等，从句完整时用 that 或 whether，如 Whether he will come is still unknown。"
+          "text": "主语从句在句首作主语，谓语用单数。从句缺成分时用 what、who、which 等，从句完整时用 that 或 whether，如 Whether we will go for an outing tomorrow remains unknown。"
         },
         {
           "type": "p",
@@ -476,7 +476,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句中，若从句缺主语、宾语或介词宾语，用 what、who、which 等连接词，如 He knows what they want."
+          "text": "宾语从句中，若从句缺主语、宾语或介词宾语，用 what、who、which 等连接词，如 Lily couldn’t find my missing parcel and asked me what it looked like."
         },
         {
           "type": "p",
@@ -765,7 +765,7 @@
         },
         {
           "type": "p",
-          "text": "先行词后有逗号的非限制性从句，关系词不能省略，对先行词作补充说明，如 The school, where I studied for three years, …。"
+          "text": "先行词后有逗号的非限制性从句，关系词不能省略，对先行词作补充说明，如 The forest, where we encountered a rare species of bird, is now a protected area。"
         },
         {
           "type": "pattern",
@@ -784,7 +784,7 @@
         },
         {
           "type": "p",
-          "text": "whose 表示所属关系，在从句中作定语，修饰后面的名词，如 a boy whose father is a doctor。"
+          "text": "whose 表示所属关系，在从句中作定语，修饰后面的名词，如 learners whose native language is not Chinese。"
         },
         {
           "type": "p",
@@ -1079,7 +1079,7 @@
         },
         {
           "type": "p",
-          "text": "if 从句表示与过去事实相反的假设时，从句用过去完成时 had done，主句用 would have done，属于虚拟条件句，如 If I had known the answer, I would have told you。"
+          "text": "if 从句表示与过去事实相反的假设时，从句用过去完成时 had done，主句用 would have done，属于虚拟条件句。"
         }
       ],
       "examples": [],

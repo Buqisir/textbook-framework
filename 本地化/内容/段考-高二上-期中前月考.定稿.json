@@ -118,7 +118,7 @@
     },
     {
      "type": "p",
-     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Surprised by the news, he stood still（听到这个消息，他惊呆了）。"
+     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Absorbed in the book Jane Eyre, she totally forgot food and sleep（她读《简·爱》入了迷，完全忘了吃饭睡觉）。"
     },
     {
      "type": "p",
@@ -658,7 +658,7 @@
     },
     {
      "type": "p",
-     "text": "表语从句位于 is、was 等系动词之后，说明主语是什么。表示「是否」用 whether 引导，如 The question is whether it will rain。"
+     "text": "表语从句位于 is、was 等系动词之后，说明主语是什么。表示「是否」用 whether 引导，如 The problem is whether you can arrive at the airport in time or not。"
     },
     {
      "type": "p",
@@ -1105,7 +1105,7 @@
     },
     {
      "type": "p",
-     "text": "if 引导条件从句，从句主语与主句主语一致时，可省略从句主语和 be，保留过去分词，如 If invited, we will attend the party（如果受到邀请，我们会参加聚会）。"
+     "text": "if 引导条件从句，从句主语与主句主语一致时，可省略从句主语和 be，保留过去分词。"
     },
     {
      "type": "subhead",
@@ -1239,7 +1239,7 @@
     },
     {
      "type": "p",
-     "text": "非限制性定语从句与先行词之间有逗号，对先行词作补充说明，关系词不能用 that，也不能省略。which 可以指代前面整个句子，如 He failed the exam, which made him sad（这件事让他很难过）。"
+     "text": "非限制性定语从句与先行词之间有逗号，对先行词作补充说明，关系词不能用 that，也不能省略。which 可以指代前面整个句子，如 This produced a chain reaction, which made it possible for life to develop（这引发了连锁反应，生命由此得以发展）。"
     },
     {
      "type": "p",
@@ -1262,7 +1262,7 @@
     },
     {
      "type": "p",
-     "text": "关系副词 where、when、why 在从句中作状语，分别指地点、时间、原因。先行词是 place、time、reason 等时，用关系副词代替「介词加 which」，如 the year when they were married（他们结婚的那一年）。"
+     "text": "关系副词 where、when、why 在从句中作状语，分别指地点、时间、原因。先行词是 place、time、reason 等时，用关系副词代替「介词加 which」，如 the days when small farmers grew beans, corn and potatoes（小农种豆子、玉米和土豆的日子）。"
     }
    ],
    "examples": [
@@ -1349,7 +1349,7 @@
     },
     {
      "type": "p",
-     "text": "not until 引导的时间从句位于句首时，主句倒装，如 Not until he came back did we start（直到他回来，我们才出发）。"
+     "text": "not until 引导的时间从句位于句首时，主句倒装，如 Not until he got seriously ill did he realize the importance of health（直到病重，他才意识到健康的重要）。"
     },
     {
      "type": "subhead",
@@ -1364,7 +1364,7 @@
     },
     {
      "type": "p",
-     "text": "only 加时间、地点等状语放在句首时，主句倒装，助动词或 be 提到主语前，如 Only in this way can we succeed（只有这样我们才能成功）。"
+     "text": "only 加时间、地点等状语放在句首时，主句倒装，助动词或 be 提到主语前，如 Only if you take regular exercise will you be able to keep healthy（只有坚持锻炼，你才能保持健康）。"
     }
    ],
    "examples": [],
