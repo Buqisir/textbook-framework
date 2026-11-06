@@ -2,7 +2,8 @@
 """段考专题讲义 · 排版：读定稿 JSON，生成段考讲义 HTML（结构照抄 渲染/本地化/段考-样.html）。
 
 运行：python3 -I 本地化/脚本/段考排版.py <年级学期> <节点>
-  段考排版.py 高一下 期中 → 本地化/内容/段考-高一下-期中.定稿.json → 渲染/本地化/段考-高一下-期中.html
+  段考排版.py 高一下 期中 → 定稿 JSON → 渲染/本地化/段考-高一下-期中-练习册.html、…-答案册.html
+  --edition 练习册 / 答案册：单独生成；--edition 合订本：重现原 …-期中.html 合订输出。
   段考排版.py 期中前月考  → 同 段考排版.py 高一上 期中前月考（只给节点时年级学期为高一上，兼容旧命令）
   段考排版.py 样          → 本地化/内容/段考-样.定稿.json → 渲染/本地化/段考-样-回放.html（手样回放，验 schema）
   年级学期：高一上 / 高一下 / 高二上 / 高二下；节点：期中前月考 / 期中 / 期中后月考 / 期末（顺序见 节点.py）。
@@ -82,7 +83,8 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
 === 英式输出（--theme 英式，版式依据 规范/04-英式版式.md）===
 
 运行：python3 -I 本地化/脚本/段考排版.py <节点> [--topics 1,3]（英式为默认主题，2026-11-05 起）
-  整册输出 渲染/本地化/段考-高一上-<节点>.html；带 --topics 输出 …-样章.html；--theme 现行 输出旧柱式 …-柱式.html，主题 渲染/本地化/英式.css（只 import 基础.css）。
+  默认分别输出 …-练习册.html、…-答案册.html；--edition 合订本 使用原文件名。
+  带 --topics 时文件名加 -样章；--theme 现行 加 -柱式。英式主题 渲染/本地化/英式.css（只 import 基础.css）。
   JSON schema 不变；只是结构不同（其余同现行）：
   · 讲解：每个 subhead 及其后的 gloss / p / pattern / note 包进 <div class="group">，直到下一个 subhead。
     gloss 多行用「 · 」合成一行，与小标题药丸同行。note 的多行用空格接成一行。
@@ -198,9 +200,11 @@ def stat_html(s):
     return (esc(s.get('pre')) + f'<b>{esc(s["b"])}</b>' + esc(s.get('post')))
 
 
-def header_html(d, gt):
+def header_html(d, gt, edition='合订本'):
     # 册头不报统计（所有者定，2026-11-05：教学进度等数据非必要），JSON 的 stats 保留不显示
     no, kicker = head_values(gt, d['h2'])
+    if edition != '合订本':
+        kicker += '　' + edition
     return (
         f'<section class="unit stage" data-unit="{esc(gt + d["h2"])}">\n'
         f'<header class="unit-head stage-head" data-no="{esc(no)}">\n'
@@ -540,7 +544,7 @@ def validate(D):
     return errs
 
 
-def build(D, theme='现行', only=None, gt='高一上'):
+def build(D, theme='现行', only=None, gt='高一上', edition='合订本'):
     """only：专题编号集合（仅英式）；None 为整册。练一练题号始终按全册连续编号。"""
     # 练一练分「必练」「选练」（所有者定，2026-11-05）：每专题先必练、后选练（各自保持定稿内顺序）；没有 level 的按必练
     for t in D['topics']:
@@ -563,14 +567,17 @@ def build(D, theme='现行', only=None, gt='高一上'):
             r['n'] = printed[r['name']]
     topics = [t for t in D['topics'] if only is None or t['no'] in only]
     topic_fn = topic_en_html if theme == '英式' else topic_html
-    body = (header_html(D, gt) + overview_html(D['overview'], next((int(x['b']) for x in D.get('stats', []) if x.get('post') == '套试卷'), 0), gt, D['h2'])
-            + ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
-            + answers_html(topics, drill_nos_by_topic)
-            + '</section>\n')
+    body = header_html(D, gt, edition)
+    if edition != '答案册':
+        body += overview_html(D['overview'], next((int(x['b']) for x in D.get('stats', []) if x.get('post') == '套试卷'), 0), gt, D['h2'])
+        body += ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
+    if edition != '练习册':
+        body += answers_html(topics, drill_nos_by_topic)
+    body += '</section>\n'
     if theme == '英式':
         body = HYPHEN_RE.sub('-⁠', body)   # 「用 -ing」的连字符后不断行（U+2060 词连接符，零宽）
         body = hint_nobreak(body)   # 括号里的中文提示整体换行，不拆成「(贡 / 献)」
-    title = f'段考专题讲义 · {gt} · {D["h2"]}'
+    title = f'段考专题讲义 · {gt} · {D["h2"]} · {edition}'
     return ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{esc(title)}</title>'
@@ -599,6 +606,8 @@ def main():
     ap.add_argument('--theme', choices=list(THEME_CSS), default='英式',
                     help='版式主题：英式（规范/04，默认）或 现行（旧柱式，2026-11-05 停用，仅留作对照）')
     ap.add_argument('--topics', help='只输出这些专题（逗号分隔编号，如 1 或 1,3）；仅英式可用')
+    ap.add_argument('--edition', choices=['分册', '练习册', '答案册', '合订本'], default='分册',
+                    help='默认分别生成练习册与答案册；合订本保留旧输出方式')
     args = ap.parse_args()
 
     gt, node, src_name, out_name = resolve(args.target)
@@ -621,16 +630,18 @@ def main():
         bad = only - {t['no'] for t in D['topics']}
         if bad:
             raise SystemExit(f'没有这些专题编号：{sorted(bad)}')
-    doc = build(D, args.theme, only, gt)
-    assert 'style=' not in doc, '出现内联样式'
     # 英式整册 = 正式文件名；英式选专题 = 样章；旧柱式另存，不覆盖正式文件
     if args.theme == '英式' and only is not None:
         out_name = out_name.replace('.html', '-样章.html')
     elif args.theme == '现行':
         out_name = out_name.replace('.html', '-柱式.html')
-    out = RENDER / out_name
-    out.write_text(doc, encoding='utf-8')
-    print('写入', out)
+    for edition in (['练习册', '答案册'] if args.edition == '分册' else [args.edition]):
+        doc = build(D, args.theme, only, gt, edition)
+        assert 'style=' not in doc, '出现内联样式'
+        name = out_name if edition == '合订本' else out_name.replace('.html', f'-{edition}.html')
+        out = RENDER / name
+        out.write_text(doc, encoding='utf-8')
+        print('写入', out)
 
 if __name__ == '__main__':
     main()

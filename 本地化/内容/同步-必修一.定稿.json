@@ -4552,7 +4552,7 @@
               "答案": "honoured",
               "解析": "考查形容词。句意：我感到非常荣幸能在这里发表演讲。分析句子结构可知，空前是系动词，所以空处应填形容词作表语，修饰主语I，应该用-ed形式。故填honoured。",
               "句意": "",
-              "reason": "be 之后作表语，用过去分词",
+              "reason": "feel 后接形容词作表语，表示“感到荣幸”用 honoured。",
               "answer_show": null
             },
             {
@@ -4798,7 +4798,8 @@
               "答案": "made ； sense",
               "解析": "考查动词短语。句意：他昨天说的话很有道理。分析句子结构和意思可知，这里考查“讲得通，有道理”对应的动词短语make sense，在句子中作谓语，这句话描述的是过去的事情，谓语用一般过去时。故填made sense。",
               "句意": "",
-              "reason": "yesterday 提示过去时，用 made"
+              "reason": "过去的评价用 made sense，现在的评价用 makes sense；yesterday 只修饰 said。",
+              "answer_show": "made sense（或 makes sense）"
             }
           ]
         },
@@ -4870,7 +4871,7 @@
               "答案": "fell apart",
               "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
               "句意": "",
-              "reason": "finally 提示过去时，用 fell"
+              "reason": "与 became 对应，叙述过去发生的事，用 fell apart。"
             }
           ]
         },

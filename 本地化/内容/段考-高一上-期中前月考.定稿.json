@@ -143,7 +143,7 @@
         },
         {
           "type": "p",
-          "text": "非谓语作定语，放在被修饰的名词后面，相当于一个定语从句。不定式表示将要发生或有待完成的动作。"
+          "text": "非谓语作定语，放在被修饰的名词后面，相当于一个定语从句。不定式常表示将要发生或有待完成的动作。"
         },
         {
           "type": "p",
@@ -939,10 +939,10 @@
         },
         {
           "type": "p",
-          "text": "主语从句常以 It is 形容词 that 的形式出现：it 是形式主语，that 从句是真正的主语，that 不能省。"
+          "text": "主语从句常以 It is 形容词 that 的形式出现：it 是形式主语，that 引导后置的主语从句，说明所评价的事情。"
         }
       ],
-      "keypoint": "宾语从句缺主语或宾语用 what、which、who 等；表示方式、时间、地点或原因用 how、when、where、why；陈述事实用 that，表示“是否”用 whether 或 if。It is adj. that 中的 that 不能省。",
+      "keypoint": "宾语从句缺主语或宾语用 what、which、who 等；表示方式、时间、地点或原因用 how、when、where、why；陈述事实用 that，表示“是否”用 whether 或 if。It is adj. that 中，it 作形式主语，that 引导后置的主语从句。",
       "examples": [
         {
           "gloss": [
@@ -987,7 +987,7 @@
           "cue": [],
           "src": "2024 · 麻涌中学 · 高一上月考",
           "ans": "that",
-          "why": "It is obvious that 中的 that 不能省。",
+          "why": "It 作形式主语，that 引导后置的主语从句，说明显而易见的事情。",
           "group": "作主语",
           "level": "必练"
         },
@@ -998,7 +998,7 @@
           ],
           "src": "2023 · 翰林高级中学 · 高一月考",
           "ans": "It is obvious that",
-          "why": "It is adj. that 句型，that 不能省",
+          "why": "用 It is obvious that 改写，it 作形式主语，that 引导后置的主语从句。",
           "group": "作主语",
           "level": "必练"
         }

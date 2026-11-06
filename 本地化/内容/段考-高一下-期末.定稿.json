@@ -714,7 +714,7 @@
           ],
           "src": "2021 · 东莞市 · 高一下期末",
           "ans": "It is surprising that / It surprises us that",
-          "why": "It is adj. that 句型，that 不能省",
+          "why": "It 作形式主语，that 引导后置的主语从句，说明令人惊讶的事情。",
           "group": "形式主语",
           "level": "必练"
         }
@@ -744,7 +744,7 @@
         },
         {
           "type": "p",
-          "text": "句首用 it 作形式主语时，真正的主语是 that 从句，that 不能省，如 It occurred to me that I had an important meeting。"
+          "text": "句首用 it 作形式主语时，that 引导后置的主语从句，如 It occurred to me that I had an important meeting，that 从句说明突然想到的事情。"
         },
         {
           "type": "pattern",
@@ -783,7 +783,7 @@
           "ju": "我突然想起第二天有一个重要的会议要参加。",
           "mid": {
             "label": "判断",
-            "text": "It 是形式主语，that 从句是真正的主语，that 不能省。"
+            "text": "It 是形式主语，that 引导后置的主语从句，说明突然想到的事情。"
           },
           "ans": "that",
           "group": "主语从句"

@@ -137,12 +137,12 @@
           "type": "gloss",
           "lines": [
             "修饰名词，放在名词后",
-            "表示将要做的事"
+            "序数词修饰时用不定式"
           ]
         },
         {
           "type": "p",
-          "text": "不定式作定语表示将要发生或有待完成的动作，如 the only way to conquer fear，序数词修饰的名词后用不定式也属于这一类。"
+          "text": "不定式作定语可表示待发生的动作，也可说明 way 等名词的内容，如 the only way to conquer fear。first 等序数词修饰的名词后也常接不定式作定语。"
         },
         {
           "type": "p",
@@ -285,7 +285,7 @@
         {
           "gloss": [
             "The only way 后接不定式",
-            "表示将要做的事"
+            "修饰 way，说明方法"
           ],
           "stem": {
             "text": "The only way ___ (conquer) fear is to face it bravely.",
@@ -295,7 +295,7 @@
           "ju": "克服恐惧的唯一办法是勇敢地面对它。",
           "mid": {
             "label": "成分",
-            "text": "The only way 之后的不定式作定语，修饰 way，表示将要进行的动作，用 to conquer。"
+            "text": "The only way 之后的不定式作定语，修饰 way，说明克服恐惧的方法，用 to conquer。"
           },
           "ans": "to conquer",
           "group": "作定语"
@@ -317,7 +317,7 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期末",
           "ans": "Compared",
-          "why": "model 被比较，用 -ed",
+          "why": "逻辑主语 online education 与 compare 是被动关系，用过去分词 Compared 作状语。",
           "group": "作状语",
           "level": "必练"
         },

@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-"""同步课单元讲义 · 排版（英式，规范/04 §7）：读定稿 JSON，生成 渲染/本地化/同步-<册>.html。
+"""同步课单元讲义 · 排版（英式，规范/04 §7、§11）：读定稿 JSON，分别生成练习册与答案册。
 
 运行（仓库根目录）：
     python3 -I 本地化/脚本/同步排版.py              # 不带参数：排全部存在定稿的册
     python3 -I 本地化/脚本/同步排版.py 必修二        # 只排一册（必修一…必修三、选必一二、选必三四；给教材册名如 选必三 时排它所在的合册）
 输入：本地化/内容/同步-<教材册>.定稿.json（如 同步-必修一.定稿.json；选必仍是一本教材一份定稿）
-输出：渲染/本地化/同步-<册>.html（如 同步-必修一.html、同步-选必一二.html；引 英式.css；样式只用 英式.css 的 class）
+输出：渲染/本地化/同步-<册>-练习册.html、同步-<册>-答案册.html（引 英式.css）
+--edition 练习册 / 答案册 可单独生成；--edition 合订本 重现原 同步-<册>.html。
 合册见 VOLUMES：选必一＋二 → 选必一二，选必三＋四 → 选必三四（2026-11-06 所有者定）。
 册名由定稿的「书」字段推出（必修第一册 → 必修一；选择性必修第一册 → 选必一）；页脚 data-unit 为「<册> <单元>」，
-HTML title 为「同步讲义 <册>」（合册写合册名）。
+HTML title 为「同步讲义 <册> <版本>」（合册写合册名）。
 
-结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测 → 答案与解析。
+练习册结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测。
+答案册按相同教材册与单元输出答案与解析，题号不变；合订本才将答案附在小测后。
   单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
   ①：.freq 表，词汇 / 考查形式 / 考法 / 频次。
   ②：每个词族 .family = 词头行（词头 + gloss 同一行）+ 词族链（.fam-chain 浅底条）+ 原题（.atoms）。
@@ -39,6 +41,7 @@ HTML title 为「同步讲义 <册>」（合册写合册名）。
 每道题 atoms 的字段：id、no（每单元内 ② ③ ④ ⑤ 连续编号）、标签、题型、题干、题干HTML、
   cue[]（改写指令，放句末）、答案、解析、句意、reason（≤20 字，答案页用）、answer_show（可空）
 """
+import argparse
 import html
 import json
 import re
@@ -292,9 +295,11 @@ def answers_section(u):
         '</section>\n')
 
 
-def unit_section(u, book):
+def unit_section(u, book, edition='合订本'):
     book_title = u['unit_book'].split('　')[-1]
     kicker = u['unit_book'].split('　')[0]          # 册名；英文单元名已在标题行
+    if edition != '合订本':
+        kicker += '　' + edition
     # 中文名留成英文名（待定的单元）时不重复显示
     zh = f'<small>{esc(u["zh"])}</small>' if u['zh'] and u['zh'] != u['h2'] else ''
     head = (
@@ -317,7 +322,9 @@ def unit_section(u, book):
         parts.append(quiz_section(u))
     parts = [re.sub(r'(<header class="topic-head" data-no=")\d+(")', lambda m, k=k: f'{m.group(1)}{k}{m.group(2)}', sec, count=1)
              for k, sec in enumerate(parts, 1)]
-    body = '\n'.join(parts) + ('\n' + answers_section(u) if parts else '')
+    body = '\n'.join(parts) if edition != '答案册' else ''
+    if edition != '练习册' and parts:
+        body += '\n' + answers_section(u)
     return head + body + '\n</section>\n'
 
 
@@ -403,30 +410,36 @@ def load(src):
     return book, S
 
 
-def render(vol):
+def render(vol, edition='合订本'):
     body = ''
     for b in VOLUMES[vol]:
         src = CONTENT / f'同步-{b}.定稿.json'
         if not src.exists():
             raise SystemExit(f'没有定稿：{src.relative_to(ROOT)}（合册 {vol} 需要 {"、".join(VOLUMES[vol])}）')
         book, S = load(src)
-        body += ''.join(unit_section(u, book) for u in S['单元'])
+        body += ''.join(unit_section(u, book, edition) for u in S['单元'])
     body = HYPHEN_RE.sub('-⁠', body)   # U+2060 词连接符（零宽）：「用 -ing」的连字符后不断行
     body = hint_nobreak(body)   # 括号里的中文提示整体换行，不拆成「(贡 / 献)」
     doc = ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
            '<meta name="viewport" content="width=device-width, initial-scale=1">'
-           f'<title>同步讲义 {vol}</title>'
+           f'<title>同步讲义 {vol} {edition}</title>'
            '<link rel="stylesheet" href="英式.css"></head>\n<body>\n'
            + body + '</body>\n</html>\n')
-    out = RENDER / f'同步-{vol}.html'
+    suffix = '' if edition == '合订本' else '-' + edition
+    out = RENDER / f'同步-{vol}{suffix}.html'
     out.write_text(doc, encoding='utf-8')
     print('写入', out)
 
 
 def main(argv):
-    if argv:
+    ap = argparse.ArgumentParser(description='同步讲义排版：默认分别生成练习册与答案册。')
+    ap.add_argument('books', nargs='*', help='册名，不填则生成全部五册')
+    ap.add_argument('--edition', choices=['分册', '练习册', '答案册', '合订本'], default='分册',
+                    help='默认分册；合订本保留旧输出方式')
+    args = ap.parse_args(argv)
+    if args.books:
         vols = []
-        for b in argv:
+        for b in args.books:
             if b in VOLUMES:
                 v = b
             elif b in CN_BOOKS:
@@ -441,7 +454,8 @@ def main(argv):
         if not vols:
             raise SystemExit('未找到定稿（本地化/内容/同步-*.定稿.json）')
     for v in vols:
-        render(v)
+        for edition in (['练习册', '答案册'] if args.edition == '分册' else [args.edition]):
+            render(v, edition)
 
 
 if __name__ == '__main__':

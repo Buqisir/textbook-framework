@@ -297,7 +297,7 @@
        "答案": "fell apart",
        "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
        "句意": "",
-       "reason": "不及物短语，过去式用 fell apart",
+       "reason": "与 became 对应，叙述过去发生的事，用 fell apart。",
        "answer_show": null
       }
      ]
@@ -2268,8 +2268,8 @@
        "答案": "made ； sense",
        "解析": "考查动词短语。句意：他昨天说的话很有道理。分析句子结构和意思可知，这里考查“讲得通，有道理”对应的动词短语make sense，在句子中作谓语，这句话描述的是过去的事情，谓语用一般过去时。故填made sense。",
        "句意": "",
-       "reason": "yesterday 表过去，用 made",
-       "answer_show": null
+       "reason": "过去的评价用 made sense，现在的评价用 makes sense；yesterday 只修饰 said。",
+       "answer_show": "made sense（或 makes sense）"
       }
      ]
     },

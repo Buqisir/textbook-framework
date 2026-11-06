@@ -438,7 +438,7 @@
         },
         {
           "type": "p",
-          "text": "句首常用 it 作形式主语，真正的主语放在句末，如 It surprised us that …。that 不能省。"
+          "text": "句首常用 it 作形式主语，that 引导后置的主语从句，如 It surprised us that …，that 从句说明令人惊讶的事情。"
         },
         {
           "type": "pattern",
@@ -497,7 +497,7 @@
           "ju": "外教竟然能背唐诗，这让我们很惊讶。",
           "mid": {
             "label": "判断",
-            "text": "句首 It 是形式主语，that 引导的从句是真正的主语，that 不能省。"
+            "text": "句首 It 是形式主语，that 引导后置的主语从句。"
           },
           "ans": "that",
           "group": "主语从句"
