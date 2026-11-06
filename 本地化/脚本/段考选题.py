@@ -53,6 +53,11 @@ HAND_PLAN = {
 DEFAULT_MIN_COV = 0.3
 DEFAULT_MIN_VOLS = 2     # 至少 2 卷考到：只在一卷里出现的不算节点专题
 DEFAULT_OFF = ('被动', '时态', '情态动词', '比较级', '省略', '反意疑问')
+# 时态与被动（2026-11-06 所有者定）：高二节点里被动或时态覆盖率 ≥ 60% 的，两项都讲（覆盖率 ≥ 30% 的那几项），
+# 定稿里合成一个专题「时态与被动」。高二几乎每卷都有谓语动词题，只看「考查」句仍是高覆盖。
+VERB_TOPICS = ('被动', '时态')
+VERB_GRADES = ('高二上', '高二下')
+VERB_MIN_COV = 0.6
 
 # 补位顺序：同年级学期内的其他节点，先互补节点，再期中后月考、期末
 DONORS = {
@@ -291,10 +296,14 @@ def lecture_plan(key, cn):
     """返回 (讲的专题名, 讲义专题来源)。cn：该节点在 段考专题.json 里的 专题 字典。"""
     if key in HAND_PLAN:
         return HAND_PLAN[key], '手定（2026-11-05 两册定稿时的讲法）'
-    lect = [n for n, _ in TOPICS if n not in DEFAULT_OFF
-            and cn[n]['覆盖率'] >= DEFAULT_MIN_COV and cn[n]['覆盖卷'] >= DEFAULT_MIN_VOLS]
-    return lect, (f'默认：覆盖率 ≥ {DEFAULT_MIN_COV:.0%} 且覆盖 ≥ {DEFAULT_MIN_VOLS} 卷，不含 '
-                  + '、'.join(DEFAULT_OFF) + '（待负责人确认）')
+    ok = lambda n: cn[n]['覆盖率'] >= DEFAULT_MIN_COV and cn[n]['覆盖卷'] >= DEFAULT_MIN_VOLS
+    lect = [n for n, _ in TOPICS if n not in DEFAULT_OFF and ok(n)]
+    src = (f'默认：覆盖率 ≥ {DEFAULT_MIN_COV:.0%} 且覆盖 ≥ {DEFAULT_MIN_VOLS} 卷，不含 '
+           + '、'.join(DEFAULT_OFF))
+    if key.split('·')[0] in VERB_GRADES and max(cn[n]['覆盖率'] for n in VERB_TOPICS) >= VERB_MIN_COV:
+        lect += [n for n in VERB_TOPICS if ok(n)]
+        src += f'；另讲时态与被动（被动或时态覆盖率 ≥ {VERB_MIN_COV:.0%}，2026-11-06 所有者定）'
+    return lect, src
 
 
 def empty_cov():
