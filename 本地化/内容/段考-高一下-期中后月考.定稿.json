@@ -300,7 +300,7 @@
           ],
           "src": "2023 · 石竹实验学校 · 高一下月考",
           "ans": "so as to",
-          "why": "so as to 表示目的",
+          "why": "表示目的",
           "group": "作状语",
           "level": "必练"
         },
@@ -320,7 +320,7 @@
           "cue": [],
           "src": "2023 · 东莞第一中学 · 高一下月考",
           "ans": "to keep in touch",
-          "why": "to keep in touch 表示目的",
+          "why": "表示目的",
           "group": "作状语",
           "level": "必练"
         },
@@ -329,7 +329,7 @@
           "cue": [],
           "src": "2023 · 东莞实验中学 · 高一下月考",
           "ans": "helping",
-          "why": "helping 表示原因，people 是主动",
+          "why": "表示原因，people 是主动",
           "group": "作状语",
           "level": "必练"
         },
@@ -338,7 +338,7 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高一下联考",
           "ans": "brought",
-          "why": "brought 作定语，them 被养大",
+          "why": "作定语，them 被养大",
           "group": "作定语",
           "level": "必练"
         },
@@ -349,7 +349,7 @@
           ],
           "src": "2023 · 东莞实验中学 · 高一下月考",
           "ans": "adapted from",
-          "why": "adapted from 作定语，film 被改编",
+          "why": "作定语，film 被改编",
           "group": "作定语",
           "level": "必练"
         },
@@ -358,7 +358,7 @@
           "cue": [],
           "src": "2023 · 东莞第一中学 · 高一下月考",
           "ans": "committing",
-          "why": "committing 作定语，those 是主动",
+          "why": "作定语，those 是主动",
           "group": "作定语",
           "level": "必练"
         },
@@ -539,7 +539,7 @@
           ],
           "src": "2023 · 东莞第一中学 · 高一下月考",
           "ans": "It is acknowledged",
-          "why": "It is acknowledged that 句型",
+          "why": "that 句型",
           "group": "形式主语 it",
           "level": "必练"
         },
@@ -548,7 +548,7 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高一下联考",
           "ans": "it",
-          "why": "make it easier，it 作形式宾语",
+          "why": "作形式宾语，to spend 短语是真宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },
@@ -557,7 +557,7 @@
           "cue": [],
           "src": "2024 · 东莞市 · 高一下联考",
           "ans": "it",
-          "why": "made it clear，it 作形式宾语",
+          "why": "作形式宾语，that 从句是真宾语",
           "group": "形式宾语 it",
           "level": "必练"
         }
@@ -639,7 +639,7 @@
             "后接名词 covers"
           ],
           "stem": {
-            "text": "The books on the desk， ___ covers are shiny，are prizes for us.",
+            "text": "The books on the desk, ___ covers are shiny, are prizes for us.",
             "cue": [],
             "src": "2023 · 石竹实验学校 · 高一下月考"
           },
@@ -669,7 +669,7 @@
           "cue": [],
           "src": "2023 · 东莞实验中学 · 高一下月考",
           "ans": "As",
-          "why": "As 引导非限制从句，指代整个句子",
+          "why": "引导非限制从句，指代整个句子",
           "group": "非限制从句",
           "level": "必练"
         },
@@ -792,11 +792,11 @@
           "level": "必练"
         },
         {
-          "stem": "Fortunately somebody who happened to be passing by called the fire department ___ (immediate)the fire broke out.",
+          "stem": "Fortunately somebody who happened to be passing by called the fire department ___ (immediate) the fire broke out.",
           "cue": [],
           "src": "2023 · 石竹实验学校 · 高一下月考",
           "ans": "immediately",
-          "why": "immediately 表示时间上的紧接",
+          "why": "表示时间上的紧接",
           "group": "时间",
           "level": "必练"
         },
@@ -805,7 +805,7 @@
           "cue": [],
           "src": "2023 · 东莞第一中学 · 高一下月考",
           "ans": "the instant",
-          "why": "the instant 引导，表示一……就",
+          "why": "引导，表示一……就",
           "group": "时间",
           "level": "必练"
         },
@@ -814,7 +814,7 @@
           "cue": [],
           "src": "2024 · 东莞市 · 高一下联考",
           "ans": "If necessary",
-          "why": "If necessary 是固定用法",
+          "why": "是固定用法",
           "group": "条件",
           "level": "必练"
         }
@@ -874,12 +874,12 @@
           ],
           "src": "2023 · 东莞第一中学 · 高一下月考",
           "ans": "It is … that",
-          "why": "It is … that 强调时间状语",
+          "why": "强调时间状语",
           "group": "It is…that 句",
           "level": "必练"
         },
         {
-          "stem": "They didn't realize the importance of environment protecting until all the fish in the river died out.",
+          "stem": "They didn't realize the importance of environment protecting [_until all the fish in the river died out_].",
           "cue": [
             "强调划线部分"
           ],
@@ -918,7 +918,7 @@
         },
         {
           "type": "subhead",
-          "text": "就近原则"
+          "text": "不计入主语"
         },
         {
           "type": "gloss",
@@ -955,7 +955,7 @@
           "src": "2023 · 东莞实验中学 · 高一下月考",
           "ans": "was",
           "why": "rather than 不计入主语，谓语随 driver",
-          "group": "就近原则",
+          "group": "不计入主语",
           "level": "必练"
         }
       ]

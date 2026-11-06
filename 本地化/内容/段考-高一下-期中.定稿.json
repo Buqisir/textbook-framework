@@ -284,7 +284,7 @@
           "ju": "正在装饰灯笼的那位女士是我的中文老师。",
           "mid": {
             "label": "成分",
-            "text": "who is decorating 中去掉 who is，保留现在分词 decorating 作前置定语。"
+            "text": "who is decorating 中去掉 who is，保留现在分词 decorating 作后置定语。"
           },
           "ans": "The woman decorating the lanterns is my Chinese teacher."
         },
@@ -355,44 +355,13 @@
           "level": "必练"
         },
         {
-          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features as the unique and beautiful scenery.",
-          "cue": [
-            "用过去分词作状语改写"
-          ],
-          "src": "2026 · 东莞第十二高级中学 · 高一下期中",
-          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery",
-          "why": "park 被位于，改分词作状语",
-          "group": "作状语",
-          "level": "选练"
-        },
-        {
-          "stem": "___ (absorb) in the Internet, many teenagers hardly notice the time passing by.",
-          "cue": [],
-          "src": "2026 · 济川中学 · 高一下期中",
-          "ans": "Absorbed",
-          "why": "absorbed 作状语，teenagers 被吸引",
-          "group": "作状语",
-          "level": "选练"
-        },
-        {
           "stem": "The number of wild animals is falling sharply, ___ (cause) widespread concern.",
           "cue": [],
           "src": "2026 · 石龙中学 · 高一下期中",
           "ans": "causing",
-          "why": "causing 作结果状语，表示主动",
+          "why": "作结果状语，表示主动",
           "group": "作状语",
           "level": "必练"
-        },
-        {
-          "stem": "工作完成后，他开心地回家了。",
-          "cue": [
-            "用 with 复合结构翻译"
-          ],
-          "src": "2026 · 石龙中学 · 高一下期中",
-          "ans": "With the work finished, he went home happily.",
-          "why": "译文用 with 复合，work 被完成",
-          "group": "作状语",
-          "level": "选练"
         },
         {
           "stem": "If I were given more time, I would do the job much better.",
@@ -400,7 +369,7 @@
             "用过去分词作状语改写"
           ],
           "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
-          "ans": "Given more time, I would do the work much better.",
+          "ans": "Given more time, I would do the job much better.",
           "why": "given 表示条件，改自 if 从句",
           "group": "作状语",
           "level": "必练"
@@ -426,24 +395,6 @@
           "level": "必练"
         },
         {
-          "stem": "___ (inspire) by his teacher, he decided to make a change.",
-          "cue": [],
-          "src": "2025 · 翰林高级中学 · 高一下期中",
-          "ans": "Inspired",
-          "why": "inspire 是被动，用 Inspired",
-          "group": "作状语",
-          "level": "选练"
-        },
-        {
-          "stem": "With more of his mind ___ (concentrate) on his lessons, the boy is making rapid progress.",
-          "cue": [],
-          "src": "2024 · 东莞第四高级中学 · 高一下期中",
-          "ans": "concentrated",
-          "why": "with 复合，mind 被集中，用 -ed",
-          "group": "作状语",
-          "level": "选练"
-        },
-        {
           "stem": "___ (feel) tired, he went to bed as soon as he got home.",
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高一下期中",
@@ -466,18 +417,9 @@
           "cue": [],
           "src": "2023 · 东莞外国语学校 · 高一下期中",
           "ans": "To publish",
-          "why": "To publish 表示目的",
+          "why": "表示目的",
           "group": "作状语",
           "level": "必练"
-        },
-        {
-          "stem": "To arrive our destination we need to travel a narrow valley, with a stream ___ (flow) through it.",
-          "cue": [],
-          "src": "2023 · 东莞外国语学校 · 高一下期中",
-          "ans": "flowing",
-          "why": "with 复合，stream 与 flow 是主动",
-          "group": "作状语",
-          "level": "选练"
         },
         {
           "stem": "When the boy heard the good news of the Chinese team, he jumped out of the bed.",
@@ -485,44 +427,26 @@
             "用分词改写"
           ],
           "src": "2023 · 东莞外国语学校 · 高一下期中",
-          "ans": "(When) hearing the good news of the Chinese team, the boy jumped out of the bed.",
+          "ans": "Hearing the good news of the Chinese team, the boy jumped out of the bed.",
           "why": "hearing 表示主动，boy 听到消息",
           "group": "作状语",
           "level": "必练"
-        },
-        {
-          "stem": "___ (earn) a living, some people opened up shops and restaurants in Chinatown.",
-          "cue": [],
-          "src": "2023 · 东华高级中学 · 高一下期中",
-          "ans": "To earn",
-          "why": "To earn a living 表示目的",
-          "group": "作状语",
-          "level": "选练"
         },
         {
           "stem": "The retired man donated most of his savings to the school damaged by the earthquake in Yushu, ___ (enable) the students to return to their classrooms.",
           "cue": [],
           "src": "2023 · 东华高级中学 · 高一下期中",
           "ans": "enabling",
-          "why": "enabling 作结果状语，表示主动",
+          "why": "作结果状语，表示主动",
           "group": "作状语",
           "level": "必练"
-        },
-        {
-          "stem": "She returned to London to ___ (追求) her acting career.",
-          "cue": [],
-          "src": "2023 · 东华高级中学 · 高一下期中",
-          "ans": "pursue",
-          "why": "to pursue 表示目的",
-          "group": "作状语",
-          "level": "选练"
         },
         {
           "stem": "People can take part in many interesting events, ___ (range) from dragon boat races to lantern riddles and group singing.",
           "cue": [],
           "src": "2026 · 济川中学 · 高一下期中",
           "ans": "ranging",
-          "why": "ranging from … 修饰 events",
+          "why": "from … 修饰 events",
           "group": "作定语",
           "level": "必练"
         },
@@ -540,7 +464,7 @@
           "cue": [],
           "src": "2025 · 光正实验学校 · 高一下期中",
           "ans": "ranging from … to …",
-          "why": "ranging from … to … 作后置定语",
+          "why": "作后置定语",
           "group": "作定语",
           "level": "必练"
         },
@@ -558,7 +482,7 @@
           "cue": [],
           "src": "2025 · 东莞第八高级中学 · 高一下期中",
           "ans": "surrounding",
-          "why": "surrounding 表示主动，trees 环绕",
+          "why": "表示主动，trees 环绕",
           "group": "作定语",
           "level": "必练"
         },
@@ -677,6 +601,82 @@
           "why": "were announced，被动语态",
           "group": "be 后的分词",
           "level": "必练"
+        },
+        {
+          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features as the unique and beautiful scenery.",
+          "cue": [
+            "用过去分词作状语改写"
+          ],
+          "src": "2026 · 东莞第十二高级中学 · 高一下期中",
+          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery",
+          "why": "park 被位于，改分词作状语",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "___ (absorb) in the Internet, many teenagers hardly notice the time passing by.",
+          "cue": [],
+          "src": "2026 · 济川中学 · 高一下期中",
+          "ans": "Absorbed",
+          "why": "作状语，teenagers 被吸引",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "工作完成后，他开心地回家了。",
+          "cue": [
+            "用 with 复合结构翻译"
+          ],
+          "src": "2026 · 石龙中学 · 高一下期中",
+          "ans": "With the work finished, he went home happily.",
+          "why": "译文用 with 复合，work 被完成",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "___ (inspire) by his teacher, he decided to make a change.",
+          "cue": [],
+          "src": "2025 · 翰林高级中学 · 高一下期中",
+          "ans": "Inspired",
+          "why": "inspire 是被动，用 Inspired",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "With more of his mind ___ (concentrate) on his lessons, the boy is making rapid progress.",
+          "cue": [],
+          "src": "2024 · 东莞第四高级中学 · 高一下期中",
+          "ans": "concentrated",
+          "why": "with 复合，mind 被集中，用 -ed",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "To arrive our destination we need to travel a narrow valley, with a stream ___ (flow) through it.",
+          "cue": [],
+          "src": "2023 · 东莞外国语学校 · 高一下期中",
+          "ans": "flowing",
+          "why": "with 复合，stream 与 flow 是主动",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "___ (earn) a living, some people opened up shops and restaurants in Chinatown.",
+          "cue": [],
+          "src": "2023 · 东华高级中学 · 高一下期中",
+          "ans": "To earn",
+          "why": "a living 表示目的",
+          "group": "作状语",
+          "level": "选练"
+        },
+        {
+          "stem": "She returned to London to ___ (追求) her acting career.",
+          "cue": [],
+          "src": "2023 · 东华高级中学 · 高一下期中",
+          "ans": "pursue",
+          "why": "to pursue 表示目的",
+          "group": "作状语",
+          "level": "选练"
         }
       ]
     },
@@ -746,7 +746,7 @@
         },
         {
           "type": "p",
-          "text": "限制性定语从句中，who 指人作主语，that 指人或物都可以。who is talking 可以简化为现在分词 talking，作前置定语。"
+          "text": "限制性定语从句中，who 指人作主语，that 指人或物都可以。who is talking 可以简化为现在分词 talking，作后置定语。"
         },
         {
           "type": "p",
@@ -896,7 +896,7 @@
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高一下期中",
           "ans": "which",
-          "why": "which 指 Disneyland，作主语",
+          "why": "指 Disneyland，作主语",
           "group": "非限制 which",
           "level": "必练"
         },
@@ -905,7 +905,7 @@
           "cue": [],
           "src": "2019 · 北师大石竹附属学校 · 高一下期中",
           "ans": "which",
-          "why": "which 指代前面的整个句子",
+          "why": "指代前面的整个句子",
           "group": "非限制 which",
           "level": "必练"
         },
@@ -925,7 +925,7 @@
           "cue": [],
           "src": "2026 · 大岭山中学 · 高一下期中",
           "ans": "that",
-          "why": "that 在从句中作 fond of 的宾语",
+          "why": "在从句中作 fond of 的宾语",
           "group": "who 与 that",
           "level": "必练"
         },
@@ -934,7 +934,7 @@
           "cue": [],
           "src": "2025 · 光正实验学校 · 高一下期中",
           "ans": "As",
-          "why": "As is reported 指代整个主句",
+          "why": "is reported 指代整个主句",
           "group": "as 引导",
           "level": "必练"
         }
@@ -1046,7 +1046,7 @@
           "cue": [],
           "src": "2026 · 大岭山中学 · 高一下期中",
           "ans": "it",
-          "why": "think it important，it 作形式宾语",
+          "why": "作形式宾语，that 从句是真宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },
@@ -1055,7 +1055,7 @@
           "cue": [],
           "src": "2025 · 东莞第八高级中学 · 高一下期中",
           "ans": "it",
-          "why": "made it more difficult，it 作宾语",
+          "why": "作形式宾语，for 短语是真宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },
@@ -1064,7 +1064,7 @@
           "cue": [],
           "src": "2023 · 东华高级中学 · 高一下期中",
           "ans": "it",
-          "why": "make it much easier，it 作形式宾语",
+          "why": "作形式宾语，to spend 短语是真宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },
@@ -1260,7 +1260,7 @@
           "cue": [],
           "src": "2026 · 济川中学 · 高一下期中",
           "ans": "Now that",
-          "why": "now that 表示既然，引导原因",
+          "why": "表示既然，引导原因",
           "group": "原因",
           "level": "必练"
         },
@@ -1269,7 +1269,7 @@
           "cue": [],
           "src": "2026 · 济川中学 · 高一下期中",
           "ans": "keep your eyes open",
-          "why": "keep your eyes open 留意，条件句",
+          "why": "留意，条件句",
           "group": "条件",
           "level": "必练"
         },
@@ -1289,18 +1289,18 @@
           ],
           "src": "2026 · 大岭山中学 · 高一下期中",
           "ans": "In spite of",
-          "why": "in spite of 后接名词，表示尽管",
+          "why": "后接名词，表示尽管",
           "group": "让步",
           "level": "必练"
         },
         {
-          "stem": "Although festivals are commercial, they still reflect people’s wishes, beliefs, faiths and attitudes towards life.\n___ their commercialization, festivals still reflect. people’s wishes, beliefs, faiths and attitudes towards life.",
+          "stem": "Although festivals are commercial, they still reflect people’s wishes, beliefs, faiths and attitudes towards life.\n___ their commercialization, festivals still reflect people’s wishes, beliefs, faiths and attitudes towards life.",
           "cue": [
             "同义句转换"
           ],
           "src": "2026 · 济川中学 · 高一下期中",
           "ans": "In spite of",
-          "why": "in spite of 后接名词，表示尽管",
+          "why": "后接名词，表示尽管",
           "group": "让步",
           "level": "必练"
         },
@@ -1348,7 +1348,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句放在句首，谓语动词用单数。that 引导的主语从句在从句中不作成分；what 引导的主语从句意为“……的地方”或“……的事”。"
+          "text": "主语从句放在句首，谓语动词用单数。that 引导的主语从句在从句中不作成分；what 引导的主语从句意为“……的事”或“……之处”。"
         },
         {
           "type": "p",
@@ -1436,7 +1436,7 @@
           "cue": [],
           "src": "2019 · 北师大石竹附属学校 · 高一下期中",
           "ans": "That",
-          "why": "that 引导主语从句，不作成分",
+          "why": "引导主语从句，不作成分",
           "group": "主语从句",
           "level": "必练"
         },
@@ -1465,7 +1465,7 @@
           "cue": [],
           "src": "2019 · 北师大石竹附属学校 · 高一下期中",
           "ans": "that",
-          "why": "that 引导同位语从句，解释 fact",
+          "why": "引导同位语从句，解释 fact",
           "group": "同位语从句",
           "level": "必练"
         }

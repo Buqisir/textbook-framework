@@ -324,7 +324,7 @@
             "用分词作状语改写"
           ],
           "src": "2025 · 东莞市 · 高一下期末",
-          "ans": "Knowing that they would face various situations in space, the astronauts trained hard for the mission.",
+          "ans": "Knowing that they would face various situations, the astronauts trained hard for the mission.",
           "why": "分词作状语，与主语 astronauts 主动",
           "group": "作状语",
           "level": "必练"
@@ -493,7 +493,7 @@
             "同义转换"
           ],
           "src": "2023 · 东莞市 · 高一下期末",
-          "ans": "insisted on / giving",
+          "ans": "insisted on … giving",
           "why": "insist on doing 坚持做某事",
           "group": "固定搭配",
           "level": "必练"
@@ -830,7 +830,7 @@
       "keypoint": "主语从句在句首作主语：从句缺成分用 what，不缺成分用 that（不能省）。句首 it 作形式主语时，真正的主语在句末的 that 从句。",
       "drill": [
         {
-          "stem": "在上次旅行中，让我印象深刻的是当地的习俗.",
+          "stem": "在上次旅行中，让我印象深刻的是当地的习俗。",
           "cue": [
             "用主语从句翻译"
           ],
@@ -928,7 +928,7 @@
           ],
           "src": "2021 · 东莞市 · 高一下期末",
           "ans": "In spite of",
-          "why": "In spite of 相当于 despite",
+          "why": "相当于 despite",
           "group": "让步原因改写",
           "level": "必练"
         },
@@ -991,7 +991,7 @@
         },
         {
           "type": "pattern",
-          "text": "Only when …, did sb. do …  |  Only in this way, can sb. do …"
+          "text": "Only when …, did sb. do …  |  Only in this way can sb. do …"
         },
         {
           "type": "subhead",
