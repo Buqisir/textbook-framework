@@ -1025,7 +1025,7 @@
         {
           "词头": "strengthen",
           "题数": 12,
-          "gloss": "to 后用动词原形",
+          "gloss": "to 后用动词原形<br>strength 作宾语用名词",
           "chain": [
             {
               "词": "strengthen",
@@ -1066,18 +1066,131 @@
               "answer_show": null
             },
             {
-              "id": "096-12",
+              "id": "138-12",
               "no": 2,
-              "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
+              "标签": "2023 · 东莞第十中学 · 高一上期中",
               "题型": "语法填空",
-              "题干": "Before the sports meeting, we are expected to ___ (strong) our muscle.",
-              "题干HTML": "Before the sports meeting, we are expected to <span class=\"blank\"></span> (strong) our muscle.",
+              "题干": "It took Cinderella several weeks to regain her ___ (strong) after a bad illness.",
+              "题干HTML": "It took Cinderella several weeks to regain her <span class=\"blank\"></span> (strong) after a bad illness.",
               "cue": [],
               "提示词": "strong",
-              "答案": "strengthen",
-              "解析": "考查固定短语。句意：在运动会前，我们要增强肌肉力量。be expected to do：被期望做……，strong的动词为strengthen，故填strengthen。",
+              "答案": "strength",
+              "解析": "考查名词。句意：一场大病过后，Cinderella花了几个星期才恢复体力。空处应填名词作regain的宾语，strength“力量，体力”，不可数名词，故填strength。",
               "句意": "",
-              "reason": "be expected to 用动词原形"
+              "reason": "regain 的宾语，用名词",
+              "answer_show": null
+            }
+          ]
+        },
+        {
+          "词头": "surroundings",
+          "题数": 7,
+          "gloss": "物主代词后用名词<br>常用复数形式",
+          "chain": [
+            {
+              "词": "surroundings",
+              "词性": "n.",
+              "释义": "环境",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "surrounding",
+              "词性": "adj.",
+              "释义": "周围的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "surround",
+              "词性": "vt.",
+              "释义": "围绕",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "150-10",
+              "no": 3,
+              "标签": "2025 · 翰林高级中学 · 高二上期末",
+              "题型": "语法填空",
+              "题干": "Small talk can also help us feel connected with our ___ (surround).",
+              "题干HTML": "Small talk can also help us feel connected with our <span class=\"blank\"></span> (surround).",
+              "cue": [],
+              "提示词": "surround",
+              "答案": "surroundings",
+              "解析": "考查名词。句意：闲谈也可以帮助我们融洽地融入周围环境。结合语境可知，设空处在形容词性物主代词之后，应用名词，充当with的宾语，surrounding常用复数形式，故填surroundings。",
+              "句意": "",
+              "reason": "物主代词后用名词",
+              "answer_show": null
+            }
+          ]
+        },
+        {
+          "词头": "applicant",
+          "题数": 5,
+          "gloss": "a、my 之后用名词<br>applicant 指申请人",
+          "chain": [
+            {
+              "词": "applicant",
+              "词性": "n.",
+              "释义": "申请人",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "apply",
+              "词性": "vi. & vt.",
+              "释义": "申请",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "application",
+              "词性": "n.",
+              "释义": "申请",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "applied",
+              "词性": "adj.",
+              "释义": "应用的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "094-13",
+              "no": 4,
+              "标签": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "As a job ___ (apply), you should prepare a well-organized resume and be ready for the interview.",
+              "题干HTML": "As a job <span class=\"blank\"></span> (apply), you should prepare a well-organized resume and be ready for the interview.",
+              "cue": [],
+              "提示词": "apply",
+              "答案": "applicant",
+              "解析": "考查名词。句意：作为一名求职者，你应该准备一份条理清晰的简历，并为面试做好准备。不定冠词a后接单数可数名词，apply的名词形式applicant表示“申请人，求职者”，符合语境。故填applicant。",
+              "句意": "",
+              "reason": "a 之后用单数名词",
+              "answer_show": null
+            },
+            {
+              "id": "130-14",
+              "no": 5,
+              "标签": "2023 · 石竹实验学校 · 高二上月考",
+              "题型": "语法填空",
+              "题干": "I am writing to ask for your substantial assistance with my ___ (apply) and resume.",
+              "题干HTML": "I am writing to ask for your substantial assistance with my <span class=\"blank\"></span> (apply) and resume.",
+              "cue": [],
+              "提示词": "apply",
+              "答案": "application",
+              "解析": "考查名词。句意：我写信是为了请求您对我的申请和简历提供实质性的帮助。由空前my形容词性物主代词可知，此处为名词形式。故填application。",
+              "句意": "",
+              "reason": "my 之后用名词",
+              "answer_show": null
             }
           ]
         },
@@ -1118,7 +1231,7 @@
           "atoms": [
             {
               "id": "160-23",
-              "no": 3,
+              "no": 6,
               "标签": "2024 · 弘林高级中学 · 高二下月考",
               "题型": "语法填空",
               "题干": "He has been an active ___ (participate) in the discussion.",
@@ -1133,7 +1246,7 @@
             },
             {
               "id": "105-08",
-              "no": 4,
+              "no": 7,
               "标签": "2024 · 东莞市 · 高二下期中",
               "题型": "语法填空",
               "题干": "The Ice Bucket Challenge requires that ___ (participate) pour a bucket of ice water on themselves.",
@@ -1178,7 +1291,7 @@
           "atoms": [
             {
               "id": "145-11",
-              "no": 5,
+              "no": 8,
               "标签": "2023 · 翰林高级中学 · 高二月考",
               "题型": "语法填空",
               "题干": "I ___ (sincere) hope you can achieve your ambition through your efforts.",
@@ -1216,7 +1329,7 @@
           "atoms": [
             {
               "id": "151-15",
-              "no": 6,
+              "no": 9,
               "标签": "2023 · 虎门中学 · 高二上月考",
               "题型": "语法填空",
               "题干": "In his early twenties, he was too ___ (ambition) to stay in his hometown to be a clerk in a small company.",
@@ -1231,7 +1344,7 @@
             },
             {
               "id": "065-06",
-              "no": 7,
+              "no": 10,
               "标签": "2023 · 东莞市 · 高二上期末",
               "题型": "语法填空",
               "题干": "Exploring the world is his greatest ___ (ambitious).",
@@ -1243,6 +1356,44 @@
               "句意": "",
               "reason": "his greatest 后用名词",
               "answer_show": null
+            }
+          ]
+        },
+        {
+          "词头": "behave",
+          "题数": 3,
+          "gloss": "your best 后用名词",
+          "chain": [
+            {
+              "词": "behave",
+              "词性": "vt.",
+              "释义": "表现",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "behaviour",
+              "词性": "n.",
+              "释义": "举止",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "129-15",
+              "no": 11,
+              "标签": "2023 · 石竹实验学校 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "Before we went out, Mom said to us, “I want you both to be on your best ___ (behave) at Grandad’s.”",
+              "题干HTML": "Before we went out, Mom said to us, “I want you both to be on your best <span class=\"blank\"></span> (behave) at Grandad’s.”",
+              "cue": [],
+              "提示词": "behave",
+              "答案": "behaviour / behavior",
+              "解析": "考查名词。句意：在我们出去之前，妈妈对我们说:“我希望你们俩在爷爷家表现好一点。”根据设空前的your best可知，设空处用名词作宾语，所给词behave是动词，其名词是behaviour/behavior，表抽象意义，不可数，故答案为behaviour/behavior。",
+              "句意": "",
+              "reason": "your best 后用名词",
+              "answer_show": "behaviour（亦可 behavior）"
             }
           ]
         },
@@ -1269,7 +1420,7 @@
           "atoms": [
             {
               "id": "152-15",
-              "no": 8,
+              "no": 12,
               "标签": "2023 · 虎门中学 · 高二上月考",
               "题型": "语法填空",
               "题干": "When ___ (depress), she always paid a visit to her grandma for some advice.",
@@ -1321,7 +1472,7 @@
           "atoms": [
             {
               "id": "157-13",
-              "no": 9,
+              "no": 13,
               "标签": "2023 · 麻涌中学 · 高二上月考",
               "题型": "语法填空",
               "题干": "You should take advantage of this good opportunity, and live up to your teacher’s ___ (expect).",
@@ -1359,7 +1510,7 @@
           "atoms": [
             {
               "id": "152-10",
-              "no": 10,
+              "no": 14,
               "标签": "2023 · 虎门中学 · 高二上月考",
               "题型": "语法填空",
               "题干": "___ (homesick) is always with me, particularly during Chinese traditional festivals.",
@@ -1397,7 +1548,7 @@
           "atoms": [
             {
               "id": "141-10",
-              "no": 11,
+              "no": 15,
               "标签": "2023 · 东莞第四高级中学 · 高二上期中",
               "题型": "语法填空",
               "题干": "He can ___ (logical) infer that if the battery is dead then the horn will not sound.",
@@ -1442,7 +1593,7 @@
           "atoms": [
             {
               "id": "032-14",
-              "no": 12,
+              "no": 16,
               "标签": "2026 · 东莞外国语学校 · 高二下期中",
               "题型": "语法填空",
               "题干": "Thanks to Shackleton’s courage and resolve, the crew members stay ___ (motivate) in the extreme Antarctic conditions.",
@@ -1487,7 +1638,7 @@
           "atoms": [
             {
               "id": "120-06",
-              "no": 13,
+              "no": 17,
               "标签": "2025 · 厚街中学 · 高二下月考",
               "题型": "语法填空",
               "题干": "Working experience is a necessary ___ (qualify) for this job.",
@@ -1505,8 +1656,23 @@
       ],
       "spelling": [
         {
+          "id": "099-16",
+          "no": 18,
+          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "单词拼写",
+          "题干": "He can lift heavy weights because of his ___ (力气).",
+          "题干HTML": "He can lift heavy weights because of his <span class=\"blank\"></span> (力气).",
+          "cue": [],
+          "提示词": null,
+          "答案": "strength",
+          "解析": "考查名词。句意：由于他的力气，他能举起重物。“力气”strength，名词在句中作介词of的宾语，为不可数名词。故填strength。",
+          "句意": "",
+          "reason": "of 之后作宾语，用名词",
+          "answer_show": null
+        },
+        {
           "id": "016-10",
-          "no": 14,
+          "no": 19,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "单词拼写",
           "题干": "John Snow became inspired when he thought about helping ordinary people ___ (暴露) to cholera.",
@@ -1521,7 +1687,7 @@
         },
         {
           "id": "009-12",
-          "no": 15,
+          "no": 20,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "David is a very ___ (有雄心的) young manager.",
@@ -1536,7 +1702,7 @@
         },
         {
           "id": "002-13",
-          "no": 16,
+          "no": 21,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "That means global emissions have to peak within the next five years and be ___ (稳固地) falling by 2020.",
@@ -1551,7 +1717,7 @@
         },
         {
           "id": "016-09",
-          "no": 17,
+          "no": 22,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "单词拼写",
           "题干": "She isn't very ___ (乐观) about the outcome of the talks.",
@@ -1566,7 +1732,7 @@
         },
         {
           "id": "009-08",
-          "no": 18,
+          "no": 23,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "My friend knows where he can pick up a satisfying car for you at a ___ (合理的) price.",
@@ -1589,7 +1755,7 @@
           "atoms": [
             {
               "id": "139-17",
-              "no": 19,
+              "no": 24,
               "标签": "2022 · 东莞第四高级中学 · 高二上期中",
               "题型": "完成句子",
               "题干": "I don’t want to ___ (参与，卷入) the meaningless argument.",
@@ -1613,7 +1779,7 @@
           "atoms": [
             {
               "id": "150-22",
-              "no": 20,
+              "no": 25,
               "标签": "2025 · 翰林高级中学 · 高二上期末",
               "题型": "翻译",
               "题干": "令他父母感到沮丧的是他在学校表现不好。 → ___",
@@ -1633,8 +1799,23 @@
       ],
       "quiz": [
         {
+          "id": "036-16",
+          "no": 26,
+          "标签": "2026 · 海逸外国语学校 · 高一下期中",
+          "题型": "语法填空",
+          "题干": "With the castle ___ (surround) by the enemy, the soldiers had no choice but to fight to the end.",
+          "题干HTML": "With the castle <span class=\"blank\"></span> (surround) by the enemy, the soldiers had no choice but to fight to the end.",
+          "cue": [],
+          "提示词": "surround",
+          "答案": "surrounded",
+          "解析": "句意：城堡被敌人包围后，士兵们除了战斗到底别无选择。本句是“with + 宾语 + 宾语补足语”的复合结构，在句中作状语。 宾语the castle和所给动词surround(包围)之间是被动关系，因此需要用过去分词形式作宾语补足语，表被动。",
+          "句意": "",
+          "reason": "被动关系，用过去分词",
+          "answer_show": null
+        },
+        {
           "id": "137-11",
-          "no": 21,
+          "no": 27,
           "标签": "2025 · 东莞第八高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "The trees ___ (surround) the house were planted by my father 10 years ago.",
@@ -1648,8 +1829,23 @@
           "answer_show": null
         },
         {
+          "id": "080-16",
+          "no": 28,
+          "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
+          "题型": "语法填空",
+          "题干": "Artificial Intelligence (AI) ___ (apply) to many fields in recent years.",
+          "题干HTML": "Artificial Intelligence (AI) <span class=\"blank\"></span> (apply) to many fields in recent years.",
+          "cue": [],
+          "提示词": "apply",
+          "答案": "has been applied",
+          "解析": "考查时态语态。句意：近年来，人工智能（AI）已被应用于许多领域。apply是谓语动词，由时间状语in recent years可知，用现在完成时，主语Artificial Intelligence (AI)与apply是被动关系，用被动语态，且主语是Artificial Intelligence，助动词用 has。故填has been applied。",
+          "句意": "",
+          "reason": "in recent years 用完成时",
+          "answer_show": null
+        },
+        {
           "id": "052-07",
-          "no": 22,
+          "no": 29,
           "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
           "题型": "语法填空",
           "题干": "The school curriculum is designed to provide students with engaging lessons ___ (involve) interactive activities.",
@@ -1663,7 +1859,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 22
+      "numbered_total": 29
     },
     {
       "序": 24,
@@ -1681,7 +1877,7 @@
         "卷数": 9,
         "词数": 65,
         "短语数": 20,
-        "句式题数": 0
+        "句式题数": 1
       },
       "freq": [
         {
@@ -1828,15 +2024,55 @@
               "句意": "",
               "reason": "It 作形式主语，不定式作真主语",
               "answer_show": null
+            },
+            {
+              "id": "040-17",
+              "no": 4,
+              "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
+              "题型": "完成句子",
+              "题干": "The naughty boy ___ (取笑；戏弄) his classmates yesterday and was criticized by the teacher.",
+              "题干HTML": "The naughty boy <span class=\"blank\"></span> (取笑；戏弄) his classmates yesterday and was criticized by the teacher.",
+              "cue": [],
+              "提示词": null,
+              "答案": "made fun of",
+              "解析": "句意：那个调皮的男孩昨天取笑了他的同学，结果被老师批评了。根据汉语意思提示可知，此处为动词短语make fun of“取笑”，满足句意要求，结合时间状语yesterday可知，为一般过去时。",
+              "句意": "",
+              "reason": "yesterday 提示一般过去时",
+              "answer_show": null
             }
           ]
         }
       ],
-      "tricks": [],
+      "tricks": [
+        {
+          "句式": "动词改短语",
+          "gloss": "用 make fun of 表取笑",
+          "formula": "laugh at sb → make fun of sb",
+          "atoms": [
+            {
+              "id": "131-19",
+              "no": 5,
+              "标签": "2026 · 石龙中学 · 高一下期中",
+              "题型": "完成句子",
+              "题干": "He was upset because his classmates laughed at him. → He was upset because his classmates ___ him.",
+              "题干HTML": "He was upset because his classmates laughed at him. → He was upset because his classmates <span class=\"blank\"></span> him.",
+              "cue": [
+                "同义转换"
+              ],
+              "提示词": null,
+              "答案": "made ； fun ； of",
+              "解析": "句意：他很沮丧，因为同学们取笑他。 laugh at 与 make fun of 同义，均表示“取笑”；原句为一般过去时，所以make变为made。",
+              "句意": "",
+              "reason": "同义短语，用 make fun of",
+              "answer_show": null
+            }
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": "150-08",
-          "no": 4,
+          "no": 6,
           "标签": "2025 · 翰林高级中学 · 高二上期末",
           "题型": "语法填空",
           "题干": "It took me large ___ (quantity) of time to accomplish the challenging task.",
@@ -1851,7 +2087,7 @@
         },
         {
           "id": "157-06",
-          "no": 5,
+          "no": 7,
           "标签": "2023 · 麻涌中学 · 高二上月考",
           "题型": "语法填空",
           "题干": "During the Mid-Autumn Festival, we admire the moon and eat some mooncakes ___ (stuff) with nuts or eggs.",
@@ -1865,7 +2101,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 5
+      "numbered_total": 7
     },
     {
       "序": 25,
@@ -1901,13 +2137,29 @@
         }
       ],
       "families": [],
-      "spelling": [],
+      "spelling": [
+        {
+          "id": "107-23",
+          "no": 1,
+          "标签": "2023 · 东莞第二高级中学 · 高一上月考",
+          "题型": "单词拼写",
+          "题干": "Slowly, the city began to ___ (呼吸) again.",
+          "题干HTML": "Slowly, the city began to <span class=\"blank\"></span> (呼吸) again.",
+          "cue": [],
+          "提示词": null,
+          "答案": "breathe",
+          "解析": "考查动词。句意：慢慢地，这座城市又开始呼吸了。根据汉语提示可知，breathe呼吸，动词，符合题意；begin to do sth.开始做某事，固定搭配，此处动词不定式作宾语。故填breathe。",
+          "句意": "",
+          "reason": "begin to 后接动词原形",
+          "answer_show": null
+        }
+      ],
       "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "084-10",
-          "no": 1,
+          "no": 2,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "It has to be maintained at an altitude where the thin air makes it a struggle for humans to ___ (呼吸).",
@@ -1921,7 +2173,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 1
+      "numbered_total": 2
     },
     {
       "序": 26,

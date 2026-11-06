@@ -268,8 +268,23 @@
    ],
    "spelling": [
     {
-     "id": "016-13",
+     "id": "002-15",
      "no": 4,
+     "标签": "2018 · 东华高级中学 · 高二上期末",
+     "题型": "单词拼写",
+     "题干": "We must ___ (任命；委派) a new teacher at once to the mountain school.",
+     "题干HTML": "We must <span class=\"blank\"></span> (任命；委派) a new teacher at once to the mountain school.",
+     "cue": [],
+     "提示词": null,
+     "答案": "appoint",
+     "解析": "考查翻译填空，要翻译的部分为“委派”，作谓语，所以用动词，前面有情态动词，所以用动词原形，故填appoint。",
+     "句意": "我们必须立刻给山区学校委派一名新教师。",
+     "reason": "must 后用动词原形",
+     "answer_show": null
+    },
+    {
+     "id": "016-13",
+     "no": 5,
      "标签": "2020 · 东莞中学 · 高二上月考",
      "题型": "单词拼写",
      "题干": "Events in the field can be ___ (分成) into two sections jumping and throwing.",
@@ -288,7 +303,7 @@
    "quiz": [
     {
      "id": "033-13",
-     "no": 5,
+     "no": 6,
      "标签": "2026 · 东莞市 · 高二下月考",
      "题型": "语法填空",
      "题干": "The local government urged all factories ___ (calculate) their monthly carbon emissions correctly.",
@@ -303,7 +318,7 @@
     },
     {
      "id": "061-10",
-     "no": 6,
+     "no": 7,
      "标签": "2023 · 东莞市 · 高二下期末",
      "题型": "语法填空",
      "题干": "The participants are waiting anxiously, and the final result of the drama competition ___ (declare)in 30 minutes.",
@@ -318,7 +333,7 @@
     },
     {
      "id": "124-16",
-     "no": 7,
+     "no": 8,
      "标签": "2023 · 弘林高级中学 · 高二月考",
      "题型": "语法填空",
      "题干": "So far, the police investigation ___ (draw) a blank.",
@@ -332,7 +347,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 7
+   "numbered_total": 8
   },
   {
    "序": 33,
@@ -978,8 +993,23 @@
      "answer_show": null
     },
     {
-     "id": "144-11",
+     "id": "029-11",
      "no": 6,
+     "标签": "2024 · 东莞第八高级中学 · 高一上期中",
+     "题型": "语法填空",
+     "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
+     "题干HTML": "Would you please return to your seat？The plane <span class=\"blank\"></span> （take） off soon.",
+     "cue": [],
+     "提示词": "take",
+     "答案": "is taking",
+     "解析": "请您回到您的座位上去好吗？飞机马上就要起飞了。\n\n根据句意以及表示将来的词\"soon\"可知，飞机即将起飞，应用现在进行时（be doing）时表示将来；由于主语The plane为单数，谓语应用单数is；再结合提示词take，该空应填is taking。\n\n故填：is taking。",
+     "句意": "",
+     "reason": "soon 表将来，进行时表将来",
+     "answer_show": null
+    },
+    {
+     "id": "144-11",
+     "no": 7,
      "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
@@ -994,7 +1024,7 @@
     },
     {
      "id": "016-26",
-     "no": 7,
+     "no": 8,
      "标签": "2020 · 东莞中学 · 高二上月考",
      "题型": "语法填空",
      "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
@@ -1008,7 +1038,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 7
+   "numbered_total": 8
   },
   {
    "序": 36,

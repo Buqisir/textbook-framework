@@ -232,14 +232,14 @@
       "unit_book": "选择性必修第一册　Unit 2",
       "chips": {
         "year_range": "2020–2025",
-        "n_questions": 7,
-        "n_kaofa": 2,
+        "n_questions": 11,
+        "n_kaofa": 4,
         "n_phrase": 3
       },
       "h2": "Looking Into the Future",
       "zh": "展望未来",
       "stats": {
-        "卷数": 6,
+        "卷数": 9,
         "词数": 72,
         "短语数": 74,
         "句式题数": 0
@@ -267,6 +267,42 @@
           "题数": 3
         },
         {
+          "词头": "preference",
+          "forms": [
+            {
+              "form": "preference",
+              "n": 2
+            },
+            {
+              "form": "prefers",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "distant",
+          "forms": [
+            {
+              "form": "distance",
+              "n": 1
+            },
+            {
+              "form": "distant",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "拼写"
+          ],
+          "题数": 2
+        },
+        {
           "词头": "instant",
           "forms": [
             {
@@ -289,19 +325,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "preference",
-          "forms": [
-            {
-              "form": "prefers",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "动词形式"
           ],
           "题数": 1
         },
@@ -383,20 +406,46 @@
       "data_no": "U3",
       "unit_book": "选择性必修第一册　Unit 3",
       "chips": {
-        "year_range": "2019–2025",
-        "n_questions": 9,
+        "year_range": "2019–2026",
+        "n_questions": 16,
         "n_kaofa": 5,
-        "n_phrase": 1
+        "n_phrase": 3
       },
       "h2": "Fascinating Parks",
       "zh": "迷人的公园",
       "stats": {
-        "卷数": 8,
+        "卷数": 15,
         "词数": 67,
         "短语数": 36,
         "句式题数": 0
       },
       "freq": [
+        {
+          "词头": "accompany",
+          "forms": [
+            {
+              "form": "company",
+              "n": 4
+            },
+            {
+              "form": "keep me company",
+              "n": 2
+            },
+            {
+              "form": "accompanied",
+              "n": 1
+            },
+            {
+              "form": "keep her company",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "拼写"
+          ],
+          "题数": 8
+        },
         {
           "词头": "random",
           "forms": [
@@ -426,19 +475,6 @@
             "动词形式"
           ],
           "题数": 2
-        },
-        {
-          "词头": "accompany",
-          "forms": [
-            {
-              "form": "keep me company",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 1
         },
         {
           "词头": "amuse",
@@ -481,7 +517,22 @@
         }
       ],
       "families": [],
-      "spelling": [],
+      "spelling": [
+        {
+          "id": "092-11",
+          "no": 1,
+          "标签": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+          "题型": "单词拼写",
+          "题干": "She was glad her husband and dogs would be there to keep her ___ (陪伴) when she was sick.",
+          "题干HTML": "She was glad her husband and dogs would be there to keep her <span class=\"blank\"></span> (陪伴) when she was sick.",
+          "cue": [],
+          "提示词": null,
+          "答案": "company",
+          "解析": "考查名词。句意：她很高兴她的丈夫和狗在她生病的时候陪伴着她。keep sb. company陪伴某人。根据汉语提示及句意，故填company。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
       "phrases": [
         {
           "短语": "keep sb company",
@@ -489,16 +540,30 @@
           "词头": "accompany",
           "atoms": [
             {
-              "id": "089-19",
-              "no": 1,
-              "标签": "2023 · 东华高级中学 · 高一上月考",
+              "id": "067-18",
+              "no": 2,
+              "标签": "2025 · 东莞市 · 高一下期末",
               "题型": "完成句子",
-              "题干": "My sister has travelled 300 kilometres to ___ (陪伴我) during my illness.",
-              "题干HTML": "My sister has travelled 300 kilometres to <span class=\"blank\"></span> (陪伴我) during my illness.",
+              "题干": "My mother ___ (陪伴我) during my stay in the hospital last month.",
+              "题干HTML": "My mother <span class=\"blank\"></span> (陪伴我) during my stay in the hospital last month.",
+              "cue": [],
+              "提示词": null,
+              "答案": "kept ； me ； company",
+              "解析": "考查固定短语和时态。句意：上个月我住院期间，妈妈一直陪伴着我。表示“陪伴某人”用keep sb company，根据句中的时间状语last month可知，句子描述的是过去发生的动作，因此时态用一般过去时，谓语用过去式kept。表示“我”用me，作宾语。故填kept me company。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "153-20",
+              "no": 3,
+              "标签": "2025 · 虎门中学 · 高一下月考",
+              "题型": "完成句子",
+              "题干": "I wish my dog were here to ___ (陪伴).",
+              "题干HTML": "I wish my dog were here to <span class=\"blank\"></span> (陪伴).",
               "cue": [],
               "提示词": null,
               "答案": "keep ； me ； company",
-              "解析": "考查固定搭配。句意：在我生病期间，我姐姐走了300公里来陪伴我。根据汉意提示，应为固定搭配keep sb company“陪伴某人”，且照应空前不定式符号，应为动词原形。故填keep me company。",
+              "解析": "考查动词短语。句意：我希望我的狗能在这里陪伴我。“陪伴某人”为“keep sb company”,to后接动词原形。“我”为“me”。故填keep me company。",
               "句意": "",
               "reason": ""
             }
@@ -510,7 +575,7 @@
       "quiz": [
         {
           "id": "110-06",
-          "no": 2,
+          "no": 4,
           "标签": "2025 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "Since the new mayor came to power, the use of single-use plastic bags ___ (ban) in many cities to reduce environmental pollution.",
@@ -523,8 +588,22 @@
           "reason": ""
         },
         {
+          "id": "009-13",
+          "no": 5,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "She ___ (陪伴) her friend to the concert last night.",
+          "题干HTML": "She <span class=\"blank\"></span> (陪伴) her friend to the concert last night.",
+          "cue": [],
+          "提示词": null,
+          "答案": "accompanied",
+          "解析": "【考点】翻译填空\n考查谓语动词。根据所给的汉语提示“陪伴”和句子结构可知，此处是谓语动词，因时间状语last night是一般过去时的标志，所以动词应用过去式，“陪伴”的英语是accompany，故填accompanied。",
+          "句意": "她昨晚陪她的朋友去听音乐会了。",
+          "reason": ""
+        },
+        {
           "id": "047-07",
-          "no": 3,
+          "no": 6,
           "标签": "2022 · 东莞外国语学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "It is the second time that Prince Llywellyn ___ (swing) the sword at his dog.",
@@ -537,7 +616,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 3
+      "numbered_total": 6
     },
     {
       "序": 20,
@@ -545,19 +624,61 @@
       "unit_book": "选择性必修第一册　Unit 4",
       "chips": {
         "year_range": "2018–2026",
-        "n_questions": 17,
-        "n_kaofa": 8,
-        "n_phrase": 5
+        "n_questions": 25,
+        "n_kaofa": 12,
+        "n_phrase": 7
       },
       "h2": "Body Language",
       "zh": "肢体语言",
       "stats": {
-        "卷数": 14,
+        "卷数": 21,
         "词数": 74,
         "短语数": 107,
         "句式题数": 0
       },
       "freq": [
+        {
+          "词头": "differ",
+          "forms": [
+            {
+              "form": "make a difference",
+              "n": 2
+            },
+            {
+              "form": "make a great difference to",
+              "n": 1
+            },
+            {
+              "form": "makes a difference",
+              "n": 1
+            },
+            {
+              "form": "makes a difference to",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 5
+        },
+        {
+          "词头": "anxiety",
+          "forms": [
+            {
+              "form": "anxiety",
+              "n": 2
+            },
+            {
+              "form": "anxious",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 4
+        },
         {
           "词头": "embarrassed",
           "forms": [
@@ -577,42 +698,26 @@
           "题数": 4
         },
         {
-          "词头": "differ",
+          "词头": "vary",
           "forms": [
             {
-              "form": "make a great difference to",
+              "form": "varieties",
               "n": 1
             },
             {
-              "form": "makes a difference",
+              "form": "variety",
               "n": 1
             },
             {
-              "form": "makes a difference to",
+              "form": "various",
               "n": 1
             }
           ],
           "考法": [
-            "短语"
+            "词性转换",
+            "复数"
           ],
           "题数": 3
-        },
-        {
-          "词头": "anxiety",
-          "forms": [
-            {
-              "form": "anxiety",
-              "n": 1
-            },
-            {
-              "form": "anxious",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 2
         },
         {
           "词头": "adjust",
@@ -650,6 +755,19 @@
           ],
           "考法": [
             "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "react",
+          "forms": [
+            {
+              "form": "reaction",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
           ],
           "题数": 1
         },
@@ -728,32 +846,30 @@
           "词头": "differ",
           "atoms": [
             {
-              "id": "160-26",
+              "id": "031-17",
               "no": 1,
-              "标签": "2024 · 弘林高级中学 · 高二下月考",
+              "标签": "2025 · 东莞市 · 高一上期末",
               "题型": "完成句子",
-              "题干": "As teachers, you must believe that you can ___ (对产生很大影响) your students.",
-              "题干HTML": "As teachers, you must believe that you can <span class=\"blank\"></span> (对产生很大影响) your students.",
+              "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
+              "题干HTML": "Your small acts of kindness can <span class=\"blank\"></span> (有影响) to someone’s life.",
               "cue": [],
               "提示词": null,
-              "答案": "make ； a ； great ； difference ； to",
-              "解析": "考查动词短语。句意：作为老师，你必须相信你能对你的学生产生很大的影响。根据汉语提示“对产生很大影响”可知，此处为动词短语make a great difference to，位于情态动词can后面，使用动词原形。故填①make；②a；③great；④difference；⑤to。",
+              "答案": "make ； a ； difference",
+              "解析": "考查动词短语。句意：你小小的善举能对某人的生活产生影响。can是情态动词，后接动词原形，make a difference是固定短语，意为“有影响，起作用”。故填make a difference。",
               "句意": "",
               "reason": ""
             },
             {
-              "id": "161-20",
+              "id": "099-38",
               "no": 2,
-              "标签": "2024 · 松山湖未来学校 · 高一上期中",
+              "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
               "题型": "完成句子",
-              "题干": "The application of the technology of AI really ___ → improving people’s work efficiency.",
-              "题干HTML": "The application of the technology of AI really <span class=\"blank\"></span> → improving people’s work efficiency.",
-              "cue": [
-                "对……有作用"
-              ],
+              "题干": "I’ve learned that you are never too small to ___ (有影响).",
+              "题干HTML": "I’ve learned that you are never too small to <span class=\"blank\"></span> (有影响).",
+              "cue": [],
               "提示词": null,
-              "答案": "makes ； a ； difference ； to",
-              "解析": "考查动词短语。句意：人工智能技术的应用确实对提高人们的工作效率产生了影响。本句缺少谓语，所以空处应填动词，根据所给中文提示词，应是make a difference to意为“对……有作用”，描述客观事实，用一般现在时，主语为第三人称单数。故填①makes，②a，③difference，④to。",
+              "答案": "make a difference",
+              "解析": "考查固定短语。句意：我了解到，你永远不会太渺小而无法产生影响。根据汉语提示可知，表示“有影响”应使用固定短语make a difference，空前为不定式符号to，所以此处使用动词原形。故填make a difference。",
               "句意": "",
               "reason": ""
             }
@@ -808,8 +924,22 @@
       "tricks": [],
       "quiz": [
         {
-          "id": "160-26",
+          "id": "099-27",
           "no": 5,
+          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "They have been eating ___ (variety) of the stuff for centuries.",
+          "题干HTML": "They have been eating <span class=\"blank\"></span> (variety) of the stuff for centuries.",
+          "cue": [],
+          "提示词": "variety",
+          "答案": "varieties",
+          "解析": "考查固定短语。句意：几个世纪以来，他们一直在吃各种各样的东西。分析句子可知，此处为固定短语varieties of“各种各样的”，满足句意要求。故填varieties。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "160-26",
+          "no": 6,
           "标签": "2024 · 弘林高级中学 · 高二下月考",
           "题型": "完成句子",
           "题干": "As teachers, you must believe that you can ___ (对产生很大影响) your students.",
@@ -823,7 +953,7 @@
         },
         {
           "id": "109-10",
-          "no": 6,
+          "no": 7,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "At this warm greeting, the poor man, who was not used to such kindness, ___ (weep) like a child.",
@@ -834,29 +964,56 @@
           "解析": "考查时态。句意：听到这个温暖的问候，这个不习惯这种善意的可怜人像个孩子一样哭了起来。结合句意及was可知陈述过去事情，用一般过去时。故填wept。",
           "句意": "",
           "reason": ""
+        },
+        {
+          "id": "108-14",
+          "no": 8,
+          "标签": "2023 · 东莞高级中学 · 高一上月考",
+          "题型": "语法填空",
+          "题干": "Yet the pace of a child’s progress can also be a source of ___ (anxious) for mothers and fathers.",
+          "题干HTML": "Yet the pace of a child’s progress can also be a source of <span class=\"blank\"></span> (anxious) for mothers and fathers.",
+          "cue": [],
+          "提示词": "anxious",
+          "答案": "anxiety",
+          "解析": "考查名词。句意：然而，孩子的进步速度也可能成为父母焦虑的根源。分析句子结构可知，此处为名词作宾语，anxious的名词为anxiety意为“焦虑”，且为不可数名词。故填anxiety。",
+          "句意": "",
+          "reason": ""
         }
       ],
-      "numbered_total": 6
+      "numbered_total": 8
     },
     {
       "序": 21,
       "data_no": "U5",
       "unit_book": "选择性必修第一册　Unit 5",
       "chips": {
-        "year_range": "2024–2024",
-        "n_questions": 2,
+        "year_range": "2021–2024",
+        "n_questions": 3,
         "n_kaofa": 0,
         "n_phrase": 0
       },
       "h2": "Working the Land",
       "zh": "Working the Land",
       "stats": {
-        "卷数": 2,
+        "卷数": 3,
         "词数": 69,
         "短语数": 51,
         "句式题数": 0
       },
       "freq": [
+        {
+          "词头": "assumption",
+          "forms": [
+            {
+              "form": "assumptions",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
         {
           "词头": "generate",
           "forms": [

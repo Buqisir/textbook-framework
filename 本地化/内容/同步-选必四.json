@@ -7,15 +7,15 @@
       "data_no": "U1",
       "unit_book": "选择性必修第四册　Unit 1",
       "chips": {
-        "year_range": "2020–2026",
-        "n_questions": 7,
+        "year_range": "2018–2026",
+        "n_questions": 8,
         "n_kaofa": 3,
         "n_phrase": 0
       },
       "h2": "Science Fiction",
       "zh": "科幻小说",
       "stats": {
-        "卷数": 7,
+        "卷数": 8,
         "词数": 69,
         "短语数": 78,
         "句式题数": 0
@@ -24,6 +24,10 @@
         {
           "词头": "appointment",
           "forms": [
+            {
+              "form": "appoint",
+              "n": 1
+            },
             {
               "form": "appointed",
               "n": 1
@@ -37,7 +41,7 @@
             "词性转换",
             "动词形式"
           ],
-          "题数": 2
+          "题数": 3
         },
         {
           "词头": "calculate",
@@ -535,14 +539,14 @@
       "unit_book": "选择性必修第四册　Unit 4",
       "chips": {
         "year_range": "2018–2026",
-        "n_questions": 9,
+        "n_questions": 10,
         "n_kaofa": 1,
         "n_phrase": 1
       },
       "h2": "Sharing",
       "zh": "分享",
       "stats": {
-        "卷数": 9,
+        "卷数": 10,
         "词数": 64,
         "短语数": 68,
         "句式题数": 0
@@ -561,6 +565,10 @@
             },
             {
               "form": "had taken",
+              "n": 1
+            },
+            {
+              "form": "is taking",
               "n": 1
             },
             {
@@ -588,7 +596,7 @@
             "动词形式",
             "短语"
           ],
-          "题数": 8
+          "题数": 9
         },
         {
           "词头": "dust",
@@ -661,8 +669,22 @@
           "reason": ""
         },
         {
-          "id": "144-11",
+          "id": "029-11",
           "no": 4,
+          "标签": "2024 · 东莞第八高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
+          "题干HTML": "Would you please return to your seat？The plane <span class=\"blank\"></span> （take） off soon.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "is taking",
+          "解析": "请您回到您的座位上去好吗？飞机马上就要起飞了。\n\n根据句意以及表示将来的词\"soon\"可知，飞机即将起飞，应用现在进行时（be doing）时表示将来；由于主语The plane为单数，谓语应用单数is；再结合提示词take，该空应填is taking。\n\n故填：is taking。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "144-11",
+          "no": 5,
           "标签": "2022 · 翰林高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
@@ -676,7 +698,7 @@
         },
         {
           "id": "016-26",
-          "no": 5,
+          "no": 6,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "语法填空",
           "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
@@ -689,7 +711,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 5
+      "numbered_total": 6
     },
     {
       "序": 36,

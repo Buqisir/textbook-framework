@@ -484,6 +484,82 @@
       ],
       "families": [
         {
+          "词头": "preference",
+          "题数": 3,
+          "gloss": "冠词后用名词",
+          "chain": [
+            {
+              "词": "preference",
+              "词性": "n.",
+              "释义": "爱好；偏爱",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "prefer",
+              "词性": "vt.",
+              "释义": "更喜欢",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "018-21",
+              "no": 1,
+              "标签": "2021 · 东华高级中学 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "The girl has a ___ (prefer) for music and she wishes to be a singer.",
+              "题干HTML": "The girl has a <span class=\"blank\"></span> (prefer) for music and she wishes to be a singer.",
+              "cue": [],
+              "提示词": "prefer",
+              "答案": "preference",
+              "解析": "考查名词。句意：这个女孩喜欢音乐，她希望成为一名歌手。分析句子结构可知，设空处被不定冠词a限定，所以应用名词单数作宾语。故填preference。",
+              "句意": "",
+              "reason": "a 之后用名词单数",
+              "answer_show": null
+            }
+          ]
+        },
+        {
+          "词头": "distant",
+          "题数": 2,
+          "gloss": "修饰名词用形容词",
+          "chain": [
+            {
+              "词": "distant",
+              "词性": "adj.",
+              "释义": "遥远的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "distance",
+              "词性": "n.",
+              "释义": "距离",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "046-09",
+              "no": 2,
+              "标签": "2025 · 东莞市 · 高二上联考",
+              "题型": "语法填空",
+              "题干": "When approaching these areas, you should slow your pace and focus your vision on the most ___ (distance) ground.",
+              "题干HTML": "When approaching these areas, you should slow your pace and focus your vision on the most <span class=\"blank\"></span> (distance) ground.",
+              "cue": [],
+              "提示词": "distance",
+              "答案": "distant",
+              "解析": "考查形容词。句意：当接近这些区域时，你应该放慢脚步，把目光集中在最远处的地面上。空处修饰名词ground，提示词的形容词形式distant“远处的，遥远的”符合题意，和the most构成最高级。故填distant。",
+              "句意": "",
+              "reason": "修饰名词 ground，用形容词",
+              "answer_show": null
+            }
+          ]
+        },
+        {
           "词头": "persuade",
           "题数": 1,
           "gloss": "修饰名词用形容词",
@@ -513,7 +589,7 @@
           "atoms": [
             {
               "id": "057-16",
-              "no": 1,
+              "no": 3,
               "标签": "2023 · 东莞实验中学 · 高一下月考",
               "题型": "语法填空",
               "题干": "It was apparent that he was defeated by the opposing lawyer as a consequence of lacking enough ___ (persuade) evidence.",
@@ -558,7 +634,7 @@
           "atoms": [
             {
               "id": "069-06",
-              "no": 2,
+              "no": 4,
               "标签": "2025 · 东莞市 · 高二上月考",
               "题型": "语法填空",
               "题干": "The ___ (resist) of your body to germs or diseases is its power to remain unharmed or unaffected by them.",
@@ -576,8 +652,38 @@
       ],
       "spelling": [
         {
+          "id": "096-22",
+          "no": 5,
+          "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "单词拼写",
+          "题干": "A teacher should not show ___ （偏爱）for any of his pupils.",
+          "题干HTML": "A teacher should not show <span class=\"blank\"></span> （偏爱）for any of his pupils.",
+          "cue": [],
+          "提示词": null,
+          "答案": "preference",
+          "解析": "本题考查名词。解题要点：根据所给出的句子，结合汉语提示，可推出是“preference”，作show的宾语，构成搭配“show preference for”表示“对……的偏爱”，结合句意：老师不应该偏爱任何一个学生。故答案为preference。",
+          "句意": "",
+          "reason": "show 之后作宾语，用名词",
+          "answer_show": null
+        },
+        {
+          "id": "018-11",
+          "no": 6,
+          "标签": "2021 · 东华高级中学 · 高一上期末",
+          "题型": "单词拼写",
+          "题干": "Smile shortens the ___ (距离) between people and it is a good way to show your friendliness to others.",
+          "题干HTML": "Smile shortens the <span class=\"blank\"></span> (距离) between people and it is a good way to show your friendliness to others.",
+          "cue": [],
+          "提示词": null,
+          "答案": "distance",
+          "解析": "考查名词。句意：微笑缩短人与人之间的距离，这是一个很好的方式显示你对人友好。根据汉语提示以及空格前的定冠词the可知，此处填入名词distance做动词shortens的宾语。故填distance。",
+          "句意": "",
+          "reason": "the 之后作宾语，用名词",
+          "answer_show": null
+        },
+        {
           "id": "016-12",
-          "no": 3,
+          "no": 7,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "单词拼写",
           "题干": "It all happened in an ___ (瞬间).",
@@ -596,7 +702,7 @@
       "quiz": [
         {
           "id": "012-09",
-          "no": 4,
+          "no": 8,
           "标签": "2020 · 东华高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
@@ -610,7 +716,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 4
+      "numbered_total": 8
     },
     {
       "序": 19,
@@ -628,7 +734,7 @@
         "卷数": 15,
         "词数": 67,
         "短语数": 36,
-        "句式题数": 1
+        "句式题数": 3
       },
       "freq": [
         {
@@ -857,9 +963,105 @@
           ]
         }
       ],
-      "spelling": [],
-      "phrases": [],
+      "spelling": [
+        {
+          "id": "027-21",
+          "no": 4,
+          "标签": "2024 · 东莞市 · 高一上月考",
+          "题型": "单词拼写",
+          "题干": "It was a long journey and I was grateful for his ___ (陪伴).",
+          "题干HTML": "It was a long journey and I was grateful for his <span class=\"blank\"></span> (陪伴).",
+          "cue": [],
+          "提示词": null,
+          "答案": "company",
+          "解析": "考查名词。句意：这是一个漫长的旅程，我很感激他的陪伴。根据汉语提示“陪伴”可知应填名词company，作宾语，表抽象概念，不可数。故填company。",
+          "句意": "",
+          "reason": "his 之后作宾语，用名词",
+          "answer_show": null
+        }
+      ],
+      "phrases": [
+        {
+          "短语": "keep sb company",
+          "释义": "陪伴某人",
+          "词头": "accompany",
+          "gloss": "与 accompany 同义，用 keep<br>人称代词居中",
+          "atoms": [
+            {
+              "id": "067-18",
+              "no": 5,
+              "标签": "2025 · 东莞市 · 高一下期末",
+              "题型": "完成句子",
+              "题干": "My mother ___ (陪伴我) during my stay in the hospital last month.",
+              "题干HTML": "My mother <span class=\"blank\"></span> (陪伴我) during my stay in the hospital last month.",
+              "cue": [],
+              "提示词": null,
+              "答案": "kept ； me ； company",
+              "解析": "考查固定短语和时态。句意：上个月我住院期间，妈妈一直陪伴着我。表示“陪伴某人”用keep sb company，根据句中的时间状语last month可知，句子描述的是过去发生的动作，因此时态用一般过去时，谓语用过去式kept。表示“我”用me，作宾语。故填kept me company。",
+              "句意": "",
+              "reason": "过去时用 kept，人称代词居中",
+              "answer_show": null
+            },
+            {
+              "id": "153-20",
+              "no": 6,
+              "标签": "2025 · 虎门中学 · 高一下月考",
+              "题型": "完成句子",
+              "题干": "I wish my dog were here to ___ (陪伴).",
+              "题干HTML": "I wish my dog were here to <span class=\"blank\"></span> (陪伴).",
+              "cue": [],
+              "提示词": null,
+              "答案": "keep ； me ； company",
+              "解析": "考查动词短语。句意：我希望我的狗能在这里陪伴我。“陪伴某人”为“keep sb company”,to后接动词原形。“我”为“me”。故填keep me company。",
+              "句意": "",
+              "reason": "不定式后接动词原形 keep",
+              "answer_show": null
+            }
+          ]
+        }
+      ],
       "tricks": [
+        {
+          "句式": "动词改短语",
+          "gloss": "用 keep sb company 表陪伴",
+          "formula": "accompany / stay with sb → keep sb company",
+          "atoms": [
+            {
+              "id": "041-19",
+              "no": 7,
+              "标签": "2026 · 粤华学校 · 高一下月考",
+              "题型": "完成句子",
+              "题干": "Jan Tchamani found herself at home and only her computer accompanied her. → Jan Tchamani found herself at home and only her computer ___.",
+              "题干HTML": "Jan Tchamani found herself at home and only her computer accompanied her. → Jan Tchamani found herself at home and only her computer <span class=\"blank\"></span>.",
+              "cue": [
+                "同义转换"
+              ],
+              "提示词": null,
+              "答案": "kept ； her ； company",
+              "解析": "考查短语。句意：Jan Tchamani发现她自己在家，只有她的电脑陪伴着她。原句中的短语“陪伴某人”accompany sb.可以用短语“keep sb. company”替换，根据前文的found可知，此处应用一般过去时，故填kept her company。",
+              "句意": "",
+              "reason": "同义替换用 keep company",
+              "answer_show": null
+            },
+            {
+              "id": "137-20",
+              "no": 8,
+              "标签": "2025 · 东莞第八高级中学 · 高一下期中",
+              "题型": "完成句子",
+              "题干": "Grandma was happy when we decided to stay with her during the holiday. → Grandma was happy when we decided to ___ during the holiday.",
+              "题干HTML": "Grandma was happy when we decided to stay with her during the holiday. → Grandma was happy when we decided to <span class=\"blank\"></span> during the holiday.",
+              "cue": [
+                "同义转换"
+              ],
+              "提示词": null,
+              "答案": "keep her company",
+              "解析": "考查动词短语。通过两个句子对比可知，空处应填stay with her的同义表达，keep her company“陪伴她”，与stay with her意思相近，decide to do sth.“决定做某事”，动词不定式符号to后应用动词原形。故填keep her company。",
+              "句意": "",
+              "reason": "同义替换用 keep company",
+              "answer_show": null
+            }
+          ]
+        },
         {
           "句式": "从句改短语",
           "gloss": "让步从句改为介词短语",
@@ -867,7 +1069,7 @@
           "atoms": [
             {
               "id": "011-18",
-              "no": 4,
+              "no": 9,
               "标签": "2021 · 东莞市 · 高二下期末",
               "题型": "完成句子",
               "题干": "Although he had a busy schedule, he spared some time for exercise. → ___ a busy schedule, he ___ some time for exercise.",
@@ -888,7 +1090,7 @@
       "quiz": [
         {
           "id": "110-06",
-          "no": 5,
+          "no": 10,
           "标签": "2025 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "Since the new mayor came to power, the use of single-use plastic bags ___ (ban) in many cities to reduce environmental pollution.",
@@ -902,8 +1104,23 @@
           "answer_show": null
         },
         {
+          "id": "009-13",
+          "no": 11,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "She ___ (陪伴) her friend to the concert last night.",
+          "题干HTML": "She <span class=\"blank\"></span> (陪伴) her friend to the concert last night.",
+          "cue": [],
+          "提示词": null,
+          "答案": "accompanied",
+          "解析": "【考点】翻译填空\n考查谓语动词。根据所给的汉语提示“陪伴”和句子结构可知，此处是谓语动词，因时间状语last night是一般过去时的标志，所以动词应用过去式，“陪伴”的英语是accompany，故填accompanied。",
+          "句意": "她昨晚陪她的朋友去听音乐会了。",
+          "reason": "last night 提示一般过去时",
+          "answer_show": null
+        },
+        {
           "id": "047-07",
-          "no": 6,
+          "no": 12,
           "标签": "2022 · 东莞外国语学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "It is the second time that Prince Llywellyn ___ (swing) the sword at his dog.",
@@ -917,7 +1134,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 6
+      "numbered_total": 12
     },
     {
       "序": 20,
@@ -1267,6 +1484,66 @@
           ]
         },
         {
+          "词头": "vary",
+          "题数": 3,
+          "gloss": "a 之后用名词<br>修饰名词用形容词",
+          "chain": [
+            {
+              "词": "vary",
+              "词性": "vi.",
+              "释义": "变化；不同",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "variety",
+              "词性": "n.",
+              "释义": "多样；种类",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "various",
+              "词性": "adj.",
+              "释义": "各种不同的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "149-09",
+              "no": 5,
+              "标签": "2025 · 翰林高级中学 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "As an English lover, he has taken part in a ___ (various) of activities, including listening, speaking, reading and writing.",
+              "题干HTML": "As an English lover, he has taken part in a <span class=\"blank\"></span> (various) of activities, including listening, speaking, reading and writing.",
+              "cue": [],
+              "提示词": "various",
+              "答案": "variety",
+              "解析": "考查名词。句意：作为一名英语爱好者，他参加了各种各样的活动，包括听、说、读、写。“a variety of”是固定短语，意为“各种各样的”。故填variety。",
+              "句意": "",
+              "reason": "a variety of 中用名词",
+              "answer_show": null
+            },
+            {
+              "id": "086-08",
+              "no": 6,
+              "标签": "2023 · 东华高级中学 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "From this point forward, many developers helped to make ___ (vary) types of computer.",
+              "题干HTML": "From this point forward, many developers helped to make <span class=\"blank\"></span> (vary) types of computer.",
+              "cue": [],
+              "提示词": "vary",
+              "答案": "various",
+              "解析": "考查形容词。句意：从那时起，许多开发人员帮助制造了各种类型的计算机。分析句子结构可知，此处应为形容词作定语，vary的形容词为various意为“各种各样的”。故填various。",
+              "句意": "",
+              "reason": "修饰复数名词用形容词",
+              "answer_show": null
+            }
+          ]
+        },
+        {
           "词头": "ashamed",
           "题数": 1,
           "gloss": "am 后用形容词",
@@ -1296,7 +1573,7 @@
           "atoms": [
             {
               "id": "002-28",
-              "no": 5,
+              "no": 7,
               "标签": "2018 · 东华高级中学 · 高二上期末",
               "题型": "语法填空",
               "题干": "I am ___ (shame) of his rude behavior at the dinner party.",
@@ -1341,7 +1618,7 @@
           "atoms": [
             {
               "id": "077-13",
-              "no": 6,
+              "no": 8,
               "标签": "2024 · 万江中学 · 高二上期中",
               "题型": "语法填空",
               "题干": "People in this company are looking for someone who is ___ (rely) and hard-working.",
@@ -1379,7 +1656,7 @@
           "atoms": [
             {
               "id": "077-11",
-              "no": 7,
+              "no": 9,
               "标签": "2024 · 万江中学 · 高二上期中",
               "题型": "语法填空",
               "题干": "___ (ultimate), people will suffer because the health care they need does not reach them.",
@@ -1398,7 +1675,7 @@
       "spelling": [
         {
           "id": "002-17",
-          "no": 8,
+          "no": 10,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "I felt quite ___ (尴尬的) to find my wallet missing when it was my turn to pay the bill.",
@@ -1413,7 +1690,7 @@
         },
         {
           "id": "009-15",
-          "no": 9,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "Liz ___ (调整) her mirror and then edged the car out of its parking space.",
@@ -1427,8 +1704,23 @@
           "answer_show": null
         },
         {
+          "id": "018-08",
+          "no": 12,
+          "标签": "2021 · 东华高级中学 · 高一上期末",
+          "题型": "单词拼写",
+          "题干": "This produced a chain ___ (反应), which made it possible for life to develop.",
+          "题干HTML": "This produced a chain <span class=\"blank\"></span> (反应), which made it possible for life to develop.",
+          "cue": [],
+          "提示词": null,
+          "答案": "reaction",
+          "解析": "考查名词。句意：这就产生了连锁反应，使生命得以延续。分析句子结构可知，短语a chain ______作动词produced的宾语，故设空处应填名词，构成名词短语；被不定冠词a限定，用名词单数。故填reaction。",
+          "句意": "",
+          "reason": "chain 后用名词 reaction",
+          "answer_show": null
+        },
+        {
           "id": "002-21",
-          "no": 10,
+          "no": 13,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "The doctor said that Tom had been ___ (轻微地) injured and that he would recover soon.",
@@ -1444,6 +1736,44 @@
       ],
       "phrases": [
         {
+          "短语": "make a difference to sb/sth",
+          "释义": "对某人/某事有影响",
+          "词头": "differ",
+          "gloss": "difference 前用不定冠词 a",
+          "atoms": [
+            {
+              "id": "031-17",
+              "no": 14,
+              "标签": "2025 · 东莞市 · 高一上期末",
+              "题型": "完成句子",
+              "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
+              "题干HTML": "Your small acts of kindness can <span class=\"blank\"></span> (有影响) to someone’s life.",
+              "cue": [],
+              "提示词": null,
+              "答案": "make ； a ； difference",
+              "解析": "考查动词短语。句意：你小小的善举能对某人的生活产生影响。can是情态动词，后接动词原形，make a difference是固定短语，意为“有影响，起作用”。故填make a difference。",
+              "句意": "",
+              "reason": "固定搭配，需加不定冠词 a",
+              "answer_show": null
+            },
+            {
+              "id": "099-38",
+              "no": 15,
+              "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+              "题型": "完成句子",
+              "题干": "I’ve learned that you are never too small to ___ (有影响).",
+              "题干HTML": "I’ve learned that you are never too small to <span class=\"blank\"></span> (有影响).",
+              "cue": [],
+              "提示词": null,
+              "答案": "make a difference",
+              "解析": "考查固定短语。句意：我了解到，你永远不会太渺小而无法产生影响。根据汉语提示可知，表示“有影响”应使用固定短语make a difference，空前为不定式符号to，所以此处使用动词原形。故填make a difference。",
+              "句意": "",
+              "reason": "不定式后接动词原形 make",
+              "answer_show": null
+            }
+          ]
+        },
+        {
           "短语": "keep one's promise / word",
           "释义": "遵守诺言",
           "词头": "word",
@@ -1451,7 +1781,7 @@
           "atoms": [
             {
               "id": "013-28",
-              "no": 11,
+              "no": 16,
               "标签": "2020 · 光明中学 · 高二上月考",
               "题型": "完成句子",
               "题干": "I once had the unpleasant experience of someone not ___ (遵守承诺) to me.",
@@ -1474,7 +1804,7 @@
           "atoms": [
             {
               "id": "052-19",
-              "no": 12,
+              "no": 17,
               "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
               "题型": "完成句子",
               "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
@@ -1493,8 +1823,23 @@
       "tricks": [],
       "quiz": [
         {
+          "id": "099-27",
+          "no": 18,
+          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "They have been eating ___ (variety) of the stuff for centuries.",
+          "题干HTML": "They have been eating <span class=\"blank\"></span> (variety) of the stuff for centuries.",
+          "cue": [],
+          "提示词": "variety",
+          "答案": "varieties",
+          "解析": "考查固定短语。句意：几个世纪以来，他们一直在吃各种各样的东西。分析句子可知，此处为固定短语varieties of“各种各样的”，满足句意要求。故填varieties。",
+          "句意": "",
+          "reason": "varieties of 指多种，用复数",
+          "answer_show": null
+        },
+        {
           "id": "160-26",
-          "no": 13,
+          "no": 19,
           "标签": "2024 · 弘林高级中学 · 高二下月考",
           "题型": "完成句子",
           "题干": "As teachers, you must believe that you can ___ (对产生很大影响) your students.",
@@ -1509,7 +1854,7 @@
         },
         {
           "id": "109-10",
-          "no": 14,
+          "no": 20,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "At this warm greeting, the poor man, who was not used to such kindness, ___ (weep) like a child.",
@@ -1521,9 +1866,24 @@
           "句意": "",
           "reason": "一般过去时作谓语",
           "answer_show": null
+        },
+        {
+          "id": "108-14",
+          "no": 21,
+          "标签": "2023 · 东莞高级中学 · 高一上月考",
+          "题型": "语法填空",
+          "题干": "Yet the pace of a child’s progress can also be a source of ___ (anxious) for mothers and fathers.",
+          "题干HTML": "Yet the pace of a child’s progress can also be a source of <span class=\"blank\"></span> (anxious) for mothers and fathers.",
+          "cue": [],
+          "提示词": "anxious",
+          "答案": "anxiety",
+          "解析": "考查名词。句意：然而，孩子的进步速度也可能成为父母焦虑的根源。分析句子结构可知，此处为名词作宾语，anxious的名词为anxiety意为“焦虑”，且为不可数名词。故填anxiety。",
+          "句意": "",
+          "reason": "source of 后接名词",
+          "answer_show": null
         }
       ],
-      "numbered_total": 14
+      "numbered_total": 21
     },
     {
       "序": 21,
@@ -1585,13 +1945,29 @@
         }
       ],
       "families": [],
-      "spelling": [],
+      "spelling": [
+        {
+          "id": "009-16",
+          "no": 1,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "His conclusion was based on a series of wrong ___ (猜想).",
+          "题干HTML": "His conclusion was based on a series of wrong <span class=\"blank\"></span> (猜想).",
+          "cue": [],
+          "提示词": null,
+          "答案": "assumptions",
+          "解析": "考查名词。句意：他的结论是以一系列错误的假设为基础的。分析句子，设空处使用名词作宾语，表示“猜想”用assumption，此处应用复数。故填assumptions。",
+          "句意": "",
+          "reason": "wrong 之后用复数名词",
+          "answer_show": null
+        }
+      ],
       "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "070-11",
-          "no": 1,
+          "no": 2,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "The stories and traditions of our ancestors have been passed down through ___ (generation).",
@@ -1606,7 +1982,7 @@
         },
         {
           "id": "109-12",
-          "no": 2,
+          "no": 3,
           "标签": "2024 · 东莞市 · 高二上期中",
           "题型": "语法填空",
           "题干": "I have managed to convince myself ___ (overcome) my fear of failure and try my best.",
@@ -1620,7 +1996,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 2
+      "numbered_total": 3
     }
   ]
 }

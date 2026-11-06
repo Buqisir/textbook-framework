@@ -263,12 +263,51 @@
     }
    ],
    "spelling": [],
-   "phrases": [],
+   "phrases": [
+    {
+     "短语": "fall apart",
+     "释义": "破裂；破碎；崩溃",
+     "词头": "fall apart",
+     "gloss": "不及物，后不接宾语<br>过去式用 fell apart",
+     "atoms": [
+      {
+       "id": "138-19",
+       "no": 4,
+       "标签": "2023 · 东莞第十中学 · 高一上期中",
+       "题型": "完成句子",
+       "题干": "It’s a pity that their friendship ___ (破裂) and they turned against each other.",
+       "题干HTML": "It’s a pity that their friendship <span class=\"blank\"></span> (破裂) and they turned against each other.",
+       "cue": [],
+       "提示词": null,
+       "答案": "fell ； apart",
+       "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊破裂了，他们反目成仇。设空处在that引导的从句中作谓语，根据汉语提示可知，动词短语fall apart“破裂”符合句意，结合句中的“turned”可知，此处用一般过去时，故填①fell；②apart。",
+       "句意": "",
+       "reason": "不及物短语，过去式 fell apart",
+       "answer_show": null
+      },
+      {
+       "id": "047-18",
+       "no": 5,
+       "标签": "2022 · 东莞外国语学校 · 高一上期中",
+       "题型": "完成句子",
+       "题干": "It’s a shame that their friendship finally ___ (破裂) and they became enemies.",
+       "题干HTML": "It’s a shame that their friendship finally <span class=\"blank\"></span> (破裂) and they became enemies.",
+       "cue": [],
+       "提示词": null,
+       "答案": "fell apart",
+       "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
+       "句意": "",
+       "reason": "不及物短语，过去式用 fell apart",
+       "answer_show": null
+      }
+     ]
+    }
+   ],
    "tricks": [],
    "quiz": [
     {
      "id": "126-10",
-     "no": 4,
+     "no": 6,
      "标签": "2023 · 东莞市 · 高二上联考",
      "题型": "语法填空",
      "题干": "His aim was ___ (convey) his feelings and thoughts in his works of art.",
@@ -283,7 +322,7 @@
     },
     {
      "id": "126-09",
-     "no": 5,
+     "no": 7,
      "标签": "2023 · 东莞市 · 高二上联考",
      "题型": "语法填空",
      "题干": "Tony ___ (purchase) a plane ticket for me in advance online before I set off for the airport.",
@@ -298,7 +337,7 @@
     },
     {
      "id": "030-07",
-     "no": 6,
+     "no": 8,
      "标签": "2026 · 万江中学 · 高二下期中",
      "题型": "语法填空",
      "题干": "Julia got a good mark in the test, ___ (rank) first in her class.",
@@ -312,7 +351,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 6
+   "numbered_total": 8
   },
   {
    "序": 28,
@@ -1136,6 +1175,73 @@
    ],
    "families": [
     {
+     "词头": "originate",
+     "题数": 6,
+     "gloss": "修饰名词用形容词<br>句首修饰全句用副词",
+     "chain": [
+      {
+       "词": "originate",
+       "词性": "vi.",
+       "释义": "起源",
+       "hit": false,
+       "来源": "词头"
+      },
+      {
+       "词": "original",
+       "词性": "adj.",
+       "释义": "原先的",
+       "hit": true,
+       "来源": "派生"
+      },
+      {
+       "词": "originally",
+       "词性": "adv.",
+       "释义": "最初",
+       "hit": true,
+       "来源": "派生"
+      },
+      {
+       "词": "origin",
+       "词性": "n.",
+       "释义": "起源",
+       "hit": false,
+       "来源": "派生"
+      }
+     ],
+     "atoms": [
+      {
+       "id": "040-09",
+       "no": 1,
+       "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
+       "题型": "语法填空",
+       "题干": "These traditional handicrafts still keep their ___ (origin) styles from ancient times.",
+       "题干HTML": "These traditional handicrafts still keep their <span class=\"blank\"></span> (origin) styles from ancient times.",
+       "cue": [],
+       "提示词": "origin",
+       "答案": "original",
+       "解析": "句意：这些传统手工艺品依然保留着源自古代的原始风格。修饰名词styles，需用形容词original，作定语。",
+       "句意": "",
+       "reason": "修饰 styles，形容词作定语",
+       "answer_show": null
+      },
+      {
+       "id": "103-20",
+       "no": 2,
+       "标签": "2025 · 东莞实验中学 · 高一下月考",
+       "题型": "语法填空",
+       "题干": "___ (original), the Southern part of Ireland was a part of Britain but things changed in the 20th century.",
+       "题干HTML": "<span class=\"blank\"></span> (original), the Southern part of Ireland was a part of Britain but things changed in the 20th century.",
+       "cue": [],
+       "提示词": "original",
+       "答案": "Originally",
+       "解析": "考查副词。句意：最初，爱尔兰南部曾是英国的一部分，但情况在20世纪发生了改变。此处需将形容词original转换为副词形式originally，修饰整个句子，作时间状语。故填originally。",
+       "句意": "",
+       "reason": "句首修饰全句，副词",
+       "answer_show": null
+      }
+     ]
+    },
+    {
      "词头": "frequently",
      "题数": 2,
      "gloss": "修饰动词用副词<br>frequent 的副词形式",
@@ -1165,7 +1271,7 @@
      "atoms": [
       {
        "id": "082-12",
-       "no": 1,
+       "no": 3,
        "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
        "题型": "语法填空",
        "题干": "She ___ (frequent) visits the local library to stay updated with the latest books and research materials.",
@@ -1176,6 +1282,44 @@
        "解析": "考查副词。句意：她经常去当地的图书馆了解最新的书籍和研究资料。修饰动词visits，用副词形式。frequent的副词形式为frequently，表示“经常”之意。故填frequently。",
        "句意": "",
        "reason": "修饰动词 visits，副词作状语",
+       "answer_show": null
+      }
+     ]
+    },
+    {
+     "词头": "harmonious",
+     "题数": 2,
+     "gloss": "修饰名词用形容词<br>harmony 的形容词形式",
+     "chain": [
+      {
+       "词": "harmonious",
+       "词性": "adj.",
+       "释义": "和谐的",
+       "hit": true,
+       "来源": "词头"
+      },
+      {
+       "词": "harmony",
+       "词性": "n.",
+       "释义": "和睦",
+       "hit": false,
+       "来源": "派生"
+      }
+     ],
+     "atoms": [
+      {
+       "id": "082-17",
+       "no": 4,
+       "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+       "题型": "语法填空",
+       "题干": "They live in a ___ (harmony) neighborhood where everyone helps each other.",
+       "题干HTML": "They live in a <span class=\"blank\"></span> (harmony) neighborhood where everyone helps each other.",
+       "cue": [],
+       "提示词": "harmony",
+       "答案": "harmonious",
+       "解析": "考查形容词。句意：他们生活在一个和谐的社区，每个人都互相帮助。形容词harmonious作定语修饰名词。故填harmonious。",
+       "句意": "",
+       "reason": "修饰 neighborhood，形容词作定语",
        "answer_show": null
       }
      ]
@@ -1203,7 +1347,7 @@
      "atoms": [
       {
        "id": "033-07",
-       "no": 2,
+       "no": 5,
        "标签": "2026 · 东莞市 · 高二下月考",
        "题型": "语法填空",
        "题干": "What shocks us is that many seals have died of ___ (starve) because of global warming.",
@@ -1221,8 +1365,38 @@
    ],
    "spelling": [
     {
+     "id": "098-27",
+     "no": 6,
+     "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
+     "题型": "单词拼写",
+     "题干": "Her unhappy childhood was the ___ (起源) of her problems later in life.",
+     "题干HTML": "Her unhappy childhood was the <span class=\"blank\"></span> (起源) of her problems later in life.",
+     "cue": [],
+     "提示词": null,
+     "答案": "origin",
+     "解析": "考查名词。句意：她不幸的童年是她以后生活中问题的起源。根据句意及汉语提示可知，此处应用名词origin，为可数名词，句中特指“不幸的童年”这一起源，应用其单数形式，在句中作表语。故填origin。",
+     "句意": "",
+     "reason": "the 之后用名词，表示起源",
+     "answer_show": null
+    },
+    {
+     "id": "084-17",
+     "no": 7,
+     "标签": "2021 · 东华高级中学 · 高一上期中",
+     "题型": "单词拼写",
+     "题干": "Thus, the direction of the meeting is a mutual attempt to reduce conflict and achieve ___ (和谐).",
+     "题干HTML": "Thus, the direction of the meeting is a mutual attempt to reduce conflict and achieve <span class=\"blank\"></span> (和谐).",
+     "cue": [],
+     "提示词": null,
+     "答案": "harmony",
+     "解析": "考查名词。句意：因此，会议的方向是双方共同努力减少冲突，实现和谐。根据汉语提示“和谐”，可知应填名词harmony，作宾语，不可数。故填harmony。",
+     "句意": "",
+     "reason": "achieve 的宾语，用名词",
+     "answer_show": null
+    },
+    {
      "id": "009-14",
-     "no": 3,
+     "no": 8,
      "标签": "2021 · 东华高级中学 · 高二下期末",
      "题型": "单词拼写",
      "题干": "The Oscar is awarded ___ (每年) by the academy of Motion Picture Arts and Sciences for the achievement in movies.",
@@ -1233,6 +1407,21 @@
      "解析": "考查副词。句意：奥斯卡奖由美国电影艺术与科学学院每年颁发一次，以表彰在电影领域取得的成就。根据汉语意思提示可知，此处为副词annually“每年”作状语，满足句意要求。故填annually。",
      "句意": "",
      "reason": "修饰 awarded，副词作状语",
+     "answer_show": null
+    },
+    {
+     "id": "084-15",
+     "no": 9,
+     "标签": "2021 · 东华高级中学 · 高一上期中",
+     "题型": "单词拼写",
+     "题干": "Though unattractive, it was nevertheless important as an attempt to grow plants in a way which reproduced their natural ___ (栖息地).",
+     "题干HTML": "Though unattractive, it was nevertheless important as an attempt to grow plants in a way which reproduced their natural <span class=\"blank\"></span> (栖息地).",
+     "cue": [],
+     "提示词": null,
+     "答案": "habitat",
+     "解析": "考查名词。句意：虽然不具吸引力，不过，重要的是企图在植物生长的方式进行复制它们的自然栖息地。根据汉语提示“栖息地”，以及空格前的作定语的形容词可知，该处应填写名词。根据句意可推断得知，此处指代植物共同生长的一片栖息地，应填写名词单数。故填habitat。",
+     "句意": "",
+     "reason": "natural 之后作中心词，用名词",
      "answer_show": null
     }
    ],
@@ -1245,7 +1434,7 @@
      "atoms": [
       {
        "id": "035-25",
-       "no": 4,
+       "no": 10,
        "标签": "2026 · 大岭山中学 · 高二下期中",
        "题型": "翻译",
        "题干": "抓住每个机会去教育大家关于全球变暖的知识是我们的责任。 → ___",
@@ -1266,7 +1455,7 @@
    "quiz": [
     {
      "id": "135-12",
-     "no": 5,
+     "no": 11,
      "标签": "2026 · 东莞第一中学 · 高二下期中",
      "题型": "语法填空",
      "题干": "Thursday’s meeting lasted more than six hours and ___ (broadcast) live on television and the Internet.",
@@ -1281,7 +1470,7 @@
     },
     {
      "id": "035-15",
-     "no": 6,
+     "no": 12,
      "标签": "2026 · 大岭山中学 · 高二下期中",
      "题型": "语法填空",
      "题干": "Robert is disabled, but he has helped ___ (dozen) of the disabled take their health back into their own hands.",
@@ -1296,7 +1485,7 @@
     },
     {
      "id": "045-13",
-     "no": 7,
+     "no": 13,
      "标签": "2026 · 东莞市 · 高二下期中",
      "题型": "语法填空",
      "题干": "___ (release) into the water, the harmful chemical quickly poisoned the fish downstream.",
@@ -1311,7 +1500,7 @@
     },
     {
      "id": "076-14",
-     "no": 8,
+     "no": 14,
      "标签": "2023 · 万江中学 · 高二上月考",
      "题型": "语法填空",
      "题干": "In the last several years, public transportation in America ___ (undergo) a renaissance.",
@@ -1325,7 +1514,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 8
+   "numbered_total": 14
   },
   {
    "序": 30,
@@ -1532,16 +1721,16 @@
      ],
      "atoms": [
       {
-       "id": "033-12",
+       "id": "112-11",
        "no": 1,
-       "标签": "2026 · 东莞市 · 高二下月考",
+       "标签": "2026 · 众美中学 · 高二下月考",
        "题型": "语法填空",
-       "题干": "___ (fortunate), schools are attaching great importance to labor education these days.",
-       "题干HTML": "<span class=\"blank\"></span> (fortunate), schools are attaching great importance to labor education these days.",
+       "题干": "___ (fortune), the interviewer spoke highly of him during the interview,so he was accepted.",
+       "题干HTML": "<span class=\"blank\"></span> (fortune), the interviewer spoke highly of him during the interview,so he was accepted.",
        "cue": [],
-       "提示词": "fortunate",
+       "提示词": "fortune",
        "答案": "Fortunately",
-       "解析": "句意：幸运的是，如今学校非常重视劳动教育。此处需要副词修饰整个句子，副词fortunately“幸运地”符合题意，作状语，且句首单词的首字母需大写。",
+       "解析": "考查副词。句意：幸运的是，在面试过程中，面试官对他评价很高，所以他最终被录取了。修饰后文句子，用副词fortunately，首字母大写。故填Fortunately。",
        "句意": "",
        "reason": "句首修饰全句，副词",
        "answer_show": null
@@ -1961,6 +2150,44 @@
    ],
    "families": [
     {
+     "词头": "respectively",
+     "题数": 2,
+     "gloss": "句末表示分别，用副词<br>respective 的副词形式",
+     "chain": [
+      {
+       "词": "respectively",
+       "词性": "adv.",
+       "释义": "分别",
+       "hit": true,
+       "来源": "词头"
+      },
+      {
+       "词": "respective",
+       "词性": "adj.",
+       "释义": "分别的",
+       "hit": false,
+       "来源": "派生"
+      }
+     ],
+     "atoms": [
+      {
+       "id": "030-13",
+       "no": 1,
+       "标签": "2026 · 万江中学 · 高二下期中",
+       "题型": "语法填空",
+       "题干": "Located in the east and west of the city, the two campuses cover 200 and 350 square kilometers ___ (respective).",
+       "题干HTML": "Located in the east and west of the city, the two campuses cover 200 and 350 square kilometers <span class=\"blank\"></span> (respective).",
+       "cue": [],
+       "提示词": "respective",
+       "答案": "respectively",
+       "解析": "句意：两个校区分别坐落于城市东部和西部，占地200和350平方公里。此处修饰动词作状语，需用副词，respective对应的副词形式为respectively，意为“分别地”。",
+       "句意": "",
+       "reason": "句末表示分别对应，用副词",
+       "answer_show": null
+      }
+     ]
+    },
+    {
      "词头": "sympathetic",
      "题数": 1,
      "gloss": "系动词后用形容词<br>sympathy 的形容词形式",
@@ -1990,7 +2217,7 @@
      "atoms": [
       {
        "id": "135-08",
-       "no": 1,
+       "no": 2,
        "标签": "2026 · 东莞第一中学 · 高二下期中",
        "题型": "语法填空",
        "题干": "I didn’t feel at all ___ (sympathy) towards Kate.",
@@ -2007,12 +2234,78 @@
     }
    ],
    "spelling": [],
-   "phrases": [],
+   "phrases": [
+    {
+     "短语": "make sense",
+     "释义": "有意义；讲得通",
+     "词头": "make sense",
+     "gloss": "表示讲得通、合乎情理<br>否定用 make any sense",
+     "atoms": [
+      {
+       "id": "086-25",
+       "no": 3,
+       "标签": "2023 · 东华高级中学 · 高一下月考",
+       "题型": "完成句子",
+       "题干": "His strange habit ___ (合乎情理) when you consider that he’s an environmental scientist.",
+       "题干HTML": "His strange habit <span class=\"blank\"></span> (合乎情理) when you consider that he’s an environmental scientist.",
+       "cue": [],
+       "提示词": null,
+       "答案": "makes ； sense",
+       "解析": "考查动词短语。句意：考虑到他是一名环境科学家，他的奇怪习惯就说得通了。根据汉语提示可知短语为make sense，结合后文consider可知为一般现在时，主语为habit，谓语用单数。故填makes；sense。",
+       "句意": "",
+       "reason": "主语为第三人称单数，用 makes",
+       "answer_show": null
+      },
+      {
+       "id": "125-21",
+       "no": 4,
+       "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
+       "题型": "完成句子",
+       "题干": "What he said yesterday ___.(讲得通，有道理)",
+       "题干HTML": "What he said yesterday <span class=\"blank\"></span>.(讲得通，有道理)",
+       "cue": [],
+       "提示词": null,
+       "答案": "made ； sense",
+       "解析": "考查动词短语。句意：他昨天说的话很有道理。分析句子结构和意思可知，这里考查“讲得通，有道理”对应的动词短语make sense，在句子中作谓语，这句话描述的是过去的事情，谓语用一般过去时。故填made sense。",
+       "句意": "",
+       "reason": "yesterday 表过去，用 made",
+       "answer_show": null
+      }
+     ]
+    },
+    {
+     "短语": "make full use of",
+     "释义": "充分利用",
+     "词头": "make full use of",
+     "gloss": "后接 sth 作宾语",
+     "atoms": [
+      {
+       "id": "039-18",
+       "no": 5,
+       "标签": "2026 · 东莞第六高级中学 · 高一下期末",
+       "题型": "完成句子",
+       "题干": "Smart students tend to ___ (利用) the library’s resources.",
+       "题干HTML": "Smart students tend to <span class=\"blank\"></span> → the library’s resources.",
+       "cue": [],
+       "提示词": null,
+       "答案": "make the most of/make full use of",
+       "解析": "句意：聪明的学生倾向于利用图书馆的资源。根据汉语提示“利用”可知，空处可用固定短语make the most of/make full use of；空格前有不定式符号to，后接动词原形。",
+       "句意": "",
+       "reason": "make full use of 表示充分利用",
+       "answer_show": "make full use of（亦可 make the most of）"
+      }
+     ],
+     "对照": {
+      "短语": "make the most of sth",
+      "释义": "充分利用"
+     }
+    }
+   ],
    "tricks": [],
    "quiz": [
     {
      "id": "082-14",
-     "no": 2,
+     "no": 6,
      "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
      "题型": "语法填空",
      "题干": "The old furniture ___ (polish) regularly to prevent it from looking worn out.",
@@ -2027,7 +2320,7 @@
     },
     {
      "id": "120-14",
-     "no": 3,
+     "no": 7,
      "标签": "2025 · 厚街中学 · 高二下月考",
      "题型": "语法填空",
      "题干": "I had ___ (butterfly) in my stomach, since it would soon be my turn to make a speech before so many people.",
@@ -2041,7 +2334,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 3
+   "numbered_total": 7
   }
  ]
 }
