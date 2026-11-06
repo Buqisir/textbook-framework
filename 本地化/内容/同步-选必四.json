@@ -1,0 +1,1610 @@
+{
+  "生成": "本地化/脚本/同步选题.py",
+  "书": "选择性必修第四册",
+  "单元": [
+    {
+      "序": 32,
+      "data_no": "U1",
+      "unit_book": "选择性必修第四册　Unit 1",
+      "chips": {
+        "year_range": "2018–2026",
+        "n_questions": 9,
+        "n_kaofa": 3,
+        "n_phrase": 1
+      },
+      "h2": "Science Fiction",
+      "zh": "科幻小说",
+      "stats": {
+        "卷数": 9,
+        "词数": 69,
+        "短语数": 78,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "appointment",
+          "forms": [
+            {
+              "form": "appoint",
+              "n": 1
+            },
+            {
+              "form": "appointed",
+              "n": 1
+            },
+            {
+              "form": "appointment",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "calculate",
+          "forms": [
+            {
+              "form": "to calculate",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "declare",
+          "forms": [
+            {
+              "form": "will be declared",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "division",
+          "forms": [
+            {
+              "form": "divided",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "mud",
+          "forms": [
+            {
+              "form": "muddy",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "test out",
+          "forms": [
+            {
+              "form": "trial and error",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "urge",
+          "forms": [
+            {
+              "form": "urgent",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "appointment",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "appointment",
+              "词性": "n.",
+              "释义": "预约",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "appoint",
+              "词性": "vt.",
+              "释义": "委派",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "appointed",
+              "词性": "adj.",
+              "释义": "约定的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "025-08",
+              "no": 1,
+              "标签": "2024 · 东莞市 · 高二下期末",
+              "题型": "语法填空",
+              "题干": "The student scheduled an ___ (appoint) with the professor to discuss her research paper.",
+              "题干HTML": "The student scheduled an <span class=\"blank\"></span> (appoint) with the professor to discuss her research paper.",
+              "cue": [],
+              "提示词": "appoint",
+              "答案": "appointment",
+              "解析": "考查名词。句意：这个学生约了教授讨论她的研究论文。此处使用名词作宾语，需要的词义为“预约”，即appointment，它前面有an修饰，故填appointment。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "mud",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "mud",
+              "词性": "n.",
+              "释义": "泥",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "muddy",
+              "词性": "adj.",
+              "释义": "多泥的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "124-23",
+              "no": 2,
+              "标签": "2023 · 弘林高级中学 · 高二月考",
+              "题型": "语法填空",
+              "题干": "The path becomes very ___ (mud) on rainy days and makes it difficult for people to go in or go out.",
+              "题干HTML": "The path becomes very <span class=\"blank\"></span> (mud) on rainy days and makes it difficult for people to go in or go out.",
+              "cue": [],
+              "提示词": "mud",
+              "答案": "muddy",
+              "解析": "考查形容词。句意：这条路在雨天变得很泥泞，使人们很难进出。根据上文The path becomes 可知应填形容词muddy，作表语。故填muddy。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "urge",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "urge",
+              "词性": "n.",
+              "释义": "强烈的欲望",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "urgent",
+              "词性": "adj.",
+              "释义": "紧急的",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "urgency",
+              "词性": "n.",
+              "释义": "紧急",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "162-14",
+              "no": 3,
+              "标签": "2023 · 东莞外国语学校 · 高二上期中",
+              "题型": "语法填空",
+              "题干": "The law is in ___ (urge) need of reform.",
+              "题干HTML": "The law is in <span class=\"blank\"></span> (urge) need of reform.",
+              "cue": [],
+              "提示词": "urge",
+              "答案": "urgent",
+              "解析": "考查形容词。句意：法律急需改革。分析句子可知，此空应填形容词作定语，修饰后面名词，urgent表“紧急的”，为形容词，符合句意。故填urgent。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
+        {
+          "id": "002-15",
+          "no": 4,
+          "标签": "2018 · 东华高级中学 · 高二上期末",
+          "题型": "单词拼写",
+          "题干": "We must ___ (任命；委派) a new teacher at once to the mountain school.",
+          "题干HTML": "We must <span class=\"blank\"></span> (任命；委派) a new teacher at once to the mountain school.",
+          "cue": [],
+          "提示词": null,
+          "答案": "appoint",
+          "解析": "考查翻译填空，要翻译的部分为“委派”，作谓语，所以用动词，前面有情态动词，所以用动词原形，故填appoint。",
+          "句意": "我们必须立刻给山区学校委派一名新教师。",
+          "reason": ""
+        },
+        {
+          "id": "016-13",
+          "no": 5,
+          "标签": "2020 · 东莞中学 · 高二上月考",
+          "题型": "单词拼写",
+          "题干": "Events in the field can be ___ (分成) into two sections jumping and throwing.",
+          "题干HTML": "Events in the field can be <span class=\"blank\"></span> (分成) into two sections jumping and throwing.",
+          "cue": [],
+          "提示词": null,
+          "答案": "divided",
+          "解析": "Events与divide之间是动宾关系，要用情态动词的被动语态。故填divided。",
+          "句意": "田赛项目可分为两类：跳跃和投掷。",
+          "reason": ""
+        }
+      ],
+      "phrases": [
+        {
+          "短语": "trial and error",
+          "释义": "反复试验；不断摸索",
+          "词头": "test out",
+          "atoms": [
+            {
+              "id": "052-19",
+              "no": 6,
+              "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
+              "题型": "完成句子",
+              "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
+              "题干HTML": "The scientist conducted numerous experiments through <span class=\"blank\"></span> (反复试验) to develop the new medication...",
+              "cue": [],
+              "提示词": null,
+              "答案": "trial ； and ； error",
+              "解析": "考查名词短语。句意：这位科学家通过反复试验进行了多次实验，以研制出这种新药……根据汉语提示可知，此处使用名词短语trial and error，作介词宾语。故填trial and error。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "033-13",
+          "no": 7,
+          "标签": "2026 · 东莞市 · 高二下月考",
+          "题型": "语法填空",
+          "题干": "The local government urged all factories ___ (calculate) their monthly carbon emissions correctly.",
+          "题干HTML": "The local government urged all factories <span class=\"blank\"></span> (calculate) their monthly carbon emissions correctly.",
+          "cue": [],
+          "提示词": "calculate",
+          "答案": "to calculate",
+          "解析": "句意：当地政府敦促所有工厂正确计算每月的碳排放量。urge sb to do sth是固定搭配，意为“敦促某人做某事”，因此用动词不定式to calculate，作宾语补足语。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "082-18",
+          "no": 8,
+          "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+          "题型": "语法填空",
+          "题干": "___ (appoint) as the new manager, he immediately began to reorganize the team.",
+          "题干HTML": "<span class=\"blank\"></span> (appoint) as the new manager, he immediately began to reorganize the team.",
+          "cue": [],
+          "提示词": "appoint",
+          "答案": "Appointed",
+          "解析": "考查非谓语动词。句意：被任命为新经理后，他立即开始重组团队。分析句子结构，本句谓语为began，句中没有连词，因此此处为非谓语动词，且he与appoint“任命”为被动关系，应用过去分词，作状语，位于句首，首字母大写。故填Appointed。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "061-10",
+          "no": 9,
+          "标签": "2023 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "The participants are waiting anxiously, and the final result of the drama competition ___ (declare)in 30 minutes.",
+          "题干HTML": "The participants are waiting anxiously, and the final result of the drama competition <span class=\"blank\"></span> (declare)in 30 minutes.",
+          "cue": [],
+          "提示词": "declare",
+          "答案": "will be declared",
+          "解析": "考查动词时态。句意：选手们焦急地等待着，话剧比赛的最终结果将在30分钟后公布。分析句子可知，and连接并列句，declare是后一分句的谓语动词，与主语result是被动关系，前一分句使用了现在进行时，说明是现在时态，由时间状语in 30 minutes可知，用一般将来时的被动语态，故填will be declared。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 9
+    },
+    {
+      "序": 33,
+      "data_no": "U2",
+      "unit_book": "选择性必修第四册　Unit 2",
+      "chips": {
+        "year_range": "2022–2026",
+        "n_questions": 19,
+        "n_kaofa": 7,
+        "n_phrase": 6
+      },
+      "h2": "Iconic Attractions",
+      "zh": "Iconic Attractions",
+      "stats": {
+        "卷数": 15,
+        "词数": 65,
+        "短语数": 50,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "in contact with",
+          "forms": [
+            {
+              "form": "in touch with",
+              "n": 2
+            },
+            {
+              "form": "keep / stay in touch with",
+              "n": 1
+            },
+            {
+              "form": "keep in touch",
+              "n": 1
+            },
+            {
+              "form": "keep in touch with",
+              "n": 1
+            },
+            {
+              "form": "keep/stay in touch",
+              "n": 1
+            },
+            {
+              "form": "stayed in touch with",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "翻译"
+          ],
+          "题数": 7
+        },
+        {
+          "词头": "located",
+          "forms": [
+            {
+              "form": "located",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "temporary",
+          "forms": [
+            {
+              "form": "temporarily",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "frequency",
+          "forms": [
+            {
+              "form": "frequently",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "violent",
+          "forms": [
+            {
+              "form": "violence",
+              "n": 1
+            },
+            {
+              "form": "violently",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "entitle",
+          "forms": [
+            {
+              "form": "are entitled",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "sponsor",
+          "forms": [
+            {
+              "form": "was sponsored",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "temporary",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "temporary",
+              "词性": "adj.",
+              "释义": "暂时的",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "temporarily",
+              "词性": "adv.",
+              "释义": "临时",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "118-09",
+              "no": 1,
+              "标签": "2024 · 厚街中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "Spring had moved away ___ (temporary), and snow fell silently and covered Pop-Pop’s chair.",
+              "题干HTML": "Spring had moved away <span class=\"blank\"></span> (temporary), and snow fell silently and covered Pop-Pop’s chair.",
+              "cue": [],
+              "提示词": "temporary",
+              "答案": "temporarily",
+              "解析": "考查副词。句意：春天暂时离开了，雪花无声地飘落，盖住了爷爷的椅子。空格处用副词修饰动词短语，temporary的副词是temporarily，意为“暂时地，临时地”。故填temporarily。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "frequency",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "frequency",
+              "词性": "n.",
+              "释义": "发生率",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "frequent",
+              "词性": "adj.",
+              "释义": "频繁的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "frequently",
+              "词性": "adv.",
+              "释义": "频繁地",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "082-12",
+              "no": 2,
+              "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+              "题型": "语法填空",
+              "题干": "She ___ (frequent) visits the local library to stay updated with the latest books and research materials.",
+              "题干HTML": "She <span class=\"blank\"></span> (frequent) visits the local library to stay updated with the latest books and research materials.",
+              "cue": [],
+              "提示词": "frequent",
+              "答案": "frequently",
+              "解析": "考查副词。句意：她经常去当地的图书馆了解最新的书籍和研究资料。修饰动词visits，用副词形式。frequent的副词形式为frequently，表示“经常”之意。故填frequently。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "violent",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "violent",
+              "词性": "adj.",
+              "释义": "暴力的",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "violence",
+              "词性": "n.",
+              "释义": "暴力",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "violently",
+              "词性": "adv.",
+              "释义": "强烈地",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "079-10",
+              "no": 3,
+              "标签": "2024 · 东莞市 · 高二下期中",
+              "题型": "语法填空",
+              "题干": "The barefoot kid had been living in poverty, surrounded by crime and ___ (violent).",
+              "题干HTML": "The barefoot kid had been living in poverty, surrounded by crime and <span class=\"blank\"></span> (violent).",
+              "cue": [],
+              "提示词": "violent",
+              "答案": "violence",
+              "解析": "考查名词。句意：这个光着脚的孩子一直生活在贫困之中，被犯罪和暴力所包围。作介词的宾语，应用名词violence，不可数。故填violence。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "061-08",
+              "no": 4,
+              "标签": "2023 · 东莞市 · 高二下期末",
+              "题型": "语法填空",
+              "题干": "A nearby volcano erupted ___ (violent), sending out a hail of molten rock and boiling mud.",
+              "题干HTML": "A nearby volcano erupted <span class=\"blank\"></span> (violent), sending out a hail of molten rock and boiling mud.",
+              "cue": [],
+              "提示词": "violent",
+              "答案": "violently",
+              "解析": "考查副词。句意： 一座附近的火山猛烈爆发，喷出大量熔岩和沸腾的泥浆。修饰动词erupted用副词作状语，故填violently。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [],
+      "phrases": [
+        {
+          "短语": "keep/stay in contact/touch with",
+          "释义": "… 与……保持联系",
+          "词头": "in contact with",
+          "atoms": [
+            {
+              "id": "069-17",
+              "no": 5,
+              "标签": "2025 · 东莞市 · 高二上月考",
+              "题型": "完成句子",
+              "题干": "Connecting on WeChat gives us the opportunity to ___ (保持联系) no matter where we live.",
+              "题干HTML": "Connecting on WeChat gives us the opportunity to <span class=\"blank\"></span> (保持联系) no matter where we live.",
+              "cue": [],
+              "提示词": null,
+              "答案": "keep/stay ； in ； touch",
+              "解析": "考查固定短语。句意：无论我们住在哪里，通过微信联系都能给我们保持联系的机会。根据汉语提示“保持联系”，对应的动词语为“keep in touch”或“stay in touch”，空格前有不定式符号to，短语中的动词需用原形，故填 keep/stay；in；touch。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "110-17",
+              "no": 6,
+              "标签": "2025 · 东莞市 · 高二上期中",
+              "题型": "完成句子",
+              "题干": "One of the good ways to love parents is to ___ them. (和他们保持联系)",
+              "题干HTML": "One of the good ways to love parents is to <span class=\"blank\"></span> them. (和他们保持联系)",
+              "cue": [],
+              "提示词": null,
+              "答案": "keep / stay ； in ； touch ； with",
+              "解析": "考查动词短语。句意：孝顺父母的好方法之一就是和他们保持联系。表示“和……保持联系”应用动词短语keep/stay in touch with，位于动词不定式符号to后面，使用动词原形。故填①keep/stay；②in；③touch；④with。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "033-15",
+          "no": 7,
+          "标签": "2026 · 东莞市 · 高二下月考",
+          "题型": "语法填空",
+          "题干": "___ (locate) in the heart of the city, the iconic museum attracts thousands of visitors every year.",
+          "题干HTML": "<span class=\"blank\"></span> (locate) in the heart of the city, the iconic museum attracts thousands of visitors every year.",
+          "cue": [],
+          "提示词": "locate",
+          "答案": "Located",
+          "解析": "句意：这座标志性博物馆位于市中心，每年吸引成千上万的游客。句子主干成分完整，空处为非谓语，短语be located in意为“坐落于，位于”，locate和museum逻辑上是被动关系，因此用locate的过去分词形式，作状语，且句首单词的首字母应大写。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "046-18",
+          "no": 8,
+          "标签": "2025 · 东莞市 · 高二上联考",
+          "题型": "完成句子",
+          "题干": "I met Jim when I worked in Paris, and I’ve stayed in contact with him ever since. → I met Jim when I worked in Paris, and I’ve ___ him ever since.",
+          "题干HTML": "I met Jim when I worked in Paris, and I’ve stayed in contact with him ever since. → I met Jim when I worked in Paris, and I’ve <span class=\"blank\"></span> him ever since.",
+          "cue": [
+            "同义句改写"
+          ],
+          "提示词": null,
+          "答案": "kept ； in ； touch ； with",
+          "解析": "考查动词短语。句意：我在巴黎工作时认识了吉姆，从那以后我就一直和他保持联系。原句中的stay in contact with“与……保持联系”可用keep in touch with替换，keep用过去分词形式和have构成现在完成时。故填kept；in；touch；with。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "153-27",
+          "no": 9,
+          "标签": "2025 · 虎门中学 · 高一下月考",
+          "题型": "翻译",
+          "题干": "用网络和朋友保持联系是很方便的。 → ___",
+          "题干HTML": "用网络和朋友保持联系是很方便的。 → <span class=\"blank\"></span>",
+          "cue": [],
+          "提示词": null,
+          "答案": "It’s convenient to keep in touch with friends through the Internet.",
+          "解析": "考查固定句型和动词时态。句子描述一个客观事实，应使用一般现在时，固定句型“It is+形容词+to do sth.”，表示“做某事是……的”，It是形式主语，不定式是真正的主语；表示“方便的”应用形容词convenient；表示“和朋友保持联系”应用固定短语keep in touch with friends；表示“通过网络”应用through the Internet。故翻译为It’s convenient to keep in touch with friends through the Internet.",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "103-15",
+          "no": 10,
+          "标签": "2025 · 东莞实验中学 · 高一下月考",
+          "题型": "语法填空",
+          "题干": "With the main office ___ (locate) in the city centre, the company can easily be connected with its customers.",
+          "题干HTML": "With the main office <span class=\"blank\"></span> (locate) in the city centre, the company can easily be connected with its customers.",
+          "cue": [],
+          "提示词": "locate",
+          "答案": "located",
+          "解析": "考查非谓语动词。句意：公司的总办事处位于市中心，能很容易地与客户取得联系。本题考查“with+宾语+宾语补足语”的结构，在句中作状语。所以空处需要非谓语动词作宾语补足语。此处宾语是the main office，与locate之间是被动关系，所以用过去分词作宾语补足语。故填located。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "070-20",
+          "no": 11,
+          "标签": "2024 · 东莞市 · 高二上期中",
+          "题型": "完成句子",
+          "题干": "Despite the distance, I ___ (保持联系) my family by phone calls every weekend last year when I was abroad.",
+          "题干HTML": "Despite the distance, I <span class=\"blank\"></span> (保持联系) my family by phone calls every weekend last year when I was abroad.",
+          "cue": [],
+          "提示词": null,
+          "答案": "kept ； in ； touch ； with",
+          "解析": "考查动词短语。句意：尽管距离遥远，去年我在国外的时候，每个周末我都和家人保持电话联系。表示“保持联系”使用动词短语keep in touch with，根据时间状语last year可知此处使用一般过去时，故填①kept②in③touch④with。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "079-08",
+          "no": 12,
+          "标签": "2024 · 东莞市 · 高二下期中",
+          "题型": "语法填空",
+          "题干": "We might have to employ someone ___ (temporary) as a secretary until we can fill the post.",
+          "题干HTML": "We might have to employ someone <span class=\"blank\"></span> (temporary) as a secretary until we can fill the post.",
+          "cue": [],
+          "提示词": "temporary",
+          "答案": "temporarily",
+          "解析": "考查副词。句意：在我们找到合适人选之前，我们可能得暂时雇一个人做秘书。副词temporarily作状语修饰动词employ。故填temporarily。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "077-17",
+          "no": 13,
+          "标签": "2024 · 万江中学 · 高二上期中",
+          "题型": "完成句子",
+          "题干": "We ___ (与……保持联系) our grandparents every weekend last year through video calls.",
+          "题干HTML": "We <span class=\"blank\"></span> (与……保持联系) our grandparents every weekend last year through video calls.",
+          "cue": [],
+          "提示词": null,
+          "答案": "kept / stayed ； in ； touch ； with",
+          "解析": "考查动词短语。句意：去年，我们每个周末都通过视频通话与祖父母保持联系。根据中文提示可知，表示“与……保持联系”应用keep/stay in touch with，为固定搭配，在本句中作谓语，与主语we为主动关系，且由last year可知，时态应用一般过去时。故填kept/stayed in touch with。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "079-11",
+          "no": 14,
+          "标签": "2024 · 东莞市 · 高二下期中",
+          "题型": "语法填空",
+          "题干": "Yan’an, a city ___ (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
+          "题干HTML": "Yan’an, a city <span class=\"blank\"></span> (locate) in northern Shaanxi Province, has seen great progress in its tourism industry over the past few years.",
+          "cue": [],
+          "提示词": "locate",
+          "答案": "located",
+          "解析": "考查非谓语动词。句意：延安，一个位于陕西省北部的城市，在过去的几年里，它的旅游业取得了很大的进步。句中谓语是has seen，空格处用非谓语动词，Yan’an和locate之间是逻辑动宾关系，因此空格处用过去分词表被动，故填located。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 14
+    },
+    {
+      "序": 34,
+      "data_no": "U3",
+      "unit_book": "选择性必修第四册　Unit 3",
+      "chips": {
+        "year_range": "2018–2024",
+        "n_questions": 4,
+        "n_kaofa": 3,
+        "n_phrase": 0
+      },
+      "h2": "Sea Exploration",
+      "zh": "海洋探索",
+      "stats": {
+        "卷数": 4,
+        "词数": 47,
+        "短语数": 48,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "possession",
+          "forms": [
+            {
+              "form": "possessions",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "arrest",
+          "forms": [
+            {
+              "form": "was arrested",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "possession",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "possession",
+              "词性": "",
+              "释义": "n.  个人财产",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "possess",
+              "词性": "vt.",
+              "释义": "具有",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "118-12",
+              "no": 1,
+              "标签": "2024 · 厚街中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "The small room contained the sum total of the family’s ___ (possess).",
+              "题干HTML": "The small room contained the sum total of the family’s <span class=\"blank\"></span> (possess).",
+              "cue": [],
+              "提示词": "possess",
+              "答案": "possessions",
+              "解析": "考查名词。句意：这个小房间里装着这家人的全部财产。family’s后跟名词，possess的名词是possession，此处表示“财产”，要用复数，故填possessions。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [],
+      "phrases": [],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "079-09",
+          "no": 2,
+          "标签": "2024 · 东莞市 · 高二下期中",
+          "题型": "语法填空",
+          "题干": "He ___ (arrest) when customs officers found drugs in his bag.",
+          "题干HTML": "He <span class=\"blank\"></span> (arrest) when customs officers found drugs in his bag.",
+          "cue": [],
+          "提示词": "arrest",
+          "答案": "was arrested",
+          "解析": "考查时态，语态和主谓一致。句意：海关人员在他的包里发现毒品后将他逮捕。他是被逮捕，由when customs officers found可知，句子描述过去的事情，时态用一般过去时，因此空格处是一般过去时的被动语态，主语He是单数，因此空格处是was arrested。故填was arrested。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "061-07",
+          "no": 3,
+          "标签": "2023 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "The picture drawn by Qi Baishi is just one of the treasures in their ___ (possess).",
+          "题干HTML": "The picture drawn by Qi Baishi is just one of the treasures in their <span class=\"blank\"></span> (possess).",
+          "cue": [],
+          "提示词": "possess",
+          "答案": "possessions",
+          "解析": "考查名词。句意：齐白石所画的这幅画只是他们最珍贵的财产之一。形容词性物主代词修饰名词，possession“财产”，是可数名词，常用复数形式，故填possessions。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "003-12",
+          "no": 4,
+          "标签": "2018 · 虎门外国语学校 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "The friendship between her and Mary was one of the most valuable ___ (possess) in her life.",
+          "题干HTML": "The friendship between her and Mary was one of the most valuable <span class=\"blank\"></span> (possess) in her life.",
+          "cue": [],
+          "提示词": "possess",
+          "答案": "possessions",
+          "解析": "分析句子可知，“one of the+形容词最高级”通常修饰复数名词，表示“最…之一”，possess的名词形式是possession。故填possessions。",
+          "句意": "她和玛丽之间的友谊是她一生中最宝贵的财富之一。",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 4
+    },
+    {
+      "序": 35,
+      "data_no": "U4",
+      "unit_book": "选择性必修第四册　Unit 4",
+      "chips": {
+        "year_range": "2018–2026",
+        "n_questions": 14,
+        "n_kaofa": 4,
+        "n_phrase": 2
+      },
+      "h2": "Sharing",
+      "zh": "分享",
+      "stats": {
+        "卷数": 13,
+        "词数": 64,
+        "短语数": 68,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "take",
+          "forms": [
+            {
+              "form": "be taken",
+              "n": 1
+            },
+            {
+              "form": "being taken",
+              "n": 1
+            },
+            {
+              "form": "had taken",
+              "n": 1
+            },
+            {
+              "form": "is taking",
+              "n": 1
+            },
+            {
+              "form": "should take / take",
+              "n": 1
+            },
+            {
+              "form": "take for granted",
+              "n": 1
+            },
+            {
+              "form": "taken",
+              "n": 1
+            },
+            {
+              "form": "taking",
+              "n": 1
+            },
+            {
+              "form": "to take",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式",
+            "短语"
+          ],
+          "题数": 9
+        },
+        {
+          "词头": "stability",
+          "forms": [
+            {
+              "form": "stability",
+              "n": 1
+            },
+            {
+              "form": "stably",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "consultation",
+          "forms": [
+            {
+              "form": "consultant",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "disability",
+          "forms": [
+            {
+              "form": "physical disabilities",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "翻译"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "dust",
+          "forms": [
+            {
+              "form": "dusty",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "stability",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "stability",
+              "词性": "",
+              "释义": "n. 稳定",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "stable",
+              "词性": "adj.",
+              "释义": "稳定的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "stably",
+              "词性": "adv.",
+              "释义": "稳定地",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "160-21",
+              "no": 1,
+              "标签": "2024 · 弘林高级中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "The last two decades has witnessed Macao’s boom and ___ (stable) on the basis of China’s “one country, two systems” policy.",
+              "题干HTML": "The last two decades has witnessed Macao’s boom and <span class=\"blank\"></span> (stable) on the basis of China’s “one country, two systems” policy.",
+              "cue": [],
+              "提示词": "stable",
+              "答案": "stability",
+              "解析": "考查名词。句意：在过去的二十年里，澳门在中国“一国两制”政策的基础上繁荣稳定。根据and可知，空处应填名词stability“稳定”与boom并列在句中作宾语。故填stability。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "152-06",
+              "no": 2,
+              "标签": "2023 · 虎门中学 · 高二上月考",
+              "题型": "语法填空",
+              "题干": "The robot works ___ (stable) and its performance can meet the design needs.",
+              "题干HTML": "The robot works <span class=\"blank\"></span> (stable) and its performance can meet the design needs.",
+              "cue": [],
+              "提示词": "stable",
+              "答案": "stably",
+              "解析": "考查副词。句意：该机器人工作稳定，性能满足设计要求。修饰动词works，用副词形式。根据句意，故填stably。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "consultation",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "consultation",
+              "词性": "",
+              "释义": "n. 咨询",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "consult",
+              "词性": "vt. & vi.",
+              "释义": "咨询",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "consultant",
+              "词性": "n.",
+              "释义": "顾问",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "104-11",
+              "no": 3,
+              "标签": "2025 · 东莞实验中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "The ___ (consult) is currently busy handling the complex legal case for the client.",
+              "题干HTML": "The <span class=\"blank\"></span> (consult) is currently busy handling the complex legal case for the client.",
+              "cue": [],
+              "提示词": "consult",
+              "答案": "consultant",
+              "解析": "考查名词。句意：这位顾问目前正忙于为客户处理这个复杂的法律案件。根据空后的“is currently busy handling”可知，空处需用名词作主语，consult是动词，意为“咨询；请教”，其名词形式consultant意为“顾问”，符合语境，且根据is可知，此处应用单数形式。故填consultant。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "dust",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "dust",
+              "词性": "",
+              "释义": "n. 沙土",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "dusty",
+              "词性": "adj.",
+              "释义": "布满灰尘的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "160-19",
+              "no": 4,
+              "标签": "2024 · 弘林高级中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "The house had been vacant for a long time and so it was very ___ (dust).",
+              "题干HTML": "The house had been vacant for a long time and so it was very <span class=\"blank\"></span> (dust).",
+              "cue": [],
+              "提示词": "dust",
+              "答案": "dusty",
+              "解析": "考查形容词。句意：这所房子空了很长时间，所以尘土飞扬。作表语，应用形容词dusty，故填dusty。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [],
+      "phrases": [
+        {
+          "短语": "a physical/mental disability",
+          "释义": "生理缺陷/心理障碍",
+          "词头": "disability",
+          "atoms": [
+            {
+              "id": "030-22",
+              "no": 5,
+              "标签": "2026 · 万江中学 · 高二下期中",
+              "题型": "翻译",
+              "题干": "取笑身体有残疾的人是不礼貌的。 → ___",
+              "题干HTML": "取笑身体有残疾的人是不礼貌的。 → <span class=\"blank\"></span>",
+              "cue": [
+                "用it做形式主语"
+              ],
+              "提示词": null,
+              "答案": "It is impolite to make fun of people with physical disabilities.",
+              "解析": "表示“做某事是……的”可用“It+be+形容词+不定式短语”句型，It作形式主语，不定式是真正主语；“取笑”可译为make fun of；“身体有残疾的人”可译为people with physical disabilities；“不礼貌的”可译为impolite。本句描述客观常理，用一般现在时。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "短语": "take it for granted (that)",
+          "释义": "… 认为……是理所当然",
+          "词头": "take",
+          "atoms": [
+            {
+              "id": "142-18",
+              "no": 6,
+              "标签": "2024 · 东莞第四高级中学 · 高二下期中",
+              "题型": "完成句子",
+              "题干": "For them, the most basic things we ___ (认为理所当然的), such as running water and electricity, are beyond reach.",
+              "题干HTML": "For them, the most basic things we <span class=\"blank\"></span> (认为理所当然的), such as running water and electricity, are beyond reach.",
+              "cue": [],
+              "提示词": null,
+              "答案": "take ； for ； granted",
+              "解析": "考查动词短语。句意：对他们来说，我们认为理所当然的最基本的东西，比如自来水和电，是遥不可及的。take...for granted“认为……理所当然”，句子是描述一个事实，应用一般现在时，主语we表示复数意义，谓语动词用原形，故填①take②for③granted。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "112-15",
+          "no": 7,
+          "标签": "2026 · 众美中学 · 高二下月考",
+          "题型": "语法填空",
+          "题干": "Some measures must ___ (take) to deal with the air pollution.",
+          "题干HTML": "Some measures must <span class=\"blank\"></span> (take) to deal with the air pollution.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "be taken",
+          "解析": "考查动词语态。句意：必须采取一些措施来对付空气污染。take measures“设法，采取措施”。动词take和主语measures之间是被动关系，位于情态动词must之后，所以本空用be taken，构成含有情态动词的被动语态must be done。故填be taken。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "134-14",
+          "no": 8,
+          "标签": "2025 · 东莞第一中学 · 高二下月考",
+          "题型": "语法填空",
+          "题干": "His plan for the weekend is ___ (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
+          "题干HTML": "His plan for the weekend is <span class=\"blank\"></span> (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "to take",
+          "解析": "考查非谓语动词。句意：他周末的计划是带他的狗去公园自由自在地长跑，呼吸新鲜空气，享受大自然的简单乐趣。该空所给动词take在句中作表语，解释主语plan的内容，应使用动词不定式形式。故填take。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "029-11",
+          "no": 9,
+          "标签": "2024 · 东莞第八高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
+          "题干HTML": "Would you please return to your seat？The plane <span class=\"blank\"></span> （take） off soon.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "is taking",
+          "解析": "请您回到您的座位上去好吗？飞机马上就要起飞了。\n\n根据句意以及表示将来的词\"soon\"可知，飞机即将起飞，应用现在进行时（be doing）时表示将来；由于主语The plane为单数，谓语应用单数is；再结合提示词take，该空应填is taking。\n\n故填：is taking。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "077-06",
+          "no": 10,
+          "标签": "2024 · 万江中学 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "Jacob, who is 6 years old, is looking forward to ___ (take) to the Great Wall.",
+          "题干HTML": "Jacob, who is 6 years old, is looking forward to <span class=\"blank\"></span> (take) to the Great Wall.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "being taken",
+          "解析": "考查非谓语。句意：雅各布今年6岁，他期待着被带到长城。分析句子可知，这里考查look forward to doing，表“期待作某事”，为固定搭配，且逻辑主语Jacob与take为被动关系，所以此空应用动名词的被动语态形式。故填being taken。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "050-07",
+          "no": 11,
+          "标签": "2023 · 东莞外国语学校 · 高一上月考",
+          "题型": "语法填空",
+          "题干": "It is highly recommended that the government ___ (take) measures to protect the environment.",
+          "题干HTML": "It is highly recommended that the government <span class=\"blank\"></span> (take) measures to protect the environment.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "should take / take",
+          "解析": "考查虚拟语气。句意：强烈建议政府采取措施保护环境。空处为主语从句的谓语动词，it is recommended that...句型中that引导的主语从句要用虚拟语气，谓语部分为(should)+do，主语government和take之间为主动关系，故填(should) take。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "144-11",
+          "no": 12,
+          "标签": "2022 · 翰林高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
+          "题干HTML": "As for the most suitable means of transportation, I’d like to recommend <span class=\"blank\"></span> (take) Beijing-Guangzhou High-Speed Railway.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "taking",
+          "解析": "考查非谓语动词。句意：至于最合适的交通工具，我建议乘京广高铁。此处为短语recommend doing sth.表示“建议做某事”。故填taking。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "016-26",
+          "no": 13,
+          "标签": "2020 · 东莞中学 · 高二上月考",
+          "题型": "语法填空",
+          "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
+          "题干HTML": "Generally speaking, when <span class=\"blank\"></span> (take) according to the directions, the drug has no side effect.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "taken",
+          "解析": "考查从句谓语动词的用法，句子是由when引导的时间状语从句，省略了主语the drug和be动词is，the drug和动词take构成被动关系，因此使用被动语态be done，故答案为taken。",
+          "句意": "一般而言，根据指示吃这个药是没有副作用的。",
+          "reason": ""
+        },
+        {
+          "id": "002-30",
+          "no": 14,
+          "标签": "2018 · 东华高级中学 · 高二上期末",
+          "题型": "语法填空",
+          "题干": "If he ___ (take) my advice, he wouldn't have lost his job.",
+          "题干HTML": "If he <span class=\"blank\"></span> (take) my advice, he wouldn't have lost his job.",
+          "cue": [],
+          "提示词": "take",
+          "答案": "had taken",
+          "解析": "题干为虚拟条件句，且表示与过去事实相反的情况，故从句谓语要用过去完成时。故答案为：had taken。",
+          "句意": "如果听了我的建议，他就不会丢掉工作了。",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 14
+    },
+    {
+      "序": 36,
+      "data_no": "U5",
+      "unit_book": "选择性必修第四册　Unit 5",
+      "chips": {
+        "year_range": "2022–2026",
+        "n_questions": 10,
+        "n_kaofa": 2,
+        "n_phrase": 0
+      },
+      "h2": "Launching Your Career",
+      "zh": "Launching Your Career",
+      "stats": {
+        "卷数": 9,
+        "词数": 65,
+        "短语数": 46,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "participant",
+          "forms": [
+            {
+              "form": "participants",
+              "n": 3
+            },
+            {
+              "form": "had participated",
+              "n": 1
+            },
+            {
+              "form": "has participated",
+              "n": 1
+            },
+            {
+              "form": "participant",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "动词形式"
+          ],
+          "题数": 6
+        },
+        {
+          "词头": "acquire",
+          "forms": [
+            {
+              "form": "to acquire",
+              "n": 2
+            },
+            {
+              "form": "having acquired",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "accuse",
+          "forms": [
+            {
+              "form": "accused",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "participant",
+          "题数": 6,
+          "chain": [
+            {
+              "词": "participant",
+              "词性": "",
+              "释义": "n. 参与者",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "participation",
+              "词性": "n.",
+              "释义": "参与",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "participate",
+              "词性": "vi.",
+              "释义": "参与",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "160-23",
+              "no": 1,
+              "标签": "2024 · 弘林高级中学 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "He has been an active ___ (participate) in the discussion.",
+              "题干HTML": "He has been an active <span class=\"blank\"></span> (participate) in the discussion.",
+              "cue": [],
+              "提示词": "participate",
+              "答案": "participant",
+              "解析": "考查名词。句意：他一直是讨论中的积极参与者。分析句子可知，空处应用名词作表语，指人，用participant“参与者”，冠词an提示用其单数形式。故填participant。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "105-08",
+              "no": 2,
+              "标签": "2024 · 东莞市 · 高二下期中",
+              "题型": "语法填空",
+              "题干": "The Ice Bucket Challenge requires that ___ (participate) pour a bucket of ice water on themselves.",
+              "题干HTML": "The Ice Bucket Challenge requires that <span class=\"blank\"></span> (participate) pour a bucket of ice water on themselves.",
+              "cue": [
+                "用所给词的适当形式填空"
+              ],
+              "提示词": "participate",
+              "答案": "participants",
+              "解析": "考查名词复数。句意：冰桶挑战要求参与者将一桶冰水倒在自己身上。分析句子结构可知，空处需使用名词participant（参与者）在宾语从句中作主语，根据themselves（他们自己）可知，主语应为复数形式。故填participants。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [],
+      "phrases": [],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "038-15",
+          "no": 3,
+          "标签": "2026 · 东莞第一中学 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "People hear him ___ (accuse) of stealing valuable goods from the local supermarket.",
+          "题干HTML": "People hear him <span class=\"blank\"></span> (accuse) of stealing valuable goods from the local supermarket.",
+          "cue": [],
+          "提示词": "accuse",
+          "答案": "accused",
+          "解析": "句意：人们听说他被指控从当地超市偷窃贵重物品。此处考查hear sb. done结构，表“听到某人被······”，him和accuse之间是被动关系，表示“他被指控”，用过去分词accused作宾语补足语。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "068-07",
+          "no": 4,
+          "标签": "2025 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "All ___ (participant) in the scientific research project are working hard to achieve breakthrough results.",
+          "题干HTML": "All <span class=\"blank\"></span> (participant) in the scientific research project are working hard to achieve breakthrough results.",
+          "cue": [],
+          "提示词": "participant",
+          "答案": "participants",
+          "解析": "考查名词复数形式。句意：科研项目的所有参与者都在努力取得突破性成果。participant为可数名词，意为“参与者”，作主语，all修饰可数名词复数形式，participant的复数形式是participants。故填participants。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "068-12",
+          "no": 5,
+          "标签": "2025 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "It is essential for young people ___ (acquire) new skills such as artificial intelligence programming to keep up with the digital age.",
+          "题干HTML": "It is essential for young people <span class=\"blank\"></span> (acquire) new skills such as artificial intelligence programming to keep up with the digital age.",
+          "cue": [],
+          "提示词": "acquire",
+          "答案": "to acquire",
+          "解析": "考查非谓语。句意：年轻人必须掌握人工智能编程等新技能，才能跟上数字时代的步伐。分析句子可知，这里考查了“it is adj for sb. to do sth.”的固定句型，表“对某人来说，做某事是……的”。其中it是形式主语，真正的主语是后面的不定式短语。故填to acquire",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "072-13",
+          "no": 6,
+          "标签": "2024 · 东莞市 · 高二下联考",
+          "题型": "语法填空",
+          "题干": "A series of hands-on classes are designed for students ___ (acquire) the necessary life skills.",
+          "题干HTML": "A series of hands-on classes are designed for students <span class=\"blank\"></span> (acquire) the necessary life skills.",
+          "cue": [],
+          "提示词": "acquire",
+          "答案": "to acquire",
+          "解析": "考查非谓语动词。句意：一系列实践课程旨在让学生掌握必要的生活技能。be designed to do...意为“旨在……”，用不定式形式。故填to acquire。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "061-12",
+          "no": 7,
+          "标签": "2023 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "___ (acquire) the advanced technology, the engineers make full use of every chance available.",
+          "题干HTML": "<span class=\"blank\"></span> (acquire) the advanced technology, the engineers make full use of every chance available.",
+          "cue": [],
+          "提示词": "acquire",
+          "答案": "Having acquired",
+          "解析": "考查非谓语动词。句意：掌握了先进技术后，工程师们充分利用了一切可能的机会。动词acquire和逻辑主语engineers之间是主谓关系，且acquire表示的动作发生在谓语make full use of之前，故用现在分词的完成式作状语，句首单词的首字母要大写，故填Having acquired。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "145-06",
+          "no": 8,
+          "标签": "2023 · 翰林高级中学 · 高二月考",
+          "题型": "语法填空",
+          "题干": "It was the first time that a “digital human” ___ (participate) in the torch-lighting ceremony.",
+          "题干HTML": "It was the first time that a “digital human” <span class=\"blank\"></span> (participate) in the torch-lighting ceremony.",
+          "cue": [],
+          "提示词": "participate",
+          "答案": "had participated",
+          "解析": "考查动词时态。句意：这是“数字人”第一次参加火炬点燃仪式。根据It was the first time that…可知，空出应为过去完成时。故填had participated。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "157-08",
+          "no": 9,
+          "标签": "2023 · 麻涌中学 · 高二上月考",
+          "题型": "语法填空",
+          "题干": "It is the first time that he ___ (participate) in the Asian Games.",
+          "题干HTML": "It is the first time that he <span class=\"blank\"></span> (participate) in the Asian Games.",
+          "cue": [],
+          "提示词": "participate",
+          "答案": "has participated",
+          "解析": "考查动词时态。句意：这是他第一次参加亚运会。分析句子可知，此处为谓语动词的填入，由该句为It is the first time that...的固定句型，所以此处为现在完成时，当前面的be动词用过去时，则后面用过去完成时。故填has participated。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "021-08",
+          "no": 10,
+          "标签": "2022 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "Beijing 2022 Winter Olympics attracted a great many ___ (participant) worldwide.",
+          "题干HTML": "Beijing 2022 Winter Olympics attracted a great many <span class=\"blank\"></span> (participant) worldwide.",
+          "cue": [],
+          "提示词": "participant",
+          "答案": "participants",
+          "解析": "考查名词复数。句意：2022年北京冬奥会吸引了世界各地众多的参与者。由 a great many可知，后面应加可数名词复数，所以应填participants，表“参与者”。故填participants。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 10
+    }
+  ]
+}

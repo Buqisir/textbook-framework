@@ -10,28 +10,9 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from 节点 import NODES, papers, topic_hit  # noqa: E402
+from 节点 import GRADE_TERMS, NODES, TOPICS, papers, topic_hit  # noqa: E402  TOPICS 只在 节点.py 维护
 
 ROOT = Path(__file__).resolve().parent.parent
-# 与 段考专题.py / 段考选题.py 保持一致
-TOPICS = [
-    ('非谓语', r'非谓语|动名词|不定式|现在分词|过去分词'),
-    ('it 形式主语／宾语', r'形式主语|形式宾语'),
-    ('定语从句', r'定语从句'),
-    ('名词性从句', r'宾语从句|主语从句|表语从句|同位语从句|名词性从句'),
-    ('状语从句', r'状语从句'),
-    ('强调句', r'强调句'),
-    ('虚拟语气', r'虚拟'),
-    ('倒装', r'倒装'),
-    ('主谓一致', r'主谓一致|就近原则'),
-    ('独立主格／with 复合', r'独立主格|with\s*复合|with的复合'),
-    ('被动', r'被动'),
-    ('时态', r'一般过去时|现在完成|过去完成|将来时|进行时'),
-    ('情态动词', r'情态动词'),
-    ('比较级', r'比较级|最高级'),
-    ('省略', r'省略'),
-    ('反意疑问', r'反意疑问|附加疑问'),
-]
 
 rows = [json.loads(l) for l in open(ROOT / '数据/题库.jsonl', encoding='utf-8')]
 files = defaultdict(list)
@@ -64,7 +45,7 @@ for rep, members, g, t, n, guess in papers(rows):
 
 
 def order(k):
-    gs = ['高一上', '高一下', '高二上', '高二下']
+    gs = GRADE_TERMS
     head, _, n = k.partition('·')
     return (gs.index(head) if head in gs else 9, NODES.index(n) if n in NODES else 9)
 
@@ -87,7 +68,7 @@ for k in sorted(nodes, key=order):
 L = ['# 段考聚焦专题 · 试卷覆盖率', '',
      '每格：覆盖率（该节点有多少比例的卷考到这个专题）/ 题数。标签来自解析关键词，只算单句类题；口径见 `脚本/节点.py` topic_hit（易成套话的专题只看「考查」句）。',
      '节点规则见 `脚本/节点.py`；「推定」= 只能按月份推定期中前后的卷；同一份卷的多个文件（重复题 ≥80%）按一卷计。', '']
-for g in ['高一上', '高一下', '高二上', '高二下']:
+for g in GRADE_TERMS:
     ks = [f'{g}·{n}' for n in NODES if f'{g}·{n}' in out]
     if not ks:
         continue

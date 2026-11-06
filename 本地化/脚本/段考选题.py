@@ -1,22 +1,34 @@
 #!/usr/bin/env python3
-"""段考专题 · 选题（阶段 1）：读题库，为两册生成讲解候选。
+"""段考专题 · 选题（阶段 1）：读题库，为各节点生成讲解候选。
 
-运行：python3 -I 本地化/脚本/段考选题.py
-输入：本地化/数据/题库.jsonl、本地化/数据/段考专题.json（只读）；节点判定用 本地化/脚本/节点.py
-输出：本地化/内容/段考-高一上-期中前月考.候选.json、本地化/内容/段考-高一上-期中.候选.json
+运行：
+  python3 -I 本地化/脚本/段考选题.py              # 16 个节点全部（高一上 / 高一下 / 高二上 / 高二下 × 四个节点）
+  python3 -I 本地化/脚本/段考选题.py 高一下 期中    # 只跑一个节点
+输入：本地化/数据/题库.jsonl、本地化/数据/段考专题.json（只读）；节点判定与专题口径用 本地化/脚本/节点.py（papers、topic_hit、TOPICS）
+输出：本地化/内容/段考-<年级学期>-<节点>.候选.json，如 段考-高一下-期中.候选.json
 
 规则：
 - 只取该节点的卷（节点.papers 判定，同卷多文件按一卷）；排除 题型 单选 / 其他、标记含「疑似非单句题」。
 - 同 重复组 只留一题（标签最完整者）。
-- 主考点：解析中第一处「考查」之后的文字里，TOPICS 中最先出现的专题；
-  其后无命中（或无「考查」）时用全文首个命中，记为 主考点来源=全文。一题只进一个专题。
-- 其他命中：全文解析里除主考点外的其他 TOPICS 命中。
-- 某讲专题本节点候选不足 8 题，从高一上其他节点补，补的题加 借用节点。
-  补位顺序：互补节点（期中 ↔ 期中前月考）→ 期中后月考 → 期末。
+- 主考点（所属专题）：节点.topic_hit 命中的专题里，取「考查」句内最早出现者；「考查」句无命中时取全文最早出现者（主考点来源=全文）。
+  一题只进一个专题。
+- 其他命中：节点.topic_hit 命中的其余专题。
+- 讲哪些专题（字段「讲」）：
+  · 高一上·期中前月考、高一上·期中：沿用手定的讲法（HAND_PLAN，2026-11-05 定，见 讲义专题来源）；
+  · 其余 14 个节点：默认「覆盖率 ≥ 30%，覆盖 ≥ 2 卷，且不在 DEFAULT_OFF 里」（DEFAULT_OFF = 被动、时态、情态动词、比较级、省略、反意疑问，
+    两册定稿的总表从未单列这几项）。默认结果待负责人确认后再写定稿。
+  不讲的专题仍输出一条（讲=false，题为空），便于总表取数。
+- 不从其他节点借题（MIN_CAND = 0）：只用本节点东莞原题，题少就少（规范/05 三.3）。
+  补位顺序（DONORS）：期中前月考 → 期中、期中后月考、期末；期中 → 期中前月考、期中后月考、期末；
+  期中后月考 → 期中、期末、期中前月考；期末 → 期中后月考、期中、期中前月考。
 - cue：题干里括号内的改写 / 翻译指令剥离成 cue；通用指令（所给词的适当形式填空、汉译英……）直接删；
   词形提示（如 ___ (attract)、(申请)）留在题干。
-- 子类：每题按 SUBCLASSES 正则取第一条命中，粗聚类，供统计，不影响入选。
+- 初步考法归类（每题带 子类、子类依据、考查句）：
+  先在「考查」句（解析中第一处「考查」起到句号）里按 SUBCLASSES 取第一条命中，子类依据=考查句；
+  考查句无命中时在题干+解析全文里找，子类依据=全文；都无命中归「其他」（非谓语另按答案形式归类，子类依据=答案）。
+  子类只为统计和挑题用，不影响入选。
 - 疑似缺陷：题干无空位、括号不配对、重复词、英文句末省略号、乱码。启发式，判不出语义缺词。
+- 平局排序里的题号（rank 中的 r['id']）由 本地化/数据/卷号.json 固定：题号前三位不随语料增删而漂移。
 """
 import json
 import re
@@ -25,49 +37,34 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from 节点 import papers  # noqa: E402
+from 节点 import GRADE_TERMS, NODES, TOPICS, all_books, papers, topic_hit  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / '本地化' / '数据'
 OUT_DIR = ROOT / '本地化' / '内容'
 
-# ── 册配置 ─────────────────────────────────────────────
-GRADE, TERM = '高一', '上'
-BOOKS = {
-    '期中前月考': {
-        'topics': ['非谓语', 'it 形式主语／宾语', '名词性从句', '虚拟语气', '强调句', '主谓一致'],
-        'skip': ['定语从句', '状语从句'],          # 总表另列，不讲
-        'donors': ['期中', '期中后月考', '期末'],   # 补位顺序：互补节点在前
-    },
-    '期中': {
-        'topics': ['非谓语', 'it 形式主语／宾语', '定语从句', '状语从句', '名词性从句',
-                   '强调句', '虚拟语气', '主谓一致', '倒装'],
-        'skip': [],
-        'donors': ['期中前月考', '期中后月考', '期末'],
-    },
+# ── 讲哪些专题 ─────────────────────────────────────────
+# 手定：两册已成稿，讲的专题保持不变（「讲」的顺序无关，最终按覆盖率排）。
+HAND_PLAN = {
+    '高一上·期中前月考': ['非谓语', 'it 形式主语／宾语', '名词性从句', '虚拟语气', '强调句'],
+    '高一上·期中': ['非谓语', 'it 形式主语／宾语', '定语从句', '状语从句', '名词性从句',
+                  '强调句', '虚拟语气', '倒装'],
 }
-MIN_CAND = 8
-EXCLUDE_TYPES = ('单选', '其他')
+DEFAULT_MIN_COV = 0.3
+DEFAULT_MIN_VOLS = 2     # 至少 2 卷考到：只在一卷里出现的不算节点专题
+DEFAULT_OFF = ('被动', '时态', '情态动词', '比较级', '省略', '反意疑问')
 
-# 与 段考专题.py / 段考选题.py 保持一致（那边是脚本，不能 import）
-TOPICS = [
-    ('非谓语', r'非谓语|动名词|不定式|现在分词|过去分词'),
-    ('it 形式主语／宾语', r'形式主语|形式宾语'),
-    ('定语从句', r'定语从句'),
-    ('名词性从句', r'宾语从句|主语从句|表语从句|同位语从句|名词性从句'),
-    ('状语从句', r'状语从句'),
-    ('强调句', r'强调句'),
-    ('虚拟语气', r'虚拟'),
-    ('倒装', r'倒装'),
-    ('主谓一致', r'主谓一致|就近原则'),
-    ('独立主格／with 复合', r'独立主格|with\s*复合|with的复合'),
-    ('被动', r'被动'),
-    ('时态', r'一般过去时|现在完成|过去完成|将来时|进行时'),
-    ('情态动词', r'情态动词'),
-    ('比较级', r'比较级|最高级'),
-    ('省略', r'省略'),
-    ('反意疑问', r'反意疑问|附加疑问'),
-]
+# 补位顺序：同年级学期内的其他节点，先互补节点，再期中后月考、期末
+DONORS = {
+    '期中前月考': ['期中', '期中后月考', '期末'],
+    '期中': ['期中前月考', '期中后月考', '期末'],
+    '期中后月考': ['期中', '期末', '期中前月考'],
+    '期末': ['期中后月考', '期中', '期中前月考'],
+}
+MIN_CAND = 0   # 不借题（所有者定：只用本节点东莞原题；2026-11-05 已删过借来的题）。DONORS 保留但不触发
+EXCLUDE_TYPES = ('单选', '其他')
+PAT = dict(TOPICS)
+TOPIC_IDX = {n: i for i, (n, _) in enumerate(TOPICS)}
 
 # ── 子类：粗聚类，按顺序取第一条命中；未命中归「其他」 ──
 SUBCLASSES = {
@@ -144,6 +141,7 @@ SUBCLASSES = {
 GENERIC_RE = re.compile(r'所给|适当|正确形式|根据.*提示|根据.*首字母|根据中英文|汉译英|^(翻译句子|完成句子|单词拼写|填空|翻译)$')
 CUE_RE = re.compile(r'同义|改写|改成|转换|改为|转被动|合并|强调|句型|翻译|改编|转为|划线|语态|省略句|附加疑问')
 PAREN_RE = re.compile(r'[ \t]*[（(]([^（）()\n]*)[）)]')
+KAOCHA_RE = re.compile(r'考查[^。]*')
 
 
 def read_rows():
@@ -151,11 +149,11 @@ def read_rows():
         return [json.loads(line) for line in f if line.strip()]
 
 
-def node_files(rows):
-    """高一上各节点的文件集合（同卷多文件已并卷）。"""
+def node_files(P, gt):
+    """某年级学期各节点的文件集合（同卷多文件已并卷）。P = papers(rows) 的结果。"""
     files = defaultdict(set)
-    for _rep, members, g, t, n, _guess in papers(rows):
-        if (g, t) == (GRADE, TERM):
+    for _rep, members, g, t, n, _guess in P:
+        if f'{g}{t}' == gt:
             files[n].update(members)
     return files
 
@@ -184,27 +182,33 @@ def unique_pool(rows):
     return best
 
 
-def first_hit(text, topics):
-    best = None
-    for name, pat in topics:
-        m = re.search(pat, text)
-        if m and (best is None or m.start() < best[0]):
-            best = (m.start(), name)
-    return best[1] if best else None
+def kaocha(jie):
+    """解析中第一处「考查」起到句号为止的一句；无则 None。"""
+    m = KAOCHA_RE.search(jie or '')
+    return m.group(0) if m else None
 
 
 def classify(r):
+    """主考点 = topic_hit 命中的专题中，考查句内最早出现者（无则全文最早出现者）。返回 (主考点, 来源, 其他命中)。"""
     jie = r.get('解析') or ''
+    ans = r.get('答案') or ''
+    hits = [n for n, p in TOPICS if topic_hit(n, p, jie, ans)]
+    if not hits:
+        return None, None, []
     m = re.search('考查', jie)
-    if m:
-        main = first_hit(jie[m.end():], TOPICS)
-        if main:
-            src = '考查'
-            return main, src, [n for n, p in TOPICS if n != main and re.search(p, jie)]
-    main = first_hit(jie, TOPICS)
-    src = '全文' if main else None
-    others = [n for n, p in TOPICS if n != main and re.search(p, jie)]
-    return main, src, others
+    after = jie[m.end():] if m else ''
+
+    def pos(n):
+        if after:
+            mm = re.search(PAT[n], after)
+            if mm:
+                return (0, mm.start(), TOPIC_IDX[n])
+        mm = re.search(PAT[n], jie)
+        return (1, mm.start() if mm else 10 ** 9, TOPIC_IDX[n])
+
+    main = min(hits, key=pos)
+    src = '考查' if pos(main)[0] == 0 else '全文'
+    return main, src, [n for n in hits if n != main]
 
 
 def clean_stem(stem):
@@ -245,27 +249,33 @@ def stem_defects(r, stem, cues):
     return out
 
 
-def subclass_of(topic, text, ans):
-    for name, pat in SUBCLASSES.get(topic, []):
-        if re.search(pat, text):
-            return name
+def subclass_of(topic, kc, text, ans):
+    """返回 (子类, 子类依据)。先看考查句，再看全文。"""
+    for basis, s in (('考查句', kc or ''), ('全文', text)):
+        if not s:
+            continue
+        for name, pat in SUBCLASSES.get(topic, []):
+            if re.search(pat, s):
+                return name, basis
     if topic == '非谓语':   # 兜底：按答案形式归类
         a = (ans or '').strip().lower()
         if a.startswith('to '):
-            return '形式：不定式'
+            return '形式：不定式', '答案'
         if re.search(r'ing$', a):
-            return '形式：-ing'
+            return '形式：-ing', '答案'
         if re.search(r'(ed|en)$', a):
-            return '形式：-ed'
-    return '其他'
+            return '形式：-ed', '答案'
+    return '其他', None
 
 
 def make_entry(r, main, src, others, borrowed=None):
     stem, cues = clean_stem(r['题干'])
+    jie = r.get('解析')
     d = {
         'id': r['id'], '标签': r['标签'], '题型': r['题型'], '题干': stem,
-        '提示词': r.get('提示词'), '答案': r['答案'], '解析': r.get('解析'), '句意': r.get('句意'),
+        '提示词': r.get('提示词'), '答案': r['答案'], '解析': jie, '句意': r.get('句意'),
         'cue': cues, '主考点': main, '主考点来源': src, '其他命中': others,
+        '考查句': kaocha(jie),
     }
     if borrowed:
         d['借用节点'] = borrowed
@@ -277,12 +287,28 @@ def make_entry(r, main, src, others, borrowed=None):
     return d
 
 
-def build(book, rows, files, cov):
-    cfg = BOOKS[book]
-    node = f'{GRADE}{TERM}·{book}'
-    stat = {'节点文件数': len(files[book])}
+def lecture_plan(key, cn):
+    """返回 (讲的专题名, 讲义专题来源)。cn：该节点在 段考专题.json 里的 专题 字典。"""
+    if key in HAND_PLAN:
+        return HAND_PLAN[key], '手定（2026-11-05 两册定稿时的讲法）'
+    lect = [n for n, _ in TOPICS if n not in DEFAULT_OFF
+            and cn[n]['覆盖率'] >= DEFAULT_MIN_COV and cn[n]['覆盖卷'] >= DEFAULT_MIN_VOLS]
+    return lect, (f'默认：覆盖率 ≥ {DEFAULT_MIN_COV:.0%} 且覆盖 ≥ {DEFAULT_MIN_VOLS} 卷，不含 '
+                  + '、'.join(DEFAULT_OFF) + '（待负责人确认）')
 
-    raw = [r for r in rows if r['文件'] in files[book]]
+
+def empty_cov():
+    return {'卷数': 0, '推定卷数': 0, '题数': 0, '专题': {n: {'覆盖卷': 0, '覆盖率': 0, '题数': 0} for n, _ in TOPICS}}
+
+
+def build(gt, node, rows, files, cov):
+    key = f'{gt}·{node}'
+    cv = cov.get(key) or empty_cov()
+    cn = cv['专题']
+    lect, source = lecture_plan(key, cn)
+    stat = {'节点文件数': len(files[node])}
+
+    raw = [r for r in rows if r['文件'] in files[node]]
     stat['原始行数'] = len(raw)
     stat['单选其他'] = sum(r['题型'] in EXCLUDE_TYPES for r in raw)
     stat['疑似非单句'] = sum(r['题型'] not in EXCLUDE_TYPES and not eligible(r) for r in raw)
@@ -300,16 +326,17 @@ def build(book, rows, files, cov):
             own_by[main].append(make_entry(r, main, src, others))
     stat['主考点分布'] = dict(main_dist.most_common())
 
+    donors = DONORS.get(node, [])
     donor_pools = {dn: unique_pool([r for r in rows if r['文件'] in files[dn] and eligible(r)])
-                   for dn in cfg['donors']}
+                   for dn in donors}
 
     topics_out = []
-    for topic in cfg['topics']:
+    for topic in lect:
         own_list = sorted(own_by[topic], key=lambda e: e['id'])
         borrowed = []
         need = MIN_CAND - len(own_list)
         if need > 0:
-            for dn in cfg['donors']:
+            for dn in donors:
                 for k, r in sorted(donor_pools[dn].items(), key=lambda kv: kv[1]['id']):
                     if need <= 0:
                         break
@@ -322,13 +349,13 @@ def build(book, rows, files, cov):
                     borrowed.append(make_entry(r, main, src, others, borrowed=dn))
                     need -= 1
         cands = own_list + borrowed
-        sub = {}
+        sub = defaultdict(list)
         for e in cands:
-            text = e['题干'] + ' ' + (e['解析'] or '')
-            sub.setdefault(subclass_of(topic, text, e['答案']), []).append(e['id'])
+            e['子类'], e['子类依据'] = subclass_of(topic, e['考查句'], e['题干'] + ' ' + (e['解析'] or ''), e['答案'])
+            sub[e['子类']].append(e['id'])
         order = [n for n, _ in SUBCLASSES.get(topic, [])] + ['形式：不定式', '形式：-ing', '形式：-ed', '其他']
         sub_out = {n: {'题数': len(sub[n]), '题': sub[n]} for n in order if n in sub}
-        c = cov[node]['专题'][topic]
+        c = cn[topic]
         topics_out.append({
             '名称': topic, '讲': True,
             '覆盖卷': c['覆盖卷'], '覆盖率': c['覆盖率'], '题数': c['题数'],
@@ -336,13 +363,15 @@ def build(book, rows, files, cov):
             '子类': sub_out,
             '题': cands,
         })
-    # 讲的专题按覆盖率降序（并列按题数、再按册内顺序）
-    topics_out.sort(key=lambda t: (-t['覆盖率'], -t['题数'], cfg['topics'].index(t['名称'])))
+    # 讲的专题按覆盖率降序（并列按题数、再按 TOPICS 顺序）
+    topics_out.sort(key=lambda t: (-t['覆盖率'], -t['题数'], TOPIC_IDX[t['名称']]))
     for i, t in enumerate(topics_out, 1):
         t['编号'] = i
 
-    for topic in cfg['skip']:
-        c = cov[node]['专题'][topic]
+    for topic, _ in TOPICS:
+        if topic in lect:
+            continue
+        c = cn[topic]
         topics_out.append({
             '名称': topic, '讲': False, '编号': None,
             '覆盖卷': c['覆盖卷'], '覆盖率': c['覆盖率'], '题数': c['题数'],
@@ -357,25 +386,37 @@ def build(book, rows, files, cov):
     stat['不足 8 题的讲专题'] = [f"{t['名称']}({t['候选']['合计']})" for t in topics_out if t['讲'] and t['候选']['合计'] < MIN_CAND]
 
     return {
-        '册': node,
-        '节点': book,
-        '卷数': cov[node]['卷数'],
-        '题数_关键词': cov[node]['题数'],
+        '册': key,
+        '年级学期': gt,
+        '节点': node,
+        '讲义专题来源': source,
+        '卷数': cv['卷数'],
+        '推定卷数': cv['推定卷数'],
+        '题数_关键词': cv['题数'],
         '专题': topics_out,
         '统计': stat,
     }
 
 
+def targets(argv):
+    if not argv:
+        return all_books()
+    if len(argv) == 2 and argv[0] in GRADE_TERMS and argv[1] in NODES:
+        return [(argv[0], argv[1])]
+    raise SystemExit('用法：段考选题.py [年级学期 节点]，如 段考选题.py 高一下 期中；不带参数跑全部 16 个节点。'
+                     f'年级学期：{" / ".join(GRADE_TERMS)}；节点：{" / ".join(NODES)}')
+
+
 def main():
     rows = read_rows()
-    files = node_files(rows)
+    P = papers(rows)
     cov = json.loads((DATA / '段考专题.json').read_text(encoding='utf-8'))
-    for book in BOOKS:
-        out = build(book, rows, files, cov)
-        p = OUT_DIR / f"段考-高一上-{book}.候选.json"
+    for gt, node in targets(sys.argv[1:]):
+        out = build(gt, node, rows, node_files(P, gt), cov)
+        p = OUT_DIR / f"段考-{gt}-{node}.候选.json"
         p.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
         s = out['统计']
-        print(f"== {out['册']}  卷数 {out['卷数']}  关键词题数 {out['题数_关键词']}")
+        print(f"== {out['册']}  卷数 {out['卷数']}（推定 {out['推定卷数']}）  关键词题数 {out['题数_关键词']}  讲义专题：{out['讲义专题来源']}")
         print(f"   原始 {s['原始行数']} 行；单选/其他 {s['单选其他']}；疑似非单句 {s['疑似非单句']}；去重后 {s['去重后题数']}（重复组去掉 {s['重复组去掉']}）")
         print(f"   主考点分布 {s['主考点分布']}")
         for t in out['专题']:

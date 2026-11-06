@@ -1,11 +1,42 @@
 #!/usr/bin/env python3
-"""同步课单元讲义 · 排版：读定稿 JSON，生成 渲染/本地化/同步-必修一-W-U2.html。
+"""同步课单元讲义 · 排版（英式，规范/04 §7）：读定稿 JSON，生成 渲染/本地化/同步-<册>.html。
 
-运行：python3 -I 本地化/脚本/同步排版.py
-输入：本地化/内容/同步-必修一-W-U2.定稿.json
-输出：渲染/本地化/同步-必修一-W-U2.html（内联结构，样式只用 同步.css 已有 class）
+运行（仓库根目录）：
+    python3 -I 本地化/脚本/同步排版.py              # 不带参数：排全部存在定稿的册
+    python3 -I 本地化/脚本/同步排版.py 必修二        # 只排一册（册名：必修一…必修三、选必一…选必四）
+输入：本地化/内容/同步-<册>.定稿.json（如 同步-必修一.定稿.json）
+输出：渲染/本地化/同步-<册>.html（如 同步-必修一.html；引 英式.css；样式只用 英式.css 的 class）
+册名由定稿的「书」字段推出（必修第一册 → 必修一；选择性必修第一册 → 选必一）；页脚 data-unit 为「<册> <单元>」，
+HTML title 为「同步讲义 <册>」。
 
-结构照抄 渲染/本地化/同步-样.html：单元头 → ① 考情 → ② 词性转换 → ③ 短语 → ④ 语法 → ⑤ 小测 → 答案。
+结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测 → 答案与解析。
+  单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
+  ①：.freq 表，词汇 / 考查形式 / 考法 / 频次。
+  ②：每个词族 .family = 词头行（词头 + gloss 同一行）+ 词族链（.fam-chain 浅底条）+ 原题（.atoms）。
+  ③：单词拼写：节头（无 chip）+ 原题列表（至多 8 道，不足就有多少放多少；给中文提示写英文单词）。
+  ④：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
+      句式块 .phrase.trick（句式名药丸 + gloss 同行 / 公式浅底条 / 原题）。
+  ⑤：原题列表。
+  答案：一个标题 + 两栏 key，不分组。
+原题（atoms）：出处 <span class="src"> 放题干段行首，后空 1 字接题干；改写指令 cue 仍在句末。
+英式结构的 class 与段考英式（段考排版.py）同名的沿用；同步专用的 freq、family、fam-head、fam-chain、phrase、ph、trick、form、zh、tally、dot 由 英式.css 同步讲义段（文件末）定义。
+
+定稿 JSON 的字段（每个单元）：
+  序、data_no、unit_book、h2、zh、chips{year_range, n_questions, n_kaofa, n_phrase}
+  stats{卷数, 词数, 短语数, 句式题数}
+  freq[{词头, forms[{form, n}], 考法[], 题数}]                     ① 考情总表（本单元考过的全部词）
+  families[{词头, 题数, gloss, chain[{词, 词性, 释义, hit, 来源}], atoms}]  ② 词族行（每个词族的原题；每个形式一道）
+      gloss：一到两行（用 <br> 分隔），排版时用「；」接成一行
+  spelling[atoms]                                                ③ 单词拼写（≤8 道，每词一道）
+  phrases[{短语, 释义, 词头, gloss, atoms}]                       ④ 前半：短语块（可无题）
+  tricks[{句式, gloss, formula, atoms}]                          ④ 后半：句式块
+      句式：句式名，≤6 字
+      gloss：两行，第一行「M 题」（M 与 atoms 数一致），第二行 ≤10 字
+      formula：一行，「原句骨架 → 改后骨架」，≤50 字符，取自本块原题
+  quiz[atoms]                                                    ⑤ 单元小测
+  numbered_total
+每道题 atoms 的字段：id、no（每单元内 ② ③ ④ ⑤ 连续编号）、标签、题型、题干、题干HTML、
+  cue[]（改写指令，放句末）、答案、解析、句意、reason（≤20 字，答案页用）、answer_show（可空）
 """
 import html
 import json
@@ -14,12 +45,22 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SRC = ROOT / '本地化' / '内容' / '同步-必修一-W-U2.定稿.json'
-OUT = ROOT / '渲染' / '本地化' / '同步-必修一-W-U2.html'
+CONTENT = ROOT / '本地化' / '内容'
+RENDER = ROOT / '渲染' / '本地化'
+
+
+def src_text(label):
+    """出处显示（所有者定，2026-11-05）：「2023 · 学校 · 高一上月考」显示为「2023 学校高一上月考」——年份后空一格，校名与考试连写。
+    数据（题库标签、定稿 src）不变，只改显示。"""
+    parts = (label or '').split(' · ')
+    if len(parts) == 3:
+        return f'{parts[0]} {parts[1]}{parts[2]}'
+    return label or ''
 
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
+HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 独立的 -ing / -ed 前缀，连字符后不断行（同段考英式）
 
 
 def esc(s):
@@ -45,19 +86,47 @@ def cue_html(cues):
     return ''.join(f' <span class="cue">（{esc(c)}）</span>' for c in cues or [])
 
 
-def stem_p(text, cues=(), src=None):
-    """题干段：英文为主的标 lang=en；纯中文不标。改写指令（cue）与出处（src）放句末。"""
-    stem = stem_html(text) + cue_html(cues)
-    if src is not None:
-        stem += f' <span class="src">{esc(src)}</span>'
-    if is_en(text):
-        return f'<p lang="en">{stem}</p>'
-    return f'<p>{stem}</p>'
+def gloss_line(g):
+    """柱注多行合成一行，用「 · 」接起（英式没有柱）。"""
+    return '；'.join(x for x in g.split('<br>') if x)   # 两条提示用分号接（不用「 · 」，所有者 2026-11-05）
+
+
+# ── 作答方式（2026-11-05 所有者定）──
+# whole：整句作答（题干无空，或以「→ ___」收尾）→ 题下单独两条书写横线 <div class="answer-lines">，去掉句末的「→ ___」；
+# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 空位加长 <span class="blank long">；
+# normal：其余（含单句改错）不变。只用于练习题（练一练 / 原题），例题不加。
+ANSWER_LINES = '<div class="answer-lines"></div>'
+_TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
+
+
+def answer_mode(stem, cues=None):
+    if '改错' in ''.join(cues or []):
+        return 'normal'
+    s = (stem or '').replace('\n', ' → ').strip()
+    if not re.search(r'_{2,}', s) or _TAIL_BLANK_RE.search(s):
+        return 'whole'
+    return 'half' if '→' in s else 'normal'
+
+
+def strip_tail_blank(stem):
+    return _TAIL_BLANK_RE.sub('', stem or '')
 
 
 def atom_li(a):
-    p = stem_p(a['题干'], a.get('cue'))
-    return f'<li data-no="{a["no"]}">{p}<span class="src">{esc(a["标签"])}</span></li>'
+    """原题：出处在题干行首（后空 1 字接题干，CSS 定），改写指令仍在句末。"""
+    mode = answer_mode(a['题干'], a.get('cue'))
+    text = strip_tail_blank(a['题干']) if mode == 'whole' else a['题干']
+    stem = stem_html(text)
+    if mode == 'half':
+        stem = stem.replace('<span class="blank"></span>', '<span class="blank long"></span>')
+    body = f'<span class="src">{esc(src_text(a["标签"]))}</span>' + stem + cue_html(a.get('cue'))
+    lang = ' lang="en"' if is_en(text) else ''
+    tail = ANSWER_LINES if mode == 'whole' else ''
+    return f'<li data-no="{a["no"]}"><p{lang}>{body}</p>{tail}</li>'
+
+
+def atoms_html(atoms):
+    return '<ol class="atoms">\n      ' + '\n      '.join(atom_li(a) for a in atoms) + '\n    </ol>\n'
 
 
 def chain_html(chain):
@@ -73,138 +142,112 @@ def chain_html(chain):
     return ''.join(out)
 
 
+def freq_tier(n):
+    """考情表按频次分档（2026-11-05：档内不画行线，档与档之间空半格加细线，减轻密度）。"""
+    return 0 if n >= 5 else 1 if n >= 3 else 2 if n == 2 else 3
+
+
 def freq_section(u):
-    rows = []
+    groups = {}
     for r in u['freq']:
         # 版面：形式列每行最多 3 个（按次数）；其余在报告里交代
         shown = r['forms'][:3]
         forms = ''.join(f'<span>{esc(f["form"])}<sub>{f["n"]}</sub></span>' for f in shown)
-        how = ' · '.join(r['考法']) or '—'
+        how = '、'.join(r['考法']) or '—'
         n = r['题数']
         bars = '<i></i>' * min(n, 12)
-        rows.append(
+        groups.setdefault(freq_tier(n), []).append(
             f'<tr><td>{esc(r["词头"])}</td><td class="forms">{forms}</td>'
             f'<td class="how">{esc(how)}</td><td class="tally">{bars}<span>{n}</span></td></tr>')
+    bodies = ''.join('    <tbody>\n      ' + '\n      '.join(groups[k]) + '\n    </tbody>\n'
+                     for k in sorted(groups))
     ch = u['chips']
     return (
         '<section class="part">\n'
-        f'  <header class="topic-head" data-no="1"><h3>东莞怎么考本单元</h3>'
-        f'<span class="chip chip-freq">{esc(ch["year_range"])} · 东莞单句题 {ch["n_questions"]} 题</span></header>\n'
+        f'  <header class="topic-head" data-no="1"><h3>单元考情</h3>'
+        f'<span class="chip chip-freq">{esc(ch["year_range"])} 东莞真题 {ch["n_questions"]} 道</span></header>\n'
         '  <table class="freq">\n'
         '    <colgroup><col class="c-word"><col><col class="c-how"><col class="c-tally"></colgroup>\n'
-        '    <thead><tr><th>词</th><th>东莞考过的形式</th><th>考法</th><th>题数</th></tr></thead>\n'
-        '    <tbody>\n      ' + '\n      '.join(rows) + '\n    </tbody>\n  </table>\n'
+        '    <thead><tr><th>词汇</th><th>考查形式</th><th>考法</th><th>频次</th></tr></thead>\n'
+        + bodies + '  </table>\n'
         '</section>\n')
 
 
 def family_section(u):
     parts = []
     for f in u['families']:
-        atoms = '\n      '.join(atom_li(a) for a in f['atoms'])
         parts.append(
             '  <div class="family">\n'
-            f'    <p class="fam-head" lang="en">{esc(f["词头"])}</p>\n'
-            f'    <aside class="gloss">{f["gloss"]}</aside>\n'
+            f'    <p class="fam-head" lang="en">{esc(f["词头"])}<span class="gloss">{gloss_line(f["gloss"])}</span></p>\n'
             f'    <p class="fam-chain" lang="en">{chain_html(f["chain"])}</p>\n'
-            f'    <ol class="atoms">\n      {atoms}\n    </ol>\n'
+            '    ' + atoms_html(f['atoms']) +
             '  </div>\n')
     ch = u['chips']
     return (
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="2"><h3>词性转换</h3>'
-        f'<span class="chip chip-freq">本单元 <b>{ch["n_kaofa"]}</b> 题</span></header>\n'
-        '  <p class="lead"><span class="dot"></span>东莞考过的形式。先看空格修饰谁、作什么成分，再定词性。</p>\n'
+        '</header>\n'   # 不报题库计数（所有者 2026-11-05：不散报数据）
+        '  <p class="lead"><span class="dot"></span>东莞考过的形式</p>\n'
         + ''.join(parts) + '</section>\n')
 
 
-def phrase_section(u):
-    parts = []
-    for p in u['phrases']:
-        atoms = '\n      '.join(atom_li(a) for a in p['atoms'])
-        parts.append(
-            '  <div class="phrase">\n'
-            f'    <aside class="gloss">{p["gloss"]}</aside>\n'
-            f'    <p class="ph"><b lang="en">{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span></p>\n'
-            f'    <ol class="atoms">\n      {atoms}\n    </ol>\n'
-            '  </div>\n')
-    ch = u['chips']
+def phrase_html(p):
+    """短语条。可带「对照」：{短语, 释义}——教材常见但东莞没考的相关搭配，与实考搭配并列，
+    实考的那个加主色圆点、半粗（同词族链的 hit），对照在前。"""
+    if p.get('对照'):
+        alt = p['对照']
+        head = (f'<span class="form"><b>{esc(alt["短语"])}</b><span class="zh">{esc(alt["释义"])}</span></span>'
+                f'<span class="form hit"><b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span></span>')
+        cls = 'ph pair'
+    else:
+        head = f'<b>{esc(p["短语"])}</b><span class="zh">{esc(p["释义"])}</span>'
+        cls = 'ph'
+    return (
+        '  <div class="phrase">\n'
+        f'    <p class="{cls}" lang="en">{head}'
+        f'<span class="gloss">{gloss_line(p["gloss"])}</span></p>\n'
+        '    ' + atoms_html(p['atoms']) +
+        '  </div>\n')
+
+
+def trick_html(t):
+    # 公式放 .ph（lang=en，12pt STIX 粗），由 英式.css 垫在 --accent-wash 条里；不包 <b>，免得字号与行盒走样
+    return (
+        '  <div class="phrase trick">\n'
+        f'    <p class="fam-head"><span class="subhead">{esc(t["句式"])}</span>'
+        f'<span class="gloss">{gloss_line(t["gloss"])}</span></p>\n'
+        f'    <p class="ph" lang="en">{esc(t["formula"])}</p>\n'
+        '    ' + atoms_html(t['atoms']) +
+        '  </div>\n')
+
+
+def spelling_section(u):
+    """③ 单词拼写：节头不加 chip（不报题数）；原题列表，复用 atoms_html。"""
     return (
         '<section class="part">\n'
-        f'  <header class="topic-head" data-no="3"><h3>短语与句型</h3>'
-        f'<span class="chip chip-freq">本单元 <b>{ch["n_phrase"]}</b> 题</span></header>\n'
-        + ''.join(parts) + '</section>\n')
-
-
-def explain_html(ex):
-    out = ['      <div class="explain">']
-    out.append(f'        <p class="subhead">{esc(ex["subhead"])}</p>')
-    paras = ex['paragraphs']
-    out.append(f'        <p>{esc(paras[0])}</p>')
-    if ex.get('pattern'):
-        out.append(f'        <p class="pattern" lang="en">{esc(ex["pattern"])}</p>')
-    for p in paras[1:]:
-        out.append(f'        <p>{esc(p)}</p>')
-    cmp_ = ex.get('compare')
-    if cmp_:
-        head = ''.join(f'<th>{esc(h)}</th>' for h in cmp_['head'])
-        body = ''.join('<tr>' + ''.join(f'<td>{esc(c)}</td>' for c in row) + '</tr>' for row in cmp_['rows'])
-        out.append(f'        <table class="compare"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>')
-    if ex.get('evidence'):
-        text, page = ex['evidence']
-        out.append(f'        <p lang="en" class="evidence">{esc(text)}〔{esc(page)}〕</p>')
-    out.append('      </div>')
-    return '\n'.join(out)
-
-
-def grammar_section(u):
-    g = u['grammar']
-    ch = u['chips']
-    ex_html = []
-    for e in g['examples']:
-        q = e['q']
-        sol = e['solution']
-        if '判断' in sol:
-            mid = f'<p><b>判断</b>：{esc(sol["判断"])}</p>'
-        else:
-            mid = f'<p><b>成分</b>：{esc(sol["成分"])}</p>'
-        ex_html.append(
-            '    <article class="example">\n'
-            '      <div class="stem">\n'
-            f'        <aside class="gloss">{e["gloss"]}</aside>\n'
-            f'        {stem_p(q["题干"], q.get("cue"), q["标签"])}\n'
-            '      </div>\n'
-            '      <div class="solution">\n'
-            '        <h4>解析</h4>\n'
-            f'        <p><b>句意</b>：{esc(sol["句意"])}</p>\n'
-            f'        {mid}\n'
-            + ('        <p class="ans-line"><b>故填</b><b class="ans">' + esc(sol["故填"]) + '</b></p>\n'
-               if len(sol["故填"].split()) >= 6 else
-               f'        <p><b>故填</b> <b class="ans">{esc(sol["故填"])}</b>。</p>\n') +
-            '      </div>\n'
-            '    </article>')
-    drill = '\n      '.join(atom_li(a) for a in g['drill'])
-    return (
-        '<section class="part">\n'
-        f'  <header class="topic-head" data-no="4"><h3>本单元语法</h3>'
-        f'<span class="chip chip-freq">例 {len(g["examples"])} · 练 {len(g["drill"])}</span></header>\n'
-        + explain_html(g['explain']) + '\n'
-        + '\n'.join(ex_html) + '\n'
-        '  <div class="drill">\n'
-        '    <h4>练一练</h4>\n'
-        '    <div class="drill-atoms">\n'
-        f'      <ol class="atoms">\n      {drill}\n      </ol>\n'
-        '    </div>\n'
-        '  </div>\n'
+        '  <header class="topic-head" data-no="3"><h3>单词拼写</h3></header>\n'
+        '  ' + atoms_html(u['spelling']) +
         '</section>\n')
 
 
-def quiz_section(u):
+def phrase_section(u):
     ch = u['chips']
+    return (
+        '<section class="part">\n'
+        f'  <header class="topic-head" data-no="4"><h3>短语与句式转换</h3>'
+        '</header>\n'
+        + ''.join(phrase_html(p) for p in u['phrases'])
+        + ('  <p class="lead"><b>句式转换</b></p>\n' + ''.join(trick_html(t) for t in u['tricks'])
+           if u['tricks'] else '')
+        + '</section>\n')
+
+
+def quiz_section(u):
     items = '\n      '.join(atom_li(a) for a in u['quiz'])
     return (
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="5"><h3>单元小测</h3>'
-        f'<span class="chip chip-freq">本单元 <b>{len(u["quiz"])}</b> 题</span></header>\n'
+        '</header>\n'
         f'  <ol class="atoms">\n      {items}\n  </ol>\n'
         '</section>\n')
 
@@ -213,9 +256,11 @@ def answers_section(u):
     numbered = []
     for f in u['families']:
         numbered += f['atoms']
+    numbered += u['spelling']
     for p in u['phrases']:
         numbered += p['atoms']
-    numbered += u['grammar']['drill']
+    for t in u['tricks']:
+        numbered += t['atoms']
     numbered += u['quiz']
     numbered.sort(key=lambda a: a['no'])
     lis = []
@@ -234,81 +279,132 @@ def answers_section(u):
         '</section>\n')
 
 
-def unit_section(u):
-    stats = u['stats']
+def unit_section(u, book):
     book_title = u['unit_book'].split('　')[-1]
+    kicker = u['unit_book'].split('　')[0]          # 册名；英文单元名已在标题行
+    # 中文名留成英文名（待定的单元）时不重复显示
+    zh = f'<small>{esc(u["zh"])}</small>' if u['zh'] and u['zh'] != u['h2'] else ''
     head = (
-        f'<section class="unit" data-unit="必修一 {esc(book_title)}">\n'
+        f'<section class="unit" data-unit="{esc(book)} {esc(book_title)}">\n'
         f'<header class="unit-head" data-no="{u["data_no"]}">\n'
-        f'  <p class="unit-book">{esc(u["unit_book"])}</p>\n'
-        f'  <h2 lang="en">{esc(u["h2"])}<small>{esc(u["zh"])}</small></h2>\n'
-        '  <ul class="unit-stats">'
-        f'<li><b>{stats["卷数"]}</b>套东莞卷考过本单元</li>'
-        f'<li><b>{stats["词数"]}</b>个词</li>'
-        f'<li><b>{stats["短语数"]}</b>个短语</li>'
-        f'<li><b>{stats["语法题数"]}</b>道语法题</li>'
-        '</ul>\n'
+        f'  <p class="unit-book">{esc(kicker)}</p>\n'
+        f'  <h2 lang="en">{esc(u["h2"])}{zh}</h2>\n'
         '</header>\n\n')
-    body = (freq_section(u) + '\n' + family_section(u) + '\n' + phrase_section(u) + '\n'
-            + grammar_section(u) + '\n' + quiz_section(u) + '\n' + answers_section(u))
+    # 空节不出（标题也不出），节号按实际出现的顺序重编（负责人定，2026-11-06：题少的单元不留空标题）
+    parts = []
+    if u.get('freq'):
+        parts.append(freq_section(u))
+    if u.get('families'):
+        parts.append(family_section(u))
+    if u.get('spelling'):
+        parts.append(spelling_section(u))
+    if u.get('phrases') or u.get('tricks'):
+        parts.append(phrase_section(u))
+    if u.get('quiz'):
+        parts.append(quiz_section(u))
+    parts = [re.sub(r'(<header class="topic-head" data-no=")\d+(")', lambda m, k=k: f'{m.group(1)}{k}{m.group(2)}', sec, count=1)
+             for k, sec in enumerate(parts, 1)]
+    body = '\n'.join(parts) + ('\n' + answers_section(u) if parts else '')
     return head + body + '\n</section>\n'
 
 
 def validate(S):
     errs = []
     for u in S['单元']:
-        for p in u['grammar']['explain']['paragraphs']:
-            if len(p) > 80:
-                errs.append(f'{u["data_no"]} 讲解段超过 80 字：{p[:20]}…')
-        if len(u['grammar']['explain']['paragraphs']) not in (2, 3):
-            errs.append(f'{u["data_no"]} 讲解段数不是 2–3')
-        if u['grammar'].get('explain', {}).get('compare') and len(u['grammar']['explain']['compare']['rows']) > 3:
-            errs.append(f'{u["data_no"]} 辨析表超过 4 行（含表头）')
-        for g in [f['gloss'] for f in u['families']] + [p['gloss'] for p in u['phrases']] + \
-                 [e['gloss'] for e in u['grammar']['examples']]:
+        if 'grammar' in u:
+            errs.append(f'{u["data_no"]} 仍含已删除的 grammar 节')
+        glosses = [('②', f['gloss']) for f in u['families']] + [('③', p['gloss']) for p in u['phrases']]
+        glosses += [('句式', t['gloss']) for t in u['tricks']]
+        for tag, g in glosses:
             for ln in g.split('<br>'):
                 if len(CJK_RE.findall(ln)) > 10:
-                    errs.append(f'{u["data_no"]} 柱注超过 10 字：{ln}')
+                    errs.append(f'{u["data_no"]} {tag} 柱注超过 10 字：{ln}')
             if len(g.split('<br>')) > 2:
-                errs.append(f'{u["data_no"]} 柱注超过 2 行：{g}')
-        if len(u['freq']) > 10:
-            errs.append(f'{u["data_no"]} 考情表超过 10 行')
-        if len(u['families']) > 8:
-            errs.append(f'{u["data_no"]} 词族超过 8 个')
+                errs.append(f'{u["data_no"]} {tag} 柱注超过 2 行：{g}')
         for f in u['families']:
-            if len(f['atoms']) > 2:
-                errs.append(f'{u["data_no"]} 词族题超过 2 道')
             if len(f['chain']) > 4:
                 errs.append(f'{u["data_no"]} 词族链超过 4 个形式')
+        if len(u['spelling']) > 8:   # 不足 6 道就有多少放多少（规范/05：题少就少）
+            errs.append(f'{u["data_no"]} 单词拼写超过 8 道')
+        if len({a['提示词'] or a['题干'] for a in u['spelling']}) != len(u['spelling']):
+            errs.append(f'{u["data_no"]} 单词拼写有重复的题')
         if len(u['phrases']) > 6:
             errs.append(f'{u["data_no"]} 短语超过 6 条')
+        if len(u['tricks']) > 4:   # 0 块可以：没有东莞改写题就不设（规范/05：题少就少）
+            errs.append(f'{u["data_no"]} 句式块超过 4 个')
+        for t in u['tricks']:
+            if len(t['句式']) > 6:
+                errs.append(f'{u["data_no"]} 句式名超过 6 字：{t["句式"]}')
+            if not 1 <= len(t['atoms']) <= 3:
+                errs.append(f'{u["data_no"]} 句式「{t["句式"]}」题数不在 1–3')
+            if re.search(r'\d+ ?题', t['gloss']):   # 柱注不写题数（规范/05）
+                errs.append(f'{u["data_no"]} 句式「{t["句式"]}」柱注不应写题数：{t["gloss"]}')
+            if '\n' in t['formula'] or len(t['formula']) > 50:
+                errs.append(f'{u["data_no"]} 句式「{t["句式"]}」公式超过 50 字符或多行')
         if len(u['quiz']) > 8:
             errs.append(f'{u["data_no"]} 小测超过 8 道')
         nos = sorted(a['no'] for a in
-                     [a for f in u['families'] for a in f['atoms']] +
+                     [a for f in u['families'] for a in f['atoms']] + u['spelling'] +
                      [a for p in u['phrases'] for a in p['atoms']] +
-                     u['grammar']['drill'] + u['quiz'])
+                     [a for t in u['tricks'] for a in t['atoms']] + u['quiz'])
         if nos != list(range(1, len(nos) + 1)):
             errs.append(f'{u["data_no"]} 编号不连续：{nos[:5]}…')
+        if u['stats']['句式题数'] != sum(len(t['atoms']) for t in u['tricks']):
+            errs.append(f'{u["data_no"]} 句式题数与句式块不符')
     return errs
 
 
-def main():
-    S = json.loads(SRC.read_text(encoding='utf-8'))
+BOOK_RE = re.compile(r'(选择性)?必修第([一二三四])册')
+CN_BOOKS = ['必修一', '必修二', '必修三', '选必一', '选必二', '选必三', '选必四']
+
+
+def book_short(book):
+    """书名 → 册名：必修第二册 → 必修二；选择性必修第一册 → 选必一。"""
+    m = BOOK_RE.fullmatch(book or '')
+    if not m:
+        raise SystemExit(f'定稿的「书」字段无法识别：{book!r}')
+    return ('选必' if m.group(1) else '必修') + m.group(2)
+
+
+def render(src):
+    S = json.loads(src.read_text(encoding='utf-8'))
+    book = book_short(S.get('书'))
+    if src.name != f'同步-{book}.定稿.json':
+        raise SystemExit(f'文件名 {src.name} 与定稿「书」字段（{S.get("书")}）不符')
     errs = validate(S)
     if errs:
         for e in errs:
-            print('错误', e, file=sys.stderr)
+            print('错误', src.name, e, file=sys.stderr)
         raise SystemExit(1)
-    body = ''.join(unit_section(u) for u in S['单元'])
+    body = ''.join(unit_section(u, book) for u in S['单元'])
+    body = HYPHEN_RE.sub('-⁠', body)   # U+2060 词连接符（零宽）：「用 -ing」的连字符后不断行
     doc = ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
            '<meta name="viewport" content="width=device-width, initial-scale=1">'
-           '<title>同步课单元讲义 · 必修一 W–U2</title>'
-           '<link rel="stylesheet" href="同步.css"></head>\n<body>\n'
+           f'<title>同步讲义 {book}</title>'
+           '<link rel="stylesheet" href="英式.css"></head>\n<body>\n'
            + body + '</body>\n</html>\n')
-    OUT.write_text(doc, encoding='utf-8')
-    print('写入', OUT)
+    out = RENDER / f'同步-{book}.html'
+    out.write_text(doc, encoding='utf-8')
+    print('写入', out)
+
+
+def main(argv):
+    if argv:
+        srcs = []
+        for b in argv:
+            if b not in CN_BOOKS:
+                raise SystemExit(f'未知册：{b}（可选：{"、".join(CN_BOOKS)}）')
+            p = CONTENT / f'同步-{b}.定稿.json'
+            if not p.exists():
+                raise SystemExit(f'没有定稿：{p.relative_to(ROOT)}')
+            srcs.append(p)
+    else:
+        srcs = sorted(CONTENT.glob('同步-*.定稿.json'))
+        if not srcs:
+            raise SystemExit('未找到定稿（本地化/内容/同步-*.定稿.json）')
+    for p in srcs:
+        render(p)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """段考专题讲义 · 排版：读定稿 JSON，生成段考讲义 HTML（结构照抄 渲染/本地化/段考-样.html）。
 
-运行：python3 -I 本地化/脚本/段考排版.py <节点名>
-  期中前月考 → 本地化/内容/段考-高一上-期中前月考.定稿.json → 渲染/本地化/段考-高一上-期中前月考.html
-  期中       → 本地化/内容/段考-高一上-期中.定稿.json       → 渲染/本地化/段考-高一上-期中.html
-  样         → 本地化/内容/段考-样.定稿.json                → 渲染/本地化/段考-样-回放.html（手样回放，验 schema）
+运行：python3 -I 本地化/脚本/段考排版.py <年级学期> <节点>
+  段考排版.py 高一下 期中 → 本地化/内容/段考-高一下-期中.定稿.json → 渲染/本地化/段考-高一下-期中.html
+  段考排版.py 期中前月考  → 同 段考排版.py 高一上 期中前月考（只给节点时年级学期为高一上，兼容旧命令）
+  段考排版.py 样          → 本地化/内容/段考-样.定稿.json → 渲染/本地化/段考-样-回放.html（手样回放，验 schema）
+  年级学期：高一上 / 高一下 / 高二上 / 高二下；节点：期中前月考 / 期中 / 期中后月考 / 期末（顺序见 节点.py）。
+  册头由运行参数推导（节点.book_no、段考专题　<年级学期>）：全年连续册号 高一上 01–04、高一下 05–08、高二上 09–12、高二下 13–16，
+  每学期内节点顺序 期中前月考、期中、期中后月考、期末；页脚 data-unit = <年级学期><节点>。
+  定稿 JSON 里若写了 data_no / unit_book，必须与推导值一致，否则报错；h2 必须等于节点名。
 
 只用 段考.css（继承 同步.css）已有的 class；不写内联样式。
 
@@ -22,18 +26,18 @@
 gloss / note 的 lines：每个元素一行，行间 <br>。
 
 {
-  "data_no": "01",                                  册头编号（期中前月考 "01"、期中 "02"）
-  "unit_book": "段考专题　高一上 · 第 1 站",          册头 kicker
+  "data_no": "01",                                  册头编号：由运行参数推导（见上），定稿里写了须一致
+  "unit_book": "段考专题　高一上",          册头 kicker：由运行参数推导（见上），定稿里写了须一致
   "h2": "期中前月考",                                 册头标题
   "stats": [                                        册头三项：{pre?, b, post?}，pre/post 为普通文字
-    {"b": "12", "post": "套东莞卷"},
+    {"b": "12", "post": "套试卷"},
     {"b": "6", "post": "个专题"},
-    {"pre": "考时教材约进行到 ", "b": "U2"}
+    {"pre": "教学进度 ", "b": "U2"}
   ],
-  "overview": {                                     「这次段考考什么」（专题总表）
-    "title": "这次段考考什么",
-    "chip": "2022–2025 · 单句类题",
-    "lead": "一格 = 一成的卷考到。**粗体**教材进度 = 考在教之前。",
+  "overview": {                                     「考情总览」（专题总表）
+    "title": "考情总览",
+    "chip": "2022–2025 · 东莞真题",
+    "lead": "每格代表 10% 的试卷；教材进度加粗，表示考查早于教学。",
     "rows": [                                       行顺序 = 总表行顺序（讲的在前，不讲的在后）
       {"name": "非谓语", "cov": 1.0, "n": 55,      cov 覆盖率 0–1；格数 = round(cov×10)；n 题数
        "book": "必修二 U4 起", "ahead": true,       book 教材文字；ahead 为真则加粗（考在教之前）
@@ -45,7 +49,7 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
     {
       "no": 4,                                      编号（与 data-no 一致，从 1 起）
       "name": "虚拟语气",
-      "vols": 12, "cov": 8, "n": 10,                专题头 chip：「12 卷中 8 卷考 · 10 题」
+      "vols": 12, "cov": 8, "n": 10,                专题头 chip：「覆盖 8/12 卷 · 10 道」
       "explain": [                                  讲解块，按顺序输出
         {"type": "subhead", "text": "recommend 型"},           <p class="subhead">
         {"type": "gloss", "lines": ["10 题里 9 题", "recommend：必修一 U1"]},   <aside class="gloss">（柱注，≤2 行）
@@ -74,22 +78,63 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
 }
 
 练一练答案区按讲的专题分组：每组是 <h4>专题 n　名称</h4>（直接挂在 section 下）+ 独立的 <ol class="key">，<li data-no="…"><b class="ans">答案</b>说明</li>。
+
+=== 英式输出（--theme 英式，版式依据 规范/04-英式版式.md）===
+
+运行：python3 -I 本地化/脚本/段考排版.py <节点> [--topics 1,3]（英式为默认主题，2026-11-05 起）
+  整册输出 渲染/本地化/段考-高一上-<节点>.html；带 --topics 输出 …-样章.html；--theme 现行 输出旧柱式 …-柱式.html，主题 渲染/本地化/英式.css（只 import 基础.css）。
+  JSON schema 不变；只是结构不同（其余同现行）：
+  · 讲解：每个 subhead 及其后的 gloss / p / pattern / note 包进 <div class="group">，直到下一个 subhead。
+    gloss 多行用「 · 」合成一行，与小标题药丸同行。note 的多行用空格接成一行。
+  · 例题：首行 <p class="ex-head"><b class="ex-no">例 n</b><span class="src">出处</span><span class="hint">柱注</span></p>，
+    题干段另起、不再带出处；解析首段前是 <h4>解析</h4>（药丸，与「句意」同行）。
+  · 练一练：出处放题干段行首 <p><span class="src">…</span>题干…</p>，句末不再放；改写指令 .cue 仍在句末。
+  · 新 class 只有 group、ex-head、ex-no、hint；其余沿用现有 class（src、gloss、pattern、note、keypoint、solution、ans-line 等）。
+  · --topics：只输出指定专题及其答案组；册头与考情总览保留；练一练题号仍按全册连续编号。只能与 --theme 英式 同用。
 """
+import argparse
 import html
 import json
 import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from 节点 import GRADE_TERMS, NODES, book_no  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 CONTENT = ROOT / '本地化' / '内容'
 RENDER = ROOT / '渲染' / '本地化'
 
-NODE_FILES = {
-    '期中前月考': ('段考-高一上-期中前月考.定稿.json', '段考-高一上-期中前月考.html'),
-    '期中': ('段考-高一上-期中.定稿.json', '段考-高一上-期中.html'),
-    '样': ('段考-样.定稿.json', '段考-样-回放.html'),
-}
+
+def resolve(target):
+    """命令行参数 → (年级学期, 节点, 定稿文件名, 输出文件名)。样：节点为 None，由定稿 h2 决定。"""
+    if target == ['样']:
+        return '高一上', None, '段考-样.定稿.json', '段考-样-回放.html'
+    if len(target) == 1 and target[0] in NODES:
+        gt, node = '高一上', target[0]
+    elif len(target) == 2 and target[0] in GRADE_TERMS and target[1] in NODES:
+        gt, node = target
+    else:
+        raise SystemExit(f'用法：段考排版.py <年级学期> <节点>（如 高一下 期中），或 段考排版.py 样。'
+                         f'年级学期：{" / ".join(GRADE_TERMS)}；节点：{" / ".join(NODES)}')
+    return gt, node, f'段考-{gt}-{node}.定稿.json', f'段考-{gt}-{node}.html'
+
+
+def head_values(gt, node):
+    """册头两值（推导）：data_no 与 kicker「段考专题　<年级学期>」（U+3000）。"""
+    return book_no(gt, node), '段考专题\u3000' + gt
+
+THEME_CSS = {'现行': '段考.css', '英式': '英式.css'}
+
+
+def src_text(label):
+    """出处显示（所有者定，2026-11-05）：「2023 · 学校 · 高一上月考」显示为「2023 学校高一上月考」——年份后空一格，校名与考试连写。
+    数据（题库标签、定稿 src）不变，只改显示。"""
+    parts = (label or '').split(' · ')
+    if len(parts) == 3:
+        return f'{parts[0]} {parts[1]}{parts[2]}'
+    return label or ''
 
 BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
@@ -97,6 +142,7 @@ ASCII_RE = re.compile(r'[A-Za-z]')
 BOLD_RE = re.compile(r'\*\*(.+?)\*\*')
 ATOM_RE = re.compile(r'\[\[(.+?)\]\]')
 UL_RE = re.compile(r'\[_(.+?)_\]')   # [_划线部分_] → <u>（强调划线类题：题库无划线，按答案标出）
+HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 英式：独立的 -ing / -ed 前缀，连字符后不断行
 
 
 def esc(s):
@@ -127,9 +173,12 @@ def cue_html(cues):
 def stem_p(stem_obj, src_inline=True):
     """题干段。src_inline=True：出处放 </p> 前（例题）；False：练习出处由调用方放 </p> 后。"""
     text = (stem_obj.get('text') or '').replace('\n', ' → ')
-    body = inline(text) + cue_html(stem_obj.get('cue'))
+    body = inline(text)
+    if answer_mode(stem_obj.get('text')) == 'half':
+        body = body.replace(' → ', '<br>→ ', 1)   # 改写句另起一行，与原句分开
+    body += cue_html(stem_obj.get('cue'))
     if src_inline and stem_obj.get('src'):
-        body += f' <span class="src">{esc(stem_obj["src"])}</span>'
+        body += f' <span class="src">{esc(src_text(stem_obj["src"]))}</span>'
     if is_en(text):
         return f'<p lang="en">{body}</p>'
     return f'<p>{body}</p>'
@@ -139,14 +188,14 @@ def stat_html(s):
     return (esc(s.get('pre')) + f'<b>{esc(s["b"])}</b>' + esc(s.get('post')))
 
 
-def header_html(d):
-    stats = ''.join(f'<li>{stat_html(s)}</li>' for s in d['stats'])
+def header_html(d, gt):
+    # 册头不报统计（所有者定，2026-11-05：教学进度等数据非必要），JSON 的 stats 保留不显示
+    no, kicker = head_values(gt, d['h2'])
     return (
-        f'<section class="unit stage" data-unit="高一上 · {esc(d["h2"])}">\n'
-        f'<header class="unit-head stage-head" data-no="{esc(d["data_no"])}">\n'
-        f'  <p class="unit-book">{esc(d["unit_book"])}</p>\n'
+        f'<section class="unit stage" data-unit="{esc(gt + d["h2"])}">\n'
+        f'<header class="unit-head stage-head" data-no="{esc(no)}">\n'
+        f'  <p class="unit-book">{esc(kicker)}</p>\n'
         f'  <h2>{esc(d["h2"])}</h2>\n'
-        f'  <ul class="unit-stats">{stats}</ul>\n'
         '</header>\n\n')
 
 
@@ -159,25 +208,21 @@ def cov_cell(cov):
 def overview_html(o):
     rows = []
     for r in o['rows']:
-        book = inline(r['book'])
-        if r.get('ahead'):
-            book = f'<span class="ahead">{book}</span>'
         cls = ' class="skip"' if r.get('skip') else ''
         rows.append(
             f'      <tr{cls}><td class="name">{inline(r["name"])}</td>{cov_cell(r["cov"])}'
-            f'<td class="n">{r["n"]}</td><td class="book">{book}</td>'
+            f'<td class="n">{r["n"]}</td>'
             f'<td class="go">{inline(r["go"])}</td></tr>')
     return (
         '<section class="part overview">\n'
-        f'  <header class="topic-head"><h3>{esc(o["title"])}</h3><span class="chip chip-freq">{esc(o["chip"])}</span></header>\n'
-        f'  <p class="lead">{inline(o["lead"])}</p>\n'
+        f'  <header class="topic-head"><h3>{esc(o["title"])}</h3><span class="chip chip-freq">{esc(o["chip"].replace(' · ', ' '))}</span></header>\n'
         '  <table class="focus">\n'
-        '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col><col class="c-go"></colgroup>\n'
-        '    <thead><tr><th>专题</th><th>多少卷考到</th><th>题数</th><th>人教教材</th><th>本册</th></tr></thead>\n'
+        '    <colgroup><col class="c-name"><col class="c-cov"><col class="c-n"><col class="c-go"></colgroup>\n'
+        '    <thead><tr><th>专题</th><th>覆盖率</th><th>题数</th><th>本册</th></tr></thead>\n'
         '    <tbody>\n' + '\n'.join(rows) + '\n    </tbody>\n'
         '  </table>\n'
-        f'  <p class="after">{inline(o["after"])}</p>\n'
-        '</section>\n\n')
+        + (f'  <p class="after">{inline(o["after"])}</p>\n' if o.get('after') else '')
+        + '</section>\n\n')
 
 
 def explain_html(blocks):
@@ -225,7 +270,7 @@ def example_html(e):
 
 def topic_html(t, drill_nos):
     no = t['no']
-    chip = (f'{t["vols"]} 卷中 <b>{t["cov"]}</b> 卷考 · <b>{t["n"]}</b> 题')
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷，<b>{t["n"]}</b> 道')
     parts = [
         f'<section class="topic" data-no="{no}">\n',
         f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'
@@ -240,7 +285,7 @@ def topic_html(t, drill_nos):
         for d, n in zip(t['drill'], drill_nos):
             stem = {'text': d['stem'], 'cue': d.get('cue')}
             items.append(f'      <li data-no="{n}">{stem_p(stem, src_inline=False)}'
-                         f'<span class="src">{esc(d.get("src"))}</span></li>')
+                         f'<span class="src">{esc(src_text(d.get("src")))}</span></li>')
         parts.append('  <div class="drill">\n    <h4>练一练</h4>\n    <ol class="atoms">\n'
                      + '\n'.join(items) + '\n    </ol>\n  </div>\n')
     parts.append('</section>\n\n')
@@ -267,10 +312,167 @@ def answers_html(topics, drill_nos_by_topic):
         '</section>\n')
 
 
+# ── 英式版式（--theme 英式）：只改结构，JSON 与现行相同 ─────────────────
+
+def gloss_en(lines):
+    """柱注合成一行：多行用「 · 」接起。英式没有柱，柱注住在小标题药丸右侧或例题首行。"""
+    return '；'.join(inline(x) for x in lines)   # 两条提示用分号接（不用「 · 」）
+
+
+def explain_items_en(blocks):
+    """讲解块逐个转 HTML（英式）。返回 [(类型, html)]。"""
+    out = []
+    for b in blocks:
+        t = b['type']
+        if t == 'subhead':
+            h = f'<p class="subhead">{inline(b["text"])}</p>'
+        elif t == 'gloss':
+            h = f'<aside class="gloss">{gloss_en(b["lines"])}</aside>'
+        elif t == 'p':
+            h = f'<p>{inline(b["text"])}</p>'
+        elif t == 'pattern':
+            h = f'<p class="pattern" lang="en">{inline(b["text"])}</p>'
+        elif t == 'note':
+            h = '<div class="note">' + ' '.join(inline(x) for x in b['lines']) + '</div>'
+        else:
+            raise SystemExit(f'explain 未知块类型：{t}')
+        out.append((t, h))
+    return out
+
+
+def explain_segments_en(blocks):
+    """讲解块分段：每个小标题及其后的内容一段 → [(小标题文字或 None, html)]。"""
+    segs = []   # [小标题, [html, ...], 是否分组]
+    items = explain_items_en(blocks)
+    # explain_items_en 与 blocks 不一定一一对应，按 subhead 出现顺序取小标题文字
+    sub_texts = [b['text'] for b in blocks if b['type'] == 'subhead']
+    k = 0
+    for t, h in items:
+        if t == 'subhead':
+            segs.append([sub_texts[k] if k < len(sub_texts) else None, [h], True])
+            k += 1
+        elif segs:
+            segs[-1][1].append(h)
+        else:
+            segs.append([None, [h], False])
+    out = []
+    for name, hs, grouped in segs:
+        if grouped:
+            inner = '\n'.join('        ' + h for h in hs)
+            out.append((name, '      <div class="group">\n' + inner + '\n      </div>'))
+        else:
+            out.append((name, '\n'.join('      ' + h for h in hs)))
+    return out
+
+
+def explain_en_html(blocks):
+    """每个小标题及其后的内容包进 <div class="group">，直到下一个小标题。"""
+    return '\n'.join(h for _, h in explain_segments_en(blocks))
+
+
+def example_en_html(e, n):
+    """例题（英式）：首行「例 n + 出处 + 柱注合成的提示」；题干另起，不带出处；解析首段前放解析药丸（h4）。"""
+    mid = e['mid']
+    label = mid.get('label', '成分')
+    head = f'<b class="ex-no">例 {n}</b>'
+    if e['stem'].get('src'):
+        head += f'<span class="src">{esc(src_text(e["stem"]["src"]))}</span>'
+    hint = gloss_en(e.get('gloss') or [])
+    if hint:
+        head += f'<span class="hint">{hint}</span>'
+    return (
+        '  <article class="example">\n'
+        '    <div class="stem">\n'
+        f'      <p class="ex-head">{head}</p>\n'
+        f'      {stem_p(e["stem"], src_inline=False)}\n'
+        '    </div>\n'
+        '    <div class="solution">\n'
+        '      <h4>解析</h4>\n'
+        f'      <p><b>句意</b>：{inline(e["ju"])}</p>\n'
+        f'      <p><b>{esc(label)}</b>：{inline(mid["text"])}</p>\n'
+        + answer_p(e['ans']) + '\n'
+        '    </div>\n'
+        '  </article>\n')
+
+
+# ── 作答方式（2026-11-05 所有者定）──
+# whole：整句作答（题干无空，或以「→ ___」收尾）→ 题下单独两条书写横线 <div class="answer-lines">，去掉句末的「→ ___」；
+# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 改写句另起一行，空位加长 <span class="blank long">；
+# normal：其余（含单句改错）不变。只用于练习题（练一练 / 原题），例题不加。
+ANSWER_LINES = '<div class="answer-lines"></div>'
+_TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
+
+
+def answer_mode(stem, cues=None):
+    if '改错' in ''.join(cues or []):
+        return 'normal'
+    s = (stem or '').replace('\n', ' → ').strip()
+    if not re.search(r'_{2,}', s) or _TAIL_BLANK_RE.search(s):
+        return 'whole'
+    return 'half' if '→' in s else 'normal'
+
+
+def strip_tail_blank(stem):
+    return _TAIL_BLANK_RE.sub('', stem or '')
+
+
+def drill_p_en(d):
+    """练一练题干段（英式）：出处放段首，后空 1 字接题干；改写指令（cue）仍在句末。"""
+    mode = answer_mode(d.get('stem'), d.get('cue'))
+    text = (d.get('stem') or '').replace('\n', ' → ')
+    if mode == 'whole':
+        text = strip_tail_blank(text)
+    src = f'<span class="src">{esc(src_text(d["src"]))}</span>' if d.get('src') else ''
+    lang = ' lang="en"' if is_en(text) else ''
+    body = inline(text)
+    if mode == 'half':
+        body = body.replace('<span class="blank"></span>', '<span class="blank long"></span>')
+        body = body.replace(' → ', '<br>→ ', 1)   # 改写句另起一行，与原句分开
+    tail = ANSWER_LINES if mode == 'whole' else ''
+    return f'<p{lang}>{src}{body}{cue_html(d.get("cue"))}</p>{tail}'
+
+
+def topic_en_html(t, drill_nos):
+    no = t['no']
+    chip = (f'覆盖 <b>{t["cov"]}</b>/{t["vols"]} 卷，<b>{t["n"]}</b> 道')
+    parts = [
+        f'<section class="topic" data-no="{no}">\n',
+        f'  <header class="topic-head" data-no="{no}"><h3>{esc(t["name"])}</h3>'
+        f'<span class="chip chip-freq">{chip}</span></header>\n',
+    ]
+    # 讲一块、练一块（所有者定，2026-11-05）：每个讲解块后紧跟 group 指向它的例题；未标 group 的例题放在所有讲解块之后
+    exs = t['examples']
+    n = 0
+    for name, h in explain_segments_en(t['explain']):
+        parts.append('  <div class="explain">\n' + h + '\n  </div>\n')
+        for e in exs:
+            if name is not None and e.get('group') == name:
+                n += 1
+                parts.append(example_en_html(e, n))
+    names = {nm for nm, _ in explain_segments_en(t['explain'])}
+    for e in exs:
+        if e.get('group') not in names:
+            n += 1
+            parts.append(example_en_html(e, n))
+    if t.get('keypoint'):
+        parts.append(f'  <aside class="keypoint">\n    <p>{inline(t["keypoint"])}</p>\n  </aside>\n')
+    if t.get('drill'):
+        pairs = list(zip(t['drill'], drill_nos))
+        must = [(d, n) for d, n in pairs if d.get('level', '必练') == '必练']
+        more = [(d, n) for d, n in pairs if d.get('level') == '选练']
+        def ol(ps):
+            return ('    <ol class="atoms">\n'
+                    + '\n'.join(f'      <li data-no="{n}">{drill_p_en(d)}</li>' for d, n in ps) + '\n    </ol>\n')
+        body = ol(must) if not more else (
+            '    <p class="lvl">必练</p>\n' + ol(must) + '    <p class="lvl lvl-more">选练</p>\n' + ol(more))
+        parts.append('  <div class="drill">\n    <h4>练一练</h4>\n' + body + '  </div>\n')
+    parts.append('</section>\n\n')
+    return ''.join(parts)
+
+
 def validate(D):
     errs = []
-    if len(D['stats']) != 3:
-        errs.append('册头 stats 必须 3 项')
+    # 册头不显示统计（规范/05），stats 字段可省
     names = set()
     for r in D['overview']['rows']:
         if not (0 <= r['cov'] <= 1):
@@ -305,7 +507,12 @@ def validate(D):
     return errs
 
 
-def build(D):
+def build(D, theme='现行', only=None, gt='高一上'):
+    """only：专题编号集合（仅英式）；None 为整册。练一练题号始终按全册连续编号。"""
+    # 练一练分「必练」「选练」（所有者定，2026-11-05）：每专题先必练、后选练（各自保持定稿内顺序）；没有 level 的按必练
+    for t in D['topics']:
+        if t.get('drill'):
+            t['drill'] = sorted(t['drill'], key=lambda d: 0 if d.get('level', '必练') == '必练' else 1)
     # 练一练题号全册连续
     drill_nos_by_topic, n = {}, 0
     for t in D['topics']:
@@ -314,35 +521,82 @@ def build(D):
             n += 1
             ids.append(n)
         drill_nos_by_topic[t['no']] = ids
-    body = (header_html(D) + overview_html(D['overview'])
-            + ''.join(topic_html(t, drill_nos_by_topic[t['no']]) for t in D['topics'])
-            + answers_html(D['topics'], drill_nos_by_topic)
+    # 题数只算本册印出的题（例题 + 练一练），读者翻书能对上；覆盖卷数仍取统计
+    printed = {t['name']: len(t.get('examples', [])) + len(t.get('drill', [])) for t in D['topics']}
+    for t in D['topics']:
+        t['n'] = printed[t['name']]
+    for r in D['overview']['rows']:
+        if r['name'] in printed:
+            r['n'] = printed[r['name']]
+    topics = [t for t in D['topics'] if only is None or t['no'] in only]
+    topic_fn = topic_en_html if theme == '英式' else topic_html
+    body = (header_html(D, gt) + overview_html(D['overview'])
+            + ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
+            + answers_html(topics, drill_nos_by_topic)
             + '</section>\n')
-    title = f'段考专题讲义 · 高一上 · {D["h2"]}'
+    if theme == '英式':
+        body = HYPHEN_RE.sub('-⁠', body)   # 「用 -ing」的连字符后不断行（U+2060 词连接符，零宽）
+    title = f'段考专题讲义 · {gt} · {D["h2"]}'
     return ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{esc(title)}</title>'
-            '<link rel="stylesheet" href="段考.css"></head>\n<body>\n'
+            f'<link rel="stylesheet" href="{THEME_CSS[theme]}"></head>\n<body>\n'
             + body + '</body>\n</html>\n')
 
 
+def validate_head(D, gt, node):
+    """册头与运行参数一致：h2 = 节点名；定稿若写了 data_no / unit_book，须等于推导值。"""
+    if node not in NODES:
+        return [f'节点应为 {" / ".join(NODES)} 之一，得到 {node!r}']
+    errs = []
+    if D.get('h2') != node:
+        errs.append(f'h2 应为节点名 {node}，定稿写的是 {D.get("h2")!r}')
+    no, kicker = head_values(gt, node)
+    if 'data_no' in D and D['data_no'] != no:
+        errs.append(f'data_no 应为推导值 {no}（{gt}·{node}），定稿写的是 {D["data_no"]!r}')
+    if 'unit_book' in D and D['unit_book'] != kicker:
+        errs.append(f'unit_book 应为推导值 {kicker!r}，定稿写的是 {D["unit_book"]!r}')
+    return errs
+
+
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in NODE_FILES:
-        raise SystemExit(f'用法：段考排版.py <{"|".join(NODE_FILES)}>')
-    src_name, out_name = NODE_FILES[sys.argv[1]]
+    ap = argparse.ArgumentParser(description='段考专题讲义排版：定稿 JSON → HTML。')
+    ap.add_argument('target', nargs='+', help='年级学期 节点，如 高一下 期中（只给节点时年级学期为高一上）；或 样（手样回放）')
+    ap.add_argument('--theme', choices=list(THEME_CSS), default='英式',
+                    help='版式主题：英式（规范/04，默认）或 现行（旧柱式，2026-11-05 停用，仅留作对照）')
+    ap.add_argument('--topics', help='只输出这些专题（逗号分隔编号，如 1 或 1,3）；仅英式可用')
+    args = ap.parse_args()
+
+    gt, node, src_name, out_name = resolve(args.target)
     src = CONTENT / src_name
+    if not src.exists():
+        raise SystemExit(f'没有定稿：{src}')
     D = json.loads(src.read_text(encoding='utf-8'))
-    errs = validate(D)
+    if node is None:            # 样
+        node = D.get('h2')
+    errs = validate(D) + validate_head(D, gt, node)
     if errs:
         for e in errs:
             print('错误', e, file=sys.stderr)
         raise SystemExit(1)
-    doc = build(D)
+    only = None
+    if args.topics:
+        if args.theme != '英式':
+            raise SystemExit('--topics 只能与 --theme 英式 同用')
+        only = {int(x) for x in args.topics.split(',') if x.strip()}
+        bad = only - {t['no'] for t in D['topics']}
+        if bad:
+            raise SystemExit(f'没有这些专题编号：{sorted(bad)}')
+    doc = build(D, args.theme, only, gt)
     assert 'style=' not in doc, '出现内联样式'
+    # 英式整册 = 正式文件名；英式选专题 = 样章；旧柱式另存，不覆盖正式文件
+    if args.theme == '英式' and only is not None:
+        out_name = out_name.replace('.html', '-样章.html')
+    elif args.theme == '现行':
+        out_name = out_name.replace('.html', '-柱式.html')
     out = RENDER / out_name
     out.write_text(doc, encoding='utf-8')
     print('写入', out)
-
 
 if __name__ == '__main__':
     main()

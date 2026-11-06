@@ -1,0 +1,2011 @@
+{
+  "生成": "本地化/脚本/同步选题.py",
+  "书": "选择性必修第一册",
+  "单元": [
+    {
+      "序": 17,
+      "data_no": "U1",
+      "unit_book": "选择性必修第一册　Unit 1",
+      "chips": {
+        "year_range": "2021–2026",
+        "n_questions": 11,
+        "n_kaofa": 5,
+        "n_phrase": 1
+      },
+      "h2": "People of Achievement",
+      "zh": "成就人物",
+      "stats": {
+        "卷数": 10,
+        "词数": 67,
+        "短语数": 56,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "gentle",
+          "forms": [
+            {
+              "form": "gently",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "acknowledge",
+          "forms": [
+            {
+              "form": "is acknowledged",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "apparently",
+          "forms": [
+            {
+              "form": "apparently",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "conclusion",
+          "forms": [
+            {
+              "form": "to a conclusion",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "crucial",
+          "forms": [
+            {
+              "form": "crucially",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "defeat",
+          "forms": [
+            {
+              "form": "defeated",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "flow",
+          "forms": [
+            {
+              "form": "flowing",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "scientific",
+          "forms": [
+            {
+              "form": "scientific",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "theory",
+          "forms": [
+            {
+              "form": "theories",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "复数"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "gentle",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "gentle",
+              "词性": "",
+              "释义": "adj. 温柔的",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "gently",
+              "词性": "",
+              "释义": "",
+              "hit": true,
+              "来源": "补入"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "070-13",
+              "no": 1,
+              "标签": "2024 · 东莞市 · 高二上期中",
+              "题型": "语法填空",
+              "题干": "The old man walked down the street, his working stick tapping ___ (gentle) against the pavement.",
+              "题干HTML": "The old man walked down the street, his working stick tapping <span class=\"blank\"></span> (gentle) against the pavement.",
+              "cue": [],
+              "提示词": "gentle",
+              "答案": "gently",
+              "解析": "考查副词。句意：老人沿着街道走着，他的手杖轻轻地敲击着人行道。空处修饰动词tapping，应用副词形式，故填gently。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "apparently",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "apparently",
+              "词性": "",
+              "释义": "adv. 显而易",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "apparent",
+              "词性": "adj.",
+              "释义": "明显的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "046-06",
+              "no": 2,
+              "标签": "2025 · 东莞市 · 高二上联考",
+              "题型": "语法填空",
+              "题干": "___ (apparent), she took no notice of the mistakes in the accident.",
+              "题干HTML": "<span class=\"blank\"></span> (apparent), she took no notice of the mistakes in the accident.",
+              "cue": [],
+              "提示词": "apparent",
+              "答案": "Apparently",
+              "解析": "考查副词。句意：显然，她没有注意到事故中的错误。修饰后文整个句子，应用提示词的副词形式apparently“显然”，作状语，位于句首，首字母需大写。故填Apparently。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "crucial",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "crucial",
+              "词性": "",
+              "释义": "adj. 至关重",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "crucially",
+              "词性": "adv.",
+              "释义": "至关重要地",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "069-07",
+              "no": 3,
+              "标签": "2025 · 东莞市 · 高二上月考",
+              "题型": "语法填空",
+              "题干": "But their life cycle is ___ (crucial) affected by one factor above all: temperature.",
+              "题干HTML": "But their life cycle is <span class=\"blank\"></span> (crucial) affected by one factor above all: temperature.",
+              "cue": [],
+              "提示词": "crucial",
+              "答案": "crucially",
+              "解析": "考查副词。句意：但它们的生命周期受到一个因素的极大影响，而这个因素就是温度。修饰动词affect，用副词crucially。故填crucially。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
+        {
+          "id": "095-13",
+          "no": 4,
+          "标签": "2024 · 东华高级中学、东华松山湖高级中学 · 高一下期中",
+          "题型": "单词拼写",
+          "题干": "All our results are published in ___ (科学的) journals.",
+          "题干HTML": "All our results are published in <span class=\"blank\"></span> (科学的) journals.",
+          "cue": [],
+          "提示词": null,
+          "答案": "scientific",
+          "解析": "考查形容词。句意：我们所有的研究结果都发表在科学期刊上。根据提示的汉语，表示“科学的”应为形容词scientific作定语修饰名词journals。故填scientific。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "phrases": [
+        {
+          "短语": "draw/reach/come to/arrive at a conclusion",
+          "释义": "得出结论；作出推断",
+          "词头": "conclusion",
+          "atoms": [
+            {
+              "id": "038-17",
+              "no": 5,
+              "标签": "2026 · 东莞第一中学 · 高二下期末",
+              "题型": "完成句子",
+              "题干": "Having talked with every member present, the judge ___ (得出结论) that the accident was caused by carelessness. (根据中文提示完成句子)",
+              "题干HTML": "Having talked with every member present, the judge <span class=\"blank\"></span> (得出结论) that the accident was caused by carelessness. (根据中文提示完成句子)",
+              "cue": [],
+              "提示词": null,
+              "答案": "came ； to ； a ； conclusion",
+              "解析": "句意：和在场的每一位成员交谈过后，法官得出结论，这起事故是由粗心大意造成的。根据句意和中文提示可知，表示“得出结论”应用固定短语come to a conclusion；句子叙述过去发生的事情，用一般过去时，come的过去式为came。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "069-12",
+          "no": 6,
+          "标签": "2025 · 东莞市 · 高二上月考",
+          "题型": "语法填空",
+          "题干": "It ___ (acknowledge) that music has an important effect on our health and mood.",
+          "题干HTML": "It <span class=\"blank\"></span> (acknowledge) that music has an important effect on our health and mood.",
+          "cue": [],
+          "提示词": "acknowledge",
+          "答案": "is acknowledged",
+          "解析": "考查被动语态和固定句型。句意：众所周知，音乐对我们的健康和情绪有重要影响。此处考查固定句型“It is acknowledged that...”，表示“众所周知……”，其中 it 为形式主语，真正的主语是 that 引导的从句。主语 it 与动词 acknowledge之间是被动关系，所以用被动语态，且句子描述客观事实，用一般现在时的被动语态。故填 is acknowledged。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "049-15",
+          "no": 7,
+          "标签": "2023 · 东莞外国语学校 · 高一下期中",
+          "题型": "语法填空",
+          "题干": "To arrive our destination we need to travel a narrow valley, with a stream ___ (flow) through it.",
+          "题干HTML": "To arrive our destination we need to travel a narrow valley, with a stream <span class=\"blank\"></span> (flow) through it.",
+          "cue": [],
+          "提示词": "flow",
+          "答案": "flowing",
+          "解析": "考查非谓语动词。句意：为了到达目的地，我们需要经过一个狭窄的山谷，山谷中有一条小溪流过。设空处为非谓语动词，with的宾语为a stream，作动词flow的逻辑主语，为主谓关系，应用现在分词，作补语，故填flowing。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "057-07",
+          "no": 8,
+          "标签": "2023 · 东莞实验中学 · 高一下月考",
+          "题型": "语法填空",
+          "题干": "The blind little girl learned the word “water” by putting her hand ___ (gentle) under the stream of water and feeling the liquid.",
+          "题干HTML": "The blind little girl learned the word “water” by putting her hand <span class=\"blank\"></span> (gentle) under the stream of water and feeling the liquid.",
+          "cue": [
+            "用所给词的适当形式填空"
+          ],
+          "提示词": "gentle",
+          "答案": "gently",
+          "解析": "考查副词。句意：这个失明的小女孩通过把手轻轻地放在水流下，感受液体，学会了“水”这个词。分析句子结构可知，本空填副词gently“轻轻地”，作状语，修饰动词putting。故填gently。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "132-15",
+          "no": 9,
+          "标签": "2023 · 东莞第一中学 · 高一下月考",
+          "题型": "语法填空",
+          "题干": "When Adam arrived, he heard a piano ringing ___ (gentle) in the background.",
+          "题干HTML": "When Adam arrived, he heard a piano ringing <span class=\"blank\"></span> (gentle) in the background.",
+          "cue": [],
+          "提示词": "gentle",
+          "答案": "gently",
+          "解析": "考查副词。句意：当亚当到达时，他听到背景中有钢琴轻轻响起。修饰动词ring应用副词gently，作状语。故填gently。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "020-09",
+          "no": 10,
+          "标签": "2022 · 东莞市 · 高一下期末",
+          "题型": "语法填空",
+          "题干": "The Chinese Women’s Football Team ___ (defeat) the Korean team on February 6, in the 2022 Women’s Asian Cup.",
+          "题干HTML": "The Chinese Women’s Football Team <span class=\"blank\"></span> (defeat) the Korean team on February 6, in the 2022 Women’s Asian Cup.",
+          "cue": [],
+          "提示词": "defeat",
+          "答案": "defeated",
+          "解析": "考查一般过去时。句意：2月6日，中国女足在2022年女子亚洲杯比赛中战胜了韩国队。根据时间状语\"on February 6, in the 2022 Women’s Asian Cup\"可知，句子是描述过去发生的事情，应用一般过去时。故填defeated。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "010-16",
+          "no": 11,
+          "标签": "2021 · 东莞市 · 高一下期末",
+          "题型": "语法填空",
+          "题干": "They applied several ___ (theory) from physics to help determine how the birds connect with their environment.",
+          "题干HTML": "They applied several <span class=\"blank\"></span> (theory) from physics to help determine how the birds connect with their environment.",
+          "cue": [],
+          "提示词": "theory",
+          "答案": "theories",
+          "解析": "考查可数名词的数。句意：他们应用了一些物理学理论来帮助确定鸟类是如何与环境相联系的。several 几个，后需接可数名词复数，theory理论，可数名词，所以空处需用其复数形式theories。故填theories。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 11
+    },
+    {
+      "序": 18,
+      "data_no": "U2",
+      "unit_book": "选择性必修第一册　Unit 2",
+      "chips": {
+        "year_range": "2020–2025",
+        "n_questions": 8,
+        "n_kaofa": 4,
+        "n_phrase": 0
+      },
+      "h2": "Looking Into the Future",
+      "zh": "展望未来",
+      "stats": {
+        "卷数": 7,
+        "词数": 72,
+        "短语数": 74,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "preference",
+          "forms": [
+            {
+              "form": "preference",
+              "n": 2
+            },
+            {
+              "form": "prefers",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "动词形式"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "distant",
+          "forms": [
+            {
+              "form": "distance",
+              "n": 1
+            },
+            {
+              "form": "distant",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "拼写"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "instant",
+          "forms": [
+            {
+              "form": "instant",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "persuade",
+          "forms": [
+            {
+              "form": "persuasive",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "resist",
+          "forms": [
+            {
+              "form": "resistance",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "preference",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "preference",
+              "词性": "",
+              "释义": "n. 爱好",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "prefer",
+              "词性": "vt.",
+              "释义": "更喜欢",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "018-21",
+              "no": 1,
+              "标签": "2021 · 东华高级中学 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "The girl has a ___ (prefer) for music and she wishes to be a singer.",
+              "题干HTML": "The girl has a <span class=\"blank\"></span> (prefer) for music and she wishes to be a singer.",
+              "cue": [],
+              "提示词": "prefer",
+              "答案": "preference",
+              "解析": "考查名词。句意：这个女孩喜欢音乐，她希望成为一名歌手。分析句子结构可知，设空处被不定冠词a限定，所以应用名词单数作宾语。故填preference。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "distant",
+          "题数": 2,
+          "chain": [
+            {
+              "词": "distant",
+              "词性": "",
+              "释义": "adj. 遥远的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "distance",
+              "词性": "n.",
+              "释义": "距离",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "046-09",
+              "no": 2,
+              "标签": "2025 · 东莞市 · 高二上联考",
+              "题型": "语法填空",
+              "题干": "When approaching these areas, you should slow your pace and focus your vision on the most ___ (distance) ground.",
+              "题干HTML": "When approaching these areas, you should slow your pace and focus your vision on the most <span class=\"blank\"></span> (distance) ground.",
+              "cue": [],
+              "提示词": "distance",
+              "答案": "distant",
+              "解析": "考查形容词。句意：当接近这些区域时，你应该放慢脚步，把目光集中在最远处的地面上。空处修饰名词ground，提示词的形容词形式distant“远处的，遥远的”符合题意，和the most构成最高级。故填distant。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "persuade",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "persuade",
+              "词性": "",
+              "释义": "vt. 劝说",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "persuasion",
+              "词性": "n.",
+              "释义": "说服",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "persuasive",
+              "词性": "adj.",
+              "释义": "有说服力的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "057-16",
+              "no": 3,
+              "标签": "2023 · 东莞实验中学 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "It was apparent that he was defeated by the opposing lawyer as a consequence of lacking enough ___ (persuade) evidence.",
+              "题干HTML": "It was apparent that he was defeated by the opposing lawyer as a consequence of lacking enough <span class=\"blank\"></span> (persuade) evidence.",
+              "cue": [
+                "用所给词的适当形式填空"
+              ],
+              "提示词": "persuade",
+              "答案": "persuasive",
+              "解析": "考查形容词。句意：很明显，由于缺乏足够有说服力的证据，他被对方律师击败了。修饰后文名词evidence应用形容词persuasive，作定语。故填persuasive。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "resist",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "resist",
+              "词性": "",
+              "释义": "vi. & vt",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "resistant",
+              "词性": "adj.",
+              "释义": "有抵抗力的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "resistance",
+              "词性": "n.",
+              "释义": "抵制",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "069-06",
+              "no": 4,
+              "标签": "2025 · 东莞市 · 高二上月考",
+              "题型": "语法填空",
+              "题干": "The ___ (resist) of your body to germs or diseases is its power to remain unharmed or unaffected by them.",
+              "题干HTML": "The <span class=\"blank\"></span> (resist) of your body to germs or diseases is its power to remain unharmed or unaffected by them.",
+              "cue": [],
+              "提示词": "resist",
+              "答案": "resistance",
+              "解析": "考查名词。句意：你身体对细菌或疾病的抵抗力，指的是身体保持不受其伤害或影响的能力。设空处前有定冠词 The 修饰，且在句中作主语，应填名词；根据“its power to remain unharmed or unaffected by them(身体保持不受其伤害或影响的能力)”可知，空白处应填表示“抵抗力”含义的名词，resist 的名词形式是 resistance，且此处表示抽象概念，为不可数名词。故填 resistance。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
+        {
+          "id": "096-22",
+          "no": 5,
+          "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "单词拼写",
+          "题干": "A teacher should not show ___ （偏爱）for any of his pupils.",
+          "题干HTML": "A teacher should not show <span class=\"blank\"></span> （偏爱）for any of his pupils.",
+          "cue": [],
+          "提示词": null,
+          "答案": "preference",
+          "解析": "本题考查名词。解题要点：根据所给出的句子，结合汉语提示，可推出是“preference”，作show的宾语，构成搭配“show preference for”表示“对……的偏爱”，结合句意：老师不应该偏爱任何一个学生。故答案为preference。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "018-11",
+          "no": 6,
+          "标签": "2021 · 东华高级中学 · 高一上期末",
+          "题型": "单词拼写",
+          "题干": "Smile shortens the ___ (距离) between people and it is a good way to show your friendliness to others.",
+          "题干HTML": "Smile shortens the <span class=\"blank\"></span> (距离) between people and it is a good way to show your friendliness to others.",
+          "cue": [],
+          "提示词": null,
+          "答案": "distance",
+          "解析": "考查名词。句意：微笑缩短人与人之间的距离，这是一个很好的方式显示你对人友好。根据汉语提示以及空格前的定冠词the可知，此处填入名词distance做动词shortens的宾语。故填distance。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "016-12",
+          "no": 7,
+          "标签": "2020 · 东莞中学 · 高二上月考",
+          "题型": "单词拼写",
+          "题干": "It all happened in an ___ (瞬间).",
+          "题干HTML": "It all happened in an <span class=\"blank\"></span> (瞬间).",
+          "cue": [],
+          "提示词": null,
+          "答案": "instant",
+          "解析": "in an instant立刻；马上；刹那间，是固定搭配。故填instant。",
+          "句意": "这一切都发生在一刹那间。",
+          "reason": ""
+        }
+      ],
+      "phrases": [],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "012-09",
+          "no": 8,
+          "标签": "2020 · 东华高级中学 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "She is good at English and ___ (prefer) her English classes to be taught in English only.",
+          "题干HTML": "She is good at English and <span class=\"blank\"></span> (prefer) her English classes to be taught in English only.",
+          "cue": [],
+          "提示词": "prefer",
+          "答案": "prefers",
+          "解析": "考查动词时态和主谓一致。句意：她擅长英语，并且更喜欢英语课只用英语教授。此处主语为she，为第三人称单数，and连接前后两个谓语动词，第一个为is，故此处也应为三人称单数的一般现在时，故填prefers。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 8
+    },
+    {
+      "序": 19,
+      "data_no": "U3",
+      "unit_book": "选择性必修第一册　Unit 3",
+      "chips": {
+        "year_range": "2019–2026",
+        "n_questions": 16,
+        "n_kaofa": 5,
+        "n_phrase": 3
+      },
+      "h2": "Fascinating Parks",
+      "zh": "迷人的公园",
+      "stats": {
+        "卷数": 15,
+        "词数": 67,
+        "短语数": 36,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "accompany",
+          "forms": [
+            {
+              "form": "company",
+              "n": 4
+            },
+            {
+              "form": "keep me company",
+              "n": 2
+            },
+            {
+              "form": "accompanied",
+              "n": 1
+            },
+            {
+              "form": "keep her company",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "拼写"
+          ],
+          "题数": 8
+        },
+        {
+          "词头": "random",
+          "forms": [
+            {
+              "form": "randomly",
+              "n": 3
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "ban",
+          "forms": [
+            {
+              "form": "being banned",
+              "n": 1
+            },
+            {
+              "form": "has been banned",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 2
+        },
+        {
+          "词头": "amuse",
+          "forms": [
+            {
+              "form": "amused",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "incredible",
+          "forms": [
+            {
+              "form": "incredibly",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "swing",
+          "forms": [
+            {
+              "form": "has swung",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "random",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "random",
+              "词性": "",
+              "释义": "adj. 随机的",
+              "hit": true,
+              "来源": "词头"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "105-11",
+              "no": 1,
+              "标签": "2024 · 东莞市 · 高二下期中",
+              "题型": "语法填空",
+              "题干": "Amy’s room is always untidy, with her clothes and magazines lying ___ (random) around.",
+              "题干HTML": "Amy’s room is always untidy, with her clothes and magazines lying <span class=\"blank\"></span> (random) around.",
+              "cue": [],
+              "提示词": "random",
+              "答案": "randomly",
+              "解析": "考查副词。句意：艾米的房间总是不整洁，她的衣服和杂志乱放。根据句意及英文提示可知，此处使用副词randomly“随意地”，作状语，修饰lying。故填randomly。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "amuse",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "amuse",
+              "词性": "",
+              "释义": "vt.（提供）消",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "amusement",
+              "词性": "n.",
+              "释义": "娱乐",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "amused",
+              "词性": "adj.",
+              "释义": "被逗乐的",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "amusing",
+              "词性": "adj.",
+              "释义": "逗人发笑的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "052-15",
+              "no": 2,
+              "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "As the clown performed silly tricks, the children in the audience erupted into delighted and ___ (amuse) laughter.",
+              "题干HTML": "As the clown performed silly tricks, the children in the audience erupted into delighted and <span class=\"blank\"></span> (amuse) laughter.",
+              "cue": [],
+              "提示词": "amuse",
+              "答案": "amused",
+              "解析": "考查形容词。句意：当小丑表演滑稽的把戏时，观众中的孩子们爆发出欢快的笑声。空处和上文delighted并列作laughter的定语，应用形容词；表示“愉快的”笑声，即人的情感，应用v-ed形式的形容词。故填amused。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "incredible",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "incredible",
+              "词性": "",
+              "释义": "adj. 极好的",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "incredibly",
+              "词性": "",
+              "释义": "",
+              "hit": true,
+              "来源": "补入"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "052-10",
+              "no": 3,
+              "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
+              "题型": "语法填空",
+              "题干": "His sense of humor was ___ (incredible) sharp, always able to make others laugh even in the toughest situations.",
+              "题干HTML": "His sense of humor was <span class=\"blank\"></span> (incredible) sharp, always able to make others laugh even in the toughest situations.",
+              "cue": [],
+              "提示词": "incredible",
+              "答案": "incredibly",
+              "解析": "考查副词。句意：他的幽默感非常敏锐，即使在最艰难的情况下也能让别人开怀大笑。修饰形容词sharp应用提示词的副词形式incredibly“非常”。故填incredibly。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
+        {
+          "id": "027-21",
+          "no": 4,
+          "标签": "2024 · 东莞市 · 高一上月考",
+          "题型": "单词拼写",
+          "题干": "It was a long journey and I was grateful for his ___ (陪伴).",
+          "题干HTML": "It was a long journey and I was grateful for his <span class=\"blank\"></span> (陪伴).",
+          "cue": [],
+          "提示词": null,
+          "答案": "company",
+          "解析": "考查名词。句意：这是一个漫长的旅程，我很感激他的陪伴。根据汉语提示“陪伴”可知应填名词company，作宾语，表抽象概念，不可数。故填company。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "phrases": [
+        {
+          "短语": "keep sb company",
+          "释义": "陪伴某人",
+          "词头": "accompany",
+          "atoms": [
+            {
+              "id": "067-18",
+              "no": 5,
+              "标签": "2025 · 东莞市 · 高一下期末",
+              "题型": "完成句子",
+              "题干": "My mother ___ (陪伴我) during my stay in the hospital last month.",
+              "题干HTML": "My mother <span class=\"blank\"></span> (陪伴我) during my stay in the hospital last month.",
+              "cue": [],
+              "提示词": null,
+              "答案": "kept ； me ； company",
+              "解析": "考查固定短语和时态。句意：上个月我住院期间，妈妈一直陪伴着我。表示“陪伴某人”用keep sb company，根据句中的时间状语last month可知，句子描述的是过去发生的动作，因此时态用一般过去时，谓语用过去式kept。表示“我”用me，作宾语。故填kept me company。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "153-20",
+              "no": 6,
+              "标签": "2025 · 虎门中学 · 高一下月考",
+              "题型": "完成句子",
+              "题干": "I wish my dog were here to ___ (陪伴).",
+              "题干HTML": "I wish my dog were here to <span class=\"blank\"></span> (陪伴).",
+              "cue": [],
+              "提示词": null,
+              "答案": "keep ； me ； company",
+              "解析": "考查动词短语。句意：我希望我的狗能在这里陪伴我。“陪伴某人”为“keep sb company”,to后接动词原形。“我”为“me”。故填keep me company。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "110-06",
+          "no": 7,
+          "标签": "2025 · 东莞市 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "Since the new mayor came to power, the use of single-use plastic bags ___ (ban) in many cities to reduce environmental pollution.",
+          "题干HTML": "Since the new mayor came to power, the use of single-use plastic bags <span class=\"blank\"></span> (ban) in many cities to reduce environmental pollution.",
+          "cue": [],
+          "提示词": "ban",
+          "答案": "has been banned",
+          "解析": "考查时态和语态。句意：自从新市长上台以来，许多城市都禁止使用一次性塑料袋，以减少环境污染。根据时间状语从句Since the new mayor came to power可知，这里应用现在完成时，表示动作从过去一直持续到现在，还有可能继续下去。主语the use of single-use plastic bags和ban之间是动宾关系，应用被动语态，且主语的中心词是use，所以助动词应用has。故填has been banned。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "041-19",
+          "no": 8,
+          "标签": "2026 · 粤华学校 · 高一下月考",
+          "题型": "完成句子",
+          "题干": "Jan Tchamani found herself at home and only her computer accompanied her. → Jan Tchamani found herself at home and only her computer ___.",
+          "题干HTML": "Jan Tchamani found herself at home and only her computer accompanied her. → Jan Tchamani found herself at home and only her computer <span class=\"blank\"></span>.",
+          "cue": [
+            "同义转换"
+          ],
+          "提示词": null,
+          "答案": "kept ； her ； company",
+          "解析": "考查短语。句意：Jan Tchamani发现她自己在家，只有她的电脑陪伴着她。原句中的短语“陪伴某人”accompany sb.可以用短语“keep sb. company”替换，根据前文的found可知，此处应用一般过去时，故填kept her company。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "092-11",
+          "no": 9,
+          "标签": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+          "题型": "单词拼写",
+          "题干": "She was glad her husband and dogs would be there to keep her ___ (陪伴) when she was sick.",
+          "题干HTML": "She was glad her husband and dogs would be there to keep her <span class=\"blank\"></span> (陪伴) when she was sick.",
+          "cue": [],
+          "提示词": null,
+          "答案": "company",
+          "解析": "考查名词。句意：她很高兴她的丈夫和狗在她生病的时候陪伴着她。keep sb. company陪伴某人。根据汉语提示及句意，故填company。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "025-07",
+          "no": 10,
+          "标签": "2024 · 东莞市 · 高二下期末",
+          "题型": "语法填空",
+          "题干": "The experienced volunteer will never arrange things ___ (random).",
+          "题干HTML": "The experienced volunteer will never arrange things <span class=\"blank\"></span> (random).",
+          "cue": [],
+          "提示词": "random",
+          "答案": "randomly",
+          "解析": "考查副词。句意：有经验的志愿者绝不会随意安排事情。分析句式结构可知，此处用提示词的副词形式randomly作状语修饰动词arrange。故填randomly。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "137-20",
+          "no": 11,
+          "标签": "2025 · 东莞第八高级中学 · 高一下期中",
+          "题型": "完成句子",
+          "题干": "Grandma was happy when we decided to stay with her during the holiday. → Grandma was happy when we decided to ___ during the holiday.",
+          "题干HTML": "Grandma was happy when we decided to stay with her during the holiday. → Grandma was happy when we decided to <span class=\"blank\"></span> during the holiday.",
+          "cue": [
+            "同义转换"
+          ],
+          "提示词": null,
+          "答案": "keep her company",
+          "解析": "考查动词短语。通过两个句子对比可知，空处应填stay with her的同义表达，keep her company“陪伴她”，与stay with her意思相近，decide to do sth.“决定做某事”，动词不定式符号to后应用动词原形。故填keep her company。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "009-13",
+          "no": 12,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "She ___ (陪伴) her friend to the concert last night.",
+          "题干HTML": "She <span class=\"blank\"></span> (陪伴) her friend to the concert last night.",
+          "cue": [],
+          "提示词": null,
+          "答案": "accompanied",
+          "解析": "【考点】翻译填空\n考查谓语动词。根据所给的汉语提示“陪伴”和句子结构可知，此处是谓语动词，因时间状语last night是一般过去时的标志，所以动词应用过去式，“陪伴”的英语是accompany，故填accompanied。",
+          "句意": "她昨晚陪她的朋友去听音乐会了。",
+          "reason": ""
+        },
+        {
+          "id": "072-15",
+          "no": 13,
+          "标签": "2024 · 东莞市 · 高二下联考",
+          "题型": "语法填空",
+          "题干": "In the study, participants will be ___ (random) assigned to two groups.",
+          "题干HTML": "In the study, participants will be <span class=\"blank\"></span> (random) assigned to two groups.",
+          "cue": [],
+          "提示词": "random",
+          "答案": "randomly",
+          "解析": "考查副词。句意：在这项研究中，参与者将被随机分配到两个组。根据空后的动词assigned可知，此处应填副词randomly (随机地)，修饰动词assigned，在句子中作状语。故填randomly。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "089-19",
+          "no": 14,
+          "标签": "2023 · 东华高级中学 · 高一上月考",
+          "题型": "完成句子",
+          "题干": "My sister has travelled 300 kilometres to ___ (陪伴我) during my illness.",
+          "题干HTML": "My sister has travelled 300 kilometres to <span class=\"blank\"></span> (陪伴我) during my illness.",
+          "cue": [],
+          "提示词": null,
+          "答案": "keep ； me ； company",
+          "解析": "考查固定搭配。句意：在我生病期间，我姐姐走了300公里来陪伴我。根据汉意提示，应为固定搭配keep sb company“陪伴某人”，且照应空前不定式符号，应为动词原形。故填keep me company。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 14
+    },
+    {
+      "序": 20,
+      "data_no": "U4",
+      "unit_book": "选择性必修第一册　Unit 4",
+      "chips": {
+        "year_range": "2018–2026",
+        "n_questions": 25,
+        "n_kaofa": 12,
+        "n_phrase": 7
+      },
+      "h2": "Body Language",
+      "zh": "肢体语言",
+      "stats": {
+        "卷数": 21,
+        "词数": 74,
+        "短语数": 107,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "differ",
+          "forms": [
+            {
+              "form": "make a difference",
+              "n": 2
+            },
+            {
+              "form": "make a great difference to",
+              "n": 1
+            },
+            {
+              "form": "makes a difference",
+              "n": 1
+            },
+            {
+              "form": "makes a difference to",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 5
+        },
+        {
+          "词头": "anxiety",
+          "forms": [
+            {
+              "form": "anxiety",
+              "n": 2
+            },
+            {
+              "form": "anxious",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 4
+        },
+        {
+          "词头": "embarrassed",
+          "forms": [
+            {
+              "form": "embarrassed",
+              "n": 3
+            },
+            {
+              "form": "embarrassing",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "拼写"
+          ],
+          "题数": 4
+        },
+        {
+          "词头": "vary",
+          "forms": [
+            {
+              "form": "varieties",
+              "n": 1
+            },
+            {
+              "form": "variety",
+              "n": 1
+            },
+            {
+              "form": "various",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换",
+            "复数"
+          ],
+          "题数": 3
+        },
+        {
+          "词头": "adjust",
+          "forms": [
+            {
+              "form": "adjusted",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "ashamed",
+          "forms": [
+            {
+              "form": "shameful",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "in other words",
+          "forms": [
+            {
+              "form": "keeping his promise/word",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "react",
+          "forms": [
+            {
+              "form": "reaction",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "reliable",
+          "forms": [
+            {
+              "form": "reliable",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "slight",
+          "forms": [
+            {
+              "form": "slightly",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "trial",
+          "forms": [
+            {
+              "form": "trial and error",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "ultimately",
+          "forms": [
+            {
+              "form": "ultimately",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "weep",
+          "forms": [
+            {
+              "form": "wept",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [
+        {
+          "词头": "anxiety",
+          "题数": 4,
+          "chain": [
+            {
+              "词": "anxiety",
+              "词性": "",
+              "释义": "n. 焦虑",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "anxious",
+              "词性": "adj.",
+              "释义": "忧虑的",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "anxiously",
+              "词性": "adv.",
+              "释义": "焦虑地",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "129-09",
+              "no": 1,
+              "标签": "2023 · 石竹实验学校 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "Exam ___ (anxious) is something that almost every person experiences during his or her student life.",
+              "题干HTML": "Exam <span class=\"blank\"></span> (anxious) is something that almost every person experiences during his or her student life.",
+              "cue": [],
+              "提示词": "anxious",
+              "答案": "anxiety",
+              "解析": "考查名词。句意：考试焦虑是几乎每个人在他或她的学生生活中都经历过的事情。作主语，应用名词anxiety，不可数。故填anxiety。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "097-33",
+              "no": 2,
+              "标签": "2022 · 东莞中学松山湖学校 · 高一上月考",
+              "题型": "语法填空",
+              "题干": "I’m so ___ (anxiety) about the coming exam that I can hardly fall asleep at night.",
+              "题干HTML": "I’m so <span class=\"blank\"></span> (anxiety) about the coming exam that I can hardly fall asleep at night.",
+              "cue": [],
+              "提示词": "anxiety",
+              "答案": "anxious",
+              "解析": "考查形容词。句意：我非常担心即将到来的考试，以至于晚上几乎无法入睡。作表语，应用形容词anxious，故填anxious。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "embarrassed",
+          "题数": 4,
+          "chain": [
+            {
+              "词": "embarrassed",
+              "词性": "",
+              "释义": "adj. 难堪的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "embarrass",
+              "词性": "vt.",
+              "释义": "使窘迫",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "embarrassing",
+              "词性": "adj.",
+              "释义": "令人尴尬的",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "embarrassment",
+              "词性": "n.",
+              "释义": "尴尬",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "127-07",
+              "no": 3,
+              "标签": "2026 · 济川中学 · 高一下期中",
+              "题型": "语法填空",
+              "题干": "Don’t be afraid or ___ (embarrass) to discuss something that is bothering you.",
+              "题干HTML": "Don’t be afraid or <span class=\"blank\"></span> (embarrass) to discuss something that is bothering you.",
+              "cue": [],
+              "提示词": "embarrass",
+              "答案": "embarrassed",
+              "解析": "句意：不要害怕或感到尴尬地去谈论那些困扰你的事情。空处作表语，表示“感到尴尬的”用形容词embarrassed。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "156-10",
+              "no": 4,
+              "标签": "2024 · 麻涌中学 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "It can be ___ (embarrass) for some people to share with others what’s in their heart.",
+              "题干HTML": "It can be <span class=\"blank\"></span> (embarrass) for some people to share with others what’s in their heart.",
+              "cue": [],
+              "提示词": "embarrass",
+              "答案": "embarrassing",
+              "解析": "考查形容词。句意：对一些人来说，和别人分享他们的内心是很尴尬的。空处作表语，It作形式主语，真正的主语是后面的不定式，描述做某件事的形式应用形容词embarrassing，意为“令人尴尬的”。故填embarrassing。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "vary",
+          "题数": 3,
+          "chain": [
+            {
+              "词": "vary",
+              "词性": "",
+              "释义": "vi.（根据情况",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "variety",
+              "词性": "n.",
+              "释义": "变化",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "various",
+              "词性": "adj.",
+              "释义": "不同的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "149-09",
+              "no": 5,
+              "标签": "2025 · 翰林高级中学 · 高一上期末",
+              "题型": "语法填空",
+              "题干": "As an English lover, he has taken part in a ___ (various) of activities, including listening, speaking reading and writing.",
+              "题干HTML": "As an English lover, he has taken part in a <span class=\"blank\"></span> (various) of activities, including listening, speaking reading and writing.",
+              "cue": [],
+              "提示词": "various",
+              "答案": "variety",
+              "解析": "考查名词。句意：作为一名英语爱好者，他参加了各种各样的活动，包括听、说、读、写。“a variety of”是固定短语，意为“各种各样的”。故填variety。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "086-08",
+              "no": 6,
+              "标签": "2023 · 东华高级中学 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "From this point forward, many developers helped to make ___ (vary) types of computer.",
+              "题干HTML": "From this point forward, many developers helped to make <span class=\"blank\"></span> (vary) types of computer.",
+              "cue": [],
+              "提示词": "vary",
+              "答案": "various",
+              "解析": "考查形容词。句意：从那时起，许多开发人员帮助制造了各种类型的计算机。分析句子结构可知，此处应为形容词作定语，vary的形容词为various意为“各种各样的”。故填various。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "ashamed",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "ashamed",
+              "词性": "",
+              "释义": "adj. 羞愧",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "shame",
+              "词性": "n.",
+              "释义": "让人遗憾的事",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "002-28",
+              "no": 7,
+              "标签": "2018 · 东华高级中学 · 高二上期末",
+              "题型": "语法填空",
+              "题干": "I am ___ (shame) of his rude behavior at the dinner party.",
+              "题干HTML": "I am <span class=\"blank\"></span> (shame) of his rude behavior at the dinner party.",
+              "cue": [],
+              "提示词": "shame",
+              "答案": "shameful",
+              "解析": "be动词后接形容词作表语。故填：shameful。",
+              "句意": "我为他在晚宴上的粗鲁行为感到可耻。",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "reliable",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "reliable",
+              "词性": "",
+              "释义": "adj. 可靠的",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "rely",
+              "词性": "v.",
+              "释义": "（与 on",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "reliability",
+              "词性": "n.",
+              "释义": "可靠性",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "077-13",
+              "no": 8,
+              "标签": "2024 · 万江中学 · 高二上期中",
+              "题型": "语法填空",
+              "题干": "People in this company are looking for someone who is ___ (rely) and hard-working.",
+              "题干HTML": "People in this company are looking for someone who is <span class=\"blank\"></span> (rely) and hard-working.",
+              "cue": [],
+              "提示词": "rely",
+              "答案": "reliable",
+              "解析": "考查形容词。句意：这家公司的人正在寻找一个可靠、勤奋的人。空处和and后的hard-working并列作表语，应用形容词。reliable意为“可信赖的，可依靠的”。故填reliable。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "词头": "ultimately",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "ultimately",
+              "词性": "",
+              "释义": "adv. 最终",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "ultimate",
+              "词性": "adj.",
+              "释义": "最终的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "077-11",
+              "no": 9,
+              "标签": "2024 · 万江中学 · 高二上期中",
+              "题型": "语法填空",
+              "题干": "___ (ultimate), people will suffer because the health care they need does not reach them.",
+              "题干HTML": "<span class=\"blank\"></span> (ultimate), people will suffer because the health care they need does not reach them.",
+              "cue": [],
+              "提示词": "ultimate",
+              "答案": "Ultimately",
+              "解析": "考查副词。句意：最终，人们将遭受痛苦，因为他们无法获得所需要的医疗保健。空处应用副词，修饰整个句子。ultimately意为“最终，最后”，位于句首应大写首字母。故填Ultimately。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
+        {
+          "id": "002-17",
+          "no": 10,
+          "标签": "2018 · 东华高级中学 · 高二上期末",
+          "题型": "单词拼写",
+          "题干": "I felt quite ___ (尴尬的) to find my wallet missing when it was my turn to pay the bill.",
+          "题干HTML": "I felt quite <span class=\"blank\"></span> (尴尬的) to find my wallet missing when it was my turn to pay the bill.",
+          "cue": [],
+          "提示词": null,
+          "答案": "embarrassed",
+          "解析": "根据中文意思可知使用形容词embarrassed“尴尬的”，常用来修饰人。故答案为：embarrassed。",
+          "句意": "当轮到我买单的时候，我尴尬地发现我的钱包不见了。",
+          "reason": ""
+        },
+        {
+          "id": "009-15",
+          "no": 11,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "Liz ___ (调整) her mirror and then edged the car out of its parking space.",
+          "题干HTML": "Liz <span class=\"blank\"></span> (调整) her mirror and then edged the car out of its parking space.",
+          "cue": [],
+          "提示词": null,
+          "答案": "adjusted",
+          "解析": "考查时态。句意：丽兹调整了一下后视镜，然后把车从停车位里推了出来。根据句意及汉语提示可知，此处使用动词adjust，根据下文“edged(推)”可知，句子表达的是过去发生的动作，谓语动词使用一般过去时。故填adjusted。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "018-08",
+          "no": 12,
+          "标签": "2021 · 东华高级中学 · 高一上期末",
+          "题型": "单词拼写",
+          "题干": "This produced a chain ___ (反应), which made it possible for life to develop.",
+          "题干HTML": "This produced a chain <span class=\"blank\"></span> (反应), which made it possible for life to develop.",
+          "cue": [],
+          "提示词": null,
+          "答案": "reaction",
+          "解析": "考查名词。句意：这就产生了连锁反应，使生命得以延续。分析句子结构可知，短语a chain ______作动词produced的宾语，故设空处应填名词，构成名词短语；被不定冠词a限定，用名词单数。故填reaction。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "002-21",
+          "no": 13,
+          "标签": "2018 · 东华高级中学 · 高二上期末",
+          "题型": "单词拼写",
+          "题干": "The doctor said that Tom had been ___ (轻微地) injured and that he would recover soon.",
+          "题干HTML": "The doctor said that Tom had been <span class=\"blank\"></span> (轻微地) injured and that he would recover soon.",
+          "cue": [],
+          "提示词": null,
+          "答案": "slightly",
+          "解析": "根据中文意思可知使用副词slightly“稍微地”，修饰谓语动词。故答案为：slightly。",
+          "句意": "医生说Tom只是轻微受伤且他很快就会恢复。",
+          "reason": ""
+        }
+      ],
+      "phrases": [
+        {
+          "短语": "make a/no difference to sb/sth",
+          "释义": "对某人/某事有/没有影响",
+          "词头": "differ",
+          "atoms": [
+            {
+              "id": "031-17",
+              "no": 14,
+              "标签": "2025 · 东莞市 · 高一上期末",
+              "题型": "完成句子",
+              "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
+              "题干HTML": "Your small acts of kindness can <span class=\"blank\"></span> (有影响) to someone’s life.",
+              "cue": [],
+              "提示词": null,
+              "答案": "make ； a ； difference",
+              "解析": "考查动词短语。句意：你小小的善举能对某人的生活产生影响。can是情态动词，后接动词原形，make a difference是固定短语，意为“有影响，起作用”。故填make a difference。",
+              "句意": "",
+              "reason": ""
+            },
+            {
+              "id": "099-38",
+              "no": 15,
+              "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+              "题型": "完成句子",
+              "题干": "I’ve learned that you are never too small to ___ (有影响).",
+              "题干HTML": "I’ve learned that you are never too small to <span class=\"blank\"></span> (有影响).",
+              "cue": [],
+              "提示词": null,
+              "答案": "make a difference",
+              "解析": "考查固定短语。句意：我了解到，你永远不会太渺小而无法产生影响。根据汉语提示可知，表示“有影响”应使用固定短语make a difference，空前为不定式符号to，所以此处使用动词原形。故填make a difference。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "短语": "keep one's word",
+          "释义": "遵守诺言",
+          "词头": "in other words",
+          "atoms": [
+            {
+              "id": "013-28",
+              "no": 16,
+              "标签": "2020 · 光明中学 · 高二上月考",
+              "题型": "完成句子",
+              "题干": "I once had the unpleasant experience of someone not ___ (遵守承诺) to me.",
+              "题干HTML": "I once had the unpleasant experience of someone not <span class=\"blank\"></span> (遵守承诺) to me.",
+              "cue": [],
+              "提示词": null,
+              "答案": "keeping his promise/word",
+              "解析": "根据句意和所给提示可知这里使用短语keep one's word/promise意为“遵守承诺”。of后面接动名词。故填keeping his promise/word。",
+              "句意": "我曾经有过一次不愉快的经历，有人不遵守他对我的诺言。",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        },
+        {
+          "短语": "trial and error",
+          "释义": "反复试验；不断摸索",
+          "词头": "trial",
+          "atoms": [
+            {
+              "id": "052-19",
+              "no": 17,
+              "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
+              "题型": "完成句子",
+              "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
+              "题干HTML": "The scientist conducted numerous experiments through <span class=\"blank\"></span> (反复试验) to develop the new medication...",
+              "cue": [],
+              "提示词": null,
+              "答案": "trial ； and ； error",
+              "解析": "考查名词短语。句意：这位科学家通过反复试验进行了多次实验，以研制出这种新药……根据汉语提示可知，此处使用名词短语trial and error，作介词宾语。故填trial and error。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "099-27",
+          "no": 18,
+          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+          "题型": "语法填空",
+          "题干": "They have been eating ___ (variety) of the stuff for centuries.",
+          "题干HTML": "They have been eating <span class=\"blank\"></span> (variety) of the stuff for centuries.",
+          "cue": [],
+          "提示词": "variety",
+          "答案": "varieties",
+          "解析": "考查固定短语。句意：几个世纪以来，他们一直在吃各种各样的东西。分析句子可知，此处为固定短语varieties of“各种各样的”，满足句意要求。故填varieties。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "160-26",
+          "no": 19,
+          "标签": "2024 · 弘林高级中学 · 高二下月考",
+          "题型": "完成句子",
+          "题干": "As teachers, you must believe that you can ___ (对产生很大影响) your students.",
+          "题干HTML": "As teachers, you must believe that you can <span class=\"blank\"></span> (对产生很大影响) your students.",
+          "cue": [],
+          "提示词": null,
+          "答案": "make ； a ； great ； difference ； to",
+          "解析": "考查动词短语。句意：作为老师，你必须相信你能对你的学生产生很大的影响。根据汉语提示“对产生很大影响”可知，此处为动词短语make a great difference to，位于情态动词can后面，使用动词原形。故填①make；②a；③great；④difference；⑤to。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "109-10",
+          "no": 20,
+          "标签": "2024 · 东莞市 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "At this warm greeting, the poor man, who was not used to such kindness, ___ (weep) like a child.",
+          "题干HTML": "At this warm greeting, the poor man, who was not used to such kindness, <span class=\"blank\"></span> (weep) like a child.",
+          "cue": [],
+          "提示词": "weep",
+          "答案": "wept",
+          "解析": "考查时态。句意：听到这个温暖的问候，这个不习惯这种善意的可怜人像个孩子一样哭了起来。结合句意及was可知陈述过去事情，用一般过去时。故填wept。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "161-20",
+          "no": 21,
+          "标签": "2024 · 松山湖未来学校 · 高一上期中",
+          "题型": "完成句子",
+          "题干": "The application of the technology of AI really ___ → improving people’s work efficiency.",
+          "题干HTML": "The application of the technology of AI really <span class=\"blank\"></span> → improving people’s work efficiency.",
+          "cue": [
+            "对……有作用"
+          ],
+          "提示词": null,
+          "答案": "makes ； a ； difference ； to",
+          "解析": "考查动词短语。句意：人工智能技术的应用确实对提高人们的工作效率产生了影响。本句缺少谓语，所以空处应填动词，根据所给中文提示词，应是make a difference to意为“对……有作用”，描述客观事实，用一般现在时，主语为第三人称单数。故填①makes，②a，③difference，④to。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "048-07",
+          "no": 22,
+          "标签": "2023 · 东莞外国语学校 · 高一下月考",
+          "题型": "语法填空",
+          "题干": "People who have names that aren’t fashionable may feel ___ (embarrass).",
+          "题干HTML": "People who have names that aren’t fashionable may feel <span class=\"blank\"></span> (embarrass).",
+          "cue": [],
+          "提示词": "embarrass",
+          "答案": "embarrassed",
+          "解析": "考查形容词。句意：那些名字不太时髦的人可能会感觉到尴尬。此处作feel的表语，且修饰人的感情，应用-ed结尾形容词embarrassed“感到尴尬的”。故填embarrassed。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "071-22",
+          "no": 23,
+          "标签": "2023 · 东莞市 · 高一上期中",
+          "题型": "完成句子",
+          "题干": "What you behave during childhood ___ (对……有影响) to what you will be when growing up.",
+          "题干HTML": "What you behave during childhood <span class=\"blank\"></span> (对……有影响) to what you will be when growing up.",
+          "cue": [],
+          "提示词": null,
+          "答案": "makes ； a ； difference",
+          "解析": "考查固定搭配和动词时态。句意：你童年时的行为将会对你长大后的样子有影响。根据汉语提示“对……有影响”可知，此处为固定短语make a difference to，此处陈述客观事实，使用一般现在时，主语为主语从句，谓语动词使用第三人称单数形式。故填①makes；②a；③difference。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "108-14",
+          "no": 24,
+          "标签": "2023 · 东莞高级中学 · 高一上月考",
+          "题型": "语法填空",
+          "题干": "Yet the pace of a child’s progress can also be a source of ___ (anxious) for mothers and fathers.",
+          "题干HTML": "Yet the pace of a child’s progress can also be a source of <span class=\"blank\"></span> (anxious) for mothers and fathers.",
+          "cue": [],
+          "提示词": "anxious",
+          "答案": "anxiety",
+          "解析": "考查名词。句意：然而，孩子的进步速度也可能成为父母焦虑的根源。分析句子结构可知，此处为名词作宾语，anxious的名词为anxiety意为“焦虑”，且为不可数名词。故填anxiety。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "085-10",
+          "no": 25,
+          "标签": "2022 · 东华高级中学 · 高一上期末",
+          "题型": "语法填空",
+          "题干": "You may feel ___ (anxiety) that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+          "题干HTML": "You may feel <span class=\"blank\"></span> (anxiety) that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+          "cue": [],
+          "提示词": "anxiety",
+          "答案": "anxious",
+          "解析": "考查形容词。句意：你可能会感到焦虑，你的成长速度与你的朋友不同，（你）快速长高或者被远远甩在后面。分析句子结构可知，空格处应填形容词作表语，anxiety的形容词形式为anxious，所以应填anxious。故填anxious。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 25
+    },
+    {
+      "序": 21,
+      "data_no": "U5",
+      "unit_book": "选择性必修第一册　Unit 5",
+      "chips": {
+        "year_range": "2021–2024",
+        "n_questions": 3,
+        "n_kaofa": 0,
+        "n_phrase": 0
+      },
+      "h2": "Working the Land",
+      "zh": "Working the Land",
+      "stats": {
+        "卷数": 3,
+        "词数": 69,
+        "短语数": 51,
+        "句式题数": 0
+      },
+      "freq": [
+        {
+          "词头": "assumption",
+          "forms": [
+            {
+              "form": "assumptions",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "generate",
+          "forms": [
+            {
+              "form": "generations",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "复数"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "overcome",
+          "forms": [
+            {
+              "form": "to overcome",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        }
+      ],
+      "families": [],
+      "spelling": [
+        {
+          "id": "009-16",
+          "no": 1,
+          "标签": "2021 · 东华高级中学 · 高二下期末",
+          "题型": "单词拼写",
+          "题干": "His conclusion was based on a series of wrong ___ (猜想).",
+          "题干HTML": "His conclusion was based on a series of wrong <span class=\"blank\"></span> (猜想).",
+          "cue": [],
+          "提示词": null,
+          "答案": "assumptions",
+          "解析": "考查名词。句意：他的结论是以一系列错误的假设为基础的。分析句子，设空处使用名词作宾语，表示“猜想”用assumption，此处应用复数。故填assumptions。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "phrases": [],
+      "tricks": [],
+      "quiz": [
+        {
+          "id": "070-11",
+          "no": 2,
+          "标签": "2024 · 东莞市 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "The stories and traditions of our ancestors have been passed down through ___ (generation).",
+          "题干HTML": "The stories and traditions of our ancestors have been passed down through <span class=\"blank\"></span> (generation).",
+          "cue": [],
+          "提示词": "generation",
+          "答案": "generations",
+          "解析": "考查名词复数。句意：我们祖先的故事和传统代代相传。generation“一代”，可数名词，此处表示“代代相传”，应用名词复数形式，作宾语，故填generations。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "109-12",
+          "no": 3,
+          "标签": "2024 · 东莞市 · 高二上期中",
+          "题型": "语法填空",
+          "题干": "I have managed to convince myself ___ (overcome) my fear of failure and try my best.",
+          "题干HTML": "I have managed to convince myself <span class=\"blank\"></span> (overcome) my fear of failure and try my best.",
+          "cue": [],
+          "提示词": "overcome",
+          "答案": "to overcome",
+          "解析": "考查非谓语动词。句意：我设法说服自己要克服对失败的恐惧，尽最大努力。convince sb. to do sth.表示“说服某人做某事”，固定短语。故填to overcome。",
+          "句意": "",
+          "reason": ""
+        }
+      ],
+      "numbered_total": 3
+    }
+  ]
+}

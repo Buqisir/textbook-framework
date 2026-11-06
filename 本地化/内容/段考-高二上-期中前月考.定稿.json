@@ -1,0 +1,1399 @@
+{
+ "data_no": "09",
+ "unit_book": "段考专题　高二上",
+ "h2": "期中前月考",
+ "stats": [
+  {
+   "b": "11",
+   "post": "套试卷"
+  },
+  {
+   "b": "6",
+   "post": "个专题"
+  },
+  {
+   "b": "77",
+   "post": "道题"
+  }
+ ],
+ "overview": {
+  "title": "考情总览",
+  "chip": "2019–2025 · 东莞真题",
+  "lead": "每格代表 10% 的试卷。",
+  "rows": [
+   {
+    "name": "非谓语",
+    "cov": 1.0,
+    "n": 48,
+    "book": "",
+    "ahead": false,
+    "go": "专题 1",
+    "skip": false
+   },
+   {
+    "name": "名词性从句",
+    "cov": 0.91,
+    "n": 22,
+    "book": "",
+    "ahead": false,
+    "go": "专题 2",
+    "skip": false
+   },
+   {
+    "name": "it 形式主宾语",
+    "cov": 0.82,
+    "n": 14,
+    "book": "",
+    "ahead": false,
+    "go": "专题 3",
+    "skip": false
+   },
+   {
+    "name": "状语从句",
+    "cov": 0.55,
+    "n": 8,
+    "book": "",
+    "ahead": false,
+    "go": "专题 4",
+    "skip": false
+   },
+   {
+    "name": "定语从句",
+    "cov": 0.45,
+    "n": 9,
+    "book": "",
+    "ahead": false,
+    "go": "专题 5",
+    "skip": false
+   },
+   {
+    "name": "倒装",
+    "cov": 0.45,
+    "n": 5,
+    "book": "",
+    "ahead": false,
+    "go": "专题 6",
+    "skip": false
+   }
+  ],
+  "after": ""
+ },
+ "topics": [
+  {
+   "no": 1,
+   "name": "非谓语",
+   "vols": 11,
+   "cov": 11,
+   "n": 48,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作定语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "名词是动作的执行者",
+      "主动用 to do 或 doing"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "非谓语作定语，放在被修饰的名词后面，相当于一个定语从句。判断时看名词与动作的关系：是主动关系用 to do 或 doing，是被动关系用 done 或 to be done。"
+    },
+    {
+     "type": "p",
+     "text": "不定式表示将要发生或有待完成的动作，如 a working party to look into the problem（专门调查这个问题的工作小组）。名词是 ability、chance、decision、way 等时，后面的不定式一般作定语。"
+    },
+    {
+     "type": "subhead",
+     "text": "作状语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "分词作状语",
+      "逻辑主语是主句主语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Surprised by the news, he stood still（听到这个消息，他惊呆了）。"
+    },
+    {
+     "type": "p",
+     "text": "表示目的的不定式作状语，逻辑主语与主句主语一致，如 To keep healthy, she goes swimming every day（为了保持健康，她每天去游泳）。"
+    },
+    {
+     "type": "p",
+     "text": "独立主格或 with 复合结构中，名词与后面的分词是主动关系用现在分词，被动关系用过去分词，如 with her bike stolen（她的自行车被偷了）。"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾语与搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "介词后接 doing",
+      "固定搭配"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "介词后面的动词用 doing。to 作介词时后接 doing，如 look forward to doing、be used to doing。spend 时间、be busy、escape 之后也接 doing。"
+    },
+    {
+     "type": "p",
+     "text": "keep in touch with 表示「与……保持联系」，是固定搭配。题目常只给中文词义，答案是完整的搭配。"
+    },
+    {
+     "type": "pattern",
+     "text": "spend time doing  |  be in charge of doing  |  keep in touch with sb."
+    },
+    {
+     "type": "subhead",
+     "text": "不定式搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "形容词后接不定式",
+      "try、manage 等后接"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "形容词后接不定式，说明动作的范围。be hard to settle 中，settle 与 problems 是被动关系，却用主动形式 to settle 表示被动意义。"
+    },
+    {
+     "type": "p",
+     "text": "try、manage、be determined 等动词后接不定式：tried to attract，had managed to arrange，was determined to defend。be to blame for 表示「应对……负责」，不定式形式是 to blame。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首的动名词",
+      "谓语用单数"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动名词或动名词短语作主语时，谓语用单数，如 Being exposed to a foreign culture is beneficial。句首的 doing 首字母大写。"
+    },
+    {
+     "type": "p",
+     "text": "There is no doing 是固定句型，意为「无法否认……」，空格填动名词：There is no denying that……。"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾补"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "宾语是动作的承受者",
+      "宾补用 done"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "make、find 等动词后，若宾语与宾补是被动关系，宾补用过去分词，如 make himself understood（使别人听懂他的话）、found his wallet stolen（发现钱包被偷了）。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "作定语",
+     "gloss": [
+      "作后置定语",
+      "boy 与 adopt 是被动"
+     ],
+     "stem": {
+      "text": "The boy ___ (adopt) by the old couple was admitted into a key university.",
+      "cue": [],
+      "src": "2025 · 东莞市 · 高二上联考"
+     },
+     "ju": "被那对老夫妇收养的男孩考上了一所重点大学。",
+     "mid": {
+      "label": "判断",
+      "text": "boy 与 adopt 是被动关系，空格作后置定语修饰 boy，用过去分词。句中已有谓语 was admitted，空格不能填谓语动词。"
+     },
+     "ans": "adopted"
+    },
+    {
+     "group": "作状语",
+     "gloss": [
+      "分词作状语",
+      "she 与 absorb 是被动"
+     ],
+     "stem": {
+      "text": "___ (absorb) in the book Jane Eyre, she totally forgot food and sleep.",
+      "cue": [],
+      "src": "2019 · 石龙中学 · 高二上月考"
+     },
+     "ju": "她沉浸在《简·爱》这本书里，完全忘记了吃饭和睡觉。",
+     "mid": {
+      "label": "成分",
+      "text": "句首分词短语作状语，逻辑主语 she 与 absorb 是被动关系，用过去分词。"
+     },
+     "ans": "Absorbed"
+    },
+    {
+     "group": "作状语",
+     "gloss": [
+      "目的状语",
+      "不定式作状语"
+     ],
+     "stem": {
+      "text": "To ___ (呼吁) the world for help, the stars launched a campaign to help the refugees.",
+      "cue": [],
+      "src": "2025 · 东莞市 · 高二上联考"
+     },
+     "ju": "为了呼吁世界提供帮助，各位明星发起了援助难民的行动。",
+     "mid": {
+      "label": "成分",
+      "text": "句首是目的状语，逻辑主语是 the stars，与 appeal 是主动关系，用不定式。appeal to sb. for sth. 意为「呼吁某人提供某物」。"
+     },
+     "ans": "appeal to"
+    },
+    {
+     "group": "作宾语与搭配",
+     "gloss": [
+      "escape 后接 doing",
+      "被动用 being done"
+     ],
+     "stem": {
+      "text": "Fortunately, he narrowly escaped ___ (kill) in the car accident the other day.",
+      "cue": [],
+      "src": "2020 · 光明中学 · 高二上月考"
+     },
+     "ju": "前几天的车祸中，他险些丧命。",
+     "mid": {
+      "label": "判断",
+      "text": "escape 后接动名词作宾语。kill 与 he 是被动关系，所以用 being killed。"
+     },
+     "ans": "being killed"
+    },
+    {
+     "group": "作宾语与搭配",
+     "gloss": [
+      "固定搭配",
+      "attract attention"
+     ],
+     "stem": {
+      "text": "I tried to ___ (吸引他的注意) when he arrived.",
+      "cue": [],
+      "src": "2020 · 东莞中学 · 高二上月考"
+     },
+     "ju": "他到达时，我试图吸引他的注意。",
+     "mid": {
+      "label": "成分",
+      "text": "try to 后接动词原形 attract，his attention 作宾语。"
+     },
+     "ans": "attract his attention"
+    },
+    {
+     "group": "不定式搭配",
+     "gloss": [
+      "形容词后接不定式",
+      "主动形式表被动"
+     ],
+     "stem": {
+      "text": "At present we'll have to work extra hours, for some problems are hard ___ (settle).",
+      "cue": [],
+      "src": "2020 · 光明中学 · 高二上月考"
+     },
+     "ju": "目前我们得加班，因为有些问题很难解决。",
+     "mid": {
+      "label": "判断",
+      "text": "hard 是形容词，后接不定式作其补足成分。settle 与 problems 是被动关系，但用主动形式表示被动意义。"
+     },
+     "ans": "to settle"
+    },
+    {
+     "group": "不定式搭配",
+     "gloss": [
+      "be determined to do",
+      "表示决心"
+     ],
+     "stem": {
+      "text": "The soldier was determined ___ (defend) his country against any foreign invaders, no matter the cost.",
+      "cue": [],
+      "src": "2023 · 东莞外国语学校 · 高二上月考"
+     },
+     "ju": "这名士兵决心不惜一切代价保卫自己的国家。",
+     "mid": {
+      "label": "成分",
+      "text": "be determined 后接不定式，表示决心做某事。"
+     },
+     "ans": "to defend"
+    },
+    {
+     "group": "作主语",
+     "gloss": [
+      "There is no doing",
+      "固定句型"
+     ],
+     "stem": {
+      "text": "There is no ___ (deny) that the driver was to blame for the accident.",
+      "cue": [],
+      "src": "2023 · 万江中学 · 高二上月考"
+     },
+     "ju": "那名司机应对事故负责，这一点无可否认。",
+     "mid": {
+      "label": "判断",
+      "text": "no 后接动名词，构成固定句型 There is no doing，意为「无法否认……」，denying 作主语的一部分。"
+     },
+     "ans": "denying"
+    }
+   ],
+   "keypoint": "空前的词决定形式：介词 to、spend、be busy、escape 之后用 doing；pretend、try、manage 之后用 to do。与逻辑主语是被动关系时用过去分词 done。",
+   "drill": [
+    {
+     "stem": "The company’s success lies in its ability ___ (predict) market trends and adapt its strategies accordingly.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上月考",
+     "ans": "to predict",
+     "why": "ability 后接不定式作定语",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "The meeting which will be held tomorrow is of great importance.\nThe meeting ___ tomorrow is of great importance.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2024 · 东华高级中学、东华松山湖高级中学 · 高二上月考",
+     "ans": "to be held",
+     "why": "将来被动，用 to be done",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "截至目前，已经有500多名学生报名参加下个月举行的马拉松比赛。",
+     "cue": [],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "So far, more than 500 students have signed up for the marathon to be held next month.",
+     "why": "题库答案 he 应为 be，作定语",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "John Snow became inspired when he thought about helping ordinary people ___ (暴露) to cholera.",
+     "cue": [],
+     "src": "2020 · 东莞中学 · 高二上月考",
+     "ans": "exposed",
+     "why": "people 被动，用过去分词",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "The government set up a working party ___ (look) into the problem.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "to look",
+     "why": "不定式作后置定语，表示有待完成的动作",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "The team ___ (consist) of 10 volunteers will go to the disaster-stricken area.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "consisting",
+     "why": "主动关系，用现在分词作后置定语",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "They lay in the clifftop grass with the sea ___ (stretch) out far below.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "stretching",
+     "why": "with 复合结构，海水主动延伸",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "When she looked out of the window, she found a cat on the grass.",
+     "cue": [
+      "用动词-ing形式作状语改写"
+     ],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "Looking out of the window, she found a cat on the grass.",
+     "why": "she 看向窗外，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "你最好把运动与平衡饮食相结合，以保持身体健康。",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "You’d better combine exercise with a balanced diet to keep healthy.",
+     "why": "表目的，用不定式作状语",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "He walked along the street, and he sang a popular song.",
+     "cue": [
+      "用非谓语做状语改写句子"
+     ],
+     "src": "2025 · 东莞市 · 高二上月考",
+     "ans": "Walking along the street, he sang a popular song.",
+     "why": "he 走在路上，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "He paused for a moment, ___ (recall) the important advice his mentor had given him.",
+     "cue": [],
+     "src": "2023 · 东莞外国语学校 · 高二上月考",
+     "ans": "recalling",
+     "why": "与主语 he 主动，表示伴随",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "Joe listened, ___ (shift) uncomfortably from one foot to another.",
+     "cue": [],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "shifting",
+     "why": "Joe 移动脚步，主动表示伴随",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "Universities in China have great facilities and outstanding professors, ___ (help) to educate young people who will contribute to the economy and further strengthen our country.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "helping",
+     "why": "大学帮助人，主动用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "Power supply to the hall was cut off immediately, ___ (leave) the room in darkness.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "leaving",
+     "why": "主动表结果，用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "China is a large country, ___ (组成) of more than twenty provinces.",
+     "cue": [],
+     "src": "2020 · 东莞中学 · 高二上月考",
+     "ans": "consisting",
+     "why": "consist 不用于被动，用现在分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "When ___ (complete), the museum will be open to the public next year.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "completed",
+     "why": "省略 it is，保留过去分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "I met Jim when I worked in Paris, and I’ve stayed in contact with him ever since.\nI met Jim when I worked in Paris, and I’ve ___ him ever since.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "kept in touch with",
+     "why": "keep in touch with 为固定搭配",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "Connecting on WeChat gives us the opportunity to ___ (保持联系) no matter where we live.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上月考",
+     "ans": "keep/stay in touch",
+     "why": "keep 与 stay 均可，与 in touch 搭配",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "The lifeguard is ___ (主管，负责) ensuring swimmer safety at the pool.",
+     "cue": [],
+     "src": "2023 · 东莞外国语学校 · 高二上月考",
+     "ans": "in charge of",
+     "why": "be in charge of doing 表示负责做某事",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "I once had the unpleasant experience of someone not ___ (遵守承诺) to me.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "keeping his promise/word",
+     "why": "of 后接动名词，someone 是其逻辑主语",
+     "group": "作宾语与搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "It was the professor rather than his assistants that was ___ (blame) for the failure of the experiment.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "to blame",
+     "why": "be to blame for 表示应对……负责",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "There was an argument between the two drivers about who was ___ (blame) for the accident.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "to blame",
+     "why": "be to blame 为固定搭配",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "We must try to ___ (分析) the causes of the strike.",
+     "cue": [],
+     "src": "2020 · 东莞中学 · 高二上月考",
+     "ans": "analyze",
+     "why": "try to 后接动词原形",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "He had managed ___ (安排) to stay on in Paris.",
+     "cue": [],
+     "src": "2020 · 东莞中学 · 高二上月考",
+     "ans": "to arrange",
+     "why": "manage to 表示设法做成",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (暴露于) a foreign culture is beneficial to learn the local language.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "Being exposed to",
+     "why": "被动关系的动名词短语作主语",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "参加这次活动将有助于了解如何变得乐观。",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "Attending this event will help you understand how to be optimistic.",
+     "why": "Attending 作主语，谓语用单数",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "Some experts recommend that parents shouldn’t make their children ___ (expose) to too much violence in any form.",
+     "cue": [],
+     "src": "2023 · 万江中学 · 高二上月考",
+     "ans": "exposed",
+     "why": "make 后宾补用 done",
+     "group": "作宾补",
+     "level": "必练"
+    },
+    {
+     "stem": "Helen had to shout to make herself ___ (hear) above the sound of the music.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "heard",
+     "why": "make 后宾补用 done",
+     "group": "作宾补",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "名词性从句",
+   "vols": 11,
+   "cov": 10,
+   "n": 22,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "主语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首作主语",
+      "缺主语或宾语用 what"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that，如 What he said surprised me（他说的话让我吃惊）。"
+    },
+    {
+     "type": "p",
+     "text": "句首的主语从句较长时，常用 It 作形式主语，把从句移到句末，如 It is acknowledged that the ocean plays a key role。"
+    },
+    {
+     "type": "pattern",
+     "text": "It is apparent that……  |  What……is that……"
+    },
+    {
+     "type": "subhead",
+     "text": "表语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "系动词后作表语",
+      "表示是否用 whether"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "表语从句位于 is、was 等系动词之后，说明主语是什么。表示「是否」用 whether 引导，如 The question is whether it will rain。"
+    },
+    {
+     "type": "p",
+     "text": "What 引导的主语从句常与 that 引导的表语搭配，构成 What……is that……句型。表示原因的说明用 that is why 句型，如 That is why he was late（这就是他迟到的原因）。"
+    },
+    {
+     "type": "subhead",
+     "text": "宾语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "动词或介词后",
+      "缺成分用 what"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动词后的宾语从句，成分齐全时用 that 引导，常可省略；从句缺成分时用 what，如 discover what they mean to you，其中 what 在从句中作 mean 的宾语。"
+    },
+    {
+     "type": "p",
+     "text": "介词后的宾语从句只用 what、whether，不用 that，如 thank sb. for what they give us（感谢某人所给予的一切）。"
+    },
+    {
+     "type": "subhead",
+     "text": "同位语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "解释前面的名词",
+      "fact、sign 后用 that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "同位语从句解释名词的具体内容，如 fact、idea、news、belief、sign 等之后接 that 引导的从句。that 在从句中不作成分，不能省略。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "主语从句",
+     "gloss": [
+      "主语从句",
+      "缺主语用 what"
+     ],
+     "stem": {
+      "text": "___ depressed the scientist was that his theory was proved wrong.",
+      "cue": [],
+      "src": "2023 · 万江中学 · 高二上月考"
+     },
+     "ju": "使这位科学家沮丧的是，他的理论被证明是错的。",
+     "mid": {
+      "label": "成分",
+      "text": "句首是主语从句，从句中 depressed 缺主语，用 what。主句的 was 后接 that 引导的表语从句。"
+     },
+     "ans": "What"
+    },
+    {
+     "group": "主语从句",
+     "gloss": [
+      "It 作形式主语",
+      "that 从句作真正主语"
+     ],
+     "stem": {
+      "text": "The ocean is acknowledged as playing a key role in our planet.\n___ the ocean plays a key role in our planet.",
+      "cue": [
+       "同义句改写"
+      ],
+      "src": "2025 · 东莞市 · 高二上联考"
+     },
+     "ju": "人们公认海洋在地球上起着关键作用。",
+     "mid": {
+      "label": "判断",
+      "text": "that 从句才是真正的主语，句首用 It 作形式主语。"
+     },
+     "ans": "It is acknowledged that"
+    },
+    {
+     "group": "表语从句",
+     "gloss": [
+      "系动词 was 后",
+      "表示是否用 whether"
+     ],
+     "stem": {
+      "text": "The debate between them was ___ it was worthwhile to afford the extra expense of hiring an expensive apartment.",
+      "cue": [],
+      "src": "2023 · 万江中学 · 高二上月考"
+     },
+     "ju": "他们之间的争论在于，花钱租昂贵的公寓是否值得。",
+     "mid": {
+      "label": "成分",
+      "text": "was 后接表语从句，表示「是否」，用 whether。that 不能表示是否。"
+     },
+     "ans": "whether"
+    }
+   ],
+   "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语，动词或介词后作宾语，名词后作同位语。从句缺成分用 what，成分齐全用 that，表示是否用 whether。",
+   "drill": [
+    {
+     "stem": "Apparently, all the students are committed to preparing the exam.\n___ that all the students are committed to preparing the exam.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2024 · 东华高级中学、东华松山湖高级中学 · 高二上月考",
+     "ans": "It is apparent",
+     "why": "形式主语 It，that 作主语",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "It was surprising that she found herself speaking up in class after just a few weeks.\n___ made her ___ was that she found herself speaking up in class after just a few weeks.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2023 · 东莞外国语学校 · 高二上月考",
+     "ans": "What, surprised",
+     "why": "What 作主语，surprised 作宾补",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "To our delight, the vaccine has effectively protected people from the virus.\n___ is that the vaccine has effectively protected people from the virus.",
+     "cue": [
+      "句型转换"
+     ],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "What delights us",
+     "why": "What 从句作主语，谓语用单数",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Apparently, the two statements were contradictory in many ways.",
+     "cue": [
+      "用it做形式主语改写"
+     ],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "It is apparent that the two statements were contradictory in many ways.",
+     "why": "形式主语 It，that 为主语",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Without doubt, ___ we live in is called Information Age now.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "what",
+     "why": "主语从句中 what 作 in 的宾语",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "让我印象最深刻的是在上周举办的活动中学生们对英语有着强烈的热爱。",
+     "cue": [
+      "用主语从句和表语从句翻译"
+     ],
+     "src": "2024 · 东华高级中学、东华松山湖高级中学 · 高二上月考",
+     "ans": "What impressed me most is that students have a strong passion for English in the event held last week.",
+     "why": "What 作主语，that 引导表语从句",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "A situation where a person is unable to remember past events is ___ is generally called amnesia (健忘症).",
+     "cue": [],
+     "src": "2023 · 东莞外国语学校 · 高二上月考",
+     "ans": "what",
+     "why": "what 在从句中作主语",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Many teenagers don’t pay attention to their sitting posture—that’s ___ they suffer from short sight.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "why",
+     "why": "that is why 表示原因",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "我们应该感恩父母所给予我们的。",
+     "cue": [
+      "用宾语从句翻译"
+     ],
+     "src": "2023 · 东莞外国语学校 · 高二上月考",
+     "ans": "We should be grateful for what our parents give us. / We should appreciate what our parents give us.",
+     "why": "for 后接 what 引导的宾语从句",
+     "group": "宾语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "I encourage you to go out with your family and discover ___ they mean to you.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "what",
+     "why": "what 在从句中作 mean 的宾语",
+     "group": "宾语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "No one can deny the fact ___ through this activity, we students not only have a better understanding of the society but also learn how to help people around us.",
+     "cue": [],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "that",
+     "why": "fact 后的同位语从句",
+     "group": "同位语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "There are certainly no sign ___ Charles was a rich man.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "that",
+     "why": "sign 后的同位语从句",
+     "group": "同位语从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "it 形式主宾语",
+   "vols": 11,
+   "cov": 9,
+   "n": 14,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "形式主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "It 作形式主语",
+      "真正主语后置"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "句首主语是不定式或从句，且较长时，用 it 作形式主语，真正的主语放在句末。It seems strange that……、It is obvious that…… 中，it 后常接 be 加形容词，或 seem、appear 等动词。"
+    },
+    {
+     "type": "p",
+     "text": "It remains to be seen whether…… 是固定句型，意为「拭目以待」，whether 引导的从句是真正的主语。"
+    },
+    {
+     "type": "pattern",
+     "text": "It is adj. to do / that……  |  It remains to be seen whether……"
+    },
+    {
+     "type": "subhead",
+     "text": "形式宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "find、make、think 后",
+      "宾语是不定式或从句"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "find、make、think、consider 等动词后，若真正的宾语是不定式或从句，且其后带形容词或名词作宾补，就用 it 作形式宾语，把真正的宾语放在宾补后，如 find it hard to understand。"
+    },
+    {
+     "type": "p",
+     "text": "make it possible for sb. to do 是常见句型，it 是形式宾语，possible 是宾补，for 短语加不定式表示真正的宾语。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "形式主语",
+     "gloss": [
+      "It 作形式主语",
+      "It is adj. that"
+     ],
+     "stem": {
+      "text": "___ (很明显) she is on a diet, for she looks much slimmer than she did last year.",
+      "cue": [],
+      "src": "2020 · 光明中学 · 高二上月考"
+     },
+     "ju": "很明显，她在节食，因为她比去年瘦多了。",
+     "mid": {
+      "label": "成分",
+      "text": "句首的 It 是形式主语，真正的主语是后面的 that 从句。"
+     },
+     "ans": "It is obvious/clear/evident that"
+    },
+    {
+     "group": "形式主语",
+     "gloss": [
+      "It remains to be seen",
+      "whether 引导真正主语"
+     ],
+     "stem": {
+      "text": "It remains to be seen ___ my research paper will be well received.",
+      "cue": [],
+      "src": "2023 · 东莞外国语学校 · 高二上月考"
+     },
+     "ju": "我的研究论文能否受到好评，还有待观察。",
+     "mid": {
+      "label": "判断",
+      "text": "It remains to be seen 是固定句型，whether 引导的从句是真正主语，表示「是否」。"
+     },
+     "ans": "whether"
+    },
+    {
+     "group": "形式宾语",
+     "gloss": [
+      "make 后",
+      "make it adj. to do"
+     ],
+     "stem": {
+      "text": "The Internet has made ___ possible for people to keep in touch even if they are on the opposite sides of the world.",
+      "cue": [],
+      "src": "2025 · 东莞市 · 高二上月考"
+     },
+     "ju": "互联网让人们即使身处世界两端，也能保持联系。",
+     "mid": {
+      "label": "成分",
+      "text": "made 之后 it 是形式宾语，possible 是宾补，真正的宾语是 for 短语加不定式 to keep in touch。"
+     },
+     "ans": "it"
+    }
+   ],
+   "keypoint": "句首 it 后接 be 加形容词，句末是不定式或从句时，it 是形式主语。find、make、think 等之后有 it 加形容词，真正的宾语在后面，it 是形式宾语。",
+   "drill": [
+    {
+     "stem": "___ impressed me that he was able to behave himself in a completely strange environment.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "It",
+     "why": "that 从句作主语，用 it",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ struck me that playing against the other team was a great learning moment for all the girls on the team.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "It",
+     "why": "It 作形式主语，that 从句作主语",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ seems strange that my life should end in such a terrible place.",
+     "cue": [],
+     "src": "2020 · 东莞中学 · 高二上月考",
+     "ans": "It",
+     "why": "seem 前用 It，that 后置",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "Nobody seemed to know anything about the matter.",
+     "cue": [
+      "改写"
+     ],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "It seemed that nobody knew anything about the matter.",
+     "why": "改为 It seemed that 句型",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "AI developers should make ___ a point to stay updated on the latest industry trends.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "it",
+     "why": "make it 为固定搭配",
+     "group": "形式宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "I don't think ___ my duty to clean the classroom for you.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "it",
+     "why": "think 后用 it 作形式宾语",
+     "group": "形式宾语",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "状语从句",
+   "vols": 11,
+   "cov": 6,
+   "n": 8,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "时间从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "when、the moment 引导",
+      "从句可省略为分词"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "when、as soon as、the moment 等引导的时间从句，表示主句动作发生的时间。从句主语与主句主语一致，或指代同一事物时，可省略从句主语和 be，只留分词或形容词。"
+    },
+    {
+     "type": "p",
+     "text": "the moment、the instant、the second 等名词也可作连词，表示「一……就……」，如 the moment I saw him（我一看见他）。"
+    },
+    {
+     "type": "pattern",
+     "text": "when (it is) done  |  the moment sb. does"
+    },
+    {
+     "type": "subhead",
+     "text": "让步从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "whoever 引导",
+      "表示「无论」"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "whoever、whatever 等引导让步从句，表示「无论谁、无论什么」，可改写为 no matter who、no matter what。Whoever you are 与 No matter who you are 意思相同。"
+    },
+    {
+     "type": "subhead",
+     "text": "条件从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "if 引导",
+      "从句可省略为分词"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "if 引导条件从句，从句主语与主句主语一致时，可省略从句主语和 be，保留过去分词，如 If invited, we will attend the party（如果受到邀请，我们会参加聚会）。"
+    },
+    {
+     "type": "subhead",
+     "text": "结果从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "so、such 引导",
+      "表示结果"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "so……that 与 such……that 都表示「如此……以至于……」。such 后接 a 或 an，再接形容词和可数名词单数，如 such an interesting game，与 so interesting a game 意思相同。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "时间从句",
+     "gloss": [
+      "when 从句省略为分词",
+      "后半句是结果状语"
+     ],
+     "stem": {
+      "text": "When ___ strong sunlight, babies tend to increase temperature, ___ nervous and anxious.",
+      "cue": [
+       "用 when 从句的省略结构改写，后半句用分词"
+      ],
+      "src": "2020 · 光明中学 · 高二上月考"
+     },
+     "ju": "婴儿一晒到强烈的阳光，体温往往会升高，并且感到紧张不安。",
+     "mid": {
+      "label": "判断",
+      "text": "When they are exposed 省略了从句主语和 be，只留 exposed to。后半句作结果状语，用现在分词 feeling。"
+     },
+     "ans": "exposed to, feeling"
+    },
+    {
+     "group": "时间从句",
+     "gloss": [
+      "时间从句省略",
+      "保留过去分词"
+     ],
+     "stem": {
+      "text": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
+      "cue": [],
+      "src": "2020 · 东莞中学 · 高二上月考"
+     },
+     "ju": "一般来说，按照说明服用时，这种药没有副作用。",
+     "mid": {
+      "label": "判断",
+      "text": "从句主语 it 指 the drug，与主句主语一致，省略 it is，只留过去分词 taken。"
+     },
+     "ans": "taken"
+    }
+   ],
+   "keypoint": "连词决定从句的意思：when、the moment 表时间，if 表条件，whoever 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词」。",
+   "drill": [
+    {
+     "stem": "I felt free from the cares of the day as soon as I left the building.\nI felt free from the cares of the day ___ I left the building.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2025 · 东莞市 · 高二上月考",
+     "ans": "the moment/instant/second",
+     "why": "the moment 表示一……就",
+     "group": "时间从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Besides, when ___ (water) the flowers and plants, the other students appreciated the beauty of nature.",
+     "cue": [],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "watering",
+     "why": "when 从句省略为现在分词",
+     "group": "时间从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Whoever you are, you should obey the rules.\n___ you are, you should obey the rules.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2024 · 东华高级中学、东华松山湖高级中学 · 高二上月考",
+     "ans": "No matter who",
+     "why": "whoever 即无论谁",
+     "group": "让步从句",
+     "level": "必练"
+    },
+    {
+     "stem": "If ___ (expose) to the outside world, children will be better equipped for the future.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "exposed",
+     "why": "if 从句省略，保留 exposed",
+     "group": "条件从句",
+     "level": "必练"
+    },
+    {
+     "stem": "Table tennis is so interesting a game that people all over the world play it.\nTable tennis is ___ game that people all over the world play it",
+     "cue": [
+      "同义句转化",
+      "句型转换"
+     ],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "such an interesting",
+     "why": "so……that 改为 such 句型",
+     "group": "结果从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "name": "定语从句",
+   "vols": 11,
+   "cov": 5,
+   "n": 9,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "非限制性从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "逗号后补充先行词",
+      "不用 that"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "非限制性定语从句与先行词之间有逗号，对先行词作补充说明，关系词不能用 that，也不能省略。which 可以指代前面整个句子，如 He failed the exam, which made him sad（这件事让他很难过）。"
+    },
+    {
+     "type": "p",
+     "text": "介词加关系代词时，介词由从句中动词的搭配决定。none of which 表示「其中没有一个」，如 three pens, none of which writes smoothly。"
+    },
+    {
+     "type": "pattern",
+     "text": "……, which……  |  ……, none of which……"
+    },
+    {
+     "type": "subhead",
+     "text": "关系副词"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "先行词指地点、时间",
+      "在从句中作状语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "关系副词 where、when、why 在从句中作状语，分别指地点、时间、原因。先行词是 place、time、reason 等时，用关系副词代替「介词加 which」，如 the year when they were married（他们结婚的那一年）。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "非限制性从句",
+     "gloss": [
+      "逗号后",
+      "介词加 which"
+     ],
+     "stem": {
+      "text": "As we all know, books are the source of knowledge, ___ which we benefit a lot.",
+      "cue": [],
+      "src": "2020 · 光明中学 · 高二上月考"
+     },
+     "ju": "众所周知，书籍是知识的源泉，我们从中受益良多。",
+     "mid": {
+      "label": "成分",
+      "text": "which 指代 books，在从句中与 benefit 构成 benefit from，所以空格填介词 from，即 from which。"
+     },
+     "ans": "from"
+    }
+   ],
+   "keypoint": "关系词在从句中作什么成分决定用哪一个：作主语、宾语用 who、which、that；作状语用 when、where、why。逗号后的非限制性从句不能用 that。",
+   "drill": [
+    {
+     "stem": "I have bought three ballpoint pens, none of ___ writes smoothly.",
+     "cue": [],
+     "src": "2020 · 光明中学 · 高二上月考",
+     "ans": "which",
+     "why": "none of which 表示「其中没有一个」",
+     "group": "非限制性从句",
+     "level": "必练"
+    },
+    {
+     "stem": "He is working harder than his classmates, ___ will make him pass the examination.",
+     "cue": [],
+     "src": "2019 · 石龙中学 · 高二上月考",
+     "ans": "which",
+     "why": "非限制性，先行词是整个句子",
+     "group": "非限制性从句",
+     "level": "必练"
+    },
+    {
+     "stem": "The forest, ___ we encountered a rare species of bird, is now a protected area.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高二上联考",
+     "ans": "where",
+     "why": "指地点，关系副词 where 作状语",
+     "group": "关系副词",
+     "level": "必练"
+    },
+    {
+     "stem": "Youth is a time ___ habits and interests affecting the rest of your life are formed and developed.",
+     "cue": [],
+     "src": "2023 · 翰林高级中学 · 高二月考",
+     "ans": "when",
+     "why": "指时间，关系副词 when 作状语",
+     "group": "关系副词",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "name": "倒装",
+   "vols": 11,
+   "cov": 5,
+   "n": 5,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "否定词句首"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "not until 等在句首",
+      "主句部分倒装"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "not until、not only、no sooner 等否定词或否定短语放在句首时，主句要部分倒装。谓语是 be、情态动词或助动词时，把它们提到主语前；谓语是实义动词时，借助 do、does、did。"
+    },
+    {
+     "type": "p",
+     "text": "not until 引导的时间从句位于句首时，主句倒装，如 Not until he came back did we start（直到他回来，我们才出发）。"
+    },
+    {
+     "type": "subhead",
+     "text": "only 放句首"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "only 加状语放句首",
+      "主句倒装"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "only 加时间、地点等状语放在句首时，主句倒装，助动词或 be 提到主语前，如 Only in this way can we succeed（只有这样我们才能成功）。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "否定词或 only 短语放在句首，其后的主句要倒装。谓语是 be、情态动词或助动词时，把它们提到主语前；谓语是实义动词时，借助 do、does、did。",
+   "drill": [
+    {
+     "stem": "They were not allowed to return to their home town until the war was over.",
+     "cue": [
+      "用部分倒装结构改写该句子",
+      "句型转换"
+     ],
+     "src": "2023 · 石竹实验学校 · 高二上月考",
+     "ans": "Not until the war was over were they allowed to return to their hometown.",
+     "why": "not until 句首，主句部分倒装",
+     "group": "否定词句首",
+     "level": "必练"
+    },
+    {
+     "stem": "I realized the importance of friendship only when I lost my best friends.\nOnly when I lost my best friends ___ the importance of friendship.",
+     "cue": [
+      "用倒装句转换"
+     ],
+     "src": "2024 · 东华高级中学、东华松山湖高级中学 · 高二上月考",
+     "ans": "did I realize",
+     "why": "only 状语句首，主句倒装",
+     "group": "only 放句首",
+     "level": "必练"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,303 @@
+{
+  "data_no": "15",
+  "unit_book": "段考专题　高二下",
+  "h2": "期中后月考",
+  "stats": [
+    {
+      "b": "3",
+      "post": "套试卷"
+    },
+    {
+      "b": "3",
+      "post": "个专题"
+    },
+    {
+      "b": "35",
+      "post": "道原题"
+    }
+  ],
+  "overview": {
+    "title": "考情总览",
+    "chip": "2024 · 东莞真题",
+    "lead": "",
+    "rows": [
+      {
+        "name": "非谓语",
+        "cov": 0.67,
+        "n": 8,
+        "book": "",
+        "ahead": false,
+        "go": "专题 1",
+        "skip": false
+      },
+      {
+        "name": "it 形式主宾语",
+        "cov": 0.67,
+        "n": 4,
+        "book": "",
+        "ahead": false,
+        "go": "专题 2",
+        "skip": false
+      },
+      {
+        "name": "倒装",
+        "cov": 0.67,
+        "n": 2,
+        "book": "",
+        "ahead": false,
+        "go": "专题 3",
+        "skip": false
+      }
+    ],
+    "after": ""
+  },
+  "topics": [
+    {
+      "no": 1,
+      "name": "非谓语",
+      "vols": 3,
+      "cov": 2,
+      "n": 8,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "with 复合结构"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "with + 名词 + 补足语",
+            "名词与动作主动用 doing"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "with 后接名词，再接分词、形容词、介词短语或不定式作补足语，在句中作状语，说明伴随的情况。名词与动作是主动关系用 doing，是被动关系用 done。"
+        },
+        {
+          "type": "subhead",
+          "text": "分词作结果状语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "放在主句之后",
+            "表示前面动作的结果"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "现在分词作结果状语，放在主句之后，说明前面动作产生的结果，如 I enjoy reading classical works of history, enabling me to appreciate the beauty of the Chinese language。"
+        },
+        {
+          "type": "subhead",
+          "text": "for sb. to do"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "designed for sb. to do",
+            "不定式表示目的或用途"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "不定式前有 for sb. 时，sb. 是动作的执行者。如 classes designed for students to acquire the necessary life skills（为让学生掌握必要的生活技能而设计的课程）。"
+        },
+        {
+          "type": "subhead",
+          "text": "疑问词加不定式"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "how、what 等加不定式",
+            "作宾语或介词宾语"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "疑问词与不定式连用，相当于一个名词性短语，在句中作宾语，如 how to attend to the conflicts（如何处理冲突）。"
+        },
+        {
+          "type": "pattern",
+          "text": "with + n. + doing  |  how to do"
+        }
+      ],
+      "examples": [],
+      "keypoint": "非谓语在句中有多种作用：with 复合结构作状语，现在分词可作结果状语，疑问词加不定式作宾语。判断时看非谓语与主语或其他成分的关系，主动用 -ing 或 to do，被动用 -ed 或 to be done。",
+      "drill": [
+        {
+          "stem": "With several ideas ___ (bounce) around in his mind, he couldn’t wait to share them with us.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高二下联考",
+          "ans": "bouncing",
+          "why": "ideas 与 bounce 为主动",
+          "group": "with 复合结构",
+          "level": "必练"
+        },
+        {
+          "stem": "我喜欢读经典历史作品，这使我能够欣赏中国语言之美。(用现在分词作状语)\nI enjoy reading classical works of history, ___ to appreciate the beauty of the Chinese language.",
+          "cue": [],
+          "src": "2024 · 弘林高级中学 · 高二下月考",
+          "ans": "enabling me",
+          "why": "表结果，现在分词作状语",
+          "group": "分词作结果状语",
+          "level": "必练"
+        },
+        {
+          "stem": "A series of hands-on classes are designed for students ___ (acquire) the necessary life skills.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高二下联考",
+          "ans": "to acquire",
+          "why": "design for sb. to do",
+          "group": "for sb. to do",
+          "level": "必练"
+        },
+        {
+          "stem": "我写信给你提供一些关于如何处理你和同班同学之间冲突(conflict)的建议。(疑问词 + to do)",
+          "cue": [],
+          "src": "2024 · 弘林高级中学 · 高二下月考",
+          "ans": "I am writing to offer you some suggestions on how to attend to the conflicts between you and your classmates.",
+          "why": "how to 作宾语，表示如何处理",
+          "group": "疑问词加不定式",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "it 形式主宾语",
+      "vols": 3,
+      "cov": 2,
+      "n": 4,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "形式主语 it"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "真主语是不定式或从句",
+            "句首用 it 占位"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "真正的主语是不定式或从句时，句首用 it 作形式主语。例如 It doesn’t matter how many times you fail，句首的 it 不译。"
+        },
+        {
+          "type": "p",
+          "text": "It takes sb. time to do 表示做某事花费多少时间，it 是形式主语，不定式是真正的主语。"
+        },
+        {
+          "type": "subhead",
+          "text": "形式宾语 it"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "make 之后",
+            "it 后接形容词"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "宾语后面有宾补（形容词）时，用 it 作形式宾语，真正的宾语是不定式，放在宾补之后，如 make it quite difficult to deliver food。"
+        },
+        {
+          "type": "pattern",
+          "text": "It takes sb. time to do  |  make it adj. to do"
+        }
+      ],
+      "examples": [],
+      "keypoint": "句首或动词宾语位置的 it 是否为形式成分，看真正的主语或宾语是否是不定式或从句：是则用 it 占位，把真正的成分放到句末。宾语后有宾补时，用 it 作形式宾语。",
+      "drill": [
+        {
+          "stem": "___ doesn’t matter how many times you fail; what matters is how many times you stand up.",
+          "cue": [],
+          "src": "2024 · 弘林高级中学 · 高二下月考",
+          "ans": "It",
+          "why": "how 从句作真主语，句首用 It",
+          "group": "形式主语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "我每周花费两个小时上网课。(不定式作真正主语)",
+          "cue": [],
+          "src": "2024 · 弘林高级中学 · 高二下月考",
+          "ans": "It takes me two hours to take online lessons every week.",
+          "why": "It takes 时间 to do",
+          "group": "形式主语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "Dangerous conditions and damaged roads will make ___ quite difficult to deliver food and supplies.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高二下联考",
+          "ans": "it",
+          "why": "make it adj. to do 句型",
+          "group": "形式宾语 it",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "name": "倒装",
+      "vols": 3,
+      "cov": 2,
+      "n": 2,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "否定词句首"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "not only 置于句首",
+            "前句部分倒装"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "not only 等否定副词置于句首时，主句用部分倒装，助动词或情态动词放在主语前，谓语动词用原形，如 Not only does the traffic issue affect our daily life。"
+        },
+        {
+          "type": "p",
+          "text": "“not only…but also”的倒装只用在前一分句，but also 之后的分句保持正常语序。"
+        },
+        {
+          "type": "pattern",
+          "text": "Not only does / did + 主语 + 动词原形"
+        }
+      ],
+      "examples": [],
+      "keypoint": "否定副词或否定短语位于句首时，句子用部分倒装：助动词或情态动词提前到主语前，谓语动词保留原形。not only…but also 的倒装只用在前一分句，后一分句不倒装。",
+      "drill": [
+        {
+          "stem": "The traffic issue not only affects our daily life, but it also puts people’s lives at risk.\nNot only ___ the traffic issue ___ our daily life, but it also puts people’s lives at risk.",
+          "cue": [
+            "用倒装句改写"
+          ],
+          "src": "2024 · 东莞市 · 高二下联考",
+          "ans": "does / affect",
+          "why": "not only 句首，助动词提前",
+          "group": "否定词句首",
+          "level": "必练"
+        },
+        {
+          "stem": "因此，我不仅领着他们去了附近的公交车站而且还建议他们乘坐20路公交车。(Not only...but also的倒装句)",
+          "cue": [],
+          "src": "2024 · 弘林高级中学 · 高二下月考",
+          "ans": "Thus, not only did I lead them to the nearby bus stop but (also) I advised them to take the Bus No. 20.",
+          "why": "not only 句首，前句倒装",
+          "group": "否定词句首",
+          "level": "必练"
+        }
+      ]
+    }
+  ]
+}

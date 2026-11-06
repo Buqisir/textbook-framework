@@ -45,7 +45,7 @@
 .freq { width: 100%; border-collapse: collapse; table-layout: fixed; }
 .freq col.c-word { width: var(--col); }
 .freq col.c-how { width: 84pt; }
-.freq col.c-tally { width: 96pt; }
+.freq col.c-tally { width: 80pt; }   /* 计数条最多 12 格 63pt + 数字；省下的宽度给形式列，少折行 */
 .freq th { font: 400 9pt/var(--u) "sans-ui"; text-align: left; background: linear-gradient(var(--ink), var(--ink)) left bottom / 100% 0.75pt no-repeat; }
 .freq td { vertical-align: top; text-align: left; background: linear-gradient(var(--rule), var(--rule)) left bottom / 100% 0.3pt no-repeat; }
 .freq th, .freq td { padding-left: 0; padding-right: var(--zi); }
@@ -117,3 +117,37 @@
 .explain > .evidence { text-align: left; margin-top: var(--h); }
 .ans { font-family: "arrow", "serif-en", "serif-cjk"; }   /* 答案里的「（亦可 …）」中文落到思源宋体 */
 .part > .lead { break-after: avoid; }
+
+/* ── 讲解段：每段是一条独立要点，不是连续行文（2026-11-05 老师反馈「不对齐」）──
+ * 首行缩进 2em 配 1–2 行的短段，左缘成锯齿。改为：不缩进，左缘与句型、例题题干同一条线；
+ * 每条要点在柱与正文的间距里悬挂一个主色小方块。方块用 CSS 画，不用 ▸ 字符（STIX 无此字形，会回退 DejaVu）。
+ * 不用星标：星在教辅里表示「重要 / 高频」，留给有这个含义的地方。 */
+.explain > p:not(.subhead):not(.pattern) { text-indent: 0; position: relative; }
+.explain > p:not(.subhead):not(.pattern)::before {
+  content: "";
+  position: absolute;
+  left: -7.5pt;
+  top: calc((var(--u) - 3.5pt) / 2 + 1pt);   /* 落在首行汉字字身中线 */
+  width: 3.5pt;
+  height: 3.5pt;
+  background: var(--accent);
+}
+
+/* ── 讲解分组：一个小标题（让步 / 结果 / 作宾语……）带一组要点。组与组之间空半格，学生一眼看清哪几条归哪个小标题。
+ * 空隙加在上一组末段的下边（小标题是浮动件，加在它上面会和右侧段落错位）。半格 = 10.5pt，不破网格。 */
+.explain > p:has(+ .subhead) { margin-bottom: var(--h); }
+
+/* ── 讲义一改版（2026-11-05）：③ 句式转换 ── */
+/* ③ 句式转换：沿用 .phrase 的格。柱里放套路名（中文黑体）+ 柱注；正文栏一行「原句 → 改法」公式，下接原题 */
+.trick > .fam-head { font: 700 12pt/var(--u) "sans-ui"; }
+.trick > .ph > b { font-family: "arrow", "serif-en", "serif-cjk"; font-size: 10.5pt; }
+/* 短语块之后的「句式转换」分隔行：空 1u + 半格，上缘细线，标签加粗（1.5u 仍在半格网格上） */
+.part > .phrase + .lead {
+  margin-top: var(--u);
+  padding-top: var(--h);
+  font-weight: 700;
+  background: linear-gradient(var(--rule), var(--rule)) left top / 100% 0.3pt no-repeat;
+}
+
+/* 讲义一答案：不另起页，接在单元小测之后（收全后小测尾页常剩大半页空白）。上方空 1u */
+.unit .answers { break-before: auto; margin-top: var(--u); }

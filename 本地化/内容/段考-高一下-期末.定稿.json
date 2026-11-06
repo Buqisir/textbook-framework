@@ -1,0 +1,1107 @@
+{
+  "data_no": "08",
+  "unit_book": "段考专题　高一下",
+  "h2": "期末",
+  "stats": [
+    {
+      "b": "6",
+      "post": "套试卷"
+    },
+    {
+      "b": "7",
+      "post": "个专题"
+    }
+  ],
+  "overview": {
+    "title": "考情总览",
+    "chip": "2021–2026 · 东莞真题",
+    "lead": "",
+    "rows": [
+      {
+        "name": "非谓语",
+        "cov": 1.0,
+        "n": 37,
+        "book": "",
+        "ahead": false,
+        "go": "专题 1",
+        "skip": false
+      },
+      {
+        "name": "定语从句",
+        "cov": 1.0,
+        "n": 11,
+        "book": "",
+        "ahead": false,
+        "go": "专题 2",
+        "skip": false
+      },
+      {
+        "name": "it 形式主宾语",
+        "cov": 0.83,
+        "n": 8,
+        "book": "",
+        "ahead": false,
+        "go": "专题 3",
+        "skip": false
+      },
+      {
+        "name": "名词性从句",
+        "cov": 0.67,
+        "n": 5,
+        "book": "",
+        "ahead": false,
+        "go": "专题 4",
+        "skip": false
+      },
+      {
+        "name": "状语从句",
+        "cov": 0.5,
+        "n": 5,
+        "book": "",
+        "ahead": false,
+        "go": "专题 5",
+        "skip": false
+      },
+      {
+        "name": "倒装",
+        "cov": 0.5,
+        "n": 3,
+        "book": "",
+        "ahead": false,
+        "go": "专题 6",
+        "skip": false
+      },
+      {
+        "name": "强调句",
+        "cov": 0.33,
+        "n": 2,
+        "book": "",
+        "ahead": false,
+        "go": "专题 7",
+        "skip": false
+      }
+    ],
+    "after": ""
+  },
+  "topics": [
+    {
+      "no": 1,
+      "name": "非谓语",
+      "vols": 6,
+      "cov": 6,
+      "n": 37,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "作状语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "分词或不定式作状语",
+            "看与主语的关系"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "分词作状语时，它的逻辑主语就是句子的主语。与主语是主动关系用 -ing，是被动关系用 -ed，如 Hearing the news, she burst into tears（她听到消息后痛哭起来）。"
+        },
+        {
+          "type": "p",
+          "text": "句末的 -ing 形式多表示结果或伴随，如 she burst into tears, releasing all her emotions。分词的完成式 having done 表示动作先于谓语发生，如 Having finished his homework, he went out to play。"
+        },
+        {
+          "type": "pattern",
+          "text": "Doing …, sb. did …  |  Having done …, sb. did …"
+        },
+        {
+          "type": "subhead",
+          "text": "作定语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "后置修饰名词",
+            "主动用 to do，被动用 done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "非谓语作定语放在被修饰的名词之后，相当于一个定语从句。名词是动作的承受者用过去分词，如 the lecture organized by our university（由学校组织的讲座）。"
+        },
+        {
+          "type": "p",
+          "text": "序数词、最高级、only、the last 等修饰名词时，后面常接不定式作定语，如 the first student to finish the test。判断时看名词与动作的关系：名词是执行者，用主动形式；名词是承受者，用被动形式。"
+        },
+        {
+          "type": "pattern",
+          "text": "the first person to do sth.  |  the goods made in China"
+        },
+        {
+          "type": "subhead",
+          "text": "作宾补"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "宾语与宾补是主动",
+            "用 doing，被动用 done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "keep、see、find 等词后，宾语与宾补之间若是主动关系，宾补用现在分词，如 keep sb. waiting；若是被动关系，宾补用过去分词，如 find the room cleaned up。"
+        },
+        {
+          "type": "p",
+          "text": "判断：看宾语是不是动作的执行者。宾语执行动作，用 doing；宾语承受动作，用 done。"
+        },
+        {
+          "type": "subhead",
+          "text": "作主语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "动名词短语作主语",
+            "谓语用单数"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "动名词短语作主语时，整个短语视作单数，谓语用单数，如 Learning a foreign language takes time。修饰动名词的副词放在短语中间或末尾，不改变这一点。"
+        },
+        {
+          "type": "subhead",
+          "text": "固定搭配"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "insist on 后接 doing",
+            "tend to 后接动词原形"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "insist on 表示坚持做某事，on 之后接动名词，如 insist on doing sth.。tend to 后接动词原形，表示倾向于做某事，如 tend to get up late。"
+        },
+        {
+          "type": "subhead",
+          "text": "谓语被动易混"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "句中唯一的谓语",
+            "不用分词"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "句子中没有其他谓语时，空格就是谓语，要按时态和语态填，不能填分词。主语与动词是被动关系时，用对应时态的被动式，如现在完成时的被动 has been done。"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "句首分词作状语",
+            "与主语是被动关系"
+          ],
+          "stem": {
+            "text": "___ (compare) to the whole universe, the earth seems so small.",
+            "cue": [],
+            "src": "2021 · 东莞市 · 高一下期末"
+          },
+          "ju": "与整个宇宙相比，地球显得非常渺小。",
+          "mid": {
+            "label": "成分",
+            "text": "句首空作状语，compare 与主语 the earth 是被动关系，用过去分词 Compared。"
+          },
+          "ans": "Compared",
+          "group": "作状语"
+        },
+        {
+          "gloss": [
+            "分词作状语改写",
+            "与主语是主动关系"
+          ],
+          "stem": {
+            "text": "When the boy heard the good news of the Chinese team, he jumped out of bed.",
+            "cue": [
+              "用分词作状语改写"
+            ],
+            "src": "2022 · 东莞市 · 高一下期末"
+          },
+          "ju": "那个男孩听到中国队的好消息，立刻从床上跳了起来。",
+          "mid": {
+            "label": "判断",
+            "text": "heard 与主语 the boy 是主动关系，改写成现在分词 Hearing 作状语。"
+          },
+          "ans": "Hearing the good news of the Chinese team, the boy jumped out of bed.",
+          "group": "作状语"
+        },
+        {
+          "gloss": [
+            "后置定语",
+            "与名词是被动，用 done"
+          ],
+          "stem": {
+            "text": "During the Spring Festival, people will wander along the streets ___ (decorate) with red lanterns.",
+            "cue": [],
+            "src": "2022 · 东莞市 · 高一下期末"
+          },
+          "ju": "春节期间，人们会沿着挂满红灯笼的街道闲逛。",
+          "mid": {
+            "label": "成分",
+            "text": "空格修饰 streets，street 与 decorate 是被动关系，用过去分词作后置定语。"
+          },
+          "ans": "decorated",
+          "group": "作定语"
+        },
+        {
+          "gloss": [
+            "后置定语",
+            "序数词修饰用 to do"
+          ],
+          "stem": {
+            "text": "In 2013, spacewoman Wang Yaping became China’s first teacher ___ (give) lessons in space.",
+            "cue": [],
+            "src": "2023 · 东莞市 · 高一下期末"
+          },
+          "ju": "2013 年，女航天员王亚平成为中国首位在太空授课的教师。",
+          "mid": {
+            "label": "判断",
+            "text": "teacher 前有序数词 first，后面的不定式作后置定语，表示授课这一动作。"
+          },
+          "ans": "to give",
+          "group": "作定语"
+        },
+        {
+          "gloss": [
+            "宾补用现在分词",
+            "宾语主动执行动作"
+          ],
+          "stem": {
+            "text": "From the window, they saw that children were running happily around the park.\nFrom the window, they saw ___ happily around the park.",
+            "cue": [
+              "同义句转换"
+            ],
+            "src": "2025 · 东莞市 · 高一下期末"
+          },
+          "ju": "他们从窗户望出去，看见孩子们在公园里欢快地奔跑。",
+          "mid": {
+            "label": "判断",
+            "text": "see 之后 children 与 run 是主动关系，宾补用现在分词。"
+          },
+          "ans": "children running",
+          "group": "作宾补"
+        }
+      ],
+      "keypoint": "空格修饰名词时，名词是动作的承受者就用 done，是执行者就用 doing 或 to do。空格作状语时，分词的逻辑主语必须是句子的主语。",
+      "drill": [
+        {
+          "stem": "Scientists are making great efforts ___ (explore) the unknown universe.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "to explore",
+          "why": "make efforts 后接不定式",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (launch) this new project, the company has conducted many surveys.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "To launch",
+          "why": "句首不定式表示目的",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "The astronauts knew that they would face various situations, so they trained hard for the mission.",
+          "cue": [
+            "用分词作状语改写"
+          ],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "Knowing that they would face various situations, the astronauts trained hard for the mission.",
+          "why": "分词作状语，与主语 astronauts 主动",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "The sky turned gray, ___ (indicate) that a storm was likely to come soon.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "indicating",
+          "why": "逗号后 -ing 表示结果",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "As he was deeply inspired by the speech, he decided to pursue his dream of becoming a scientist.\n___ the speech, he decided to pursue his dream of becoming a scientist.",
+          "cue": [
+            "句型转换"
+          ],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "Deeply inspired by",
+          "why": "分词作状语，he 是被动受启发",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "Hearing the news, she burst into tears, ___ (release) all her emotions.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高一下期末",
+          "ans": "releasing",
+          "why": "表结果，与主语 she 主动",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "Because we had lost her phone number, we couldn’t get in touch with her.\n___ her phone number, we couldn’t get in touch with her.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2023 · 东莞市 · 高一下期末",
+          "ans": "Having lost",
+          "why": "完成式分词，先于谓语动作",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "Many heroes often go unnoticed, ___ (work) tirelessly behind the scenes.",
+          "cue": [],
+          "src": "2022 · 东莞市 · 高一下期末",
+          "ans": "working",
+          "why": "heroes 与 work 是主动关系",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "Every word ___ (write) on the walls encourages us students to pursue our dreams.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "written",
+          "why": "word 与 write 是被动关系",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "May Day, which was originally celebrated in parts of England to welcome spring, is now marked in many cities across the country.\nMay Day, ___ in parts of England to welcome spring, is now marked in many cities across the country.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "originally celebrated",
+          "why": "过去分词作后置定语，表被动",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "Parents consider it a duty ___ (select) healthy foods for their children.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "to select",
+          "why": "duty 之后接不定式作定语",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "In 2012, Liu Yang became China’s first female astronaut who travelled into space.\nIn 2012, Liu Yang became China’s first female astronaut ___ space.",
+          "cue": [
+            "用不定式改写"
+          ],
+          "src": "2022 · 东莞市 · 高一下期末",
+          "ans": "to travel into",
+          "why": "first 修饰名词，后接不定式",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "Thank You Day offers us all a chance ___ (get) together and thank those who have made the pandemic bearable.",
+          "cue": [],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "to get",
+          "why": "chance 之后接不定式作定语",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "The project which will be conducted next year is meeting with argument.\nThe project ___ next year is meeting with argument.",
+          "cue": [
+            "不定式改写"
+          ],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "to be conducted",
+          "why": "不定式作后置定语，表示待完成的动作",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "The amazing taste of Dongguan food keeps tourists ___ (come) back for more.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "coming",
+          "why": "keep 后宾语执行动作，用 doing",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
+          "stem": "To her surprise, Mary found that the room had been cleaned up by the kids yesterday.\nTo her surprise, Mary found the room ___ by the kids yesterday.",
+          "cue": [
+            "句型转换"
+          ],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "cleaned up",
+          "why": "find 宾语与宾补是被动，用 done",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
+          "stem": "Reading good books ___ (regular) can enrich our knowledge and shape our character.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "regularly",
+          "why": "副词修饰动名词 reading",
+          "group": "作主语",
+          "level": "必练"
+        },
+        {
+          "stem": "没有什么比看到我们国家变得越来越强大更令人鼓舞。",
+          "cue": [
+            "用V-ing翻译"
+          ],
+          "src": "2023 · 东莞市 · 高一下期末",
+          "ans": "Nothing is more inspiring than seeing our country grow stronger and stronger/become more and more powerful.",
+          "why": "动名词短语作主语，谓语单数",
+          "group": "作主语",
+          "level": "必练"
+        },
+        {
+          "stem": "Smart students tend to ___ (利用) the library’s resources.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "make the most of / make full use of",
+          "why": "tend to 后接动词原形，充分利用",
+          "group": "固定搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "My family insisted that I should give it another try.\nMy family ___ my ___ it another try.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2023 · 东莞市 · 高一下期末",
+          "ans": "insisted on … giving",
+          "why": "insist on doing 坚持做某事",
+          "group": "固定搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "The information ___ (gather) since the market research began last month.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "has been gathered",
+          "why": "句中唯一的谓语，用现在完成时被动",
+          "group": "谓语被动易混",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "定语从句",
+      "vols": 6,
+      "cov": 6,
+      "n": 11,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "关系副词"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "先行词表时间地点",
+            "用 when 或 where"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "先行词是 time、day、place 这类表示时间或地点的名词时，关系词用 when 或 where，并在从句中作时间或地点状语，如 a time when we had fun，a place where people gather。"
+        },
+        {
+          "type": "p",
+          "text": "判断：看从句缺什么成分。缺主语或宾语用 which、that、who；缺时间或地点状语用 when、where。"
+        },
+        {
+          "type": "pattern",
+          "text": "the time when sb. did  |  the place where sb. did"
+        },
+        {
+          "type": "subhead",
+          "text": "非限制性"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "先行词后有逗号",
+            "关系词不能省"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "非限制性定语从句与先行词之间有逗号，对先行词作补充说明，关系词不能省略，如 My father, who works in Guangzhou, …。"
+        },
+        {
+          "type": "p",
+          "text": "先行词指地点或时间时，逗号后用 where 或 when，如 a park, where children play。"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "关系副词 where",
+            "先行词表地点"
+          ],
+          "stem": {
+            "text": "Chinatowns are popular tourist destinations ___ visitors can experience traditional Chinese culture first hand.",
+            "cue": [],
+            "src": "2023 · 东莞市 · 高一下期末"
+          },
+          "ju": "唐人街是很受欢迎的旅游目的地，游客可以在那里亲身体验中国传统文化。",
+          "mid": {
+            "label": "成分",
+            "text": "先行词 destinations 表地点，从句 visitors can experience 缺地点状语，用 where。"
+          },
+          "ans": "where",
+          "group": "关系副词"
+        },
+        {
+          "gloss": [
+            "关系副词 when",
+            "先行词表时间"
+          ],
+          "stem": {
+            "text": "The invention of the wheel can date back to the time ___ early humans first started using tools.",
+            "cue": [],
+            "src": "2024 · 东莞市 · 高一下期末"
+          },
+          "ju": "轮子的发明可以追溯到早期人类开始使用工具的时代。",
+          "mid": {
+            "label": "判断",
+            "text": "先行词 time 表时间，从句 started using tools 缺时间状语，用 when。"
+          },
+          "ans": "when",
+          "group": "关系副词"
+        }
+      ],
+      "keypoint": "关系副词看先行词：表示时间用 when，表示地点用 where。先行词后有逗号时为非限制性从句，关系词不能省。",
+      "drill": [
+        {
+          "stem": "Yue BA, the Guangdong City Basketball League, is a stage ___ every city in Guangdong shows its unity and courage.",
+          "cue": [],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "where",
+          "why": "先行词 stage 表地点，用 where",
+          "group": "关系副词",
+          "level": "必练"
+        },
+        {
+          "stem": "Gone are the days ___ small farmers grew beans, corn and potatoes.",
+          "cue": [],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "when",
+          "why": "先行词 days 表时间，用 when",
+          "group": "关系副词",
+          "level": "必练"
+        },
+        {
+          "stem": "Zhao Xintong, ___ won the World Snooker Championship final, has made Chinese snooker a breakthrough.",
+          "cue": [],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "who",
+          "why": "先行词是人，作主语用 who",
+          "group": "非限制性",
+          "level": "必练"
+        },
+        {
+          "stem": "Nowadays, more and more graduates are attracted to the rural area, ___ they can achieve their personal goals.",
+          "cue": [],
+          "src": "2022 · 东莞市 · 高一下期末",
+          "ans": "where",
+          "why": "逗号后的非限制性从句，地点用 where",
+          "group": "非限制性",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "name": "it 形式主宾语",
+      "vols": 6,
+      "cov": 5,
+      "n": 8,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "形式宾语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "find、make、believe 后",
+            "宾语是 it，真宾语在后"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "find、make、think、believe 等动词后面，宾语位置如果是 it，真正的宾语是后面的不定式或从句。结构是 find / make / believe + it + 形容词 + to do。"
+        },
+        {
+          "type": "p",
+          "text": "判断：动词后紧跟形容词，再接不定式或从句，宾语位置就填 it，如 You will find it rewarding to be a volunteer。"
+        },
+        {
+          "type": "pattern",
+          "text": "find it adj. to do  |  make it adj. for sb. to do"
+        },
+        {
+          "type": "subhead",
+          "text": "形式主语"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "句首 it 作形式主语",
+            "真主语在句末"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "句首的 it 作形式主语，真正的主语是句末的不定式或 that 从句，如 It surprises us that … 与 It is surprising that …。"
+        },
+        {
+          "type": "p",
+          "text": "改写时，把主语从句或动名词短语挪到句末，句首换成 it，如 Spending too much time online is unhealthy 可写成 It is unhealthy to spend too much time online。"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "形式宾语",
+            "find it + adj. + to do"
+          ],
+          "stem": {
+            "text": "You will find ___ rewarding to be a volunteer.",
+            "cue": [],
+            "src": "2022 · 东莞市 · 高一下期末"
+          },
+          "ju": "你会发现做志愿者是很有收获的。",
+          "mid": {
+            "label": "成分",
+            "text": "find 之后的 it 是形式宾语，真正的宾语是后面的不定式 to be a volunteer。"
+          },
+          "ans": "it",
+          "group": "形式宾语"
+        },
+        {
+          "gloss": [
+            "形式宾语",
+            "make it + adj. + to do"
+          ],
+          "stem": {
+            "text": "Facing challenges positively will make ___ possible to realize one's dream.",
+            "cue": [],
+            "src": "2025 · 东莞市 · 高一下期末"
+          },
+          "ju": "积极面对挑战会让实现梦想成为可能。",
+          "mid": {
+            "label": "判断",
+            "text": "make 之后、possible 之前是 it，真正的宾语是 to realize one’s dream。"
+          },
+          "ans": "it",
+          "group": "形式宾语"
+        }
+      ],
+      "keypoint": "空格在 find、make、believe 之后，且后面是形容词加 to do 或从句，填 it；句首的 it 是形式主语，真正的主语在句末。",
+      "drill": [
+        {
+          "stem": "For a speaker, it is important to ___ (牢记)that less is more.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "bear it in mind / keep it in mind",
+          "why": "bear it in mind 牢记，it 指代后文",
+          "group": "形式宾语",
+          "level": "必练"
+        },
+        {
+          "stem": "She believes ___ important to bridge the digital divide and make sure that everyone has access to the Internet.",
+          "cue": [],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "it",
+          "why": "believe it adj. to do 结构",
+          "group": "形式宾语",
+          "level": "必练"
+        },
+        {
+          "stem": "We are surprised that the ocean ship can sail up the Great Lake.\n___ the ocean ship can sail up the Great Lake.",
+          "cue": [
+            "用 it 作形式主语改写"
+          ],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "It is surprising that / It surprises us that",
+          "why": "It is adj. that 句型，that 不能省",
+          "group": "形式主语",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "name": "名词性从句",
+      "vols": 6,
+      "cov": 4,
+      "n": 5,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "主语从句"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "what 引导，缺成分",
+            "that 引导，不缺成分"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "主语从句位于句首，谓语用单数。从句缺成分时用 what，如 What impresses sb. most is …；从句不缺成分时用 that 或 whether。"
+        },
+        {
+          "type": "p",
+          "text": "句首用 it 作形式主语时，真正的主语是 that 从句，that 不能省，如 It occurred to me that I had an important meeting。"
+        },
+        {
+          "type": "pattern",
+          "text": "What sb. did … is …  |  It occurred to sb. that …"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "主语从句",
+            "what 作从句主语"
+          ],
+          "stem": {
+            "text": "___ impresses the foreigners most is the friendliness of the Chinese people.",
+            "cue": [],
+            "src": "2022 · 东莞市 · 高一下期末"
+          },
+          "ju": "最让外国人印象深刻的是中国人的友好。",
+          "mid": {
+            "label": "成分",
+            "text": "空格引导主语从句，从句中 impresses 缺主语，用 what。"
+          },
+          "ans": "What",
+          "group": "主语从句"
+        },
+        {
+          "gloss": [
+            "主语从句",
+            "It 作形式主语"
+          ],
+          "stem": {
+            "text": "It occurred to me ___ I had an important meeting to attend the next day.",
+            "cue": [],
+            "src": "2023 · 东莞市 · 高一下期末"
+          },
+          "ju": "我突然想起第二天有一个重要的会议要参加。",
+          "mid": {
+            "label": "判断",
+            "text": "It 是形式主语，that 从句是真正的主语，that 不能省。"
+          },
+          "ans": "that",
+          "group": "主语从句"
+        }
+      ],
+      "keypoint": "主语从句在句首作主语：从句缺成分用 what，不缺成分用 that（不能省）。句首 it 作形式主语时，真正的主语在句末的 that 从句。",
+      "drill": [
+        {
+          "stem": "在上次旅行中，让我印象深刻的是当地的习俗。",
+          "cue": [
+            "用主语从句翻译"
+          ],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "What impressed me on my last trip was the local customs.",
+          "why": "What 引导主语从句",
+          "group": "主语从句",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "name": "状语从句",
+      "vols": 6,
+      "cov": 3,
+      "n": 5,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "让步原因改写"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "despite、because 的改写",
+            "分词或介词替代从句"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Despite、In spite of 表让步，相当于 although。Because 引导的原因从句，若主语与主句一致，可改写成分词短语作原因状语，如 Thinking of …。"
+        },
+        {
+          "type": "p",
+          "text": "改写时要检查从句主语是否与主句主语一致：一致才能把从句改成分词短语，不一致不能简单地省略成分词。"
+        },
+        {
+          "type": "subhead",
+          "text": "时间条件从句"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "if 表示条件",
+            "just as 表示正当"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "if 引导的条件状语从句表示真实条件，主句用一般将来时，如 If you study hard, you will pass the exam。"
+        },
+        {
+          "type": "p",
+          "text": "just as 引导时间状语从句，表示“正当……的时候”，如 Just as I was leaving, the phone rang。"
+        },
+        {
+          "type": "subhead",
+          "text": "so that 型"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "目的状语从句",
+            "可换成 in order to"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "so that 引导目的状语从句，从句中常有 can、will 等情态动词。两个主语一致时，可改写成 in order to 或 so as to 加动词原形，如 so as to save time。"
+        },
+        {
+          "type": "pattern",
+          "text": "so that sb. can do  |  in order to do"
+        }
+      ],
+      "examples": [],
+      "keypoint": "两个小句主语一致时，从句可改成分词或介词短语。if 表示真实条件，just as 表示正当，so that 的同义说法是 in order to 或 so as to。",
+      "drill": [
+        {
+          "stem": "Because he thought of people still in need of help, he stayed longer for the medical care.\n___ people still in need of help, he stayed longer for the medical care.",
+          "cue": [
+            "用分词作状语改写"
+          ],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "Thinking of",
+          "why": "主语相同，分词作原因状语",
+          "group": "让步原因改写",
+          "level": "必练"
+        },
+        {
+          "stem": "Despite the risk of getting infected by COVID-19, doctors and nurses from all over the country came to Wuhan to rescue the patients.\n___ the risk of getting infected by COVID-19, doctor and nurses from all over the country came to Wuhan to rescue the patients.",
+          "cue": [
+            "同义转换"
+          ],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "In spite of",
+          "why": "相当于 despite",
+          "group": "让步原因改写",
+          "level": "必练"
+        },
+        {
+          "stem": "___ we don’t protect the earth, we will have no clean water to drink.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "If",
+          "why": "真实条件用 if 引导，主句用将来时",
+          "group": "时间条件从句",
+          "level": "必练"
+        },
+        {
+          "stem": "正当Tom要放弃的时候，他的老师向他伸出了援手。",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "Just as Tom was about to give up, his teacher extended a helping hand to him.",
+          "why": "just as 表示正当……时",
+          "group": "时间条件从句",
+          "level": "必练"
+        },
+        {
+          "stem": "I always review my notes before bed so that I can remember the key points.\nI always review my notes before bed ___ remember the key points.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "in order to / so as to",
+          "why": "目的，后接动词原形",
+          "group": "so that 型",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "name": "倒装",
+      "vols": 6,
+      "cov": 3,
+      "n": 3,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "only 句首"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "only 加状语位于句首",
+            "主句要倒装"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "only 加时间或条件状语位于句首时，主句要部分倒装，助动词或情态动词提前到主语之前，如 Only in this way can sb. succeed。"
+        },
+        {
+          "type": "p",
+          "text": "判断：句首是 only 加状语，主句有助动词或情态动词，就把它提前；主句谓语是实义动词时，借助 did、does 等助动词。"
+        },
+        {
+          "type": "pattern",
+          "text": "Only when …, did sb. do …  |  Only in this way can sb. do …"
+        },
+        {
+          "type": "subhead",
+          "text": "not only 型"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "not only 置于句首",
+            "主句倒装，but also 不倒装"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "not only 位于句首时，后面主句的助动词或情态动词要提前，如 Not only did he finish the work, but he also helped others。but also 之后的分句语序不倒装。"
+        }
+      ],
+      "examples": [],
+      "keypoint": "only 与状语位于句首时，主句倒装，助动词或情态动词提前。not only 位于句首同样倒装，but also 之后的分句不倒装。",
+      "drill": [
+        {
+          "stem": "He can produce meaningful works successfully only when he truly understands art.\nOnly when he truly understands art ___ meaningful works successfully.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2025 · 东莞市 · 高一下期末",
+          "ans": "can he produce",
+          "why": "only 置于句首，主句倒装",
+          "group": "only 句首",
+          "level": "必练"
+        },
+        {
+          "stem": "He attached importance to safe driving only when he witnessed the accident.\nOnly when he witnessed the accident ___ importance to safe driving.",
+          "cue": [
+            "用倒装句改写"
+          ],
+          "src": "2022 · 东莞市 · 高一下期末",
+          "ans": "did he attach",
+          "why": "only 置于句首，主句倒装",
+          "group": "only 句首",
+          "level": "必练"
+        },
+        {
+          "stem": "运动不仅能让我们保持健康，还能帮助我们交朋友。",
+          "cue": [
+            "用倒装句翻译"
+          ],
+          "src": "2026 · 东莞第六高级中学 · 高一下期末",
+          "ans": "Not only can sports keep us healthy, but they also help us make friends.",
+          "why": "Not only 位于句首，主句倒装",
+          "group": "not only 型",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "name": "强调句",
+      "vols": 6,
+      "cov": 2,
+      "n": 2,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "强调句型"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "It is/was …that/who",
+            "去掉后句子仍完整"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "强调句的结构是 It is/was + 被强调部分 + that/who + 其余部分，其余部分保持原句的语序和时态。被强调的是状语或宾语时只用 that；被强调的是人并且作主语时，that 与 who 都可以。"
+        },
+        {
+          "type": "p",
+          "text": "判断：去掉 It is/was 和 that/who 后，句子仍然完整，就是强调句。"
+        },
+        {
+          "type": "pattern",
+          "text": "It is/was + 被强调部分 + that/who + 其余部分"
+        }
+      ],
+      "examples": [],
+      "keypoint": "去掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语或宾语时用 that，人作主语时 that 与 who 都可以。",
+      "drill": [
+        {
+          "stem": "Tom’s knowledge of first aid saved his neighbor’s life last night.\n___ Tom’s knowledge of first aid ___ saved his neighbor’s life last night.",
+          "cue": [
+            "用强调句改写"
+          ],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "It was / that",
+          "why": "It was … that 强调主语 Tom’s knowledge",
+          "group": "强调句型",
+          "level": "必练"
+        },
+        {
+          "stem": "It is her devotion to education ___ leads to her great achievements.",
+          "cue": [],
+          "src": "2021 · 东莞市 · 高一下期末",
+          "ans": "that",
+          "why": "强调主语，强调句中不用 which",
+          "group": "强调句型",
+          "level": "必练"
+        }
+      ]
+    }
+  ]
+}

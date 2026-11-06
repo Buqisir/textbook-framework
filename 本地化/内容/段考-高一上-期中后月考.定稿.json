@@ -1,0 +1,474 @@
+{
+ "data_no": "03",
+ "unit_book": "段考专题　高一上",
+ "h2": "期中后月考",
+ "stats": [
+  {
+   "b": "4",
+   "post": "套试卷"
+  },
+  {
+   "b": "5",
+   "post": "个专题"
+  },
+  {
+   "b": "79",
+   "post": "道关键词题"
+  }
+ ],
+ "overview": {
+  "title": "考情总览",
+  "chip": "2022–2025 · 东莞真题",
+  "lead": "",
+  "rows": [
+   {
+    "name": "非谓语",
+    "cov": 1.0,
+    "n": 11,
+    "book": "",
+    "ahead": false,
+    "go": "专题 1",
+    "skip": false
+   },
+   {
+    "name": "定语从句",
+    "cov": 0.75,
+    "n": 7,
+    "book": "",
+    "ahead": false,
+    "go": "专题 2",
+    "skip": false
+   },
+   {
+    "name": "it 形式主宾语",
+    "cov": 0.75,
+    "n": 3,
+    "book": "",
+    "ahead": false,
+    "go": "专题 3",
+    "skip": false
+   },
+   {
+    "name": "虚拟语气",
+    "cov": 0.5,
+    "n": 2,
+    "book": "",
+    "ahead": false,
+    "go": "专题 4",
+    "skip": false
+   },
+   {
+    "name": "倒装",
+    "cov": 0.5,
+    "n": 2,
+    "book": "",
+    "ahead": false,
+    "go": "专题 5",
+    "skip": false
+   }
+  ],
+  "after": ""
+ },
+ "topics": [
+  {
+   "no": 1,
+   "name": "非谓语",
+   "vols": 4,
+   "cov": 4,
+   "n": 11,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "不定式作定语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "名词后接不定式",
+      "修饰 chance、something"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "不定式放在名词后面作定语，说明这个名词要做什么，或者能做什么。不定式的动词用原形，如 a chance to survive、something to identify、a lot to explore。"
+    },
+    {
+     "type": "subhead",
+     "text": "不定式作宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "begin、start 等后",
+      "接不定式"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "begin、start、continue 等动词后可以接不定式，也可以接动名词，两者意思基本相同。begin to do sth. 是固定搭配，to 后接动词原形。"
+    },
+    {
+     "type": "subhead",
+     "text": "不定式作状语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "表示目的",
+      "可换成 in order to"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "不定式作目的状语，说明做某事的目的，可换成 in order to。keep sb. company 是固定搭配，意为“陪伴某人”。"
+    },
+    {
+     "type": "subhead",
+     "text": "动名词作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "drinking 作主语",
+      "谓语用单数"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "动名词短语作主语时，谓语动词用单数。beneficial to 与 of benefit to 意思相同，改写时只需替换这个短语，谓语的单数形式不变。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "不定式作定语",
+     "gloss": [
+      "修饰 a lot",
+      "动词用原形"
+     ],
+     "stem": {
+      "text": "I believe I will make new friends here and there's a lot to e ___ at senior high.",
+      "cue": [],
+      "src": "2023 · 东莞第二高级中学 · 高一上月考"
+     },
+     "ju": "我相信我会在这里交到新朋友，在高中有很多东西可以探索。",
+     "mid": {
+      "label": "成分",
+      "text": "there’s a lot to ___ 中，不定式修饰 a lot，作后置定语，动词用原形。"
+     },
+     "ans": "explore"
+    }
+   ],
+   "keypoint": "句中已有谓语且无连词时，空处多为非谓语。名词后作定语用不定式，动词后看搭配，begin 之后可以接不定式，表目的用 to 加原形。动名词作主语时谓语用单数。",
+   "drill": [
+    {
+     "stem": "Friendless and jobless, he knew that his chance to ___ (存活) was slim.",
+     "cue": [],
+     "src": "2023 · 东华高级中学 · 高一上月考",
+     "ans": "survive",
+     "why": "chance 后接不定式作定语",
+     "group": "不定式作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "“So long as there’s something to i ___ (鉴定，识别), we will give people their money back,” said a spokeswoman for the Bank.",
+     "cue": [],
+     "src": "2023 · 东莞第二高级中学 · 高一上月考",
+     "ans": "identify",
+     "why": "something 后接不定式作定语",
+     "group": "不定式作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "Slowly, the city began to ___ (呼吸) again.",
+     "cue": [],
+     "src": "2023 · 东莞第二高级中学 · 高一上月考",
+     "ans": "breathe",
+     "why": "begin to do sth. 固定搭配",
+     "group": "不定式作宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "My sister has travelled 300 kilometres to ___ (陪伴我) during my illness.",
+     "cue": [],
+     "src": "2023 · 东华高级中学 · 高一上月考",
+     "ans": "keep me company",
+     "why": "keep sb. company 陪伴某人",
+     "group": "不定式作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "Our vicar is always raising money for one cause or another, but he has never ___ (设法) to get enough money to have the church clock repaired.",
+     "cue": [],
+     "src": "2023 · 东莞第二高级中学 · 高一上月考",
+     "ans": "managed",
+     "why": "manage to do，不定式作宾语",
+     "group": "不定式作宾语",
+     "level": "必练"
+    },
+    {
+     "stem": "It is believed that drinking a glass of milk before going to bed is beneficial to your sleep.\nIt is believed that drinking a glass of milk before going to bed ___ to your sleep.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "is of benefit",
+     "why": "动名词主语，谓语用单数",
+     "group": "动名词作主语",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "定语从句",
+   "vols": 4,
+   "cov": 3,
+   "n": 7,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "关系词的选择"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "看先行词是人还是物",
+      "看从句缺什么成分"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "关系词由先行词和从句成分共同决定。先行词指人还是指物，关系词在从句里作主语、宾语、定语，还是地点状语，要逐项核对。"
+    },
+    {
+     "type": "p",
+     "text": "非限制性定语从句前有逗号，关系词不用 that。表所属关系用 whose；介词之后指人用 whom，指物用 which。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "关系词的选择",
+     "gloss": [
+      "effect 属于 exercise",
+      "非限制，用 whose"
+     ],
+     "stem": {
+      "text": "Doctors recommend doing regular exercise, ___ effect can be easily seen after one month.",
+      "cue": [],
+      "src": "2022 · 东莞实验中学 · 高一上月考"
+     },
+     "ju": "医生建议经常锻炼，一个月后就能看到效果。",
+     "mid": {
+      "label": "成分",
+      "text": "effect 与 regular exercise 是所属关系，前有逗号，是非限制性定语从句，关系词用 whose。"
+     },
+     "ans": "whose"
+    }
+   ],
+   "keypoint": "关系词由先行词和从句成分共同决定：先行词指人还是指物，从句里缺主语、宾语、所属定语还是地点状语。非限制性定语从句前有逗号，不用 that。",
+   "drill": [
+    {
+     "stem": "Written Chinese has become an important means by ___ China’s present is connected with its past.",
+     "cue": [],
+     "src": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+     "ans": "which",
+     "why": "by 之后指物用 which",
+     "group": "关系词的选择",
+     "level": "必练"
+    },
+    {
+     "stem": "The army sent 150,000 soldiers to Tangshan to dig out those trapped and to bury the dead.\nThe army sent 150,000 soldiers to Tangshan to dig out those ___ and to bury the dead.",
+     "cue": [
+      "同义句改写"
+     ],
+     "src": "2023 · 东华高级中学 · 高一上月考",
+     "ans": "who were trapped",
+     "why": "由过去分词 trapped 改写为定语从句",
+     "group": "关系词的选择",
+     "level": "必练"
+    },
+    {
+     "stem": "Mr. White invited many friends to his birthday party, most of ___ are popular writers.",
+     "cue": [],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "whom",
+     "why": "most of 之后指人用 whom",
+     "group": "关系词的选择",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "it 形式主宾语",
+   "vols": 4,
+   "cov": 3,
+   "n": 3,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "形式宾语 it"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "appreciate、find 等后",
+      "宾语位置用 it"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "appreciate、find、make 等动词后接 if 从句，或接“宾语加宾补加不定式”时，宾语位置用 it 占位，真正的宾语放在后面。I would appreciate it if… 是固定句型。"
+    },
+    {
+     "type": "subhead",
+     "text": "形式主语 it"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "It is reported that",
+      "that 从句是真正主语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "It is reported that… 这类结构中，it 作形式主语，that 从句作真正的主语。据报道一类的固定句型常用这种写法。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "find、make 等动词后接“宾语加宾补加不定式”时，宾语位置填 it。句首是 It is reported that 结构时，it 是形式主语。",
+   "drill": [
+    {
+     "stem": "In the past, people found getting enough food was difficult.\nIn the past, people found ___ difficult ___ enough food.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+     "ans": "it / to get",
+     "why": "find it difficult to do sth.",
+     "group": "形式宾语 it",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (据报道) that the police are looking into the case of the two missing children.",
+     "cue": [],
+     "src": "2023 · 东华高级中学 · 高一上月考",
+     "ans": "It is reported",
+     "why": "据报道的固定句型",
+     "group": "形式主语 it",
+     "level": "必练"
+    },
+    {
+     "stem": "I would appreciate ___ if you could let me know in advance whether you will come or not.",
+     "cue": [],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "it",
+     "why": "appreciate it if 固定句型",
+     "group": "形式宾语 it",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "虚拟语气",
+   "vols": 4,
+   "cov": 2,
+   "n": 2,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "建议类 that 从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "demand、recommend 等后",
+      "从句用 (should) 原形"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "demand、suggest、recommend、insist 等动词后的 that 从句，或 suggestion、recommendation 等名词后的同位语从句，谓语用 (should) 加动词原形。should 可省略。主语是承受动作的人或物时，用被动式 (should) be done。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "that 从句前的动词或名词表示建议、要求、命令时，从句谓语用 (should) 加动词原形。主语是被动承受者时用 (should) be done。",
+   "drill": [
+    {
+     "stem": "Wildlife experts put forward a recommendation that more nature reserves ___ (establish) to provide safe habitats for animals.",
+     "cue": [],
+     "src": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+     "ans": "(should) be established",
+     "why": "recommendation 的同位语从句",
+     "group": "建议类 that 从句",
+     "level": "必练"
+    },
+    {
+     "stem": "He demands that the books ___ (return) to the school library at once.",
+     "cue": [],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "(should) be returned",
+     "why": "books 是承受者，用被动",
+     "group": "建议类 that 从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "name": "倒装",
+   "vols": 4,
+   "cov": 2,
+   "n": 2,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "only 型"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "only 修饰句首状语",
+      "主句部分倒装"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "only 加状语放在句首时，主句要部分倒装，把助动词或情态动词提到主语前。only 后的状语可以是介词短语，也可以是 when 引导的从句。"
+    },
+    {
+     "type": "p",
+     "text": "翻译“只有……才……”时，常用这一结构。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "译句中有“只有……才……”，且 only 修饰句首状语时，主句用部分倒装，助动词或情态动词放在主语前。",
+   "drill": [
+    {
+     "stem": "只有当我们集中精力于学习时，我们才能取得进步，并最终进入我们梦寐以求的大学。",
+     "cue": [
+      "用倒装句和定语从句翻译"
+     ],
+     "src": "2023 · 东华高级中学 · 高一上月考",
+     "ans": "Only when we concentrate on our studies will/can we make progress and finally enter the university (that/which) we dream of.",
+     "why": "only when 从句，主句 will 提前",
+     "group": "only 型",
+     "level": "必练"
+    },
+    {
+     "stem": "只有努力学习，你才能在英语上取得大的进步。",
+     "cue": [
+      "用only倒装句翻译"
+     ],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "Only by studying hard can you make great progress in English./Only when you work hard can you make great progress in English.",
+     "why": "only 句首，助动词 can 提前",
+     "group": "only 型",
+     "level": "必练"
+    }
+   ]
+  }
+ ]
+}
