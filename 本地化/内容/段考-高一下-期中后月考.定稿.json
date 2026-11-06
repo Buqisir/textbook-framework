@@ -105,7 +105,7 @@
         },
         {
           "type": "p",
-          "text": "不定式表示目的时，常说成 so as to 或 in order to，如 stopped to have a rest，或 so as to leave all the best things for their children。"
+          "text": "不定式表示目的时，常说成 so as to 或 in order to，两者意思相同。"
         },
         {
           "type": "pattern",
@@ -124,11 +124,11 @@
         },
         {
           "type": "p",
-          "text": "分词作定语放在名词之后。现在分词表示主动或正在进行，如 millions of people watching the opening ceremony；过去分词表示被动或已完成，如 a film adapted from a true story。"
+          "text": "分词短语作定语放在名词之后，如 millions of people watching the opening ceremony。单个分词作定语多放在名词之前。现在分词表示主动或正在进行，过去分词表示被动或已完成。"
         },
         {
           "type": "p",
-          "text": "定语从句 which was adapted from 可以简化为 adapted from，去掉 which was。"
+          "text": "定语从句的谓语含 be 时，可去掉关系词和 be，只留过去分词作后置定语。"
         },
         {
           "type": "pattern",
@@ -147,7 +147,7 @@
         },
         {
           "type": "p",
-          "text": "find、make、keep 等词后，宾语与宾补是被动关系时，宾补用过去分词：found himself misunderstood，keep sb. informed。"
+          "text": "find、make、keep 等词后，宾语与宾补是被动关系时，宾补用过去分词，如 keep sb. informed。"
         },
         {
           "type": "p",
@@ -170,7 +170,7 @@
         },
         {
           "type": "p",
-          "text": "动名词短语作主语时，整体视为单数，如 Keeping in touch with the latest information is beneficial to us。"
+          "text": "动名词短语作主语时，整体视为单数，谓语用单数。"
         },
         {
           "type": "pattern",
@@ -188,7 +188,7 @@
         },
         {
           "type": "p",
-          "text": "be 加过去分词构成被动语态，如 was rejected 表示“被拒绝”。having been done 表示动作先完成且为被动，如 Having been simplified several times。"
+          "text": "be 加过去分词构成被动语态。having been done 表示动作先完成且为被动。"
         },
         {
           "type": "pattern",
@@ -431,7 +431,7 @@
         },
         {
           "type": "p",
-          "text": "句首 it 作形式主语，真正的主语是后面的 that 从句或不定式。It is vital that everyone should make contributions，意为“每个人都应该做贡献，这一点至关重要”。"
+          "text": "句首 it 作形式主语，真正的主语是后面的 that 从句或不定式，如 At the end of the meeting, it was announced that he would get a new position in the company，意为“会议接近尾声时，宣布了他将在公司获得新职位的消息”。"
         },
         {
           "type": "p",
@@ -569,11 +569,11 @@
         },
         {
           "type": "p",
-          "text": "whose 表示所属，后接名词，在从句中作定语。As 引导的非限制从句指代整个主句，如 As is known，意为“众所周知”。"
+          "text": "whose 表示所属，后接名词，在从句中作定语。As 引导的非限制从句指代整个主句，可以放在主句前，也可以放在主句后。"
         },
         {
           "type": "pattern",
-          "text": ", who / which / whose …  |  As is known, …"
+          "text": ", who / which / whose …  |  As …, 主句"
         },
         {
           "type": "subhead",
@@ -588,11 +588,11 @@
         },
         {
           "type": "p",
-          "text": "先行词是 stage、situation 等表示阶段或情况的名词时，关系副词 where 或 when 在从句中作状语，如 a stage where I am unable to deal with it。"
+          "text": "先行词是 stage、situation 等表示阶段或情况的名词时，关系副词 where 或 when 在从句中作状语。"
         },
         {
           "type": "pattern",
-          "text": "a stage where …"
+          "text": "stage / situation + where / when …"
         }
       ],
       "examples": [
@@ -686,7 +686,7 @@
         },
         {
           "type": "p",
-          "text": "when 引导的时间从句，主语与主句一致时，可以省略为分词短语，如 When asked about his address 表示“被问到住址时”。"
+          "text": "when 引导的时间从句，主语与主句一致时，可以省略为分词短语。"
         },
         {
           "type": "p",
@@ -694,7 +694,7 @@
         },
         {
           "type": "p",
-          "text": "the instant、the moment 表示“一……就”，如 the instant they heard the fire alarm。"
+          "text": "the instant、the moment 表示“一……就”，引导时间从句。"
         },
         {
           "type": "pattern",
@@ -707,17 +707,17 @@
         {
           "type": "gloss",
           "lines": [
-            "固定短语",
-            "表示“如果”"
+            "if it is adj.",
+            "可省略 it is"
           ]
         },
         {
           "type": "p",
-          "text": "if it is necessary 可以省略为 If necessary，表示“如有必要”。这是固定用法，要整体记忆。"
+          "text": "if 从句为 it is 加形容词时，可省略 it is，留下 if 加形容词，常作固定短语，要整体记。"
         },
         {
           "type": "pattern",
-          "text": "If necessary, …"
+          "text": "If + 形容词, …"
         }
       ],
       "examples": [
@@ -760,7 +760,7 @@
           "ans": "when"
         }
       ],
-      "keypoint": "时间状语从句看连词。when 表示“正在……时”，the instant 表示“一……就”。从句主语与主句一致时，可省略为分词短语。If necessary 等固定短语要整体记。",
+      "keypoint": "时间状语从句看连词。when 表示“正在……时”，the instant 表示“一……就”。从句主语与主句一致时，可省略为分词短语。if 从句中的 it is 可省略，要整体记。",
       "drill": [
         {
           "stem": "When he was asked about his address, the little boy didn’t respond.",
@@ -821,7 +821,7 @@
         },
         {
           "type": "p",
-          "text": "It is/was … that/who 句型用于强调句子的某个成分，被强调的成分放在 is 与 that 之间。Tomorrow afternoon 是时间状语，因此写作 It is tomorrow afternoon that …。"
+          "text": "It is/was … that/who 句型用于强调句子的某个成分，被强调的成分放在 is 与 that 之间，可以是主语、宾语或状语。强调人时，that 可换成 who。"
         },
         {
           "type": "pattern",
@@ -839,7 +839,7 @@
         },
         {
           "type": "p",
-          "text": "It was not until … that … 表示“直到……才……”，强调时间状语 not until 从句。如 It was not until all the fish died out that they realized the importance of environment protection。"
+          "text": "It was not until … that … 表示“直到……才……”，强调时间状语 not until 从句。"
         },
         {
           "type": "pattern",
@@ -892,11 +892,11 @@
         },
         {
           "type": "p",
-          "text": "动名词短语作主语，整体视为单数，谓语用单数，如 Doing voluntary work benefits us。There is no doubt that 句型中，that 从句的主语是动名词短语。"
+          "text": "动名词短语作主语，整体视为单数，谓语用单数。There is no doubt that 句型中，that 从句的主语是动名词短语。"
         },
         {
           "type": "pattern",
-          "text": "doing … benefits / is …"
+          "text": "doing … + 单数谓语"
         },
         {
           "type": "subhead",
@@ -910,11 +910,11 @@
         },
         {
           "type": "p",
-          "text": "rather than、as well as、together with 连接的成分不属于主语的一部分，谓语与前面的主语保持一致，如 the driver rather than the couples was responsible。"
+          "text": "rather than、as well as、together with 连接的成分不属于主语的一部分，谓语与前面的主语保持一致。"
         },
         {
           "type": "pattern",
-          "text": "A rather than B + 单数谓语"
+          "text": "A rather than B + 与 A 一致的谓语"
         }
       ],
       "examples": [],
