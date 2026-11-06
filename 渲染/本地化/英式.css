@@ -604,3 +604,35 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 
 /* 答案里夹中文（如「或者：」）时不回退系统字体：粗体答案字体栈补上箭头与宋体 */
 .key .ans { font-family: "arrow", "serif-en", "serif-cjk"; }
+
+/* ══ 2026-11-06 所有者认可四页样章，全量采用 ══ */
+/* 出处独占题目前一行，仍为10.5pt；超长联考校名可换行，题干从下一行完整起读。 */
+.atoms > li > p > .src {
+  display: block;
+  margin: 0;
+  font: 400 10.5pt/var(--u) "sans-ui";
+  position: relative;
+  top: 0.57pt;
+  white-space: normal;
+}
+.unit:not(.stage) .atoms > li > p > .src { margin-right: 0; white-space: normal; }
+/* 出处独行后英文首行变长；收窄段考题干至31字，守住80字符行长，书写线保持原宽。 */
+.stage .atoms > li > p { max-width: 372pt; }
+
+/* 讲解用已有em-atom标记突出少量判断词，短语不拆，正文仍为12pt/21pt。 */
+.group .em-atom { font-weight: 700; white-space: nowrap; }
+.group > .pattern { margin-top: var(--h); }
+
+/* 考情表：词形后明确写次数，说明移到表前。保留原列宽以容纳全册长词与考法。 */
+.unit:not(.stage) .freq td.forms span { margin-right: 0.75em; max-width: 100%; white-space: normal; }
+.unit:not(.stage) .freq td.forms span:last-child { margin-right: 0; }
+.unit:not(.stage) .freq td.forms sub { margin-left: 0.15em; font: 400 9pt/1 "sans-ui"; white-space: nowrap; }
+.unit:not(.stage) .freq td.forms sub::before { content: "（"; }
+.unit:not(.stage) .freq td.forms sub::after { content: "次）"; }
+.unit:not(.stage) .freq td.tally { text-align: right; }
+.unit:not(.stage) .freq td.tally span { display: inline-block; min-width: 1.5em; text-align: right; }
+.unit:not(.stage) .part > .after { margin: 0 0 var(--h); break-before: auto; break-after: avoid; }
+
+/* 长答案前后留半格，短答案仍紧凑；不改变题号、答案文字或书写区域。 */
+.key li:has(.ans.long), .key li:has(.ans.long) + li { margin-top: var(--h); }
+.key li:first-child { margin-top: 0; }

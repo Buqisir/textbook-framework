@@ -653,7 +653,7 @@
           "答案": "has decreased",
           "解析": "考查动词时态和主谓一致。句意：经济危机以后，独立企业从198家减少到96家。分析句子可知，此处为谓语动词的填入，由该句since可知，此处应为现在完成时，主语The number of…表示“……的数量”，谓语动词应为单数形式。故填has decreased。",
           "句意": "",
-          "reason": "since 从句用现在完成时",
+          "reason": "since 从句表示过去起点，主句用现在完成时；主语 The number 为单数",
           "answer_show": null
         },
         {
@@ -1197,7 +1197,7 @@
         {
           "词头": "participate",
           "题数": 4,
-          "gloss": "an 后用单数名词<br>that 从句主语用复数",
+          "gloss": "an 后用单数名词<br>themselves 对应复数主语",
           "chain": [
             {
               "词": "participate",
@@ -1256,7 +1256,7 @@
               "答案": "participants",
               "解析": "考查名词复数。句意：冰桶挑战要求参与者将一桶冰水倒在自己身上。分析句子结构可知，空处需使用名词participant（参与者）在宾语从句中作主语，根据themselves（他们自己）可知，主语应为复数形式。故填participants。",
               "句意": "",
-              "reason": "that 从句主语用复数",
+              "reason": "themselves 对应复数主语",
               "answer_show": null
             }
           ]

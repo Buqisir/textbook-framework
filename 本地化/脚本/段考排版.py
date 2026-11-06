@@ -88,7 +88,7 @@ gloss / note 的 lines：每个元素一行，行间 <br>。
     gloss 多行用「 · 」合成一行，与小标题药丸同行。note 的多行用空格接成一行。
   · 例题：首行 <p class="ex-head"><b class="ex-no">例 n</b><span class="src">出处</span><span class="hint">柱注</span></p>，
     题干段另起、不再带出处；解析首段前是 <h4>解析</h4>（药丸，与「句意」同行）。
-  · 练一练：出处放题干段行首 <p><span class="src">…</span>题干…</p>，句末不再放；改写指令 .cue 仍在句末。
+  · 练一练：出处放题干段开头 <p><span class="src">…</span>题干…</p>，CSS使出处独占上行、题干另起；改写指令 .cue 仍在句末。
   · 新 class 只有 group、ex-head、ex-no、hint；其余沿用现有 class（src、gloss、pattern、note、keypoint、solution、ans-line 等）。
   · --topics：只输出指定专题及其答案组；册头与考情总览保留；练一练题号仍按全册连续编号。只能与 --theme 英式 同用。
 """
@@ -344,7 +344,7 @@ def explain_items_en(blocks):
         elif t == 'gloss':
             h = f'<aside class="gloss">{gloss_en(b["lines"])}</aside>'
         elif t == 'p':
-            h = f'<p>{inline(b["text"])}</p>'
+            h = f'<p>{explain_inline(b["text"])}</p>'
         elif t == 'pattern':
             h = f'<p class="pattern" lang="en">{inline(b["text"])}</p>'
         elif t == 'note':
@@ -353,6 +353,20 @@ def explain_items_en(blocks):
             raise SystemExit(f'explain 未知块类型：{t}')
         out.append((t, h))
     return out
+
+
+def explain_inline(text):
+    """认可样章的少量判断词重点；只作用于讲解正文，保留已有手工标记。"""
+    if '[[' not in text and '**' not in text:
+        focus = (
+            r'主动关系时用 -ing|被动关系时用 -ed|'
+            r'主动关系用 -ing|被动关系用 -ed|'
+            r'执行者时用现在分词|承受者时用过去分词|'
+            r'主动关系用 doing|被动关系用 done|'
+            r'不定式作目的状语|搭配决定|to 是介词'
+        )
+        text = re.sub(focus, lambda m: '[[' + m.group() + ']]', text, count=2)
+    return inline(text).replace('“为了”', '\u2060'.join('“为了”'))
 
 
 def explain_segments_en(blocks):
@@ -436,7 +450,7 @@ def strip_tail_blank(stem):
 
 
 def drill_p_en(d):
-    """练一练题干段（英式）：出处放段首，后空 1 字接题干；改写指令（cue）仍在句末。"""
+    """练一练题干段（英式）：出处由CSS独立成行，题干另起；改写指令（cue）仍在句末。"""
     mode = answer_mode(d.get('stem'), d.get('cue'), d.get('ans'))
     text = (d.get('stem') or '').replace('\n', ' → ')
     if mode == 'whole':

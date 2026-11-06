@@ -147,7 +147,7 @@
         {
           "type": "gloss",
           "lines": [
-            "句首 doing，谓语单数"
+            "doing 作主语，谓语单数"
           ]
         },
         {
@@ -268,9 +268,9 @@
           "ju": "花太多时间上网既不健康，也让人很难专注于生活中的其他事情。",
           "mid": {
             "label": "成分",
-            "text": "空格在句首，作主语。spend 与逻辑主语是主动关系，用动名词形式，后面的 is 是单数谓语。"
+            "text": "动名词短语作主语，后面的 is 是单数谓语。空前已有 But，spending 首字母小写。"
           },
-          "ans": "Spending",
+          "ans": "spending",
           "group": "作主语"
         },
         {
@@ -444,7 +444,7 @@
             "分词作状语"
           ],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "ans": "Seeing the pictures, she remembered her childhood.",
+          "ans": "Seeing the pictures",
           "why": "she 与 see 是主动关系，用 -ing。",
           "long": true,
           "group": "作状语",
@@ -811,8 +811,8 @@
             "用it作形式主语改写"
           ],
           "src": "2025 · 东莞市 · 高一上期中",
-          "ans": "It seems that",
-          "why": "It seems that 与 seem to 可互换",
+          "ans": "It seems that the package arrived early this morning.",
+          "why": "It seems that 与 seem to 可互换，to have arrived 表示到达早于 seems。",
           "group": "形式主语 It",
           "level": "必练"
         },
@@ -1609,12 +1609,12 @@
         {
           "type": "gloss",
           "lines": [
-            "与事实相反"
+            "按是否符合事实选语气"
           ]
         },
         {
           "type": "p",
-          "text": "as if、as though 引导的从句意为「好像……似的」，实际并非如此，所以从句要虚拟。指过去的情况用 had done，指现在或将来的情况用一般过去时或 were。"
+          "text": "as if、as though 引导的从句意为“好像……似的”。可能符合事实时用陈述语气；与事实相反或可能性很小时用虚拟语气：与现在事实相反用一般过去时（be 常用 were），与过去事实相反用 had done。"
         },
         {
           "type": "pattern",
@@ -1657,7 +1657,7 @@
           "group": "recommend 型"
         }
       ],
-      "keypoint": "见 recommend、request 等建议要求类动词，that 从句写 (should) + 原形；主语是物再加 be done。把 recommend sb. to do 换成 recommend that sb. (should) do。",
+      "keypoint": "recommend、request 等表示建议、要求时，that 从句谓语用 (should) + 动词原形；从句主语是动作的承受者时，用 (should) be done。recommend sb. to do 可改为 recommend that sb. (should) do。",
       "drill": [
         {
           "stem": "She recommended that the program ___ (design) to help students practice and improve their oral English.",
@@ -1745,8 +1745,8 @@
             "同义句改写"
           ],
           "src": "2022 · 翰林高级中学 · 高一上期中",
-          "ans": "recommended that I (should) see",
-          "why": "recommend sb. to do 改写为从句",
+          "ans": "recommended that I (should)",
+          "why": "recommend sb. to do 改写为从句，see 题干已给出。",
           "group": "recommend 型",
           "level": "必练"
         },
@@ -2044,7 +2044,7 @@
         },
         {
           "type": "p",
-          "text": "What 引导的主语从句在从句内部作成分，如 What impressed me most 中 what 作 impressed 的主语；主句谓语看后面的名词单复数。"
+          "text": "what 在主语从句内部作成分，如 What impressed me most 中 what 作 impressed 的主语。主语从句作主语时，主句谓语通常用单数；what 从句所指内容为复数时，主句谓语可用复数。"
         },
         {
           "type": "pattern",
@@ -2062,11 +2062,11 @@
         },
         {
           "type": "p",
-          "text": "宾语从句看从句缺不缺成分：缺主语或宾语，用 what、which、who 等连接代词；成分齐全，用 that（可省）、whether 或 if。"
+          "text": "宾语从句中，缺主语或宾语用 what、which、who 等；表示方式、时间、地点或原因用 how、when、where、why；陈述事实用 that（常可省），表示“是否”用 whether 或 if。"
         },
         {
           "type": "p",
-          "text": "介词后面的宾语从句不用 that，是否用 whether，缺成分用 what、how 等。"
+          "text": "介词后的宾语从句表示“是否”用 whether，不用 if；缺主语或宾语可用 what，表示方式用 how。"
         }
       ],
       "examples": [
@@ -2082,13 +2082,13 @@
           "ju": "给我留下最深印象的是九寨沟令人惊叹的瀑布。",
           "mid": {
             "label": "成分",
-            "text": "句首的空引导主语从句，在从句中作 impressed 的主语，所以用 what；谓语 were 与后面的 waterfalls 一致。"
+            "text": "句首的空引导主语从句，在从句中作 impressed 的主语，所以用 what。what 指多处瀑布，主句谓语用复数 were。"
           },
           "ans": "What",
           "group": "主语从句"
         }
       ],
-      "keypoint": "从句在句中作主语时，常转成 It be adj. that 句型；动词或介词后缺成分时，用 what 引导。",
+      "keypoint": "主语从句作主语时，主句谓语通常用单数，what 从句所指内容为复数时可用复数。宾语从句缺主语或宾语用 what 等，表示方式、时间、地点或原因用 how、when、where、why。",
       "drill": [
         {
           "stem": "Obviously, the ability to talk is something that marks humans off from animals. → ___ the ability to talk is something that marks humans off from animals.",
@@ -2243,7 +2243,7 @@
             "改为倒装句"
           ],
           "src": "2022 · 翰林高级中学 · 高一上期中",
-          "ans": "Not only did they introduce",
+          "ans": "① Not only did；② introduce",
           "why": "not only 句首倒助动词 did。",
           "long": true,
           "group": "否定词句首",

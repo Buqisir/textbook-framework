@@ -429,12 +429,12 @@
           "type": "gloss",
           "lines": [
             "句首作主语",
-            "谓语用单数"
+            "谓语通常用单数"
           ]
         },
         {
           "type": "p",
-          "text": "主语从句在句首作主语，谓语用单数。从句缺成分时用 what、who、which 等，从句完整时用 that 或 whether，如 Whether we will go for an outing tomorrow remains unknown。"
+          "text": "主语从句作主语时，主句谓语通常用单数；what 从句的数还要结合其所指内容和主句结构判断。表示是否用 whether，如 Whether we will go for an outing tomorrow remains unknown。"
         },
         {
           "type": "p",
@@ -457,11 +457,11 @@
         },
         {
           "type": "p",
-          "text": "表语从句位于系动词之后，说明主语是什么。从句缺成分用 who、what 等；从句完整时用 that，或用 whether 表示是否。"
+          "text": "表语从句位于系动词之后，说明主语是什么。缺主语、宾语或表语时用 who、what 等；表示时间、地点、原因或方式时用 when、where、why、how；只起连接作用时用 that；表示是否用 whether。"
         },
         {
           "type": "p",
-          "text": "is 或 remains 之后的从句结构完整时用 that 或 whether，缺成分时用疑问词或关系词。"
+          "text": "连接词由从句成分和句意决定，不能只凭系动词 is 或 remains 判断。"
         },
         {
           "type": "subhead",
@@ -480,7 +480,7 @@
         },
         {
           "type": "p",
-          "text": "一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序。"
+          "text": "表示时间、地点、原因或方式时，用 when、where、why、how 引导宾语从句。一般疑问句改成宾语从句时，用 if 或 whether 引导，从句用陈述句语序。"
         }
       ],
       "examples": [
@@ -559,7 +559,7 @@
           "group": "表语从句"
         }
       ],
-      "keypoint": "从句在句首作主语，缺成分用 what、who、which 等，不缺成分用 that 或 whether。系动词之后的表语从句同样看从句是否缺成分。一般疑问的宾语从句用 if 或 whether。",
+      "keypoint": "名词性从句缺主语、宾语等用 what、who、which 等；表示时间、地点、原因或方式用 when、where、why、how；只起连接作用用 that；表示是否用 whether，动词后的宾语从句也可用 if。",
       "drill": [
         {
           "stem": "To our surprise, Karl Marx should have lived and died in London.\n___ is that Karl Marx should have lived and died in London.",
@@ -940,7 +940,7 @@
           "ans": "being punished"
         }
       ],
-      "keypoint": "由时间状语定时态。主语是动作承受者时，be 的形式跟着所定的时态变，非谓语用 being done。",
+      "keypoint": "由时间状语定时态。主语是动作承受者时，be 的形式跟着所定的时态变。risk、in spite of 后接动名词，动名词与逻辑主语为被动关系时用 being done。",
       "drill": [
         {
           "level": "必练",

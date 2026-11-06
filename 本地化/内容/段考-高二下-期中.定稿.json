@@ -621,7 +621,7 @@
         },
         {
           "type": "p",
-          "text": "先行词被最高级或 the only、the very 修饰时，关系代词多用 that，如 the best way that has been used。非限制性定语从句前有逗号，用 who 或 which，不用 that。"
+          "text": "先行词被最高级或 the only、the very 修饰时，关系代词多用 that，如 the best way that has been used。非限制性定语从句前有逗号，关系词按从句成分选择，可用 who、whom、which、whose、when、where 等，不用 that。"
         }
       ],
       "examples": [
@@ -808,7 +808,7 @@
         },
         {
           "type": "p",
-          "text": "动作从过去一直持续到现在且仍在进行，用现在完成进行时 has/have been doing。for 或 since 引出的时段，加上说明仍未结束的句意，是常见的判断依据。"
+          "text": "动作从过去持续到现在，可用现在完成时；强调动作持续进行或反复发生时，常用现在完成进行时 has/have been doing。表示状态的动词通常用现在完成时。"
         }
       ],
       "examples": [
@@ -907,7 +907,7 @@
           "ans": "has declined"
         }
       ],
-      "keypoint": "判断动词与主语是主动还是被动关系，被动用 be 加过去分词，be 的形式跟随时态。句中有 since、for、in recent years 这类时间状语时，谓语用现在完成式；强调仍在进行，用 has/have been doing。",
+      "keypoint": "判断动词与主语是主动还是被动关系，被动用 be 加过去分词，be 的形式跟随时态。动作从过去持续到现在可用现在完成时；强调动作持续进行时常用 has/have been doing，状态动词通常用现在完成时。",
       "drill": [
         {
           "stem": "From my point of view, the opening ceremony of the music festival is worthy ___ (watch).",
@@ -1236,7 +1236,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词或介词之后，从句缺成分时用 what、who、which 等引导。"
+          "text": "宾语从句位于动词或介词之后，缺主语或宾语时用 what、who、which 等；表示时间、地点、原因或方式时用 when、where、why、how。"
         },
         {
           "type": "subhead",
@@ -1274,7 +1274,7 @@
           "group": "同位语从句"
         }
       ],
-      "keypoint": "名词后接 that 从句说明内容时，是同位语从句。名词性从句缺成分时用 what、who、which 等；表示“是否”时用 whether，if 只引导宾语从句。that 只起连接作用，不在从句中充当成分。",
+      "keypoint": "名词后接 that 从句说明内容时，是同位语从句。名词性从句缺主语、宾语等时用 what、who、which 等；表示时间、地点、原因或方式时用 when、where、why、how；表示“是否”时用 whether，动词后的宾语从句也可用 if。that 只起连接作用。",
       "drill": [
         {
           "stem": "毫无疑问，阅读书籍可以拓宽我们的视野并丰富我们的知识。",

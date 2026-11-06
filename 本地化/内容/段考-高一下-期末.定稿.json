@@ -158,18 +158,18 @@
         },
         {
           "type": "subhead",
-          "text": "作主语"
+          "text": "作主语与比较对象"
         },
         {
           "type": "gloss",
           "lines": [
             "动名词短语作主语",
-            "谓语用单数"
+            "than 后作比较对象"
           ]
         },
         {
           "type": "p",
-          "text": "动名词短语作主语时，整个短语视作单数，谓语用单数，如 Practicing handwriting is of great significance to the students’ growth。修饰动名词的副词放在短语中间或末尾，不改变这一点。"
+          "text": "动名词短语作主语时，整个短语视作单数，谓语用单数，如 Practicing handwriting is of great significance to the students’ growth。修饰动名词的副词放在短语中间或末尾，不改变这一点。动名词短语也可作 than 后的比较对象，如 more inspiring than seeing …。"
         },
         {
           "type": "subhead",
@@ -379,15 +379,6 @@
           "level": "必练"
         },
         {
-          "stem": "Parents consider it a duty ___ (select) healthy foods for their children.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高一下期末",
-          "ans": "to select",
-          "why": "duty 之后接不定式作定语",
-          "group": "作定语",
-          "level": "必练"
-        },
-        {
           "stem": "In 2012, Liu Yang became China’s first female astronaut who travelled into space.\nIn 2012, Liu Yang became China’s first female astronaut ___ space.",
           "cue": [
             "用不定式改写"
@@ -444,7 +435,7 @@
           "src": "2026 · 东莞第六高级中学 · 高一下期末",
           "ans": "regularly",
           "why": "副词修饰动名词 reading",
-          "group": "作主语",
+          "group": "作主语与比较对象",
           "level": "必练"
         },
         {
@@ -454,8 +445,8 @@
           ],
           "src": "2023 · 东莞市 · 高一下期末",
           "ans": "Nothing is more inspiring than seeing our country grow stronger and stronger/become more and more powerful.",
-          "why": "动名词短语作主语，谓语单数",
-          "group": "作主语",
+          "why": "Nothing 作主语，seeing … 动名词短语作 than 后的比较对象",
+          "group": "作主语与比较对象",
           "level": "必练"
         },
         {
@@ -619,7 +610,7 @@
         },
         {
           "type": "p",
-          "text": "find、make、think、believe 等动词后面，宾语位置如果是 it，真正的宾语是后面的不定式或从句。结构是 find / make / believe + it + 形容词 + to do。"
+          "text": "find、make、think、believe、consider 等动词后可用 it 作形式宾语，真正的宾语是不定式或从句，形容词或名词作宾补。consider it a duty to do 中，a duty 作宾补，to do 是真正的宾语。"
         },
         {
           "type": "p",
@@ -627,7 +618,7 @@
         },
         {
           "type": "pattern",
-          "text": "find it adj. to do  |  make it adj. for sb. to do"
+          "text": "find it adj. to do  |  make it adj. for sb. to do  |  consider it n. to do"
         },
         {
           "type": "subhead",
@@ -690,6 +681,15 @@
       "keypoint": "空格在 find、make、believe 之后，且后面是形容词加 to do 或从句，填 it；句首的 it 是形式主语，真正的主语在句末。",
       "drill": [
         {
+          "stem": "Parents consider it a duty ___ (select) healthy foods for their children.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一下期末",
+          "ans": "to select",
+          "why": "it 作形式宾语，a duty 作宾补，to select … 是真正的宾语",
+          "group": "形式宾语",
+          "level": "必练"
+        },
+        {
           "stem": "For a speaker, it is important to ___ (牢记)that less is more.",
           "cue": [],
           "src": "2024 · 东莞市 · 高一下期末",
@@ -740,7 +740,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句位于句首，谓语用单数。从句缺成分时用 what，如 What impresses sb. most is …；从句不缺成分时用 that 或 whether。"
+          "text": "主语从句作主语时，主句谓语通常用单数；what 从句所指内容为复数时，主句谓语可用复数。从句缺主语或宾语时可用 what，如 What impresses sb. most is …；陈述事实用 that，表示“是否”用 whether。"
         },
         {
           "type": "p",
@@ -1029,7 +1029,7 @@
         },
         {
           "type": "p",
-          "text": "强调句的结构是 It is/was + 被强调部分 + that/who + 其余部分，其余部分保持原句的语序和时态。被强调的是状语或宾语时只用 that；被强调的是人并且作主语时，that 与 who 都可以。"
+          "text": "强调句的结构是 It is/was + 被强调部分 + that/who + 其余部分，其余部分保持原句的语序和时态。被强调的是人时，that 与 who 都可以；强调其他成分时用 that。"
         },
         {
           "type": "p",
@@ -1041,7 +1041,7 @@
         }
       ],
       "examples": [],
-      "keypoint": "去掉 It is/was 和 that 后句子仍完整，就是强调句；被强调的是状语或宾语时用 that，人作主语时 that 与 who 都可以。",
+      "keypoint": "去掉 It is/was 和 that/who 后句子仍完整，就是强调句；被强调的是人时，that 与 who 都可以，强调其他成分时用 that。",
       "drill": [
         {
           "stem": "Tom’s knowledge of first aid saved his neighbor’s life last night.\n___ Tom’s knowledge of first aid ___ saved his neighbor’s life last night.",

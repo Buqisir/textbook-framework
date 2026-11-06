@@ -515,12 +515,12 @@
      "type": "gloss",
      "lines": [
       "关系词作从句主语",
-      "非限制性只用 which"
+      "非限制性不用 that"
      ]
     },
     {
      "type": "p",
-     "text": "关系词在从句中作主语时，指人可用 who 或 that，指物用 which 或 that。非限制性定语从句前有逗号，不用 that，指前面的整句内容时只用 which。"
+     "text": "关系词在从句中作主语时，指人可用 who 或 that，指物用 which 或 that。非限制性定语从句前有逗号，不用 that，指前面的整句内容时可用 which 或 as。"
     },
     {
      "type": "subhead",
@@ -736,7 +736,7 @@
     },
     {
      "type": "p",
-     "text": "动词后接 that 从句作宾语时，it 作形式宾语放在动词之后，that 从句是真正的宾语。"
+     "text": "make 等动词后，在带宾补的形式宾语结构中，it 占据宾语位置，that 从句作真正的宾语，如 make it a rule that …。"
     },
     {
      "type": "subhead",
@@ -960,7 +960,7 @@
       "强调句结构"
      ],
      "src": "2021 · 东华高级中学 · 高一上期末",
-     "ans": "It / was / that",
+     "ans": "① It was；② that",
      "why": "强调状语，原句为过去时",
      "group": "It is/was…that",
      "level": "必练"

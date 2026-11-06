@@ -346,7 +346,7 @@
           ],
           "src": "2025 · 东莞实验中学 · 高二下月考",
           "ans": "consisting of / composed of",
-          "why": "同义 made up of，用 -ing",
+          "why": "consist of 不用于被动，用现在分词 consisting of；be composed of 省略关系词和 be 后，用过去分词 composed of",
           "group": "作定语",
           "level": "必练"
         },
@@ -603,15 +603,6 @@
           "level": "必练"
         },
         {
-          "stem": "In ancient times, silk from China found its way overland to India, the Middle East, and Rome, along ___ became known as the Silk Road.",
-          "cue": [],
-          "src": "2024 · 厚街中学 · 高二下月考",
-          "ans": "which",
-          "why": "应为 which，不用 what",
-          "group": "介词加关系代词",
-          "level": "必练"
-        },
-        {
           "stem": "He lived in a big house, ___ (在它的前面) stood a big tree.",
           "cue": [],
           "src": "2020 · 光明中学 · 高二下月考",
@@ -833,7 +824,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词或介词之后，从句缺少成分时用 what。"
+          "text": "宾语从句位于动词或介词之后。从句缺主语或宾语时可用 what，what 在从句中充当成分；整个从句作外层动词或介词的宾语。表示时间、地点、原因或方式时，用 when、where、why、how。"
         },
         {
           "type": "pattern",
@@ -910,6 +901,15 @@
           "why": "what 从句作 from 宾语，what 作 called 宾语",
           "group": "宾语从句",
           "level": "必练"
+        },
+        {
+          "stem": "In ancient times, silk from China found its way overland to India, the Middle East, and Rome, along ___ became known as the Silk Road.",
+          "cue": [],
+          "src": "2024 · 厚街中学 · 高二下月考",
+          "ans": "what",
+          "why": "原误写 which；what 作从句主语，整个从句作 along 的宾语",
+          "group": "宾语从句",
+          "level": "必练"
         }
       ]
     },
@@ -964,7 +964,7 @@
           "group": "建议类动词"
         }
       ],
-      "keypoint": "recommend、demand、urge 等词后的 that 从句中，谓语用 (should) do。从句主语是动作承受者时用 (should) be done。",
+      "keypoint": "recommend、demand、urge 等词表示建议、要求时，其后的 that 从句谓语用 (should) do。从句主语是动作承受者时用 (should) be done。",
       "drill": [
         {
           "stem": "The teacher demanded that students’ assignments, no matter how challenging they might have been, ___ (submit) on time.",

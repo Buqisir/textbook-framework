@@ -187,7 +187,7 @@
     },
     {
      "type": "p",
-     "text": "There is no doing 是固定句型，意为「无法否认……」，空格填动名词：There is no denying that……。"
+     "text": "There is no denying that… 表示「无可否认……」，deny 用动名词形式 denying。"
     },
     {
      "type": "subhead",
@@ -335,7 +335,7 @@
     {
      "group": "作主语",
      "gloss": [
-      "There is no doing",
+      "There is no denying that…",
       "固定句型"
      ],
      "stem": {
@@ -346,7 +346,7 @@
      "ju": "那名司机应对事故负责，这一点无可否认。",
      "mid": {
       "label": "判断",
-      "text": "no 后接动名词，构成固定句型 There is no doing，意为「无法否认……」，denying 作主语的一部分。"
+      "text": "There is no denying that… 表示「无可否认……」，deny 用动名词形式 denying。"
      },
      "ans": "denying"
     }
@@ -635,7 +635,7 @@
     },
     {
      "type": "p",
-     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that。"
+     "text": "主语从句作主语时，主句谓语通常用单数；what 从句的数还要结合其所指内容和主句结构判断。从句缺主语或宾语时用 what，表示时间、地点、原因或方式时用 when、where、why 或 how，只起连接作用时用 that。"
     },
     {
      "type": "p",
@@ -677,7 +677,7 @@
     },
     {
      "type": "p",
-     "text": "动词后的宾语从句，成分齐全时用 that 引导，常可省略；从句缺成分时用 what。"
+     "text": "动词后的宾语从句，缺主语或宾语时用 what、who、which 等；表示时间、地点、原因或方式时用 when、where、why、how；只起连接作用时用 that，that 常可省略。"
     },
     {
      "type": "p",
@@ -757,7 +757,7 @@
      "ans": "whether"
     }
    ],
-   "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语，动词或介词后作宾语，名词后作同位语。从句缺成分用 what，成分齐全用 that，表示是否用 whether。",
+   "keypoint": "从句在句中的位置决定从句类型：作主语、表语、宾语或同位语。缺主语、宾语等用 what、who 等；表示时间、地点、原因或方式用 when、where、why、how；只起连接作用用 that；表示是否用 whether，动词后的宾语从句也可用 if。",
    "drill": [
     {
      "stem": "Apparently, all the students are committed to preparing for the exam.\n___ that all the students are committed to preparing for the exam.",
@@ -1067,7 +1067,7 @@
     },
     {
      "type": "p",
-     "text": "when、as soon as 等引导的时间从句，表示主句动作发生的时间。从句主语与主句主语一致，或指代同一事物时，可省略从句主语和 be，只留分词或形容词。"
+     "text": "when、as soon as 等引导的时间从句，表示主句动作发生的时间。从句主语与主句主语一致，且从句谓语含 be 时，可省略从句主语和 be，保留连词及后面的分词或形容词。"
     },
     {
      "type": "p",
@@ -1105,7 +1105,7 @@
     },
     {
      "type": "p",
-     "text": "if 引导条件从句，从句主语与主句主语一致时，可省略从句主语和 be，保留过去分词。"
+     "text": "if 引导条件从句，从句主语与主句主语一致，且从句谓语含 be 时，可省略从句主语和 be，保留 if 和过去分词。"
     },
     {
      "type": "subhead",
@@ -1163,7 +1163,7 @@
      "ans": "taken"
     }
    ],
-   "keypoint": "连词决定从句的意思：when 表时间，if 表条件，whoever 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词」。",
+   "keypoint": "连词决定从句的意思：when 表时间，if 表条件，whoever 表让步，so、such 引导结果。从句主语与主句主语一致，且从句谓语含 be 时，可省略主语和 be，保留连词。",
    "drill": [
     {
      "stem": "I felt free from the cares of the day as soon as I left the building.\nI felt free from the cares of the day ___ I left the building.",

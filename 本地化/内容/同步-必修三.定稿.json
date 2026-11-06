@@ -1571,7 +1571,7 @@
           "短语": "seek one's fortune",
           "释义": "寻找成功致富之路；闯世界",
           "词头": "seek",
-          "gloss": "seek 的过去式用 sought<br>one's 随主语人称变化",
+          "gloss": "seek 的过去式、过去分词：sought<br>one's 随主语人称变化",
           "atoms": [
             {
               "id": "049-18",
@@ -1585,7 +1585,7 @@
               "答案": "sought ； their ； fortune",
               "解析": "考查固定短语。句意：一些中国移民多年来一直在旧金山寻找财富。分析句子可知，空处可使用固定短语seek one's fortune在句中作谓语，意为“寻找成功致富之路；闯世界”，主语Some Chinese immigrants（一些中国移民）为复数形式，因此需使用表示复数的形容词性物主代词their。该句使用了现在完成时，因此空处需使用过去分词形式。故填①sought②their③fortune。",
               "句意": "",
-              "reason": "过去式 sought，one's 用 their",
+              "reason": "have 后用过去分词 sought，one's 用 their",
               "answer_show": null
             }
           ]
@@ -1620,7 +1620,7 @@
           "答案": "to select",
           "解析": "考查非谓语动词。句意：父母认为为孩子选择健康的食物是一种责任。句中it作形式宾语，这里应填不定式作真正宾语，故填to select。",
           "句意": "",
-          "reason": "duty 后用不定式作定语",
+          "reason": "it 作形式宾语，a duty 作宾补，不定式作真正宾语",
           "answer_show": null
         },
         {

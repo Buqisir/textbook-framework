@@ -92,7 +92,7 @@
         },
         {
           "type": "p",
-          "text": "分词作结果状语，放在句末，如 Dogs have a wider hearing range than humans, enabling them to notice sounds。分词表示先于谓语发生的动作时，用 having done。"
+          "text": "句末的现在分词可表示前面整件事带来的结果，如 Dogs have a wider hearing range than humans, enabling them to notice sounds。分词表示先于谓语发生的动作时，用 having done。"
         },
         {
           "type": "p",
@@ -161,11 +161,11 @@
         },
         {
           "type": "p",
-          "text": "fail to do、decide to do 等短语要整体记，不能只凭句意换形式。"
+          "text": "fail、decide 后接不定式：fail to do、decide to do。"
         },
         {
           "type": "p",
-          "text": "hard to do 中 to 后接动词原形；permit doing 中，permit 后接动名词。keep up with 表示跟上（新闻、潮流）。"
+          "text": "hard to do 中 to 后接动词原形；permit doing 中，permit 后接动名词。keep up with the latest news 表示“了解最新消息”。"
         },
         {
           "type": "pattern",
@@ -179,7 +179,7 @@
           "type": "gloss",
           "lines": [
             "动名词或不定式作主语",
-            "What 从句可改为动名词"
+            "动名词短语作表语"
           ]
         },
         {
@@ -188,7 +188,7 @@
         },
         {
           "type": "p",
-          "text": "What 从句作表语时，可改为动名词作表语。形式主语 It is an honor to do 句型中，真正的主语是不定式。"
+          "text": "that she stays … 可改为 her staying … 作表语，What 主语从句不变。形式主语 It is an honor to do 句型中，真正的主语是不定式。"
         },
         {
           "type": "pattern",
@@ -246,7 +246,7 @@
           "ju": "狗的听力范围比人宽，因此它们能听到人听不到的声音。",
           "mid": {
             "label": "判断",
-            "text": "句末分词短语作结果状语，修饰前面的主句。enable 与逻辑主语 Dogs 是主动关系，用现在分词。"
+            "text": "enabling … 表示狗的听力范围比人更宽这件事带来的结果，用现在分词作结果状语。"
           },
           "ans": "enabling"
         },
@@ -310,17 +310,17 @@
           "group": "固定搭配",
           "gloss": [
             "keep up with",
-            "固定搭配整体记"
+            "了解最新消息"
           ],
           "stem": {
             "text": "It’s hard to ___ (了解最新动态)all the latest news these days.",
             "cue": [],
             "src": "2026 · 海逸外国语学校 · 高一下期中"
           },
-          "ju": "这些天每天都有很多新闻，很难跟上所有的最新动态。",
+          "ju": "如今很难了解所有最新消息。",
           "mid": {
             "label": "判断",
-            "text": "keep up with 是固定搭配，with 是介词，整体记忆；hard to 后接动词原形。"
+            "text": "keep up with 在这里表示“了解（最新消息）”，with 后接 all the latest news；hard to 后接动词原形。"
           },
           "ans": "keep up with"
         },
@@ -343,7 +343,7 @@
           "ans": "Taking advantage of"
         }
       ],
-      "keypoint": "非谓语看两点：与逻辑主语是主动还是被动关系，以及句中是否已有谓语。主动用 -ing，被动用 -ed。作目的或结果时，常用不定式或分词。空前是介词或某些动词时，按固定搭配选形式，要整体记。",
+      "keypoint": "非谓语看两点：与逻辑主语是主动还是被动关系，以及句中是否已有谓语。主动用 -ing，被动用 -ed。作目的或结果时，常用不定式或分词。空前是介词或某些动词时，按固定搭配选形式。",
       "drill": [
         {
           "stem": "___ (surround) by many modern factories, Dongguan is famous for its manufacturing industry.",
@@ -580,7 +580,7 @@
           ],
           "src": "2025 · 光正实验学校 · 高一下期中",
           "ans": "What worries me most is her staying up too late every night.",
-          "why": "What 从句改为动名词作表语",
+          "why": "that she stays … 改为 her staying … 作表语，What 主语从句不变",
           "group": "作主语与表语",
           "level": "必练"
         },
@@ -609,7 +609,7 @@
           ],
           "src": "2026 · 东莞第十二高级中学 · 高一下期中",
           "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features the unique and beautiful scenery",
-          "why": "park 被位于，改分词作状语",
+          "why": "be located in 表示“位于”，改写时用过去分词 located 作状语。",
           "group": "作状语",
           "level": "选练"
         },
@@ -704,7 +704,7 @@
         },
         {
           "type": "p",
-          "text": "关系副词在从句中作状语，不充当成分。关系副词可以换成“介词加 which”，如 the day when 可以换成 the day on which。"
+          "text": "关系副词在从句中作状语，不作主语或宾语。关系副词可以换成“介词加 which”，如 the day when 可以换成 the day on which。"
         },
         {
           "type": "pattern",
@@ -964,7 +964,7 @@
         },
         {
           "type": "p",
-          "text": "常见动词有 find、make、think、consider、feel。it 与宾补之间的形容词表示对事情的评价，如 necessary、important、difficult、easier。"
+          "text": "常见动词有 find、make、think、consider、feel。宾补多为表示对事情评价的形容词，如 necessary、important、difficult、easier。"
         },
         {
           "type": "pattern",
@@ -1055,7 +1055,7 @@
           "cue": [],
           "src": "2025 · 东莞第八高级中学 · 高一下期中",
           "ans": "it",
-          "why": "作形式宾语，for 短语是真宾语",
+          "why": "it 作形式宾语，for Mike to move forward 不定式结构是真正的宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },
@@ -1133,7 +1133,7 @@
         },
         {
           "type": "p",
-          "text": "if 从句的主语与主句一致或含 be 动词时，可省略连词、主语和 be，保留分词或形容词。"
+          "text": "if 从句的主语与主句一致且含 be 动词时，可省略主语和 be，保留 if。也可改写为分词短语作条件状语，如 If scientists are given more time 可改为 Given more time。"
         },
         {
           "type": "p",
@@ -1199,7 +1199,7 @@
           "ju": "如果给科学家更多时间，他们就能治愈这种疾病。",
           "mid": {
             "label": "成分",
-            "text": "由 If scientists are given more time 省略 if 与 are，保留过去分词 given。"
+            "text": "从句主语与主句一致，scientists 是 give 的承受者，改写为过去分词短语 Given more time 作条件状语。"
           },
           "ans": "Given more time"
         },
@@ -1219,7 +1219,7 @@
           "ju": "尽管受到老师的鼓励，他还是感到紧张。",
           "mid": {
             "label": "判断",
-            "text": "Although he was encouraged 省略 although 与 he was，保留过去分词 encouraged。"
+            "text": "从句主语与主句一致，he 是 encourage 的承受者，改写为过去分词短语 Encouraged by his teacher 作让步状语。"
           },
           "ans": "Encouraged by"
         }
@@ -1325,12 +1325,12 @@
           "type": "gloss",
           "lines": [
             "句首的名词性从句",
-            "谓语用单数"
+            "谓语通常用单数"
           ]
         },
         {
           "type": "p",
-          "text": "主语从句放在句首，谓语动词用单数。that 引导的主语从句在从句中不作成分；what 引导的主语从句意为“……的事”或“……之处”。"
+          "text": "主语从句作主语时，主句谓语通常用单数；what 从句所指内容为复数时，主句谓语可用复数。that 在从句中不作成分；what 在从句中作主语、宾语等成分，意为“……的事”或“……之处”。"
         },
         {
           "type": "pattern",

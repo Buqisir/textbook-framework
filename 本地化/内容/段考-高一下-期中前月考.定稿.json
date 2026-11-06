@@ -332,7 +332,7 @@
           "ans": "charged"
         },
         {
-          "group": "介词后接 -ing",
+          "group": "介词和 worth 后接 -ing",
           "gloss": [
             "prevent 后接 from",
             "from 是介词"
@@ -350,7 +350,7 @@
           "ans": "chatting"
         },
         {
-          "group": "介词后接 -ing",
+          "group": "介词和 worth 后接 -ing",
           "gloss": [
             "worth 后接 -ing",
             "形式主动，意义被动"
@@ -949,7 +949,7 @@
         },
         {
           "type": "p",
-          "text": "先行词是地点时用 where，是时间时用 when，是原因时用 why，是情况时也用 where。关系副词在从句中作状语，从句结构完整，不缺成分。"
+          "text": "从句缺地点、时间或原因状语时，分别用 where、when 或 why；先行词表示情况时也可用 where。关系副词在从句中作状语，不作主语或宾语。"
         },
         {
           "type": "p",
@@ -1014,7 +1014,7 @@
         },
         {
           "type": "p",
-          "text": "非限制性定语从句只用 which、who、whose、whom 等，不用 that。"
+          "text": "非限制性定语从句可用 which、who、whose、whom、when、where 或 as，不用 that。"
         }
       ],
       "examples": [
@@ -1184,8 +1184,8 @@
             "用定语从句合并"
           ],
           "src": "2023 · 东莞外国语学校 · 高一下月考",
-          "ans": "where",
-          "why": "合并句，Turkey 是地点，用 where",
+          "ans": "The UN donated $397 million to help victims in Turkey, where the earthquake has killed thousands of people.",
+          "why": "where 代替 there，作地点状语。",
           "group": "关系副词",
           "level": "必练"
         },
@@ -1224,8 +1224,8 @@
             "同义句改写"
           ],
           "src": "2023 · 东莞外国语学校 · 高一下月考",
-          "ans": "created",
-          "why": "by 作定语，关系词作主语",
+          "ans": "that is created / which is created / that was created / which was created",
+          "why": "chatbot 是先行词，关系词作主语，与 create 是被动关系，用 that/which is/was created",
           "group": "that 与 which",
           "level": "必练"
         },
@@ -1848,7 +1848,7 @@
             "句型转换"
           ],
           "src": "2026 · 翰林高级中学 · 高一月考",
-          "ans": "With the monthly examination approaching",
+          "ans": "① With；② approaching",
           "why": "with 复合，exam 与 approach 是主动",
           "group": "with 复合",
           "level": "必练"
@@ -1881,8 +1881,8 @@
             "同义句转换"
           ],
           "src": "2023 · 东莞实验中学 · 高一下月考",
-          "ans": "With Dave lying on the operating table",
-          "why": "with 复合，Dave 与 lie 是主动",
+          "ans": "Dave lying on",
+          "why": "Dave 与 lie 是主动关系，With 和 the operating table 题干已给出。",
           "group": "with 复合",
           "level": "必练"
         },

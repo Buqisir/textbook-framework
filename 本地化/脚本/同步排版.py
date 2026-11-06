@@ -18,8 +18,8 @@ HTML title 为「同步讲义 <册>」（合册写合册名）。
   ④：短语块 .phrase（.ph：短语 + 释义 + gloss 同一行）+ 原题；随后一行「句式转换」描边药丸（.lead）；
       句式块 .phrase.trick（句式名药丸 + gloss 同行 / 公式浅底条 / 原题）。
   ⑤：原题列表。
-  答案：一个标题 + 两栏 key，不分组。
-原题（atoms）：出处 <span class="src"> 放题干段行首，后空 1 字接题干；改写指令 cue 仍在句末。
+  答案：一个标题 + 单栏 key，不分组；整句答案另起一行并增加半格间距。
+原题（atoms）：出处 <span class="src"> 放题干段开头，CSS让出处独占上行、题干另起；改写指令 cue 仍在句末。
 英式结构的 class 与段考英式（段考排版.py）同名的沿用；同步专用的 freq、family、fam-head、fam-chain、phrase、ph、trick、form、zh、tally、dot 由 英式.css 同步讲义段（文件末）定义。
 
 定稿 JSON 的字段（每个单元）：
@@ -124,7 +124,7 @@ def strip_tail_blank(stem):
 
 
 def atom_li(a):
-    """原题：出处在题干行首（后空 1 字接题干，CSS 定），改写指令仍在句末。"""
+    """原题：出处由CSS独立成行，题干紧随其后另起；改写指令仍在句末。"""
     mode = answer_mode(a['题干'], a.get('cue'))
     text = strip_tail_blank(a['题干']) if mode == 'whole' else a['题干']
     stem = stem_html(text)
@@ -176,12 +176,12 @@ def freq_section(u):
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="1"><h3>单元考情</h3>'
         f'<span class="chip chip-freq">{esc(ch["year_range"])} 东莞真题</span></header>\n'
+        # 口径文字不变；2026-11-06认可样章后移到表前，先解释形式后的次数。
+        '  <p class="after">频次：东莞真题中考到该词的题数，小字为各形式出现的次数。</p>\n'
         '  <table class="freq">\n'
         '    <colgroup><col class="c-word"><col><col class="c-how"><col class="c-tally"></colgroup>\n'
         '    <thead><tr><th>词汇</th><th>考查形式</th><th>考法</th><th>频次</th></tr></thead>\n'
         + bodies + '  </table>\n'
-        # 口径说明（所有者定，2026-11-06）：chip 不报总题数（一题考两个词时与频次合计对不上），表下一句说明频次与下标
-        '  <p class="after">频次：东莞真题中考到该词的题数，小字为各形式出现的次数。</p>\n'
         '</section>\n')
 
 
@@ -283,7 +283,8 @@ def answers_section(u):
             # 亦可部分中文，放在 .ans（西文字体）之外，免得中文掉到系统字体
             show, rest = show.split('（亦可', 1)
             alt = '（亦可' + rest + ' '
-        lis.append(f'<li data-no="{a["no"]}"><b class="ans">{esc(show.strip())}</b>{esc(alt)}{esc(a["reason"])}</li>')
+        cls = 'ans long' if len(show.split()) >= 6 else 'ans'
+        lis.append(f'<li data-no="{a["no"]}"><b class="{cls}">{esc(show.strip())}</b>{esc(alt)}{esc(a["reason"])}</li>')
     return (
         '<section class="part answers">\n'
         '  <header class="topic-head" data-no="答"><h3>答案与解析</h3></header>\n'

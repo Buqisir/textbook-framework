@@ -101,7 +101,7 @@
         },
         {
           "type": "p",
-          "text": "分词放在句末，表示伴随或结果，如 A plane crashed …, resulting in 132 deaths。分词与主句主语的关系仍按主动、被动判断。"
+          "text": "分词放在句末，可表示伴随或结果。A plane crashed …, resulting in 132 deaths 中，resulting … 用现在分词表示飞机坠毁这件事造成的结果。"
         },
         {
           "type": "p",
@@ -228,7 +228,7 @@
           "ju": "今年三月，广西藤县一架飞机坠毁，造成 132 人死亡。",
           "mid": {
             "label": "判断",
-            "text": "句末 -ing 短语作结果状语，修饰前面的主句。A plane 与 result 是主动关系，用现在分词。"
+            "text": "resulting … 表示飞机坠毁这件事造成的结果，用现在分词作结果状语。"
           },
           "ans": "resulting"
         },
@@ -556,7 +556,7 @@
         },
         {
           "type": "p",
-          "text": "非限制性定语从句用逗号与主句隔开，关系词只用 who、whom、which、whose 或 as，不用 that。Miss Brown, who teaches music at a university，意为布朗小姐在一所大学教音乐。"
+          "text": "非限制性定语从句用逗号与主句隔开，可用 who、whom、which、whose、when、where 或 as，不用 that。Miss Brown, who teaches music at a university，意为布朗小姐在一所大学教音乐。"
         },
         {
           "type": "p",
@@ -672,12 +672,12 @@
           "type": "gloss",
           "lines": [
             "when、the instant 等引导",
-            "可省略为分词短语"
+            "可改写为分词短语"
           ]
         },
         {
           "type": "p",
-          "text": "when 引导的时间从句，主语与主句一致时，可以省略为分词短语。"
+          "text": "when 从句的主语与主句一致且含 be 动词时，可省略主语和 be。主语一致的时间从句也可改写为 when 加分词，主动用 doing，被动用 done。"
         },
         {
           "type": "p",
@@ -716,7 +716,7 @@
           "group": "时间",
           "gloss": [
             "省略句：when 加分词",
-            "主语一致可省略"
+            "主语一致可改写"
           ],
           "stem": {
             "text": "When they discussed the plan, they found it difficult to reach an agreement.\n___ the plan, they found it difficult to reach an agreement.",
@@ -728,7 +728,7 @@
           "ju": "讨论计划时，他们发现很难达成一致。",
           "mid": {
             "label": "成分",
-            "text": "When they discussed the plan 省略 they，保留 discussing 作时间状语；when 保留在前。"
+            "text": "从句主语与主句一致，discuss 与 they 是主动关系，改写为 when discussing the plan，作时间状语。"
           },
           "ans": "When discussing"
         },
@@ -751,7 +751,7 @@
           "ans": "when"
         }
       ],
-      "keypoint": "时间状语从句看连词。when 表示“正在……时”，the instant 表示“一……就”。从句主语与主句一致时，可省略为分词短语。if 从句中的 it is 可省略，要整体记。",
+      "keypoint": "时间状语从句看连词。when 表示“正在……时”，the instant 表示“一……就”。从句主语与主句一致且含 be 时，可省略主语和 be；也可按主被动关系改写为分词短语。if 从句中的 it is 可省略。",
       "drill": [
         {
           "stem": "When he was asked about his address, the little boy didn’t respond.",

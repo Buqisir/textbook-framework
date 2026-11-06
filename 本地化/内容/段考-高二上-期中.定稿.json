@@ -164,7 +164,7 @@
     },
     {
      "type": "p",
-     "text": "形容词后接不定式说明动作的范围，如 be easy to do、be hard to settle，不定式用主动形式表示被动意义，逻辑主语是句子主语。"
+     "text": "在 sth. is easy / hard to do 结构中，句子主语是不定式动作的对象，即逻辑宾语，不定式仍用主动形式，如 be easy to do、be hard to settle。"
     },
     {
      "type": "p",
@@ -198,7 +198,7 @@
     },
     {
      "type": "p",
-     "text": "have sth done 表示「让某物被做」或「遭遇某事」，宾补用过去分词，如 have it repaired（送去修理）。find oneself、find sb. 之后，若宾语与宾补是被动关系，宾补也用过去分词。"
+     "text": "have sth. done 表示“请人做某事”或“遭遇某事”；宾语是动作的承受者，用过去分词作宾补，如 have it repaired（送去修理）。find oneself、find sb. 之后，若宾语与宾补是被动关系，宾补也用过去分词。"
     }
    ],
    "examples": [
@@ -290,7 +290,7 @@
      "ju": "海姆立克急救法很容易操作。",
      "mid": {
       "label": "成分",
-      "text": "easy 是形容词，后接不定式说明范围。do 的逻辑主语是 the Heimlich manoeuvre，用主动形式表示被动意义。"
+      "text": "the Heimlich manoeuvre 是 do 的动作对象，即逻辑宾语。在 sth. is easy to do 结构中，不定式仍用主动形式，填 to do。"
      },
      "ans": "to do"
     },
@@ -615,7 +615,7 @@
     },
     {
      "type": "p",
-     "text": "主语从句位于句首，谓语动词用单数。从句中缺主语或宾语时用 what，成分齐全时用 that，如 What excited us was the victory of China’s women soccer team（让我们兴奋的是中国女足的胜利）。"
+     "text": "主语从句作主语时，主句谓语通常用单数；what 从句的数还要结合其所指内容和主句结构判断。从句缺主语或宾语时用 what，如 What excited us was the victory of China’s women soccer team（让我们兴奋的是中国女足的胜利）。"
     },
     {
      "type": "p",
@@ -657,7 +657,7 @@
     },
     {
      "type": "p",
-     "text": "动词后的宾语从句，表示「是否」时用 whether 或 if，缺成分时用 what、how 等。"
+     "text": "动词后的宾语从句，表示「是否」时用 whether 或 if；缺主语或宾语时用 what、who、which 等；表示时间、地点、原因或方式时用 when、where、why、how；只起连接作用时用 that。"
     },
     {
      "type": "p",
@@ -738,7 +738,7 @@
      "ans": "whether"
     }
    ],
-   "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语，动词或介词后作宾语。表示是否用 whether，缺成分用 what、how 等，成分齐全用 that。",
+   "keypoint": "从句在句中的位置决定从句类型：作主语、表语或宾语。缺主语、宾语等用 what、who 等；表示时间、地点、原因或方式用 when、where、why、how；只起连接作用用 that；表示是否用 whether，动词后的宾语从句也可用 if。",
    "drill": [
     {
      "stem": "The woman seemed to like the water from the pump so much that she had it delivered to her house every day.\n___ the woman liked the water from the pump so much that she had it delivered to her house every day.",
@@ -889,7 +889,7 @@
     },
     {
      "type": "p",
-     "text": "It is adj. that…… 可改写为 sb. is adj. to do，这类改写题考两种句型的转换，主语和谓语要随句型调整。"
+     "text": "It is likely that sb. will do… 可改写为 sb. is likely to do…，表示某人可能做某事。"
     }
    ],
    "examples": [
@@ -1162,7 +1162,7 @@
     },
     {
      "type": "p",
-     "text": "unless 引导条件状语从句，相当于 if……not，如 unless it rains（除非下雨）。unless 与 if……not 的意思相同，二者不能同时出现在同一句中。"
+     "text": "unless 引导条件状语从句，表示「除非」，通常可改写为 if……not。"
     },
     {
      "type": "p",
@@ -1181,7 +1181,7 @@
     },
     {
      "type": "p",
-     "text": "状语从句的主语与主句主语一致，或从句主语为 it 时，可省略从句主语和 be，保留分词或形容词。"
+     "text": "状语从句的谓语含 be，且从句主语与主句主语一致或为 it 时，可省略从句主语和 be，保留连词及后面的分词或形容词。"
     },
     {
      "type": "p",
@@ -1195,12 +1195,12 @@
      "type": "gloss",
      "lines": [
       "hardly……when",
-      "主句倒装"
+      "hardly 置句首时倒装"
      ]
     },
     {
      "type": "p",
-     "text": "hardly、no sooner 与 when、than 连用，表示「刚一……就……」，主句要倒装。"
+     "text": "hardly…when…、no sooner…than… 表示「刚一……就……」。hardly 或 no sooner 置于所在分句句首时，该分句部分倒装。"
     },
     {
      "type": "subhead",
@@ -1253,7 +1253,7 @@
      "ans": "unless"
     }
    ],
-   "keypoint": "unless 表条件，though 表让步，so、such 引导结果。从句主语与主句主语一致时，可省略为「连词加分词或形容词」。",
+   "keypoint": "unless 表条件，though 表让步，so、such 引导结果。从句主语与主句主语一致，且从句谓语含 be 时，可省略主语和 be，保留连词及后面的分词或形容词。",
    "drill": [
     {
      "stem": "You can take urgent measures to avoid further injuries if it is necessary.\nYou can take urgent measures to avoid further injuries ___.",
@@ -1302,7 +1302,7 @@
      ],
      "src": "2018 · 虎门外国语学校 · 高二上期中",
      "ans": "Hardly had the girl seen the doctor when she cried.",
-     "why": "hardly……when 连用，主句倒装",
+     "why": "hardly 置于句首，所在分句部分倒装，用 had the girl seen",
      "group": "时间从句",
      "level": "必练"
     },

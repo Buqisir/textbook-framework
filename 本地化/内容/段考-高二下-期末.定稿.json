@@ -486,15 +486,15 @@
         },
         {
           "type": "p",
-          "text": "时间状语决定时态。last week、the other day 表示过去的时间，用一般过去时；动作从过去持续到现在，用现在完成进行时；叙述过去某段时间内的持续动作，用过去进行时。"
+          "text": "时态由时间状语和语境共同决定。last week、the other day 表示过去的时间，用一般过去时；动作从过去持续到现在，可用现在完成时，强调持续进行时常用现在完成进行时，状态动词通常用现在完成时；描述过去某时正在进行的动作，用过去进行时。"
         },
         {
           "type": "p",
-          "text": "两个过去动作中，先发生的用过去完成时，后发生的用一般过去时，如 She had submitted the application when she realized she forgot her signature。"
+          "text": "过去完成时表示在某个过去时间或动作之前已经发生或完成的事，如 She had submitted the application when she realized she forgot her signature。语境已明确先后关系时，也可用一般过去时。"
         },
         {
           "type": "p",
-          "text": "并列谓语的时态要一致，如 withdrew from the contest and gave up the chance 中，两个谓语都用过去式。"
+          "text": "并列谓语各自按动作发生的时间确定时态。叙述同一过去情境时通常都用过去式，如 withdrew from the contest and gave up the chance；动作对应不同时间时，时态可以不同。"
         },
         {
           "type": "p",
@@ -561,7 +561,7 @@
         {
           "gloss": [
             "when 从句用一般过去时",
-            "先发生的用过去完成时"
+            "提交先于 realized"
           ],
           "stem": {
             "text": "She ___ (submit) the application when she realized she forgot her signature.",
@@ -970,7 +970,7 @@
         },
         {
           "type": "p",
-          "text": "表语从句位于系动词之后，说明主语的内容。从句缺成分用 what，不缺成分用 that 或 whether。"
+          "text": "表语从句位于系动词之后，说明主语的内容。缺主语、宾语或表语时可用 what；表示时间、地点、原因或方式时用 when、where、why、how；只起连接作用时用 that；表示是否用 whether。"
         },
         {
           "type": "p",
@@ -989,7 +989,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句在句中作主语，缺成分时用 what。只表示“是否”时用 whether。"
+          "text": "主语从句在句中作主语，缺主语或宾语时可用 what。只表示“是否”时用 whether。"
         },
         {
           "type": "subhead",
@@ -1019,7 +1019,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词之后，表示“是否”时用 whether 或 if。"
+          "text": "宾语从句位于动词之后，表示“是否”时用 whether 或 if；表示时间、地点、原因或方式时用 when、where、why、how。"
         }
       ],
       "examples": [
@@ -1101,8 +1101,8 @@
             "改为间接引语"
           ],
           "src": "2022 · 东莞市 · 高二下期末",
-          "ans": "whether / if she could",
-          "why": "whether 引导宾语从句",
+          "ans": "whether she could / if she could",
+          "why": "whether 或 if 引导宾语从句，主语 I 改为 she，can 改为 could",
           "group": "宾语从句",
           "level": "必练"
         }
