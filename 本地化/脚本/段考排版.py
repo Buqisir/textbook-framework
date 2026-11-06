@@ -205,7 +205,7 @@ def cov_cell(cov):
     return f'<td class="cov">{cells}<span>{int(cov * 100 + 0.5)}%</span></td>'
 
 
-def overview_html(o, vols, gt, node):
+def overview_html(o, gt, node):
     rows = []
     for r in o['rows']:
         cls = ' class="skip"' if r.get('skip') else ''
@@ -222,9 +222,7 @@ def overview_html(o, vols, gt, node):
         '    <tbody>\n' + '\n'.join(rows) + '\n    </tbody>\n'
         '  </table>\n'
         # 口径说明（所有者定，2026-11-06：第一次读的人看不懂覆盖率、题数从哪来）
-        + (f'  <p class="after">覆盖率：东莞{esc(gt)}{esc(node)} {vols} 套真题中考到该专题的试卷所占比例，每格 10%。'
-           f'题数：本册印出的例题和练一练。专题页的「覆盖 x/{vols} 卷」同此口径，题目从这些试卷中选，'
-           f'不是每套都有题印出。</p>\n' if vols else '')
+        + f'  <p class="after">覆盖率：东莞历年{esc(gt)}{esc(node)}试卷中考到该专题的比例，每格 10%。</p>\n'
         + (f'  <p class="after">{inline(o["after"])}</p>\n' if o.get('after') else '')
         + '</section>\n\n')
 
@@ -534,7 +532,7 @@ def build(D, theme='现行', only=None, gt='高一上'):
             r['n'] = printed[r['name']]
     topics = [t for t in D['topics'] if only is None or t['no'] in only]
     topic_fn = topic_en_html if theme == '英式' else topic_html
-    body = (header_html(D, gt) + overview_html(D['overview'], next((int(x['b']) for x in D.get('stats', []) if x.get('post') == '套试卷'), 0), gt, D['h2'])
+    body = (header_html(D, gt) + overview_html(D['overview'], gt, D['h2'])
             + ''.join(topic_fn(t, drill_nos_by_topic[t['no']]) for t in topics)
             + answers_html(topics, drill_nos_by_topic)
             + '</section>\n')
