@@ -1018,26 +1018,6 @@
    ],
    "examples": [
     {
-     "group": "not only 型",
-     "gloss": [
-      "Not only 在句首",
-      "did 提前"
-     ],
-     "stem": {
-      "text": "They not only introduced advanced technology, but also changed their views on how to develop the economy.\n___ they ___ advanced technology, but also changed their views on how to develop the economy.",
-      "cue": [
-       "改为倒装句"
-      ],
-      "src": "2021 · 东华高级中学 · 高一上期末"
-     },
-     "ju": "他们不仅引进了先进技术，而且改变了对如何发展经济的看法。",
-     "mid": {
-      "label": "判断",
-      "text": "Not only 位于句首，主句用部分倒装，助动词 did 提到主语 they 之前，动词用原形 introduce。"
-     },
-     "ans": "Not only did / introduce"
-    },
-    {
      "group": "only 型",
      "gloss": [
       "只有……才……",

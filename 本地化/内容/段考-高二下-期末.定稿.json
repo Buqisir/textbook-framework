@@ -517,17 +517,6 @@
       "keypoint": "真正的主语或宾语是不定式或从句时，句首或宾语位置用 it 占位。find、consider、think 等词后接宾补（形容词）时，用 it 作形式宾语，真正的宾语放在宾补之后。",
       "drill": [
         {
-          "stem": "我认为，在日常生活中尝试去独立解决问题很重要。",
-          "cue": [
-            "用形式宾语翻译"
-          ],
-          "src": "2024 · 东莞市 · 高二下期末",
-          "ans": "I think it very important to try to solve problems independently in daily life.",
-          "why": "consider it adj. 句型",
-          "group": "形式宾语 it",
-          "level": "必练"
-        },
-        {
           "stem": "David considers ___ necessary for a language learner to practise listening and speaking every day.",
           "cue": [],
           "src": "2023 · 东莞市 · 高二下期末",
@@ -551,17 +540,6 @@
           "src": "2026 · 东莞第一中学 · 高二下期末",
           "ans": "how",
           "why": "It 作形式主语，how 从句为主语",
-          "group": "形式主语 it",
-          "level": "必练"
-        },
-        {
-          "stem": "People assume that economic development and environmental protection are equally important.\n___ economic development and environmental protection are equally important.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2021 · 东莞市 · 高二下期末",
-          "ans": "It is assumed that",
-          "why": "形式主语句 It is assumed that…",
           "group": "形式主语 it",
           "level": "必练"
         }
@@ -676,15 +654,6 @@
           "src": "2023 · 东莞市 · 高二下期末",
           "ans": "why / is that",
           "why": "reason 之后用 why",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "Youth is a time ___ habits and interests affecting the rest of your life are formed and developed.",
-          "cue": [],
-          "src": "2021 · 东莞市 · 高二下期末",
-          "ans": "when",
-          "why": "时间先行词用 when",
           "group": "关系副词",
           "level": "必练"
         },

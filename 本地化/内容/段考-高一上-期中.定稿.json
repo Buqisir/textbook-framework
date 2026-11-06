@@ -342,17 +342,6 @@
           "level": "必练"
         },
         {
-          "stem": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "looking forward to reading",
-          "why": "look forward to 的 to 是介词",
-          "group": "作宾语与搭配",
-          "level": "必练"
-        },
-        {
           "stem": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
           "cue": [],
           "src": "2024 · 东莞第八高级中学 · 高一上期中",
@@ -394,6 +383,17 @@
           "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "to be listening",
           "why": "pretend to 后接不定式，表正在做",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "It seems that my roommate has much confidence for the coming final exam.\nMy roommate ___ much confidence for the coming final exam.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2022 · 东莞实验中学 · 高一上期中",
+          "ans": "seems to have",
+          "why": "seem to do 似乎做某事",
           "group": "作宾语与搭配",
           "level": "必练"
         },
@@ -965,17 +965,6 @@
             "同义句改写"
           ],
           "src": "2022 · 东华松山湖高级中学 · 高一上期中",
-          "ans": "It is obvious that",
-          "why": "It is adj. that 句型",
-          "group": "形式主语 It",
-          "level": "必练"
-        },
-        {
-          "stem": "Obviously, people are living a happy life in this community.\n___ people are living a happy life in this community.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2022 · 东莞市 · 高一上期中",
           "ans": "It is obvious that",
           "why": "It is adj. that 句型",
           "group": "形式主语 It",

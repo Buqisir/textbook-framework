@@ -1184,24 +1184,6 @@
       ],
       "examples": [
         {
-          "group": "原因",
-          "gloss": [
-            "now that 引导",
-            "表示既然"
-          ],
-          "stem": {
-            "text": "___ (既然) we are all part of the global village, everyone becomes a neighbour.",
-            "cue": [],
-            "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中"
-          },
-          "ju": "既然我们都是地球村的一员，每个人就都成了邻居。",
-          "mid": {
-            "label": "判断",
-            "text": "now that 表示“既然”，引导原因状语从句。"
-          },
-          "ans": "Now that"
-        },
-        {
           "group": "条件",
           "gloss": [
             "分词作条件状语",

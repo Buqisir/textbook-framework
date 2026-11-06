@@ -392,17 +392,6 @@
           "level": "必练"
         },
         {
-          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features the unique and beautiful scenery.",
-          "cue": [
-            "用过去分词作状语改写"
-          ],
-          "src": "2024 · 东莞市 · 高二下期中",
-          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features the unique and beautiful scenery.",
-          "why": "park 位于，用过去分词",
-          "group": "作状语",
-          "level": "必练"
-        },
-        {
           "stem": "Because the young man was inspired by the heroic story, he decided to realize his dream of being a famous doctor.",
           "cue": [
             "用过去分词改写句子"
@@ -488,15 +477,6 @@
           "level": "必练"
         },
         {
-          "stem": "With much time ___ (spend) sitting at the desk, office workers generally suffer health problems.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "spent",
-          "why": "time 被花费，用过去分词",
-          "group": "with 复合结构",
-          "level": "必练"
-        },
-        {
           "stem": "With the nuclear waste water ___ (pollute) the ocean, the world is worried about the problem and makes efforts to find ways to deal with it.",
           "cue": [],
           "src": "2024 · 东莞市 · 高二下期中",
@@ -520,15 +500,6 @@
           "src": "2025 · 东莞市 · 高二下期中",
           "ans": "to develop",
           "why": "purpose 后接不定式作表语",
-          "group": "不定式作表语",
-          "level": "必练"
-        },
-        {
-          "stem": "His plan for the weekend is ___ (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
-          "cue": [],
-          "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
-          "ans": "to take",
-          "why": "plan 后接不定式说明内容",
           "group": "不定式作表语",
           "level": "必练"
         },
@@ -580,17 +551,6 @@
           "src": "2026 · 东莞第一中学 · 高二下期中",
           "ans": "worthy of being read",
           "why": "worthy of being done",
-          "group": "作宾语与搭配",
-          "level": "必练"
-        },
-        {
-          "stem": "The boy has made a decision that he will participate in the tough competition.\nThe boy has ___ to participate in the tough competition.",
-          "cue": [
-            "同义句改写"
-          ],
-          "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
-          "ans": "made up his mind",
-          "why": "make up one’s mind",
           "group": "作宾语与搭配",
           "level": "必练"
         },
@@ -741,15 +701,6 @@
           "level": "必练"
         },
         {
-          "stem": "Dongguan has beautiful parks, ___ families can spend quality time together.",
-          "cue": [],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "where",
-          "why": "非限制性定语从句用 where",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
           "stem": "I will never forget those days. I was brought up in the countryside then.",
           "cue": [
             "用定语从句合并"
@@ -758,35 +709,6 @@
           "ans": "I will never forget those days, when I was brought up in the countryside.",
           "why": "表示时间，用 when",
           "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "Sales director is a position ___ communication ability is just as important as sales skills.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高二下期中",
-          "ans": "where",
-          "why": "表示位置，用 where",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "I am fond of reading poems. ___ I can learn a lot of beautiful words from poems.",
-          "cue": [
-            "用定语从句合并句子"
-          ],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "I am fond of reading poems from which I can learn a lot of beautiful words.",
-          "why": "from which 合并句子",
-          "group": "介词加关系代词",
-          "level": "必练"
-        },
-        {
-          "stem": "I met some fruit-pickers on my way to a village, several of ___ were university students",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "whom",
-          "why": "several of whom 指人",
-          "group": "介词加关系代词",
           "level": "必练"
         },
         {
@@ -894,18 +816,18 @@
         },
         {
           "gloss": [
-            "made it hard to do",
-            "形式宾语"
+            "consider it adj. to do",
+            "真宾是不定式"
           ],
           "stem": {
-            "text": "The fact that Tom had no prior experience in programming made ___ hard for him to get the software development job.",
+            "text": "I consider ___ effective to release stress through physical exercise.",
             "cue": [],
-            "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中"
+            "src": "2025 · 光正实验学校 · 高二下期中"
           },
-          "ju": "汤姆没有编程经验，这使他很难得到软件开发的工作。",
+          "ju": "我认为，通过体育锻炼释放压力是有效的。",
           "mid": {
-            "label": "判断",
-            "text": "made 后接宾语 it，hard 是宾补，真正的宾语是 for 短语加不定式。"
+            "label": "成分",
+            "text": "consider 后空处作形式宾语，真正的宾语是不定式短语 to release stress；effective 是宾补。"
           },
           "ans": "it",
           "group": "形式宾语 it"
@@ -943,15 +865,6 @@
           "level": "必练"
         },
         {
-          "stem": "___ was disturbing that she was being looked after by a robot who seemed more like a human.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "It",
-          "why": "It 作形式主语，that 为真主语",
-          "group": "形式主语 it",
-          "level": "必练"
-        },
-        {
           "stem": "我很荣幸代表学校发表演讲。(privilege)",
           "cue": [],
           "src": "2024 · 东莞第四高级中学 · 高二下期中",
@@ -984,15 +897,6 @@
           "src": "2026 · 东莞市 · 高二下期中",
           "ans": "it",
           "why": "make it a rule to do",
-          "group": "形式宾语 it",
-          "level": "必练"
-        },
-        {
-          "stem": "I consider ___ effective to release stress through physical exercise.",
-          "cue": [],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "it",
-          "why": "consider it 形式宾语",
           "group": "形式宾语 it",
           "level": "必练"
         },

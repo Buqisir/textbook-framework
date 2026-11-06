@@ -448,17 +448,6 @@
           "level": "必练"
         },
         {
-          "stem": "To her surprise, Mary found that the room had been cleaned up by the kids yesterday.\nTo her surprise, Mary found the room ___ by the kids yesterday.",
-          "cue": [
-            "句型转换"
-          ],
-          "src": "2024 · 东莞市 · 高一下期末",
-          "ans": "cleaned up",
-          "why": "find 宾语与宾补是被动，用 done",
-          "group": "作宾补",
-          "level": "必练"
-        },
-        {
           "stem": "Reading good books ___ (regular) can enrich our knowledge and shape our character.",
           "cue": [],
           "src": "2026 · 东莞第六高级中学 · 高一下期末",
@@ -576,24 +565,6 @@
             "text": "先行词 destinations 表地点，从句 visitors can experience 缺地点状语，用 where。"
           },
           "ans": "where",
-          "group": "关系副词"
-        },
-        {
-          "gloss": [
-            "关系副词 when",
-            "先行词表时间"
-          ],
-          "stem": {
-            "text": "The invention of the wheel can date back to the time ___ early humans first started using tools.",
-            "cue": [],
-            "src": "2024 · 东莞市 · 高一下期末"
-          },
-          "ju": "轮子的发明可以追溯到早期人类开始使用工具的时代。",
-          "mid": {
-            "label": "判断",
-            "text": "先行词 time 表时间，从句 started using tools 缺时间状语，用 when。"
-          },
-          "ans": "when",
           "group": "关系副词"
         }
       ],
