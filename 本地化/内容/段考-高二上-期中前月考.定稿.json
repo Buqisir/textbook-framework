@@ -760,7 +760,7 @@
    "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语，动词或介词后作宾语，名词后作同位语。从句缺成分用 what，成分齐全用 that，表示是否用 whether。",
    "drill": [
     {
-     "stem": "Apparently, all the students are committed to preparing the exam.\n___ that all the students are committed to preparing the exam.",
+     "stem": "Apparently, all the students are committed to preparing for the exam.\n___ that all the students are committed to preparing for the exam.",
      "cue": [
       "同义句改写"
      ],
