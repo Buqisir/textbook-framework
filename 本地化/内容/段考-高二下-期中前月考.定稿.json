@@ -385,7 +385,7 @@
             "to do做主语翻译"
           ],
           "src": "2025 · 东莞第一中学 · 高二下月考",
-          "ans": "It is beneficial for students to form the habit of reading in their free/spare time. / To form the habit of reading in their free/spare time is beneficial for students.",
+          "ans": "To form the habit of reading in their free/spare time is beneficial for students. / It is beneficial for students to form the habit of reading in their free/spare time.",
           "why": "不定式作主语，可用 It 形式主语",
           "group": "作主语",
           "level": "必练"
@@ -408,7 +408,7 @@
           ],
           "src": "2020 · 光明中学 · 高二下月考",
           "ans": "to have been killed",
-          "why": "题库答案 to kill 有误，改为被动完成式 to have been killed",
+          "why": "应为被动完成式，不用 to kill",
           "group": "作主语",
           "level": "必练"
         },
@@ -501,7 +501,7 @@
         },
         {
           "type": "p",
-          "text": "关系副词 where 在定语从句中作地点状语，相当于 in which。先行词表示地点或情况时用 where，如 countries where renewable energy is dominant。"
+          "text": "关系副词 where 在定语从句中作地点状语，相当于 in which。先行词表示地点或情况时用 where。"
         },
         {
           "type": "subhead",
@@ -516,7 +516,7 @@
         },
         {
           "type": "p",
-          "text": "介词提到关系代词前时，关系代词不能省略。先行词是物用 which，是人用 whom，表示所属用 whose，如 without whose help、in front of which。"
+          "text": "介词提到关系代词前时，关系代词不能省略。先行词是物用 which，是人用 whom，表示所属用 whose，如 without whose help。"
         },
         {
           "type": "subhead",
@@ -573,7 +573,7 @@
           "group": "介词加关系代词"
         }
       ],
-      "keypoint": "先行词是人用 who 或 whom，是物用 which，表示地点或情况用 where，表示所属用 whose。关系词在从句中作什么成分，就按什么成分选：作主语或宾语用 which 或 that，介词后只用 which、whom 或 whose。",
+      "keypoint": "先行词是人用 who 或 whom，是物用 which，表示地点或情况用 where，表示所属用 whose。关系词在从句中作什么成分，就按什么成分选：指物作主语或宾语用 which 或 that，指人作主语用 who 或 that，指人作宾语用 whom 或 that，介词后只用 which、whom 或 whose。",
       "drill": [
         {
           "stem": "The company invests in countries ___ renewable energy is dominant, aiming to reduce carbon emission.",
@@ -607,7 +607,7 @@
           "cue": [],
           "src": "2024 · 厚街中学 · 高二下月考",
           "ans": "which",
-          "why": "题库答案 what 有误，改 which",
+          "why": "应为 which，不用 what",
           "group": "介词加关系代词",
           "level": "必练"
         },
@@ -675,7 +675,7 @@
         },
         {
           "type": "p",
-          "text": "表示评价或看法的形容词或名词短语，如 important、necessary、a great honour，后面接不定式或 that 从句。"
+          "text": "表示评价或看法的形容词或名词短语，如 important、necessary，后面接不定式或 that 从句。"
         },
         {
           "type": "subhead",
@@ -690,7 +690,7 @@
         },
         {
           "type": "p",
-          "text": "宾语是不定式或从句，且宾语后还有宾补时，用 it 作形式宾语，真正的宾语放在宾补之后，如 I consider it necessary to…。"
+          "text": "宾语是不定式或从句，且宾语后还有宾补时，用 it 作形式宾语，真正的宾语放在宾补之后。"
         },
         {
           "type": "pattern",
@@ -818,7 +818,7 @@
         },
         {
           "type": "p",
-          "text": "表语从句位于系动词之后，说明主语是什么。that 只起连接作用，不在从句中充当成分，如 What is exciting about the event is that…。"
+          "text": "表语从句位于系动词之后，说明主语是什么。that 只起连接作用，不在从句中充当成分。"
         },
         {
           "type": "subhead",
@@ -833,7 +833,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词或介词之后，从句缺少成分时用 what，如 suffered from what the U.N. called food insecurity（遭受了联合国所称的粮食不安全问题）。"
+          "text": "宾语从句位于动词或介词之后，从句缺少成分时用 what。"
         },
         {
           "type": "pattern",
@@ -878,7 +878,7 @@
           ],
           "src": "2025 · 厚街中学 · 高二下月考",
           "ans": "What surprised her",
-          "why": "题库答案 made her surprised 有误，改 surprised her",
+          "why": "应为 surprised her，不用 made her",
           "group": "主语从句",
           "level": "必练"
         },
@@ -907,7 +907,7 @@
           "cue": [],
           "src": "2025 · 厚街中学 · 高二下月考",
           "ans": "what",
-          "why": "作介词 from 的宾语，缺宾语",
+          "why": "what 从句作 from 宾语，what 作 called 宾语",
           "group": "宾语从句",
           "level": "必练"
         }
@@ -964,7 +964,7 @@
           "group": "建议类动词"
         }
       ],
-      "keypoint": "recommend、demand、urge 等词后的 that 从句中，谓语用 (should) do。从句主语是动作承受者时用 (should) be done，如 The report urges that all children (should) be taught to swim。",
+      "keypoint": "recommend、demand、urge 等词后的 that 从句中，谓语用 (should) do。从句主语是动作承受者时用 (should) be done。",
       "drill": [
         {
           "stem": "The teacher demanded that students’ assignments, no matter how challenging they might have been, ___ (submit) on time.",
@@ -1041,7 +1041,7 @@
           "group": "with 复合结构"
         }
       ],
-      "keypoint": "with 复合结构中，名词与补足语是主动关系用现在分词，是被动关系用过去分词，动作尚未发生时用不定式。如 With time going by（随着时间的推移），With much time spent sitting（久坐的时间很多）。",
+      "keypoint": "with 复合结构中，名词与补足语是主动关系用现在分词，是被动关系用过去分词，动作尚未发生时用不定式。如 With time going by（随着时间的推移）。",
       "drill": [
         {
           "stem": "With much time ___ (spend) sitting at the desk, office workers generally suffer health problems.",
