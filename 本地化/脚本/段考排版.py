@@ -173,7 +173,10 @@ def cue_html(cues):
 def stem_p(stem_obj, src_inline=True):
     """题干段。src_inline=True：出处放 </p> 前（例题）；False：练习出处由调用方放 </p> 后。"""
     text = (stem_obj.get('text') or '').replace('\n', ' → ')
-    body = inline(text) + cue_html(stem_obj.get('cue'))
+    body = inline(text)
+    if answer_mode(stem_obj.get('text')) == 'half':
+        body = body.replace(' → ', '<br>→ ', 1)   # 改写句另起一行，与原句分开
+    body += cue_html(stem_obj.get('cue'))
     if src_inline and stem_obj.get('src'):
         body += f' <span class="src">{esc(src_text(stem_obj["src"]))}</span>'
     if is_en(text):
@@ -394,7 +397,7 @@ def example_en_html(e, n):
 
 # ── 作答方式（2026-11-05 所有者定）──
 # whole：整句作答（题干无空，或以「→ ___」收尾）→ 题下单独两条书写横线 <div class="answer-lines">，去掉句末的「→ ___」；
-# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 空位加长 <span class="blank long">；
+# half ：给了改写句框架、只填中间（有「→」且空在句中）→ 改写句另起一行，空位加长 <span class="blank long">；
 # normal：其余（含单句改错）不变。只用于练习题（练一练 / 原题），例题不加。
 ANSWER_LINES = '<div class="answer-lines"></div>'
 _TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
@@ -424,6 +427,7 @@ def drill_p_en(d):
     body = inline(text)
     if mode == 'half':
         body = body.replace('<span class="blank"></span>', '<span class="blank long"></span>')
+        body = body.replace(' → ', '<br>→ ', 1)   # 改写句另起一行，与原句分开
     tail = ANSWER_LINES if mode == 'whole' else ''
     return f'<p{lang}>{src}{body}{cue_html(d.get("cue"))}</p>{tail}'
 
