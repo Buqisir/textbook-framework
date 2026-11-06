@@ -143,6 +143,16 @@ BOLD_RE = re.compile(r'\*\*(.+?)\*\*')
 ATOM_RE = re.compile(r'\[\[(.+?)\]\]')
 UL_RE = re.compile(r'\[_(.+?)_\]')   # [_划线部分_] → <u>（强调划线类题：题库无划线，按答案标出）
 HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 英式：独立的 -ing / -ed 前缀，连字符后不断行
+HINT_RE = re.compile(r'([（(])([^<>()（）\n]{1,12})([）)])')   # 短括号提示（含中文才处理）
+
+
+def hint_nobreak(body):
+    """括号提示的字与字之间插 U+2060 词连接符（零宽），括号连内容整体换行（通读 2026-11-06：「(贡 / 献)」断在行末）。"""
+    def f(m):
+        if not CJK_RE.search(m.group(2)):
+            return m.group(0)
+        return '\u2060'.join(m.group(0))
+    return HINT_RE.sub(f, body)
 
 
 def esc(s):
@@ -405,13 +415,17 @@ ANSWER_LINES = '<div class="answer-lines"></div>'
 _TAIL_BLANK_RE = re.compile(r'\s*(?:→|=)\s*_{2,}\s*[。.]?\s*$')
 
 
-def answer_mode(stem, cues=None):
+def answer_mode(stem, cues=None, ans=''):
     if '改错' in ''.join(cues or []):
         return 'normal'
     s = (stem or '').replace('\n', ' → ').strip()
     if not re.search(r'_{2,}', s) or _TAIL_BLANK_RE.search(s):
         return 'whole'
-    return 'half' if '→' in s else 'normal'
+    if '→' in s:
+        return 'half'
+    # 答案是 7 词以上的整句、题干却只留一个短空（合并句子、整句翻译）→ 按整句作答（通读 2026-11-06）
+    first = re.split(r'\s*/\s*', re.sub(r'\([^)]*\)', '', ans or ''))[0]
+    return 'whole' if len(first.split()) >= 7 else 'normal'
 
 
 def strip_tail_blank(stem):
@@ -420,10 +434,10 @@ def strip_tail_blank(stem):
 
 def drill_p_en(d):
     """练一练题干段（英式）：出处放段首，后空 1 字接题干；改写指令（cue）仍在句末。"""
-    mode = answer_mode(d.get('stem'), d.get('cue'))
+    mode = answer_mode(d.get('stem'), d.get('cue'), d.get('ans'))
     text = (d.get('stem') or '').replace('\n', ' → ')
     if mode == 'whole':
-        text = strip_tail_blank(text)
+        text = re.sub(r'\s*_{2,}\s*', ' ', strip_tail_blank(text)).strip()   # 整句作答：题干里不留空位
     src = f'<span class="src">{esc(src_text(d["src"]))}</span>' if d.get('src') else ''
     lang = ' lang="en"' if is_en(text) else ''
     body = inline(text)
@@ -538,6 +552,7 @@ def build(D, theme='现行', only=None, gt='高一上'):
             + '</section>\n')
     if theme == '英式':
         body = HYPHEN_RE.sub('-⁠', body)   # 「用 -ing」的连字符后不断行（U+2060 词连接符，零宽）
+        body = hint_nobreak(body)   # 括号里的中文提示整体换行，不拆成「(贡 / 献)」
     title = f'段考专题讲义 · {gt} · {D["h2"]}'
     return ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'

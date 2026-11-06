@@ -420,6 +420,7 @@ u { text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline
 .unit:not(.stage) .freq td.how, .unit:not(.stage) .freq td.tally { padding-top: 2.28pt; font: 400 9pt/18.72pt "sans-ui"; }
 .unit:not(.stage) .freq td.how { padding-right: 6pt; }
 .unit:not(.stage) .freq td.tally { white-space: nowrap; }
+.unit:not(.stage) .part > .after { margin: var(--u) 0 0; font: 400 9pt/var(--u) "sans-ui"; position: relative; top: 1.14pt; }   /* 考情表下的口径说明，同段考总览表 */
 .tally i { display: inline-block; width: 3.75pt; height: 7.5pt; margin-right: 1.5pt; background: var(--accent); vertical-align: -0.5pt; }
 .tally span { font: 700 9pt/1 "sans-ui"; margin-left: 0.4em; }
 

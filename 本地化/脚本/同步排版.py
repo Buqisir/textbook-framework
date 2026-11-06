@@ -3,11 +3,12 @@
 
 运行（仓库根目录）：
     python3 -I 本地化/脚本/同步排版.py              # 不带参数：排全部存在定稿的册
-    python3 -I 本地化/脚本/同步排版.py 必修二        # 只排一册（册名：必修一…必修三、选必一…选必四）
-输入：本地化/内容/同步-<册>.定稿.json（如 同步-必修一.定稿.json）
-输出：渲染/本地化/同步-<册>.html（如 同步-必修一.html；引 英式.css；样式只用 英式.css 的 class）
+    python3 -I 本地化/脚本/同步排版.py 必修二        # 只排一册（必修一…必修三、选必一二、选必三四；给教材册名如 选必三 时排它所在的合册）
+输入：本地化/内容/同步-<教材册>.定稿.json（如 同步-必修一.定稿.json；选必仍是一本教材一份定稿）
+输出：渲染/本地化/同步-<册>.html（如 同步-必修一.html、同步-选必一二.html；引 英式.css；样式只用 英式.css 的 class）
+合册见 VOLUMES：选必一＋二 → 选必一二，选必三＋四 → 选必三四（2026-11-06 所有者定）。
 册名由定稿的「书」字段推出（必修第一册 → 必修一；选择性必修第一册 → 选必一）；页脚 data-unit 为「<册> <单元>」，
-HTML title 为「同步讲义 <册>」。
+HTML title 为「同步讲义 <册>」（合册写合册名）。
 
 结构（每单元起新页）：单元头 → ① 单元考情（考情表）→ ② 词性转换（词族）→ ③ 单词拼写 → ④ 短语与句式转换 → ⑤ 单元小测 → 答案与解析。
   单元头：kicker（册名）+ 英文单元名 30pt + 中文名 14pt 同行 + 统计行；单元号做右上角角标。
@@ -61,6 +62,16 @@ BLANK_RE = re.compile(r'_{2,}')
 CJK_RE = re.compile(r'[一-鿿]')
 ASCII_RE = re.compile(r'[A-Za-z]')
 HYPHEN_RE = re.compile(r'(?<=[\s>（(])-(?=[A-Za-z])')   # 独立的 -ing / -ed 前缀，连字符后不断行（同段考英式）
+HINT_RE = re.compile(r'([（(])([^<>()（）\n]{1,12})([）)])')   # 短括号提示（含中文才处理）
+
+
+def hint_nobreak(body):
+    """括号提示的字与字之间插 U+2060 词连接符（零宽），括号连内容整体换行（通读 2026-11-06：「(贡 / 献)」断在行末）。"""
+    def f(m):
+        if not CJK_RE.search(m.group(2)):
+            return m.group(0)
+        return '\u2060'.join(m.group(0))
+    return HINT_RE.sub(f, body)
 
 
 def esc(s):
@@ -150,9 +161,8 @@ def freq_tier(n):
 def freq_section(u):
     groups = {}
     for r in u['freq']:
-        # 版面：形式列每行最多 3 个（按次数）；其余在报告里交代
-        shown = r['forms'][:3]
-        forms = ''.join(f'<span>{esc(f["form"])}<sub>{f["n"]}</sub></span>' for f in shown)
+        # 形式列列出全部形式（2026-11-06：只列 3 个时下标合计少于频次，读者对不上）
+        forms = ''.join(f'<span>{esc(f["form"])}<sub>{f["n"]}</sub></span>' for f in r['forms'])
         how = '、'.join(r['考法']) or '—'
         n = r['题数']
         bars = '<i></i>' * min(n, 12)
@@ -165,11 +175,13 @@ def freq_section(u):
     return (
         '<section class="part">\n'
         f'  <header class="topic-head" data-no="1"><h3>单元考情</h3>'
-        f'<span class="chip chip-freq">{esc(ch["year_range"])} 东莞真题 {ch["n_questions"]} 道</span></header>\n'
+        f'<span class="chip chip-freq">{esc(ch["year_range"])} 东莞真题</span></header>\n'
         '  <table class="freq">\n'
         '    <colgroup><col class="c-word"><col><col class="c-how"><col class="c-tally"></colgroup>\n'
         '    <thead><tr><th>词汇</th><th>考查形式</th><th>考法</th><th>频次</th></tr></thead>\n'
         + bodies + '  </table>\n'
+        # 口径说明（所有者定，2026-11-06）：chip 不报总题数（一题考两个词时与频次合计对不上），表下一句说明频次与下标
+        '  <p class="after">频次：东莞真题中考到该词的题数，小字为各形式出现的次数。</p>\n'
         '</section>\n')
 
 
@@ -366,7 +378,18 @@ def book_short(book):
     return ('选必' if m.group(1) else '必修') + m.group(2)
 
 
-def render(src):
+# 合册（所有者定，2026-11-06）：选必一＋二 →「选必一二」，选必三＋四 →「选必三四」；同步共 5 册。
+# 定稿仍按教材册各一份（同步选题.py 的 BOOKS、earlier_printed 照旧）；合册只在排版：一个 HTML 依次装两本教材的单元，
+# 单元头 kicker 与页脚 data-unit 仍写各自的教材册（「选必一 Unit 1」），读者看得出单元属于哪本教材。
+VOLUMES = {'必修一': ['必修一'], '必修二': ['必修二'], '必修三': ['必修三'],
+           '选必一二': ['选必一', '选必二'], '选必三四': ['选必三', '选必四']}
+
+
+def volume_of(book):
+    return next(v for v, bs in VOLUMES.items() if book in bs)
+
+
+def load(src):
     S = json.loads(src.read_text(encoding='utf-8'))
     book = book_short(S.get('书'))
     if src.name != f'同步-{book}.定稿.json':
@@ -376,34 +399,48 @@ def render(src):
         for e in errs:
             print('错误', src.name, e, file=sys.stderr)
         raise SystemExit(1)
-    body = ''.join(unit_section(u, book) for u in S['单元'])
+    return book, S
+
+
+def render(vol):
+    body = ''
+    for b in VOLUMES[vol]:
+        src = CONTENT / f'同步-{b}.定稿.json'
+        if not src.exists():
+            raise SystemExit(f'没有定稿：{src.relative_to(ROOT)}（合册 {vol} 需要 {"、".join(VOLUMES[vol])}）')
+        book, S = load(src)
+        body += ''.join(unit_section(u, book) for u in S['单元'])
     body = HYPHEN_RE.sub('-⁠', body)   # U+2060 词连接符（零宽）：「用 -ing」的连字符后不断行
+    body = hint_nobreak(body)   # 括号里的中文提示整体换行，不拆成「(贡 / 献)」
     doc = ('<!DOCTYPE html>\n<html lang="zh-Hans">\n<head><meta charset="UTF-8">'
            '<meta name="viewport" content="width=device-width, initial-scale=1">'
-           f'<title>同步讲义 {book}</title>'
+           f'<title>同步讲义 {vol}</title>'
            '<link rel="stylesheet" href="英式.css"></head>\n<body>\n'
            + body + '</body>\n</html>\n')
-    out = RENDER / f'同步-{book}.html'
+    out = RENDER / f'同步-{vol}.html'
     out.write_text(doc, encoding='utf-8')
     print('写入', out)
 
 
 def main(argv):
     if argv:
-        srcs = []
+        vols = []
         for b in argv:
-            if b not in CN_BOOKS:
-                raise SystemExit(f'未知册：{b}（可选：{"、".join(CN_BOOKS)}）')
-            p = CONTENT / f'同步-{b}.定稿.json'
-            if not p.exists():
-                raise SystemExit(f'没有定稿：{p.relative_to(ROOT)}')
-            srcs.append(p)
+            if b in VOLUMES:
+                v = b
+            elif b in CN_BOOKS:
+                v = volume_of(b)
+            else:
+                raise SystemExit(f'未知册：{b}（可选：{"、".join(VOLUMES)}，或教材册 {"、".join(CN_BOOKS)}）')
+            if v not in vols:
+                vols.append(v)
     else:
-        srcs = sorted(CONTENT.glob('同步-*.定稿.json'))
-        if not srcs:
+        have = {p.name[len('同步-'):-len('.定稿.json')] for p in CONTENT.glob('同步-*.定稿.json')}
+        vols = [v for v, bs in VOLUMES.items() if have & set(bs)]
+        if not vols:
             raise SystemExit('未找到定稿（本地化/内容/同步-*.定稿.json）')
-    for p in srcs:
-        render(p)
+    for v in vols:
+        render(v)
 
 
 if __name__ == '__main__':
