@@ -33,7 +33,7 @@
       {
         "name": "时态与被动",
         "cov": 0.88,
-        "n": 11,
+        "n": 13,
         "book": "",
         "ahead": false,
         "go": "专题 2",
@@ -471,7 +471,7 @@
       "name": "时态与被动",
       "vols": 8,
       "cov": 7,
-      "n": 11,
+      "n": 13,
       "explain": [
         {
           "type": "subhead",
@@ -522,6 +522,21 @@
         {
           "type": "pattern",
           "text": "has been done  |  had been done  |  will be done"
+        },
+        {
+          "type": "subhead",
+          "text": "被动的形式"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "非谓语也有被动式",
+            "being done、to be done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "动名词、不定式与逻辑主语是被动关系时，用被动式：动名词为 being done，如 mind being left；不定式为 to be done，如 be supposed to be rewarded。"
         }
       ],
       "examples": [
@@ -602,7 +617,7 @@
           "group": "主动改被动"
         }
       ],
-      "keypoint": "时态由时间状语、并列谓语和句意决定。动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化；主动改被动时，原句的宾语作主语，时态不变。",
+      "keypoint": "时态由时间状语、并列谓语和句意决定。动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化；主动改被动时，原句的宾语作主语，时态不变。非谓语的被动式为 being done、to be done。",
       "drill": [
         {
           "stem": "I ___ (starve) all day because I skipped breakfast.",
@@ -673,6 +688,24 @@
           "ans": "The new system is being tested out by them to see if it works well.",
           "why": "现在进行时被动，is being done",
           "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "You are supposed ___ (reward) with kindness when you treat others sincerely.",
+          "cue": [],
+          "src": "2026 · 东莞第一中学 · 高二下期末",
+          "ans": "to be rewarded",
+          "why": "be supposed to do，you 与 reward 是被动关系",
+          "group": "被动的形式",
+          "level": "必练"
+        },
+        {
+          "stem": "The child doesn't mind ___ (leave) at home when his parents go out to have a walk.",
+          "cue": [],
+          "src": "2018 · 东莞市 · 高二下期末",
+          "ans": "being left",
+          "why": "mind doing，child 与 leave 是被动关系",
+          "group": "被动的形式",
           "level": "必练"
         }
       ]

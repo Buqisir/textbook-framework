@@ -8,7 +8,7 @@
       "post": "套试卷"
     },
     {
-      "b": "6",
+      "b": "7",
       "post": "个专题"
     }
   ],
@@ -54,12 +54,21 @@
         "skip": false
       },
       {
+        "name": "时态与被动",
+        "cov": 0.67,
+        "n": 7,
+        "book": "",
+        "ahead": false,
+        "go": "专题 5",
+        "skip": false
+      },
+      {
         "name": "强调句",
         "cov": 0.67,
         "n": 4,
         "book": "",
         "ahead": false,
-        "go": "专题 5",
+        "go": "专题 6",
         "skip": false
       },
       {
@@ -68,7 +77,7 @@
         "n": 2,
         "book": "",
         "ahead": false,
-        "go": "专题 6",
+        "go": "专题 7",
         "skip": false
       }
     ],
@@ -827,6 +836,156 @@
     },
     {
       "no": 5,
+      "name": "时态与被动",
+      "vols": 6,
+      "cov": 4,
+      "n": 7,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "定时态的依据"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "时间词或语境",
+            "决定动词用哪个时态"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "时间状语是最直接的信号。last week 这类指过去时间的状语，谓语用一般过去时。every year 表示经常发生的事，谓语用一般现在时。by the end of 加过去的时间，句子用过去完成时，表示动作在那个时间点之前已经完成。"
+        },
+        {
+          "type": "p",
+          "text": "没有时间词时，看叙述的事是否已经发生。说过去已经发生的事，谓语用一般过去时，如 The reason he gave for his absence made sense（他缺席时给的理由讲得通）。"
+        },
+        {
+          "type": "pattern",
+          "text": "By the end of last month, sb. had done …"
+        },
+        {
+          "type": "subhead",
+          "text": "被动式的形式"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "risk、in spite of 后",
+            "接动名词被动式"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "risk、in spite of 等词后接动名词，动名词的逻辑主语是动作的承受者，用被动式 being done，如 risk being punished（冒着被惩罚的风险），in spite of being banned（尽管被禁止）。"
+        },
+        {
+          "type": "p",
+          "text": "主动句改成被动句时，be 的形式跟原句时态一致。原句是过去完成时，被动式就用 had been done，如 had sliced 改成 had been sliced。"
+        }
+      ],
+      "examples": [
+        {
+          "group": "定时态的依据",
+          "gloss": [
+            "过去某时间点之前",
+            "→ 过去完成时"
+          ],
+          "stem": {
+            "text": "By the end of last month, China ___ (build) 1.7 million 5G base stations.",
+            "cue": [],
+            "src": "2022 · 东莞中学 · 高二上期末"
+          },
+          "ju": "截至上月底，中国已建成170万个5G基站。",
+          "mid": {
+            "label": "判断",
+            "text": "by the end of last month 指过去的一个时间点，建成的动作在它之前已经完成，用过去完成时 had built。"
+          },
+          "ans": "had built"
+        },
+        {
+          "group": "定时态的依据",
+          "gloss": [
+            "every year 表经常",
+            "→ 一般现在时被动"
+          ],
+          "stem": {
+            "text": "Every year many foreign visitors ___ (attract) by the beautiful scenery in China.",
+            "cue": [],
+            "src": "2019 · 东莞市 · 高二上期末"
+          },
+          "ju": "每年许多外国游客被中国的美丽景色所吸引。",
+          "mid": {
+            "label": "判断",
+            "text": "visitors 与 attract 是被动关系。every year 表示经常发生的事，谓语用一般现在时的被动式。"
+          },
+          "ans": "are attracted"
+        },
+        {
+          "group": "被动式的形式",
+          "gloss": [
+            "risk 后接动名词",
+            "被动用 being done"
+          ],
+          "stem": {
+            "text": "He risked ___ (punish) by his teacher when he played his cell phone in class secretly.",
+            "cue": [],
+            "src": "2018 · 东华高级中学 · 高二上期末"
+          },
+          "ju": "当他在课上暗自玩手机的时候，他冒着被老师惩罚的风险。",
+          "mid": {
+            "label": "判断",
+            "text": "risk 后接动名词，punish 与 he 是被动关系，用被动式 being punished。"
+          },
+          "ans": "being punished"
+        }
+      ],
+      "keypoint": "由时间状语定时态。主语是动作承受者时，be 的形式跟着所定的时态变，非谓语用 being done。",
+      "drill": [
+        {
+          "level": "必练",
+          "stem": "He had sliced the potatoes before I could prevent him.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2025 · 翰林高级中学 · 高二上期末",
+          "ans": "The potatoes had been sliced (by him) before I could prevent him.",
+          "why": "过去完成时，用 had been sliced",
+          "group": "被动式的形式"
+        },
+        {
+          "level": "必练",
+          "stem": "上周我们参观了我叔叔十年前工作过的博物馆。",
+          "cue": [
+            "用定语从句翻译"
+          ],
+          "src": "2019 · 东莞市 · 高二上期末",
+          "ans": "Last week we visited the museum where my uncle worked ten years ago.",
+          "why": "last week 指过去，用一般过去时",
+          "group": "定时态的依据"
+        },
+        {
+          "level": "必练",
+          "stem": "The reason he gave for his absence from the meeting ___ (讲得通).",
+          "cue": [],
+          "src": "2019 · 东莞市 · 高二上期末",
+          "ans": "made sense",
+          "why": "事情已发生，用一般过去时",
+          "group": "定时态的依据"
+        },
+        {
+          "level": "必练",
+          "stem": "In spite of ___ (ban) from entering the U.S.A. market, Huawei company still finds ways to survive.",
+          "cue": [],
+          "src": "2019 · 东莞市 · 高二上期末",
+          "ans": "being banned",
+          "why": "in spite of 后接动名词被动式",
+          "group": "被动式的形式"
+        }
+      ]
+    },
+    {
+      "no": 6,
       "name": "强调句",
       "vols": 6,
       "cov": 4,
@@ -901,7 +1060,7 @@
       ]
     },
     {
-      "no": 6,
+      "no": 7,
       "name": "状语从句",
       "vols": 6,
       "cov": 2,
