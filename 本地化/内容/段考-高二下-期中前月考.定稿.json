@@ -118,7 +118,7 @@
         },
         {
           "type": "p",
-          "text": "非谓语作定语放在被修饰的名词后面，相当于一个定语从句。不定式表示将要发生或有待完成的动作，如 the project to be conducted next year；过去分词表示被动或已完成，如 the koalas selected for each session。"
+          "text": "非谓语作定语放在被修饰的名词后面，相当于一个定语从句。现在分词表示主动或正在进行，如 people suffering from walking problems；不定式表示将要发生或有待完成的动作，如 the project to be conducted next year；过去分词表示被动或已完成，如 the koalas selected for each session。"
         },
         {
           "type": "subhead",
@@ -167,7 +167,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作表语，说明主语的目的或内容，如 The purpose of this activity is to let more people understand…。"
+          "text": "purpose、plan 等名词作主语时，常用不定式作表语，说明目的或打算的内容，如 The purpose of this activity is to let more people understand…。"
         },
         {
           "type": "p",
@@ -345,7 +345,7 @@
             "同义转换"
           ],
           "src": "2025 · 东莞实验中学 · 高二下月考",
-          "ans": "consisting of / composed of / comprised of",
+          "ans": "consisting of / composed of",
           "why": "同义 made up of，用 -ing",
           "group": "作定语",
           "level": "必练"
@@ -385,8 +385,8 @@
             "to do做主语翻译"
           ],
           "src": "2025 · 东莞第一中学 · 高二下月考",
-          "ans": "To form the habit of reading in their free/spare time is beneficial for students. / It is beneficial for students to form the habit of reading in their free/spare time.",
-          "why": "不定式作主语，可用 It 形式主语",
+          "ans": "To form the habit of reading in their free/spare time is beneficial for students.",
+          "why": "不定式作主语，放句首",
           "group": "作主语",
           "level": "必练"
         },
@@ -719,7 +719,7 @@
         {
           "gloss": [
             "It is a requirement to do",
-            "完成句子改写"
+            "改写"
           ],
           "stem": {
             "text": "Reducing the income gap in order to build a harmonious society is a requirement.",

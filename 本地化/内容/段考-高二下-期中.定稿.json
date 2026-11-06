@@ -109,7 +109,7 @@
         },
         {
           "type": "p",
-          "text": "whatever 引导的从句中省略了 do，后面的不定式作目的状语。only to find 表示出乎意料的结果。"
+          "text": "不定式可作目的状语，如 In order to minimize risks, the surgeon examined the patient’s medical reports precisely before the operation。whatever 引导的从句中省略了 do 时，后面的不定式同样作目的状语。only to find 表示出乎意料的结果。"
         },
         {
           "type": "subhead",
@@ -154,7 +154,7 @@
         },
         {
           "type": "p",
-          "text": "with 后接名词，再接分词或不定式作补足语，在句中作状语。名词是动作的承受者时用过去分词或 to be done，如 With much time spent sitting at the desk。"
+          "text": "with 后接名词，再接分词或不定式作补足语，在句中作状语。名词是动作的执行者时用现在分词，如 With sports apps becoming popular, more and more people are doing exercise at home；名词是动作的承受者时用过去分词或 to be done，如 With much time spent sitting at the desk。"
         },
         {
           "type": "subhead",
@@ -331,24 +331,6 @@
           },
           "ans": "to be waiting",
           "group": "seem 型"
-        },
-        {
-          "gloss": [
-            "spend 时间 doing",
-            "固定搭配"
-          ],
-          "stem": {
-            "text": "The scientist spends at least ten hours a day, if not more, ___ (study) this new energy resource.",
-            "cue": [],
-            "src": "2024 · 东莞第四高级中学 · 高二下期中"
-          },
-          "ju": "这位科学家每天至少花十个小时，甚至更多时间研究这种新能源。",
-          "mid": {
-            "label": "判断",
-            "text": "spend 时间 doing 是固定搭配，空处用动名词 studying。"
-          },
-          "ans": "studying",
-          "group": "作宾语与搭配"
         }
       ],
       "keypoint": "句中已有谓语且无连词时，空处多为非谓语，可作状语、定语或宾补。分词与逻辑主语是主动关系用 -ing，被动关系用 -ed。不定式表示目的、将来或结果；动词后的 to 与 -ing 由搭配决定。",
@@ -553,6 +535,15 @@
           "level": "必练"
         },
         {
+          "stem": "The scientist spends at least ten hours a day, if not more, ___ (study) this new energy resource.",
+          "cue": [],
+          "src": "2024 · 东莞第四高级中学 · 高二下期中",
+          "ans": "studying",
+          "why": "spend 时间 doing；固定搭配",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
           "stem": "She has written many books, one of which is worth reading.\nShe has written many books, one of which is ___.",
           "cue": [
             "同义句改写"
@@ -615,7 +606,7 @@
         },
         {
           "type": "p",
-          "text": "介词提到关系代词前时，关系代词不能省略，如 the basic skill on which school education depends；先行词是人时用 whom，如 several of whom。"
+          "text": "介词提到关系代词前时，关系代词不能省略；先行词是人时用 whom，如 several of whom。"
         },
         {
           "type": "subhead",
@@ -651,24 +642,6 @@
           },
           "ans": "where",
           "group": "关系副词"
-        },
-        {
-          "gloss": [
-            "depend on 中 on 提前",
-            "用 on which"
-          ],
-          "stem": {
-            "text": "Some experts think reading is the basic skill on ___ school education depends.",
-            "cue": [],
-            "src": "2026 · 大岭山中学 · 高二下期中"
-          },
-          "ju": "一些专家认为，阅读是学校教育所依赖的基本技能。",
-          "mid": {
-            "label": "判断",
-            "text": "depend on 的介词 on 提到关系代词前，关系代词 which 指 skill，不能省略。"
-          },
-          "ans": "which",
-          "group": "介词加关系代词"
         },
         {
           "gloss": [
@@ -731,7 +704,9 @@
         },
         {
           "stem": "毫无疑问，那些对生活充满热情的人更加有可能成功。",
-          "cue": [],
+          "cue": [
+            "汉译英"
+          ],
           "src": "2025 · 东莞市 · 高二下期中",
           "ans": "There is no doubt that those who have great passion for life are more likely to succeed.",
           "why": "先行词是人，those who",
@@ -754,6 +729,15 @@
           "ans": "which",
           "why": "非限制性，指前句用 which",
           "group": "关系代词",
+          "level": "必练"
+        },
+        {
+          "stem": "Some experts think reading is the basic skill on ___ school education depends.",
+          "cue": [],
+          "src": "2026 · 大岭山中学 · 高二下期中",
+          "ans": "which",
+          "why": "depend on 中 on 提前；用 on which",
+          "group": "介词加关系代词",
           "level": "必练"
         }
       ]
@@ -1294,7 +1278,9 @@
       "drill": [
         {
           "stem": "毫无疑问，阅读书籍可以拓宽我们的视野并丰富我们的知识。",
-          "cue": [],
+          "cue": [
+            "汉译英"
+          ],
           "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
           "ans": "There is no doubt that reading books can broaden our horizons and enrich our knowledge.",
           "why": "no doubt that 从句",

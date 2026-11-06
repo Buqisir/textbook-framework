@@ -454,7 +454,7 @@
         },
         {
           "type": "p",
-          "text": "make、find 等动词后，宾语是不定式或从句时，用 it 作形式宾语，真正的宾语放在宾补之后：makes it possible for plants to grow。"
+          "text": "make、find 等动词后，宾语是不定式或从句时，用 it 作形式宾语，真正的宾语放在宾补之后。"
         },
         {
           "type": "pattern",
@@ -479,24 +479,6 @@
             "text": "it 是形式主语，真正的主语是 that 从句。announce 与 it 是被动关系，用被动语态 was announced。"
           },
           "ans": "was announced"
-        },
-        {
-          "group": "形式宾语 it",
-          "gloss": [
-            "makes 后",
-            "it 指代不定式短语"
-          ],
-          "stem": {
-            "text": "The sun gives off light and warmth, which makes ___ possible for plants to grow.",
-            "cue": [],
-            "src": "2023 · 东莞第一中学 · 高一下月考"
-          },
-          "ju": "太阳发出光和热，使植物能够生长。",
-          "mid": {
-            "label": "成分",
-            "text": "makes 后的宾语是 for plants to grow 短语，用 it 作形式宾语，possible 为宾补。"
-          },
-          "ans": "it"
         }
       ],
       "keypoint": "判断 it 是形式主语还是形式宾语，看它的位置。句首的 it 后接 that 从句或不定式时是形式主语；it 位于宾语位置、后面有宾补时是形式宾语。",
@@ -532,6 +514,15 @@
           "ans": "It is acknowledged",
           "why": "that 句型",
           "group": "形式主语 it",
+          "level": "必练"
+        },
+        {
+          "stem": "The sun gives off light and warmth, which makes ___ possible for plants to grow.",
+          "cue": [],
+          "src": "2023 · 东莞第一中学 · 高一下月考",
+          "ans": "it",
+          "why": "makes 后；it 指代不定式短语",
+          "group": "形式宾语 it",
           "level": "必练"
         },
         {
@@ -724,7 +715,7 @@
         {
           "group": "时间",
           "gloss": [
-            "when 从句改分词",
+            "省略句：when 加分词",
             "主语一致可省略"
           ],
           "stem": {

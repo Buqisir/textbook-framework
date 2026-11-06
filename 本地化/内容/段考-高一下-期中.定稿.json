@@ -830,8 +830,8 @@
           "stem": "This is a special occasion ___ many families will gather together to celebrate.",
           "cue": [],
           "src": "2026 · 东莞第十二高级中学 · 高一下期中",
-          "ans": "where",
-          "why": "抽象先行词 occasion 后用 where",
+          "ans": "where / when",
+          "why": "occasion 可看作场合或时刻，where、when 均可",
           "group": "关系副词",
           "level": "必练"
         },
@@ -840,7 +840,7 @@
           "cue": [],
           "src": "2026 · 济川中学 · 高一下期中",
           "ans": "when",
-          "why": "occasions 后 when 指时间",
+          "why": "occasions 指时刻，用 when",
           "group": "关系副词",
           "level": "必练"
         },

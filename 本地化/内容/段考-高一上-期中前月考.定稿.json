@@ -564,7 +564,7 @@
         },
         {
           "type": "p",
-          "text": "判断：空格前是这类动词，后面紧跟形容词，再接 to do，就填 it，如 I don’t think it possible to finish…。"
+          "text": "这类动词后紧跟形容词、再接 to do 时，动词后用 it 作形式宾语，如 I don’t think it possible to finish…。"
         },
         {
           "type": "pattern",
@@ -1027,7 +1027,7 @@
         },
         {
           "type": "p",
-          "text": "判断：去掉 It is/was 和 that，句子仍然完整，就是强调句。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
+          "text": "去掉 It is/was 和 that 后句子仍然完整的，是强调句。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
         },
         {
           "type": "pattern",

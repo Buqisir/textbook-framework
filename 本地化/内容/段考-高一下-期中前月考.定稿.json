@@ -165,12 +165,12 @@
         },
         {
           "type": "subhead",
-          "text": "介词后接 -ing"
+          "text": "介词和 worth 后接 -ing"
         },
         {
           "type": "gloss",
           "lines": [
-            "介词后只接动名词",
+            "介词和 worth 后接动名词",
             "prevent 等动词也如此"
           ]
         },
@@ -1113,7 +1113,7 @@
           "ans": "whose"
         }
       ],
-      "keypoint": "判断空格要看先行词和空后的成分。空后缺主语或宾语时用 that、which、who、whom；空后是完整句时用关系副词 where、when、why；空后紧跟名词表示所属时用 whose。",
+      "keypoint": "判断空格要看先行词和空后的成分。空后缺主语或宾语时用 which、who、whom，限制性从句也可用 that；空后是完整句时用关系副词 where、when、why；空后紧跟名词表示所属时用 whose。",
       "drill": [
         {
           "stem": "This is the digital library ___ every registered user has access to thousands of e-books and academic journals.",
@@ -1302,7 +1302,7 @@
         },
         {
           "type": "p",
-          "text": "常见的动词有 find、make、think、consider、feel 等。it 与宾补之间的形容词，表示对事情的评价。"
+          "text": "常见的动词有 find、make、think、consider、feel 等。宾补形容词表示对事情的评价。"
         },
         {
           "type": "pattern",
@@ -1823,8 +1823,7 @@
         {
           "group": "with 复合",
           "gloss": [
-            "with + 名词 + 分词",
-            "译作“有……”"
+            "with + 名词 + 分词"
           ],
           "stem": {
             "text": "群山包围着他们的房子，这个家庭不方便外出。",
