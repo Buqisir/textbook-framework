@@ -1,0 +1,532 @@
+{
+ "data_no": "11",
+ "unit_book": "段考专题　高二上",
+ "h2": "期中后月考",
+ "stats": [
+  {
+   "b": "4",
+   "post": "套试卷"
+  },
+  {
+   "b": "4",
+   "post": "个专题"
+  },
+  {
+   "b": "21",
+   "post": "道题"
+  }
+ ],
+ "overview": {
+  "title": "考情总览",
+  "chip": "2023–2023 · 东莞真题",
+  "lead": "每格代表 10% 的试卷。",
+  "rows": [
+   {
+    "name": "非谓语",
+    "cov": 1.0,
+    "n": 16,
+    "book": "",
+    "ahead": false,
+    "go": "专题 1",
+    "skip": false
+   },
+   {
+    "name": "it 形式主宾语",
+    "cov": 1.0,
+    "n": 4,
+    "book": "",
+    "ahead": false,
+    "go": "专题 2",
+    "skip": false
+   },
+   {
+    "name": "名词性从句",
+    "cov": 0.75,
+    "n": 7,
+    "book": "",
+    "ahead": false,
+    "go": "专题 3",
+    "skip": false
+   },
+   {
+    "name": "虚拟语气",
+    "cov": 0.5,
+    "n": 2,
+    "book": "",
+    "ahead": false,
+    "go": "专题 4",
+    "skip": false
+   }
+  ],
+  "after": ""
+ },
+ "topics": [
+  {
+   "no": 1,
+   "name": "非谓语",
+   "vols": 4,
+   "cov": 4,
+   "n": 16,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "作定语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "名词是动作的执行者",
+      "主动用现在分词"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "非谓语作定语，修饰前面的名词。名词与动作是主动关系用现在分词，是被动关系用过去分词，如 the people living here（住在这里的人）、the house built in 1990（建于 1990 年的房子）。"
+    },
+    {
+     "type": "p",
+     "text": "suffer from、submit 等词作后置定语时，要看名词是动作的发出者还是承受者。the proposals submitted so far（至今提交的提案）中，proposals 是被提交的，用过去分词。"
+    },
+    {
+     "type": "subhead",
+     "text": "作状语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "分词作状语",
+      "逻辑主语是句子主语"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "分词作状语时，它的逻辑主语就是句子的主语。两者是主动关系用现在分词，是被动关系用过去分词，如 Encouraged by my teacher, I tried again（在老师的鼓励下，我又试了一次）。"
+    },
+    {
+     "type": "p",
+     "text": "完成句子时，分词短语可由原句的原因从句改写而来。从句的动作先于主句时，分词用完成式 having done，如 Having finished the work, he went home。"
+    },
+    {
+     "type": "subhead",
+     "text": "不定式搭配"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "be 之后的不定式",
+      "表示目的或打算"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "be 之后的不定式作表语，说明主语的目的或打算，如 His aim was to convey his feelings。designed to、aimed to 之后的不定式表示目的，都用动词原形。"
+    },
+    {
+     "type": "p",
+     "text": "show sb. how to do sth. 中，how to do 作宾语，表示「怎样做」，不定式用动词原形。"
+    },
+    {
+     "type": "subhead",
+     "text": "作主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首的不定式",
+      "谓语用单数"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "不定式或动名词短语作主语时，谓语用单数。句首的不定式较长时，常用 It 作形式主语，把不定式移到句末。"
+    },
+    {
+     "type": "subhead",
+     "text": "作宾补"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "宾语是承受者",
+      "宾补用过去分词"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "have sb. / sth. done 表示「让某人被做」或「遭遇某事」，宾补与宾语是被动关系，用过去分词，如 had my bike repaired（我的自行车送去修理了）。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "作定语",
+     "gloss": [
+      "作后置定语",
+      "people 与 suffer 主动"
+     ],
+     "stem": {
+      "text": "The new device brings hope to people ___ (suffer) from walking problems.",
+      "cue": [],
+      "src": "2023 · 东莞市 · 高二上联考"
+     },
+     "ju": "这种新设备给行走有困难的人带来了希望。",
+     "mid": {
+      "label": "判断",
+      "text": "people 与 suffer 是主动关系，空格作后置定语修饰 people，用现在分词。suffer from 意为「遭受……」。"
+     },
+     "ans": "suffering"
+    },
+    {
+     "group": "作状语",
+     "gloss": [
+      "分词作状语",
+      "Jane 与 absorb 被动"
+     ],
+     "stem": {
+      "text": "___ (absorb) in her book, Jane didn’t notice a boy slip out of the classroom.",
+      "cue": [],
+      "src": "2023 · 东莞市 · 高二上联考"
+     },
+     "ju": "Jane 沉浸在书中，没有注意到一个男孩溜出了教室。",
+     "mid": {
+      "label": "成分",
+      "text": "句首分词短语作状语，逻辑主语 Jane 与 absorb 是被动关系，用过去分词。"
+     },
+     "ans": "Absorbed"
+    },
+    {
+     "group": "不定式搭配",
+     "gloss": [
+      "be 之后的不定式",
+      "表示目的"
+     ],
+     "stem": {
+      "text": "His aim was ___ (convey) his feelings and thoughts in his works of art.",
+      "cue": [],
+      "src": "2023 · 东莞市 · 高二上联考"
+     },
+     "ju": "他的目的是通过作品表达自己的感情与想法。",
+     "mid": {
+      "label": "成分",
+      "text": "was 之后的不定式作表语，表示目的，逻辑主语是 he，用不定式。"
+     },
+     "ans": "to convey"
+    }
+   ],
+   "keypoint": "空前的词决定形式：be 之后、designed 之后的不定式表示目的；与逻辑主语是被动关系时用过去分词；have sth done 表示遭遇或请人做。",
+   "drill": [
+    {
+     "stem": "In the proposals ___ (submit) so far, members mainly focus on issues relating to people's daily life, such as health care and education.",
+     "cue": [],
+     "src": "2023 · 万江中学 · 高二上月考",
+     "ans": "submitted",
+     "why": "主动修饰 proposals，用过去分词",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "去年建的那个艺术博物馆值得参观。",
+     "cue": [
+      "用分词作定语"
+     ],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "The Museum of Art built/completed/constructed last year is worthy of being visited/is worth visiting.",
+     "why": "built 修饰 museum",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "During the Mid-Autumn Festival, we admire the moon and eat some mooncakes ___ (stuff) with nuts or eggs.",
+     "cue": [],
+     "src": "2023 · 麻涌中学 · 高二上月考",
+     "ans": "stuffed",
+     "why": "mooncakes 被填充，用过去分词",
+     "group": "作定语",
+     "level": "必练"
+    },
+    {
+     "stem": "Because I had spent all night writing, I was tired the next day.\n___ all night writing, I was very tired the next day.",
+     "cue": [
+      "用现在分词改写"
+     ],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "Having spent",
+     "why": "I 主动写作，用完成式分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "Because of my grandfather’s encouragement, I signed up for the competition.",
+     "cue": [
+      "用过去分词改写"
+     ],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "Encouraged by my grandfather, I signed up for the competition.",
+     "why": "I 被鼓励，用过去分词",
+     "group": "作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "The exercises are designed ___ (strong) your stomach muscles.",
+     "cue": [],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "to strengthen",
+     "why": "be designed to 表示目的",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "He showed me how I can start the online tour.\nHe showed me ___ the online tour.",
+     "cue": [
+      "同义句转换"
+     ],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "how to start",
+     "why": "疑问词加不定式作宾语",
+     "group": "不定式搭配",
+     "level": "必练"
+    },
+    {
+     "stem": "To prevent harmful habits like tobacco or alcohol abuse from dominating a teenager’s life is essential.\n___ that we should prevent harmful habits like tobacco or alcohol abuse from dominating a teenager’s life.",
+     "cue": [
+      "句型转换"
+     ],
+     "src": "2023 · 东莞市 · 高二上联考",
+     "ans": "It is essential",
+     "why": "It 作形式主语，that 为真正主语",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (strength) social development is an important guarantee of maintaining social harmony and stability.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "Strengthening",
+     "why": "动名词短语作主语，谓语用单数",
+     "group": "作主语",
+     "level": "必练"
+    },
+    {
+     "stem": "Unfortunately, many fans had their personal belongings ___ (steal) in the Midi Modern Music Festival in Nan Yang.",
+     "cue": [],
+     "src": "2023 · 麻涌中学 · 高二上月考",
+     "ans": "stolen",
+     "why": "have sth stolen 表遭遇",
+     "group": "作宾补",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "name": "it 形式主宾语",
+   "vols": 4,
+   "cov": 4,
+   "n": 4,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "形式主语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首 It 作形式主语",
+      "真正主语后置"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "句首主语是不定式且较长时，用 it 作形式主语，真正的主语放在句末。It is wise of sb. to do 中，of 短语指明人，不定式是真正的主语。"
+    },
+    {
+     "type": "subhead",
+     "text": "形式宾语"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "consider 后",
+      "宾语是不定式"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "consider、find、think 之后，若真正的宾语是不定式，且宾语后带名词或形容词作宾补，就用 it 作形式宾语，如 consider it her duty to do。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "句首 It 后接形容词，或句末是不定式或从句时，it 是形式主语。consider、find 等之后有 it 加宾补，it 是形式宾语。",
+   "drill": [
+    {
+     "stem": "他下定决心要恢复这个花瓶原来的美丽，这是明智的。",
+     "cue": [
+      "it作形式主语"
+     ],
+     "src": "2023 · 万江中学 · 高二上月考",
+     "ans": "It is wise of him to decide to restore the vase to its original beauty.",
+     "why": "wise of sb. to do 句型",
+     "group": "形式主语",
+     "level": "必练"
+    },
+    {
+     "stem": "As a native of Hangzhou, she considers ___ her duty to display the best aspect of the city to the guests from all over the world.",
+     "cue": [],
+     "src": "2023 · 麻涌中学 · 高二上月考",
+     "ans": "it",
+     "why": "consider 后用 it 作形式宾语",
+     "group": "形式宾语",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "name": "名词性从句",
+   "vols": 4,
+   "cov": 3,
+   "n": 7,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "表语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "系动词后作表语",
+      "that 引导说明性内容"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "表语从句位于 is、was 等系动词之后，说明主语是什么。表示说明性内容用 that，如 The fact is that he is ill（事实是他病了）。"
+    },
+    {
+     "type": "p",
+     "text": "表语从句中缺主语或宾语时用 what，如 My hometown is no longer what it used to be（我的家乡已经不是从前的样子）。"
+    },
+    {
+     "type": "pattern",
+     "text": "What……was that……  |  The problem is whether……"
+    },
+    {
+     "type": "subhead",
+     "text": "主语从句"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "句首作主语",
+      "表示是否用 whether"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "主语从句位于句首，谓语动词用单数。表示「是否」用 whether 引导，如 Whether it will rain is unknown（会不会下雨还不知道）。"
+    },
+    {
+     "type": "p",
+     "text": "句首主语从句较长时，常用 It 作形式主语，如 It seemed that the woman liked the water。"
+    }
+   ],
+   "examples": [
+    {
+     "group": "表语从句",
+     "gloss": [
+      "系动词 was 后",
+      "that 引导说明性内容"
+     ],
+     "stem": {
+      "text": "What surprised us was ___ he worked out the problem in such a short time.",
+      "cue": [],
+      "src": "2023 · 东莞市 · 高二上联考"
+     },
+     "ju": "最让我们吃惊的是，他在这么短的时间内解出了这道题。",
+     "mid": {
+      "label": "成分",
+      "text": "was 后接表语从句，从句 he worked out the problem 成分齐全，that 引导，不作成分。"
+     },
+     "ans": "that"
+    }
+   ],
+   "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语。表示是否用 whether，缺成分用 what，成分齐全用 that。",
+   "drill": [
+    {
+     "stem": "My hometown is no longer ___ it used to be.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "what",
+     "why": "what 作表语，指以前的样子",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "最让我印象深刻的是她对未来很乐观。",
+     "cue": [],
+     "src": "2023 · 麻涌中学 · 高二上月考",
+     "ans": "What impressed me most was that she was very optimistic about the future.",
+     "why": "What 作主语，that 引导表语从句",
+     "group": "表语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "The woman seemed to like the water from the pump so much that she had it delivered to her house every day.\n___ the woman liked the water from the pump so much that she had it delivered to her house every day.",
+     "cue": [
+      "同义句"
+     ],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "It seemed that",
+     "why": "It 作形式主语，that 为真正主语",
+     "group": "主语从句",
+     "level": "必练"
+    },
+    {
+     "stem": "___ we will go for an outing tomorrow remains unknown.",
+     "cue": [],
+     "src": "2023 · 麻涌中学 · 高二上月考",
+     "ans": "Whether",
+     "why": "whether 引导主语从句，表示是否",
+     "group": "主语从句",
+     "level": "必练"
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "name": "虚拟语气",
+   "vols": 4,
+   "cov": 2,
+   "n": 2,
+   "explain": [
+    {
+     "type": "subhead",
+     "text": "recommend 型"
+    },
+    {
+     "type": "gloss",
+     "lines": [
+      "recommend、suggest 后",
+      "that 从句用 should"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "recommend、suggest、insist 等词之后的 that 从句，谓语用「(should) 加动词原形」，should 可以省略。主语是物或句子为被动时，用 (should) be done。"
+    }
+   ],
+   "examples": [],
+   "keypoint": "recommend、suggest、insist 等词之后的 that 从句，谓语用 (should) 加动词原形。",
+   "drill": [
+    {
+     "stem": "The doctor recommended that sweet drinks ___ (cut) out from his diet.",
+     "cue": [],
+     "src": "2023 · 虎门中学 · 高二上月考",
+     "ans": "should be cut / be cut",
+     "why": "recommend 后用 should",
+     "group": "recommend 型",
+     "level": "必练"
+    }
+   ]
+  }
+ ]
+}
