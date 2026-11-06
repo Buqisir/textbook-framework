@@ -87,7 +87,7 @@
         },
         {
           "type": "p",
-          "text": "现在分词作结果状语，放在主句之后，说明前面动作产生的结果，如 I enjoy reading classical works of history, enabling me to appreciate the beauty of the Chinese language。"
+          "text": "现在分词作结果状语，放在主句之后，说明前面动作产生的结果。"
         },
         {
           "type": "subhead",
@@ -102,7 +102,7 @@
         },
         {
           "type": "p",
-          "text": "不定式前有 for sb. 时，sb. 是动作的执行者。如 classes designed for students to acquire the necessary life skills（为让学生掌握必要的生活技能而设计的课程）。"
+          "text": "不定式前有 for sb. 时，sb. 是动作的执行者。"
         },
         {
           "type": "subhead",
@@ -117,7 +117,7 @@
         },
         {
           "type": "p",
-          "text": "疑问词与不定式连用，相当于一个名词性短语，在句中作宾语，如 how to attend to the conflicts（如何处理冲突）。"
+          "text": "疑问词与不定式连用，相当于一个名词性短语，在句中作宾语。"
         },
         {
           "type": "pattern",
@@ -185,7 +185,7 @@
         },
         {
           "type": "p",
-          "text": "真正的主语是不定式或从句时，句首用 it 作形式主语。例如 It doesn’t matter how many times you fail，句首的 it 不译。"
+          "text": "真正的主语是不定式或从句时，句首用 it 作形式主语，句首的 it 不译。"
         },
         {
           "type": "p",
@@ -204,7 +204,7 @@
         },
         {
           "type": "p",
-          "text": "宾语后面有宾补（形容词）时，用 it 作形式宾语，真正的宾语是不定式，放在宾补之后，如 make it quite difficult to deliver food。"
+          "text": "宾语后面有宾补（形容词）时，用 it 作形式宾语，真正的宾语是不定式，放在宾补之后。"
         },
         {
           "type": "pattern",
@@ -228,7 +228,7 @@
           "cue": [],
           "src": "2024 · 弘林高级中学 · 高二下月考",
           "ans": "It takes me two hours to take online lessons every week.",
-          "why": "It takes 时间 to do",
+          "why": "It takes sb. time to do",
           "group": "形式主语 it",
           "level": "必练"
         },
@@ -263,7 +263,7 @@
         },
         {
           "type": "p",
-          "text": "not only 等否定副词置于句首时，主句用部分倒装，助动词或情态动词放在主语前，谓语动词用原形，如 Not only does the traffic issue affect our daily life。"
+          "text": "not only 等否定副词置于句首时，主句用部分倒装，助动词或情态动词放在主语前。实义动词用 do、did 倒装时，谓语动词用原形；be 动词和完成式倒装时，提前的动词随主语和时态变化。"
         },
         {
           "type": "p",
@@ -275,7 +275,7 @@
         }
       ],
       "examples": [],
-      "keypoint": "否定副词或否定短语位于句首时，句子用部分倒装：助动词或情态动词提前到主语前，谓语动词保留原形。not only…but also 的倒装只用在前一分句，后一分句不倒装。",
+      "keypoint": "否定副词或否定短语位于句首时，句子用部分倒装：实义动词用 do、did 提前到主语前，谓语动词保留原形；be 动词和完成式倒装时，提前的动词随主语和时态变化。not only…but also 的倒装只用在前一分句，后一分句不倒装。",
       "drill": [
         {
           "stem": "The traffic issue not only affects our daily life, but it also puts people’s lives at risk.\nNot only ___ the traffic issue ___ our daily life, but it also puts people’s lives at risk.",

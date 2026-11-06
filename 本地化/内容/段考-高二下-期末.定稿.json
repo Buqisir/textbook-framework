@@ -127,7 +127,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作目的状语时，表示为了做某事，如 to look after his grandparents。only to find 表示出乎意料的结果，如 the boy rushed to the school, only to find…。"
+          "text": "不定式作目的状语时，表示为了做某事。only to find 表示出乎意料的结果。"
         },
         {
           "type": "subhead",
@@ -142,11 +142,11 @@
         },
         {
           "type": "p",
-          "text": "不定式作定语表示将要发生或有待完成的动作，如 the only way to conquer fear，the first one to be admitted 也属于这一类。"
+          "text": "不定式作定语表示将要发生或有待完成的动作，如 the only way to conquer fear，序数词修饰的名词后用不定式也属于这一类。"
         },
         {
           "type": "p",
-          "text": "现在分词作定语表示主动或正在进行，过去分词表示被动或已完成，如 people living in Sichuan、a film directed by Jia Ling。"
+          "text": "现在分词作定语表示主动或正在进行，过去分词表示被动或已完成。"
         },
         {
           "type": "subhead",
@@ -161,7 +161,7 @@
         },
         {
           "type": "p",
-          "text": "形容词后接不定式作状语，表示原因或情绪的来源，如 She is proud to have broken a world record。"
+          "text": "形容词后接不定式作状语，表示原因或情绪的来源。"
         },
         {
           "type": "subhead",
@@ -176,7 +176,7 @@
         },
         {
           "type": "p",
-          "text": "It seemed that…可改写为 sb. seemed to do，从句谓语是过去完成时时，改用 to have done。"
+          "text": "It seemed that…可改写为 sb. seemed to do，从句谓语是过去完成时，改用 to have done。"
         },
         {
           "type": "subhead",
@@ -191,7 +191,7 @@
         },
         {
           "type": "p",
-          "text": "疑问词与不定式连用，相当于一个名词性短语，在句中作宾语，如 learn how to team up with your teammates。"
+          "text": "疑问词与不定式连用，相当于一个名词性短语，在句中作宾语。"
         },
         {
           "type": "subhead",
@@ -206,7 +206,7 @@
         },
         {
           "type": "p",
-          "text": "have 后接宾语和过去分词时，表示让别人做某事或某事被做，如 have your feet measured。"
+          "text": "have 后接宾语和过去分词时，表示某事被做。"
         },
         {
           "type": "subhead",
@@ -221,7 +221,7 @@
         },
         {
           "type": "p",
-          "text": "with the design completed 表示设计已完成，名词与分词是被动关系，用过去分词。"
+          "text": "with 后接名词与过去分词时，名词与分词是被动关系，表示事情已经完成。"
         },
         {
           "type": "subhead",
@@ -236,7 +236,7 @@
         },
         {
           "type": "p",
-          "text": "形容词后接 for sb. to do，表示做某事对某人来说怎样，如 It is essential for young people to acquire new skills。"
+          "text": "形容词后接 for sb. to do，表示做某事对某人来说怎样。"
         },
         {
           "type": "pattern",
@@ -486,7 +486,7 @@
         },
         {
           "type": "p",
-          "text": "时间状语决定时态。last week、the other day 表示过去的时间，用一般过去时；句意是动作从过去持续到现在，用现在完成进行时。"
+          "text": "时间状语决定时态。last week、the other day 表示过去的时间，用一般过去时；动作从过去持续到现在，用现在完成进行时；叙述过去某段时间内的持续动作，用过去进行时。"
         },
         {
           "type": "p",
@@ -494,11 +494,11 @@
         },
         {
           "type": "p",
-          "text": "并列谓语的时态要一致。句中已有的 had 为过去式，空处也用过去式，如 Luke dragged his tired body home and then had a rest。"
+          "text": "并列谓语的时态要一致，如 withdrew from the contest and gave up the chance 中，两个谓语都用过去式。"
         },
         {
           "type": "p",
-          "text": "动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化，如 was invited、was sent。as well as 连接的成分不影响谓语，谓语与前面的主语保持一致。"
+          "text": "动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化，如 was sent。as well as 连接的成分不影响谓语，谓语与前面的主语保持一致。"
         },
         {
           "type": "subhead",
@@ -517,7 +517,7 @@
         },
         {
           "type": "p",
-          "text": "时间状语不随语态改变，时态仍按原句确定，如 By the end of last week 之后，had translated 改为 had been translated。"
+          "text": "时间状语不随语态改变，时态仍按原句确定，如 will hold next Friday 改为 will be held next Friday。"
         },
         {
           "type": "pattern",
@@ -536,7 +536,7 @@
         },
         {
           "type": "p",
-          "text": "动名词、不定式与逻辑主语是被动关系时，用被动式：动名词为 being done，如 mind being left；不定式为 to be done，如 be supposed to be rewarded。"
+          "text": "动名词、不定式与逻辑主语是被动关系时，用被动式：动名词为 being done，不定式为 to be done。"
         }
       ],
       "examples": [
@@ -623,8 +623,8 @@
           "stem": "I ___ (starve) all day because I skipped breakfast.",
           "cue": [],
           "src": "2026 · 东莞第一中学 · 高二下期末",
-          "ans": "have been starving",
-          "why": "句意持续到现在，用现在完成进行时",
+          "ans": "have been starving / was starving",
+          "why": "持续状态，现在完成进行时或过去进行时",
           "group": "定时态与语态",
           "level": "必练"
         },
@@ -749,7 +749,7 @@
         },
         {
           "type": "p",
-          "text": "真正的主语是从句时，句首用 it 作形式主语，如 It is assumed that economic development and environmental protection are equally important。"
+          "text": "真正的主语是从句时，句首用 it 作形式主语，如 It is assumed that economic development and environmental protection are equally important。真正的主语是不定式时，句首同样用 it，不定式放到句末。"
         },
         {
           "type": "pattern",
@@ -846,11 +846,11 @@
         },
         {
           "type": "p",
-          "text": "非限制性定语从句前有逗号，对先行词作补充说明。表示所属用 whose，如 patent examiners, whose only job is…；修饰前句内容用 which，如 which deserves our respect。"
+          "text": "非限制性定语从句前有逗号，对先行词作补充说明。表示所属用 whose，如 patent examiners, whose only job is…；which 指前面的名词或整个前句，要看它指什么。"
         },
         {
           "type": "p",
-          "text": "限定性定语从句中，that 可以指人或物，如 the people and things that impressed you most。"
+          "text": "限定性定语从句中，that 可以指人或物。"
         },
         {
           "type": "subhead",
@@ -865,7 +865,7 @@
         },
         {
           "type": "p",
-          "text": "some of、several of 之后接关系代词 whom 时，先行词是人，且是非限制性从句，如 These singers, some of whom are popular。"
+          "text": "some of、several of 之后接关系代词 whom 时，先行词是人，且是非限制性从句。"
         }
       ],
       "examples": [
@@ -924,7 +924,7 @@
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期末",
           "ans": "which",
-          "why": "which 指前句，非限制",
+          "why": "which 指 the design，非限制",
           "group": "关系代词",
           "level": "必练"
         },
@@ -979,7 +979,7 @@
         },
         {
           "type": "p",
-          "text": "表语从句位于系动词之后，说明主语的内容。从句缺成分用 what，如 What delights the children is that they are going to travel next week。"
+          "text": "表语从句位于系动词之后，说明主语的内容。从句缺成分用 what，不缺成分用 that 或 whether。"
         },
         {
           "type": "p",
@@ -998,7 +998,7 @@
         },
         {
           "type": "p",
-          "text": "主语从句在句中作主语，缺成分时用 what，如 What excited us was…。只表示“是否”时用 whether，如 Whether we succeed or fail depends on…。"
+          "text": "主语从句在句中作主语，缺成分时用 what。只表示“是否”时用 whether。"
         },
         {
           "type": "subhead",
@@ -1013,7 +1013,7 @@
         },
         {
           "type": "p",
-          "text": "同位语从句说明前面名词的具体内容，如 Word came that scientists had made a great breakthrough。"
+          "text": "同位语从句说明前面名词的具体内容，由 that 引导。"
         },
         {
           "type": "subhead",
@@ -1028,7 +1028,7 @@
         },
         {
           "type": "p",
-          "text": "宾语从句位于动词之后，表示“是否”时用 whether 或 if，如 Mary asked whether she could apply。"
+          "text": "宾语从句位于动词之后，表示“是否”时用 whether 或 if。"
         }
       ],
       "examples": [
@@ -1168,7 +1168,7 @@
           "group": "否定词句首"
         }
       ],
-      "keypoint": "not until、not only、only after 等词位于句首时，句子用部分倒装：助动词或情态动词提前到主语前，谓语动词保留原形。",
+      "keypoint": "not until、not only、only after 等词位于句首时，句子用部分倒装：实义动词用 do、did 提前到主语前，谓语动词保留原形。",
       "drill": [
         {
           "stem": "The volunteers not only organized lectures, but also raised money for the activities.\nNot only ___ lectures, but they also raised money for the activities.",
@@ -1188,7 +1188,7 @@
           ],
           "src": "2023 · 东莞市 · 高二下期末",
           "ans": "did / adjust",
-          "why": "题库答案 discover 有误，应为 adjust",
+          "why": "Only after 句首部分倒装，did 后用原形",
           "group": "否定词句首",
           "level": "必练"
         },
