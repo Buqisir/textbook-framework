@@ -67,7 +67,7 @@
         "skip": false
       },
       {
-        "name": "独立主格／with 复合",
+        "name": "with 复合结构",
         "cov": 0.3,
         "n": 3,
         "book": "",
@@ -94,7 +94,7 @@
           "type": "gloss",
           "lines": [
             "句中已有谓语，无连词",
-            "分词与主语：主动 -ing"
+            "分词与逻辑主语：主动 -ing"
           ]
         },
         {
@@ -238,7 +238,7 @@
         {
           "gloss": [
             "现在分词作定语",
-            "修饰 lessons，主动关系"
+            "修饰 lessons，主动"
           ],
           "stem": {
             "text": "The school curriculum is designed to provide students with engaging lessons ___ (involve) interactive activities.",
@@ -315,7 +315,7 @@
           "cue": [],
           "src": "2025 · 厚街中学 · 高二下月考",
           "ans": "given",
-          "why": "unless 从句省略主语与 are",
+          "why": "unless 从句省略 they are，用过去分词",
           "group": "作状语",
           "level": "必练"
         },
@@ -408,8 +408,19 @@
           ],
           "src": "2020 · 光明中学 · 高二下月考",
           "ans": "to have been killed",
-          "why": "题库答案有误，改被动完成",
+          "why": "题库答案 to kill 有误，改为被动完成式 to have been killed",
           "group": "作主语",
+          "level": "必练"
+        },
+        {
+          "stem": "David applied for the position but we had to decline him because he was too old.\nDavid applied for the position but we had to ___ because he was too old.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2026 · 众美中学 · 高二下月考",
+          "ans": "turn him down",
+          "why": "decline 的同义短语 turn down，代词放在中间",
+          "group": "作宾语与搭配",
           "level": "必练"
         },
         {
@@ -447,17 +458,6 @@
           "src": "2025 · 东莞实验中学 · 高二下月考",
           "ans": "to enhance",
           "why": "purpose 后接不定式作表语",
-          "group": "不定式作表语",
-          "level": "必练"
-        },
-        {
-          "stem": "It is likely that she has already submitted the report ___ by the deadline.",
-          "cue": [
-            "用不定式改写"
-          ],
-          "src": "2025 · 东莞实验中学 · 高二下月考",
-          "ans": "She is likely to have already submitted the report by the deadline.",
-          "why": "likely to have done",
           "group": "不定式作表语",
           "level": "必练"
         },
@@ -675,7 +675,7 @@
         },
         {
           "type": "p",
-          "text": "形容词表示评价或看法，如 important、necessary、a great honour，后面接不定式或 that 从句。"
+          "text": "表示评价或看法的形容词或名词短语，如 important、necessary、a great honour，后面接不定式或 that 从句。"
         },
         {
           "type": "subhead",
@@ -844,7 +844,7 @@
         {
           "gloss": [
             "what 引导主语从句",
-            "从句缺主语 impressed"
+            "impressed 缺主语"
           ],
           "stem": {
             "text": "___ impressed the judges most was the contestant’s innovative design concept.",
@@ -860,7 +860,7 @@
           "group": "主语从句"
         }
       ],
-      "keypoint": "名词性从句在句中缺主语或宾语时用 what。只表示“是否”时用 whether 或 if，if 不能引导主语从句。判断时先看从句缺什么成分，再选引导词。",
+      "keypoint": "名词性从句在句中缺主语或宾语时用 what。只表示“是否”时用 whether 或 if，if 不能引导主语从句。引导词由从句缺什么成分决定。",
       "drill": [
         {
           "stem": "___ you can’t miss is the Hand-copied Newspaper Competition on April 4.",
@@ -878,7 +878,7 @@
           ],
           "src": "2025 · 厚街中学 · 高二下月考",
           "ans": "What surprised her",
-          "why": "原答案 made her 有误",
+          "why": "题库答案 made her surprised 有误，改 surprised her",
           "group": "主语从句",
           "level": "必练"
         },
@@ -933,7 +933,7 @@
         },
         {
           "type": "p",
-          "text": "recommend、suggest、insist、demand、urge 等词后接 that 从句，从句谓语用 (should) 加动词原形，should 可以省略，与主句时态无关。"
+          "text": "表示建议、要求的 recommend、demand、urge 等词后接 that 从句，从句谓语用 (should) 加动词原形，should 可以省略，与主句时态无关。"
         },
         {
           "type": "p",
@@ -990,7 +990,7 @@
     },
     {
       "no": 6,
-      "name": "独立主格／with 复合",
+      "name": "with 复合结构",
       "vols": 10,
       "cov": 3,
       "n": 3,

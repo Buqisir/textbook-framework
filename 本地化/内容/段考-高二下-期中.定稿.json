@@ -76,7 +76,7 @@
           "type": "gloss",
           "lines": [
             "句中已有谓语，无连词",
-            "分词与主语：主动 -ing"
+            "分词与逻辑主语：主动 -ing"
           ]
         },
         {
@@ -130,7 +130,7 @@
         },
         {
           "type": "p",
-          "text": "see、watch、feel 等词后接的宾补，宾语是动作的执行者时用不定式原形或 doing，宾语是承受者时用过去分词，如 see the patient being operated on。"
+          "text": "see、watch、feel 等词后接的宾补，宾语是动作的执行者时用不定式原形或 doing，宾语是承受者时用过去分词；动作正在进行时用 being done，如 see the patient being operated on。"
         },
         {
           "type": "subhead",
@@ -175,7 +175,7 @@
         },
         {
           "type": "p",
-          "text": "It seemed that…可改写为 sb. seemed to do，动作正在进行时用 to be doing，动作已完成时用 to have done。is thought to、deserve to 之后接不定式的规则与此相同。"
+          "text": "It seemed that…可改写为 sb. seemed to do，动作正在进行时用 to be doing，动作已完成时用 to have done。is thought to 之后接不定式的规则与此相同。"
         },
         {
           "type": "subhead",
@@ -336,7 +336,7 @@
           "ju": "这位科学家每天至少花十个小时，甚至更多时间研究这种新能源。",
           "mid": {
             "label": "判断",
-            "text": "spend 时间 doing 是固定搭配，空处用动名词 studying 作后置宾语。"
+            "text": "spend 时间 doing 是固定搭配，空处用动名词 studying。"
           },
           "ans": "studying",
           "group": "作宾语与搭配"
@@ -403,7 +403,7 @@
           "level": "必练"
         },
         {
-          "stem": "Because the young man was inspired by the heroic story, he decided to realize his dream of being a famous doctor.\n→",
+          "stem": "Because the young man was inspired by the heroic story, he decided to realize his dream of being a famous doctor.",
           "cue": [
             "用过去分词改写句子"
           ],
@@ -474,7 +474,7 @@
           "cue": [],
           "src": "2026 · 大岭山中学 · 高二下期中",
           "ans": "stressed out",
-          "why": "feel 后过去分词作宾补",
+          "why": "feel 为系动词，stressed out 作表语，非宾补",
           "group": "作宾补",
           "level": "必练"
         },
@@ -851,7 +851,7 @@
         },
         {
           "type": "p",
-          "text": "It is a privilege for sb. to do、It is impolite to do 之类句型，形容词表示评价，后接不定式作真主语。"
+          "text": "It is a privilege for sb. to do、It is impolite to do 之类句型，表示评价的形容词或名词短语后接不定式作真主语。"
         },
         {
           "type": "subhead",
@@ -918,7 +918,7 @@
           "cue": [],
           "src": "2026 · 大岭山中学 · 高二下期中",
           "ans": "It",
-          "why": "It happened that 句型",
+          "why": "常见句型 It happened that…",
           "group": "形式主语 it",
           "level": "必练"
         },

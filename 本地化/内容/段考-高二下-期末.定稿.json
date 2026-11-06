@@ -94,7 +94,7 @@
           "type": "gloss",
           "lines": [
             "句中已有谓语，无连词",
-            "分词与主语：主动 -ing"
+            "分词与逻辑主语：主动 -ing"
           ]
         },
         {
@@ -133,7 +133,7 @@
         },
         {
           "type": "p",
-          "text": "不定式作定语表示将要发生或有待完成的动作，如 The only way to conquer fear。the first one to be admitted 也属于这一类。"
+          "text": "不定式作定语表示将要发生或有待完成的动作，如 the only way to conquer fear，the first one to be admitted 也属于这一类。"
         },
         {
           "type": "p",
@@ -561,7 +561,7 @@
           ],
           "src": "2021 · 东莞市 · 高二下期末",
           "ans": "It is assumed that",
-          "why": "It is assumed that",
+          "why": "形式主语句 It is assumed that…",
           "group": "形式主语 it",
           "level": "必练"
         }
@@ -957,7 +957,7 @@
           ],
           "src": "2023 · 东莞市 · 高二下期末",
           "ans": "did / adjust",
-          "why": "答案有误，应为 adjust",
+          "why": "题库答案 discover 有误，应为 adjust",
           "group": "否定词句首",
           "level": "必练"
         },
@@ -1002,7 +1002,7 @@
         }
       ],
       "examples": [],
-      "keypoint": "状语从句表示地点、条件、时间等关系时，关键在连词：地点用 where，条件用 unless，时间用 before 等，按句意选连词。",
+      "keypoint": "状语从句表示地点、条件、时间等关系时，由连词决定：地点用 where，条件用 unless，时间用 before 等，按句意选连词。",
       "drill": [
         {
           "stem": "In the freshman year, it took Adam some time ___ he got everything ready for his further study.",
