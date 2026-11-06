@@ -88,6 +88,8 @@ REWRITE_RE = re.compile(r'同义|改写|合并|转换|用.*翻译|句型')
 # 143-16 Amazingly（句首副词，首字母大写）；107-19 brochures（For more 后用复数，解析一致）。核对后可从 待校对.tsv 移除，并删去此处。
 # 题号全库唯一，故为通用集合（不分册）。
 CHECKED_OK = {'087-10', '101-12', '143-16', '107-19'}
+# 题干有误、不用的题（2026-11-06：107-24 题干 tireless effect 应为 efforts，与提示「影响，结果」矛盾，改不成原题）
+EXCLUDE = {'107-24'}
 CN_HINT_RE = re.compile(r'[（(][^（）()]*[一-鿿][^（）()]*[）)]')
 
 TYPE_ORDER = ['语法填空', '完成句子', '单词拼写', '翻译', '单选', '其他']
@@ -343,6 +345,8 @@ def build_book(book, D):
         if q.get('解析') is None:
             return False
         if q['id'] in checked and q['id'] not in CHECKED_OK:
+            return False
+        if q['id'] in EXCLUDE:
             return False
         seg = (q.get('标签') or '').split(' · ')[-1]
         if hi:

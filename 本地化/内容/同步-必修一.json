@@ -2770,7 +2770,7 @@
       "unit_book": "必修第一册　Unit 4",
       "chips": {
         "year_range": "2019–2025",
-        "n_questions": 32,
+        "n_questions": 31,
         "n_kaofa": 5,
         "n_phrase": 3
       },
@@ -2817,24 +2817,6 @@
             "拼写"
           ],
           "题数": 3
-        },
-        {
-          "词头": "affect",
-          "forms": [
-            {
-              "form": "affected",
-              "n": 1
-            },
-            {
-              "form": "effect",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "动词形式",
-            "拼写"
-          ],
-          "题数": 2
         },
         {
           "词头": "breathe",
@@ -2915,6 +2897,19 @@
           "题数": 2
         },
         {
+          "词头": "affect",
+          "forms": [
+            {
+              "form": "affected",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
           "词头": "aid",
           "forms": [
             {
@@ -2958,19 +2953,6 @@
           "forms": [
             {
               "form": "drought",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "拼写"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "effect",
-          "forms": [
-            {
-              "form": "effect",
               "n": 1
             }
           ],
@@ -3100,7 +3082,7 @@
       "families": [
         {
           "词头": "affect",
-          "题数": 2,
+          "题数": 1,
           "chain": [
             {
               "词": "affect",
@@ -3148,77 +3130,12 @@
             }
           ],
           "gloss": ""
-        },
-        {
-          "词头": "effect",
-          "题数": 1,
-          "chain": [
-            {
-              "词": "effect",
-              "词性": "n.",
-              "释义": "影响",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "effective",
-              "词性": "adj.",
-              "释义": "有效的",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "ineffective",
-              "词性": "adj.",
-              "释义": "无效的",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "efficiently",
-              "词性": "",
-              "释义": "",
-              "hit": true,
-              "来源": "补入"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "003-17",
-              "no": 2,
-              "标签": "2018 · 虎门外国语学校 · 高二上期中",
-              "题型": "语法填空",
-              "题干": "Mike can manage everything ___ (effect).",
-              "题干HTML": "Mike can manage everything <span class=\"blank\"></span> (effect).",
-              "cue": [],
-              "提示词": "effect",
-              "答案": "efficiently",
-              "解析": "副词efficiently修饰动词manage。故填：efficiently。",
-              "句意": "迈克能高效地处理一切。",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
         }
       ],
       "spelling": [
         {
-          "id": "107-24",
-          "no": 3,
-          "标签": "2023 · 东莞第二高级中学 · 高一上月考",
-          "题型": "单词拼写",
-          "题干": "With strong support from the government and the tireless ___ (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "题干HTML": "With strong support from the government and the tireless <span class=\"blank\"></span> (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "cue": [],
-          "提示词": null,
-          "答案": "effect",
-          "解析": "考查名词。句意：在政府的大力支持和全市人民的不懈努力下，全市实现了快速发展。分析句子结构，空白处在句子中作宾语使用名词，根据汉语提示，表示“影响，结果”含义的名词为：effect，故填effect。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "084-10",
-          "no": 4,
+          "no": 2,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "It has to be maintained at an altitude where the thin air makes it a struggle for humans to ___ (呼吸).",
@@ -3232,7 +3149,7 @@
         },
         {
           "id": "084-09",
-          "no": 5,
+          "no": 3,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "In case of an air attack, low down and creep quickly to the nearest bomb ___ (避难所).",
@@ -3246,7 +3163,7 @@
         },
         {
           "id": "096-33",
-          "no": 6,
+          "no": 4,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Those who dare to try often get themselves ___ (被困住).",
@@ -3260,7 +3177,7 @@
         },
         {
           "id": "009-17",
-          "no": 7,
+          "no": 5,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "___ (精确的) measurement is required in scientific research.",
@@ -3281,7 +3198,7 @@
           "atoms": [
             {
               "id": "128-20",
-              "no": 8,
+              "no": 6,
               "标签": "2023 · 石竹实验学校 · 高一下月考",
               "题型": "完成句子",
               "题干": "It was being given ___ (急救)at the scene of the accident that probably made the man survive.",
@@ -3303,7 +3220,7 @@
           "atoms": [
             {
               "id": "148-25",
-              "no": 9,
+              "no": 7,
               "标签": "2025 · 翰林高级中学 · 高一下期中",
               "题型": "翻译",
               "题干": "我很荣幸地站在这里发表演讲。 → ___",
@@ -3327,7 +3244,7 @@
           "atoms": [
             {
               "id": "108-19",
-              "no": 10,
+              "no": 8,
               "标签": "2023 · 东莞高级中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "Fishermen, tourists, hotels, homes, and cars ___ (卷走，彻底消除) by huge waves caused by the strong earthquake that reached a magnitude of 9.0.",
@@ -3347,7 +3264,7 @@
       "quiz": [
         {
           "id": "031-12",
-          "no": 11,
+          "no": 9,
           "标签": "2025 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "The pizza you ordered online ___ (deliver) now, and it will be here soon.",
@@ -3361,7 +3278,7 @@
         },
         {
           "id": "086-21",
-          "no": 12,
+          "no": 10,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He ___ (遭受，蒙受) from poor eyesight and could no longer read properly.",
@@ -3375,7 +3292,7 @@
         },
         {
           "id": "154-15",
-          "no": 13,
+          "no": 11,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "Among all the shining points, the ___ (striking) feature of the landscape is the huge mountain in the distance.",
@@ -3389,7 +3306,7 @@
         },
         {
           "id": "087-21",
-          "no": 14,
+          "no": 12,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Universities should be about the acquisition(习得) of knowledge, ___ (智慧) and understanding.",
@@ -3403,7 +3320,7 @@
         },
         {
           "id": "083-21",
-          "no": 15,
+          "no": 13,
           "标签": "2022 · 东华松山湖高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "A man of great ___ (智慧) often appears slow.",
@@ -3417,7 +3334,7 @@
         },
         {
           "id": "063-12",
-          "no": 16,
+          "no": 14,
           "标签": "2023 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "Natural ___ (disaster) are events like earthquakes or floods that can be very dangerous.",
@@ -3430,7 +3347,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 16
+      "numbered_total": 14
     },
     {
       "序": 6,

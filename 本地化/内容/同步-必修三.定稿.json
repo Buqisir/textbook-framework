@@ -572,6 +572,34 @@
           "句意": "",
           "reason": "修饰 time，形容词",
           "answer_show": null
+        },
+        {
+          "id": "086-22",
+          "no": 12,
+          "标签": "2023 · 东华高级中学 · 高一下月考",
+          "题型": "单词拼写",
+          "题干": "The weather at the moment is not ___ (典型的) for July, for it hasn't rained for more than half a month.",
+          "题干HTML": "The weather at the moment is not <span class=\"blank\"></span> (典型的) for July, for it hasn't rained for more than half a month.",
+          "cue": [],
+          "提示词": null,
+          "答案": "typical",
+          "解析": "考查形容词。句意：现在的天气不是七月的典型天气，因为已经半个多月没下雨了。设空处在系动词后，应用形容词，“典型的”表达为typical，作表语。故填typical。",
+          "句意": "",
+          "reason": "系动词 is 后用形容词作表语"
+        },
+        {
+          "id": "098-31",
+          "no": 13,
+          "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
+          "题型": "单词拼写",
+          "题干": "Wilson was ___ (代表) in court by a top criminal lawyer.",
+          "题干HTML": "Wilson was <span class=\"blank\"></span> (代表) in court by a top criminal lawyer.",
+          "cue": [],
+          "提示词": null,
+          "答案": "represented",
+          "解析": "考查动词。句意：Wilson在法庭上由一位顶级刑事律师所代表。根据汉语提示可知，represent代表，动词，句子是一般过去时的被动语态，空处应填过去分词，故填represented。",
+          "句意": "",
+          "reason": "was 后用过去分词，构成被动语态"
         }
       ],
       "phrases": [],
@@ -583,7 +611,7 @@
           "atoms": [
             {
               "id": "050-33",
-              "no": 12,
+              "no": 14,
               "标签": "2023 · 东莞外国语学校 · 高一上月考",
               "题型": "翻译",
               "题干": "这是她第一次参加运动会。 → ___",
@@ -604,7 +632,7 @@
       "quiz": [
         {
           "id": "040-14",
-          "no": 13,
+          "no": 15,
           "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "So far, rich learning materials ___ (gather) for students on this educational platform.",
@@ -619,7 +647,7 @@
         },
         {
           "id": "043-07",
-          "no": 14,
+          "no": 16,
           "标签": "2026 · 翰林高级中学 · 高一月考",
           "题型": "语法填空",
           "题干": "At the temple fair, red ___ (lantern) hang everywhere, making the night bright and cheerful.",
@@ -634,7 +662,7 @@
         },
         {
           "id": "127-12",
-          "no": 15,
+          "no": 17,
           "标签": "2026 · 济川中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "People can take part in many interesting events, ___ (range) from dragon boat races to lantern riddles and group singing.",
@@ -649,7 +677,7 @@
         },
         {
           "id": "073-11",
-          "no": 16,
+          "no": 18,
           "标签": "2025 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "A young boy climbed into the apple tree and shook its ___ (branch) so that the fruit fell down.",
@@ -664,7 +692,7 @@
         },
         {
           "id": "020-13",
-          "no": 17,
+          "no": 19,
           "标签": "2022 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "During the Spring Festival, people will wander along the streets ___ (decorate) with red lanterns.",
@@ -679,7 +707,7 @@
         },
         {
           "id": "114-14",
-          "no": 18,
+          "no": 20,
           "标签": "2025 · 光正实验学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "The movie, ___ (feature) traditional Chinese culture, has been well received since it was put on.",
@@ -693,7 +721,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 18
+      "numbered_total": 20
     },
     {
       "序": 13,
@@ -1113,6 +1141,34 @@
           "句意": "我们必须立刻给山区学校委派一名新教师。",
           "reason": "情态动词 must 后用原形",
           "answer_show": null
+        },
+        {
+          "id": "106-13",
+          "no": 10,
+          "标签": "2023 · 东华高级中学 · 高一下期中",
+          "题型": "单词拼写",
+          "题干": "We should stick to the principles and be ___ （灵活的）as well.",
+          "题干HTML": "We should stick to the principles and be <span class=\"blank\"></span> （灵活的）as well.",
+          "cue": [],
+          "提示词": null,
+          "答案": "flexible",
+          "解析": "考查形容词。句意：我们既要坚持原则，又要灵活变通。“be”后跟形容词作表语，“灵活的”的形容词是flexible，故填flexible。",
+          "句意": "",
+          "reason": "be 后用形容词作表语"
+        },
+        {
+          "id": "016-07",
+          "no": 11,
+          "标签": "2020 · 东莞中学 · 高二上月考",
+          "题型": "单词拼写",
+          "题干": "The advice that the law needs amending was ___ (拒绝) by them.",
+          "题干HTML": "The advice that the law needs amending was <span class=\"blank\"></span> (拒绝) by them.",
+          "cue": [],
+          "提示词": null,
+          "答案": "rejected",
+          "解析": "advice与reject之间是动宾关系，要用一般过去时的被动语态。故填rejected。",
+          "句意": "法律需要修改的建议被他们拒绝了。",
+          "reason": "advice 与 reject 构成被动"
         }
       ],
       "phrases": [],
@@ -1124,7 +1180,7 @@
           "atoms": [
             {
               "id": "154-23",
-              "no": 10,
+              "no": 12,
               "标签": "2025 · 虎门外国语学校 · 高一下联考",
               "题型": "完成句子",
               "题干": "The generous man has donated large amounts of money to the charity organization → ___",
@@ -1145,7 +1201,7 @@
       "quiz": [
         {
           "id": "036-13",
-          "no": 11,
+          "no": 13,
           "标签": "2026 · 海逸外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "We all saw Mary ___ （complain） about the food at the party the other day.",
@@ -1160,7 +1216,7 @@
         },
         {
           "id": "131-09",
-          "no": 12,
+          "no": 14,
           "标签": "2026 · 石龙中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "Rare animals ___ (harm) if people keep destroying their living places.",
@@ -1175,7 +1231,7 @@
         },
         {
           "id": "073-18",
-          "no": 13,
+          "no": 15,
           "标签": "2025 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "His application ___ (reject) once again, which made him disappointed.",
@@ -1190,7 +1246,7 @@
         },
         {
           "id": "024-14",
-          "no": 14,
+          "no": 16,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "Having worked in the kindergarten for three ___ (decade), they retired.",
@@ -1204,7 +1260,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 14
+      "numbered_total": 16
     },
     {
       "序": 14,
@@ -1862,6 +1918,20 @@
           "句意": "",
           "reason": "be 后用形容词，lacking in",
           "answer_show": null
+        },
+        {
+          "id": "016-15",
+          "no": 7,
+          "标签": "2020 · 东莞中学 · 高二上月考",
+          "题型": "单词拼写",
+          "题干": "The child seems to be ___ (缺乏) in intelligence.",
+          "题干HTML": "The child seems to be <span class=\"blank\"></span> (缺乏) in intelligence.",
+          "cue": [],
+          "提示词": null,
+          "答案": "lacking",
+          "解析": "be lacking in缺少……；缺乏……，是固定搭配。故填lacking。",
+          "句意": "这孩子似乎智力低下。",
+          "reason": "be lacking in 为固定搭配"
         }
       ],
       "phrases": [],
@@ -1869,7 +1939,7 @@
       "quiz": [
         {
           "id": "067-16",
-          "no": 7,
+          "no": 8,
           "标签": "2025 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "___ (launch) this new project, the company has conducted many surveys.",
@@ -1884,7 +1954,7 @@
         },
         {
           "id": "059-08",
-          "no": 8,
+          "no": 9,
           "标签": "2023 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "At present, schools in Dongguan are equipped with many advanced teaching ___ (facility).",
@@ -1899,7 +1969,7 @@
         },
         {
           "id": "047-11",
-          "no": 9,
+          "no": 10,
           "标签": "2022 · 东莞外国语学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "There have been a couple of young men and women ___ (argue) in the street.",
@@ -1915,7 +1985,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 9
+      "numbered_total": 10
     },
     {
       "序": 16,

@@ -416,14 +416,14 @@
       "unit_book": "必修第二册　Unit 2",
       "chips": {
         "year_range": "2019–2025",
-        "n_questions": 21,
+        "n_questions": 20,
         "n_kaofa": 5,
         "n_phrase": 3
       },
       "h2": "Wildlife Protection",
       "zh": "野生动物保护",
       "stats": {
-        "卷数": 16,
+        "卷数": 15,
         "词数": 74,
         "短语数": 85,
         "句式题数": 0
@@ -492,19 +492,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "effective",
-          "forms": [
-            {
-              "form": "effect",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "拼写"
           ],
           "题数": 1
         },
@@ -654,22 +641,7 @@
         }
       ],
       "families": [],
-      "spelling": [
-        {
-          "id": "107-24",
-          "no": 1,
-          "标签": "2023 · 东莞第二高级中学 · 高一上月考",
-          "题型": "单词拼写",
-          "题干": "With strong support from the government and the tireless ___ (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "题干HTML": "With strong support from the government and the tireless <span class=\"blank\"></span> (影响，结果) of the city’s people, the city has achieved rapid development.",
-          "cue": [],
-          "提示词": null,
-          "答案": "effect",
-          "解析": "考查名词。句意：在政府的大力支持和全市人民的不懈努力下，全市实现了快速发展。分析句子结构，空白处在句子中作宾语使用名词，根据汉语提示，表示“影响，结果”含义的名词为：effect，故填effect。",
-          "句意": "",
-          "reason": ""
-        }
-      ],
+      "spelling": [],
       "phrases": [
         {
           "短语": "make great/much progress",
@@ -678,7 +650,7 @@
           "atoms": [
             {
               "id": "086-23",
-              "no": 2,
+              "no": 1,
               "标签": "2023 · 东华高级中学 · 高一下月考",
               "题型": "完成句子",
               "题干": "The medical community continues to ___ (取得进步) in the fight against cancer.",
@@ -692,7 +664,7 @@
             },
             {
               "id": "054-25",
-              "no": 3,
+              "no": 2,
               "标签": "2022 · 东莞实验中学 · 高一上月考",
               "题型": "翻译",
               "题干": "只有努力学习，你才能在英语上取得大的进步。 → ___",
@@ -716,7 +688,7 @@
           "atoms": [
             {
               "id": "143-26",
-              "no": 4,
+              "no": 3,
               "标签": "2024 · 东莞第四高级中学 · 高一上期中",
               "题型": "翻译",
               "题干": "一旦养成了坏习惯，你就不容易改掉它。 → ___",
@@ -736,7 +708,7 @@
       "quiz": [
         {
           "id": "149-14",
-          "no": 5,
+          "no": 4,
           "标签": "2025 · 翰林高级中学 · 高一上期末",
           "题型": "语法填空",
           "题干": "The school ___ (authority) are launching a program aimed at educating students on how to use the Internet safely and avoid suspicious websites.",
@@ -750,7 +722,7 @@
         },
         {
           "id": "015-10",
-          "no": 6,
+          "no": 5,
           "标签": "2020 · 虎门外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "Water ___ (exist) in three forms, which are liquid, gas and solid.",
@@ -764,7 +736,7 @@
         },
         {
           "id": "005-09",
-          "no": 7,
+          "no": 6,
           "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "The classroom ___ (measure) 30 feet long and 20 feet wide.",
@@ -778,7 +750,7 @@
         },
         {
           "id": "154-14",
-          "no": 8,
+          "no": 7,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "It is not the first time that the shy boy ___ (make) fun of in public.",
@@ -792,7 +764,7 @@
         },
         {
           "id": "024-10",
-          "no": 9,
+          "no": 8,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "Last night, there were millions of people ___ (watch) the opening ceremony live on TV.",
@@ -806,7 +778,7 @@
         },
         {
           "id": "048-12",
-          "no": 10,
+          "no": 9,
           "标签": "2023 · 东莞外国语学校 · 高一下月考",
           "题型": "语法填空",
           "题干": "Big progress in art ___ (make) by him in recent years.",
@@ -820,7 +792,7 @@
         },
         {
           "id": "132-09",
-          "no": 11,
+          "no": 10,
           "标签": "2023 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "___ (make) notes while listening can help you remember a story better.",
@@ -834,7 +806,7 @@
         },
         {
           "id": "062-14",
-          "no": 12,
+          "no": 11,
           "标签": "2022 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "In the past few years, China ___ (make) rapid progress in high-tech industries.",
@@ -847,7 +819,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 12
+      "numbered_total": 11
     },
     {
       "序": 9,
