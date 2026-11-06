@@ -276,6 +276,26 @@
           "level": "必练"
         },
         {
+          "stem": "I believe I will make new friends here, and there’s a lot ___ (explore) at senior high school.",
+          "cue": [],
+          "src": "2025 · 嘉荣外国语学校 · 高一上月考",
+          "ans": "to explore",
+          "why": "不定式作后置定语，修饰 a lot",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "医生建议Lucy做锻炼以保持身体健康。",
+          "cue": [
+            "用 recommend 翻译"
+          ],
+          "src": "2025 · 嘉荣外国语学校 · 高一上月考",
+          "ans": "The doctor recommended Lucy to take exercise to stay healthy.",
+          "why": "to stay healthy 作目的状语",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
           "stem": "我喜欢做运动而不喜欢在家待着。",
           "cue": [],
           "src": "2024 · 麻涌中学 · 高一上月考",
@@ -323,6 +343,51 @@
           "level": "必练"
         },
         {
+          "stem": "In the middle of the crowded city, she suddenly found herself ___ (leave) alone, feeling small and out of place.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一上月考",
+          "ans": "left",
+          "why": "found 之后宾补与宾语是被动，用过去分词。",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (掌控) your life doesn’t mean you control everything that happens.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一上联考",
+          "ans": "Taking control of",
+          "why": "动名词短语作主语，谓语单数",
+          "group": "作主语",
+          "level": "必练"
+        },
+        {
+          "stem": "For a freshman, there’s a lot to e ___ (探索) at senior high.",
+          "cue": [],
+          "src": "2024 · 东莞市 · 高一上月考",
+          "ans": "explore",
+          "why": "to 后接动词原形，题干给首字母",
+          "group": "作定语",
+          "level": "必练"
+        },
+        {
+          "stem": "With his attention ___ (focus) on the computer game, he didn’t notice that I called him.",
+          "cue": [],
+          "src": "2024 · 麻涌中学 · 高一上月考",
+          "ans": "focused",
+          "why": "with 复合结构，用过去分词",
+          "group": "作状语",
+          "level": "必练"
+        },
+        {
+          "stem": "When I was fourteen, I was so anxious ___ (see) more art that a friend of mine and I bicycled across the Alps to see Venice.",
+          "cue": [],
+          "src": "2024 · 东莞高级中学 · 高一上月考",
+          "ans": "to see",
+          "why": "be anxious to do 表示「渴望做」",
+          "group": "作表语",
+          "level": "必练"
+        },
+        {
           "stem": "Something about the song made me feel powerful, and I even started to daydream about ___ (报名) the concert and finally getting the chance to surprise everyone with my secret.",
           "cue": [],
           "src": "2023 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
@@ -341,6 +406,26 @@
           "level": "必练"
         },
         {
+          "stem": "What is important for keeping healthy is being happy.",
+          "cue": [
+            "用V-ing 作主语改写"
+          ],
+          "src": "2023 · 石竹实验学校 · 高一上月考",
+          "ans": "Being happy is important for keeping healthy.",
+          "why": "句首 Being happy 作主语，谓语用单数。",
+          "group": "作主语",
+          "level": "必练"
+        },
+        {
+          "stem": "The goal of the organization is ___ (design) more practical tools for people’s daily use.",
+          "cue": [],
+          "src": "2023 · 翰林高级中学 · 高一月考",
+          "ans": "to design",
+          "why": "不定式作表语，表示目的",
+          "group": "作表语",
+          "level": "必练"
+        },
+        {
           "stem": "The girl pretended ___ (revise) her lessons when her mother came in.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
@@ -356,6 +441,26 @@
           "ans": "explore",
           "why": "need to do 中的 to 后接动词原形",
           "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "After he got off the bus, he found that his wallet was stolen.\nAfter getting off the bus, he found ___.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2022 · 东莞实验中学 · 高一上月考",
+          "ans": "After getting off the bus, he found his wallet stolen.",
+          "why": "that 从句的被动可改成「宾语 + 过去分词」。",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
+          "stem": "___ (compare) with other athletes, he is much more graceful.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
+          "ans": "Compared",
+          "why": "分词作状语，与主语是被动关系",
+          "group": "作状语",
           "level": "必练"
         },
         {
@@ -433,100 +538,6 @@
           "why": "look forward to 的 to 是介词，接 doing。",
           "group": "作宾语与搭配",
           "level": "选练"
-        },
-        {
-          "stem": "In the middle of the crowded city, she suddenly found herself ___ (leave) alone, feeling small and out of place.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高一上月考",
-          "ans": "left",
-          "why": "found 之后宾补与宾语是被动，用过去分词。",
-          "group": "作宾补",
-          "level": "必练"
-        },
-        {
-          "stem": "After he got off the bus, he found that his wallet was stolen.\nAfter getting off the bus, he found ___.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2022 · 东莞实验中学 · 高一上月考",
-          "ans": "After getting off the bus, he found his wallet stolen.",
-          "why": "that 从句的被动可改成「宾语 + 过去分词」。",
-          "group": "作宾补",
-          "level": "必练"
-        },
-        {
-          "stem": "___ (掌控) your life doesn’t mean you control everything that happens.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高一上联考",
-          "ans": "Taking control of",
-          "why": "动名词短语作主语，谓语单数",
-          "group": "作主语",
-          "level": "必练"
-        },
-        {
-          "stem": "What is important for keeping healthy is being happy.",
-          "cue": [
-            "用V-ing 作主语改写"
-          ],
-          "src": "2023 · 石竹实验学校 · 高一上月考",
-          "ans": "Being happy is important for keeping healthy.",
-          "why": "句首 Being happy 作主语，谓语用单数。",
-          "group": "作主语",
-          "level": "必练"
-        },
-        {
-          "stem": "I believe I will make new friends here, and there’s a lot ___ (explore) at senior high school.",
-          "cue": [],
-          "src": "2025 · 嘉荣外国语学校 · 高一上月考",
-          "ans": "to explore",
-          "why": "不定式作后置定语，修饰 a lot",
-          "group": "作定语",
-          "level": "必练"
-        },
-        {
-          "stem": "For a freshman, there’s a lot to e ___ (探索) at senior high.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高一上月考",
-          "ans": "explore",
-          "why": "to 后接动词原形，题干给首字母",
-          "group": "作定语",
-          "level": "必练"
-        },
-        {
-          "stem": "With his attention ___ (focus) on the computer game, he didn’t notice that I called him.",
-          "cue": [],
-          "src": "2024 · 麻涌中学 · 高一上月考",
-          "ans": "focused",
-          "why": "with 复合结构，用过去分词",
-          "group": "作状语",
-          "level": "必练"
-        },
-        {
-          "stem": "___ (compare) with other athletes, he is much more graceful.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
-          "ans": "Compared",
-          "why": "分词作状语，与主语是被动关系",
-          "group": "作状语",
-          "level": "必练"
-        },
-        {
-          "stem": "When I was fourteen, I was so anxious ___ (see) more art that a friend of mine and I bicycled across the Alps to see Venice.",
-          "cue": [],
-          "src": "2024 · 东莞高级中学 · 高一上月考",
-          "ans": "to see",
-          "why": "be anxious to do 表示「渴望做」",
-          "group": "作表语",
-          "level": "必练"
-        },
-        {
-          "stem": "The goal of the organization is ___ (design) more practical tools for people’s daily use.",
-          "cue": [],
-          "src": "2023 · 翰林高级中学 · 高一月考",
-          "ans": "to design",
-          "why": "不定式作表语，表示目的",
-          "group": "作表语",
-          "level": "必练"
         }
       ]
     },
@@ -661,24 +672,6 @@
           "level": "必练"
         },
         {
-          "stem": "The young woman found ___ difficult to learn a second language at university.",
-          "cue": [],
-          "src": "2023 · 翰林高级中学 · 高一月考",
-          "ans": "it",
-          "why": "find it + 形容词 + to do。",
-          "group": "形式宾语",
-          "level": "必练"
-        },
-        {
-          "stem": "The injury in her leg makes ___ impossible for her to return to track and field.",
-          "cue": [],
-          "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
-          "ans": "it",
-          "why": "make it + 形容词 + for sb. to do。",
-          "group": "形式宾语",
-          "level": "必练"
-        },
-        {
           "stem": "Obviously, some old traditions and values are no longer treasured by the young people.\n___ that some old traditions and values are no longer treasured by the young people.",
           "cue": [
             "同义句转换"
@@ -687,6 +680,15 @@
           "ans": "It is obvious that",
           "why": "It is adj. that 句型",
           "group": "形式主语",
+          "level": "必练"
+        },
+        {
+          "stem": "The young woman found ___ difficult to learn a second language at university.",
+          "cue": [],
+          "src": "2023 · 翰林高级中学 · 高一月考",
+          "ans": "it",
+          "why": "find it + 形容词 + to do。",
+          "group": "形式宾语",
           "level": "必练"
         },
         {
@@ -707,6 +709,15 @@
           "ans": "It",
           "why": "It is obvious that 句型，it 作形式主语。",
           "group": "形式主语",
+          "level": "必练"
+        },
+        {
+          "stem": "The injury in her leg makes ___ impossible for her to return to track and field.",
+          "cue": [],
+          "src": "2022 · 东莞中学松山湖学校 · 高一上月考",
+          "ans": "it",
+          "why": "make it + 形容词 + for sb. to do。",
+          "group": "形式宾语",
           "level": "必练"
         },
         {
@@ -797,13 +808,13 @@
       ],
       "drill": [
         {
-          "stem": "People recommend that we should get enough sleep to ensure our health.\n= ___ we should get enough sleep to ensure our health.",
+          "stem": "People recommend that we should get enough sleep to ensure our health.\n___ we should get enough sleep to ensure our health.",
           "cue": [
             "同义转换"
           ],
           "src": "2024 · 麻涌中学 · 高一上月考",
-          "ans": "It was recommended that",
-          "why": "被动式 It be + p.p. + that",
+          "ans": "It is recommended that",
+          "why": "It be + p.p. + that；原句一般现在时，用 is",
           "group": "recommend 型",
           "level": "必练"
         },
@@ -833,6 +844,26 @@
           "src": "2024 · 东莞市 · 高一上月考",
           "ans": "(should) be bought",
           "why": "主语是物，从句用被动",
+          "group": "recommend 型",
+          "level": "必练"
+        },
+        {
+          "stem": "What would happen if we didn’t get there on time?\n___ we didn’t get there on time?",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2024 · 东莞高级中学 · 高一上月考",
+          "ans": "What if",
+          "why": "改写成 What if，从句时态不变",
+          "group": "What if 型",
+          "level": "必练"
+        },
+        {
+          "stem": "很抱歉听到你觉得学数学很难，所以我建议你该集中你精力在课程上。\nI’m sorry to hear that you find it hard to learn maths well, so I recommended that you should ___ your lesson.",
+          "cue": [],
+          "src": "2024 · 光正实验学校 · 高一上月考",
+          "ans": "concentrate/focus your energy on",
+          "why": "recommend 后从句用 should 原形",
           "group": "recommend 型",
           "level": "必练"
         },
@@ -867,17 +898,6 @@
           "ans": "The teacher recommends that we (should) spend an hour on English study.",
           "why": "recommend 后宾语从句用 (should) 原形",
           "group": "recommend 型",
-          "level": "必练"
-        },
-        {
-          "stem": "What would happen if we didn’t get there on time?\n___ we didn’t get there on time?",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 东莞高级中学 · 高一上月考",
-          "ans": "What if",
-          "why": "改写成 What if，从句时态不变",
-          "group": "What if 型",
           "level": "必练"
         }
       ]
@@ -1007,7 +1027,7 @@
         },
         {
           "type": "p",
-          "text": "判断：去掉 It is/was 和 that，句子仍然完整，就是强调句。原句里有 yesterday、in 2016 这样的时间或地点词，多半是被强调的对象。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
+          "text": "判断：去掉 It is/was 和 that，句子仍然完整，就是强调句。被强调的是人、并且作主语时，that 和 who 都可以；其余都用 that。"
         },
         {
           "type": "pattern",

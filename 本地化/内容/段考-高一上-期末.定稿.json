@@ -315,38 +315,11 @@
      "level": "必练"
     },
     {
-     "stem": "___ (当谈及) speaking in public, no one can match him.",
-     "cue": [],
-     "src": "2021 · 东华高级中学 · 高一上期末",
-     "ans": "When it comes to",
-     "why": "固定句型，to 为介词",
-     "group": "介词后动名词",
-     "level": "必练"
-    },
-    {
-     "stem": "My sister is fond of ___ (volunteer) in her spare time.",
-     "cue": [],
-     "src": "2019 · 东莞市 · 高一上期末",
-     "ans": "volunteering",
-     "why": "介词 of 后接动名词",
-     "group": "介词后动名词",
-     "level": "必练"
-    },
-    {
      "stem": "It is no good pretending ___ (understand) what teachers say in class.",
      "cue": [],
      "src": "2025 · 东莞市 · 高一上期末",
      "ans": "to understand",
      "why": "pretend to do sth. 假装做某事",
-     "group": "不定式作宾语",
-     "level": "必练"
-    },
-    {
-     "stem": "The child pretended ___ (be) a doctor, giving his teddy bear a check-up.",
-     "cue": [],
-     "src": "2024 · 东莞市 · 高一上期末",
-     "ans": "to be",
-     "why": "pretend to do 假装做某事",
      "group": "不定式作宾语",
      "level": "必练"
     },
@@ -360,6 +333,42 @@
      "level": "必练"
     },
     {
+     "stem": "These materials are quite expensive ___ (transport) by plane.",
+     "cue": [],
+     "src": "2025 · 翰林高级中学 · 高一上期末",
+     "ans": "to transport",
+     "why": "be expensive to do 结构",
+     "group": "不定式作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (prevent) the habitats of the wild animals from being damaged is very important for wildlife protection.",
+     "cue": [],
+     "src": "2025 · 东莞市 · 高一上期末",
+     "ans": "Preventing / To prevent",
+     "why": "动名词与不定式都可作主语",
+     "group": "作主语的形式",
+     "level": "必练"
+    },
+    {
+     "stem": "I have made up my mind to study harder and ___ (做贡献) our country ‘s development in the future.",
+     "cue": [],
+     "src": "2025 · 翰林高级中学 · 高一上期末",
+     "ans": "make contributions to",
+     "why": "与前面的 study 并列，用原形",
+     "group": "并列不定式",
+     "level": "必练"
+    },
+    {
+     "stem": "The child pretended ___ (be) a doctor, giving his teddy bear a check-up.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高一上期末",
+     "ans": "to be",
+     "why": "pretend to do 假装做某事",
+     "group": "不定式作宾语",
+     "level": "必练"
+    },
+    {
      "stem": "Fred decided to settle in Beijing because he was strongly attracted to its culture.\nStrongly ___ its culture, Fred decided to settle in Beijing.",
      "cue": [
       "用分词改写"
@@ -367,26 +376,6 @@
      "src": "2022 · 东莞市 · 高一上期末",
      "ans": "attracted to",
      "why": "attract 与 Fred 是被动关系",
-     "group": "分词作状语",
-     "level": "必练"
-    },
-    {
-     "stem": "The case shocked the public, which caused a hot debate over human nature on the Internet.\nThe case shocked the public, ___ hot debate over human nature on the Internet.",
-     "cue": [
-      "非谓语改写"
-     ],
-     "src": "2021 · 东华高级中学 · 高一上期末",
-     "ans": "causing",
-     "why": "which 从句改为现在分词作状语",
-     "group": "分词作状语",
-     "level": "必练"
-    },
-    {
-     "stem": "___ (affect) by his uncle, Li Lei is determined to join the army.",
-     "cue": [],
-     "src": "2019 · 东莞市 · 高一上期末",
-     "ans": "Affected",
-     "why": "affect 与逻辑主语是被动关系",
      "group": "分词作状语",
      "level": "必练"
     },
@@ -411,15 +400,6 @@
      "level": "必练"
     },
     {
-     "stem": "These materials are quite expensive ___ (transport) by plane.",
-     "cue": [],
-     "src": "2025 · 翰林高级中学 · 高一上期末",
-     "ans": "to transport",
-     "why": "be expensive to do 结构",
-     "group": "不定式作状语",
-     "level": "必练"
-    },
-    {
      "stem": "They read the newspapers every day to ___ (掌握……的最新消息) current events.",
      "cue": [],
      "src": "2022 · 东华高级中学 · 高一上期末",
@@ -440,6 +420,44 @@
      "level": "必练"
     },
     {
+     "stem": "___ (当谈及) speaking in public, no one can match him.",
+     "cue": [],
+     "src": "2021 · 东华高级中学 · 高一上期末",
+     "ans": "When it comes to",
+     "why": "固定句型，to 为介词",
+     "group": "介词后动名词",
+     "level": "必练"
+    },
+    {
+     "stem": "The case shocked the public, which caused a hot debate over human nature on the Internet.\nThe case shocked the public, ___ hot debate over human nature on the Internet.",
+     "cue": [
+      "非谓语改写"
+     ],
+     "src": "2021 · 东华高级中学 · 高一上期末",
+     "ans": "causing",
+     "why": "which 从句改为现在分词作状语",
+     "group": "分词作状语",
+     "level": "必练"
+    },
+    {
+     "stem": "My sister is fond of ___ (volunteer) in her spare time.",
+     "cue": [],
+     "src": "2019 · 东莞市 · 高一上期末",
+     "ans": "volunteering",
+     "why": "介词 of 后接动名词",
+     "group": "介词后动名词",
+     "level": "必练"
+    },
+    {
+     "stem": "___ (affect) by his uncle, Li Lei is determined to join the army.",
+     "cue": [],
+     "src": "2019 · 东莞市 · 高一上期末",
+     "ans": "Affected",
+     "why": "affect 与逻辑主语是被动关系",
+     "group": "分词作状语",
+     "level": "必练"
+    },
+    {
      "stem": "My mum said to me, \"Keep your room clean.\"\nMy mum ___ me ___ room clean.",
      "cue": [
       "改为间接引语"
@@ -448,24 +466,6 @@
      "ans": "told / to keep my",
      "why": "tell sb. to do，ask 也可以",
      "group": "宾语补足语",
-     "level": "必练"
-    },
-    {
-     "stem": "___ (prevent) the habitats of the wild animals from being damaged is very important for wildlife protection.",
-     "cue": [],
-     "src": "2025 · 东莞市 · 高一上期末",
-     "ans": "Preventing / To prevent",
-     "why": "动名词与不定式都可作主语",
-     "group": "作主语的形式",
-     "level": "必练"
-    },
-    {
-     "stem": "I have made up my mind to study harder and ___ (做贡献) our country ‘s development in the future.",
-     "cue": [],
-     "src": "2025 · 翰林高级中学 · 高一上期末",
-     "ans": "make contributions to",
-     "why": "与前面的 study 并列，用原形",
-     "group": "并列不定式",
      "level": "必练"
     }
    ]
@@ -633,6 +633,24 @@
    "keypoint": "关系词由先行词和从句成分共同决定。先行词指人还是指物，关系词在从句里作主语、宾语、所属定语，还是地点或时间状语。非限制性定语从句前有逗号，不用 that。",
    "drill": [
     {
+     "stem": "I will always be grateful to my best friend, to ___ I can turn for help at any time.",
+     "cue": [],
+     "src": "2025 · 翰林高级中学 · 高一上期末",
+     "ans": "whom",
+     "why": "to 之后指人用 whom",
+     "group": "介词+关系代词",
+     "level": "必练"
+    },
+    {
+     "stem": "Zheng Qinwen is the first woman ___ won the women’s singles champion in tennis.",
+     "cue": [],
+     "src": "2024 · 东莞市 · 高一上期末",
+     "ans": "that",
+     "why": "先行词为人，关系词作主语",
+     "group": "that 与 which 作主语",
+     "level": "必练"
+    },
+    {
      "stem": "The place ___ I found the documents about the cultural relics from overseas yesterday is under the desk.",
      "cue": [],
      "src": "2022 · 东华高级中学 · 高一上期末",
@@ -660,30 +678,12 @@
      "level": "必练"
     },
     {
-     "stem": "Zheng Qinwen is the first woman ___ won the women’s singles champion in tennis.",
-     "cue": [],
-     "src": "2024 · 东莞市 · 高一上期末",
-     "ans": "that",
-     "why": "先行词为人，关系词作主语",
-     "group": "that 与 which 作主语",
-     "level": "必练"
-    },
-    {
      "stem": "A terrible flood hit a northern city in China, ___ caused great damage to local people.",
      "cue": [],
      "src": "2021 · 东莞市 · 高一上期末",
      "ans": "which",
      "why": "非限制，指前面整句内容",
      "group": "that 与 which 作主语",
-     "level": "必练"
-    },
-    {
-     "stem": "I will always be grateful to my best friend, to ___ I can turn for help at any time.",
-     "cue": [],
-     "src": "2025 · 翰林高级中学 · 高一上期末",
-     "ans": "whom",
-     "why": "to 之后指人用 whom",
-     "group": "介词+关系代词",
      "level": "必练"
     },
     {
@@ -730,8 +730,8 @@
     {
      "type": "gloss",
      "lines": [
-      "宾语是 that 从句",
-      "it 仍放在宾补位置"
+      "真宾语是 that 从句",
+      "it 作形式宾语"
      ]
     },
     {
@@ -751,7 +751,7 @@
     },
     {
      "type": "p",
-     "text": "It takes / took sb. 时间 to do sth. 中，it 作形式主语，动词不定式是真正的主语。to 后接动词原形，如 adapt to、adjust to。"
+     "text": "It takes / took sb. 时间 to do sth. 中，it 作形式主语，动词不定式是真正的主语，to 后接动词原形。adapt to、adjust to 中的 to 是介词，后接名词或 doing。"
     }
    ],
    "examples": [
@@ -815,6 +815,24 @@
      "level": "必练"
     },
     {
+     "stem": "Coach Miller makes ___ a rule that all players must wear their team shirts during practice.",
+     "cue": [],
+     "src": "2023 · 东莞市 · 高一上期末",
+     "ans": "it",
+     "why": "make it a rule that 结构",
+     "group": "it 接 that 从句",
+     "level": "必练"
+    },
+    {
+     "stem": "It takes some time to ___ (适应) a new environment.",
+     "cue": [],
+     "src": "2022 · 东莞市 · 高一上期末",
+     "ans": "adapt to / adjust to",
+     "why": "adapt to、adjust to 的 to 是介词，后接名词或 doing",
+     "group": "It takes 型",
+     "level": "必练"
+    },
+    {
      "stem": "People find that it is convenient for us to pay a bill with mobile payment.\nPeople ___ for us to pay a bill with mobile payment.",
      "cue": [
       "同义句转换"
@@ -823,24 +841,6 @@
      "ans": "find it convenient",
      "why": "find it 加形容词加 for sb. to do",
      "group": "find it 型",
-     "level": "必练"
-    },
-    {
-     "stem": "As a foreign student, Tom found ___ difficult to write in Chinese.",
-     "cue": [],
-     "src": "2019 · 东莞市 · 高一上期末",
-     "ans": "it",
-     "why": "find 后接宾语和宾补，宾语用 it",
-     "group": "find it 型",
-     "level": "必练"
-    },
-    {
-     "stem": "Coach Miller makes ___ a rule that all players must wear their team shirts during practice.",
-     "cue": [],
-     "src": "2023 · 东莞市 · 高一上期末",
-     "ans": "it",
-     "why": "make it a rule that 结构",
-     "group": "it 接 that 从句",
      "level": "必练"
     },
     {
@@ -853,12 +853,12 @@
      "level": "必练"
     },
     {
-     "stem": "It takes some time to ___ (适应) a new environment.",
+     "stem": "As a foreign student, Tom found ___ difficult to write in Chinese.",
      "cue": [],
-     "src": "2022 · 东莞市 · 高一上期末",
-     "ans": "adapt to / adjust to",
-     "why": "to 后接动词原形",
-     "group": "It takes 型",
+     "src": "2019 · 东莞市 · 高一上期末",
+     "ans": "it",
+     "why": "find 后接宾语和宾补，宾语用 it",
+     "group": "find it 型",
      "level": "必练"
     }
    ]
@@ -955,7 +955,7 @@
      "level": "必练"
     },
     {
-     "stem": "就是在母亲的鼓励之下, 我成功了。\n___ with the encouragement of my mother ___ I succeeded.",
+     "stem": "就是在母亲的鼓励之下，我成功了。\n___ with the encouragement of my mother ___ I succeeded.",
      "cue": [
       "强调句结构"
      ],
@@ -1061,6 +1061,17 @@
    "keypoint": "句首是 not only、only 加状语时，主句要部分倒装，把助动词或情态动词放到主语前。翻译“只有……才……”时用这一结构。",
    "drill": [
     {
+     "stem": "只有当我们真正理解自己的文化，我们才能自豪地将其分享给世界。",
+     "cue": [
+      "用Only开头的倒装句翻译"
+     ],
+     "src": "2025 · 东莞市 · 高一上期末",
+     "ans": "Only when we truly/really understand our own culture can we proudly share it with the world.",
+     "why": "only when 从句，主句 can 提前",
+     "group": "only 型",
+     "level": "必练"
+    },
+    {
      "stem": "Doing housework not only exercises the body but also develops a sense of responsibility.",
      "cue": [
       "用倒装句改写"
@@ -1080,17 +1091,6 @@
      "ans": "Not only does exercise improve our health, but (also) it can reduce/ease our pressure./Not only does doing sports keep us healthy, but (also) it can relieve our stress.",
      "why": "Not only 句首，助动词 does 提前",
      "group": "not only 型",
-     "level": "必练"
-    },
-    {
-     "stem": "只有当我们真正理解自己的文化，我们才能自豪地将其分享给世界。",
-     "cue": [
-      "用Only开头的倒装句翻译"
-     ],
-     "src": "2025 · 东莞市 · 高一上期末",
-     "ans": "Only when we truly/really understand our own culture can we proudly share it with the world.",
-     "why": "only when 从句，主句 can 提前",
-     "group": "only 型",
      "level": "必练"
     },
     {

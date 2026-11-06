@@ -197,6 +197,15 @@
      "level": "必练"
     },
     {
+     "stem": "Our vicar is always raising money for one cause or another, but he has never ___ (设法) to get enough money to have the church clock repaired.",
+     "cue": [],
+     "src": "2023 · 东莞第二高级中学 · 高一上月考",
+     "ans": "managed",
+     "why": "manage to do，不定式作宾语",
+     "group": "不定式作宾语",
+     "level": "必练"
+    },
+    {
      "stem": "It is believed that drinking a glass of milk before going to bed is beneficial to your sleep.\nIt is believed that drinking a glass of milk before going to bed ___ to your sleep.",
      "cue": [
       "同义句转换"
@@ -342,21 +351,21 @@
      "level": "必练"
     },
     {
-     "stem": "I would appreciate ___ if you could let me know in advance whether you will come or not.",
-     "cue": [],
-     "src": "2022 · 东莞实验中学 · 高一上月考",
-     "ans": "it",
-     "why": "appreciate it if 固定句型",
-     "group": "形式宾语 it",
-     "level": "必练"
-    },
-    {
      "stem": "___ (据报道) that the police are looking into the case of the two missing children.",
      "cue": [],
      "src": "2023 · 东华高级中学 · 高一上月考",
      "ans": "It is reported",
      "why": "据报道的固定句型",
      "group": "形式主语 it",
+     "level": "必练"
+    },
+    {
+     "stem": "I would appreciate ___ if you could let me know in advance whether you will come or not.",
+     "cue": [],
+     "src": "2022 · 东莞实验中学 · 高一上月考",
+     "ans": "it",
+     "why": "appreciate it if 固定句型",
+     "group": "形式宾语 it",
      "level": "必练"
     }
    ]
