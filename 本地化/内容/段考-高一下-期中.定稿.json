@@ -413,7 +413,7 @@
           "level": "必练"
         },
         {
-          "stem": "___ (publish) their researches in journals, scientists have to work hard and even without financial reward.",
+          "stem": "___ (publish) their researches in journals, scientists have to work hard, even without financial reward.",
           "cue": [],
           "src": "2023 · 东莞外国语学校 · 高一下期中",
           "ans": "To publish",
@@ -603,12 +603,12 @@
           "level": "必练"
         },
         {
-          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features as the unique and beautiful scenery.",
+          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features the unique and beautiful scenery.",
           "cue": [
             "用过去分词作状语改写"
           ],
           "src": "2026 · 东莞第十二高级中学 · 高一下期中",
-          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery",
+          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features the unique and beautiful scenery",
           "why": "park 被位于，改分词作状语",
           "group": "作状语",
           "level": "选练"
@@ -652,7 +652,7 @@
           "level": "选练"
         },
         {
-          "stem": "To arrive our destination we need to travel a narrow valley, with a stream ___ (flow) through it.",
+          "stem": "To arrive at our destination we need to travel through a narrow valley, with a stream ___ (flow) through it.",
           "cue": [],
           "src": "2023 · 东莞外国语学校 · 高一下期中",
           "ans": "flowing",
@@ -1060,7 +1060,7 @@
           "level": "必练"
         },
         {
-          "stem": "Online shopping make ___ much easier for the public to spend more on gifts for their loved ones.",
+          "stem": "Online shopping makes ___ much easier for the public to spend more on gifts for their loved ones.",
           "cue": [],
           "src": "2023 · 东华高级中学 · 高一下期中",
           "ans": "it",
@@ -1183,24 +1183,6 @@
         }
       ],
       "examples": [
-        {
-          "group": "原因",
-          "gloss": [
-            "now that 引导",
-            "表示既然"
-          ],
-          "stem": {
-            "text": "___ (既然) we are all part of the global village, everyone becomes a neighbour.",
-            "cue": [],
-            "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中"
-          },
-          "ju": "既然我们都是地球村的一员，每个人就都成了邻居。",
-          "mid": {
-            "label": "判断",
-            "text": "now that 表示“既然”，引导原因状语从句。"
-          },
-          "ans": "Now that"
-        },
         {
           "group": "条件",
           "gloss": [

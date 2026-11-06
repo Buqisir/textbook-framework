@@ -8,7 +8,7 @@
       "post": "套试卷"
     },
     {
-      "b": "4",
+      "b": "5",
       "post": "个专题"
     },
     {
@@ -40,12 +40,21 @@
         "skip": false
       },
       {
+        "name": "时态与被动",
+        "cov": 0.83,
+        "n": 14,
+        "book": "",
+        "ahead": false,
+        "go": "专题 3",
+        "skip": false
+      },
+      {
         "name": "it 形式主宾语",
         "cov": 0.83,
         "n": 13,
         "book": "",
         "ahead": false,
-        "go": "专题 3",
+        "go": "专题 4",
         "skip": false
       },
       {
@@ -54,7 +63,7 @@
         "n": 13,
         "book": "",
         "ahead": false,
-        "go": "专题 4",
+        "go": "专题 5",
         "skip": false
       }
     ],
@@ -392,17 +401,6 @@
           "level": "必练"
         },
         {
-          "stem": "Guanyin Mountain Forest Park is located in Dongguan city and it features as the unique and beautiful scenery.",
-          "cue": [
-            "用过去分词作状语改写"
-          ],
-          "src": "2024 · 东莞市 · 高二下期中",
-          "ans": "Located in Dongguan city, Guanyin Mountain Forest Park features as the unique and beautiful scenery.",
-          "why": "park 位于，用过去分词",
-          "group": "作状语",
-          "level": "必练"
-        },
-        {
           "stem": "Because the young man was inspired by the heroic story, he decided to realize his dream of being a famous doctor.",
           "cue": [
             "用过去分词改写句子"
@@ -488,16 +486,7 @@
           "level": "必练"
         },
         {
-          "stem": "With much time ___ (spend) sitting at the desk, office workers generally suffer health problems.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "spent",
-          "why": "time 被花费，用过去分词",
-          "group": "with 复合结构",
-          "level": "必练"
-        },
-        {
-          "stem": "With the nuclear waste water ___ (pollute) the ocean, the world is worried about the problem and make efforts to find ways to deal with it.",
+          "stem": "With the nuclear waste water ___ (pollute) the ocean, the world is worried about the problem and makes efforts to find ways to deal with it.",
           "cue": [],
           "src": "2024 · 东莞市 · 高二下期中",
           "ans": "polluting",
@@ -520,15 +509,6 @@
           "src": "2025 · 东莞市 · 高二下期中",
           "ans": "to develop",
           "why": "purpose 后接不定式作表语",
-          "group": "不定式作表语",
-          "level": "必练"
-        },
-        {
-          "stem": "His plan for the weekend is ___ (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
-          "cue": [],
-          "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
-          "ans": "to take",
-          "why": "plan 后接不定式说明内容",
           "group": "不定式作表语",
           "level": "必练"
         },
@@ -580,17 +560,6 @@
           "src": "2026 · 东莞第一中学 · 高二下期中",
           "ans": "worthy of being read",
           "why": "worthy of being done",
-          "group": "作宾语与搭配",
-          "level": "必练"
-        },
-        {
-          "stem": "The boy has made a decision that he will participate in the tough competition.\nThe boy has ___ to participate in the tough competition.",
-          "cue": [
-            "同义句改写"
-          ],
-          "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
-          "ans": "made up his mind",
-          "why": "make up one’s mind",
           "group": "作宾语与搭配",
           "level": "必练"
         },
@@ -741,16 +710,7 @@
           "level": "必练"
         },
         {
-          "stem": "Dongguan has beautiful parks, ___ families can spend quality time together.",
-          "cue": [],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "where",
-          "why": "非限制性定语从句用 where",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "I will never forget those days.I was brought up in the countryside then.",
+          "stem": "I will never forget those days. I was brought up in the countryside then.",
           "cue": [
             "用定语从句合并"
           ],
@@ -758,35 +718,6 @@
           "ans": "I will never forget those days, when I was brought up in the countryside.",
           "why": "表示时间，用 when",
           "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "Sales director is a position ___ communication ability is just as important as sales skills.",
-          "cue": [],
-          "src": "2024 · 东莞市 · 高二下期中",
-          "ans": "where",
-          "why": "表示位置，用 where",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
-          "stem": "I am fond of reading poems. ___ I can learn a lot of beautiful words from poems.",
-          "cue": [
-            "用定语从句合并句子"
-          ],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "I am fond of reading poems from which I can learn a lot of beautiful words.",
-          "why": "from which 合并句子",
-          "group": "介词加关系代词",
-          "level": "必练"
-        },
-        {
-          "stem": "I met some fruit-pickers on my way to a village, several of ___ were university students",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "whom",
-          "why": "several of whom 指人",
-          "group": "介词加关系代词",
           "level": "必练"
         },
         {
@@ -799,7 +730,7 @@
           "level": "必练"
         },
         {
-          "stem": "毫无疑问，那些对生活充满热情的人更加有可能成功.",
+          "stem": "毫无疑问，那些对生活充满热情的人更加有可能成功。",
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期中",
           "ans": "There is no doubt that those who have great passion for life are more likely to succeed.",
@@ -829,6 +760,266 @@
     },
     {
       "no": 3,
+      "name": "时态与被动",
+      "vols": 12,
+      "cov": 10,
+      "n": 14,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "主动改被动"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "宾语移到句首作主语",
+            "谓语随时态变化"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "把主动句改成被动句，原句的宾语作新主语，谓语改为 be 加过去分词。be 的形式跟随原句时态，主语单数用 is、was，复数用 are、were。"
+        },
+        {
+          "type": "p",
+          "text": "make sb. do sth. 改被动后，动词原形要补上 to，如 The parents make the child practice… 改为 The child is made to practice…。"
+        },
+        {
+          "type": "p",
+          "text": "It is thought that… 句型改写时，that 从句的主语提到句首，从句谓语改为 to 不定式，如 It is thought that… improves… 改为 … is thought to improve…。"
+        },
+        {
+          "type": "subhead",
+          "text": "被动的形式"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "按时态填 be 的形式",
+            "不定式用 to be done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "主语与动词是被动关系时，用 be 加过去分词。一般过去时的被动式是 was 或 were 加过去分词，如 was broadcast、was abandoned。"
+        },
+        {
+          "type": "p",
+          "text": "形容词 worthy 后接不定式表示被动意义时，用不定式的被动式 to be done，如 worthy to be watched。"
+        },
+        {
+          "type": "subhead",
+          "text": "现在完成"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "since、for、in recent years",
+            "动作持续到现在"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "动作从过去持续到现在，或对现在有影响，用现在完成时 has/have done。主语是单数用 has，复数及 I、you 用 have。"
+        },
+        {
+          "type": "p",
+          "text": "动作从过去一直持续到现在且仍在进行，用现在完成进行时 has/have been doing。for 或 since 引出的时段，加上说明仍未结束的句意，是常见的判断依据。"
+        }
+      ],
+      "examples": [
+        {
+          "group": "主动改被动",
+          "gloss": [
+            "make sb. do sth.",
+            "改被动要补 to"
+          ],
+          "stem": {
+            "text": "The parents make the child practice the piano for two hours every day.",
+            "cue": [
+              "用被动语态改写句子"
+            ],
+            "src": "2026 · 万江中学 · 高二下期中"
+          },
+          "ju": "父母让孩子每天练习两小时钢琴。",
+          "mid": {
+            "label": "判断",
+            "text": "make 表示让某人做某事，改被动后 the child 作主语，原句的 practice 前补 to。"
+          },
+          "ans": "The child is made to practice the piano for two hours every day by the parents."
+        },
+        {
+          "group": "主动改被动",
+          "gloss": [
+            "It is thought that",
+            "改为 sb. is thought to do"
+          ],
+          "stem": {
+            "text": "It is thought that regular exercise improves memory and concentration.\nRegular exercise ___ memory and concentration.",
+            "cue": [
+              "同义句转换"
+            ],
+            "src": "2026 · 东莞市 · 高二下期中"
+          },
+          "ju": "人们认为，定期锻炼可以提高记忆力和注意力。",
+          "mid": {
+            "label": "判断",
+            "text": "It is thought that 改写时，that 从句的主语 regular exercise 提到句首，improves 改为 to improve。"
+          },
+          "ans": "is thought to improve"
+        },
+        {
+          "group": "被动的形式",
+          "gloss": [
+            "主语与动词是被动",
+            "由 lasted 判断时态"
+          ],
+          "stem": {
+            "text": "Thursday’s meeting lasted more than six hours and ___ (broadcast) live on television and the Internet.",
+            "cue": [],
+            "src": "2026 · 东莞第一中学 · 高二下期中"
+          },
+          "ju": "周四的会议持续了六个多小时，并在电视和互联网上直播。",
+          "mid": {
+            "label": "成分",
+            "text": "空处与前面的 lasted 并列作谓语。主语会议与 broadcast 是被动关系，lasted 说明是过去的事，用一般过去时被动 was broadcast。"
+          },
+          "ans": "was broadcast"
+        },
+        {
+          "group": "现在完成",
+          "gloss": [
+            "for three months",
+            "动作持续且仍在进行"
+          ],
+          "stem": {
+            "text": "He ___ (work) on this painting for three months, but he still hasn’t finished it.",
+            "cue": [],
+            "src": "2026 · 东莞市 · 高二下期中"
+          },
+          "ju": "他画这幅画已经三个月了，但还没有完成。",
+          "mid": {
+            "label": "判断",
+            "text": "for three months 表示一段持续的时间，but 后说明画仍未完成，动作还在进行，用现在完成进行时 has been working。"
+          },
+          "ans": "has been working"
+        },
+        {
+          "group": "现在完成",
+          "gloss": [
+            "in recent years",
+            "主语单数用 has"
+          ],
+          "stem": {
+            "text": "Due to severe pollution, the number of wild animals in this area ___ (decline) sharply in recent years.",
+            "cue": [],
+            "src": "2026 · 东莞外国语学校 · 高二下期中"
+          },
+          "ju": "由于污染严重，该区域的野生动物数量近年来急剧减少。",
+          "mid": {
+            "label": "判断",
+            "text": "in recent years 是现在完成时常用的时间状语，主语 the number of wild animals 为单数，助动词用 has。"
+          },
+          "ans": "has declined"
+        }
+      ],
+      "keypoint": "判断动词与主语是主动还是被动关系，被动用 be 加过去分词，be 的形式跟随时态。句中有 since、for、in recent years 这类时间状语时，谓语用现在完成式；强调仍在进行，用 has/have been doing。",
+      "drill": [
+        {
+          "stem": "From my point of view, the opening ceremony of the music festival is worthy ___ (watch).",
+          "cue": [],
+          "src": "2026 · 大岭山中学 · 高二下期中",
+          "ans": "to be watched",
+          "why": "worthy 后接被动不定式",
+          "group": "被动的形式",
+          "level": "必练"
+        },
+        {
+          "stem": "Some old furniture ___ (abandon) when they moved to their new house.",
+          "cue": [],
+          "src": "2026 · 东莞市 · 高二下期中",
+          "ans": "was abandoned",
+          "why": "被动，一般过去时",
+          "group": "被动的形式",
+          "level": "必练"
+        },
+        {
+          "stem": "Our country ___ (undergo) a great change since 1997, and it will never stop.",
+          "cue": [],
+          "src": "2026 · 大岭山中学 · 高二下期中",
+          "ans": "has been undergoing",
+          "why": "since 1997，动作仍将持续",
+          "group": "现在完成",
+          "level": "必练"
+        },
+        {
+          "stem": "They ___ (do) their lessons for an hour, but they have finished only half.",
+          "cue": [],
+          "src": "2026 · 东莞第一中学 · 高二下期中",
+          "ans": "have been doing",
+          "why": "for 表时段，动作仍在进行",
+          "group": "现在完成",
+          "level": "必练"
+        },
+        {
+          "stem": "在过去十年，政府一直在支持新能源汽车的发展。",
+          "cue": [
+            "翻译句子"
+          ],
+          "src": "2026 · 东莞外国语学校 · 高二下期中",
+          "ans": "Over the past decade, the government has been supporting the development of new energy vehicles.",
+          "why": "过去十年持续，现在完成进行",
+          "group": "现在完成",
+          "level": "必练"
+        },
+        {
+          "stem": "The local government has carried out several environmental protection measures to reduce air pollution over the past three years.",
+          "cue": [
+            "改为被动句"
+          ],
+          "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+          "ans": "Several environmental protection measures have been carried out by the local government to reduce air pollution over the past three years.",
+          "why": "现在完成被动，measures 为复数",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "The experts are examining the problem of food safety in this area.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2024 · 东莞市 · 高二下期中",
+          "ans": "The problem of food safety in this area is being examined by the experts.",
+          "why": "现在进行被动，主语单数",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "Sora is bringing the artificial intelligence technology a big change.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2024 · 东莞市 · 高二下期中",
+          "ans": "The artificial intelligence technology is being brought a big change by Sora. / A big change is being brought to the artificial intelligence technology by Sora.",
+          "why": "bring sb. sth. 有两种被动",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "When I came here at this time last year, they were building the conference hall.",
+          "cue": [
+            "改为被动语态"
+          ],
+          "src": "2024 · 东莞第四高级中学 · 高二下期中",
+          "ans": "When I came here at this time last year, the conference hall was being built by them.",
+          "why": "过去进行被动，用 was being built",
+          "group": "主动改被动",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 4,
       "name": "it 形式主宾语",
       "vols": 12,
       "cov": 10,
@@ -894,18 +1085,18 @@
         },
         {
           "gloss": [
-            "made it hard to do",
-            "形式宾语"
+            "consider it adj. to do",
+            "真宾是不定式"
           ],
           "stem": {
-            "text": "The fact that Tom had no prior experience in programming made ___ hard for him to get the software development job.",
+            "text": "I consider ___ effective to release stress through physical exercise.",
             "cue": [],
-            "src": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中"
+            "src": "2025 · 光正实验学校 · 高二下期中"
           },
-          "ju": "汤姆没有编程经验，这使他很难得到软件开发的工作。",
+          "ju": "我认为，通过体育锻炼释放压力是有效的。",
           "mid": {
-            "label": "判断",
-            "text": "made 后接宾语 it，hard 是宾补，真正的宾语是 for 短语加不定式。"
+            "label": "成分",
+            "text": "consider 后空处作形式宾语，真正的宾语是不定式短语 to release stress；effective 是宾补。"
           },
           "ans": "it",
           "group": "形式宾语 it"
@@ -939,15 +1130,6 @@
           "src": "2026 · 万江中学 · 高二下期中",
           "ans": "It is impolite to make fun of people with physical disabilities.",
           "why": "It is impolite to do",
-          "group": "形式主语 it",
-          "level": "必练"
-        },
-        {
-          "stem": "___ was disturbing that she was being looked after by a robot who seemed more like a human.",
-          "cue": [],
-          "src": "2025 · 东莞市 · 高二下期中",
-          "ans": "It",
-          "why": "It 作形式主语，that 为真主语",
           "group": "形式主语 it",
           "level": "必练"
         },
@@ -988,15 +1170,6 @@
           "level": "必练"
         },
         {
-          "stem": "I consider ___ effective to release stress through physical exercise.",
-          "cue": [],
-          "src": "2025 · 光正实验学校 · 高二下期中",
-          "ans": "it",
-          "why": "consider it 形式宾语",
-          "group": "形式宾语 it",
-          "level": "必练"
-        },
-        {
           "stem": "Some people think ___ necessary to explore the oceans because of the potential amounts of resources.",
           "cue": [],
           "src": "2024 · 东莞市 · 高二下期中",
@@ -1026,7 +1199,7 @@
       ]
     },
     {
-      "no": 4,
+      "no": 5,
       "name": "名词性从句",
       "vols": 12,
       "cov": 8,

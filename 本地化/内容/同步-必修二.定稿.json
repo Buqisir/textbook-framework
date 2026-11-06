@@ -275,43 +275,6 @@
       ],
       "families": [
         {
-          "词头": "comparison",
-          "题数": 8,
-          "chain": [
-            {
-              "词": "comparison",
-              "词性": "n.",
-              "释义": "比较",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "compare",
-              "词性": "vt.",
-              "释义": "比较",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "089-16",
-              "no": 1,
-              "标签": "2023 · 东华高级中学 · 高一上月考",
-              "题型": "语法填空",
-              "题干": "They made a ___ (compare) of different countries’ eating habits.",
-              "题干HTML": "They made a <span class=\"blank\"></span> (compare) of different countries’ eating habits.",
-              "cue": [],
-              "提示词": "compare",
-              "答案": "comparison",
-              "解析": "考查名词。句意：他们比较了不同国家的饮食习惯。分析句子，空处应用名词comparison，表示“比较”，作动词made的宾语。故填comparison。",
-              "句意": "",
-              "reason": "a 之后用名词，作 made 的宾语"
-            }
-          ],
-          "gloss": "compare 的名词形式<br>作动词的宾语"
-        },
-        {
           "词头": "contribution",
           "题数": 4,
           "chain": [
@@ -340,11 +303,11 @@
           "atoms": [
             {
               "id": "066-13",
-              "no": 2,
+              "no": 1,
               "标签": "2024 · 东莞市 · 高一上期末",
               "题型": "语法填空",
-              "题干": "The poems written by Li Bai has made a great ___ (contribute) to Chinese literature.",
-              "题干HTML": "The poems written by Li Bai has made a great <span class=\"blank\"></span> (contribute) to Chinese literature.",
+              "题干": "The poems written by Li Bai have made a great ___ (contribute) to Chinese literature.",
+              "题干HTML": "The poems written by Li Bai have made a great <span class=\"blank\"></span> (contribute) to Chinese literature.",
               "cue": [],
               "提示词": "contribute",
               "答案": "contribution",
@@ -354,7 +317,7 @@
             },
             {
               "id": "054-07",
-              "no": 3,
+              "no": 2,
               "标签": "2022 · 东莞实验中学 · 高一上月考",
               "题型": "语法填空",
               "题干": "School education should prepare the students for making ___ (contribute) to our society.",
@@ -405,7 +368,7 @@
           "atoms": [
             {
               "id": "108-16",
-              "no": 4,
+              "no": 3,
               "标签": "2023 · 东莞高级中学 · 高一上月考",
               "题型": "语法填空",
               "题干": "___ (creative) and originality are more important than technical skills.",
@@ -419,7 +382,7 @@
             },
             {
               "id": "008-09",
-              "no": 5,
+              "no": 4,
               "标签": "2019 · 东莞市 · 高二上期末",
               "题型": "语法填空",
               "题干": "___ (create) thinking is a way to look at and solve problems from a different perspective.",
@@ -462,32 +425,18 @@
           ],
           "atoms": [
             {
-              "id": "094-13",
-              "no": 6,
-              "标签": "2025 · 东华高级中学、东华松山湖高级中学 · 高一上月考",
+              "id": "075-06",
+              "no": 5,
+              "标签": "2023 · 万江中学 · 高二上月考",
               "题型": "语法填空",
-              "题干": "As a job ___ (apply), you should prepare a well-organized resume and be ready for the interview.",
-              "题干HTML": "As a job <span class=\"blank\"></span> (apply), you should prepare a well-organized resume and be ready for the interview.",
+              "题干": "Most of the ___ (apply) who apply for the position of the firm are incompetent.",
+              "题干HTML": "Most of the <span class=\"blank\"></span> (apply) who apply for the position of the firm are incompetent.",
               "cue": [],
               "提示词": "apply",
-              "答案": "applicant",
-              "解析": "考查名词。句意：作为一名求职者，你应该准备一份条理清晰的简历，并为面试做好准备。不定冠词a后接单数可数名词，apply的名词形式applicant表示“申请人，求职者”，符合语境。故填applicant。",
+              "答案": "applicants",
+              "解析": "考查名词。句意：大多数申请该公司职位的申请人都不称职。分析句子结构，空白处在句子中做主语，使用名词，根据下文“who apply for the position of the firm(申请该公司职位的)”可知空白处应填指人的名词，根据空白处前面的代词most可知空白处应填复数名词，故填applicants。",
               "句意": "",
-              "reason": "不定冠词 a 后用单数可数名词"
-            },
-            {
-              "id": "130-14",
-              "no": 7,
-              "标签": "2023 · 石竹实验学校 · 高二上月考",
-              "题型": "语法填空",
-              "题干": "I am writing to ask for your substantial assistance with my ___ (apply) and resume.",
-              "题干HTML": "I am writing to ask for your substantial assistance with my <span class=\"blank\"></span> (apply) and resume.",
-              "cue": [],
-              "提示词": "apply",
-              "答案": "application",
-              "解析": "考查名词。句意：我写信是为了请求您对我的申请和简历提供实质性的帮助。由空前my形容词性物主代词可知，此处为名词形式。故填application。",
-              "句意": "",
-              "reason": "形容词性物主代词后用名词"
+              "reason": "most of 之后用复数名词，指人"
             }
           ],
           "gloss": "apply 的名词形式<br>a、my、most of 之后用名词"
@@ -514,7 +463,7 @@
           "atoms": [
             {
               "id": "084-18",
-              "no": 8,
+              "no": 6,
               "标签": "2021 · 东华高级中学 · 高一上期中",
               "题型": "语法填空",
               "题干": "It is unlikely, however, that this fragmentation will lead to the ___ (disappear) of English as a language understood around the world.",
@@ -533,7 +482,7 @@
       "spelling": [
         {
           "id": "002-12",
-          "no": 9,
+          "no": 7,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "That's one of the greatest things a parent can do, helping their children find where they can make a ___ (贡献) to the society.",
@@ -547,7 +496,7 @@
         },
         {
           "id": "086-20",
-          "no": 10,
+          "no": 8,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "It was amazing that she solved the problem ___ (创造性地) last night.",
@@ -561,7 +510,7 @@
         },
         {
           "id": "096-36",
-          "no": 11,
+          "no": 9,
           "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "单词拼写",
           "题干": "They went from door to door to ___ (推销) their new products.",
@@ -575,7 +524,7 @@
         },
         {
           "id": "108-11",
-          "no": 12,
+          "no": 10,
           "标签": "2023 · 东莞高级中学 · 高一上月考",
           "题型": "单词拼写",
           "题干": "Harry really wanted to ___ (消失) into his bedroom, but he met Uncle Vernon’s angry little eyes and knew he would have to sit it out.",
@@ -589,7 +538,7 @@
         },
         {
           "id": "084-14",
-          "no": 13,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "We take this opportunity to contact you and look forward to working with you to ___ (建立) trade relations with China.",
@@ -603,7 +552,7 @@
         },
         {
           "id": "018-16",
-          "no": 14,
+          "no": 12,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "We can ___ (下载) a movie, old or new,from the Internet within a few minutes.",
@@ -617,7 +566,7 @@
         },
         {
           "id": "018-15",
-          "no": 15,
+          "no": 13,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "I happened to meet my ___ (以前的) English teacher this morning, who I hadn’t seen for years.",
@@ -631,7 +580,7 @@
         },
         {
           "id": "084-13",
-          "no": 16,
+          "no": 14,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Parts of the Old City, a UNESCO ___ (遗产) site, have been heavily damaged as government forces bomb areas they do not control.",
@@ -652,7 +601,7 @@
           "atoms": [
             {
               "id": "127-25",
-              "no": 17,
+              "no": 15,
               "标签": "2026 · 济川中学 · 高一下期中",
               "题型": "翻译",
               "题干": "保持学习和休息的平衡是重要的。 → ___",
@@ -666,7 +615,7 @@
             },
             {
               "id": "067-25",
-              "no": 18,
+              "no": 16,
               "标签": "2025 · 东莞市 · 高一下期末",
               "题型": "翻译",
               "题干": "没有什么比保持学习和休息的平衡更重要。 → ___",
@@ -688,7 +637,7 @@
           "atoms": [
             {
               "id": "149-19",
-              "no": 19,
+              "no": 17,
               "标签": "2025 · 翰林高级中学 · 高一上期末",
               "题型": "完成句子",
               "题干": "I have made up my mind to study harder and ___ (做贡献) our country ‘s development in the future.",
@@ -712,7 +661,7 @@
           "atoms": [
             {
               "id": "057-25",
-              "no": 20,
+              "no": 18,
               "标签": "2023 · 东莞实验中学 · 高一下月考",
               "题型": "翻译",
               "题干": "每个人都应该为社会做贡献，这是至关重要的。 → ___",
@@ -731,23 +680,8 @@
       ],
       "quiz": [
         {
-          "id": "099-20",
-          "no": 21,
-          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
-          "题型": "语法填空",
-          "题干": "I was at a disadvantage ___ (compare) to the younger members of the team.",
-          "题干HTML": "I was at a disadvantage <span class=\"blank\"></span> (compare) to the younger members of the team.",
-          "cue": [],
-          "提示词": "compare",
-          "答案": "compared",
-          "解析": "考查非谓语动词。句意：与队里的年轻队员相比，我处于不利地位。本句已有be动词was，所以compare用作非谓语动词，和逻辑主语I之间是被动关系，用过去分词表被动。故填compared。",
-          "句意": "",
-          "reason": "compared to 作状语，过去分词",
-          "answer_show": null
-        },
-        {
           "id": "087-18",
-          "no": 22,
+          "no": 19,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He didn’t consider it ___ (值得做的) spending a lot of time on paperback thrillers.",
@@ -761,36 +695,22 @@
         },
         {
           "id": "154-11",
-          "no": 23,
+          "no": 20,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
-          "题干": "There are two roads before us, one ___ (lead) to the success, the other to the failure.",
-          "题干HTML": "There are two roads before us, one <span class=\"blank\"></span> (lead) to the success, the other to the failure.",
+          "题干": "There are two roads before us, one ___ (lead) to success, the other to failure.",
+          "题干HTML": "There are two roads before us, one <span class=\"blank\"></span> (lead) to success, the other to failure.",
           "cue": [],
           "提示词": "lead",
           "答案": "leading",
-          "解析": "考查独立主格结构。句意：我们面前有两条路，一条通向成功，另一条通向失败。分析句子可知，“one __________ (lead) to the success, the other to the failure”是独立主格结构，在句中作状语。逻辑主语“one”（指代 road）与动词“lead”之间是主动关系，所以用现在分词 leading。故填leading。",
+          "解析": "考查独立主格结构。句意：我们面前有两条路，一条通向成功，另一条通向失败。分析句子可知，“one __________ (lead) to success, the other to failure”是独立主格结构，在句中作状语。逻辑主语“one”（指代 road）与动词“lead”之间是主动关系，所以用现在分词 leading。故填leading。",
           "句意": "",
           "reason": "现在分词作后置定语，表主动",
           "answer_show": null
         },
         {
-          "id": "080-16",
-          "no": 24,
-          "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
-          "题型": "语法填空",
-          "题干": "Artificial Intelligence (Al) ___ (apply) to many fields in recent years.",
-          "题干HTML": "Artificial Intelligence (Al) <span class=\"blank\"></span> (apply) to many fields in recent years.",
-          "cue": [],
-          "提示词": "apply",
-          "答案": "has been applied",
-          "解析": "考查时态语态。句意：近年来，人工智能（AI）已被应用于许多领域。apply是谓语动词，由时间状语in recent years可知，用现在完成时，主语Artificial Intelligence (Al)与apply是被动关系，用被动语态，且主语是Artificial Intelligence，助动词用 has。故填has been applied。",
-          "句意": "",
-          "reason": "现在完成时的被动语态"
-        },
-        {
           "id": "018-14",
-          "no": 25,
+          "no": 21,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "Their ___ (质量)of life improved greatly when they moved to France.",
@@ -804,7 +724,7 @@
         },
         {
           "id": "084-25",
-          "no": 26,
+          "no": 22,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "翻译",
           "题干": "对于很多父母来说在工作和生活之间保持平衡是一个很大的挑战。 → ___ between work and family can be a big challenge for many parents.",
@@ -818,7 +738,7 @@
         },
         {
           "id": "029-11",
-          "no": 27,
+          "no": 23,
           "标签": "2024 · 东莞第八高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
@@ -833,7 +753,7 @@
         },
         {
           "id": "018-17",
-          "no": 28,
+          "no": 24,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "She has the fortune to work with a ___ (有创造性的) team.",
@@ -846,7 +766,7 @@
           "reason": "修饰名词 team，用形容词"
         }
       ],
-      "numbered_total": 28
+      "numbered_total": 24
     },
     {
       "序": 8,
@@ -1200,22 +1120,8 @@
           ],
           "atoms": [
             {
-              "id": "011-12",
-              "no": 3,
-              "标签": "2021 · 东莞市 · 高二下期末",
-              "题型": "语法填空",
-              "题干": "In Shanghai, garbage classification is carried out ___ (effective).",
-              "题干HTML": "In Shanghai, garbage classification is carried out <span class=\"blank\"></span> (effective).",
-              "cue": [],
-              "提示词": "effective",
-              "答案": "effectively",
-              "解析": "考查副词。句意：在上海，垃圾分类得到有效开展。分析句子可知，应该使用副词作状语修饰谓语动词，使用effectively符合句意的需要。故填effectively。",
-              "句意": "",
-              "reason": "修饰动词 carried out，用副词"
-            },
-            {
               "id": "003-17",
-              "no": 4,
+              "no": 3,
               "标签": "2018 · 虎门外国语学校 · 高二上期中",
               "题型": "语法填空",
               "题干": "Mike can manage everything ___ (effect).",
@@ -1253,7 +1159,7 @@
           "atoms": [
             {
               "id": "082-17",
-              "no": 5,
+              "no": 4,
               "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
               "题型": "语法填空",
               "题干": "They live in a ___ (harmony) neighborhood where everyone helps each other.",
@@ -1290,7 +1196,7 @@
           "atoms": [
             {
               "id": "128-12",
-              "no": 6,
+              "no": 5,
               "标签": "2023 · 石竹实验学校 · 高一下月考",
               "题型": "语法填空",
               "题干": "Fortunately somebody who happened to be passing by called the fire department ___ (immediate)the fire broke out.",
@@ -1341,7 +1247,7 @@
           "atoms": [
             {
               "id": "132-12",
-              "no": 7,
+              "no": 6,
               "标签": "2023 · 东莞第一中学 · 高一下月考",
               "题型": "语法填空",
               "题干": "In 1998, Mark left Edinburgh with the ___ (intend) of finding a job in London.",
@@ -1378,7 +1284,7 @@
           "atoms": [
             {
               "id": "019-16",
-              "no": 8,
+              "no": 7,
               "标签": "2021 · 东莞市 · 高一上期末",
               "题型": "语法填空",
               "题干": "Anyone will feel nervous if he is under great ___ (press).",
@@ -1397,7 +1303,7 @@
       "spelling": [
         {
           "id": "085-21",
-          "no": 9,
+          "no": 8,
           "标签": "2022 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "In order to save this species from ___ (灭绝), the Chinese government placed it under national protection.",
@@ -1411,7 +1317,7 @@
         },
         {
           "id": "084-15",
-          "no": 10,
+          "no": 9,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Though unattractive, it was nevertheless important as an attempt to grow plants in a way which reproduced their natural ___ (栖息地).",
@@ -1425,7 +1331,7 @@
         },
         {
           "id": "084-17",
-          "no": 11,
+          "no": 10,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "Thus, the direction of the meeting is a mutual attempt to reduce conflict and achieve ___ (和谐).",
@@ -1439,7 +1345,7 @@
         },
         {
           "id": "084-16",
-          "no": 12,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "单词拼写",
           "题干": "With this satellite data delivery service, we're able to ___ (观察) what's happening in the ocean in ways we've never been able to before.",
@@ -1453,7 +1359,7 @@
         },
         {
           "id": "018-13",
-          "no": 13,
+          "no": 12,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "She had a severe attack of asthma and it took an hour to ___ (恢复) her breath.",
@@ -1467,7 +1373,7 @@
         },
         {
           "id": "002-08",
-          "no": 14,
+          "no": 13,
           "标签": "2018 · 东华高级中学 · 高二上期末",
           "题型": "单词拼写",
           "题干": "In case I forget, please ___ (提醒) me of my promise.",
@@ -1488,7 +1394,7 @@
           "atoms": [
             {
               "id": "086-23",
-              "no": 15,
+              "no": 14,
               "标签": "2023 · 东华高级中学 · 高一下月考",
               "题型": "完成句子",
               "题干": "The medical community continues to ___ (取得进步) in the fight against cancer.",
@@ -1502,7 +1408,7 @@
             },
             {
               "id": "054-25",
-              "no": 16,
+              "no": 15,
               "标签": "2022 · 东莞实验中学 · 高一上月考",
               "题型": "翻译",
               "题干": "只有努力学习，你才能在英语上取得大的进步。 → ___",
@@ -1526,7 +1432,7 @@
           "atoms": [
             {
               "id": "143-26",
-              "no": 17,
+              "no": 16,
               "标签": "2024 · 东莞第四高级中学 · 高一上期中",
               "题型": "翻译",
               "题干": "一旦养成了坏习惯，你就不容易改掉它。 → ___",
@@ -1550,7 +1456,7 @@
           "atoms": [
             {
               "id": "155-25",
-              "no": 18,
+              "no": 17,
               "标签": "2024 · 东莞高级中学 · 高一上月考",
               "题型": "完成句子",
               "题干": "The government has taken action in order to improve people’s living standards. → ___",
@@ -1566,7 +1472,7 @@
             },
             {
               "id": "005-26",
-              "no": 19,
+              "no": 18,
               "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "He made rapid progress in English and the teacher praised him. → ___",
@@ -1589,7 +1495,7 @@
           "atoms": [
             {
               "id": "099-41",
-              "no": 20,
+              "no": 19,
               "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
               "题型": "翻译",
               "题干": "正是在你的帮助下，我的英语口语才取得了这么大的进步。 → ___",
@@ -1612,7 +1518,7 @@
           "atoms": [
             {
               "id": "089-25",
-              "no": 21,
+              "no": 20,
               "标签": "2023 · 东华高级中学 · 高一上月考",
               "题型": "翻译",
               "题干": "只有当我们集中精力于学习时，我们才能取得进步，并最终进入我们梦寐以求的大学。 → ___",
@@ -1635,7 +1541,7 @@
           "atoms": [
             {
               "id": "059-24",
-              "no": 22,
+              "no": 21,
               "标签": "2023 · 东莞市 · 高一下期末",
               "题型": "完成句子",
               "题干": "China has made impressive progress in many fields. It makes us proud.",
@@ -1656,7 +1562,7 @@
       "quiz": [
         {
           "id": "149-14",
-          "no": 23,
+          "no": 22,
           "标签": "2025 · 翰林高级中学 · 高一上期末",
           "题型": "语法填空",
           "题干": "The school ___ (authority) are launching a program aimed at educating students on how to use the Internet safely and avoid suspicious websites.",
@@ -1670,7 +1576,7 @@
         },
         {
           "id": "015-10",
-          "no": 24,
+          "no": 23,
           "标签": "2020 · 虎门外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "Water ___ (exist) in three forms, which are liquid, gas and solid.",
@@ -1684,7 +1590,7 @@
         },
         {
           "id": "005-09",
-          "no": 25,
+          "no": 24,
           "标签": "2019 · 北师大石竹附属学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "The classroom ___ (measure) 30 feet long and 20 feet wide.",
@@ -1698,7 +1604,7 @@
         },
         {
           "id": "154-14",
-          "no": 26,
+          "no": 25,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
           "题干": "It is not the first time that the shy boy ___ (make) fun of in public.",
@@ -1713,7 +1619,7 @@
         },
         {
           "id": "024-10",
-          "no": 27,
+          "no": 26,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "Last night, there were millions of people ___ (watch) the opening ceremony live on TV.",
@@ -1728,22 +1634,22 @@
         },
         {
           "id": "048-12",
-          "no": 28,
+          "no": 27,
           "标签": "2023 · 东莞外国语学校 · 高一下月考",
           "题型": "语法填空",
-          "题干": "Big progress in art ___ (make) by him in the recent years.",
-          "题干HTML": "Big progress in art <span class=\"blank\"></span> (make) by him in the recent years.",
+          "题干": "Big progress in art ___ (make) by him in recent years.",
+          "题干HTML": "Big progress in art <span class=\"blank\"></span> (make) by him in recent years.",
           "cue": [],
           "提示词": "make",
           "答案": "has been made",
-          "解析": "考查时态语态。句意：近年来他在艺术方面取得了很大的进步。根据in the recent years可知，本句为现在完成时，主语A big progress 与 make为被动关系，所以本句为现在完成时的被动语态，且主语为单数，谓语动词用单数。故填has been made。",
+          "解析": "考查时态语态。句意：近年来他在艺术方面取得了很大的进步。根据in recent years可知，本句为现在完成时，主语A big progress 与 make为被动关系，所以本句为现在完成时的被动语态，且主语为单数，谓语动词用单数。故填has been made。",
           "句意": "",
           "reason": "主语 progress 与 make 为被动",
           "answer_show": null
         },
         {
           "id": "132-09",
-          "no": 29,
+          "no": 28,
           "标签": "2023 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "___ (make) notes while listening can help you remember a story better.",
@@ -1758,7 +1664,7 @@
         },
         {
           "id": "062-14",
-          "no": 30,
+          "no": 29,
           "标签": "2022 · 东莞市 · 高一上期末",
           "题型": "语法填空",
           "题干": "In the past few years, China ___ (make) rapid progress in high-tech industries.",
@@ -1772,7 +1678,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 30
+      "numbered_total": 29
     },
     {
       "序": 9,
@@ -2904,8 +2810,8 @@
               "no": 5,
               "标签": "2024 · 东莞第一中学 · 高一下月考",
               "题型": "语法填空",
-              "题干": "The invention of Internet is one of the great ___ (achieve) in human history.",
-              "题干HTML": "The invention of Internet is one of the great <span class=\"blank\"></span> (achieve) in human history.",
+              "题干": "The invention of the Internet is one of the great ___ (achieve) in human history.",
+              "题干HTML": "The invention of the Internet is one of the great <span class=\"blank\"></span> (achieve) in human history.",
               "cue": [],
               "提示词": "achieve",
               "答案": "achievements",
@@ -3146,22 +3052,8 @@
       ],
       "spelling": [
         {
-          "id": "099-13",
-          "no": 11,
-          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
-          "题型": "单词拼写",
-          "题干": "The snowstorm ___ (袭击) while we were still on the mountain.",
-          "题干HTML": "The snowstorm <span class=\"blank\"></span> (袭击) while we were still on the mountain.",
-          "cue": [],
-          "提示词": null,
-          "答案": "struck",
-          "解析": "考查动词。句意：我们还在山上的时候，暴风雪袭击了。“袭击”为strike，由while we were still on the mountain可知，句子描述过去发生的事情，应用一般过去时，空处应用动词的过去式形式。故填struck。",
-          "句意": "",
-          "reason": "while 从句用过去时"
-        },
-        {
           "id": "018-10",
-          "no": 12,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "The ___ (美术馆) houses 2, 000 works of modern art.",
@@ -3175,7 +3067,7 @@
         },
         {
           "id": "090-08",
-          "no": 13,
+          "no": 12,
           "标签": "2024 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "A ___ (代表) from the tour company will meet you at the check-in.",
@@ -3193,7 +3085,7 @@
       "quiz": [
         {
           "id": "036-09",
-          "no": 14,
+          "no": 13,
           "标签": "2026 · 海逸外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "Recently, a new rule ___ (announce) by a charity to ensure the safety of money.",
@@ -3207,7 +3099,7 @@
         },
         {
           "id": "036-16",
-          "no": 15,
+          "no": 14,
           "标签": "2026 · 海逸外国语学校 · 高一下期中",
           "题型": "语法填空",
           "题干": "With the castle ___ (surround) by the enemy, the soldiers had no choice but to fight to the end.",
@@ -3221,7 +3113,7 @@
         },
         {
           "id": "037-07",
-          "no": 16,
+          "no": 15,
           "标签": "2026 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "The company promised that customers’ personal information would be collected and used ___ (legal).",
@@ -3235,7 +3127,7 @@
         },
         {
           "id": "039-12",
-          "no": 17,
+          "no": 16,
           "标签": "2026 · 东莞第六高级中学 · 高一下期末",
           "题型": "语法填空",
           "题干": "Traditional Chinese and Western art express beauty in different ___ (approach).",
@@ -3249,7 +3141,7 @@
         },
         {
           "id": "040-11",
-          "no": 18,
+          "no": 17,
           "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "With the May Day holiday ___ (approach), a large number of tourists have started making detailed travel plans in advance.",
@@ -3263,7 +3155,7 @@
         },
         {
           "id": "040-12",
-          "no": 19,
+          "no": 18,
           "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "___ (surround) by many modern factories, Dongguan is famous for its manufacturing industry.",
@@ -3277,7 +3169,7 @@
         },
         {
           "id": "041-07",
-          "no": 20,
+          "no": 19,
           "标签": "2026 · 粤华学校 · 高一下月考",
           "题型": "语法填空",
           "题干": "With the exams ___ (approach), students are advised to review their notes daily.",
@@ -3291,7 +3183,7 @@
         },
         {
           "id": "123-09",
-          "no": 21,
+          "no": 20,
           "标签": "2026 · 大岭山中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "___ (surround) by so many strangers, the young man felt too nervous to speak a word.",
@@ -3304,7 +3196,7 @@
           "reason": "被众多陌生人包围，过去分词"
         }
       ],
-      "numbered_total": 21
+      "numbered_total": 20
     },
     {
       "序": 11,
@@ -3650,22 +3542,8 @@
           ],
           "atoms": [
             {
-              "id": "040-09",
-              "no": 2,
-              "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
-              "题型": "语法填空",
-              "题干": "These traditional handicrafts still keep their ___ (origin) styles from ancient times.",
-              "题干HTML": "These traditional handicrafts still keep their <span class=\"blank\"></span> (origin) styles from ancient times.",
-              "cue": [],
-              "提示词": "origin",
-              "答案": "original",
-              "解析": "句意：这些传统手工艺品依然保留着源自古代的原始风格。修饰名词styles，需用形容词original，作定语。",
-              "句意": "",
-              "reason": "修饰名词 styles，用形容词"
-            },
-            {
               "id": "103-20",
-              "no": 3,
+              "no": 2,
               "标签": "2025 · 东莞实验中学 · 高一下月考",
               "题型": "语法填空",
               "题干": "___ (original), the Southern part of Ireland was a part of Britain but things changed in the 20th century.",
@@ -3702,7 +3580,7 @@
           "atoms": [
             {
               "id": "041-10",
-              "no": 4,
+              "no": 3,
               "标签": "2026 · 粤华学校 · 高一下月考",
               "题型": "语法填空",
               "题干": "She ___ (gradual) improved her grades by studying harder.",
@@ -3753,7 +3631,7 @@
           "atoms": [
             {
               "id": "043-11",
-              "no": 5,
+              "no": 4,
               "标签": "2026 · 翰林高级中学 · 高一月考",
               "题型": "语法填空",
               "题干": "The final score of the game was ___ (satisfy) for the whole team.",
@@ -3767,11 +3645,11 @@
             },
             {
               "id": "133-10",
-              "no": 6,
+              "no": 5,
               "标签": "2024 · 东莞第一中学 · 高一下月考",
               "题型": "语法填空",
-              "题干": "From his ___ (satisfy) look, we know Jack is pleased with the result announced by teacher.",
-              "题干HTML": "From his <span class=\"blank\"></span> (satisfy) look, we know Jack is pleased with the result announced by teacher.",
+              "题干": "From his ___ (satisfy) look, we know Jack is pleased with the result announced by the teacher.",
+              "题干HTML": "From his <span class=\"blank\"></span> (satisfy) look, we know Jack is pleased with the result announced by the teacher.",
               "cue": [],
               "提示词": "satisfy",
               "答案": "satisfied",
@@ -3818,7 +3696,7 @@
           "atoms": [
             {
               "id": "098-10",
-              "no": 7,
+              "no": 6,
               "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
               "题型": "语法填空",
               "题干": "Paul looked at Meg, ___ (able) to speak for astonishment, for never in all his life could he have said and done like that.",
@@ -3832,64 +3710,6 @@
             }
           ],
           "gloss": "able 加 un- 表示不能"
-        },
-        {
-          "词头": "various",
-          "题数": 3,
-          "chain": [
-            {
-              "词": "various",
-              "词性": "adj.",
-              "释义": "各种不同的",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "variety",
-              "词性": "n.",
-              "释义": "种类",
-              "hit": true,
-              "来源": "派生"
-            },
-            {
-              "词": "vary",
-              "词性": "vi.",
-              "释义": "不同",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "149-09",
-              "no": 8,
-              "标签": "2025 · 翰林高级中学 · 高一上期末",
-              "题型": "语法填空",
-              "题干": "As an English lover, he has taken part in a ___ (various) of activities, including listening, speaking reading and writing.",
-              "题干HTML": "As an English lover, he has taken part in a <span class=\"blank\"></span> (various) of activities, including listening, speaking reading and writing.",
-              "cue": [],
-              "提示词": "various",
-              "答案": "variety",
-              "解析": "考查名词。句意：作为一名英语爱好者，他参加了各种各样的活动，包括听、说、读、写。“a variety of”是固定短语，意为“各种各样的”。故填variety。",
-              "句意": "",
-              "reason": "a variety of 为固定搭配"
-            },
-            {
-              "id": "086-08",
-              "no": 9,
-              "标签": "2023 · 东华高级中学 · 高一下月考",
-              "题型": "语法填空",
-              "题干": "From this point forward, many developers helped to make ___ (vary) types of computer.",
-              "题干HTML": "From this point forward, many developers helped to make <span class=\"blank\"></span> (vary) types of computer.",
-              "cue": [],
-              "提示词": "vary",
-              "答案": "various",
-              "解析": "考查形容词。句意：从那时起，许多开发人员帮助制造了各种类型的计算机。分析句子结构可知，此处应为形容词作定语，vary的形容词为various意为“各种各样的”。故填various。",
-              "句意": "",
-              "reason": "修饰名词 types，用形容词"
-            }
-          ],
-          "gloss": "形容词作定语<br>a variety of 为固定搭配"
         },
         {
           "词头": "relief",
@@ -3913,7 +3733,7 @@
           "atoms": [
             {
               "id": "037-09",
-              "no": 10,
+              "no": 7,
               "标签": "2026 · 东莞第一中学 · 高一下月考",
               "题型": "语法填空",
               "题干": "Much to his ___ (relieve), he saw his lost dog running towards him, its tail wagging with joy.",
@@ -3931,22 +3751,8 @@
       ],
       "spelling": [
         {
-          "id": "098-27",
-          "no": 11,
-          "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
-          "题型": "单词拼写",
-          "题干": "Her unhappy childhood was the ___ (起源) of her problems later in life.",
-          "题干HTML": "Her unhappy childhood was the <span class=\"blank\"></span> (起源) of her problems later in life.",
-          "cue": [],
-          "提示词": null,
-          "答案": "origin",
-          "解析": "考查名词。句意：她不幸的童年是她以后生活中问题的起源。根据句意及汉语提示可知，此处应用名词origin，为可数名词，句中特指“不幸的童年”这一起源，应用其单数形式，在句中作表语。故填origin。",
-          "句意": "",
-          "reason": "the 之后用名词作表语"
-        },
-        {
           "id": "086-18",
-          "no": 12,
+          "no": 8,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "Good luck is when an ___ (机会) comes along and you’re prepared for it. （根据汉语意思填空）",
@@ -3960,7 +3766,7 @@
         },
         {
           "id": "018-09",
-          "no": 13,
+          "no": 9,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "He is one of many online teachers who are taking ___ (虚拟的)learning to the lower grades.",
@@ -3974,7 +3780,7 @@
         },
         {
           "id": "018-08",
-          "no": 14,
+          "no": 10,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "This produced a chain ___ (反应), which made it possible for life to develop.",
@@ -3988,7 +3794,7 @@
         },
         {
           "id": "009-16",
-          "no": 15,
+          "no": 11,
           "标签": "2021 · 东华高级中学 · 高二下期末",
           "题型": "单词拼写",
           "题干": "His conclusion was based on a series of wrong ___ (猜想).",
@@ -4009,7 +3815,7 @@
           "atoms": [
             {
               "id": "029-18",
-              "no": 16,
+              "no": 12,
               "标签": "2024 · 东莞第八高级中学 · 高一上期中",
               "题型": "完成句子",
               "题干": "My parents teach us how to behave ourselves by ___ （树立榜样） us.",
@@ -4023,7 +3829,7 @@
             },
             {
               "id": "099-30",
-              "no": 17,
+              "no": 13,
               "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
               "题型": "完成句子",
               "题干": "You need to behave well and try to ___ (树立榜样) others.",
@@ -4045,7 +3851,7 @@
           "atoms": [
             {
               "id": "114-18",
-              "no": 18,
+              "no": 14,
               "标签": "2025 · 光正实验学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "Moreover, music gave me hope and ___. (满足感)",
@@ -4069,7 +3875,7 @@
           "atoms": [
             {
               "id": "133-23",
-              "no": 19,
+              "no": 15,
               "标签": "2024 · 东莞第一中学 · 高一下月考",
               "题型": "完成句子",
               "题干": "Eric’s virtual choir has inspired millions of ordinary people to achieve their dreams.",
@@ -4090,7 +3896,7 @@
       "quiz": [
         {
           "id": "037-10",
-          "no": 20,
+          "no": 16,
           "标签": "2026 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "Over the past decade, thousands of scholarships ___ (award) to students who choose to study medicine.",
@@ -4104,7 +3910,7 @@
         },
         {
           "id": "161-18",
-          "no": 21,
+          "no": 17,
           "标签": "2024 · 松山湖未来学校 · 高一上期中",
           "题型": "完成句子",
           "题干": "Lang Ping has ___ (树立榜样) to us as a coach as well as a player.",
@@ -4118,7 +3924,7 @@
         },
         {
           "id": "037-12",
-          "no": 22,
+          "no": 18,
           "标签": "2026 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "Scientists are studying many natural ___ (phenomenon) to better understand climate change.",
@@ -4132,11 +3938,11 @@
         },
         {
           "id": "133-13",
-          "no": 23,
+          "no": 19,
           "标签": "2024 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
-          "题干": "The famous play called Romeo and Juliet ___ (perform) on the stage for many times since 16th century.",
-          "题干HTML": "The famous play called Romeo and Juliet <span class=\"blank\"></span> (perform) on the stage for many times since 16th century.",
+          "题干": "The famous play called Romeo and Juliet ___ (perform) on the stage many times since the 16th century.",
+          "题干HTML": "The famous play called Romeo and Juliet <span class=\"blank\"></span> (perform) on the stage many times since the 16th century.",
           "cue": [],
           "提示词": "perform",
           "答案": "has been performed",
@@ -4147,7 +3953,7 @@
         },
         {
           "id": "039-15",
-          "no": 24,
+          "no": 20,
           "标签": "2026 · 东莞第六高级中学 · 高一下期末",
           "题型": "语法填空",
           "题干": "Jump like a rabbit, run like the wind — be ___ (energy) and make every moment fun!",
@@ -4161,7 +3967,7 @@
         },
         {
           "id": "138-22",
-          "no": 25,
+          "no": 21,
           "标签": "2023 · 东莞第十中学 · 高一上期中",
           "题型": "完成句子",
           "题干": "As a world-class athlete, he has ___ (给……树立榜样) his fellows and followers.",
@@ -4175,7 +3981,7 @@
         },
         {
           "id": "040-07",
-          "no": 26,
+          "no": 22,
           "标签": "2026 · 东莞第十二高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "Traveling offers teenagers different ___ (opportunity) to experience different cultures.",
@@ -4189,7 +3995,7 @@
         },
         {
           "id": "090-16",
-          "no": 27,
+          "no": 23,
           "标签": "2024 · 东华高级中学 · 高一下月考",
           "题型": "语法填空",
           "题干": "___ (equip) with nothing, he plunged into the turbulent flow to rescue the drowning child.",
@@ -4203,7 +4009,7 @@
           "answer_show": null
         }
       ],
-      "numbered_total": 27
+      "numbered_total": 23
     }
   ]
 }

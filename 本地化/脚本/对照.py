@@ -413,6 +413,22 @@ def expand_phrase(phrase, lem):
     return res
 
 
+def clean_phrase(phrase):
+    """搭配原文 → 词头用的短语：去括号内容与省略号，斜线备选取第一个，去掉句末占位词。
+    如 make（good/full）use of → make use of；the first/second/... time → the first time；
+    set an example for sb → set an example for；make up one's mind to do sth → make up one's mind。"""
+    s = phrase.replace('（', '(').replace('）', ')').replace('…', ' ').replace('’', "'")
+    s = re.sub(r'\([^()]*\)', ' ', s)
+    s = re.sub(r'\.{2,}', ' ', s)
+    out = [t.split('/')[0].strip(" .,;:!?\"“”").lower() for t in s.split()]
+    out = [t for t in out if t and t not in ('sb', 'sth', 'sp', 'somebody', 'something')]
+    while out and out[-1] in ('sb', 'sth', 'sp', 'somebody', 'something', 'do', 'doing'):
+        last = out.pop()
+        if last == 'do' and out and out[-1] == 'to':     # 不定式符号随 do 一起去掉
+            out.pop()
+    return ' '.join(out)
+
+
 def chain_match(toks, key):
     """在文本词元序列 toks 中找 key（实词原形有序，相邻两词间最多隔 3 个词）。返回 (起, 止) 或 None。"""
     n = len(toks)
@@ -536,6 +552,27 @@ def main():
                         '唯一': uniq})
         return out
 
+    # 搭配的词头：狂K 把一些搭配挂在不相干的词条下（set an example 挂在 set sth up 下，
+    # make fun of 挂在 make it 下，the first time 挂在 moment 下）。词条本身是单词、且搭配里
+    # 有它的同族词时，词头仍用该词条；否则词头用搭配本身（规范化后的短语）。
+    fam_lemmas = {}
+    def family(hw):
+        if hw not in fam_lemmas:
+            ws = {hw} | {d for (a, d) in derive_pairs if a == hw}
+            fam_lemmas[hw] = {lem.lemma(w) for w in ws} | ws
+        return fam_lemmas[hw]
+
+    def phrase_head(词头, 短语, key):
+        hw = 词头.strip().lower()
+        if re.fullmatch(r"[a-z][a-z'\-]*", hw) and set(key) & family(hw):
+            return 词头.strip()
+        # 词条是短语、且搭配只是它的变体（make some difference ← make a difference）：仍用词条。
+        # 词条至少两个实词才算（make it 只有一个实词，make fun of 不能归它）。
+        pk = expand_phrase(词头, lem)
+        if pk and all(set(k) <= set(key) for k in pk):
+            return 词头.strip()
+        return clean_phrase(短语)
+
     def phrase_hits(text, scope):
         toks = [lem.lemma(t) for t in _words(text)]
         hits, seen = [], set()
@@ -548,7 +585,7 @@ def main():
                 snippet = ' '.join(text.split())
                 if len(snippet) > 60:
                     snippet = snippet[:60] + '…'
-                hits.append({'序': 序, '词头': 词头, '方式': '搭配',
+                hits.append({'序': 序, '词头': phrase_head(词头, 短语, key), '方式': '搭配',
                              '证据': f"{短语}｜{scope}：{snippet}",
                              '唯一': len(key_to_units[key]) == 1})
         return hits

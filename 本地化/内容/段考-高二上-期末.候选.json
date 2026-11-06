@@ -2,7 +2,7 @@
  "册": "高二上·期末",
  "年级学期": "高二上",
  "节点": "期末",
- "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问（待负责人确认）",
+ "讲义专题来源": "默认：覆盖率 ≥ 30% 且覆盖 ≥ 2 卷，不含 被动、时态、情态动词、比较级、省略、反意疑问；另讲时态与被动（被动或时态覆盖率 ≥ 60%，2026-11-06 所有者定）",
  "卷数": 6,
  "推定卷数": 0,
  "题数_关键词": 115,
@@ -516,7 +516,7 @@
      "id": "008-24",
      "标签": "2019 · 东莞市 · 高二上期末",
      "题型": "完成句子",
-     "题干": "To our surprise, Carl Marx should have lived and died in London.\n___ is that Carl Marx should have lived and died in London.",
+     "题干": "To our surprise, Karl Marx should have lived and died in London.\n___ is that Karl Marx should have lived and died in London.",
      "提示词": null,
      "答案": "What ； surprised ； us",
      "解析": "原句中的介词短语To our surprise转换成同义句中主语从句What surprised us。故填What surprised us。",
@@ -874,7 +874,7 @@
      "id": "023-10",
      "标签": "2022 · 东莞中学 · 高二上期末",
      "题型": "语法填空",
-     "题干": "Holiday is usually a time ___ everybody takes a break from daily work.",
+     "题干": "Holidays are usually a time ___ everybody takes a break from daily work.",
      "提示词": null,
      "答案": "when",
      "解析": "【考点】关系副词when引导限制性定语从句\n先行词time在定语从句中作时间状语，用关系副词when引导从句。\n故填：when。",
@@ -914,7 +914,7 @@
      "id": "060-10",
      "标签": "2022 · 东莞市 · 高二上期末",
      "题型": "语法填空",
-     "题干": "Holiday is usually a time ___ everybody takes a break from daily work.",
+     "题干": "Holidays are usually a time ___ everybody takes a break from daily work.",
      "提示词": null,
      "答案": "when",
      "解析": "考查定语从句关系词。句意：假期通常是每个人从日常工作中休息一下的时间。分析句子结构可知，空处引导定语从句，从句中结构完整，现行词是time，在从句中作时间状语，应用when引导。故填when。",
@@ -971,6 +971,114 @@
     }
    ],
    "编号": 4
+  },
+  {
+   "名称": "被动",
+   "讲": true,
+   "覆盖卷": 4,
+   "覆盖率": 0.67,
+   "题数": 7,
+   "候选": {
+    "本节点": 4,
+    "借用": 0,
+    "合计": 4
+   },
+   "子类": {
+    "其他": {
+     "题数": 4,
+     "题": [
+      "002-24",
+      "008-15",
+      "008-17",
+      "150-20"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "002-24",
+     "标签": "2018 · 东华高级中学 · 高二上期末",
+     "题型": "语法填空",
+     "题干": "He risked ___ (punish) by his teacher when he played his cell phone in class secretly.",
+     "提示词": "punish",
+     "答案": "being punished",
+     "解析": "由上文的risk可知使用动词短语risk doing sth.“冒险做某事”，punish与主语He构成被动的关系，因此使用其被动式risk being done的形式。故答案为：being punished。",
+     "句意": "当他在课上暗自玩手机的时候，他冒着被老师惩罚的风险。",
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "008-15",
+     "标签": "2019 · 东莞市 · 高二上期末",
+     "题型": "语法填空",
+     "题干": "In spite of ___ (ban) to enter the U.S.A. market, Huawei company still finds ways to survive.",
+     "提示词": "ban",
+     "答案": "being banned",
+     "解析": "分析句子结构，ban“禁止”与逻辑主语构成被动的关系，且In spite of“虽然，尽管”后接动词时使用其动名词形式，因此使用being done的形式。故答案为being banned。",
+     "句意": "尽管被禁止进入美国市场，华为公司仍然找到存活下来的方法。",
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "008-17",
+     "标签": "2019 · 东莞市 · 高二上期末",
+     "题型": "语法填空",
+     "题干": "Every year many foreign visitors ___ (attract) by the beautiful scenery in China.",
+     "提示词": "attract",
+     "答案": "are attracted",
+     "解析": "visitors与attract之间是动宾关系，根据时间状语Every year要用一般现在时的被动语态。故填are attracted。",
+     "句意": "每年许多外国游客被中国的美丽景色所吸引。",
+     "cue": [],
+     "主考点": "被动",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "150-20",
+     "标签": "2025 · 翰林高级中学 · 高二上期末",
+     "题型": "完成句子",
+     "题干": "He had sliced the potatoes before I could prevent him.",
+     "提示词": null,
+     "答案": "The potatoes had been sliced (by him) before I could prevent him.",
+     "解析": "考查被动语态的转换。原句句意：我还没来得及阻止他，他就把土豆切好了。可将主句中主动语态改为被动语态，即“我还没来得及阻止他，土豆切就被他切好了”；被动语态的基本结构为“be+过去分词”，原句中谓语“had sliced”是过去完成时，改为被动语态后用“had been+过去分词”，即had been sliced；原句的宾语“the potatoes”在被动句中作主语，动作的发出者“him”可以用“by him”引出，也可以省略。故填：The potatoes had been sliced (by him) before I could prevent him.",
+     "句意": null,
+     "cue": [
+      "用被动语态改写"
+     ],
+     "主考点": "被动",
+     "主考点来源": "考查",
+     "其他命中": [
+      "非谓语"
+     ],
+     "考查句": "考查被动语态的转换",
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 5
   },
   {
    "名称": "强调句",
@@ -1076,7 +1184,93 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 5
+   "编号": 6
+  },
+  {
+   "名称": "时态",
+   "讲": true,
+   "覆盖卷": 3,
+   "覆盖率": 0.5,
+   "题数": 5,
+   "候选": {
+    "本节点": 3,
+    "借用": 0,
+    "合计": 3
+   },
+   "子类": {
+    "其他": {
+     "题数": 3,
+     "题": [
+      "008-22",
+      "008-27",
+      "023-13"
+     ]
+    }
+   },
+   "题": [
+    {
+     "id": "008-22",
+     "标签": "2019 · 东莞市 · 高二上期末",
+     "题型": "完成句子",
+     "题干": "The reason he gave for his absence from the meeting ___ (讲得通).",
+     "提示词": null,
+     "答案": "made ； sense",
+     "解析": "make sense讲得通；有意义，因事情已发生，要用一般过去时。故填made sense。",
+     "句意": "他所说的缺席会议的理由是有道理的。",
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "008-27",
+     "标签": "2019 · 东莞市 · 高二上期末",
+     "题型": "翻译",
+     "题干": "上周我们参观了我叔叔十年前工作过的博物馆。",
+     "提示词": null,
+     "答案": "Last week we visited the museum where my uncle worked ten years ago.",
+     "解析": "“上周”last week是句子的时间状语，表示过去发生的事件，因此谓语动词使用一般过去时，visit the museum“参观博物馆”，museum在句中作先行词，在定语从句中充当地点状语，因此使用where引导定语从句。故答案为Last week we visited the museum where my uncle worked ten years ago.。",
+     "句意": null,
+     "cue": [
+      "用定语从句翻译"
+     ],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [
+      "定语从句"
+     ],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    },
+    {
+     "id": "023-13",
+     "标签": "2022 · 东莞中学 · 高二上期末",
+     "题型": "语法填空",
+     "题干": "By the end of last month，China ___ （build） 1.7 million 5 G base stations.",
+     "提示词": "build",
+     "答案": "had built",
+     "解析": "【考点】过去完成时\nbuild\"建造\"，根据时间状语By the end of last month可知，要用过去完成时。\n故填：had built。",
+     "句意": "截至上月底，中国已建成170万个5 G基站。",
+     "cue": [],
+     "主考点": "时态",
+     "主考点来源": "全文",
+     "其他命中": [],
+     "考查句": null,
+     "疑似缺陷": false,
+     "标记": [],
+     "子类": "其他",
+     "子类依据": null
+    }
+   ],
+   "编号": 7
   },
   {
    "名称": "状语从句",
@@ -1142,7 +1336,7 @@
      "子类依据": "全文"
     }
    ],
-   "编号": 6
+   "编号": 8
   },
   {
    "名称": "虚拟语气",
@@ -1198,36 +1392,6 @@
    "题数": 0,
    "候选": {
     "本节点": 0,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
-   "名称": "被动",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 4,
-   "覆盖率": 0.67,
-   "题数": 7,
-   "候选": {
-    "本节点": 4,
-    "借用": 0,
-    "合计": 0
-   },
-   "子类": {},
-   "题": []
-  },
-  {
-   "名称": "时态",
-   "讲": false,
-   "编号": null,
-   "覆盖卷": 3,
-   "覆盖率": 0.5,
-   "题数": 5,
-   "候选": {
-    "本节点": 3,
     "借用": 0,
     "合计": 0
    },
@@ -1318,7 +1482,7 @@
    "倒装": 1
   },
   "疑似缺陷题数": 0,
-  "候选合计": 45,
+  "候选合计": 52,
   "借用合计": 0,
   "借用节点分布": {},
   "不足 8 题的讲专题": []

@@ -413,7 +413,7 @@
           "level": "必练"
         },
         {
-          "stem": "David applied for the position but we had to decline him because he was too old.\nDavid applied for the position but we had to ___ because he was too old.",
+          "stem": "David applied for the position but we had to reject him because he was too old.\nDavid applied for the position but we had to ___ because he was too old.",
           "cue": [
             "同义句转换"
           ],
@@ -769,7 +769,7 @@
           "level": "必练"
         },
         {
-          "stem": "I consider ___ necessary to inform people of the severity of the infection disease.",
+          "stem": "I consider ___ necessary to inform people of the severity of the infectious disease.",
           "cue": [],
           "src": "2024 · 厚街中学 · 高二下月考",
           "ans": "it",
@@ -976,7 +976,7 @@
           "level": "必练"
         },
         {
-          "stem": "这份报告呼吁应该教会所有的儿童游泳。\nThe report urges that all children ___ (teach) 。",
+          "stem": "这份报告呼吁应该教会所有的儿童游泳。\nThe report urges that all children ___ (teach).",
           "cue": [
             "用被动语态完成句子"
           ],

@@ -360,14 +360,14 @@
             "形式主动，意义被动"
           ],
           "stem": {
-            "text": "It is worth ___ (check) if the writer of an online piece is properly qualifies as an expert.",
+            "text": "It is worth ___ (check) if the writer of an online piece is properly qualified as an expert.",
             "cue": [],
             "src": "2023 · 东华高级中学 · 高一下月考"
           },
           "ju": "值得核实网络文章的作者是否真的具备专家资质。",
           "mid": {
             "label": "判断",
-            "text": "be worth doing 形式上用动名词，意义上是被动，即“值得被核实”。 原题 is properly qualifies 应为 is properly qualified。"
+            "text": "be worth doing 形式上用动名词，意义上是被动，即“值得被核实”。 原题 is properly qualified 应为 is properly qualified。"
           },
           "ans": "checking"
         },
@@ -487,7 +487,7 @@
           "level": "必练"
         },
         {
-          "stem": "Since it was released in mid-January, the TV series, The Knockout, have become the hot topic on China’s major social media.\n___, the TV series, The Knockout, have become the hot topic on China’s major social media.",
+          "stem": "Since it was released in mid-January, the TV series, The Knockout, has become the hot topic on China’s major social media.\n___, the TV series, The Knockout, has become the hot topic on China’s major social media.",
           "cue": [
             "用分词改写"
           ],
@@ -755,7 +755,7 @@
           "level": "必练"
         },
         {
-          "stem": "Teachers always remind you of ___ (留心) the mistakes which you have made so many times, but you just forget it!",
+          "stem": "Teachers always remind you of ___ (留心) the mistakes which you have made so many times, but you just forget them!",
           "cue": [],
           "src": "2024 · 东莞第一中学 · 高一下月考",
           "ans": "keeping your eyes open for",
@@ -791,7 +791,7 @@
           "level": "必练"
         },
         {
-          "stem": ", I was a bit upset with the way it finished.(坦率地说)",
+          "stem": "___, I was a bit upset with the way it finished.(坦率地说)",
           "cue": [],
           "src": "2023 · 东莞中学松山湖学校 · 高一下月考",
           "ans": "To be frank",
@@ -1223,7 +1223,7 @@
           "level": "必练"
         },
         {
-          "stem": "ChatGPT is an advanced AI chatbot created by OpenAI which interacts in a conversational way.\nChatGPT is an advanced AI chatbot ___ by OpenAI which interacts in a conversational way.",
+          "stem": "ChatGPT is an advanced AI chatbot created by OpenAI, which interacts in a conversational way.\nChatGPT is an advanced AI chatbot ___ by OpenAI which interacts in a conversational way.",
           "cue": [
             "同义句改写"
           ],
@@ -1905,7 +1905,7 @@
           "level": "必练"
         },
         {
-          "stem": "There are two roads before us, one ___ (lead) to the success, the other to the failure.",
+          "stem": "There are two roads before us, one ___ (lead) to success, the other to failure.",
           "cue": [],
           "src": "2025 · 虎门外国语学校 · 高一下联考",
           "ans": "leading",

@@ -88,6 +88,8 @@ REWRITE_RE = re.compile(r'同义|改写|合并|转换|用.*翻译|句型')
 # 143-16 Amazingly（句首副词，首字母大写）；107-19 brochures（For more 后用复数，解析一致）。核对后可从 待校对.tsv 移除，并删去此处。
 # 题号全库唯一，故为通用集合（不分册）。
 CHECKED_OK = {'087-10', '101-12', '143-16', '107-19'}
+# 题干有误、不用的题（2026-11-06：107-24 题干 tireless effect 应为 efforts，与提示「影响，结果」矛盾，改不成原题）
+EXCLUDE = {'107-24'}
 CN_HINT_RE = re.compile(r'[（(][^（）()]*[一-鿿][^（）()]*[）)]')
 
 TYPE_ORDER = ['语法填空', '完成句子', '单词拼写', '翻译', '单选', '其他']
@@ -300,6 +302,30 @@ def load():
             'checked': checked, 'ok_hit': ok_hit, 'owner': owner, 'vocab': vocab, 'phrase_zh': phrase_zh}
 
 
+def earlier_printed(book, Q):
+    """本册之前各册（按 BOOKS 顺序）定稿里印过的题：返回 (重复组集合, 题干键集合, 题号集合)。
+    同步讲义内同一道题只印一次，留在最早的一册（2026-11-06 所有者定），选题时排除。
+    例外（同日所有者定）：选必可以重用必修印过的题（高一、高二隔一年，算复习），只排除前面的选必册。"""
+    names = [b for b in BOOKS if b[:2] == book[:2]]
+    ids = set()
+    def walk(n):
+        if isinstance(n, dict):
+            if isinstance(n.get('id'), str) and n['id'] in Q:
+                ids.add(n['id'])
+            for v in n.values():
+                walk(v)
+        elif isinstance(n, list):
+            for v in n:
+                walk(v)
+    for b in names[:names.index(book)]:
+        f = CONTENT / f'同步-{b}.定稿.json'
+        if f.exists():
+            walk(json.loads(f.read_text(encoding='utf-8')))
+    groups = {Q[i].get('重复组') for i in ids} - {None}
+    stems = {norm_key(clean_stem(Q[i]['题干'])) for i in ids}
+    return groups, stems, ids
+
+
 def build_book(book, D):
     """出一册的候选，写 本地化/内容/同步-<册>.json。"""
     Q, U, unit_meta, owner = D['Q'], D['U'], D['unit_meta'], D['owner']
@@ -320,6 +346,8 @@ def build_book(book, D):
         if q.get('解析') is None:
             return False
         if q['id'] in checked and q['id'] not in CHECKED_OK:
+            return False
+        if q['id'] in EXCLUDE:
             return False
         seg = (q.get('标签') or '').split(' · ')[-1]
         if hi:
@@ -351,9 +379,16 @@ def build_book(book, D):
                 hits.append(h)
         return hits
 
+    e_groups, e_stems, e_ids = earlier_printed(book, Q)
+
+    def printed_earlier(qid):
+        q = Q[qid]
+        return (qid in e_ids or (q.get('重复组') is not None and q['重复组'] in e_groups)
+                or norm_key(clean_stem(q['题干'])) in e_stems)
+
     cand = {}
     for qid, q in Q.items():
-        if not valid(q):
+        if not valid(q) or printed_earlier(qid):
             continue
         hits = hits_in_book(qid)
         if hits:
@@ -391,7 +426,7 @@ def build_book(book, D):
     # ---- 4b. ② 新形式与 ③ 单词拼写的候选池：高一、高二均可，重复组与题干去重（同上，年份最新优先）
     cand_hi = {}
     for qid, q in Q.items():
-        if not valid(q, hi=True):
+        if not valid(q, hi=True) or printed_earlier(qid):
             continue
         hits = hits_in_book(qid)
         if hits:

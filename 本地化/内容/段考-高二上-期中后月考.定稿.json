@@ -275,7 +275,7 @@
      "level": "必练"
     },
     {
-     "stem": "He showed me how I can start the online tour.\nHe showed me ___ the online tour.",
+     "stem": "He showed me how I could start the online tour.\nHe showed me ___ the online tour.",
      "cue": [
       "同义句转换"
      ],
@@ -452,32 +452,12 @@
    "keypoint": "从句在句中的位置决定从句类型：句首作主语，系动词后作表语。表示是否用 whether，缺成分用 what，成分齐全用 that。",
    "drill": [
     {
-     "stem": "My hometown is no longer ___ it used to be.",
-     "cue": [],
-     "src": "2023 · 虎门中学 · 高二上月考",
-     "ans": "what",
-     "why": "what 作表语，指以前的样子",
-     "group": "表语从句",
-     "level": "必练"
-    },
-    {
      "stem": "最让我印象深刻的是她对未来很乐观。",
      "cue": [],
      "src": "2023 · 麻涌中学 · 高二上月考",
      "ans": "What impressed me most was that she was very optimistic about the future.",
      "why": "What 作主语，that 引导表语从句",
      "group": "表语从句",
-     "level": "必练"
-    },
-    {
-     "stem": "The woman seemed to like the water from the pump so much that she had it delivered to her house every day.\n___ the woman liked the water from the pump so much that she had it delivered to her house every day.",
-     "cue": [
-      "同义句"
-     ],
-     "src": "2023 · 虎门中学 · 高二上月考",
-     "ans": "It seemed that",
-     "why": "It 作形式主语，that 为真正主语",
-     "group": "主语从句",
      "level": "必练"
     },
     {

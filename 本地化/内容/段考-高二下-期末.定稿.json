@@ -8,7 +8,7 @@
       "post": "套试卷"
     },
     {
-      "b": "6",
+      "b": "7",
       "post": "个专题"
     },
     {
@@ -24,10 +24,19 @@
       {
         "name": "非谓语",
         "cov": 0.88,
-        "n": 30,
+        "n": 31,
         "book": "",
         "ahead": false,
         "go": "专题 1",
+        "skip": false
+      },
+      {
+        "name": "时态与被动",
+        "cov": 0.88,
+        "n": 13,
+        "book": "",
+        "ahead": false,
+        "go": "专题 2",
         "skip": false
       },
       {
@@ -36,7 +45,7 @@
         "n": 8,
         "book": "",
         "ahead": false,
-        "go": "专题 2",
+        "go": "专题 3",
         "skip": false
       },
       {
@@ -45,7 +54,7 @@
         "n": 12,
         "book": "",
         "ahead": false,
-        "go": "专题 3",
+        "go": "专题 4",
         "skip": false
       },
       {
@@ -54,7 +63,7 @@
         "n": 12,
         "book": "",
         "ahead": false,
-        "go": "专题 4",
+        "go": "专题 5",
         "skip": false
       },
       {
@@ -63,7 +72,7 @@
         "n": 4,
         "book": "",
         "ahead": false,
-        "go": "专题 5",
+        "go": "专题 6",
         "skip": false
       },
       {
@@ -72,7 +81,7 @@
         "n": 4,
         "book": "",
         "ahead": false,
-        "go": "专题 6",
+        "go": "专题 7",
         "skip": false
       }
     ],
@@ -84,7 +93,7 @@
       "name": "非谓语",
       "vols": 8,
       "cov": 7,
-      "n": 30,
+      "n": 31,
       "explain": [
         {
           "type": "subhead",
@@ -295,7 +304,7 @@
       "keypoint": "句中已有谓语且无连词时，空处多为非谓语，可作状语、定语或宾补。分词与逻辑主语是主动关系用 -ing，被动关系用 -ed；不定式表示目的、将来或结果。have sth done 中宾补用过去分词。",
       "drill": [
         {
-          "stem": "The improvement of ecological construction in China has enabled larger amounts of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
+          "stem": "The improvement of ecological construction in China has enabled larger numbers of birds to fly into cities, ___ (become) frequent “neighbors” of human beings.",
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期末",
           "ans": "becoming",
@@ -427,6 +436,15 @@
           "level": "必练"
         },
         {
+          "stem": "People hear him ___ (accuse) of stealing valuable goods from the local supermarket.",
+          "cue": [],
+          "src": "2026 · 东莞第一中学 · 高二下期末",
+          "ans": "accused",
+          "why": "hear sb. done，宾语与动作是被动关系",
+          "group": "作宾补",
+          "level": "必练"
+        },
+        {
           "stem": "After the design was completed, he conducted several tests to see whether it was practical.",
           "cue": [
             "用with 的复合结构改写"
@@ -450,6 +468,250 @@
     },
     {
       "no": 2,
+      "name": "时态与被动",
+      "vols": 8,
+      "cov": 7,
+      "n": 13,
+      "explain": [
+        {
+          "type": "subhead",
+          "text": "定时态与语态"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "看时间状语定时态",
+            "承受者作主语用被动"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "时间状语决定时态。last week、the other day 表示过去的时间，用一般过去时；句意是动作从过去持续到现在，用现在完成进行时。"
+        },
+        {
+          "type": "p",
+          "text": "两个过去动作中，先发生的用过去完成时，后发生的用一般过去时，如 She had submitted the application when she realized she forgot her signature。"
+        },
+        {
+          "type": "p",
+          "text": "并列谓语的时态要一致。句中已有的 had 为过去式，空处也用过去式，如 Luke dragged his tired body home and then had a rest。"
+        },
+        {
+          "type": "p",
+          "text": "动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化，如 was invited、was sent。as well as 连接的成分不影响谓语，谓语与前面的主语保持一致。"
+        },
+        {
+          "type": "subhead",
+          "text": "主动改被动"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "时态不变，宾语作主语",
+            "by 后接动作执行者，可省"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "原句的宾语改作被动句的主语，谓语换成 be 加过去分词，be 的形式与原句时态一致。原句的主语放在 by 后作动作的执行者，可以省略。"
+        },
+        {
+          "type": "p",
+          "text": "时间状语不随语态改变，时态仍按原句确定，如 By the end of last week 之后，had translated 改为 had been translated。"
+        },
+        {
+          "type": "pattern",
+          "text": "has been done  |  had been done  |  will be done"
+        },
+        {
+          "type": "subhead",
+          "text": "被动的形式"
+        },
+        {
+          "type": "gloss",
+          "lines": [
+            "非谓语也有被动式",
+            "being done、to be done"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "动名词、不定式与逻辑主语是被动关系时，用被动式：动名词为 being done，如 mind being left；不定式为 to be done，如 be supposed to be rewarded。"
+        }
+      ],
+      "examples": [
+        {
+          "gloss": [
+            "看 the other day 定过去时",
+            "父亲是被派，用被动"
+          ],
+          "stem": {
+            "text": "The other day her father ___ (send) to a small village to rid the local villagers of poverty.",
+            "cue": [],
+            "src": "2021 · 东莞市 · 高二下期末"
+          },
+          "ju": "前几天，她的父亲被派到一个小村庄去帮助当地村民脱贫。",
+          "mid": {
+            "label": "判断",
+            "text": "The other day 说明动作发生在过去，用一般过去时。父亲是被派去的，谓语用 was sent。"
+          },
+          "ans": "was sent",
+          "group": "定时态与语态"
+        },
+        {
+          "gloss": [
+            "when 从句用一般过去时",
+            "先发生的用过去完成时"
+          ],
+          "stem": {
+            "text": "She ___ (submit) the application when she realized she forgot her signature.",
+            "cue": [],
+            "src": "2026 · 东莞第一中学 · 高二下期末"
+          },
+          "ju": "她刚提交完申请，就意识到自己忘了签名。",
+          "mid": {
+            "label": "判断",
+            "text": "句中 realized 是过去时，提交申请先于意识到，属于过去的过去，用过去完成时 had submitted。"
+          },
+          "ans": "had submitted",
+          "group": "定时态与语态"
+        },
+        {
+          "gloss": [
+            "宾语作主语",
+            "现在完成时的被动"
+          ],
+          "stem": {
+            "text": "They have tested the new machine to see if it works well.",
+            "cue": [
+              "用被动语态改写"
+            ],
+            "src": "2021 · 东莞市 · 高二下期末"
+          },
+          "ju": "这台新机器已由他们检验过了，看它是否运转良好。",
+          "mid": {
+            "label": "判断",
+            "text": "原句的宾语 the new machine 作被动句主语，have tested 改为 has been tested。by them 可省。"
+          },
+          "ans": "The new machine has been tested (by them) to see if it works well.",
+          "group": "主动改被动"
+        },
+        {
+          "gloss": [
+            "一般将来时的被动",
+            "will be done"
+          ],
+          "stem": {
+            "text": "To arouse the students' interests in English learning, our school will hold an English speaking contest next Friday.\nAn English speaking contest ___ in our school next Friday to arouse the students' interest in English learning.",
+            "cue": [
+              "句型转换"
+            ],
+            "src": "2018 · 东莞市 · 高二下期末"
+          },
+          "ju": "为了激发学生对英语学习的兴趣，我们学校下周将举行英语演讲比赛。",
+          "mid": {
+            "label": "判断",
+            "text": "原句 will hold 是主动，contest 与 hold 是动宾关系，改为被动用 will be held，contest 作主语。"
+          },
+          "ans": "will be held",
+          "group": "主动改被动"
+        }
+      ],
+      "keypoint": "时态由时间状语、并列谓语和句意决定。动作的承受者是主语时，谓语用 be 加过去分词，be 随时态变化；主动改被动时，原句的宾语作主语，时态不变。非谓语的被动式为 being done、to be done。",
+      "drill": [
+        {
+          "stem": "I ___ (starve) all day because I skipped breakfast.",
+          "cue": [],
+          "src": "2026 · 东莞第一中学 · 高二下期末",
+          "ans": "have been starving",
+          "why": "句意持续到现在，用现在完成进行时",
+          "group": "定时态与语态",
+          "level": "必练"
+        },
+        {
+          "stem": "After a whole day’s work, Luke ___ (drag) his tired body home and then had a rest.",
+          "cue": [],
+          "src": "2023 · 东莞市 · 高二下期末",
+          "ans": "dragged",
+          "why": "并列谓语 had 为过去式，故用过去式",
+          "group": "定时态与语态",
+          "level": "必练"
+        },
+        {
+          "stem": "Tom, as well as other staff members, ___ (invite) to this world-famous company's 100th anniversary last week.",
+          "cue": [],
+          "src": "2018 · 东莞市 · 高二下期末",
+          "ans": "was invited",
+          "why": "一般过去时的被动，谓语随 Tom",
+          "group": "定时态与语态",
+          "level": "必练"
+        },
+        {
+          "stem": "The government has taken effective measures to protect the endangered animals.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2025 · 东莞市 · 高二下期末",
+          "ans": "Effective measures have been taken to protect the endangered animals by the government.",
+          "why": "现在完成时被动，measures 为复数",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "By the end of last week, she had translated the book into three languages.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2024 · 东莞市 · 高二下期末",
+          "ans": "By the end of last week, the book had been translated into three languages (by her).",
+          "why": "过去完成时被动，had been done",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "The hero’s tales have inspired many explorers to search for sea routes.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2023 · 东莞市 · 高二下期末",
+          "ans": "Many explorers have been inspired by the hero’s tales to search for sea routes.",
+          "why": "现在完成时被动，宾语作主语",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "They are testing out the new system to see if it works well.",
+          "cue": [
+            "用被动语态改写"
+          ],
+          "src": "2022 · 东莞市 · 高二下期末",
+          "ans": "The new system is being tested out by them to see if it works well.",
+          "why": "现在进行时被动，is being done",
+          "group": "主动改被动",
+          "level": "必练"
+        },
+        {
+          "stem": "You are supposed ___ (reward) with kindness when you treat others sincerely.",
+          "cue": [],
+          "src": "2026 · 东莞第一中学 · 高二下期末",
+          "ans": "to be rewarded",
+          "why": "be supposed to do，you 与 reward 是被动关系",
+          "group": "被动的形式",
+          "level": "必练"
+        },
+        {
+          "stem": "The child doesn't mind ___ (leave) at home when his parents go out to have a walk.",
+          "cue": [],
+          "src": "2018 · 东莞市 · 高二下期末",
+          "ans": "being left",
+          "why": "mind doing，child 与 leave 是被动关系",
+          "group": "被动的形式",
+          "level": "必练"
+        }
+      ]
+    },
+    {
+      "no": 3,
       "name": "it 形式主宾语",
       "vols": 8,
       "cov": 7,
@@ -517,17 +779,6 @@
       "keypoint": "真正的主语或宾语是不定式或从句时，句首或宾语位置用 it 占位。find、consider、think 等词后接宾补（形容词）时，用 it 作形式宾语，真正的宾语放在宾补之后。",
       "drill": [
         {
-          "stem": "我认为，在日常生活中尝试去独立解决问题很重要。",
-          "cue": [
-            "用形式宾语翻译"
-          ],
-          "src": "2024 · 东莞市 · 高二下期末",
-          "ans": "I think it very important to try to solve problems independently in daily life.",
-          "why": "consider it adj. 句型",
-          "group": "形式宾语 it",
-          "level": "必练"
-        },
-        {
           "stem": "David considers ___ necessary for a language learner to practise listening and speaking every day.",
           "cue": [],
           "src": "2023 · 东莞市 · 高二下期末",
@@ -553,22 +804,11 @@
           "why": "It 作形式主语，how 从句为主语",
           "group": "形式主语 it",
           "level": "必练"
-        },
-        {
-          "stem": "People assume that economic development and environmental protection are equally important.\n___ economic development and environmental protection are equally important.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2021 · 东莞市 · 高二下期末",
-          "ans": "It is assumed that",
-          "why": "形式主语句 It is assumed that…",
-          "group": "形式主语 it",
-          "level": "必练"
         }
       ]
     },
     {
-      "no": 3,
+      "no": 4,
       "name": "定语从句",
       "vols": 8,
       "cov": 6,
@@ -680,15 +920,6 @@
           "level": "必练"
         },
         {
-          "stem": "Youth is a time ___ habits and interests affecting the rest of your life are formed and developed.",
-          "cue": [],
-          "src": "2021 · 东莞市 · 高二下期末",
-          "ans": "when",
-          "why": "时间先行词用 when",
-          "group": "关系副词",
-          "level": "必练"
-        },
-        {
           "stem": "The design of the building is unique, ___ aims to create a harmonious blend of modern and traditional elements.",
           "cue": [],
           "src": "2025 · 东莞市 · 高二下期末",
@@ -729,7 +960,7 @@
       ]
     },
     {
-      "no": 4,
+      "no": 5,
       "name": "名词性从句",
       "vols": 8,
       "cov": 6,
@@ -874,7 +1105,7 @@
           "level": "必练"
         },
         {
-          "stem": "\"Can I apply to be a volunteer in the coming marathon?\" ___ Mary asked\nMary asked ___ apply to be a volunteer in the coming marathon.",
+          "stem": "\"Can I apply to be a volunteer in the coming marathon?\" Mary asked.\nMary asked ___ apply to be a volunteer in the coming marathon.",
           "cue": [
             "改为间接引语"
           ],
@@ -887,7 +1118,7 @@
       ]
     },
     {
-      "no": 5,
+      "no": 6,
       "name": "倒装",
       "vols": 8,
       "cov": 4,
@@ -975,7 +1206,7 @@
       ]
     },
     {
-      "no": 6,
+      "no": 7,
       "name": "状语从句",
       "vols": 8,
       "cov": 3,

@@ -1873,103 +1873,6 @@
      ]
     },
     {
-     "词头": "motivate",
-     "题数": 1,
-     "gloss": "表状态的形容词用 -ed<br>motivate 的形容词形式",
-     "chain": [
-      {
-       "词": "motivate",
-       "词性": "vt.",
-       "释义": "激励",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "motivated",
-       "词性": "adj.",
-       "释义": "有干劲的",
-       "hit": true,
-       "来源": "派生"
-      },
-      {
-       "词": "motivation",
-       "词性": "n.",
-       "释义": "积极性",
-       "hit": false,
-       "来源": "派生"
-      },
-      {
-       "词": "motive",
-       "词性": "n.",
-       "释义": "动机",
-       "hit": false,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "032-14",
-       "no": 5,
-       "标签": "2026 · 东莞外国语学校 · 高二下期中",
-       "题型": "语法填空",
-       "题干": "Thanks to Shackleton’s courage and resolve, the crew members stay ___ (motivate) in the extreme Antarctica conditions.",
-       "题干HTML": "Thanks to Shackleton’s courage and resolve, the crew members stay <span class=\"blank\"></span> (motivate) in the extreme Antarctica conditions.",
-       "cue": [],
-       "提示词": "motivate",
-       "答案": "motivated",
-       "解析": "句意：多亏了沙克尔顿的勇气和决心，船员们在极端的南极条件下仍保持着动力。作表语，表示“积极的，有动力的”，用形容词motivated。",
-       "句意": "",
-       "reason": "stay 后作表语，表状态用 -ed",
-       "answer_show": null
-      }
-     ]
-    },
-    {
-     "词头": "qualify",
-     "题数": 1,
-     "gloss": "形容词后用名词<br>qualify 的名词形式",
-     "chain": [
-      {
-       "词": "qualify",
-       "词性": "vi.",
-       "释义": "取得资格",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "qualified",
-       "词性": "adj.",
-       "释义": "符合资格",
-       "hit": false,
-       "来源": "派生"
-      },
-      {
-       "词": "qualification",
-       "词性": "n.",
-       "释义": "资格",
-       "hit": true,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "120-06",
-       "no": 6,
-       "标签": "2025 · 厚街中学 · 高二下月考",
-       "题型": "语法填空",
-       "题干": "Working experience is a necessary ___ (qualify) for this job.",
-       "题干HTML": "Working experience is a necessary <span class=\"blank\"></span> (qualify) for this job.",
-       "cue": [],
-       "提示词": "qualify",
-       "答案": "qualification",
-       "解析": "考查名词。句意：工作经验是这份工作的必要资格。空格前有不定冠词a，需要填名词形式作表语。故填qualification。",
-       "句意": "",
-       "reason": "necessary 后作中心词，用名词",
-       "answer_show": null
-      }
-     ]
-    },
-    {
      "词头": "resolve",
      "题数": 1,
      "gloss": "冠词后用名词<br>resolve 的名词形式",
@@ -1992,7 +1895,7 @@
      "atoms": [
       {
        "id": "082-15",
-       "no": 7,
+       "no": 5,
        "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
        "题型": "语法填空",
        "题干": "He made a ___ (resolve) to improve his physical fitness by exercising regularly and eating a healthier diet.",
@@ -2030,7 +1933,7 @@
      "atoms": [
       {
        "id": "007-08",
-       "no": 8,
+       "no": 6,
        "标签": "2019 · 石龙中学 · 高二上月考",
        "题型": "语法填空",
        "题干": "___ (rough) speaking, we receive about fifty letters a week on the subject.",
@@ -2044,44 +1947,6 @@
        "answer_show": null
       }
      ]
-    },
-    {
-     "词头": "ultimate",
-     "题数": 1,
-     "gloss": "句首修饰全句用副词<br>ultimate 的副词形式",
-     "chain": [
-      {
-       "词": "ultimate",
-       "词性": "adj.",
-       "释义": "最终的",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "ultimately",
-       "词性": "adv.",
-       "释义": "最终地",
-       "hit": true,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "077-11",
-       "no": 9,
-       "标签": "2024 · 万江中学 · 高二上期中",
-       "题型": "语法填空",
-       "题干": "___ (ultimate), people will suffer because the health care they need does not reach them.",
-       "题干HTML": "<span class=\"blank\"></span> (ultimate), people will suffer because the health care they need does not reach them.",
-       "cue": [],
-       "提示词": "ultimate",
-       "答案": "Ultimately",
-       "解析": "考查副词。句意：最终，人们将遭受痛苦，因为他们无法获得所需要的医疗保健。空处应用副词，修饰整个句子。ultimately意为“最终，最后”，位于句首应大写首字母。故填Ultimately。",
-       "句意": "",
-       "reason": "句首修饰全句，副词",
-       "answer_show": null
-      }
-     ]
     }
    ],
    "spelling": [],
@@ -2090,7 +1955,7 @@
    "quiz": [
     {
      "id": "115-18",
-     "no": 10,
+     "no": 7,
      "标签": "2025 · 光正实验学校 · 高一下月考",
      "题型": "语法填空",
      "题干": "The house, ___ (belong) to my aunt, has completely been broken now.",
@@ -2105,7 +1970,7 @@
     },
     {
      "id": "060-06",
-     "no": 11,
+     "no": 8,
      "标签": "2022 · 东莞市 · 高二上期末",
      "题型": "语法填空",
      "题干": "Jane looked at the job ___ (advertise) and to her surprise it really suited her.",
@@ -2119,7 +1984,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 11
+   "numbered_total": 8
   },
   {
    "序": 31,
@@ -2285,73 +2150,6 @@
    ],
    "families": [
     {
-     "词头": "variation",
-     "题数": 3,
-     "gloss": "修饰名词用形容词<br>a ___ of 后用名词",
-     "chain": [
-      {
-       "词": "variation",
-       "词性": "n.",
-       "释义": "变化",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "vary",
-       "词性": "vi.",
-       "释义": "变化",
-       "hit": false,
-       "来源": "派生"
-      },
-      {
-       "词": "various",
-       "词性": "adj.",
-       "释义": "各种不同的",
-       "hit": true,
-       "来源": "派生"
-      },
-      {
-       "词": "variety",
-       "词性": "n.",
-       "释义": "不同种类",
-       "hit": true,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "149-09",
-       "no": 1,
-       "标签": "2025 · 翰林高级中学 · 高一上期末",
-       "题型": "语法填空",
-       "题干": "As an English lover, he has taken part in a ___ (various) of activities, including listening, speaking reading and writing.",
-       "题干HTML": "As an English lover, he has taken part in a <span class=\"blank\"></span> (various) of activities, including listening, speaking reading and writing.",
-       "cue": [],
-       "提示词": "various",
-       "答案": "variety",
-       "解析": "考查名词。句意：作为一名英语爱好者，他参加了各种各样的活动，包括听、说、读、写。“a variety of”是固定短语，意为“各种各样的”。故填variety。",
-       "句意": "",
-       "reason": "a variety of 表示多种，用名词",
-       "answer_show": null
-      },
-      {
-       "id": "086-08",
-       "no": 2,
-       "标签": "2023 · 东华高级中学 · 高一下月考",
-       "题型": "语法填空",
-       "题干": "From this point forward, many developers helped to make ___ (vary) types of computer.",
-       "题干HTML": "From this point forward, many developers helped to make <span class=\"blank\"></span> (vary) types of computer.",
-       "cue": [],
-       "提示词": "vary",
-       "答案": "various",
-       "解析": "考查形容词。句意：从那时起，许多开发人员帮助制造了各种类型的计算机。分析句子结构可知，此处应为形容词作定语，vary的形容词为various意为“各种各样的”。故填various。",
-       "句意": "",
-       "reason": "修饰 types，形容词作定语",
-       "answer_show": null
-      }
-     ]
-    },
-    {
      "词头": "respectively",
      "题数": 2,
      "gloss": "句末表示分别，用副词<br>respective 的副词形式",
@@ -2374,7 +2172,7 @@
      "atoms": [
       {
        "id": "030-13",
-       "no": 3,
+       "no": 1,
        "标签": "2026 · 万江中学 · 高二下期中",
        "题型": "语法填空",
        "题干": "Located in the east and west of the city, the two campuses cover 200 and 350 square kilometers ___ (respective).",
@@ -2385,44 +2183,6 @@
        "解析": "句意：两个校区分别坐落于城市东部和西部，占地200和350平方公里。此处修饰动词作状语，需用副词，respective对应的副词形式为respectively，意为“分别地”。",
        "句意": "",
        "reason": "句末表示分别对应，用副词",
-       "answer_show": null
-      }
-     ]
-    },
-    {
-     "词头": "homesick",
-     "题数": 1,
-     "gloss": "作主语用名词<br>homesick 的名词形式",
-     "chain": [
-      {
-       "词": "homesick",
-       "词性": "adj.",
-       "释义": "思乡的",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "homesickness",
-       "词性": "n.",
-       "释义": "思乡之情",
-       "hit": true,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "152-10",
-       "no": 4,
-       "标签": "2023 · 虎门中学 · 高二上月考",
-       "题型": "语法填空",
-       "题干": "___ (homesick) is always with me, particularly during Chinese traditional festivals.",
-       "题干HTML": "<span class=\"blank\"></span> (homesick) is always with me, particularly during Chinese traditional festivals.",
-       "cue": [],
-       "提示词": "homesick",
-       "答案": "Homesickness",
-       "解析": "考查名词。句意：乡愁一直伴随着我，尤其是在中国的传统节日里。句中用名词作主语。homesick的名词形式为homesickness，为不可数名词。根据句意，故填Homesickness。",
-       "句意": "",
-       "reason": "句首作主语，用名词",
        "answer_show": null
       }
      ]
@@ -2457,7 +2217,7 @@
      "atoms": [
       {
        "id": "135-08",
-       "no": 5,
+       "no": 2,
        "标签": "2026 · 东莞第一中学 · 高二下期中",
        "题型": "语法填空",
        "题干": "I didn’t feel at all ___ (sympathy) towards Kate.",
@@ -2476,44 +2236,6 @@
    "spelling": [],
    "phrases": [
     {
-     "短语": "make a difference to",
-     "释义": "对……有影响；起作用",
-     "词头": "make a difference",
-     "gloss": "有影响的对象用 to 引出<br>动词 make 随主语变化",
-     "atoms": [
-      {
-       "id": "031-17",
-       "no": 6,
-       "标签": "2025 · 东莞市 · 高一上期末",
-       "题型": "完成句子",
-       "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
-       "题干HTML": "Your small acts of kindness can <span class=\"blank\"></span> (有影响) to someone’s life.",
-       "cue": [],
-       "提示词": null,
-       "答案": "make ； a ； difference",
-       "解析": "考查动词短语。句意：你小小的善举能对某人的生活产生影响。can是情态动词，后接动词原形，make a difference是固定短语，意为“有影响，起作用”。故填make a difference。",
-       "句意": "",
-       "reason": "can 后接动词原形，to 引出对象",
-       "answer_show": null
-      },
-      {
-       "id": "099-38",
-       "no": 7,
-       "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
-       "题型": "完成句子",
-       "题干": "I’ve learned that you are never too small to ___ (有影响).",
-       "题干HTML": "I’ve learned that you are never too small to <span class=\"blank\"></span> (有影响).",
-       "cue": [],
-       "提示词": null,
-       "答案": "make a difference",
-       "解析": "考查固定短语。句意：我了解到，你永远不会太渺小而无法产生影响。根据汉语提示可知，表示“有影响”应使用固定短语make a difference，空前为不定式符号to，所以此处使用动词原形。故填make a difference。",
-       "句意": "",
-       "reason": "too…to 后接动词原形",
-       "answer_show": null
-      }
-     ]
-    },
-    {
      "短语": "make sense",
      "释义": "有意义；讲得通",
      "词头": "make sense",
@@ -2521,7 +2243,7 @@
      "atoms": [
       {
        "id": "086-25",
-       "no": 8,
+       "no": 3,
        "标签": "2023 · 东华高级中学 · 高一下月考",
        "题型": "完成句子",
        "题干": "His strange habit ___ (合乎情理) when you consider that he’s an environmental scientist.",
@@ -2536,7 +2258,7 @@
       },
       {
        "id": "125-21",
-       "no": 9,
+       "no": 4,
        "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
        "题型": "完成句子",
        "题干": "What he said yesterday ___.(讲得通，有道理)",
@@ -2559,7 +2281,7 @@
      "atoms": [
       {
        "id": "039-18",
-       "no": 10,
+       "no": 5,
        "标签": "2026 · 东莞第六高级中学 · 高一下期末",
        "题型": "完成句子",
        "题干": "Smart students tend to ___ (利用) the library’s resources.",
@@ -2583,7 +2305,7 @@
    "quiz": [
     {
      "id": "082-14",
-     "no": 11,
+     "no": 6,
      "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
      "题型": "语法填空",
      "题干": "The old furniture ___ (polish) regularly to prevent it from looking worn out.",
@@ -2598,7 +2320,7 @@
     },
     {
      "id": "120-14",
-     "no": 12,
+     "no": 7,
      "标签": "2025 · 厚街中学 · 高二下月考",
      "题型": "语法填空",
      "题干": "I had ___ (butterfly) in my stomach, since it would soon be my turn to make a speech before so many people.",
@@ -2612,7 +2334,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 12
+   "numbered_total": 7
   }
  ]
 }

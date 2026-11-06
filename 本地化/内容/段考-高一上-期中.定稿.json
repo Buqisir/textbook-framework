@@ -342,17 +342,6 @@
           "level": "必练"
         },
         {
-          "stem": "We are all very eager to read his new novel.\nWe are all ___ his new novel.",
-          "cue": [
-            "同义句转换"
-          ],
-          "src": "2024 · 东莞第八高级中学 · 高一上期中",
-          "ans": "looking forward to reading",
-          "why": "look forward to 的 to 是介词",
-          "group": "作宾语与搭配",
-          "level": "必练"
-        },
-        {
           "stem": "It is believed that ___ （控制） our feeling is a good thing in many ways.",
           "cue": [],
           "src": "2024 · 东莞第八高级中学 · 高一上期中",
@@ -394,6 +383,17 @@
           "src": "2023 · 东莞外国语学校 · 高一上期中",
           "ans": "to be listening",
           "why": "pretend to 后接不定式，表正在做",
+          "group": "作宾语与搭配",
+          "level": "必练"
+        },
+        {
+          "stem": "It seems that my roommate has much confidence for the coming final exam.\nMy roommate ___ much confidence for the coming final exam.",
+          "cue": [
+            "同义句转换"
+          ],
+          "src": "2022 · 东莞实验中学 · 高一上期中",
+          "ans": "seems to have",
+          "why": "seem to do 似乎做某事",
           "group": "作宾语与搭配",
           "level": "必练"
         },
@@ -523,7 +523,7 @@
           "level": "必练"
         },
         {
-          "stem": "There has been a couple of young man and woman ___ (argue) in the street.",
+          "stem": "There have been a couple of young men and women ___ (argue) in the street.",
           "cue": [],
           "src": "2022 · 东莞外国语学校 · 高一上期中",
           "ans": "arguing",
@@ -568,7 +568,7 @@
           "level": "选练"
         },
         {
-          "stem": "___ (和……相比) the original, the copy looks no difference.",
+          "stem": "___ (和……相比) the original, the copy looks no different.",
           "cue": [],
           "src": "2023 · 东华高级中学 · 高一上期中",
           "ans": "Compared to",
@@ -913,7 +913,7 @@
           "level": "必练"
         },
         {
-          "stem": "I find to study English interesting.\nI ___ to study English.",
+          "stem": "I find studying English interesting.\nI ___ to study English.",
           "cue": [
             "形式宾语改写"
           ],
@@ -965,17 +965,6 @@
             "同义句改写"
           ],
           "src": "2022 · 东华松山湖高级中学 · 高一上期中",
-          "ans": "It is obvious that",
-          "why": "It is adj. that 句型",
-          "group": "形式主语 It",
-          "level": "必练"
-        },
-        {
-          "stem": "Obviously, people are living a happy life in this community.\n___ people are living a happy life in this community.",
-          "cue": [
-            "同义转换"
-          ],
-          "src": "2022 · 东莞市 · 高一上期中",
           "ans": "It is obvious that",
           "why": "It is adj. that 句型",
           "group": "形式主语 It",
@@ -1259,7 +1248,7 @@
           "level": "必练"
         },
         {
-          "stem": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a round on columns, rising one above another.",
+          "stem": "Last summer, I visited the beautiful leaning tower, ___ is eight floors high, each having a row of columns, rising one above another.",
           "cue": [],
           "src": "2020 · 东华高级中学 · 高一上期中",
           "ans": "which",
@@ -1277,7 +1266,7 @@
           "level": "选练"
         },
         {
-          "stem": "Those ___ houses were damaged in typhoon can fill in this form and apply for financial aid.",
+          "stem": "Those ___ houses were damaged in the typhoon can fill in this form and apply for financial aid.",
           "cue": [],
           "src": "2023 · 东莞市 · 高一上期中",
           "ans": "whose",
@@ -1304,7 +1293,7 @@
           "level": "选练"
         },
         {
-          "stem": "I bought an album ___ many post card with beautiful sights were included.",
+          "stem": "I bought an album ___ many postcards with beautiful sights were included.",
           "cue": [],
           "src": "2022 · 东莞中学松山湖学校 · 高一上期中",
           "ans": "in which",
@@ -1459,7 +1448,7 @@
           "level": "必练"
         },
         {
-          "stem": "Mastering enough English wordsmakes you an excellent English learner.",
+          "stem": "Mastering enough English words makes you an excellent English learner.",
           "cue": [
             "强调划线部分"
           ],
@@ -2252,7 +2241,7 @@
           "level": "必练"
         },
         {
-          "stem": "They not only introduced advanced technology, but also changed their views on how to develop economy. → ___ they ___ advanced technology, but also changed their views on how to develop economy.",
+          "stem": "They not only introduced advanced technology, but also changed their views on how to develop the economy. → ___ they ___ advanced technology, but also changed their views on how to develop the economy.",
           "cue": [
             "改为倒装句"
           ],

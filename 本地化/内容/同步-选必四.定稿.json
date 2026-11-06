@@ -298,36 +298,12 @@
      "answer_show": null
     }
    ],
-   "phrases": [
-    {
-     "短语": "trial and error",
-     "释义": "反复试验；不断摸索",
-     "词头": "trial and error",
-     "gloss": "名词短语，作介词宾语<br>常与 through 连用",
-     "atoms": [
-      {
-       "id": "052-19",
-       "no": 6,
-       "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
-       "题型": "完成句子",
-       "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
-       "题干HTML": "The scientist conducted numerous experiments through <span class=\"blank\"></span> (反复试验) to develop the new medication...",
-       "cue": [],
-       "提示词": null,
-       "答案": "trial ； and ； error",
-       "解析": "考查名词短语。句意：这位科学家通过反复试验进行了多次实验，以研制出这种新药……根据汉语提示可知，此处使用名词短语trial and error，作介词宾语。故填trial and error。",
-       "句意": "",
-       "reason": "through 后接名词，固定搭配",
-       "answer_show": null
-      }
-     ]
-    }
-   ],
+   "phrases": [],
    "tricks": [],
    "quiz": [
     {
      "id": "033-13",
-     "no": 7,
+     "no": 6,
      "标签": "2026 · 东莞市 · 高二下月考",
      "题型": "语法填空",
      "题干": "The local government urged all factories ___ (calculate) their monthly carbon emissions correctly.",
@@ -342,7 +318,7 @@
     },
     {
      "id": "061-10",
-     "no": 8,
+     "no": 7,
      "标签": "2023 · 东莞市 · 高二下期末",
      "题型": "语法填空",
      "题干": "The participants are waiting anxiously, and the final result of the drama competition ___ (declare)in 30 minutes.",
@@ -357,7 +333,7 @@
     },
     {
      "id": "124-16",
-     "no": 9,
+     "no": 8,
      "标签": "2023 · 弘林高级中学 · 高二月考",
      "题型": "语法填空",
      "题干": "So far, the police investigation ___ (draw) a blank.",
@@ -371,7 +347,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 9
+   "numbered_total": 8
   },
   {
    "序": 33,
@@ -810,7 +786,7 @@
     "卷数": 13,
     "词数": 64,
     "短语数": 68,
-    "句式题数": 1
+    "句式题数": 0
    },
    "freq": [
     {
@@ -905,66 +881,6 @@
    ],
    "families": [
     {
-     "词头": "stable",
-     "题数": 2,
-     "gloss": "与 boom 并列用名词<br>修饰动词用副词",
-     "chain": [
-      {
-       "词": "stable",
-       "词性": "adj.",
-       "释义": "稳定的",
-       "hit": false,
-       "来源": "词头"
-      },
-      {
-       "词": "stability",
-       "词性": "n.",
-       "释义": "稳定",
-       "hit": true,
-       "来源": "派生"
-      },
-      {
-       "词": "stably",
-       "词性": "adv.",
-       "释义": "稳定地",
-       "hit": true,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "160-21",
-       "no": 1,
-       "标签": "2024 · 弘林高级中学 · 高二下月考",
-       "题型": "语法填空",
-       "题干": "The last two decades has witnessed Macao’s boom and ___ (stable) on the basis of China’s “one country, two systems” policy.",
-       "题干HTML": "The last two decades has witnessed Macao’s boom and <span class=\"blank\"></span> (stable) on the basis of China’s “one country, two systems” policy.",
-       "cue": [],
-       "提示词": "stable",
-       "答案": "stability",
-       "解析": "考查名词。句意：在过去的二十年里，澳门在中国“一国两制”政策的基础上繁荣稳定。根据and可知，空处应填名词stability“稳定”与boom并列在句中作宾语。故填stability。",
-       "句意": "",
-       "reason": "与 boom 并列，用名词",
-       "answer_show": null
-      },
-      {
-       "id": "152-06",
-       "no": 2,
-       "标签": "2023 · 虎门中学 · 高二上月考",
-       "题型": "语法填空",
-       "题干": "The robot works ___ (stable) and its performance can meet the design needs.",
-       "题干HTML": "The robot works <span class=\"blank\"></span> (stable) and its performance can meet the design needs.",
-       "cue": [],
-       "提示词": "stable",
-       "答案": "stably",
-       "解析": "考查副词。句意：该机器人工作稳定，性能满足设计要求。修饰动词works，用副词形式。根据句意，故填stably。",
-       "句意": "",
-       "reason": "修饰动词 works，副词作状语",
-       "answer_show": null
-      }
-     ]
-    },
-    {
      "词头": "dust",
      "题数": 1,
      "gloss": "系动词后用形容词<br>dust 的形容词形式",
@@ -987,7 +903,7 @@
      "atoms": [
       {
        "id": "160-19",
-       "no": 3,
+       "no": 1,
        "标签": "2024 · 弘林高级中学 · 高二下月考",
        "题型": "语法填空",
        "题干": "The house had been vacant for a long time and so it was very ___ (dust).",
@@ -1013,7 +929,7 @@
      "atoms": [
       {
        "id": "105-16",
-       "no": 4,
+       "no": 2,
        "标签": "2024 · 东莞市 · 高二下期中",
        "题型": "完成句子",
        "题干": "We should not ___ it ___ (认为……是理所当然) that parents should do everything for us.",
@@ -1028,7 +944,7 @@
       },
       {
        "id": "142-18",
-       "no": 5,
+       "no": 3,
        "标签": "2024 · 东莞第四高级中学 · 高二下期中",
        "题型": "完成句子",
        "题干": "For them, the most basic things we ___ (认为理所当然的), such as running water and electricity, are beyond reach.",
@@ -1044,36 +960,11 @@
      ]
     }
    ],
-   "tricks": [
-    {
-     "句式": "形式主语",
-     "gloss": "不定式主语后置，前用 it",
-     "formula": "To do sth is … → It is … to do sth",
-     "atoms": [
-      {
-       "id": "030-22",
-       "no": 6,
-       "标签": "2026 · 万江中学 · 高二下期中",
-       "题型": "翻译",
-       "题干": "取笑身体有残疾的人是不礼貌的。 → ___",
-       "题干HTML": "取笑身体有残疾的人是不礼貌的。 → <span class=\"blank\"></span>",
-       "cue": [
-        "用it做形式主语"
-       ],
-       "提示词": null,
-       "答案": "It is impolite to make fun of people with physical disabilities.",
-       "解析": "表示“做某事是……的”可用“It+be+形容词+不定式短语”句型，It作形式主语，不定式是真正主语；“取笑”可译为make fun of；“身体有残疾的人”可译为people with physical disabilities；“不礼貌的”可译为impolite。本句描述客观常理，用一般现在时。",
-       "句意": "",
-       "reason": "不定式作主语，用 it 作形式主语",
-       "answer_show": null
-      }
-     ]
-    }
-   ],
+   "tricks": [],
    "quiz": [
     {
      "id": "112-15",
-     "no": 7,
+     "no": 4,
      "标签": "2026 · 众美中学 · 高二下月考",
      "题型": "语法填空",
      "题干": "Some measures must ___ (take) to deal with the air pollution.",
@@ -1088,7 +979,7 @@
     },
     {
      "id": "134-14",
-     "no": 8,
+     "no": 5,
      "标签": "2025 · 东莞第一中学 · 高二下月考",
      "题型": "语法填空",
      "题干": "His plan for the weekend is ___ (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
@@ -1103,7 +994,7 @@
     },
     {
      "id": "029-11",
-     "no": 9,
+     "no": 6,
      "标签": "2024 · 东莞第八高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
@@ -1118,7 +1009,7 @@
     },
     {
      "id": "144-11",
-     "no": 10,
+     "no": 7,
      "标签": "2022 · 翰林高级中学 · 高一上期中",
      "题型": "语法填空",
      "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
@@ -1133,7 +1024,7 @@
     },
     {
      "id": "016-26",
-     "no": 11,
+     "no": 8,
      "标签": "2020 · 东莞中学 · 高二上月考",
      "题型": "语法填空",
      "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
@@ -1147,7 +1038,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 11
+   "numbered_total": 8
   },
   {
    "序": 36,
@@ -1225,77 +1116,14 @@
      "题数": 1
     }
    ],
-   "families": [
-    {
-     "词头": "participant",
-     "题数": 2,
-     "gloss": "形容词后用名词<br>participate 的名词形式",
-     "chain": [
-      {
-       "词": "participant",
-       "词性": "n.",
-       "释义": "参与者",
-       "hit": true,
-       "来源": "词头"
-      },
-      {
-       "词": "participation",
-       "词性": "n.",
-       "释义": "参与",
-       "hit": false,
-       "来源": "派生"
-      },
-      {
-       "词": "participate",
-       "词性": "vi.",
-       "释义": "参与",
-       "hit": false,
-       "来源": "派生"
-      }
-     ],
-     "atoms": [
-      {
-       "id": "160-23",
-       "no": 1,
-       "标签": "2024 · 弘林高级中学 · 高二下月考",
-       "题型": "语法填空",
-       "题干": "He has been an active ___ (participate) in the discussion.",
-       "题干HTML": "He has been an active <span class=\"blank\"></span> (participate) in the discussion.",
-       "cue": [],
-       "提示词": "participate",
-       "答案": "participant",
-       "解析": "考查名词。句意：他一直是讨论中的积极参与者。分析句子可知，空处应用名词作表语，指人，用participant“参与者”，冠词an提示用其单数形式。故填participant。",
-       "句意": "",
-       "reason": "active 后作中心词，用名词",
-       "answer_show": null
-      },
-      {
-       "id": "105-08",
-       "no": 2,
-       "标签": "2024 · 东莞市 · 高二下期中",
-       "题型": "语法填空",
-       "题干": "The Ice Bucket Challenge requires that ___ (participate) pour a bucket of ice water on themselves.",
-       "题干HTML": "The Ice Bucket Challenge requires that <span class=\"blank\"></span> (participate) pour a bucket of ice water on themselves.",
-       "cue": [
-        "用所给词的适当形式填空"
-       ],
-       "提示词": "participate",
-       "答案": "participants",
-       "解析": "考查名词复数。句意：冰桶挑战要求参与者将一桶冰水倒在自己身上。分析句子结构可知，空处需使用名词participant（参与者）在宾语从句中作主语，根据themselves（他们自己）可知，主语应为复数形式。故填participants。",
-       "句意": "",
-       "reason": "requires that 从句主语，用复数",
-       "answer_show": null
-      }
-     ]
-    }
-   ],
+   "families": [],
    "spelling": [],
    "phrases": [],
    "tricks": [],
    "quiz": [
     {
      "id": "038-15",
-     "no": 3,
+     "no": 1,
      "标签": "2026 · 东莞第一中学 · 高二下期末",
      "题型": "语法填空",
      "题干": "People hear him ___ (accuse) of stealing valuable goods from the local supermarket.",
@@ -1310,7 +1138,7 @@
     },
     {
      "id": "068-12",
-     "no": 4,
+     "no": 2,
      "标签": "2025 · 东莞市 · 高二下期末",
      "题型": "语法填空",
      "题干": "It is essential for young people ___ (acquire) new skills such as artificial intelligence programming to keep up with the digital age.",
@@ -1325,7 +1153,7 @@
     },
     {
      "id": "145-06",
-     "no": 5,
+     "no": 3,
      "标签": "2023 · 翰林高级中学 · 高二月考",
      "题型": "语法填空",
      "题干": "It was the first time that a “digital human” ___ (participate) in the torch-lighting ceremony.",
@@ -1339,7 +1167,7 @@
      "answer_show": null
     }
    ],
-   "numbered_total": 5
+   "numbered_total": 3
   }
  ]
 }
