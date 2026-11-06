@@ -402,14 +402,14 @@
       "unit_book": "选择性必修第二册　Unit 2",
       "chips": {
         "year_range": "2018–2026",
-        "n_questions": 59,
-        "n_kaofa": 30,
+        "n_questions": 45,
+        "n_kaofa": 22,
         "n_phrase": 1
       },
       "h2": "Bridging Cultures",
       "zh": "Bridging Cultures",
       "stats": {
-        "卷数": 45,
+        "卷数": 34,
         "词数": 68,
         "短语数": 70,
         "句式题数": 0
@@ -420,22 +420,22 @@
           "forms": [
             {
               "form": "strength",
-              "n": 4
-            },
-            {
-              "form": "strengths",
-              "n": 3
+              "n": 2
             },
             {
               "form": "strengthen",
               "n": 2
             },
             {
-              "form": "to strengthen",
+              "form": "strengths",
               "n": 2
             },
             {
               "form": "strengthen / to strengthen",
+              "n": 1
+            },
+            {
+              "form": "to strengthen",
               "n": 1
             }
           ],
@@ -443,59 +443,7 @@
             "词性转换",
             "复数"
           ],
-          "题数": 12
-        },
-        {
-          "词头": "surroundings",
-          "forms": [
-            {
-              "form": "surrounded",
-              "n": 5
-            },
-            {
-              "form": "surrounding",
-              "n": 2
-            },
-            {
-              "form": "surroundings",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "动词形式",
-            "词性转换"
-          ],
           "题数": 8
-        },
-        {
-          "词头": "applicant",
-          "forms": [
-            {
-              "form": "applicant",
-              "n": 1
-            },
-            {
-              "form": "applicants",
-              "n": 1
-            },
-            {
-              "form": "application",
-              "n": 1
-            },
-            {
-              "form": "applied",
-              "n": 1
-            },
-            {
-              "form": "has been applied",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "动词形式"
-          ],
-          "题数": 5
         },
         {
           "词头": "exposure",
@@ -551,6 +499,23 @@
           "题数": 4
         },
         {
+          "词头": "surroundings",
+          "forms": [
+            {
+              "form": "surrounded",
+              "n": 2
+            },
+            {
+              "form": "surrounding",
+              "n": 2
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 4
+        },
+        {
           "词头": "ambition",
           "forms": [
             {
@@ -565,28 +530,6 @@
           "考法": [
             "词性转换",
             "拼写"
-          ],
-          "题数": 3
-        },
-        {
-          "词头": "behave",
-          "forms": [
-            {
-              "form": "behave",
-              "n": 1
-            },
-            {
-              "form": "behavior / behaviour",
-              "n": 1
-            },
-            {
-              "form": "behaviour / behavior",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "短语"
           ],
           "题数": 3
         },
@@ -650,6 +593,33 @@
             "短语"
           ],
           "题数": 2
+        },
+        {
+          "词头": "applicant",
+          "forms": [
+            {
+              "form": "applied",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "behave",
+          "forms": [
+            {
+              "form": "behave",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "短语",
+            "翻译"
+          ],
+          "题数": 1
         },
         {
           "词头": "firm",
@@ -746,7 +716,7 @@
       "families": [
         {
           "词头": "strengthen",
-          "题数": 12,
+          "题数": 8,
           "chain": [
             {
               "词": "strengthen",
@@ -772,16 +742,16 @@
           ],
           "atoms": [
             {
-              "id": "096-12",
+              "id": "055-10",
               "no": 1,
-              "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
+              "标签": "2022 · 东莞实验中学 · 高一上期中",
               "题型": "语法填空",
-              "题干": "Before the sports meeting, we are expected to ___ (strong) our muscle.",
-              "题干HTML": "Before the sports meeting, we are expected to <span class=\"blank\"></span> (strong) our muscle.",
+              "题干": "Practising Chinese kung fu can not only build up one’s ___ (strong),but also develop one’s character.",
+              "题干HTML": "Practising Chinese kung fu can not only build up one’s <span class=\"blank\"></span> (strong),but also develop one’s character.",
               "cue": [],
               "提示词": "strong",
-              "答案": "strengthen",
-              "解析": "考查固定短语。句意：在运动会前，我们要增强肌肉力量。be expected to do：被期望做……，strong的动词为strengthen，故填strengthen。",
+              "答案": "strength",
+              "解析": "考查名词。句意：练习中国功夫不仅可以增强一个人的力量，而且还可以培养一个人的性格。分析句子，设空处使用strong的名词strength作宾语，意为“力量”，不可数，故填strength。",
               "句意": "",
               "reason": ""
             },
@@ -801,94 +771,6 @@
             }
           ],
           "gloss": ""
-        },
-        {
-          "词头": "applicant",
-          "题数": 5,
-          "chain": [
-            {
-              "词": "applicant",
-              "词性": "n.",
-              "释义": "申请人",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "apply",
-              "词性": "vi. & vt.",
-              "释义": "申请",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "application",
-              "词性": "n.",
-              "释义": "应用，运用",
-              "hit": true,
-              "来源": "派生"
-            },
-            {
-              "词": "applied",
-              "词性": "adj.",
-              "释义": "应用的",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "075-06",
-              "no": 3,
-              "标签": "2023 · 万江中学 · 高二上月考",
-              "题型": "语法填空",
-              "题干": "Most of the ___ (apply) who apply for the position of the firm are incompetent.",
-              "题干HTML": "Most of the <span class=\"blank\"></span> (apply) who apply for the position of the firm are incompetent.",
-              "cue": [],
-              "提示词": "apply",
-              "答案": "applicants",
-              "解析": "考查名词。句意：大多数申请该公司职位的申请人都不称职。分析句子结构，空白处在句子中做主语，使用名词，根据下文“who apply for the position of the firm(申请该公司职位的)”可知空白处应填指人的名词，根据空白处前面的代词most可知空白处应填复数名词，故填applicants。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        },
-        {
-          "词头": "behave",
-          "题数": 3,
-          "chain": [
-            {
-              "词": "behave",
-              "词性": "vt.",
-              "释义": "表现  表现得体",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "behaviour",
-              "词性": "n.",
-              "释义": "举止",
-              "hit": true,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "097-34",
-              "no": 4,
-              "标签": "2022 · 东莞中学松山湖学校 · 高一上月考",
-              "题型": "语法填空",
-              "题干": "The teacher made a suggestion that she make an apology to Tom for her bad ___ (behave).",
-              "题干HTML": "The teacher made a suggestion that she make an apology to Tom for her bad <span class=\"blank\"></span> (behave).",
-              "cue": [],
-              "提示词": "behave",
-              "答案": "behavior / behaviour",
-              "解析": "考查名词。句意：老师建议她为自己的不良行为向汤姆道歉。分析句子结构可知，空前是形容词，所以空处应填名词作宾语，behave的名词形式是behavior或者behaviour。故填behavior或者behaviour。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
         }
       ],
       "spelling": [],
@@ -900,7 +782,7 @@
           "atoms": [
             {
               "id": "139-17",
-              "no": 5,
+              "no": 3,
               "标签": "2022 · 东莞第四高级中学 · 高二上期中",
               "题型": "完成句子",
               "题干": "I don’t want to ___ (参与，卷入) the meaningless argument.",
@@ -919,22 +801,8 @@
       "tricks": [],
       "quiz": [
         {
-          "id": "036-16",
-          "no": 6,
-          "标签": "2026 · 海逸外国语学校 · 高一下期中",
-          "题型": "语法填空",
-          "题干": "With the castle ___ (surround) by the enemy, the soldiers had no choice but to fight to the end.",
-          "题干HTML": "With the castle <span class=\"blank\"></span> (surround) by the enemy, the soldiers had no choice but to fight to the end.",
-          "cue": [],
-          "提示词": "surround",
-          "答案": "surrounded",
-          "解析": "句意：城堡被敌人包围后，士兵们除了战斗到底别无选择。本句是“with + 宾语 + 宾语补足语”的复合结构，在句中作状语。 宾语the castle和所给动词surround(包围)之间是被动关系，因此需要用过去分词形式作宾语补足语，表被动。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "137-11",
-          "no": 7,
+          "no": 4,
           "标签": "2025 · 东莞第八高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "The trees ___ (surround) the house were planted by my father 10 years ago.",
@@ -947,22 +815,8 @@
           "reason": ""
         },
         {
-          "id": "080-16",
-          "no": 8,
-          "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
-          "题型": "语法填空",
-          "题干": "Artificial Intelligence (Al) ___ (apply) to many fields in recent years.",
-          "题干HTML": "Artificial Intelligence (Al) <span class=\"blank\"></span> (apply) to many fields in recent years.",
-          "cue": [],
-          "提示词": "apply",
-          "答案": "has been applied",
-          "解析": "考查时态语态。句意：近年来，人工智能（AI）已被应用于许多领域。apply是谓语动词，由时间状语in recent years可知，用现在完成时，主语Artificial Intelligence (Al)与apply是被动关系，用被动语态，且主语是Artificial Intelligence，助动词用 has。故填has been applied。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "052-07",
-          "no": 9,
+          "no": 5,
           "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
           "题型": "语法填空",
           "题干": "The school curriculum is designed to provide students with engaging lessons ___ (involve) interactive activities.",
@@ -975,7 +829,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 9
+      "numbered_total": 5
     },
     {
       "序": 24,
@@ -1081,15 +935,15 @@
       "data_no": "U4",
       "unit_book": "选择性必修第二册　Unit 4",
       "chips": {
-        "year_range": "2021–2023",
-        "n_questions": 2,
+        "year_range": "2021–2021",
+        "n_questions": 1,
         "n_kaofa": 0,
         "n_phrase": 0
       },
       "h2": "Journey Across a Vast Land",
       "zh": "Journey Across a Vast Land",
       "stats": {
-        "卷数": 2,
+        "卷数": 1,
         "词数": 55,
         "短语数": 25,
         "句式题数": 0
@@ -1100,13 +954,13 @@
           "forms": [
             {
               "form": "breathe",
-              "n": 2
+              "n": 1
             }
           ],
           "考法": [
             "拼写"
           ],
-          "题数": 2
+          "题数": 1
         }
       ],
       "families": [],

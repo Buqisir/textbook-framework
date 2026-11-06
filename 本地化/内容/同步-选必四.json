@@ -7,15 +7,15 @@
       "data_no": "U1",
       "unit_book": "选择性必修第四册　Unit 1",
       "chips": {
-        "year_range": "2018–2026",
-        "n_questions": 9,
+        "year_range": "2020–2026",
+        "n_questions": 7,
         "n_kaofa": 3,
-        "n_phrase": 1
+        "n_phrase": 0
       },
       "h2": "Science Fiction",
       "zh": "科幻小说",
       "stats": {
-        "卷数": 9,
+        "卷数": 7,
         "词数": 69,
         "短语数": 78,
         "句式题数": 0
@@ -24,10 +24,6 @@
         {
           "词头": "appointment",
           "forms": [
-            {
-              "form": "appoint",
-              "n": 1
-            },
             {
               "form": "appointed",
               "n": 1
@@ -41,7 +37,7 @@
             "词性转换",
             "动词形式"
           ],
-          "题数": 3
+          "题数": 2
         },
         {
           "词头": "calculate",
@@ -96,19 +92,6 @@
           "题数": 1
         },
         {
-          "词头": "trial and error",
-          "forms": [
-            {
-              "form": "trial and error",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 1
-        },
-        {
           "词头": "urge",
           "forms": [
             {
@@ -124,35 +107,12 @@
       ],
       "families": [],
       "spelling": [],
-      "phrases": [
-        {
-          "短语": "trial and error",
-          "释义": "反复试验；不断摸索",
-          "词头": "trial and error",
-          "atoms": [
-            {
-              "id": "052-19",
-              "no": 1,
-              "标签": "2024 · 东莞外国语学校、寮步外国语学校 · 高二下月考",
-              "题型": "完成句子",
-              "题干": "The scientist conducted numerous experiments through ___ (反复试验) to develop the new medication...",
-              "题干HTML": "The scientist conducted numerous experiments through <span class=\"blank\"></span> (反复试验) to develop the new medication...",
-              "cue": [],
-              "提示词": null,
-              "答案": "trial ； and ； error",
-              "解析": "考查名词短语。句意：这位科学家通过反复试验进行了多次实验，以研制出这种新药……根据汉语提示可知，此处使用名词短语trial and error，作介词宾语。故填trial and error。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        }
-      ],
+      "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "033-13",
-          "no": 2,
+          "no": 1,
           "标签": "2026 · 东莞市 · 高二下月考",
           "题型": "语法填空",
           "题干": "The local government urged all factories ___ (calculate) their monthly carbon emissions correctly.",
@@ -166,7 +126,7 @@
         },
         {
           "id": "061-10",
-          "no": 3,
+          "no": 2,
           "标签": "2023 · 东莞市 · 高二下期末",
           "题型": "语法填空",
           "题干": "The participants are waiting anxiously, and the final result of the drama competition ___ (declare)in 30 minutes.",
@@ -180,7 +140,7 @@
         },
         {
           "id": "124-16",
-          "no": 4,
+          "no": 3,
           "标签": "2023 · 弘林高级中学 · 高二月考",
           "题型": "语法填空",
           "题干": "So far, the police investigation ___ (draw) a blank.",
@@ -193,7 +153,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 4
+      "numbered_total": 3
     },
     {
       "序": 33,
@@ -201,14 +161,14 @@
       "unit_book": "选择性必修第四册　Unit 2",
       "chips": {
         "year_range": "2022–2026",
-        "n_questions": 19,
-        "n_kaofa": 7,
+        "n_questions": 18,
+        "n_kaofa": 6,
         "n_phrase": 6
       },
       "h2": "Iconic Attractions",
       "zh": "Iconic Attractions",
       "stats": {
-        "卷数": 15,
+        "卷数": 14,
         "词数": 65,
         "短语数": 50,
         "句式题数": 0
@@ -275,19 +235,6 @@
           "题数": 3
         },
         {
-          "词头": "frequency",
-          "forms": [
-            {
-              "form": "frequently",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 2
-        },
-        {
           "词头": "violent",
           "forms": [
             {
@@ -318,6 +265,19 @@
           "题数": 1
         },
         {
+          "词头": "frequency",
+          "forms": [
+            {
+              "form": "frequently",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
           "词头": "sponsor",
           "forms": [
             {
@@ -334,7 +294,7 @@
       "families": [
         {
           "词头": "frequency",
-          "题数": 2,
+          "题数": 1,
           "chain": [
             {
               "词": "frequency",
@@ -360,16 +320,16 @@
           ],
           "atoms": [
             {
-              "id": "082-12",
+              "id": "142-12",
               "no": 1,
-              "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高二下期中",
+              "标签": "2024 · 东莞第四高级中学 · 高二下期中",
               "题型": "语法填空",
-              "题干": "She ___ (frequent) visits the local library to stay updated with the latest books and research materials.",
-              "题干HTML": "She <span class=\"blank\"></span> (frequent) visits the local library to stay updated with the latest books and research materials.",
+              "题干": "They are ___ (frequent) underpaid for the work that they do.",
+              "题干HTML": "They are <span class=\"blank\"></span> (frequent) underpaid for the work that they do.",
               "cue": [],
               "提示词": "frequent",
               "答案": "frequently",
-              "解析": "考查副词。句意：她经常去当地的图书馆了解最新的书籍和研究资料。修饰动词visits，用副词形式。frequent的副词形式为frequently，表示“经常”之意。故填frequently。",
+              "解析": "考查副词。句意：他们所做的工作往往报酬过低。修饰underpaid应用副词frequently，作状语。故填frequently。",
               "句意": "",
               "reason": ""
             }
@@ -575,14 +535,14 @@
       "unit_book": "选择性必修第四册　Unit 4",
       "chips": {
         "year_range": "2018–2026",
-        "n_questions": 14,
-        "n_kaofa": 4,
-        "n_phrase": 2
+        "n_questions": 9,
+        "n_kaofa": 1,
+        "n_phrase": 1
       },
       "h2": "Sharing",
       "zh": "分享",
       "stats": {
-        "卷数": 13,
+        "卷数": 9,
         "词数": 64,
         "短语数": 68,
         "句式题数": 0
@@ -601,10 +561,6 @@
             },
             {
               "form": "had taken",
-              "n": 1
-            },
-            {
-              "form": "is taking",
               "n": 1
             },
             {
@@ -632,51 +588,7 @@
             "动词形式",
             "短语"
           ],
-          "题数": 9
-        },
-        {
-          "词头": "stability",
-          "forms": [
-            {
-              "form": "stability",
-              "n": 1
-            },
-            {
-              "form": "stably",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 2
-        },
-        {
-          "词头": "consultation",
-          "forms": [
-            {
-              "form": "consultant",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "disability",
-          "forms": [
-            {
-              "form": "physical disabilities",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语",
-            "翻译"
-          ],
-          "题数": 1
+          "题数": 8
         },
         {
           "词头": "dust",
@@ -692,78 +604,9 @@
           "题数": 1
         }
       ],
-      "families": [
-        {
-          "词头": "consultation",
-          "题数": 1,
-          "chain": [
-            {
-              "词": "consultation",
-              "词性": "",
-              "释义": "n. 咨询",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "consult",
-              "词性": "vt. & vi.",
-              "释义": "咨询",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "consultant",
-              "词性": "n.",
-              "释义": "顾问",
-              "hit": true,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "104-11",
-              "no": 1,
-              "标签": "2025 · 东莞实验中学 · 高二下月考",
-              "题型": "语法填空",
-              "题干": "The ___ (consult) is currently busy handling the complex legal case for the client.",
-              "题干HTML": "The <span class=\"blank\"></span> (consult) is currently busy handling the complex legal case for the client.",
-              "cue": [],
-              "提示词": "consult",
-              "答案": "consultant",
-              "解析": "考查名词。句意：这位顾问目前正忙于为客户处理这个复杂的法律案件。根据空后的“is currently busy handling”可知，空处需用名词作主语，consult是动词，意为“咨询；请教”，其名词形式consultant意为“顾问”，符合语境，且根据is可知，此处应用单数形式。故填consultant。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        }
-      ],
+      "families": [],
       "spelling": [],
       "phrases": [
-        {
-          "短语": "a physical/mental disability",
-          "释义": "生理缺陷/心理障碍",
-          "词头": "disability",
-          "atoms": [
-            {
-              "id": "030-22",
-              "no": 2,
-              "标签": "2026 · 万江中学 · 高二下期中",
-              "题型": "翻译",
-              "题干": "取笑身体有残疾的人是不礼貌的。 → ___",
-              "题干HTML": "取笑身体有残疾的人是不礼貌的。 → <span class=\"blank\"></span>",
-              "cue": [
-                "用it做形式主语"
-              ],
-              "提示词": null,
-              "答案": "It is impolite to make fun of people with physical disabilities.",
-              "解析": "表示“做某事是……的”可用“It+be+形容词+不定式短语”句型，It作形式主语，不定式是真正主语；“取笑”可译为make fun of；“身体有残疾的人”可译为people with physical disabilities；“不礼貌的”可译为impolite。本句描述客观常理，用一般现在时。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        },
         {
           "短语": "take it for granted (that)",
           "释义": "… 认为……是理所当然",
@@ -771,7 +614,7 @@
           "atoms": [
             {
               "id": "142-18",
-              "no": 3,
+              "no": 1,
               "标签": "2024 · 东莞第四高级中学 · 高二下期中",
               "题型": "完成句子",
               "题干": "For them, the most basic things we ___ (认为理所当然的), such as running water and electricity, are beyond reach.",
@@ -791,7 +634,7 @@
       "quiz": [
         {
           "id": "112-15",
-          "no": 4,
+          "no": 2,
           "标签": "2026 · 众美中学 · 高二下月考",
           "题型": "语法填空",
           "题干": "Some measures must ___ (take) to deal with the air pollution.",
@@ -805,7 +648,7 @@
         },
         {
           "id": "134-14",
-          "no": 5,
+          "no": 3,
           "标签": "2025 · 东莞第一中学 · 高二下月考",
           "题型": "语法填空",
           "题干": "His plan for the weekend is ___ (take) his dog to the park for a long, carefree run, enjoying the fresh air and the simple pleasures of nature.",
@@ -818,22 +661,8 @@
           "reason": ""
         },
         {
-          "id": "029-11",
-          "no": 6,
-          "标签": "2024 · 东莞第八高级中学 · 高一上期中",
-          "题型": "语法填空",
-          "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
-          "题干HTML": "Would you please return to your seat？The plane <span class=\"blank\"></span> （take） off soon.",
-          "cue": [],
-          "提示词": "take",
-          "答案": "is taking",
-          "解析": "请您回到您的座位上去好吗？飞机马上就要起飞了。\n\n根据句意以及表示将来的词\"soon\"可知，飞机即将起飞，应用现在进行时（be doing）时表示将来；由于主语The plane为单数，谓语应用单数is；再结合提示词take，该空应填is taking。\n\n故填：is taking。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "144-11",
-          "no": 7,
+          "no": 4,
           "标签": "2022 · 翰林高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "As for the most suitable means of transportation, I’d like to recommend ___ (take) Beijing-Guangzhou High-Speed Railway.",
@@ -847,7 +676,7 @@
         },
         {
           "id": "016-26",
-          "no": 8,
+          "no": 5,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "语法填空",
           "题干": "Generally speaking, when ___ (take) according to the directions, the drug has no side effect.",
@@ -860,7 +689,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 8
+      "numbered_total": 5
     },
     {
       "序": 36,
@@ -868,14 +697,14 @@
       "unit_book": "选择性必修第四册　Unit 5",
       "chips": {
         "year_range": "2022–2026",
-        "n_questions": 10,
-        "n_kaofa": 2,
+        "n_questions": 8,
+        "n_kaofa": 0,
         "n_phrase": 0
       },
       "h2": "Launching Your Career",
       "zh": "Launching Your Career",
       "stats": {
-        "卷数": 9,
+        "卷数": 7,
         "词数": 65,
         "短语数": 46,
         "句式题数": 0
@@ -886,7 +715,7 @@
           "forms": [
             {
               "form": "participants",
-              "n": 3
+              "n": 2
             },
             {
               "form": "had participated",
@@ -895,17 +724,13 @@
             {
               "form": "has participated",
               "n": 1
-            },
-            {
-              "form": "participant",
-              "n": 1
             }
           ],
           "考法": [
-            "词性转换",
-            "动词形式"
+            "动词形式",
+            "复数"
           ],
-          "题数": 6
+          "题数": 4
         },
         {
           "词头": "acquire",

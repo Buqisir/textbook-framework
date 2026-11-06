@@ -8,14 +8,14 @@
       "unit_book": "必修第二册　Unit 1",
       "chips": {
         "year_range": "2021–2026",
-        "n_questions": 36,
-        "n_kaofa": 7,
+        "n_questions": 32,
+        "n_kaofa": 5,
         "n_phrase": 4
       },
       "h2": "Cultural Heritage",
       "zh": "文化遗产",
       "stats": {
-        "卷数": 27,
+        "卷数": 24,
         "词数": 77,
         "短语数": 83,
         "句式题数": 0
@@ -26,18 +26,13 @@
           "forms": [
             {
               "form": "compared",
-              "n": 7
-            },
-            {
-              "form": "comparison",
-              "n": 1
+              "n": 6
             }
           ],
           "考法": [
-            "动词形式",
-            "词性转换"
+            "动词形式"
           ],
-          "题数": 8
+          "题数": 6
         },
         {
           "词头": "contribution",
@@ -82,28 +77,6 @@
             "拼写"
           ],
           "题数": 4
-        },
-        {
-          "词头": "application",
-          "forms": [
-            {
-              "form": "applicant",
-              "n": 1
-            },
-            {
-              "form": "applied",
-              "n": 1
-            },
-            {
-              "form": "has been applied",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "动词形式",
-            "词性转换"
-          ],
-          "题数": 3
         },
         {
           "词头": "balance",
@@ -180,6 +153,19 @@
             "拼写"
           ],
           "题数": 2
+        },
+        {
+          "词头": "application",
+          "forms": [
+            {
+              "form": "applied",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "动词形式"
+          ],
+          "题数": 1
         },
         {
           "词头": "conduct",
@@ -273,52 +259,7 @@
           "题数": 1
         }
       ],
-      "families": [
-        {
-          "词头": "application",
-          "题数": 3,
-          "chain": [
-            {
-              "词": "application",
-              "词性": "n.",
-              "释义": "申请",
-              "hit": false,
-              "来源": "词头"
-            },
-            {
-              "词": "apply",
-              "词性": "v.",
-              "释义": "申请",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "applicant",
-              "词性": "n.",
-              "释义": "申请人",
-              "hit": true,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "075-06",
-              "no": 1,
-              "标签": "2023 · 万江中学 · 高二上月考",
-              "题型": "语法填空",
-              "题干": "Most of the ___ (apply) who apply for the position of the firm are incompetent.",
-              "题干HTML": "Most of the <span class=\"blank\"></span> (apply) who apply for the position of the firm are incompetent.",
-              "cue": [],
-              "提示词": "apply",
-              "答案": "applicants",
-              "解析": "考查名词。句意：大多数申请该公司职位的申请人都不称职。分析句子结构，空白处在句子中做主语，使用名词，根据下文“who apply for the position of the firm(申请该公司职位的)”可知空白处应填指人的名词，根据空白处前面的代词most可知空白处应填复数名词，故填applicants。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        }
-      ],
+      "families": [],
       "spelling": [],
       "phrases": [
         {
@@ -328,7 +269,7 @@
           "atoms": [
             {
               "id": "127-25",
-              "no": 2,
+              "no": 1,
               "标签": "2026 · 济川中学 · 高一下期中",
               "题型": "翻译",
               "题干": "保持学习和休息的平衡是重要的。 → ___",
@@ -342,7 +283,7 @@
             },
             {
               "id": "067-25",
-              "no": 3,
+              "no": 2,
               "标签": "2025 · 东莞市 · 高一下期末",
               "题型": "翻译",
               "题干": "没有什么比保持学习和休息的平衡更重要。 → ___",
@@ -364,7 +305,7 @@
           "atoms": [
             {
               "id": "149-19",
-              "no": 4,
+              "no": 3,
               "标签": "2025 · 翰林高级中学 · 高一上期末",
               "题型": "完成句子",
               "题干": "I have made up my mind to study harder and ___ (做贡献) our country ‘s development in the future.",
@@ -383,22 +324,8 @@
       "tricks": [],
       "quiz": [
         {
-          "id": "099-20",
-          "no": 5,
-          "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
-          "题型": "语法填空",
-          "题干": "I was at a disadvantage ___ (compare) to the younger members of the team.",
-          "题干HTML": "I was at a disadvantage <span class=\"blank\"></span> (compare) to the younger members of the team.",
-          "cue": [],
-          "提示词": "compare",
-          "答案": "compared",
-          "解析": "考查非谓语动词。句意：与队里的年轻队员相比，我处于不利地位。本句已有be动词was，所以compare用作非谓语动词，和逻辑主语I之间是被动关系，用过去分词表被动。故填compared。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "087-18",
-          "no": 6,
+          "no": 4,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "He didn’t consider it ___ (值得做的) spending a lot of time on paperback thrillers.",
@@ -412,35 +339,21 @@
         },
         {
           "id": "154-11",
-          "no": 7,
+          "no": 5,
           "标签": "2025 · 虎门外国语学校 · 高一下联考",
           "题型": "语法填空",
-          "题干": "There are two roads before us, one ___ (lead) to the success, the other to the failure.",
-          "题干HTML": "There are two roads before us, one <span class=\"blank\"></span> (lead) to the success, the other to the failure.",
+          "题干": "There are two roads before us, one ___ (lead) to success, the other to failure.",
+          "题干HTML": "There are two roads before us, one <span class=\"blank\"></span> (lead) to success, the other to failure.",
           "cue": [],
           "提示词": "lead",
           "答案": "leading",
-          "解析": "考查独立主格结构。句意：我们面前有两条路，一条通向成功，另一条通向失败。分析句子可知，“one __________ (lead) to the success, the other to the failure”是独立主格结构，在句中作状语。逻辑主语“one”（指代 road）与动词“lead”之间是主动关系，所以用现在分词 leading。故填leading。",
-          "句意": "",
-          "reason": ""
-        },
-        {
-          "id": "080-16",
-          "no": 8,
-          "标签": "2025 · 大岭山中学、众美中学、莞美学校 · 高一下期中",
-          "题型": "语法填空",
-          "题干": "Artificial Intelligence (Al) ___ (apply) to many fields in recent years.",
-          "题干HTML": "Artificial Intelligence (Al) <span class=\"blank\"></span> (apply) to many fields in recent years.",
-          "cue": [],
-          "提示词": "apply",
-          "答案": "has been applied",
-          "解析": "考查时态语态。句意：近年来，人工智能（AI）已被应用于许多领域。apply是谓语动词，由时间状语in recent years可知，用现在完成时，主语Artificial Intelligence (Al)与apply是被动关系，用被动语态，且主语是Artificial Intelligence，助动词用 has。故填has been applied。",
+          "解析": "考查独立主格结构。句意：我们面前有两条路，一条通向成功，另一条通向失败。分析句子可知，“one __________ (lead) to success, the other to failure”是独立主格结构，在句中作状语。逻辑主语“one”（指代 road）与动词“lead”之间是主动关系，所以用现在分词 leading。故填leading。",
           "句意": "",
           "reason": ""
         },
         {
           "id": "018-14",
-          "no": 9,
+          "no": 6,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "Their ___ (质量)of life improved greatly when they moved to France.",
@@ -454,7 +367,7 @@
         },
         {
           "id": "084-25",
-          "no": 10,
+          "no": 7,
           "标签": "2021 · 东华高级中学 · 高一上期中",
           "题型": "翻译",
           "题干": "对于很多父母来说在工作和生活之间保持平衡是一个很大的挑战。 ___ between work and family can be a big challenge for many parents.",
@@ -468,7 +381,7 @@
         },
         {
           "id": "029-11",
-          "no": 11,
+          "no": 8,
           "标签": "2024 · 东莞第八高级中学 · 高一上期中",
           "题型": "语法填空",
           "题干": "Would you please return to your seat？The plane ___ （take） off soon.",
@@ -482,7 +395,7 @@
         },
         {
           "id": "018-17",
-          "no": 12,
+          "no": 9,
           "标签": "2021 · 东华高级中学 · 高一上期末",
           "题型": "单词拼写",
           "题干": "She has the fortune to work with a ___ (有创造性的) team.",
@@ -495,7 +408,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 12
+      "numbered_total": 9
     },
     {
       "序": 8,
@@ -896,12 +809,12 @@
           "no": 10,
           "标签": "2023 · 东莞外国语学校 · 高一下月考",
           "题型": "语法填空",
-          "题干": "Big progress in art ___ (make) by him in the recent years.",
-          "题干HTML": "Big progress in art <span class=\"blank\"></span> (make) by him in the recent years.",
+          "题干": "Big progress in art ___ (make) by him in recent years.",
+          "题干HTML": "Big progress in art <span class=\"blank\"></span> (make) by him in recent years.",
           "cue": [],
           "提示词": "make",
           "答案": "has been made",
-          "解析": "考查时态语态。句意：近年来他在艺术方面取得了很大的进步。根据in the recent years可知，本句为现在完成时，主语A big progress 与 make为被动关系，所以本句为现在完成时的被动语态，且主语为单数，谓语动词用单数。故填has been made。",
+          "解析": "考查时态语态。句意：近年来他在艺术方面取得了很大的进步。根据in recent years可知，本句为现在完成时，主语A big progress 与 make为被动关系，所以本句为现在完成时的被动语态，且主语为单数，谓语动词用单数。故填has been made。",
           "句意": "",
           "reason": ""
         },
@@ -1255,14 +1168,14 @@
       "unit_book": "必修第二册　Unit 4",
       "chips": {
         "year_range": "2021–2026",
-        "n_questions": 36,
+        "n_questions": 34,
         "n_kaofa": 14,
         "n_phrase": 0
       },
       "h2": "History and Traditions",
       "zh": "历史与传统",
       "stats": {
-        "卷数": 27,
+        "卷数": 26,
         "词数": 69,
         "短语数": 52,
         "句式题数": 0
@@ -1391,23 +1304,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 2
-        },
-        {
-          "词头": "striking",
-          "forms": [
-            {
-              "form": "most striking",
-              "n": 1
-            },
-            {
-              "form": "struck",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "拼写"
           ],
           "题数": 2
         },
@@ -1616,14 +1512,14 @@
       "unit_book": "必修第二册　Unit 5",
       "chips": {
         "year_range": "2019–2026",
-        "n_questions": 54,
-        "n_kaofa": 23,
+        "n_questions": 47,
+        "n_kaofa": 19,
         "n_phrase": 9
       },
       "h2": "Music",
       "zh": "音乐",
       "stats": {
-        "卷数": 35,
+        "卷数": 33,
         "词数": 70,
         "短语数": 82,
         "句式题数": 0
@@ -1677,32 +1573,6 @@
           ],
           "考法": [
             "动词形式"
-          ],
-          "题数": 6
-        },
-        {
-          "词头": "original",
-          "forms": [
-            {
-              "form": "original",
-              "n": 2
-            },
-            {
-              "form": "originally",
-              "n": 2
-            },
-            {
-              "form": "origin",
-              "n": 1
-            },
-            {
-              "form": "origins",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "复数"
           ],
           "题数": 6
         },
@@ -1778,26 +1648,17 @@
           "题数": 3
         },
         {
-          "词头": "various",
+          "词头": "original",
           "forms": [
             {
-              "form": "varieties",
-              "n": 1
-            },
-            {
-              "form": "variety",
-              "n": 1
-            },
-            {
-              "form": "various",
-              "n": 1
+              "form": "originally",
+              "n": 2
             }
           ],
           "考法": [
-            "词性转换",
-            "复数"
+            "词性转换"
           ],
-          "题数": 3
+          "题数": 2
         },
         {
           "词头": "virtual",
@@ -2031,8 +1892,8 @@
           "no": 8,
           "标签": "2024 · 东莞第一中学 · 高一下月考",
           "题型": "语法填空",
-          "题干": "The famous play called Romeo and Juliet ___ (perform) on the stage for many times since 16th century.",
-          "题干HTML": "The famous play called Romeo and Juliet <span class=\"blank\"></span> (perform) on the stage for many times since 16th century.",
+          "题干": "The famous play called Romeo and Juliet ___ (perform) on the stage many times since the 16th century.",
+          "题干HTML": "The famous play called Romeo and Juliet <span class=\"blank\"></span> (perform) on the stage many times since the 16th century.",
           "cue": [],
           "提示词": "perform",
           "答案": "has been performed",

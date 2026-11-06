@@ -7,15 +7,15 @@
       "data_no": "U1",
       "unit_book": "选择性必修第三册　Unit 1",
       "chips": {
-        "year_range": "2022–2026",
-        "n_questions": 18,
+        "year_range": "2023–2026",
+        "n_questions": 15,
         "n_kaofa": 11,
-        "n_phrase": 2
+        "n_phrase": 0
       },
       "h2": "Art",
       "zh": "艺术",
       "stats": {
-        "卷数": 15,
+        "卷数": 12,
         "词数": 63,
         "短语数": 65,
         "句式题数": 0
@@ -46,19 +46,6 @@
             "词性转换"
           ],
           "题数": 4
-        },
-        {
-          "词头": "fall apart",
-          "forms": [
-            {
-              "form": "apart",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 2
         },
         {
           "词头": "bring",
@@ -124,81 +111,16 @@
             "动词形式"
           ],
           "题数": 1
-        },
-        {
-          "词头": "recognition",
-          "forms": [
-            {
-              "form": "recognition",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "拼写"
-          ],
-          "题数": 1
         }
       ],
       "families": [],
-      "spelling": [
-        {
-          "id": "096-28",
-          "no": 1,
-          "标签": "2022 · 东莞中学松山湖学校 · 高一上期中",
-          "题型": "单词拼写",
-          "题干": "Chinese architects are getting international ___ (认可).",
-          "题干HTML": "Chinese architects are getting international <span class=\"blank\"></span> (认可).",
-          "cue": [],
-          "提示词": null,
-          "答案": "recognition",
-          "解析": "考查名词。句意：中国建筑师正在获得国际认可。空格处应用名词作宾语，根据汉语提示“认可”可知，空格处应用“recognition”，不可数。故填recognition。",
-          "句意": "",
-          "reason": ""
-        }
-      ],
-      "phrases": [
-        {
-          "短语": "fall apart",
-          "释义": "破裂；破碎；崩溃",
-          "词头": "fall apart",
-          "atoms": [
-            {
-              "id": "138-19",
-              "no": 2,
-              "标签": "2023 · 东莞第十中学 · 高一上期中",
-              "题型": "完成句子",
-              "题干": "It’s a pity that their friendship ___ (破裂) and they turned against each other.",
-              "题干HTML": "It’s a pity that their friendship <span class=\"blank\"></span> (破裂) and they turned against each other.",
-              "cue": [],
-              "提示词": null,
-              "答案": "fell ； apart",
-              "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊破裂了，他们反目成仇。设空处在that引导的从句中作谓语，根据汉语提示可知，动词短语fall apart“破裂”符合句意，结合句中的“turned”可知，此处用一般过去时，故填①fell；②apart。",
-              "句意": "",
-              "reason": ""
-            },
-            {
-              "id": "047-18",
-              "no": 3,
-              "标签": "2022 · 东莞外国语学校 · 高一上期中",
-              "题型": "完成句子",
-              "题干": "It’s a shame that their friendship finally ___ (破裂) and they became enemies.",
-              "题干HTML": "It’s a shame that their friendship finally <span class=\"blank\"></span> (破裂) and they became enemies.",
-              "cue": [],
-              "提示词": null,
-              "答案": "fell apart",
-              "解析": "考查动词短语及时态。句意：很遗憾，他们的友谊最后破裂了，成了敌人。根据句子结构和中文提示，设空处应用动词短语fall apart作主语从句谓语动词，与其主语their friendship是主动关系，再结合并列分句“they became enemies”中时态可知，故设空处也用一般过去时。故填fell apart。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        }
-      ],
+      "spelling": [],
+      "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "126-10",
-          "no": 4,
+          "no": 1,
           "标签": "2023 · 东莞市 · 高二上联考",
           "题型": "语法填空",
           "题干": "His aim was ___ (convey) his feelings and thoughts in his works of art.",
@@ -212,7 +134,7 @@
         },
         {
           "id": "126-09",
-          "no": 5,
+          "no": 2,
           "标签": "2023 · 东莞市 · 高二上联考",
           "题型": "语法填空",
           "题干": "Tony ___ (purchase) a plane ticket for me in advance online before I set off for the airport.",
@@ -226,7 +148,7 @@
         },
         {
           "id": "030-07",
-          "no": 6,
+          "no": 3,
           "标签": "2026 · 万江中学 · 高二下期中",
           "题型": "语法填空",
           "题干": "Julia got a good mark in the test, ___ (rank) first in her class.",
@@ -239,7 +161,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 6
+      "numbered_total": 3
     },
     {
       "序": 28,
@@ -612,45 +534,19 @@
       "unit_book": "选择性必修第三册　Unit 3",
       "chips": {
         "year_range": "2021–2026",
-        "n_questions": 21,
-        "n_kaofa": 8,
+        "n_questions": 13,
+        "n_kaofa": 4,
         "n_phrase": 0
       },
       "h2": "Environmental Protection",
       "zh": "环境保护",
       "stats": {
-        "卷数": 18,
+        "卷数": 12,
         "词数": 63,
         "短语数": 53,
         "句式题数": 0
       },
       "freq": [
-        {
-          "词头": "originate",
-          "forms": [
-            {
-              "form": "original",
-              "n": 2
-            },
-            {
-              "form": "originally",
-              "n": 2
-            },
-            {
-              "form": "origin",
-              "n": 1
-            },
-            {
-              "form": "origins",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "复数"
-          ],
-          "题数": 6
-        },
         {
           "词头": "release",
           "forms": [
@@ -682,24 +578,6 @@
           ],
           "考法": [
             "词性转换"
-          ],
-          "题数": 2
-        },
-        {
-          "词头": "harmonious",
-          "forms": [
-            {
-              "form": "harmonious",
-              "n": 1
-            },
-            {
-              "form": "harmony",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "拼写"
           ],
           "题数": 2
         },
@@ -761,15 +639,15 @@
           "题数": 1
         },
         {
-          "词头": "habitable",
+          "词头": "originate",
           "forms": [
             {
-              "form": "habitat",
+              "form": "originally",
               "n": 1
             }
           ],
           "考法": [
-            "拼写"
+            "词性转换"
           ],
           "题数": 1
         },
@@ -801,14 +679,66 @@
           "题数": 1
         }
       ],
-      "families": [],
+      "families": [
+        {
+          "词头": "originate",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "originate",
+              "词性": "vi.",
+              "释义": "起源",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "original",
+              "词性": "adj.",
+              "释义": "原先的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "originally",
+              "词性": "adv.",
+              "释义": "最初",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "origin",
+              "词性": "n.",
+              "释义": "起源",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "156-15",
+              "no": 1,
+              "标签": "2024 · 麻涌中学 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "The competition ___ (original) scheduled for today has been cancelled.",
+              "题干HTML": "The competition <span class=\"blank\"></span> (original) scheduled for today has been cancelled.",
+              "cue": [],
+              "提示词": "original",
+              "答案": "originally",
+              "解析": "考查副词。句意：原定于今天举行的比赛已被取消。根据句意及句子结构可知，空处应用所给词original的副词形式originally作状语修饰过去分词scheduled。故填originally。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
       "spelling": [],
       "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "135-12",
-          "no": 1,
+          "no": 2,
           "标签": "2026 · 东莞第一中学 · 高二下期中",
           "题型": "语法填空",
           "题干": "Thursday’s meeting lasted more than six hours and ___ (broadcast) live on television and the Internet.",
@@ -822,7 +752,7 @@
         },
         {
           "id": "035-15",
-          "no": 2,
+          "no": 3,
           "标签": "2026 · 大岭山中学 · 高二下期中",
           "题型": "语法填空",
           "题干": "Robert is disabled, but he has helped ___ (dozen) of the disabled take their health back into their own hands.",
@@ -836,7 +766,7 @@
         },
         {
           "id": "045-13",
-          "no": 3,
+          "no": 4,
           "标签": "2026 · 东莞市 · 高二下期中",
           "题型": "语法填空",
           "题干": "___ (release) into the water, the harmful chemical quickly poisoned the fish downstream.",
@@ -850,7 +780,7 @@
         },
         {
           "id": "076-14",
-          "no": 4,
+          "no": 5,
           "标签": "2023 · 万江中学 · 高二上月考",
           "题型": "语法填空",
           "题干": "In the last several years, public transportation in America ___ (undergo) a renaissance.",
@@ -865,7 +795,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 4
+      "numbered_total": 5
     },
     {
       "序": 30,
@@ -873,14 +803,14 @@
       "unit_book": "选择性必修第三册　Unit 4",
       "chips": {
         "year_range": "2019–2026",
-        "n_questions": 17,
-        "n_kaofa": 14,
+        "n_questions": 13,
+        "n_kaofa": 10,
         "n_phrase": 0
       },
       "h2": "Adversity and Courage",
       "zh": "逆境与勇气",
       "stats": {
-        "卷数": 16,
+        "卷数": 13,
         "词数": 65,
         "短语数": 64,
         "句式题数": 0
@@ -891,13 +821,13 @@
           "forms": [
             {
               "form": "fortunately",
-              "n": 5
+              "n": 4
             }
           ],
           "考法": [
             "词性转换"
           ],
-          "题数": 5
+          "题数": 4
         },
         {
           "词头": "abandon",
@@ -970,32 +900,6 @@
           "题数": 1
         },
         {
-          "词头": "motive",
-          "forms": [
-            {
-              "form": "motivated",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "qualified",
-          "forms": [
-            {
-              "form": "qualification",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
-        },
-        {
           "词头": "resolve",
           "forms": [
             {
@@ -1020,25 +924,12 @@
             "词性转换"
           ],
           "题数": 1
-        },
-        {
-          "词头": "ultimate",
-          "forms": [
-            {
-              "form": "ultimately",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
         }
       ],
       "families": [
         {
           "词头": "unfortunately",
-          "题数": 5,
+          "题数": 4,
           "chain": [
             {
               "词": "unfortunately",
@@ -1064,16 +955,16 @@
           ],
           "atoms": [
             {
-              "id": "033-12",
+              "id": "116-10",
               "no": 1,
-              "标签": "2026 · 东莞市 · 高二下月考",
+              "标签": "2025 · 光正实验学校 · 高二下期中",
               "题型": "语法填空",
-              "题干": "___ (fortunate), schools are attaching great importance to labor education these days.",
-              "题干HTML": "<span class=\"blank\"></span> (fortunate), schools are attaching great importance to labor education these days.",
+              "题干": "___ (fortunate), we know how to handle situations like this.",
+              "题干HTML": "<span class=\"blank\"></span> (fortunate), we know how to handle situations like this.",
               "cue": [],
               "提示词": "fortunate",
               "答案": "Fortunately",
-              "解析": "句意：幸运的是，如今学校非常重视劳动教育。此处需要副词修饰整个句子，副词fortunately“幸运地”符合题意，作状语，且句首单词的首字母需大写。",
+              "解析": "考查副词。句意：幸运的是，我们知道如何应对这样的情况。分析句子可知，空处应填副词fortunately作状语，置于句首，首字母大写。故填Fortunately。",
               "句意": "",
               "reason": ""
             }
@@ -1122,14 +1013,14 @@
       "unit_book": "选择性必修第三册　Unit 5",
       "chips": {
         "year_range": "2019–2026",
-        "n_questions": 19,
-        "n_kaofa": 6,
-        "n_phrase": 10
+        "n_questions": 8,
+        "n_kaofa": 2,
+        "n_phrase": 4
       },
       "h2": "Poems",
       "zh": "诗歌",
       "stats": {
-        "卷数": 17,
+        "卷数": 8,
         "词数": 61,
         "短语数": 42,
         "句式题数": 0
@@ -1138,14 +1029,6 @@
         {
           "词头": "make a difference to",
           "forms": [
-            {
-              "form": "make a difference",
-              "n": 2
-            },
-            {
-              "form": "make a great difference to",
-              "n": 1
-            },
             {
               "form": "makes a difference",
               "n": 1
@@ -1158,61 +1041,22 @@
           "考法": [
             "短语"
           ],
-          "题数": 5
+          "题数": 2
         },
         {
           "词头": "make sense of",
           "forms": [
             {
-              "form": "sense",
-              "n": 2
-            },
-            {
               "form": "make any sense",
               "n": 1
             },
             {
-              "form": "makes sense",
+              "form": "sense",
               "n": 1
             }
           ],
           "考法": [
             "短语"
-          ],
-          "题数": 4
-        },
-        {
-          "词头": "variation",
-          "forms": [
-            {
-              "form": "varieties",
-              "n": 1
-            },
-            {
-              "form": "variety",
-              "n": 1
-            },
-            {
-              "form": "various",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "复数"
-          ],
-          "题数": 3
-        },
-        {
-          "词头": "respectively",
-          "forms": [
-            {
-              "form": "respectively",
-              "n": 2
-            }
-          ],
-          "考法": [
-            "词性转换"
           ],
           "题数": 2
         },
@@ -1230,32 +1074,6 @@
           "题数": 1
         },
         {
-          "词头": "homesick",
-          "forms": [
-            {
-              "form": "homesickness",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
-        },
-        {
-          "词头": "make full use of",
-          "forms": [
-            {
-              "form": "make full use of",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "短语"
-          ],
-          "题数": 1
-        },
-        {
           "词头": "polish",
           "forms": [
             {
@@ -1265,6 +1083,19 @@
           ],
           "考法": [
             "动词形式"
+          ],
+          "题数": 1
+        },
+        {
+          "词头": "respectively",
+          "forms": [
+            {
+              "form": "respectively",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
           ],
           "题数": 1
         },
@@ -1282,7 +1113,45 @@
           "题数": 1
         }
       ],
-      "families": [],
+      "families": [
+        {
+          "词头": "respectively",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "respectively",
+              "词性": "adv.",
+              "释义": "分别",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "respective",
+              "词性": "adj.",
+              "释义": "分别的",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "124-18",
+              "no": 1,
+              "标签": "2023 · 弘林高级中学 · 高二月考",
+              "题型": "语法填空",
+              "题干": "I put three alarm clocks near my bed and set the alarm ___ (respective) at 6:00, 6:10 and 6:15.",
+              "题干HTML": "I put three alarm clocks near my bed and set the alarm <span class=\"blank\"></span> (respective) at 6:00, 6:10 and 6:15.",
+              "cue": [],
+              "提示词": "respective",
+              "答案": "respectively",
+              "解析": "考查副词。句意：我在床边放了三个闹钟，分别设定在6点，6点10分和6点15分。分析句子可知，空处修饰动词set，作状语，应用respective的副词形式respectively，意为“分别地”。故填respectively。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
       "spelling": [],
       "phrases": [
         {
@@ -1291,30 +1160,32 @@
           "词头": "make a difference to",
           "atoms": [
             {
-              "id": "031-17",
-              "no": 1,
-              "标签": "2025 · 东莞市 · 高一上期末",
+              "id": "161-20",
+              "no": 2,
+              "标签": "2024 · 松山湖未来学校 · 高一上期中",
               "题型": "完成句子",
-              "题干": "Your small acts of kindness can ___ (有影响) to someone’s life.",
-              "题干HTML": "Your small acts of kindness can <span class=\"blank\"></span> (有影响) to someone’s life.",
-              "cue": [],
+              "题干": "The application of the technology of AI really ___ → improving people’s work efficiency.",
+              "题干HTML": "The application of the technology of AI really <span class=\"blank\"></span> → improving people’s work efficiency.",
+              "cue": [
+                "对……有作用"
+              ],
               "提示词": null,
-              "答案": "make ； a ； difference",
-              "解析": "考查动词短语。句意：你小小的善举能对某人的生活产生影响。can是情态动词，后接动词原形，make a difference是固定短语，意为“有影响，起作用”。故填make a difference。",
+              "答案": "makes ； a ； difference ； to",
+              "解析": "考查动词短语。句意：人工智能技术的应用确实对提高人们的工作效率产生了影响。本句缺少谓语，所以空处应填动词，根据所给中文提示词，应是make a difference to意为“对……有作用”，描述客观事实，用一般现在时，主语为第三人称单数。故填①makes，②a，③difference，④to。",
               "句意": "",
               "reason": ""
             },
             {
-              "id": "099-38",
-              "no": 2,
-              "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
+              "id": "071-22",
+              "no": 3,
+              "标签": "2023 · 东莞市 · 高一上期中",
               "题型": "完成句子",
-              "题干": "I’ve learned that you are never too small to ___ (有影响).",
-              "题干HTML": "I’ve learned that you are never too small to <span class=\"blank\"></span> (有影响).",
+              "题干": "How you behave during childhood ___ (对……有影响) to what you will be when growing up.",
+              "题干HTML": "How you behave during childhood <span class=\"blank\"></span> (对……有影响) to what you will be when growing up.",
               "cue": [],
               "提示词": null,
-              "答案": "make a difference",
-              "解析": "考查固定短语。句意：我了解到，你永远不会太渺小而无法产生影响。根据汉语提示可知，表示“有影响”应使用固定短语make a difference，空前为不定式符号to，所以此处使用动词原形。故填make a difference。",
+              "答案": "makes ； a ； difference",
+              "解析": "考查固定搭配和动词时态。句意：你童年时的行为将会对你长大后的样子有影响。根据汉语提示“对……有影响”可知，此处为固定短语make a difference to，此处陈述客观事实，使用一般现在时，主语为主语从句，谓语动词使用第三人称单数形式。故填①makes；②a；③difference。",
               "句意": "",
               "reason": ""
             }
@@ -1327,55 +1198,31 @@
           "词头": "make sense of",
           "atoms": [
             {
-              "id": "086-25",
-              "no": 3,
-              "标签": "2023 · 东华高级中学 · 高一下月考",
+              "id": "138-21",
+              "no": 4,
+              "标签": "2023 · 东莞第十中学 · 高一上期中",
               "题型": "完成句子",
-              "题干": "His strange habit ___ (合乎情理) when you consider that he’s an environmental scientist.",
-              "题干HTML": "His strange habit <span class=\"blank\"></span> (合乎情理) when you consider that he’s an environmental scientist.",
+              "题干": "To be honest, the explanation in the report doesn’t ___ (讲得通) to me.",
+              "题干HTML": "To be honest, the explanation in the report doesn’t <span class=\"blank\"></span> (讲得通) to me.",
               "cue": [],
               "提示词": null,
-              "答案": "makes ； sense",
-              "解析": "考查动词短语。句意：考虑到他是一名环境科学家，他的奇怪习惯就说得通了。根据汉语提示可知短语为make sense，结合后文consider可知为一般现在时，主语为habit，谓语用单数。故填makes；sense。",
+              "答案": "make ； any ； sense",
+              "解析": "考查固定短语。句意：老实说，我认为这篇报告中的解释没有一点意义。分析句子，该空需要一个动词短语与助动词doesn't一起做谓语，根据汉语提示可知，动词短语make sense意为“讲的通”，在否定句中填make any sense符合语境。故填make any sense。",
               "句意": "",
               "reason": ""
             },
             {
-              "id": "125-21",
-              "no": 4,
-              "标签": "2023 · 莞美学校、大岭山中学、大朗佳美 · 高一上期中",
+              "id": "008-22",
+              "no": 5,
+              "标签": "2019 · 东莞市 · 高二上期末",
               "题型": "完成句子",
-              "题干": "What he said yesterday ___.(讲得通，有道理)",
-              "题干HTML": "What he said yesterday <span class=\"blank\"></span>.(讲得通，有道理)",
+              "题干": "The reason he gave for his absence from the meeting ___ (讲得通).",
+              "题干HTML": "The reason he gave for his absence from the meeting <span class=\"blank\"></span> (讲得通).",
               "cue": [],
               "提示词": null,
               "答案": "made ； sense",
-              "解析": "考查动词短语。句意：他昨天说的话很有道理。分析句子结构和意思可知，这里考查“讲得通，有道理”对应的动词短语make sense，在句子中作谓语，这句话描述的是过去的事情，谓语用一般过去时。故填made sense。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        },
-        {
-          "短语": "make full use of",
-          "释义": "充分利用",
-          "词头": "make full use of",
-          "atoms": [
-            {
-              "id": "039-18",
-              "no": 5,
-              "标签": "2026 · 东莞第六高级中学 · 高一下期末",
-              "题型": "完成句子",
-              "题干": "Smart students tend to ___ → the library’s resources.",
-              "题干HTML": "Smart students tend to <span class=\"blank\"></span> → the library’s resources.",
-              "cue": [
-                "利用"
-              ],
-              "提示词": null,
-              "答案": "make the most of/make full use of",
-              "解析": "句意：聪明的学生倾向于利用图书馆的资源。根据汉语提示“利用”可知，空处可用固定短语make the most of/make full use of；空格前有不定式符号to，后接动词原形。",
-              "句意": "",
+              "解析": "make sense讲得通；有意义，因事情已发生，要用一般过去时。故填made sense。",
+              "句意": "他所说的缺席会议的理由是有道理的。",
               "reason": ""
             }
           ],

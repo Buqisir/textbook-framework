@@ -8,7 +8,7 @@
       "unit_book": "必修第三册　Unit 1",
       "chips": {
         "year_range": "2022–2026",
-        "n_questions": 24,
+        "n_questions": 23,
         "n_kaofa": 10,
         "n_phrase": 0
       },
@@ -65,23 +65,6 @@
           ],
           "考法": [
             "动词形式"
-          ],
-          "题数": 2
-        },
-        {
-          "词头": "represent",
-          "forms": [
-            {
-              "form": "representative",
-              "n": 1
-            },
-            {
-              "form": "represented",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "拼写"
           ],
           "题数": 2
         },
@@ -229,6 +212,19 @@
           "题数": 1
         },
         {
+          "词头": "represent",
+          "forms": [
+            {
+              "form": "represented",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "拼写"
+          ],
+          "题数": 1
+        },
+        {
           "词头": "respect",
           "forms": [
             {
@@ -259,22 +255,8 @@
       "families": [],
       "spelling": [
         {
-          "id": "090-08",
-          "no": 1,
-          "标签": "2024 · 东华高级中学 · 高一下月考",
-          "题型": "单词拼写",
-          "题干": "A ___ (代表) from the tour company will meet you at the check-in.",
-          "题干HTML": "A <span class=\"blank\"></span> (代表) from the tour company will meet you at the check-in.",
-          "cue": [],
-          "提示词": null,
-          "答案": "representative",
-          "解析": "考查名词。句意：旅游公司的代表将在登记处与您会面。空处作句子主语，结合汉语提示representative符合题意，冠词a提示用其单数形式。故填representative。",
-          "句意": "",
-          "reason": ""
-        },
-        {
           "id": "086-22",
-          "no": 2,
+          "no": 1,
           "标签": "2023 · 东华高级中学 · 高一下月考",
           "题型": "单词拼写",
           "题干": "The weather at the moment is not ___ (典型的) for July, for it hasn't rained for more than half a month.",
@@ -283,6 +265,20 @@
           "提示词": null,
           "答案": "typical",
           "解析": "考查形容词。句意：现在的天气不是七月的典型天气，因为已经半个多月没下雨了。设空处在系动词后，应用形容词，“典型的”表达为typical，作表语。故填typical。",
+          "句意": "",
+          "reason": ""
+        },
+        {
+          "id": "098-31",
+          "no": 2,
+          "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
+          "题型": "单词拼写",
+          "题干": "Wilson was ___ (代表) in court by a top criminal lawyer.",
+          "题干HTML": "Wilson was <span class=\"blank\"></span> (代表) in court by a top criminal lawyer.",
+          "cue": [],
+          "提示词": null,
+          "答案": "represented",
+          "解析": "考查动词。句意：Wilson在法庭上由一位顶级刑事律师所代表。根据汉语提示可知，represent代表，动词，句子是一般过去时的被动语态，空处应填过去分词，故填represented。",
           "句意": "",
           "reason": ""
         }
@@ -383,8 +379,8 @@
       "unit_book": "必修第三册　Unit 2",
       "chips": {
         "year_range": "2019–2026",
-        "n_questions": 21,
-        "n_kaofa": 7,
+        "n_questions": 19,
+        "n_kaofa": 6,
         "n_phrase": 1
       },
       "h2": "Morals and Virtues",
@@ -396,20 +392,6 @@
         "句式题数": 0
       },
       "freq": [
-        {
-          "词头": "majority",
-          "forms": [
-            {
-              "form": "majority",
-              "n": 3
-            }
-          ],
-          "考法": [
-            "词性转换",
-            "拼写"
-          ],
-          "题数": 3
-        },
         {
           "词头": "complain",
           "forms": [
@@ -524,6 +506,19 @@
           "题数": 1
         },
         {
+          "词头": "majority",
+          "forms": [
+            {
+              "form": "majority",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
           "词头": "publish",
           "forms": [
             {
@@ -589,22 +584,60 @@
           "题数": 1
         }
       ],
-      "families": [],
-      "spelling": [
+      "families": [
         {
-          "id": "009-11",
-          "no": 1,
-          "标签": "2021 · 东华高级中学 · 高二下期末",
-          "题型": "单词拼写",
-          "题干": "The survey shows that the ___ (大多数) of the students are in favour of the teaching reform.",
-          "题干HTML": "The survey shows that the <span class=\"blank\"></span> (大多数) of the students are in favour of the teaching reform.",
-          "cue": [],
-          "提示词": null,
-          "答案": "majority",
-          "解析": "考查名词。句意：调查显示大多数学生赞成教学改革。分析句子，设空处使用名词作主语，表示“大多数”用majority。故填majority。",
-          "句意": "",
-          "reason": ""
-        },
+          "词头": "majority",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "majority",
+              "词性": "",
+              "释义": "n. 大部分",
+              "hit": true,
+              "来源": "词头"
+            },
+            {
+              "词": "major",
+              "词性": "adj.",
+              "释义": "主要的 n. 专",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "minor",
+              "词性": "adj.",
+              "释义": "次要的",
+              "hit": false,
+              "来源": "派生"
+            },
+            {
+              "词": "minority",
+              "词性": "n.",
+              "释义": "少数",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "098-24",
+              "no": 1,
+              "标签": "2023 · 东莞中学松山湖学校 · 高一下月考",
+              "题型": "语法填空",
+              "题干": "A large ___ (major)of people approve of the death sentence.",
+              "题干HTML": "A large <span class=\"blank\"></span> (major)of people approve of the death sentence.",
+              "cue": [],
+              "提示词": "major",
+              "答案": "majority",
+              "解析": "考查名词。句意：大多数人赞成死刑判决。分析句子结构可知，此处是固定搭配：a large majority of意为“绝大多数”。故填majority。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
+      "spelling": [
         {
           "id": "106-13",
           "no": 2,
@@ -727,14 +760,14 @@
       "unit_book": "必修第三册　Unit 3",
       "chips": {
         "year_range": "2019–2024",
-        "n_questions": 16,
-        "n_kaofa": 6,
+        "n_questions": 14,
+        "n_kaofa": 4,
         "n_phrase": 1
       },
       "h2": "Diverse Cultures",
       "zh": "多样的文化",
       "stats": {
-        "卷数": 11,
+        "卷数": 9,
         "词数": 67,
         "短语数": 48,
         "句式题数": 0
@@ -754,23 +787,6 @@
           ],
           "考法": [
             "动词形式"
-          ],
-          "题数": 3
-        },
-        {
-          "词头": "suit",
-          "forms": [
-            {
-              "form": "suitable",
-              "n": 2
-            },
-            {
-              "form": "more suitable",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
           ],
           "题数": 3
         },
@@ -882,9 +898,67 @@
             "动词形式"
           ],
           "题数": 1
+        },
+        {
+          "词头": "suit",
+          "forms": [
+            {
+              "form": "suitable",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
         }
       ],
-      "families": [],
+      "families": [
+        {
+          "词头": "suit",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "suit",
+              "词性": "vt.",
+              "释义": "适合",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "suitable",
+              "词性": "adj.",
+              "释义": "适合的",
+              "hit": true,
+              "来源": "派生"
+            },
+            {
+              "词": "suited",
+              "词性": "adj.",
+              "释义": "合适",
+              "hit": false,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "058-09",
+              "no": 1,
+              "标签": "2022 · 东莞市 · 高一上期中",
+              "题型": "语法填空",
+              "题干": "I don’t have any clothes ___ (suit) for the party.",
+              "题干HTML": "I don’t have any clothes <span class=\"blank\"></span> (suit) for the party.",
+              "cue": [],
+              "提示词": "suit",
+              "答案": "suitable",
+              "解析": "考查形容词。句意：我没有适合参加聚会的衣服。be suitable for“适合”为固定短语，本句为形容词短语作后置定语。故填suitable。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
       "spelling": [],
       "phrases": [
         {
@@ -894,7 +968,7 @@
           "atoms": [
             {
               "id": "049-18",
-              "no": 1,
+              "no": 2,
               "标签": "2023 · 东莞外国语学校 · 高一下期中",
               "题型": "完成句子",
               "题干": "Some Chinese immigrants have ___ (闯世界) in San Francisco for many years.",
@@ -914,7 +988,7 @@
       "quiz": [
         {
           "id": "024-09",
-          "no": 2,
+          "no": 3,
           "标签": "2024 · 东莞市 · 高一下联考",
           "题型": "语法填空",
           "题干": "___ (admit) into a key university, the girl was very excited.",
@@ -928,7 +1002,7 @@
         },
         {
           "id": "064-14",
-          "no": 3,
+          "no": 4,
           "标签": "2024 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "Parents consider it a duty ___ (select) healthy foods for their children.",
@@ -942,7 +1016,7 @@
         },
         {
           "id": "106-08",
-          "no": 4,
+          "no": 5,
           "标签": "2023 · 东华高级中学 · 高一下期中",
           "题型": "语法填空",
           "题干": "___ (earn) a living, some people opened up shops and restaurants in Chinatown.",
@@ -955,7 +1029,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 4
+      "numbered_total": 5
     },
     {
       "序": 15,
@@ -963,36 +1037,19 @@
       "unit_book": "必修第三册　Unit 4",
       "chips": {
         "year_range": "2022–2025",
-        "n_questions": 12,
-        "n_kaofa": 6,
+        "n_questions": 9,
+        "n_kaofa": 3,
         "n_phrase": 0
       },
       "h2": "Space Exploration",
       "zh": "太空探索",
       "stats": {
-        "卷数": 9,
+        "卷数": 7,
         "词数": 77,
         "短语数": 57,
         "句式题数": 0
       },
       "freq": [
-        {
-          "词头": "determine",
-          "forms": [
-            {
-              "form": "determined",
-              "n": 3
-            },
-            {
-              "form": "determination",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 4
-        },
         {
           "词头": "argue",
           "forms": [
@@ -1043,6 +1100,19 @@
           "题数": 1
         },
         {
+          "词头": "determine",
+          "forms": [
+            {
+              "form": "determined",
+              "n": 1
+            }
+          ],
+          "考法": [
+            "词性转换"
+          ],
+          "题数": 1
+        },
+        {
           "词头": "disappointment",
           "forms": [
             {
@@ -1082,11 +1152,49 @@
           "题数": 1
         }
       ],
-      "families": [],
+      "families": [
+        {
+          "词头": "determine",
+          "题数": 1,
+          "chain": [
+            {
+              "词": "determine",
+              "词性": "vi. & vt.",
+              "释义": "决定，决心  查",
+              "hit": false,
+              "来源": "词头"
+            },
+            {
+              "词": "determined",
+              "词性": "adj.",
+              "释义": "有决心的",
+              "hit": true,
+              "来源": "派生"
+            }
+          ],
+          "atoms": [
+            {
+              "id": "101-13",
+              "no": 1,
+              "标签": "2023 · 东莞外国语学校 · 高一上期中",
+              "题型": "语法填空",
+              "题干": "There was a ___ (determine) look on his face, believing that he would definitely make it.",
+              "题干HTML": "There was a <span class=\"blank\"></span> (determine) look on his face, believing that he would definitely make it.",
+              "cue": [],
+              "提示词": "determine",
+              "答案": "determined",
+              "解析": "考查形容词。句意：他脸上有一种坚定的表情，相信他一定能成功。空处修饰名词look，需用形容词作定语，修饰“人的表情”需用-ed结尾的形容词determined。故填determined。",
+              "句意": "",
+              "reason": ""
+            }
+          ],
+          "gloss": ""
+        }
+      ],
       "spelling": [
         {
           "id": "016-15",
-          "no": 1,
+          "no": 2,
           "标签": "2020 · 东莞中学 · 高二上月考",
           "题型": "单词拼写",
           "题干": "The child seems to be ___ (缺乏) in intelligence.",
@@ -1104,7 +1212,7 @@
       "quiz": [
         {
           "id": "067-16",
-          "no": 2,
+          "no": 3,
           "标签": "2025 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "___ (launch) this new project, the company has conducted many surveys.",
@@ -1118,7 +1226,7 @@
         },
         {
           "id": "059-08",
-          "no": 3,
+          "no": 4,
           "标签": "2023 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "At present, schools in Dongguan are equipped with many advanced teaching ___ (facility).",
@@ -1132,11 +1240,11 @@
         },
         {
           "id": "047-11",
-          "no": 4,
+          "no": 5,
           "标签": "2022 · 东莞外国语学校 · 高一上期中",
           "题型": "语法填空",
-          "题干": "There has been a couple of young man and woman ___ (argue) in the street.",
-          "题干HTML": "There has been a couple of young man and woman <span class=\"blank\"></span> (argue) in the street.",
+          "题干": "There have been a couple of young men and women ___ (argue) in the street.",
+          "题干HTML": "There have been a couple of young men and women <span class=\"blank\"></span> (argue) in the street.",
           "cue": [
             "用所给词的适当形式填空"
           ],
@@ -1147,7 +1255,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 4
+      "numbered_total": 5
     },
     {
       "序": 16,
@@ -1155,14 +1263,14 @@
       "unit_book": "必修第三册　Unit 5",
       "chips": {
         "year_range": "2019–2024",
-        "n_questions": 11,
-        "n_kaofa": 3,
+        "n_questions": 10,
+        "n_kaofa": 2,
         "n_phrase": 0
       },
       "h2": "The Value of Money",
       "zh": "金钱的价值",
       "stats": {
-        "卷数": 8,
+        "卷数": 7,
         "词数": 69,
         "短语数": 52,
         "句式题数": 0
@@ -1257,19 +1365,6 @@
           "题数": 1
         },
         {
-          "词头": "intention",
-          "forms": [
-            {
-              "form": "intention",
-              "n": 1
-            }
-          ],
-          "考法": [
-            "词性转换"
-          ],
-          "题数": 1
-        },
-        {
           "词头": "patience",
           "forms": [
             {
@@ -1296,59 +1391,14 @@
           "题数": 1
         }
       ],
-      "families": [
-        {
-          "词头": "intention",
-          "题数": 1,
-          "chain": [
-            {
-              "词": "intention",
-              "词性": "n.",
-              "释义": "打算",
-              "hit": true,
-              "来源": "词头"
-            },
-            {
-              "词": "intend",
-              "词性": "vi. & vt.",
-              "释义": "打算",
-              "hit": false,
-              "来源": "派生"
-            },
-            {
-              "词": "intended",
-              "词性": "adj.",
-              "释义": "打算的",
-              "hit": false,
-              "来源": "派生"
-            }
-          ],
-          "atoms": [
-            {
-              "id": "132-12",
-              "no": 1,
-              "标签": "2023 · 东莞第一中学 · 高一下月考",
-              "题型": "语法填空",
-              "题干": "In 1998, Mark left Edinburgh with the ___ (intend) of finding a job in London.",
-              "题干HTML": "In 1998, Mark left Edinburgh with the <span class=\"blank\"></span> (intend) of finding a job in London.",
-              "cue": [],
-              "提示词": "intend",
-              "答案": "intention",
-              "解析": "考查名词。句意：1998年，马克离开爱丁堡，打算在伦敦找份工作。作介词的宾语，应用名词intention。故填intention。",
-              "句意": "",
-              "reason": ""
-            }
-          ],
-          "gloss": ""
-        }
-      ],
+      "families": [],
       "spelling": [],
       "phrases": [],
       "tricks": [],
       "quiz": [
         {
           "id": "064-07",
-          "no": 2,
+          "no": 1,
           "标签": "2024 · 东莞市 · 高一下期末",
           "题型": "语法填空",
           "题干": "One of the most important ___ (element) of being a good friend is listening carefully.",
@@ -1362,7 +1412,7 @@
         },
         {
           "id": "099-24",
-          "no": 3,
+          "no": 2,
           "标签": "2024 · 东莞中学松山湖学校 · 高一上期中",
           "题型": "语法填空",
           "题干": "Palestinians have long demanded that refugees (难民) ___ (permit) to return home.",
@@ -1375,7 +1425,7 @@
           "reason": ""
         }
       ],
-      "numbered_total": 3
+      "numbered_total": 2
     }
   ]
 }
